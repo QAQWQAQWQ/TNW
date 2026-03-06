@@ -1,0 +1,62 @@
+capital = 781
+
+
+add_manpower = 10000
+
+oob = "BKU_1962"
+
+##LEADERS##
+#Turkish
+recruit_character = BKU_Sabiha_Gokcen
+#Kurdish
+#
+#Iraqi
+#
+
+country_lock_all_division_template = yes
+
+add_ideas = {
+	TRI_Member_Client
+	BKU_Operation_Alparslan
+	BKU_Musul_Kerkuk_Oil_Company
+	#Don't Join ITW
+	YUN_SEA_NOT_YOUR_BUSINESS_STOP
+
+	tno_industrial_equipment_power_tools
+	tno_industrial_expertise_nascent
+	tno_healthcare_rudimentary
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_makeshift
+	tno_academic_base_basic_literacy
+	tno_army_professionalism_cronyism
+	tno_admin_efficiency_deficient_administrative_systems
+}
+
+set_stability = 0.65
+set_war_support = 0.25
+set_research_slots = 3
+inherit_technology = TUR
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1959.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 22
+	despotism = 78
+	fascism = 0
+	national_socialism = 0
+	ultranationalism = 0
+}
+
+#econtype
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Military_Directed }
+set_variable = { TNO_economy_type = token:Econ_Type_Planned }

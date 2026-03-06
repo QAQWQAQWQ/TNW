@@ -1,0 +1,88 @@
+ideas = {
+	country = {
+		GNB_finite_staus_quo = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GNB_finite_staus_quo"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SUS_guinean_democracy
+
+			modifier = {
+
+			}
+		}
+
+		GNB_promises_integration = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GNB_promises_integration"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = idea_USA_civil_rights_3
+
+			modifier = {
+
+			}
+		}
+
+		GNB_sister_republic = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GNB_sister_republic"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SUS_guinean_democracy
+
+			modifier = {
+
+			}
+		}
+
+		GNB_claims_cabo_verde = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GNB_claims_cabo_verde"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = SUS_guinean_democracy
+
+			modifier = {
+
+			}
+		}
+
+		GNB_fling_terrorism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GNB_fling_terrorism"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			picture = idea_GRO_the_uneding_war
+
+			modifier = {
+
+			}
+		}
+	}
+}

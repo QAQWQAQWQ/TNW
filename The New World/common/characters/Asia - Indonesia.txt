@@ -1,0 +1,19 @@
+characters = {
+	### SUKARNO'S INDONESIA
+	# Country leaders #
+	INS_Suharto = {
+		name = INS_Suharto
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/INS/Portrait_INS_Suharto.png"
+			}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			ideology = paternalism_right_wing_populism_subtype
+			traits = {
+			}
+			id = -1
+		}
+	}
+}

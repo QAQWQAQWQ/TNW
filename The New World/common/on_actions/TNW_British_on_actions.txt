@@ -1,0 +1,30 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+			set_temp_variable = { temp_law = token:ENG_Charter_of_the_BPP_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_Constitution_of_the_British_National_Republic_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_Constitutional_and_Public_Order_Act_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_Industrial_Cooperation_Act_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_Republic_Land_Act_law  }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_Anglo_German_Alliance_Treaty_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ENG_National_Corporatist_Labour_Code_law }
+            TNO_add_assorted_law = yes
+		}
+ 
+
+	}
+}

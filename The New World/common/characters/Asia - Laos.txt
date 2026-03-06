@@ -1,0 +1,17 @@
+characters = {
+	LAO_Asang_laoly = {
+		name = LAO_Asang_laoly
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/Portrait_laos_Asang_laoly.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HU_NIM_DESC"
+			ideology = despotism_aristocratic_conservatism_subtype
+			traits = {}
+			expire = "1999.12.12"
+			id = -1
+		}
+	}
+}

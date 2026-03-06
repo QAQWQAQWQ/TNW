@@ -1,0 +1,18 @@
+characters = {
+	## republic of vietnam ##
+	VIN_Nguyen_Van_Hao = {
+		name = VIN_Nguyen_Van_Hao
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Van_Hao.png"
+			}
+		}
+		country_leader = {
+			#desc = ""
+			ideology = paternalism_paternalistic_developmentalism_subtype
+			traits = {}
+			expire = "1999.12.12"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,226 @@
+characters = {
+	######################################## LEADERS AND MINISTERS ##########################################################
+
+	####Collab####
+	ENG_Norman_Tebbit = {
+		name = ENG_Norman_Tebbit 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/Portrait_Britain_Norman_Tebbit.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NORMAN_TEBBIT_DESC"
+			expire = "1994.4.20"
+			ideology = paternalism_National_Republicanism_subtype
+		}
+	}
+
+	ENG_John_Prescott = {#民族劳工党
+		name = ENG_John_Prescott
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOHN_PRESCOTT_DESC"
+			expire = "1994.4.20"
+			ideology = paternalism_1_subtype
+		}
+	}
+
+	ENG_Peter_Lilley = {#国家保守党
+		name = ENG_Peter_Lilley
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PETER_LILLEY_DESC"
+			expire = "1994.4.20"
+			ideology = conservatism_populist_conservatism_subtype
+		}
+		
+	}
+
+	ENG_Malcolm_Rifkind = {#地方联合协会
+		name = ENG_Malcolm_Rifkind 
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MALCOLM_RIFKIND_DESC"
+			expire = "1994.4.20"
+			ideology = conservatism_1_subtype
+		}
+	}
+
+	ENG_Iain_Duncan_Smith = {#革新党
+		name = ENG_Iain_Duncan_Smith
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IAIN_DUNCAN_SMITH_DESC"
+			expire = "1994.4.20"
+			ideology = fascism_1_subtype
+		}
+		
+	}
+
+	ENG_Frank_Field = {#不列颠社会党
+		name = ENG_Frank_Field
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANK_FIELD_DESC"
+			expire = "1994.4.20"
+			ideology = fascism_corporate_statism_subtype
+		}
+		
+	}
+
+	ENG_Peter_Mandelson = {#企业与金融交流协会
+		name = ENG_Peter_Mandelson
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANK_FIELD_DESC"
+			expire = "1994.4.20"
+			ideology = paternalism_2_subtype 
+		}
+		
+	}
+
+	
+
+
+
+    #minister#
+	ENG_John_Redwood = {
+		name = ENG_John_Redwood
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ENG_minister_John_Redwood"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOHN_REDWOOD_DESC"
+			ideology = paternalism_National_Republicanism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = ENG_John_Redwood_hog
+			allowed = { original_tag = ENG }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	
+	
+	ENG_Douglas_Hurd = {
+		name = ENG_Douglas_Hurd
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ENG_minister_Douglas_Hurd"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DOUGLAS_HURD_DESC"
+			ideology = paternalism_National_Republicanism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = ENG_Douglas_Hurd_for
+			allowed = { original_tag = ENG }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ENG_Nigel_Lawson = {
+		name = ENG_Nigel_Lawson
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ENG_minister_Nigel_Lawson"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NIGEL_LAWSON_DESC"
+			ideology = paternalism_corporate_paternalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = economy_minister
+			idea_token = ENG_Nigel_Lawson_eco
+			allowed = { original_tag = ENG }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ENG_Liam_Fox = {
+		name = ENG_Liam_Fox
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ENG_minister_Liam_Fox"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LIAM_FOX_DESC"
+			ideology = paternalism_anocracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = security_minister
+			idea_token = ENG_Liam_Fox_sec
+			allowed = { original_tag = ENG }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	
+}

@@ -1,0 +1,26 @@
+﻿division_template = {
+	name = "Turkish Marines (Chilean Observed)"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Turkish Marines (Chilean Observed)"
+		location = 17666
+		division_template = "Turkish Marines (Chilean Observed)"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}

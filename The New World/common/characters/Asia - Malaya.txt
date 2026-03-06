@@ -1,0 +1,17 @@
+characters = {
+	##############
+	### MALAYA ###
+	##############
+	SHO_Mahathir_Mohamad = {
+		name = SHO_Mahathir_Mohamad
+		portraits = {
+			civilian = { large = "gfx/leaders/SHO/Portrait_SHO_Mahathir_Mohamad.png" }
+		}
+		country_leader = {
+			#desc = "POLITICS_MAHATHIR_MOHAMAD_DESC"
+			ideology = conservatism_islamic_conservatism_subtype
+			expire = "1985.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+characters = {
+	THA_anupong_paochinda = {
+		name = THA_anupong_paochinda
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/THA/Portrait_THA_anupong_paochinda.png" 
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ANUPONG_PAOCHINDA_DESC"
+			ideology = despotism_military_junta_subtype
+			traits = {}
+			expire = "1999.12.12"
+			id = -1
+		}
+	}
+}

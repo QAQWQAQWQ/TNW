@@ -1,0 +1,19 @@
+characters = {
+
+	BSQ_Xabier_Arzalluz = {
+		name = BSQ_Xabier_Arzalluz
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BSQ/Portrait_BSQ_Xabier_Arzalluz.png"
+			 }
+		}
+		country_leader = {
+			desc = "POLITICS_XABIER_ARZALLUZ_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_right_wing_populism_subtype
+			id = -1
+		}
+		
+	}
+
+}

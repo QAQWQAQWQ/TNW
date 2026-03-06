@@ -1,0 +1,125 @@
+scripted_gui = {
+	admin_title_display = {
+		window_name = "admin_title_display"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+
+		visible = {
+			OR = {
+				has_variable = TNO_admin_title
+				has_variable = TNO_assoc_region
+				has_variable = TNO_sub_admin_title
+			}
+			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+		}
+
+		effects = {
+			admin_title_bg_click = {
+				if = {
+					limit = {
+						PREV = { has_variable = TNO_admin_title }
+					}
+					set_global_flag = TNO_admin_title_map_mode_admin_title_only
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_only
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+					ROOT = {
+						set_variable = { TNO_selected_state_admin_title_map_mode = PREV }
+						force_update_map_mode = { mapmode = tno_admin_title_map_mode }
+					}
+				}
+			}
+			admin_title_bg_control_click = {
+				if = {
+					limit = {
+						PREV = { has_variable = TNO_admin_title }
+					}
+					set_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_only
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_only
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+					ROOT = {
+						set_variable = { TNO_selected_state_admin_title_map_mode = PREV }
+						PREV.controller = { save_global_event_target_as = TNO_selected_state_admin_title_map_mode_owner }
+						force_update_map_mode = { mapmode = tno_admin_title_map_mode }
+					}
+				}
+			}
+			admin_title_bg_right_click = {
+				if = {
+					limit = {
+						PREV = {
+							has_variable = TNO_assoc_region
+						}
+					}
+					set_global_flag = TNO_admin_title_map_mode_assoc_region_only
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_only
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+					ROOT = {
+						set_variable = { TNO_selected_state_admin_title_map_mode = PREV }
+						force_update_map_mode = { mapmode = tno_admin_title_map_mode }
+					}
+				}
+			}
+			admin_title_bg_control_right_click = {
+				if = {
+					limit = {
+						PREV = {
+							has_variable = TNO_assoc_region_2
+						}
+					}
+					set_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+					clr_global_flag = TNO_admin_title_map_mode_assoc_region_only
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_only
+					clr_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+					ROOT = {
+						set_variable = { TNO_selected_state_admin_title_map_mode = PREV }
+						force_update_map_mode = { mapmode = tno_admin_title_map_mode }
+					}
+				}
+			}
+		}
+
+		## Ukraine Breadbasket
+		triggers = {
+			breadbasket_icon_visible = {
+				controller = {
+					has_country_flag = UKR_bb_enabled
+					is_ai = no
+				}
+			}
+			china_provinces_short_visible = {
+				controller = {
+					OR = {
+						tag = CHI
+						is_in_array = { global.chinese_warlords = THIS }
+					}
+				}
+			}
+		}
+		properties = {
+			breadbasket_icon = {
+				image = "GFX_UKR_BB_icon_opener_[controller.GetTag]"
+			}
+			china_provinces_short = {
+				frame = THIS.china_state_ref_GUI
+			}
+		}
+	}
+
+	#admin_title_us_state_info_textbox = {
+	#	window_name = "admin_title_us_state_info_textbox"
+	#	context_type = selected_state_context
+	#	parent_window_token = "selected_state_view"
+	#
+	#	visible = {
+	#		ROOT = { tag = USA }
+	#		check_variable = { TNO_admin_title = token:Admin_Title_State }
+	#		controller = { tag = USA }
+	#		is_core_of = USA
+	#		NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+	#		has_country_flag = USA_state_info_debug
+	#	}
+	#}
+}

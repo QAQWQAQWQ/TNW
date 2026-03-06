@@ -1,0 +1,63 @@
+ideas = {
+	country = {
+		FML_peaceful_island_sea_war = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FML_peaceful_island_sea_war"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			#picture =
+			modifier = {
+
+			}
+		}
+
+		FML_american_bogeyman = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FML_american_bogeyman"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			#picture =
+			modifier = {
+
+			}
+		}
+		#######Azores ideas
+		FML_american_interests = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FML_american_interests"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = NZL_American_Dominated_Trade
+			modifier = {
+
+			}
+		}
+
+		FML_little_piece_paradise = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FML_little_piece_paradise"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			#picture =
+			modifier = {
+
+			}
+		}
+	}
+}

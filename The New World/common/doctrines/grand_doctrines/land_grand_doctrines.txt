@@ -1,0 +1,355 @@
+maneuver_warfare = {
+	folder = land
+
+	name = GRAND_DOCTRINE_MANEUVER_WARFARE
+	description = GRAND_DOCTRINE_MANEUVER_WARFARE_DESC
+	icon = GFX_maneuver_warfare_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 1
+
+		modifier = {
+			factor = 0
+			is_major = no
+		}
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations_army
+	}
+
+	# EFFECTS
+	planning_speed = 0.20
+	army_speed_factor = 0.10
+	enable_tactic = tactic_unexpected_thrust
+	org_loss_when_moving = -0.1
+
+	milestones = {
+		{
+			#Infantry
+			org_loss_when_moving = -0.15
+			land_reinforce_rate = 0.02
+			enable_tactic = tactic_delay
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Artillery/Support
+			planning_speed = 0.1
+			org_loss_at_low_org_factor = -0.1
+			enable_tactic = tactic_overwhelming_fire
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Armor
+			additional_brigade_column_size = 1
+			enable_tactic = tactic_blitz
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = { armor_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { armor_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Operations
+			planning_speed = 0.2
+			enable_tactic = tactic_backhand_blow   
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_army_milestone_var
+						}
+					}
+					set_variable = { operations_army_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_army_milestone_var = 1 }
+				}
+			}
+		}
+	}
+}
+
+combined_operations = {
+	folder = land
+
+	name = GRAND_DOCTRINE_COMBINED_OPERATIONS
+	description = GRAND_DOCTRINE_COMBINED_OPERATIONS_DESC
+	icon = GFX_combined_operations_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 1
+
+		modifier = {
+			factor = 0
+			is_major = no
+		}
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations_army
+	}
+
+	# EFFECTS
+	air_cas_present_factor = 0.3
+	category_army = {
+		soft_attack = 0.1
+		defense = 0.1
+	}
+	enable_tactic = tactic_preemptive_strike
+
+	milestones = {
+		{
+			#Infantry
+			enable_tactic = tactic_elastic_defense
+			supply_consumption_factor = -0.1
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Artillery/Support
+			additional_brigade_column_size = 1
+			category_support_battalions = {
+				max_organisation = 10
+			}
+			planning_decay_rate_factor = -0.1
+			enable_tactic = tactic_barrage
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+
+		}
+		{
+			#Armor
+			enable_tactic = tactic_delay
+			category_army = {
+				default_morale = 0.2
+			}
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = { armor_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { armor_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Operations
+			enable_tactic = tactic_tactical_withdrawal
+			category_army = {
+				default_morale = 0.4
+			}
+			planning_decay_rate_factor = -0.1
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_army_milestone_var
+						}
+					}
+					set_variable = { operations_army_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_army_milestone_var = 1 }
+				}
+			}
+		}
+
+	}
+}
+
+strategic_theorem = {
+	folder = land
+
+	name = GRAND_DOCTRINE_STRATEGIC_THEOREM
+	description = GRAND_DOCTRINE_STRATEGIC_THEOREM_DESC
+	icon = GFX_strategic_theorem_medium
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 2
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations_army
+	}
+
+	# EFFECTS
+	enable_tactic = tactic_overwhelming_attack
+	
+	max_planning = 0.25
+	planning_speed = 0.2
+	max_dig_in = 7.5
+
+	milestones = {
+		{
+			#Infantry 
+			additional_brigade_column_size = 1
+			enable_tactic = tactic_elastic_defense
+			max_dig_in_factor = 0.05
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Artillery/Support
+			coordination_bonus = 0.1
+			enable_tactic = tactic_overwhelming_fire
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Armor
+			land_reinforce_rate = 0.02
+			enable_tactic = tactic_breakthrough
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = { armor_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { armor_milestone_var = 1 }
+				}
+			}
+			
+		}
+		{
+			#Operations
+			coordination_bonus = 0.1
+			max_command_power = 30
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_army_milestone_var
+						}
+					}
+					set_variable = { operations_army_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_army_milestone_var = 1 }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1022 @@
+﻿division_template = {
+	name = "Xian bing"				# Chinese Xian bing
+	division_names_group = CHI_INF_01	# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		military_police= { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "WuZhuang JingCha"					#Chinese WuZhuang JingCha
+	division_names_group = CHI_GAR_01	#Normal Equipment and Training
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 0 # garrison
+}
+
+division_template = {
+	name = "Bubing Lü"
+	is_locked = yes
+	division_names_group = CHI_INF_02
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bubing Shi"
+	is_locked = yes
+	division_names_group = CHI_INF_02
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+		elite_infantry = { x = 2 y = 0 }
+		elite_infantry = { x = 2 y = 1 }
+		elite_infantry = { x = 2 y = 2 }
+		elite_infantry = { x = 2 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Zhuang Jia Shi"
+	division_names_group = CHI_ARM
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		MBT = { x = 0 y = 2 }
+		MBT = { x = 0 y = 3 }
+		MBT = { x = 0 y = 4 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 3 }
+		MBT = { x = 1 y = 4 }
+		MBT = { x = 1 y = 5 }
+		MBT = { x = 2 y = 2 }
+		MBT = { x = 2 y = 3 }
+		MBT = { x = 2 y = 5 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		MBT = { x = 2 y = 4 }
+		APC = { x = 3 y = 0 }
+		APC = { x = 3 y = 1 }
+		APC = { x = 3 y = 2 }
+		APC = { x = 3 y = 3 }
+		APC = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		transport_helicopter_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "KongZhong Tuji lü"  ####CHINA air assault force
+	division_names_group = CHI_PAR
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		air_assault = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+		transport_helicopter_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Ji DongShi"
+	division_names_group = CHI_MEC
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		APC = { x = 1 y = 0 }
+		APC = { x = 1 y = 1 }
+		APC = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+		APC = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		MBT = { x = 2 y = 2 }
+		MBT = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 2 }
+		transport_helicopter_company = { x = 0 y = 3 }
+		IFV_recon = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	##中華民國華北方面軍
+   division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1069
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	 division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 16878
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	 division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 16908
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	 division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11980
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4093
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7189
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 19913
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1169
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11761
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 19474
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	#中華民國華東方面軍
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 19859
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4082
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10040
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7181
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 19801
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 12061
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7222
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1001
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 19890
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1099
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11913
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7104
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 7104
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 7191
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	##中華民國華南方面軍
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1096
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9974
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4099
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7054
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 19531
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 19759
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7071
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3992
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 1153
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 16932
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 19453
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6999
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 10616
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 1172
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 19731
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 7446
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 7137
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 8851
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 10335
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 17000
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9942
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	##中華民國華中方面軍
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 1612
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 19471
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 4519
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9958
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9937
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 7418
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 7101
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 19649
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11931
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	##中華民國西北方面軍(含蒙古駐軍）
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 16941
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19593
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9005
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2006
+		division_template = "Xian bing"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2022
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 5193
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 15647
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19513
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19650
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19757
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7971
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 17208
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12730
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9629
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9077
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 17210
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1838
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 16863
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 16861
+		division_template = "Ji DongShi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1257
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 13225
+		division_template = "Zhuang Jia Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10802
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10802
+		division_template = "KongZhong Tuji lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+

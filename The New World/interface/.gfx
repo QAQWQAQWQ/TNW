@@ -1,0 +1,7 @@
+spriteTypes = {
+	# Icons
+	spriteType = {
+		name = GFX_decision_ARG_decision_category_peronometro
+		texturefile = "gfx/interface/decisions/ARG_peronometro_decision_category.dds"
+	}
+}

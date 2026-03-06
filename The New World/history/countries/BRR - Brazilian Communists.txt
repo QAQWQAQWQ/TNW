@@ -1,0 +1,525 @@
+capital = 504
+
+#GDP Regional distribution
+set_country_flag = GDP_regions
+
+# Vacant
+recruit_character = BRR_Generic_Vacant
+recruit_character = BRR_Joao_Amazonas
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+
+
+oob = "BRR_Revolution"
+set_stability = 0.50
+set_war_support = 0.9
+#Starting Tech
+inherit_technology = BRA
+
+set_politics = {
+	ruling_party = communist
+	elections_allowed = no
+}
+
+add_ideas = {
+
+	##Ministers
+	
+
+		#POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_all_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+		#Military Laws#
+	tno_conscription_broadened_conscription
+	tno_military_supervision_rules_of_engagement
+	tno_training_basic_training
+	tno_draft_exemptions_generous_exemptions
+		#ECONOMIC LAWS#
+	tno_trade_laws_export_focus
+	tno_income_taxation_no_income_taxation
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_8_hour_work_day
+	tno_pensions_low_pensions
+	tno_unemployment_trinket_subsidies
+		#Social Laws#
+	tno_health_care_support_for_emergencies
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_gender_rights_women_in_the_workplace
+	tno_security_political_control
+	tno_regulations_token_regulations
+
+		#SOCIETAL DEVELOPMENT
+	tno_academic_base_primary_schooling
+	tno_research_facilities_outdated
+	tno_agriculture_basic_mechanized
+	tno_healthcare_nascent
+	tno_industrial_equipment_manufacturing_lines
+	tno_industrial_expertise_nascent
+	tno_army_professionalism_political_interference
+	tno_admin_efficiency_deficient_administrative_systems
+}
+
+### Policy Effectiveness
+
+set_country_flag = tno_defined_startup_effectiveness
+
+# ECONOMIC LAWS
+set_variable = { tno_trade_laws_effectiveness = 75 }
+set_variable = { tno_income_taxation_effectiveness = 45 }
+set_variable = { tno_minimum_wage_effectiveness = 30 }
+set_variable = { tno_max_workhours_effectiveness = 65 }
+set_variable = { tno_pensions_effectiveness = 75 }
+set_variable = { tno_unemployment_effectiveness = 80 }
+
+# SOCIAL LAWS
+set_variable = { tno_health_care_effectiveness = 40 }
+set_variable = { tno_education_effectiveness = 50 }
+set_variable = { tno_penal_system_effectiveness = 35 }
+set_variable = { tno_gender_rights_effectiveness = 25 }
+set_variable = { tno_security_effectiveness = 75 }
+set_variable = { tno_regulations_effectiveness = 35 }
+
+# POLITICAL LAWS
+set_variable = { tno_political_parties_effectiveness = 60 }
+set_variable = { tno_religious_rights_effectiveness = 75 }
+set_variable = { tno_trade_unions_effectiveness = 80 }
+set_variable = { tno_immigration_effectiveness = 64 }
+set_variable = { tno_slavery_effectiveness = 55 }
+set_variable = { tno_public_meetings_effectiveness = 85 }
+set_variable = { tno_press_rights_effectiveness = 90 }
+set_variable = { tno_vote_franchise_effectiveness = 90 }
+
+# MILITARY LAWS
+set_variable = { tno_conscription_effectiveness = 45 }
+set_variable = { tno_military_supervision_effectiveness = 33 }
+set_variable = { tno_training_effectiveness = 60 }
+set_variable = { tno_draft_exemptions_effectiveness = 66 }
+
+set_popularities = {
+	socialist = 20 # AP
+	communist = 55 # PCdoB
+	communist_2 = 14 # ALN
+	communist_3 = 11 # VAR-P
+}
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	combat_support_equipment_1 = 1
+	
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	#
+	infantry_weapons_3 = 1
+	night_vision_3 = 1
+	infantry_kit_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons_hmg_1 = 1
+	support_weapons_arty_1 = 1
+	infantry_at = 1
+	infantry_at_upgrade_1 = 1
+	#
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	#
+	tech_special_forces = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+	#
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	assault_weapons_1 = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_transport_helicopter_company = 1
+	military_infrastructure1 = 1
+	military_infrastructure2 = 1
+	command_and_control1 = 1
+	command_and_control2 = 1
+
+	##helicopter_techs##
+	helicopter_engines = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+
+	##air_techs##
+	early_fighter = 1
+	jet_engines = 1
+	
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	cv_1945_CAS = 1
+	CAS_1950 = 1
+	cv_1950_CAS = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	scout_plane_1945 = 1
+
+	##electronics##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	encryption_1950 = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+	decryption_1950 = 1
+
+	##industry##
+	ww2_line_production = 1
+	building_construction_1 = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+	military_construction_1 = 1
+	administration_construction_1 = 1
+}
+
+# NSB tech #
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		IFV_1945 = 1
+		MBT_1945 = 1
+		APC_1945 = 1
+		APC_1950 = 1
+		APC_1950_basic_turret = 1
+		#APC_1950_basic_engine = 1
+		APC_1950_basic_armor = 1
+		IFV_1950 = 1
+		IFV_1950_basic_turret = 1
+		IFV_1950_basic_armor = 1
+		#IFV_1950_basic_engine = 1
+		MBT_1950 = 1
+		MBT_1950_basic_turret = 1
+		#MBT_1950_basic_engine = 1
+		MBT_1950_basic_armor = 1
+		AC_1945 = 1
+		AC_1950 = 1
+
+		Heavy_1945 = 1
+		Heavy_1950 = 1
+		Superheavy_1945 = 1
+		
+		antiair_1945 = 1
+		antiair_1950 = 1
+		light_SPAA_1950 = 1
+		SPAA_1950 = 1
+		artillery_1945 = 1
+		artillery_1950 = 1
+		light_SPART_1950 = 1
+		light_SPART_1950_soft_attack = 1
+		SPART_1950 = 1
+		SPART_1950_soft_attack = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		NSB_APC_1945 = 1
+		NSB_APC_1950 = 1
+		#
+		#
+		NSB_IFV_1945 = 1
+		NSB_IFV_1945_modules_1 = 1
+		NSB_IFV_1945_modules_2 = 1
+		NSB_IFV_1950 = 1
+		NSB_MBT_1945 = 1
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		NSB_MBT_1950 = 1
+		NSB_AC_1945 = 1
+		NSB_AC_1950 = 1
+		NSB_Armour_1 = 1
+		NSB_Engine_1 = 1
+		NSB_Engine_2 = 1
+
+		NSB_artillery_1945 = 1
+		NSB_artillery_1950 = 1
+		NSB_artillery_1950_SA = 1
+
+		NSB_heavy_1945 = 1
+		NSB_heavy_1950 = 1
+		NSB_superheavy_1945 = 1
+
+		NSB_antiair_1945 = 1
+		NSB_antiair_1950 = 1
+	}
+}
+
+##Starting Equipment##
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 10000
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 500
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_0
+	amount = 250
+	producer = BRA
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_equipment_1
+		amount = 75
+		producer = BRA
+	}
+	add_equipment_production = {
+		equipment = {
+			type = APC_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_chassis_1
+		amount = 75
+		producer = BRA
+	}
+	create_equipment_variant = {
+		name = "M59"
+		type = APC_chassis_1
+		parent_version = 0
+		modules = {
+			APC_designation_slot = APC_infantry
+			APC_armament_slot = APC_infantry_weapon
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = expanded_fuel_capacity
+		}
+		
+		icon = GFX_USA_APC_1950_medium
+		upgrades = {
+			ac_nsb_engine_upgrade = 7
+			ac_nsb_armor_upgrade = 4
+		}
+	}
+	add_equipment_production = {
+		equipment = {
+			type = APC_chassis_1
+			creator = "BRA"
+			version_name = "M59"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+}
+
+add_equipment_to_stockpile = {
+	type = transport_helicopter_equipment_1
+	amount = 50
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = transport_plane_equipment_3
+	amount = 5
+	producer = USA
+}
+
+add_equipment_production = {
+	equipment = {
+		type = infantry_equipment_2
+		creator = "BRA"
+	}
+	requested_factories = 2
+	progress = 0.3
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = artillery_equipment_3
+		creator = "BRA"
+	}
+	requested_factories = 2
+	progress = 0.3
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = anti_tank_equipment_0
+		creator = "BRA"
+	}
+	requested_factories = 1
+	progress = 0.3
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = cv_jet_fighter_equipment_1
+		creator = "BRA"
+	}
+	requested_factories = 2
+	progress = 0.9
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = transport_helicopter_equipment_1
+		creator = "BRA"
+	}
+	requested_factories = 2
+	progress = 0.9
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = cv_jet_CAS_equipment_1
+		creator = "BRA"
+	}
+	requested_factories = 2
+	progress = 0.9
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = motorized_equipment_1
+		creator = "BRA"
+	}
+	requested_factories = 1
+	progress = 0.1
+	efficiency = 50
+}
+add_equipment_production = {
+	equipment = {
+		type = support_equipment_1
+		creator = "BRA"
+	}
+	requested_factories = 1
+	progress = 0.1
+	efficiency = 50
+}
+
+# NSB #
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "M48 Pulaski"
+		type = MBT_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = MBT_cannon_2
+			turret_type_slot = MBT_three_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = additional_machine_guns
+			special_type_slot_2 = command_optics
+		}
+		icon = GFX_BRA_MBT_1950_medium
+		upgrades = {
+			tank_nsb_engine_upgrade = 9
+			tank_nsb_armor_upgrade = 10
+		}
+	}
+
+	create_equipment_variant = {
+		name = "M41 Grierson"
+		type = IFV_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = IFV_cannon_2
+			turret_type_slot = IFV_three_man_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = command_optics
+			special_type_slot_3 = additional_machine_guns
+		}
+		icon = GFX_BRA_IFV_1950_medium
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+	}
+}
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Planned }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_War_Communism }
+
+TNO_startup_nation = yes

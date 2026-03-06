@@ -1,0 +1,27 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+			set_temp_variable = { temp_law = token:FRS_General_Regulations_for_Civil_Servants_1941_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:FRS_Decentralization_Act_of_1957_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = FRS_1958_Declaration_of_the_Francophonie_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:FRS_Higher_Education_Guidance_Act_1968_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:FRS_1969_Grenell_Agreement_law  }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:FRS_Safety_and_Freedom_Act  }
+            TNO_add_assorted_law = yes
+		}
+ 
+
+	}
+}

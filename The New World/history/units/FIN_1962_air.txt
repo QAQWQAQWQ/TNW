@@ -1,0 +1,28 @@
+air_wings = {
+	111 = {
+		jet_CAS_equipment_1 = {
+			owner = "FIN"
+			amount = 100
+		}
+		name = "Hävittäjälentolaivue 28"
+
+		jet_tac_bomber_equipment_2 = {
+			owner = "FIN"
+			amount = 15
+		}
+		name = "Pommituslentolaivue 41"
+	}
+	1712 = {
+		jet_fighter_equipment_1 = {
+			owner = "FIN"
+			amount = 75
+		}
+		name = "Hävittäjälentolaivue 32"
+
+		jet_tac_bomber_equipment_2 = {
+			owner = "FIN"
+			amount = 35
+		}
+		name = "Pommituslentolaivue 44"
+	}
+}

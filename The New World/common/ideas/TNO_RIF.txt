@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		RIF_few_motivated = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RIF_few_motivated"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = MOC_Casino_De_Monte_Carlo
+			modifier = {
+				army_morale_factor = 0.25
+				mobilization_speed = 0.1
+				conscription_factor = -0.05
+			}
+		}
+
+		RIF_provisional_decrees = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RIF_provisional_decrees"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = MOC_Casino_De_Monte_Carlo
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_factor = -0.1
+			}
+		}
+	}
+}

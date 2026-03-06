@@ -1,0 +1,12 @@
+focus_tree = {
+	id = USA_initial_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	
+}

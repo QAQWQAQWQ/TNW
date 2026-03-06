@@ -1,0 +1,49 @@
+TNO_admin_title_africa_init = {
+	#Egypt
+	EGY = {
+		every_owned_state = {
+			set_variable = { TNO_admin_title = token:Admin_Title_Governorate }
+		}
+	}
+
+	#Iberia
+	IBR = {
+		every_owned_state = {
+			limit = {
+				is_moroccan_state = yes
+				NOT = { state = 1008 }
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_State }
+		}
+		every_owned_state = {
+			limit = {
+				state = 1008
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 699
+					state = 1009
+					state = 1155
+					state = 1156
+					state = 1158
+					state = 1548
+					state = 1549
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Colonial_Province }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 296
+					state = 702
+					state = 705
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Colony }
+		}
+	}
+}

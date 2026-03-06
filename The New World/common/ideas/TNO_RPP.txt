@@ -1,0 +1,91 @@
+ideas = {
+	country = {
+		RPP_dis_united_coalition = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_dis_united_coalition"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = RPP_disunited_coalition
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.02
+			}
+		}
+
+		RPP_true_lusophone_dream = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_true_lusophone_dream"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = RPP_lusophone_dream
+			modifier = {
+				political_power_factor = 0.03
+				misc_income_modifier = 0.04
+			}
+		}
+		##############Madeira ideas
+		RPP_trouble_savages = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_trouble_savages"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = RPP_lusophone_dream
+			modifier = {
+			}
+		}
+
+		RPP_second_son = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_second_son"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ARG_anti_Americanism
+			modifier = {
+			}
+		}
+		###########Confederation ideas
+		RPP_fully_ofn_dependent = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_fully_ofn_dependent"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = USA_GLD68_Free_Trade_Focused_OFN
+			modifier = {
+			}
+		}
+
+		RPP_deep_wound_heart = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RPP_fully_ofn_dependent"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = RPP_lusophone_dream
+			modifier = {
+			}
+		}
+	}
+}

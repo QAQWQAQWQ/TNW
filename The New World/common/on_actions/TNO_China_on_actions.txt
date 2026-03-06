@@ -1,0 +1,24 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+			set_temp_variable = { temp_law = token:CHI_The_Constitution_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:CHI_Amendment_to_Japan_China_Relations }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:CHI_Trade_Act_of_the_Republic_of_China }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:CHI_National_Defense_Act_of_the_Republic_of_China }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:CHI_Mobilization_Act }
+            TNO_add_assorted_law = yes
+		}
+ 
+
+	}
+}

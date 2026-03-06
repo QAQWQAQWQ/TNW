@@ -1,0 +1,43 @@
+﻿units = {
+	division = {
+		name = "IV. Caballería Revolucionaria"
+		location = "2085"
+		division_template = "Caballería Revolucionaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "V. Caballería Revolucionaria"
+		location = "2085"
+		division_template = "Caballería Revolucionaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "III. Unidad de Autodefensa Cristiana Revolucionaria"
+		location = "2085"
+		division_template = "Unidad de Autodefensa Cristiana Revolucionaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "IV. Unidad de Autodefensa Cristiana Revolucionaria"
+		location = "2085"
+		division_template = "Unidad de Autodefensa Cristiana Revolucionaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		location = "2085"
+		division_template = "Lanceros"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "III. Milicia Revolucionaria"
+		location = "2085"
+		division_template = "Milicia Revolucionaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}

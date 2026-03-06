@@ -1,0 +1,63 @@
+guiTypes = { ## Admin Title + Misc features
+	containerwindowtype = {
+		name = "admin_title_display"
+		position = { x = 155 y = -26 }
+		size = { width=100%% height=100%% }
+
+		icontype = {
+			name = "admin_title_bg"
+			spritetype = "GFX_admin_title_bg"
+		}
+
+		instantTextboxType = {
+			name = "admin_title_textbox"
+			position = { x = 10 y = 8 }
+			maxHeight = 26
+			maxWidth = 230
+			text = "[AdminTitle_Get_Name_GUI]"
+			font = "aldrich_24_outline"
+			vertical_alignment = center
+			format = center
+			fixedsize = yes
+			pdx_tooltip = admin_title_main_tt
+			pdx_tooltip_delayed = admin_title_mapmode_tt
+		}
+
+		iconType = {
+			name = "breadbasket_icon"
+			position = { x = 243 y = 7 }
+			spriteType = "GFX_UKR_BB_icon_opener_UKR"
+			scale = 0.414
+			pdx_tooltip = UKR_BB_stateview_modifiers_tt
+		}
+
+		iconType = {
+			name = "china_provinces_short"
+			position = { x = 242 y = 5 }
+			quadTextureSprite = "GFX_greater_china_provinces_short"
+			scale = 0.61
+		}
+	}
+
+	containerwindowtype = {
+		name = "admin_title_us_state_info_textbox"
+		position = { x = 154 y = 383 }
+	
+		icontype = {
+			name = "us_state_info_bg"
+			position = { x = 25 y = -67 }
+			spritetype = "GFX_us_state_info_bg"
+			scale = 1
+		}
+	
+		instantTextboxType = {
+			name = "us_state_info"
+			position = { x = 25 y = -50 }
+			text = "us_state_info_text"
+			font = "aldrich_12_outline"
+			vertical_alignment = center
+			format = center
+			fixedsize = yes
+		}
+	}	
+}

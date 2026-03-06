@@ -1,0 +1,92 @@
+division_template = {
+	name = "División del Ejército"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		armored_car = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		MBT_recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Reserva del Ejército"
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		anti_air_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		air_assault = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1ª División"
+		location = "10362"
+		division_template = "División del Ejército"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2ª División"
+		location = "10502"
+		division_template = "División del Ejército"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3ª División"
+		location = "12440"
+		division_template = "División del Ejército"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4ª División"
+		location = "10347"
+		division_template = "División del Ejército"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Reserva del Ejército"
+		location = "10362"
+		division_template = "Reserva del Ejército"
+		start_experience_factor = 0.05
+	}
+}
+
+air_wings = {
+	1630 = {
+		jet_fighter_equipment_1 = {
+			owner = "URG"
+			amount = 50
+		}
+		name = "Escuadrón Aéreo n.º 1"
+		CAS_equipment_1 = {
+			owner = "URG"
+			amount = 35
+		}
+		name = "Escuadrón Aéreo n.º 2"
+	}
+	300 = {
+		jet_tac_bomber_equipment_1 = {
+			owner = "URG"
+			amount = 28
+		}
+		name = "Escuadrón Aéreo n.º 3"
+		transport_plane_equipment_3 = {
+			owner = "URG"
+			amount = 20
+		}
+		name = "Escuadrón Aéreo n.º 4"
+	}
+}

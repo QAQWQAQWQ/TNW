@@ -1,0 +1,18 @@
+characters = {
+    SPA_Antonio_Fontan = {
+		name = SPA_Antonio_Fontan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPA/Portrait_Spain_Antonio_Fontan.png"
+				
+			}
+		}
+		country_leader = { 
+			desc = "POLITICS_ANTONIO_FONTAN_DESC"
+			ideology = liberalism_christian_liberalism_subtype
+			expire = "1975.10.20"
+			id = -1
+		}
+	}
+
+	}

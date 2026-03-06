@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		MOR_king_government = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MOR_king_government"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = MOC_Casino_De_Monte_Carlo
+			modifier = {
+				stability_factor = 0.02
+				political_power_factor = -0.05
+			}
+		}
+
+		MOR_morocanization_policies = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MOR_morocanization_policies"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = MOC_Casino_De_Monte_Carlo
+			modifier = {
+				production_units_to_GDP_ratio_modifier = 0.03
+				misc_income_modifier = 0.05
+				gdp_growth_modifier = 0.7
+			}
+		}
+	}
+}

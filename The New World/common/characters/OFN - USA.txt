@@ -1,0 +1,19 @@
+characters = {
+	# Country leaders #
+	USA_wesley_clark = {
+		name = USA_wesley_clark
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_wesley_clark.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WESLEY_CLARK_DESC"
+			expire = "1994.4.20"
+			ideology = liberalism_modern_liberalism_subtype
+			traits = {
+			}
+			id = -1
+		}
+	}
+}

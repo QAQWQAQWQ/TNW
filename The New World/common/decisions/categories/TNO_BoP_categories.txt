@@ -1,0 +1,48 @@
+ZZZ_dummy_forpol_category = {
+	allowed = { original_tag = ZZZ }
+
+	visible_when_empty = no
+}
+
+USA_BoP_category = {
+	icon = GFX_decision_category_USA_state_dept
+	allowed = { original_tag = USA }
+}
+
+GER_BoP_category = {
+	icon = GFX_decision_category_generic_nazism
+	allowed = { original_tag = GER }
+}
+
+JAP_BoP_category = {
+	icon = GFX_decision_category_JAP_gaimusho
+	allowed = { original_tag = JAP }
+}
+
+BRA_BoP_category = {
+	icon = GFX_decision_category_BRA_itamaraty
+	allowed = { original_tag = BRA }
+}
+
+ARG_BoP_category = {
+	icon = GFX_decision_category_ARG_itamaraty
+	allowed = { original_tag = ARG }
+}
+
+IBR_BoP_category = {
+	icon = GFX_decision_category_IBR_coa
+	allowed = {
+		original_tag = IBR
+		NOT = { has_global_flag = Iberian_Wars }
+	}
+}
+
+ENG_BoP_category = {
+	icon = GFX_decision_category_ENG_britain
+	allowed = { original_tag = ENG }
+}
+
+MEX_BoP_category = {
+	icon = GFX_USA_decision_category_state_dept
+	allowed = { original_tag = MEX }
+}

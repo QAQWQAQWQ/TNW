@@ -1,0 +1,15 @@
+characters = {
+	AFG_Ahmad_Zia_Massoud = {
+		name = AFG_Ahmad_Zia_Massoud
+		portraits = {
+			civilian = { large = "gfx/leaders/AFG/Portarit_Afghan_Ahmad_Zia_Massoud.png" }
+		}
+		country_leader = {
+			#desc = "POLITICS_AHMAD_ZIA_MASSOUD_DESC"
+			expire = "1999.1.1"
+			ideology = liberal_conservatism_islamic_modernism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+}

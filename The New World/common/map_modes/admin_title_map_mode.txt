@@ -1,0 +1,81 @@
+scripted_map_modes = {
+	tno_admin_title_map_mode = {
+		top = {
+			type = state
+			color = {
+				set_temp_variable = { alpha = 1 }
+				if = {
+					limit = {
+						FROM = { state = var:PREV.TNO_selected_state_admin_title_map_mode }
+					}
+					set_temp_variable = { red = 0.9 }
+					set_temp_variable = { green = 0.9 }
+					set_temp_variable = { blue = 0.9 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								FROM = { has_variable = TNO_admin_title }
+								check_variable = { FROM.TNO_admin_title = TNO_selected_state_admin_title_map_mode:TNO_admin_title }
+								has_global_flag = TNO_admin_title_map_mode_admin_title_only
+							}
+							AND = {
+								FROM = { has_variable = TNO_admin_title }
+								check_variable = { FROM.TNO_admin_title = TNO_selected_state_admin_title_map_mode:TNO_admin_title }
+								FROM = { is_controlled_by = event_target:TNO_selected_state_admin_title_map_mode_owner }
+								has_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+							}
+							AND = {
+								FROM = { has_variable = TNO_assoc_region }
+								check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region }
+								has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+							}
+							AND = {
+								FROM = { has_variable = TNO_assoc_region_2 }
+								check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 }
+								has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+							}
+						}
+					}
+					set_temp_variable = { red = 0.349 }
+					set_temp_variable = { green = 0.780 }
+					set_temp_variable = { blue = 0.761 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								FROM = { has_variable = TNO_assoc_region_2 }
+								check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region }
+								has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+							}
+							AND = {
+								FROM = { has_variable = TNO_assoc_region }
+								check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 }
+								has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+							}
+						}
+					}
+					set_temp_variable = { red = 0.261 }
+					set_temp_variable = { green = 0.585 }
+					set_temp_variable = { blue = 0.571 }
+				}
+				else = {
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.5 }
+				}
+			}
+			thickness = no
+			targets = { target_array = global.states }
+		}
+
+		bottom = { type = none }
+
+		far_text = none
+		near_text = none
+
+		update_daily = no
+	}
+}

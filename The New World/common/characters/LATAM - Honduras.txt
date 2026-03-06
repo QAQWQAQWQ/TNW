@@ -1,0 +1,16 @@
+characters = {
+	HON_Ramon_Morales = {
+		name = HON_Ramon_Morales
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HON/Portrait_Honduras_Ramon_Morales.png"
+			}
+		}
+		country_leader = {
+			expire = "1994.4.20"
+			ideology = liberal_conservatism_oligarchic_liberalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+}

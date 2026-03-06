@@ -1,0 +1,33 @@
+characters = {
+	GNG_Zeng_peiyan = {
+		name = GNG_Zeng_peiyan
+		portraits = {
+			civilian = { large = "gfx/leaders/GNG/Portrait_guangdong_Zeng_peiyan.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_ZENG_PEIYAN_DESC"
+			expire = "2000.1.1"
+			ideology = liberal_conservatism_moderate_technocracy_subtype
+			traits = {  }
+			id = -1
+		}
+	}
+
+
+
+
+	GNG_ma_huateng = {
+		name = GNG_ma_huateng
+		portraits = {
+			civilian = { large = "gfx/leaders/GNG/Portrait_guangdong_ma_huateng.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_SUZUKI_TEIICHI_DESC"
+			expire = "2000.1.1"
+			ideology = paternalism_corporate_paternalism_subtype
+			traits = {  }
+			id = -1
+		}
+	}
+	
+}

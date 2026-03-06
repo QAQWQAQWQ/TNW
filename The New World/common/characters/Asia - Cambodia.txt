@@ -1,0 +1,18 @@
+characters = {
+    CAM_Hu_Nim = {
+		name = CAM_Hu_Nim
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/CAM/Portrait_Cambodia_Hu_Nim.png" 
+		}
+		}
+		country_leader = {
+			expire = "1989.1.1"
+			desc = "POLITICS_HU_NIM_DESC"
+			ideology = despotism_wang_jingwei_thought_subtype
+			traits = {
+			}
+			id = -1
+		}
+	}
+}

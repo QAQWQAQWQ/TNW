@@ -1,0 +1,293 @@
+capital = 1306
+
+# Vacant
+recruit_character = IME_Generic_Vacant
+#Characters
+recruit_character = IME_Carlo_Alberto_dalla_Chiesa
+recruit_character = IME_Boris_Giuliano
+recruit_character = IME_Giorgio_Liuzzi
+recruit_character = IME_Laura_Doriano
+recruit_character = IME_Piero_Sraffa
+recruit_character = IME_Alberto_Fantacone
+recruit_character = IME_Goffredo_Tonini
+
+oob = IME_1962
+set_naval_oob = "IME_1962_naval"
+set_air_oob = IME_1962_air
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
+
+add_manpower = 100000
+
+# Starting tech
+inherit_technology = ITA
+set_technology = {
+	early_ship_hull_very_light = 1
+	basic_ship_hull_very_light = 1
+	improved_ship_hull_very_light = 1
+	early_ship_hull_more_light = 1
+	basic_ship_hull_more_light = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	improved_ship_hull_light = 1
+	basic_depth_charges = 1
+	sonar = 1
+	improved_sonar = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	improved_ship_hull_cruiser = 1
+	missile_corvette_1960 = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+	improved_ship_hull_carrier = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	smoke_generator = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	magnetic_detonator = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_secondary_battery = 1
+	improved_secondary_battery = 1
+	damage_control_1 = 1
+	mtg_transport = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+}
+
+
+### Policy Effectiveness
+
+set_country_flag = tno_defined_startup_effectiveness
+
+### Political
+set_variable = { tno_political_parties_effectiveness = 20 }
+set_variable = { tno_religious_rights_effectiveness = 40 }
+set_variable = { tno_trade_unions_effectiveness = 30 }
+set_variable = { tno_immigration_effectiveness = 40 }
+set_variable = { tno_slavery_effectiveness = 100 }
+set_variable = { tno_public_meetings_effectiveness = 15 }
+set_variable = { tno_press_rights_effectiveness = 20 }
+set_variable = { tno_vote_franchise_effectiveness = 20 }
+
+### Economic
+set_variable = { tno_trade_laws_effectiveness = 30 }
+set_variable = { tno_income_taxation_effectiveness = 30 }
+set_variable = { tno_minimum_wage_effectiveness = 40 }
+set_variable = { tno_max_workhours_effectiveness = 25 }
+set_variable = { tno_pensions_effectiveness = 35 }
+set_variable = { tno_unemployment_effectiveness = 35 }
+set_variable = { tno_regulations_effectiveness = 35 }
+
+### Social
+set_variable = { tno_health_care_effectiveness = 35 }
+set_variable = { tno_education_effectiveness = 70 }
+set_variable = { tno_penal_system_effectiveness = 60 }
+set_variable = { tno_gender_rights_effectiveness = 35 }
+set_variable = { tno_security_effectiveness = 50 }
+
+### Military
+set_variable = { tno_conscription_effectiveness = 40 }
+set_variable = { tno_military_supervision_effectiveness = 25 }
+set_variable = { tno_training_effectiveness = 35 }
+set_variable = { tno_draft_exemptions_effectiveness = 30 }
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranationalism = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+
+	conservatism = 0
+	paternalism = 10
+	despotism = 60
+	fascism = 30
+	national_socialism = 0
+	
+}
+
+add_ideas = {
+	#standard#
+	TRI_Member_Client
+	IME_italys_finest
+	IME_haganah_fatah_negotiations
+	IME_terrorism
+	IME_emirate_of_transjordan
+	ITA_idea_colonial_government
+
+	#political#
+	tno_political_parties_nonpartisan_system
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+
+	#military#
+	tno_conscription_limited_conscription
+	tno_military_supervision_rules_of_engagement
+	tno_training_basic_training
+	tno_draft_exemptions_educational_deferment
+
+	#economic#
+	tno_trade_laws_export_focus
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+
+	#social#
+	tno_health_care_low_income_protections
+	tno_education_public_education
+	tno_penal_system_harsh_penal_code
+	tno_gender_rights_women_in_the_workplace
+	tno_security_maintenance_of_order
+	tno_regulations_token_regulations
+
+	#misc#
+	tno_refugees_open
+	tno_women_banned
+	tno_racial_integration_segregated_regiments
+	tno_child_labor_illegal
+	tno_safety_limited_regulations
+	tno_pollution_no_controls
+	tno_lgbt_rights_lgbt_outlawed
+	tno_minorities_segregation
+
+	### SOCIETAL DEVELOPMENT ###
+	tno_army_professionalism_disgruntled_veterans
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_agriculture_basic_mechanized
+	tno_healthcare_nascent
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+	tno_admin_efficiency_deficient_administrative_systems
+	
+	##construction_level_7
+
+	#Ministers#
+	IME_Boris_Giuliano_hog
+	IME_Giorgio_Liuzzi_sec
+	IME_Laura_Doriano_for
+	IME_Piero_Sraffa_eco
+}
+
+create_equipment_variant = {
+	name = "Aquila Class"
+	type = ship_hull_carrier_3
+	name_group = ITA_AAS
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_armor_carrier_deck
+		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_engine_slot = carrier_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		front_1_custom_slot = ship_armor_carrier_deck
+		mid_1_custom_slot = ship_armor_carrier_deck
+		mid_2_custom_slot = ship_secondaries_2
+	}
+}
+create_equipment_variant = {
+	name = "Marconi Class"
+	type = ship_hull_submarine_2
+	name_group = ITA_SS_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = sub_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_sub_2
+		rear_1_custom_slot = ship_torpedo_sub_2
+	}
+}
+create_equipment_variant = {
+	name = "Sentinella Class"
+	type = ship_hull_very_light_3
+	name_group = ITA_CR
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = light_ship_engine_3
+		fixed_ship_radar_slot = ship_sonar_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_anti_air_slot = ship_anti_air_4
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_torpedo_slot = ship_torpedo_2
+		front_1_custom_slot = ship_depth_charge_2
+		mid_1_custom_slot = ship_anti_air_4
+		rear_1_custom_slot = ship_light_battery_2
+	}
+}
+create_equipment_variant = {
+	name = "Centauro Class"
+	type = ship_hull_more_light_2
+	name_group = ITA_FR
+	parent_version = 0
+	modules = {
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_engine_slot = light_ship_engine_3
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_torpedo_slot = ship_torpedo_2
+		fixed_ship_anti_air_slot = ship_anti_air_4
+		fixed_ship_battery_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_light_battery_2
+		rear_1_custom_slot = ship_light_battery_2
+	}
+}
+create_equipment_variant = {
+	name = "Andrea Doria Class"
+	type = ship_hull_cruiser_3
+	name_group = ITA_CL_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		rear_1_custom_slot = ship_light_medium_battery_1
+		mid_2_custom_slot = ship_anti_air_4
+		mid_1_custom_slot = ship_airplane_launcher_2
+		front_1_custom_slot = ship_light_medium_battery_1
+	}
+}
+create_equipment_variant = {
+	name = "Impavido Class"
+	type = ship_hull_light_3
+	name_group = ITA_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = light_ship_engine_3
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_torpedo_slot = ship_torpedo_2
+		front_1_custom_slot = ship_anti_ship_missile_battery_1
+		mid_1_custom_slot = ship_light_battery_2
+		rear_1_custom_slot = ship_anti_ship_missile_battery_1
+	}
+}
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Corporatism }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Corporatism }
+

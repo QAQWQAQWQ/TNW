@@ -1,0 +1,56 @@
+add_namespace = endo_exo
+
+#event nos. are based off the states affected
+
+country_event = {
+	id = endo_exo.701
+	immediate = { log = "[GetDateText]: [Root.GetName]: event endo_exo.701" }
+	title = endo_exo.701
+	desc = endo_exo.701
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = endo_exo.701.a
+		701 = {
+			TNO_force_update_renamings_single_state = yes 
+		}
+	}
+}
+
+country_event = {
+	id = endo_exo.2194
+	immediate = { log = "[GetDateText]: [Root.GetName]: event endo_exo.2194" }
+	title = endo_exo.2194
+	desc = endo_exo.2194
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = endo_exo.2194.a
+		2194 = {
+			TNO_force_update_renamings_single_state = yes 
+		}
+	}
+}
+
+country_event = {
+	id = endo_exo.2195
+	immediate = { log = "[GetDateText]: [Root.GetName]: event endo_exo.2195" }
+	title = endo_exo.2195
+	desc = endo_exo.2195
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = endo_exo.2195.a
+		2195 = {
+			TNO_force_update_renamings_single_state = yes 
+		}
+	}

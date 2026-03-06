@@ -1,0 +1,35 @@
+characters = {
+	#country leaders
+   UKR_Franz_Schonhuber = {
+		name = UKR_Franz_Schonhuber
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Franz_Schonhuber.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANZ_SCHONHUBER_DESC"
+			ideology = national_socialism_rosenbergite_tendency_subtype
+			expire = "1983.4.24.1"
+			traits = {  }
+			id = -1
+		}
+	}
+
+
+	UKR_Yaroslav_Andrushkiv = {
+		name = UKR_Yaroslav_Andrushkiv
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Yaroslav_Andrushkiv.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YAROSLAV_ANDRUSHKIV_DESC"
+			ideology = fascism_fascist_populism_subtype
+			expire = "1983.4.24.1"
+			traits = {  }
+			id = -1
+		}
+	}
+}

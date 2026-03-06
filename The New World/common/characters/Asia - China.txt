@@ -1,0 +1,147 @@
+characters = {
+	###########################################################
+	###########			CHINA AND WARLORDS			###########
+	###########################################################
+
+	######TNW#####
+	CHI_Sun_yunxuan = {
+		name = CHI_Sun_yunxuan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_China_Sun_yunxuan.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SUN_YUNXUAN_DESC"
+			ideology = despotism_technocratic_corporatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	CHI_Li_huan = {
+		name = CHI_Li_huan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_China_Li_huan.png"
+				small = "GFX_idea_CHI_minister_Li_huan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LI_HUAN_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = CHI_Li_huan_hog
+			allowed = { original_tag = CHI }
+			traits = {
+				head_of_government
+				hog_utterly_corrupt
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CHI_Qiu_jingyi = {
+		name = CHI_Qiu_jingyi
+		portraits = {
+			civilian = {
+				small = "GFX_idea_CHI_minister_Qiu_jingyi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Qiu_jingyi_DESC"
+			ideology = paternalism_right_wing_populism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_Qiu_jingyi_for
+			allowed = { original_tag = CHI }
+			traits = {
+				foreign_minister
+				for_apologetic_clerk
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CHI_Zhao_yaodong = {
+		name = CHI_Zhao_yaodong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_China_Zhao_yaodong.png"
+				small = "GFX_idea_CHI_minister_zhao_yaodong"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHAO_YAODONG_DESC"
+			ideology = conservatism_free_market_conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = CHI_Zhao_yaodong_eco
+			allowed = { original_tag = CHI }
+			traits = {
+				economy_minister
+				eco_political_appointment
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CHI_xue_shiming = {
+		name = CHI_xue_shiming
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_China_Xue_shiming.png"
+				small = "GFX_idea_CHI_minister_xue_shiming"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_XUE_SHIMING_DESC"
+			ideology = despotism_managerial_state_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = security_minister
+			idea_token = CHI_Xue_shiming_sec
+			allowed = { original_tag = CHI }
+			traits = {
+				security_minister
+				sec_silent_lawyer
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	###########
+	
+}

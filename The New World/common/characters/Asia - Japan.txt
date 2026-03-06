@@ -1,0 +1,24 @@
+characters = {
+	# Starting Country Leaders
+    ###TNW###
+	JAP_Mitsuo_Horiuchi = {
+		name = JAP_Mitsuo_Horiuchi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_JAP_Mitsuo_Horiuchi.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MITSUO_HORIUCHI_DESC"
+			ideology = liberal_conservatism_subtype
+			traits = {  }
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}
+	###############
+
+
+
+	
+}

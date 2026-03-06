@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Tercio de la Legión"
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1er Tercio de la Legión"
+		location = 3938
+		division_template = "Tercio de la Legión"
+	}
+	division = {
+		name = "2o Tercio de la Legión"
+		location = 858
+		division_template = "Tercio de la Legión"
+	}
+	division = {
+		name = "3er Tercio de la Legión"
+		location = 3794
+		division_template = "Tercio de la Legión"
+	}
+}

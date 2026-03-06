@@ -1,0 +1,17 @@
+characters = {
+	BHU_Jigme_Thinley = {
+		name = BHU_Jigme_Thinley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BHU/Portrait_BHU_Jigme_Thinley.png"
+			}
+		}
+		country_leader = {
+			#desc = "POLITICS_JIGME_THINLEY_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_oligarchy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+}

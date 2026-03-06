@@ -1,0 +1,20 @@
+characters = {
+	####TNW####
+	MAN_Choi_Kyu_hah = {
+		name = MAN_Choi_Kyu_hah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Choi_Kyu_hah.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_CHOI_KYU_HAH_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+###########	
+}

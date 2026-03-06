@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		PPR_ideological_infighting = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PPR_ideological_infighting"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_CNT_shattered_front
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.05
+			}
+		}
+		PPR_iberian_claims = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PPR_iberian_claims"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = RPP_disunited_coalition
+			modifier = {
+				war_support_factor = 0.1
+				conscription_factor = 0.05
+			}
+		}
+	}
+}

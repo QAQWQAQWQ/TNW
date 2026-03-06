@@ -1,0 +1,64 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_CHI_The_Bright_Torch_of_East_Asia"
+		texturefile = "gfx/interface/goals/CHI/CHI_The_Bright_Torch_of_East_Asia.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_Pan-Asian_Ideal"
+		texturefile = "gfx/interface/goals/CHI/CHI_Pan-Asian_Ideal.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_new_year_finances"
+		texturefile = "gfx/interface/goals/CHI/CHI_new_year_finances.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Strengthen_the_monetary_system"
+		texturefile = "gfx/interface/goals/CHI/CHI_Strengthen_the_monetary_system.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_protect_national_industry"
+		texturefile = "gfx/interface/goals/CHI/CHI_protect_national_industry.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Support_small_and_medium-sized_enterprises"
+		texturefile = "gfx/interface/goals/CHI/CHI_Support_small_and_medium-sized_enterprises.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Protect_investment_environment"
+		texturefile = "gfx/interface/goals/CHI/CHI_Protect_investment_environment.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Livelihood_for_the_people"
+		texturefile = "gfx/interface/goals/CHI/CHI_Livelihood_for_the_people.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Look_at_the_world"
+		texturefile = "gfx/interface/goals/CHI/CHI_Look_at_the_world.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_On_the_other_side_of_the_ocean"
+		texturefile = "gfx/interface/goals/CHI/CHI_On_the_other_side_of_the_ocean.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Focus_on_allies"
+		texturefile = "gfx/interface/goals/CHI/CHI_Focus_on_allies.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Trip_to_Manchuria"
+		texturefile = "gfx/interface/goals/CHI/CHI_Trip_to_Manchuria.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Nanyang_Accord"
+		texturefile = "gfx/interface/goals/CHI/CHI_Nanyang_Accord.png"
+	}
+}

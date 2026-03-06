@@ -1,0 +1,13 @@
+characters = {
+	GER_helmut_kohl = {
+		name = GER_helmut_kohl
+		portraits = { civilian = { large = "gfx/leaders/GER/Portrait_GER_helmut_kohl.png" } }
+		country_leader = {
+			desc = "POLITICS_HELMUT_KOHL_DESC"
+			ideology = national_socialism_subtype
+			traits = { Fuhrer }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

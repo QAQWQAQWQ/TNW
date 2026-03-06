@@ -1,0 +1,1512 @@
+###GENERAL###
+#Simplify all of this in the future - Marethyu
+##And now it's simplified, thanks me -Marethyu 08/14/2025
+###Future Marethyu from like a month after (09/12/25),  yeah I think I simplified it even more so you're welcome.
+defined_text = { 
+	name = AdminTitle_Get_Name_GUI
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			NOT = { has_variable = TNO_assoc_region }
+		}
+		localization_key = "[?TNO_admin_title.GetTokenKey][AdminTitle_Get_EndoExo_AdminTitle]"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					has_variable = TNO_assoc_region
+					has_variable = TNO_admin_title
+				}
+				AND = {
+					has_variable = TNO_assoc_region
+					NOT = { has_variable = TNO_admin_title }
+				}
+			}	
+		}
+		localization_key = "[?TNO_assoc_region.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion]"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					has_variable = TNO_sub_admin_title
+					NOT = { has_variable = TNO_admin_title }
+					NOT = { has_variable = TNO_assoc_region }
+				}
+				AND = {
+					has_variable = TNO_sub_admin_title
+					NOT = { has_variable = TNO_admin_title }
+					has_variable = TNO_assoc_region
+				}
+			}
+		}
+		localization_key = "[?TNO_sub_admin_title.GetTokenKey]_Sub_Admin[AdminTitle_Get_EndoExo_SubAdmin]"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Divider
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			OR = {
+				NOT = { is_in_array = { global.title_has_desc = TNO_assoc_region } }
+				NOT = { is_in_array = { global.state_has_desc = THIS.id } }
+			}
+		}
+		localization_key = "admin_title_divider" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Divider_2
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			OR = {
+				NOT = { is_in_array = { global.title_has_desc = TNO_admin_title } }
+				NOT = { is_in_array = { global.state_has_desc = THIS.id } }
+			}
+		}
+		localization_key = "admin_title_divider" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_Mapmode_tt_1
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			has_variable = TNO_assoc_region
+		}
+		localization_key = "admin_title_mapmode_tt_1_linebreak" 
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			NOT = { has_variable = TNO_assoc_region }
+		}
+		localization_key = "admin_title_mapmode_tt_1_no_linebreak" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_Mapmode_tt_2
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			has_variable = TNO_assoc_region_2
+		}
+		localization_key = "admin_title_mapmode_tt_2_two_regions" 
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			NOT = { has_variable = TNO_assoc_region_2 }
+		}
+		localization_key = "admin_title_mapmode_tt_2_one_region" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_tno_admin_title_map_mode_tooltip_diff_same
+	text = {
+		trigger = {
+			FROM = { state = var:PREV.TNO_selected_state_admin_title_map_mode }
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_same_state" 
+	}
+	text = {
+		trigger = {
+			NOT = {
+				FROM = { has_variable = TNO_admin_title }
+			}
+			OR = {
+				has_global_flag = TNO_admin_title_map_mode_admin_title_only
+				has_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+			}
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_no_title" 
+	}
+	text = {
+		trigger = {
+			NOT = {
+				FROM = { has_variable = TNO_assoc_region }
+			}
+			OR = {
+				has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+				has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+			}
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_no_region" 
+	}
+	text = {
+		trigger = {
+			NOT = { FROM = { has_variable = TNO_assoc_region_2 } }
+			NOT = { check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 } }
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_no_region_2" 
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.TNO_admin_title = TNO_selected_state_admin_title_map_mode:TNO_admin_title }
+			OR = {
+				has_global_flag = TNO_admin_title_map_mode_admin_title_only
+				has_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+			}
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_same_title" 
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region }
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_same_region" 
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 }
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_same_region_2" 
+	}
+	text = {
+		trigger = {
+			NOT = { check_variable = { FROM.TNO_admin_title = TNO_selected_state_admin_title_map_mode:TNO_admin_title } }
+			OR = {
+				has_global_flag = TNO_admin_title_map_mode_admin_title_only
+				has_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+			}
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_diff_title"
+	}
+	text = {
+		trigger = {
+			NOT = { check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region } }
+			NOT = { check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region } }
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_diff_region"
+	}
+	text = {
+		trigger = {
+			NOT = { check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 } }
+			NOT = { check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 } }
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_diff_region_2"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					OR = {
+						check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region }
+						check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 }
+					}
+					has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+				}
+				AND = {
+					OR = {
+						check_variable = { FROM.TNO_assoc_region = TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2 }
+						check_variable = { FROM.TNO_assoc_region_2 = TNO_selected_state_admin_title_map_mode:TNO_assoc_region }
+					}
+					has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+				}
+			}
+		}
+		localization_key = "tno_admin_title_map_mode_tooltip_share_region" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+# var scoping seems to break scripted loc concat as [?TNO_selected_state_admin_title_map_mode.AdminTitle_Get_Name_Main] doesnt work... - sprinkles
+## fixed it using a different set of scripted loc - Marethyu
+### tokenized the system completely, this is as simple as it can get - Marethyu 09/02/25
+defined_text = { 
+	name = get_admin_title_name_map_mode
+	text = {
+		trigger = {
+			OR = {
+				has_global_flag = TNO_admin_title_map_mode_admin_title_only
+				has_global_flag = TNO_admin_title_map_mode_admin_title_same_owner
+			}
+		}
+		localization_key = "[?TNO_selected_state_admin_title_map_mode:TNO_admin_title.GetTokenKey][AdminTitle_Get_EndoExo_AdminTitle][AdminTitle_Get_ShortLong_AdminTitle]" 
+	}
+	text = {
+		trigger = {
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_only
+		}
+		localization_key = "[?TNO_selected_state_admin_title_map_mode:TNO_assoc_region.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion][AdminTitle_Get_ShortLong_AssocRegion]" 
+	}
+	text = {
+		trigger = {
+			has_global_flag = TNO_admin_title_map_mode_assoc_region_2_only
+		}
+		localization_key = "[?TNO_selected_state_admin_title_map_mode:TNO_assoc_region_2.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion]" 
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_EndoExo_AdminTitle
+	# General Endo-Exo Admin Title interactions, specific ones are further down below
+	## Categorized into Default, Endonym, and Exonym interactions
+
+	### Default ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_russian_default = TNO_admin_title }
+			controller = { 
+				is_in_array = { global.russian_names = THIS.id }
+			 }
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_rus"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_japanese_default = TNO_admin_title }
+			controller = {
+				tag = JAP
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_jap"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_default = TNO_admin_title }	
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_default = TNO_admin_title }
+			controller = {
+				is_in_array = { global.spanish_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_german_default = TNO_admin_title }
+			controller = {
+				is_in_array = { global.german_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_ger"
+	}
+
+	### Endonym ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_endonym = TNO_admin_title }
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_endonym = TNO_admin_title }
+			is_in_array = { global.has_portuguese_endonym = TNO_admin_title }
+			NOT = { 
+				check_variable = { TNO_admin_title = token:Admin_Title_Federal_Territory }
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+				check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+			}
+			controller = {
+				OR = {
+					is_in_array = { global.spanish_names = THIS.id }
+					is_in_array = { global.portuguese_names = THIS.id }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa_por"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_endonym = TNO_admin_title }
+			is_in_array = { global.has_spanish_endonym = TNO_admin_title }
+			controller = {
+				OR = {
+					is_in_array = { global.italian_names = THIS.id }
+					is_in_array = { global.spanish_names = THIS.id }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita_spa"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_arabic_endonym = TNO_admin_title }
+			controller = {
+				is_in_array = { global.arabic_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_arb"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_turkish_endonym = TNO_admin_title }
+			controller = { 
+				OR = {
+					tag = TUR
+					is_puppet_of = TUR
+				}
+			 }
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_tur"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_chinese_endonym = TNO_admin_title }
+			controller = {
+				OR = {
+					tag = CHI
+					is_in_array = { global.chinese_warlords = THIS.id }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_chi"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_french_endonym = TNO_admin_title }
+			controller = {
+				is_in_array = { global.french_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_fra"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_endonym = TNO_admin_title }
+			NOT = { #If you need to specify specific endo-exo interactions, do this and then create the interaction in a separate block down below
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+				check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+			}
+			controller = {
+				is_in_array = { global.spanish_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_portuguese_endonym = TNO_admin_title }
+			NOT = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+				check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+			}
+			controller = {
+				is_in_array = { global.portuguese_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_swedish_endonym = TNO_admin_title }
+			controller = {
+				tag = SWE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_swe"
+	}
+
+	#Specific Endo-Exo interactions, usually individual Admin Titles or single tag interactions etc.
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { TNO_admin_title = token:Admin_Title_State }
+				check_variable = { TNO_admin_title = token:Admin_Title_Division }
+				check_variable = { TNO_admin_title = token:Admin_Title_Special_Division }
+			}
+			controller = { 
+				tag = BUR 
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_bur"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Province }
+			controller = { 
+				tag = THA 
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_tha"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Department }
+			controller = {
+				tag = GRE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_gre"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Province }
+			OR = {
+				AND = {
+					NOT = { has_state_flag = has_portuguese_admin_title }
+					controller = {
+						OR = {
+							tag = IBR
+							AND = {
+								is_in_array = { global.spanish_names = THIS.id }
+								NOT = { tag = IBR }
+							}
+						}
+					}
+				}
+				AND = {
+					has_state_flag = has_portuguese_admin_title
+					controller = { tag = FZL }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita_spa"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+			OR = {
+				AND = {
+					NOT = { has_state_flag = has_portuguese_admin_title }
+					controller = {
+						OR = {
+							tag = IBR
+							AND = {
+								is_in_array = { global.spanish_names = THIS.id }
+								NOT = { tag = IBR }
+							}
+						}
+					}
+				}
+				AND = {
+					has_state_flag = has_portuguese_admin_title
+					controller = { tag = FZL }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+				check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+			}
+			OR = {
+				AND = {
+					has_state_flag = has_portuguese_admin_title
+					controller = {
+						OR = {
+							tag = IBR
+							AND = {
+								is_in_array = { global.portuguese_names = THIS.id }
+								NOT = { tag = IBR }
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = {
+						has_state_flag = has_portuguese_admin_title
+					}
+					controller = { tag = GNS }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Federal_Territory }
+			controller = {
+				is_in_array = { global.spanish = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Federal_Territory }
+			controller = {
+				is_in_array = { global.portuguese_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+				check_variable = { TNO_admin_title = token:Admin_Title_Municipality }
+				check_variable = { TNO_admin_title = token:Admin_Title_City }
+			}
+			controller = {
+				tag = FIN
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_fin"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_EndoExo_AssocRegion
+	# General Endo-Exo Assoc Region interactions, specific ones are further down below
+	## Categorized into Default, Endonym, and Exonym interactions
+
+	### Default ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_japanese_default = TNO_assoc_region }
+			controller = {
+				tag = JAP
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_jap"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_german_default = TNO_assoc_region }
+			controller = {
+				is_in_array = { global.german_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_ger"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_default = TNO_assoc_region }
+			controller = {
+				is_in_array = { global.spanish_names = THIS.id }
+			}
+			NOT = {
+				has_global_flag = TNO_endonym_mode
+				has_global_flag = TNO_exonym_mode 
+			}
+		}
+		localization_key = "_spa_eng"
+	}
+
+	### Endonym ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_endonym = TNO_assoc_region }
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_endonym = TNO_assoc_region }
+			controller = {
+				is_in_array = { global.spanish_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_turkish_endonym = TNO_assoc_region }
+			controller = { 
+				OR = {
+					tag = TUR
+					is_puppet_of = TUR
+				}
+			 }
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_tur"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_chinese_endonym = TNO_assoc_region }
+			controller = {
+				OR = {
+					tag = CHI
+					is_in_array = { global.chinese_warlords = THIS.id }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_chi"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_portuguese_endonym = TNO_assoc_region }
+			NOT = { 
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Extremadura }
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Galicia_Iberia }
+			}
+			controller = {
+				is_in_array = { global.portuguese_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_swedish_endonym = TNO_assoc_region }
+			controller = {
+				tag = SWE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_swe"
+	}
+
+	#Specific Endo-Exo interactions, usually individual Assoc Regions or single tag interactions etc.
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Nanyo }
+			controller = {
+				tag = JAP
+			}
+			has_global_flag = TNO_exonym_mode
+		}
+		localization_key = "_jap_eng"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Cyprus_Dept }
+			controller = {
+				tag = GRE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_gre"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Assoc_Region_Extremadura }
+			is_in_array = { global.portuguese_names = THIS.id }
+			NOT = { tag = IBR }
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Valencia }
+			controller = {
+				OR = {
+					is_in_array = { global.spanish_names = THIS.id }
+					tag = CAT
+					tag = CNT
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa_cat"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Galicia_Iberia }
+			controller = {
+				OR = {
+					tag = GAL
+					AND = {
+						is_in_array = { global.portuguese_names = THIS.id }
+						NOT = { tag = IBR }
+					}
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_gal_por"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Asturias }
+			controller = {
+				tag = TBA
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_tba"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Basque_Country }
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Navarre }
+			}
+			controller = {
+				tag = BSQ
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_bsq"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Aragon }
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Catalonia }
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Murcia }
+			}
+			controller = {
+				OR = {
+					tag = CAT
+					tag = CNT
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_cat"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Balearic_Islands }
+			controller = {
+				OR = {
+					tag = IBR
+					AND = {
+						is_in_array = { global.spanish_names = THIS.id }
+						NOT = { tag = IBR }
+					}
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Balearic_Islands }
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_White_Karelia_Province }
+			controller = {
+				tag = FIN
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_fin"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_EndoExo_SubAdmin
+	# General Endo-Exo Sub-Admin Title interactions, specific ones are further down below
+	## Categorized into Default, Endonym, and Exonym interactions
+
+	### Default ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_default = TNO_sub_admin_title }
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_german_default = TNO_sub_admin_title }
+			controller = {
+				is_in_array = { global.german_names = THIS.id }
+			}
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		localization_key = "_ger"
+	}
+
+	### Endonym ###
+	text = {
+		trigger = {
+			is_in_array = { global.has_italian_endonym = TNO_sub_admin_title }
+			controller = {
+				is_in_array = { global.italian_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_ita"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_arabic_endonym = TNO_sub_admin_title }
+			controller = {
+				is_in_array = { global.arabic_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_arb"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_turkish_endonym = TNO_sub_admin_title }
+			controller = { 
+				OR = {
+					tag = TUR
+					is_puppet_of = TUR
+				}
+			 }
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_tur"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_chinese_endonym = TNO_sub_admin_title }
+			controller = {
+				OR = {
+					tag = CHI
+					is_in_array = { global.chinese_warlords = THIS.id }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_chi"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_spanish_endonym = TNO_sub_admin_title }
+			NOT = {
+				check_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+			}
+			controller = {
+				is_in_array = { global.spanish_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_portuguese_endonym = TNO_sub_admin_title }
+			NOT = { check_variable = { TNO_sub_admin_title = token:Admin_Title_Province } }
+			controller = {
+				is_in_array = { global.portuguese_names = THIS.id }
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			is_in_array = { global.has_swedish_endonym = TNO_sub_admin_title }
+			controller = {
+				tag = SWE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_swe"
+	}
+
+	#Specific Endo-Exo interactions, usually individual Admin Titles/Assoc Regions or single tag interactions etc.
+	text = {
+		trigger = {
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Prefecture }
+			controller = {
+				tag = GRE
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_gre"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+			OR = {
+				AND = {
+					NOT = { has_state_flag = has_portuguese_admin_title }
+					controller = {
+						OR = {
+							tag = IBR
+							AND = {
+								is_in_array = { global.spanish_names = THIS.id }
+								NOT = { tag = IBR }
+							}
+						}
+					}
+				}
+				AND = {
+					has_state_flag = has_portuguese_admin_title
+					controller = { tag = FZL }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_spa"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+			OR = {
+				AND = {
+					has_state_flag = has_portuguese_admin_title
+					controller = {
+						OR = {
+							tag = IBR
+							AND = {
+								is_in_array = { global.portuguese_names = THIS.id }
+								NOT = { tag = IBR }
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = {
+						has_state_flag = has_portuguese_admin_title
+					}
+					controller = { tag = GNS }
+				}
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_por"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Municipality }
+			controller = {
+				tag = FIN
+			}
+			has_global_flag = TNO_endonym_mode
+		}
+		localization_key = "_fin"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_ShortLong_AdminTitle
+	text = {
+		trigger = {
+			is_in_array = { global.title_has_long_name = TNO_admin_title }
+		}
+		localization_key = "_long"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_ShortLong_AssocRegion
+	text = {
+		trigger = {
+			is_in_array = { global.title_has_long_name = TNO_assoc_region }
+		}
+		localization_key = "_long"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_ShortLong_AssocRegion_2
+	text = {
+		trigger = {
+			is_in_array = { global.title_has_long_name = TNO_assoc_region_2 }
+		}
+		localization_key = "_long"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_Desc_Condition
+	text = {
+		trigger = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Territory }
+			state = 648
+		}
+		localization_key = "_648"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Santa_Cruz_Dept }
+			is_controlled_by = STC
+		}
+		localization_key = "_stc"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Santa_Cruz_Dept }
+			is_controlled_by = BOL
+		}
+		localization_key = "_bol"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = { 
+	name = AdminTitle_AdminTitle_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+		}
+		localization_key = "admin_title_tt" 
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_AdminTitle_Desc_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			is_in_array = { global.title_has_desc = TNO_admin_title }
+			is_in_array = { global.state_has_desc = THIS.id }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+		}
+		localization_key = "admin_title_desc"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AdminTitle
+	text = {
+		localization_key = "[?TNO_admin_title.GetTokenKey][AdminTitle_Get_EndoExo_AdminTitle][AdminTitle_Get_ShortLong_AdminTitle]"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AdminTitle_Desc
+	text = {
+		localization_key = "[?TNO_admin_title.GetTokenKey][AdminTitle_Get_EndoExo_AdminTitle]_desc[AdminTitle_Get_Desc_Condition]"
+	}
+}
+
+defined_text = {
+	name = get_temp_admin_title_name
+	text = { localization_key = "[?admin_title_temp.GetTokenKey][AdminTitle_Get_EndoExo_AdminTitle][AdminTitle_Get_ShortLong_AdminTitle]" }
+}
+
+defined_text = {
+	name = AdminTitle_AssocRegion_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			is_in_array = { global.title_is_special_region = TNO_assoc_region }
+			has_variable = TNO_assoc_region_2
+			NOT = { is_in_array = { global.title_is_special_region = TNO_assoc_region_2 } }
+		}
+		localization_key = "assoc_region_one_assoc_region_one_special_region_tt"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			is_in_array = { global.title_is_special_region = TNO_assoc_region }
+			NOT = { has_variable = TNO_assoc_region_2 }
+		}
+		localization_key = "assoc_region_one_special_region_tt"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			is_in_array = { global.title_is_special_region = TNO_assoc_region }
+			has_variable = TNO_assoc_region_2
+			is_in_array = { global.title_is_special_region = TNO_assoc_region_2 }
+		}
+		localization_key = "assoc_region_two_special_region_tt"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			NOT = { 
+				is_in_array = { global.title_is_special_region = TNO_assoc_region }
+				has_variable = TNO_assoc_region_2
+			}
+		}
+		localization_key = "assoc_region_one_assoc_region_tt"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			has_variable = TNO_assoc_region_2
+			NOT = { is_in_array = { global.title_is_special_region = TNO_assoc_region } }	
+			NOT = { is_in_array = { global.title_is_special_region = TNO_assoc_region_2 } }
+		}
+		localization_key = "assoc_region_two_assoc_region_tt"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_AssocRegion_Desc_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region
+			is_in_array = { global.title_has_desc = TNO_assoc_region }
+			is_in_array = { global.state_has_desc = THIS.id }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+		}
+		localization_key = "assoc_region_1_desc"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_AssocRegion_2_Desc_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_assoc_region_2
+			is_in_array = { global.title_has_desc = TNO_assoc_region_2 }
+			is_in_array = { global.state_has_desc = THIS.id }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+		}
+		localization_key = "assoc_region_2_desc"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = { 
+	name = AdminTitle_Show_State_Name_AdminTitle
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			NOT = { has_variable = TNO_assoc_region }
+		}
+		localization_key = "admin_title_state_name_tt" 
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			has_variable = TNO_assoc_region	
+		}
+		localization_key = "admin_title_no_state_name_tt"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = { 
+	name = AdminTitle_Show_State_Name_SubAdmin
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+			NOT = { has_variable = TNO_admin_title }
+			NOT = { has_variable = TNO_assoc_region }
+		}
+		localization_key = "admin_title_state_name_tt" 
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+			OR = {
+				has_variable = TNO_admin_title
+				has_variable = TNO_assoc_region
+			}	
+		}
+		localization_key = "admin_title_no_state_name_tt"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_State_Possessive
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			has_variable = TNO_assoc_region
+		}
+		localization_key = "admin_title_state_possessive_1_tt"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_admin_title
+			NOT = { has_variable = TNO_assoc_region }
+		}
+		localization_key = "admin_title_state_possessive_2_tt"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AssocRegion
+	text = { 
+		localization_key = "[?TNO_assoc_region.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion][AdminTitle_Get_ShortLong_AssocRegion]" 
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AssocRegion_2
+	text = { 
+		localization_key = "[?TNO_assoc_region_2.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion][AdminTitle_Get_ShortLong_AssocRegion_2]" 
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AssocRegion_Desc
+	text = {
+		localization_key = "[?TNO_assoc_region.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion]_desc[AdminTitle_Get_Desc_Condition]"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_AssocRegion_2_Desc
+	text = {
+		localization_key = "[?TNO_assoc_region_2.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion]_desc[AdminTitle_Get_Desc_Condition]"
+	}
+}
+
+defined_text = {
+	name = get_temp_assoc_region_name
+	text = { localization_key = "[?assoc_region_temp.GetTokenKey][AdminTitle_Get_EndoExo_AssocRegion][AdminTitle_Get_ShortLong_AssocRegion]" }
+}
+
+defined_text = {
+	name = AdminTitle_SubAdmin_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+		}
+		localization_key = "sub_admin_title_tt"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_SubAdmin_Desc_Filter
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+			is_in_array = { global.title_has_desc = TNO_sub_admin_title }
+			is_in_array = { global.state_has_desc = THIS.id }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+			NOT = { has_variable = TNO_subdivisions }
+		}
+		localization_key = "sub_admin_title_no_subdivisions_desc"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+			is_in_array = { global.title_has_desc = TNO_sub_admin_title }
+			is_in_array = { global.state_has_desc = THIS.id }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+			has_variable = TNO_subdivisions
+		}
+		localization_key = "sub_admin_title_with_subdivisions_desc"
+	}
+	text = {
+		trigger = {
+			has_variable = TNO_sub_admin_title
+			NOT = { is_in_array = { global.title_has_desc = TNO_sub_admin_title } }
+			NOT = { is_in_array = { global.state_has_desc = THIS.id } }
+			is_in_array = { state_has_desc_entry = THIS.controller }
+			has_variable = TNO_subdivisions
+		}
+		localization_key = "sub_admin_title_just_subdivisions_desc"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubAdmin
+	text = { localization_key = "[?TNO_sub_admin_title.GetTokenKey]_Sub_Admin[AdminTitle_Get_EndoExo_SubAdmin]" }
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubAdmin_Desc
+	text = {
+		localization_key = "[?TNO_sub_admin_title.GetTokenKey]_Sub_Admin[AdminTitle_Get_EndoExo_SubAdmin]_desc[AdminTitle_Get_Desc_Condition]"
+	}
+}
+
+defined_text = {
+	name = get_temp_sub_admin_name
+	text = { localization_key = "sub_admin_title_[?sub_admin_title_temp][AdminTitle_Get_EndoExo_SubAdmin]" }
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubAdmin_Lowercase
+	text = {
+		localization_key = "[?TNO_sub_admin_title.GetTokenKey]_Sub_Admin[AdminTitle_Get_EndoExo_SubAdmin]_lowercase"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubDivisions
+	text = {
+		trigger = {
+			check_variable = { TNO_subdivisions = 2 }
+		}
+		localization_key = "sub_admin_title_2_subdivisions"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_subdivisions = 3 }
+		}
+		localization_key = "sub_admin_title_3_subdivisions"
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_subdivisions = 4 }
+		}
+		localization_key = "sub_admin_title_4_subdivisions"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubDivision_1
+	text = {
+		localization_key = "Sub_Division_1_[?This.GetID]"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubDivision_2
+	text = {
+		localization_key = "Sub_Division_2_[?This.GetID]"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubDivision_3
+	text = {
+		localization_key = "Sub_Division_3_[?This.GetID]"
+	}
+}
+
+defined_text = {
+	name = AdminTitle_Get_SubDivision_4
+	text = {
+		localization_key = "Sub_Division_4_[?This.GetID]"
+	}
+}
+
+defined_text = {
+	name = GetGovernorUSA
+	text = {
+		trigger = {
+			check_variable = { senator_1 > 2 }
+			check_variable = { senator_2 > 2 }
+		}
+		localization_key = "NPP" 
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { senator_1 = 1 }
+					check_variable = { senator_2 = 1 }
+				}
+				AND = {
+					check_variable = { senator_1 = 2 }
+					check_variable = { senator_2 = 1 }
+				}
+				AND = {
+					check_variable = { senator_1 = 1 }
+					check_variable = { senator_2 = 2 }
+				}
+				AND = {
+					check_variable = { senator_1 = 2 }
+					check_variable = { senator_2 = 2 }
+				}
+			}
+		}
+		localization_key = "RDC" 
+	}
+	text = {
+		localization_key = "None"
+	}
+}

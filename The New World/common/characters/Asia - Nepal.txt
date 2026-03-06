@@ -1,0 +1,17 @@
+characters = {
+	NEP_lokendra_bahadur_chand = {
+		name = NEP_lokendra_bahadur_chand
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/Portrait_NEP_lokendra_bahadur_chand.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LOKENDRA_BAHADUR_CHAND_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_aristocratic_conservatism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+}

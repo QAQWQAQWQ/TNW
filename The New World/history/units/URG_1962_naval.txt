@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "Armada Nacional"
+		naval_base = "10362"
+		task_force = {
+			name = "División Escolta"
+			location = 10362
+
+			### Cruisers ####
+
+			ship = { name = "ROU General Artigas" definition = cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = URG version_name = "Deutschland-class" } } }
+
+			### Destroyers ###
+
+			ship = { name = "ROU Presidente Rivera" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = URG version_name = "Tromp-class Cruiser" } } }
+			ship = { name = "ROU Presidente Oribe" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = URG version_name = "Tromp-class Cruiser" } } }
+
+			### Frigates ###
+
+			ship = { name = "ROU 18 de Julio" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = URG version_name = "Cannon-class" } } }
+			ship = { name = "ROU Uruguay" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = URG version_name = "Cannon-class" } } }
+			ship = { name = "ROU Suárez" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = URG version_name = "Cannon-class" } } }
+			ship = { name = "ROU Lavalleja" definition = frigate equipment = { ship_hull_more_light_1 = { amount = 1 owner = URG version_name = "Cannon-class" } } }
+
+			### Corvettes ###
+
+			ship = { name = "ROU Montevideo" definition = corvette equipment = { ship_hull_very_light_1 = { amount = 1 owner = URG version_name = "Castle Class" } } }
+		}
+	}
+}

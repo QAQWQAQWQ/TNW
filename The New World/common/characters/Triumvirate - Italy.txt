@@ -1,0 +1,139 @@
+characters = {
+	# Country leaders #
+   ITA_Giuseppe_Umberto_Rauti = {
+		name = ITA_Giuseppe_Umberto_Rauti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Giuseppe_Umberto_Rauti.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Council_of_Fascism_DESC"
+			expire = "1999.9.9"
+			ideology = fascism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	ITA_Francesco_Giulio_Baghino = {
+		name = ITA_Francesco_Giulio_Baghino
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_ITA_Francesco_Giulio_Baghino.png"
+				small = "GFX_idea_ITA_Francesco_Giulio_Baghino"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANCESCO_GIULIO_BAGHINO_DESC"
+			ideology = fascism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = ITA_Francesco_Giulio_Baghino_hog
+			allowed = { original_tag = ITA }
+			traits = {
+				head_of_government
+				hog_utterly_corrupt
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ITA_Giorgio_Bornacin = {
+		name = ITA_Giorgio_Bornacin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_ITA_Giorgio_Bornacin.png"
+				small = "GFX_idea_ITA_Giorgio_Bornacin"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GIORGIO_BORNACIN_DESC"
+			ideology = fascism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = ITA_Giorgio_Bornacin_for
+			allowed = { original_tag = ITA }
+			traits = {
+				foreign_minister
+				for_apologetic_clerk
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ITA_Mario_Draghi = {
+		name = ITA_Mario_Draghi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_ITA_Mario_Draghi.png"
+				small = "GFX_idea_ITA_Mario_Draghi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MARIO_DRAGHI_DESC"
+			ideology = fascism_corporate_statism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = ITA_Mario_Draghi_eco
+			allowed = { original_tag = ITA }
+			traits = {
+				economy_minister
+				eco_political_appointment
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ITA_Stefano_Delle_Chiaie = {
+		name = ITA_Stefano_Delle_Chiaie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_ITA_Stefano_Delle_Chiaie.png"
+				small = "GFX_idea_ITA_Stefano_Delle_Chiaie"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_STEFANO_DELLE_CHIAIE_DESC"
+			ideology = fascism_sansepolcrismo_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = ITA_Stefano_Delle_Chiaie_sec
+			allowed = { original_tag = ITA }
+			traits = {
+				security_minister
+				sec_silent_lawyer
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

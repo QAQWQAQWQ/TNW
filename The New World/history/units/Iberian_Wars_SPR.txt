@@ -1,0 +1,193 @@
+﻿division_template = {
+	name = "División de Infantería"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } # Full howitzer regiment
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigada Mixta"
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1a Irregulares"
+		location = 9839
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "3a Irregulares"
+		location = 11756
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "4a Irregulares"
+		location = 9917
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "2a Brigada Guardia Civil"
+		location = 11820
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "1a Brigada Guardia Civil"
+		location = 15524
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "3a Brigada Guardia Civil"
+		location = 3938
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "11a Brigada Mixta"
+		location = 6914
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "12a Brigada Mixta"
+		location = 9852
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "15a Brigada Mixta"
+		location = 6879
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "17a Brigada Mixta"
+		location = 3945
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "18a Brigada Mixta"
+		location = 3891
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "19a Brigada Mixta"
+		location = 3799
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "20a Brigada Mixta"
+		location = 6906
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "21a Brigada Mixta"
+		location = 9839
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "22a Brigada Mixta"
+		location = 11756
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "23a Brigada Mixta"
+		location = 9917
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "24a Brigada Mixta"
+		location = 9917
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "25a Brigada Mixta"
+		location = 11820
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "26a Brigada Mixta"
+		location = 6879
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "27a Brigada Mixta"
+		location = 1048
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "28a Brigada Mixta"
+		location = 9979
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "29a Brigada Mixta"
+		location = 12038
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "30a Brigada Mixta"
+		location = 10024
+		division_template = "Brigada Mixta"
+	}
+	division = {
+		name = "1a División de Infantería"
+		location = 11820
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "2a División de Infantería"
+		location = 15524
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "3a División de Infantería"
+		location = 3938
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "4a División de Infantería"
+		location = 6914
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "5a División de Infantería"
+		location = 9852
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "6a División de Infantería"
+		location = 6879
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "7a División de Infantería"
+		location = 3945
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "8a División de Infantería"
+		location = 3891
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "9a División de Infantería"
+		location = 3799
+		division_template = "División de Infantería"
+	}
+
+	division = {
+		name = "10a División de Infantería"
+		location = 6914
+		division_template = "División de Infantería"
+	}
+}

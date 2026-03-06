@@ -1,0 +1,17 @@
+characters = {
+	BUR_Maung_Aye = {
+		name = BUR_Maung_Aye
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_Burma_Maung_Aye.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MAUNG_AYE_DESC"
+			ideology = conservatism_oligarchic_conservatism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,405 @@
+####################
+##China Focus Tree##
+#####By Roniius#####
+####################
+focus_tree = {
+	id = china_modernization
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+
+	focus = {
+		id = CHI_The_Bright_Torch_of_East_Asia #东亚光明的火炬
+		icon = GFX_focus_CHI_The_Bright_Torch_of_East_Asia
+		cost = 2
+		x = 8
+		y = 0
+		completion_reward = {
+			add_stability = 2.0
+			add_political_power = 100
+		}
+
+
+	}
+	focus = {
+		id = CHI_new_year_finances #新一年的财政报告
+		icon = GFX_focus_CHI_new_year_finances
+		cost = 3
+		x = 8
+		y = 1
+		prerequisite = {
+		focus = CHI_The_Bright_Torch_of_East_Asia
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+	focus = {
+		id = CHI_Strengthen_the_monetary_system #强化货币体系
+		icon = GFX_focus_CHI_Strengthen_the_monetary_system
+		cost = 3
+		x = 3
+		y = 2
+		prerequisite = {
+		focus = CHI_new_year_finances
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_protect_national_industry #保护民族工业
+		icon = GFX_focus_CHI_protect_national_industry
+		cost = 3
+		x = 2
+		y = 3
+		prerequisite = {
+		focus = CHI_Strengthen_the_monetary_system
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Support_small_and_medium-sized_enterprises #扶持中小企业
+		icon = GFX_focus_CHI_Support_small_and_medium-sized_enterprises
+		cost = 3
+		x = 4
+		y = 3
+		prerequisite = {
+		focus = CHI_Strengthen_the_monetary_system
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Protect_investment_environment #保障投资环境
+		icon = GFX_focus_CHI_Protect_investment_environment
+		cost = 3
+		x = 3
+		y = 4
+		prerequisite = {
+		focus = CHI_Strengthen_the_monetary_system
+	}
+		prerequisite = {
+		focus = CHI_Support_small_and_medium-sized_enterprises
+	}
+		prerequisite = {
+		focus = CHI_protect_national_industry
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Look_at_the_world #放眼世界
+		icon = GFX_focus_CHI_Look_at_the_world
+		cost = 3
+		x = 8
+		y = 2
+		prerequisite = {
+		focus = CHI_new_year_finances
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_On_the_other_side_of_the_ocean #大洋一侧
+		icon = GFX_focus_CHI_On_the_other_side_of_the_ocean
+		cost = 3
+		x = 6
+		y = 3
+		 mutually_exclusive = { 
+			focus = CHI_Focus_on_allies 
+		}
+		prerequisite = {
+		focus = CHI_Look_at_the_world
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Focus_on_allies #着眼盟友
+		icon = GFX_focus_CHI_Focus_on_allies
+		cost = 3
+		x = 10
+		y = 3
+		 mutually_exclusive = { 
+			focus = CHI_On_the_other_side_of_the_ocean
+		}
+		prerequisite = {
+		focus = CHI_Look_at_the_world
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Expanding_the_pta #扩大太平洋贸易协定
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 5
+		y = 4
+		
+		prerequisite = {
+		focus = CHI_On_the_other_side_of_the_ocean
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_One_day_in_Shanghai #上海一日
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 7
+		y = 4
+		
+		prerequisite = {
+		focus = CHI_On_the_other_side_of_the_ocean
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Trip_to_Manchuria #满洲之行
+		icon = GFX_focus_CHI_Trip_to_Manchuria
+		cost = 3
+		x = 9
+		y = 4
+		
+		prerequisite = {
+		focus = CHI_Focus_on_allies
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+	focus = {
+		id = CHI_Nanyang_Accord #南洋协议
+		icon = GFX_focus_CHI_Nanyang_Accord
+		cost = 3
+		x = 11
+		y = 4
+		
+		prerequisite = {
+		focus = CHI_Focus_on_allies
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+    focus = {
+		id = CHI_Inside_the_Legislative_Yuan #立法院内
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 13
+		y = 2
+		prerequisite = {
+		focus = CHI_new_year_finances
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Members_opinions #委员们的意见
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 12
+		y = 3
+		prerequisite = {
+		focus = CHI_Inside_the_Legislative_Yuan
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Im_listening #我悉听尊便
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 14
+		y = 3
+		prerequisite = {
+		focus = CHI_Inside_the_Legislative_Yuan
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Manage_relationships #打点关系
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 13
+		y = 4
+		prerequisite = {
+		focus = CHI_Members_opinions
+	}
+	prerequisite = {
+		focus = CHI_Im_listening
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Livelihood_for_the_people #为民生计
+		icon = GFX_focus_CHI_Livelihood_for_the_people
+		cost = 3
+		x = 3
+		y = 5
+		prerequisite = {
+		focus = CHI_Protect_investment_environment
+	}
+	
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Enemy_and_friend #亦敌亦友
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 6
+		y = 5
+		prerequisite = {
+		focus = CHI_Expanding_the_pta
+	}
+	prerequisite = {
+		focus = CHI_One_day_in_Shanghai
+	}
+	
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_Pan-Asian_Co-prosperity #泛亚共荣
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 10
+		y = 5
+		prerequisite = {
+		focus = CHI_Trip_to_Manchuria
+	}
+	prerequisite = {
+		focus = CHI_Nanyang_Accord
+	}
+	
+		completion_reward = {
+			
+		}
+
+
+	}
+
+	focus = {
+		id = CHI_boastful_talk #夸夸其谈
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 13
+		y = 5
+		prerequisite = {
+		focus = CHI_Members_opinions
+	}
+	prerequisite = {
+		focus = CHI_Im_listening
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+	focus = {
+		id = CHI_Cheers_to_prosperity #为繁荣干杯！
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 8
+		y = 6
+		prerequisite = {
+		focus = CHI_Livelihood_for_the_people
+	}
+		prerequisite = {
+		focus = CHI_Enemy_and_friend
+	}
+		prerequisite = {
+		focus = CHI_Pan-Asian_Co-prosperity
+	}
+		prerequisite = {
+		focus = CHI_boastful_talk
+	}
+		completion_reward = {
+			
+		}
+
+
+	}
+
+
+
+	
+	
+}

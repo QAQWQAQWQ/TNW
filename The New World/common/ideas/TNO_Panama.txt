@@ -1,0 +1,82 @@
+ideas = {
+	#############
+	## SPIRITS ##
+	#############
+	country = {
+		PAN_Divided_at_the_Isthmus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_Divided_at_the_Isthmus" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = idea_PAN_Divided_at_the_Isthmus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				annual_gdp_growth_factor = 0.25
+			}
+		}
+		PAN_Two_Flags_One_Nation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_Two_Flags_One_Nation" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = idea_PAN_Two_Flags_One_Nation
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				fascism_drift = 0.01
+			}
+		}
+		PAN_Half_measures_and_handshakes = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_Half_measures_and_handshakes" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = idea_PAN_Half_measures_and_handshakes
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				misc_income_modifier = 0.1
+			}
+		}
+		PAN_Coroneles_and_Criollos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_Coroneles_and_Criollos" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = idea_PAN_Coroneles_and_Criollos
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+				admin_efficiency_monthly_rate = 0.05
+			}
+		}
+		PAN_policemen_of_nations = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_policemen_of_nations" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = idea_PAN_policemen_of_nations
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_army_factor = 0.1
+				fascism_acceptance = 20
+			}
+		}
+	}
+}

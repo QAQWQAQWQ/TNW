@@ -1,0 +1,44 @@
+units = {
+	division = {
+		name = "II. Unidad de Autodefensa"
+		location = "15331"
+		division_template = "Unidad de Autodefensa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "III. Unidad de Autodefensa"
+		location = "15331"
+		division_template = "Unidad de Autodefensa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "IV. Unidad de Autodefensa"
+		location = "15331"
+		division_template = "Unidad de Autodefensa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "II. Camisas Negras"
+		location = "15331"
+		division_template = "Camisas Negras"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "III. Camisas Negras"
+		location = "15331"
+		division_template = "Camisas Negras"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "I. Brigada Disidente del Ejército"
+		location = "15331"
+		division_template = "Brigada Disidente del Ejército"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

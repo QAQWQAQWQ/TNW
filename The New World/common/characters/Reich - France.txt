@@ -1,0 +1,210 @@
+characters = {
+	## STARTING LEADER ##
+	FRA_Jack_Lang = {
+		name = FRA_Jack_Lang
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Jack_Lang.png" } }
+		country_leader = {
+			desc = "POLITICS_JACK_LANG_DESC"
+			ideology = progressivism_reformist_socialism_subtype
+			traits = { People_crossing_the_Rubicon_River }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	
+
+	FRA_Emmanuel_Le_Roy_Ladurie = {
+		name = FRA_Emmanuel_Le_Roy_Ladurie
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = liberalism_christian_liberalism_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Emmanuel_Ladurie = {
+		name = FRA_Emmanuel_Ladurie
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = paternalism_oligarchy_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+
+	
+
+	FRA_Jacques_Chirac = {
+		name = FRA_Jacques_Chirac
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = conservatism_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+	
+
+	FRA_Pierre_Pujo = {
+		name = FRA_Pierre_Pujo 
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = liberal_conservatism_2_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_FranCois_Duprat   = {
+		name = FRA_FranCois_Duprat
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = fascism_French_Fascism_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+	FRA_Pierre_Joxe  = {
+		name = FRA_Pierre_Joxe
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = liberal_conservatism_moderate_technocracy_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Jean_Marie_Le_Pen   = {
+		name = FRA_Jean_Marie_Le_Pen
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Power_Vacuum.png" } }
+		country_leader = {
+			desc = "POLITICS__DESC"
+			ideology = despotism_National_revolutionary_thought_subtype
+			expire = "1975.1.1.1"
+			id = -1
+		}
+	}
+	
+	
+	## MISC LEADERS ##
+	FRA_Jean_Poperen = {
+		name = FRA_Jean_Poperen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_France_Jean_Poperen.png"
+				small = "GFX_idea_FRA_minister_Jean_Poperen"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JEAN_PEOPEREN_DESC"
+			ideology = progressivism_reformist_socialism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = FRA_Jean_Poperen_hog
+			allowed = { original_tag = FRS }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Jean_Pierre_Chevenement = {
+		name = FRA_Jean_Pierre_Chevenement
+		portraits = {
+			civilian = {
+				small = "GFX_idea_FRA_minister_Jean_Pierre_Chevenement"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JEAN_PIREER_CHEVENEMENT_DESC"
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = FRA_Jean_Pierre_Chevenement_for
+			allowed = { original_tag = FRS }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Edouard_Balladur = {
+		name = FRA_Edouard_Balladur
+		portraits = {
+			civilian = {
+				small = "GFX_idea_FRA_minister_Edouard_Balladur"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_EDOUARD_BALLADUR_DESC"
+			ideology = liberal_conservatism_moderate_technocracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = economy_minister
+			idea_token = FRA_Edouard_Balladur_eco
+			allowed = { original_tag = FRS }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Alain_Richard = {
+		name = FRA_Alain_Richard
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/Portrait_France_Alain_Richard.png"
+				small = "GFX_idea_FRA_minister_Alain_Richard"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALAIN_RICHARD_DESC"
+			ideology = paternalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = security_minister
+			idea_token = FRA_Alain_Richard_sec
+			allowed = { original_tag = FRS }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

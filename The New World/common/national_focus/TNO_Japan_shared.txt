@@ -1,0 +1,12 @@
+##INITIAL ECONOMY TREE THAT NEVER ACTUALLY FIRES###
+focus_tree = {
+	id = JAP
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	
+}

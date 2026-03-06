@@ -1,0 +1,387 @@
+capital = 1616
+
+recruit_character = PAR_Generic_Vacant
+fill_empty_minister_nochecks = yes
+
+recruit_character = PAR_Higinio_Morinigo
+recruit_character = PAR_Karl_Richert
+recruit_character = PAR_Mutshuito_Villasboa
+recruit_character = PAR_Juan_Natalicio_Gonzalez
+recruit_character = PAR_Alfredo_Stroessner
+recruit_character = PAR_Federico_Chaves
+recruit_character = PAR_Epifanio_Mendez_Fleitas
+recruit_character = PAR_Rafael_Franco
+recruit_character = PAR_Agustin_Goiburu
+recruit_character = PAR_Gustavo_Gonzalez
+recruit_character = PAR_Luis_Resck
+recruit_character = PAR_Oscar_Creydt
+recruit_character = PAR_Victoriano_Benitez_Vera
+recruit_character = PAR_Enzo_Debernardi
+recruit_character = PAR_Juan_Manuel_Frutos_Pane
+recruit_character = PAR_Luis_Maria_Argana
+recruit_character = PAR_Edgar_Ynsfran
+recruit_character = PAR_Sabino_Augusto_Montanaro
+recruit_character = PAR_Juan_Ramon_Chaves
+recruit_character = PAR_Eulogio_Estigarribia
+recruit_character = PAR_Bernardino_Gorostiaga
+recruit_character = PAR_Waldino_Ramon_Lovera
+recruit_character = PAR_FULNA_Provisional_Junta
+recruit_character = PAR_Che_Guevara
+recruit_character = PAR_Alfredo_Ramos
+recruit_character = PAR_Domingo_Laino
+recruit_character = PAR_Fernando_Levi_Ruffinelli
+recruit_character = PAR_Miguel_Angel_Soler
+recruit_character = PAR_Obdulio_Barthe
+recruit_character = PAR_Francisco_Alcibiades_Britez_Borges
+
+
+set_autonomy = {
+	target = STC
+	autonomy_state = autonomy_collaborator_puppet_state
+}
+
+oob = "PAR_1962"
+country_lock_all_division_template = yes
+
+set_politics = {
+	ruling_party = fascism	
+	last_election = "1958.2.9"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	national_socialism = 1
+	fascism_2 = 16
+	fascism = 39
+	fascism_3 = 16
+	ultranationalism = 0
+	despotism = 0
+	paternalism = 14
+	conservatism = 0
+	liberal_conservatism = 5
+	liberalism = 0
+	progressivism = 1
+	socialist = 3
+	communist = 5
+}
+
+add_opinion_modifier = { target = BRA modifier = SOUTHAM_guaira }
+add_opinion_modifier = { target = USA modifier = SOUTHAM_guaira }
+BRA = { add_opinion_modifier = { target = PAR modifier = SOUTHAM_guaira } }
+USA = { add_opinion_modifier = { target = PAR modifier = SOUTHAM_guaira } }
+
+add_opinion_modifier = { target = CLC modifier = CLC_fascist_comrades }
+add_opinion_modifier = { target = STC modifier = CLC_fascist_comrades }
+add_opinion_modifier = { target = DOM modifier = CLC_fascist_comrades }
+
+add_opinion_modifier = { target = BRA modifier = PAR_black_spot }
+add_opinion_modifier = { target = CHL modifier = PAR_black_spot }
+add_opinion_modifier = { target = PRU modifier = PAR_black_spot }
+add_opinion_modifier = { target = MEX modifier = PAR_black_spot }
+add_opinion_modifier = { target = COL modifier = PAR_black_spot }
+add_opinion_modifier = { target = VEN modifier = PAR_black_spot }
+add_opinion_modifier = { target = ECU modifier = PAR_black_spot }
+add_opinion_modifier = { target = GUY modifier = PAR_black_spot }
+add_opinion_modifier = { target = URG modifier = PAR_black_spot }
+add_opinion_modifier = { target = GUC modifier = PAR_black_spot }
+add_opinion_modifier = { target = SUR modifier = PAR_black_spot }
+add_opinion_modifier = { target = CLL modifier = PAR_black_spot }
+GUC = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+SUR = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+CLL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+BRA = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+CHL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+PRU = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+COL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+VEN = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+ECU = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+GUY = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+URG = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+MEX = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+
+add_opinion_modifier = { target = ARG modifier = PAR_ARG_collaboration }
+ARG = { add_opinion_modifier = { target = PAR modifier = PAR_ARG_collaboration } }
+
+set_technology = {
+	basic_train = 1
+
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	#
+	infantry_weapons_3 = 1
+	night_vision_3 = 1
+	infantry_kit_4 = 1
+	infantry_weapons_improvements_mine_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons_hmg_1 = 1
+	combat_support_equipment_1 = 1
+	
+	support_weapons_arty_1 = 1
+	support_weapons_hmg_2 = 1
+	infantry_at = 1
+	infantry_at_upgrade_1 = 1
+	#
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	#
+	tech_special_forces = 1
+	tech_mountaineers = 1
+	#
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+	paratroopers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	assault_weapons_1 = 1
+	tech_engineers2 = 1
+	assault_weapons_2 = 1
+	tech_engineers3 = 1
+	assault_weapons_3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_scout_helicopter_company = 1
+	tech_transport_helicopter_company = 1
+
+	###AERIAL###
+	early_fighter = 1
+	jet_engines = 1
+	
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	fighter_1960 = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+
+	###HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	scout_helicopter_1960 = 1
+	transport_helicopter_1960 = 1
+
+	###MISC###
+	helicopter_engines = 1
+
+	#### ENGINEERING ####
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+
+	#### INDUSTRY ####
+	ww2_line_production = 1
+	building_construction_1 = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+	administration_construction_1 = 1
+	military_construction_1 = 1
+	resource_extraction_methods = 1
+}
+
+set_grand_doctrine = maneuver_warfare
+set_grand_doctrine = air_sovereignty
+set_grand_doctrine = green_water_navy
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		IFV_1945 = 1
+		MBT_1945 = 1
+		APC_1945 = 1
+		APC_1950 = 1
+		APC_1950_basic_turret = 1
+		#APC_1950_basic_engine = 1
+		APC_1950_basic_armor = 1
+		IFV_1950 = 1
+		IFV_1950_basic_turret = 1
+		IFV_1950_basic_armor = 1
+		#IFV_1950_basic_engine = 1
+		MBT_1950 = 1
+		MBT_1950_basic_turret = 1
+		#MBT_1950_basic_engine = 1
+		MBT_1950_basic_armor = 1
+		AC_1945 = 1
+		AC_1950 = 1
+		AC_1960 = 1
+
+		antiair_1945 = 1
+		antiair_1950 = 1
+		light_SPAA_1950 = 1
+		artillery_1945 = 1
+		artillery_1950 = 1
+		light_SPART_1950 = 1
+		light_SPART_1950_soft_attack = 1
+		SPART_1950 = 1
+		SPART_1950_soft_attack = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		NSB_APC_1945 = 1
+		NSB_APC_1950 = 1
+		#
+		#
+
+		NSB_IFV_1945 = 1
+		NSB_IFV_1945_modules_1 = 1
+		NSB_IFV_1945_modules_2 = 1
+		NSB_IFV_1950 = 1
+		NSB_IFV_1950_modules_1 = 1
+
+		NSB_MBT_1945 = 1
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		NSB_MBT_1950 = 1
+		NSB_MBT_1950_modules_1 = 1
+
+		NSB_AC_1945 = 1
+		NSB_AC_1950 = 1
+		NSB_AC_1960 = 1
+
+		NSB_Armour_1 = 1
+
+		NSB_Engine_1 = 1
+
+		NSB_artillery_1945 = 1
+		NSB_artillery_1950 = 1
+		NSB_artillery_MODULE = 1
+		NSB_artillery_1950_SA = 1
+
+		NSB_antiair_1945 = 1
+		NSB_antiair_1950 = 1
+		NSB_antiair_MODULE = 1
+		NSB_antiair_1950_AA = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		scout_plane_1945 = 1
+	}
+}
+
+add_ideas = {
+	## Spirits
+	PAR_la_ley_del_mbarete
+	PAR_arcadian_backwater
+	PAR_new_national_state_morinigo
+	PAR_price_of_peace
+	PAR_the_chokehold
+
+	## Policies ##
+	# Political #
+	tno_political_parties_nonpartisan_system
+	tno_religious_rights_state_religion
+	tno_trade_unions_state_controlled
+	tno_immigration_open_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_outlawed
+	tno_press_rights_censored_press
+	tno_vote_franchise_universal
+
+	# Military #
+	tno_conscription_extensive_conscription
+	tno_military_supervision_kill_em_all
+	tno_training_combat_schooling
+	tno_draft_exemptions_none
+
+	# Economic #
+	tno_trade_laws_limited_exports
+	tno_income_taxation_no_income_taxation
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_14_hour_work_day
+	tno_pensions_low_pensions
+	tno_unemployment_trinket_subsidies
+
+	# Social #
+	tno_health_care_support_for_emergencies
+	tno_education_public_education
+	tno_penal_system_politicized_penal_system
+	tno_gender_rights_traditional_roles
+	tno_security_political_control
+	tno_regulations_token_regulations
+
+	# SocDevs
+	tno_academic_base_primary_schooling
+	tno_research_facilities_basic
+	tno_agriculture_basic_mechanized
+	tno_healthcare_nascent
+	tno_industrial_equipment_power_tools
+	tno_industrial_expertise_incompetent
+	tno_army_professionalism_political_interference
+	tno_admin_efficiency_deficient_administrative_systems
+}
+
+set_research_slots = 2
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 4000
+	producer = USA
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 1000
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_2
+	amount = 200
+	producer = GER
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_2
+	amount = 150
+	producer = GER
+}

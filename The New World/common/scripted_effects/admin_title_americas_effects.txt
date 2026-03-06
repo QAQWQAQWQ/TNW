@@ -1,0 +1,574 @@
+TNO_admin_title_americas_init = {
+	#Argentina
+	ARG = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 1576
+					state = 1581
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 510
+					state = 1495
+					state = 1500
+					state = 1503
+					state = 1509
+					state = 1575
+					state = 1577
+					state = 1578
+					state = 1579
+					state = 1582
+					state = 1583
+					state = 1584
+					state = 1594
+					state = 1605
+					state = 1606
+					state = 1607
+					state = 1608
+					state = 1614
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 278
+					state = 1586
+					state = 1587
+					state = 1588
+					state = 1589
+					state = 1590
+					state = 1591
+					state = 1592
+					state = 1615
+					state = 1628
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Judicial_Department }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 508
+					state = 509
+					state = 511
+					state = 512
+					state = 1494
+					state = 1496
+					state = 1497
+					state = 1498
+					state = 1499
+					state = 1501
+					state = 1502
+					state = 1504
+					state = 1505
+					state = 1506
+					state = 1507
+					state = 1508
+					state = 1580
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Province }
+		}
+	}
+	set_variable = { 1511.TNO_admin_title = token:Admin_Title_Federal_Territory }
+	set_variable = { 1510.TNO_admin_title = token:Admin_Title_National_Territory }
+
+	#Brazil
+	BRA = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 280
+					state = 495
+					state = 496
+					state = 497
+					state = 498
+					state = 499
+					state = 500
+					state = 501
+					state = 502
+					state = 503
+					state = 504
+					state = 505
+					state = 1479
+					state = 1483
+					state = 1484
+					state = 1485
+					state = 1486
+					state = 1487
+					state = 1488
+					state = 1490
+					state = 1491
+					state = 1492
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_State }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 1480
+					state = 1481
+					state = 1482
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Federal_Territory }
+		}
+	}
+	set_variable = { 1489.TNO_admin_title = token:Admin_Title_Federal_District }
+
+	#Bolivia and Santa Cruz
+	BOL = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 302
+					state = 487
+					state = 542
+					state = 1667
+					state = 1677
+					state = 1678
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+	set_variable = { 1677.TNO_admin_title = token:Admin_Title_Province }
+
+	#Chile
+	CHL = {
+		every_owned_state = {
+			limit = {
+				NOT = { 
+					state = 270
+					state = 1512
+					state = 1527
+					state = 1528
+					state = 1529
+					state = 1530
+					state = 1536
+					state = 1585
+					state = 1593
+					state = 2103
+					state = 2105
+					state = 2107
+					state = 2108
+					state = 2508
+					state = 2509
+					state = 2510
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Province }
+		}
+		every_owned_state = {
+			limit = {
+				OR = { 
+					state = 270
+					state = 1512
+					state = 1527
+					state = 1528
+					state = 1529
+					state = 1530
+					state = 1593
+					state = 2103
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+	set_variable = { 1536.TNO_admin_title = token:Admin_Title_Commune }
+	set_variable = { 1585.TNO_admin_title = token:Admin_Title_Commune }
+
+	#Colombia
+	COL = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 306
+					state = 493
+					state = 1650
+					state = 2445
+					state = 2447
+					state = 2448
+					state = 2524
+					state = 2525
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 493
+					state = 1650
+					state = 2447
+					state = 2448
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Special_Commissariat }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 2524
+					state = 2525
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_City }
+		}
+	}
+	set_variable = { 306.TNO_admin_title = token:Admin_Title_Special_District }
+	#set_variable = { 2445.TNO_admin_title = 14 } #Reminder to port to US when this is merged w Iberia branch
+
+	CLC = {
+		every_owned_state = {
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+
+	CLL = {
+		every_owned_state = {
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+
+	#Mexico
+	MEX = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 277
+					state = 1550
+					state = 2152
+					state = 2157
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_State }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 1550
+					state = 2152
+					state = 2157
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Territory }
+		}
+	}
+	set_variable = { 277.TNO_admin_title = token:Admin_Title_Federal_District }
+
+	#Paraguay
+	PAR = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 1622
+					state = 1623
+					state = 1624
+					state = 1649
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+
+	#Peru
+	PRU = {
+		every_owned_state = {
+			limit = {
+				NOT = { state = 1689 }
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Department }
+		}
+	}
+	set_variable = { 1689.TNO_admin_title = token:Admin_Title_Province }
+
+	#United States
+	USA = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 261
+					state = 357
+					state = 358
+					state = 359
+					state = 360
+					state = 361
+					state = 362
+					state = 363
+					state = 364
+					state = 365
+					state = 366
+					state = 367
+					state = 368
+					state = 369
+					state = 370
+					state = 371
+					state = 372
+					state = 373
+					state = 374
+					state = 375
+					state = 376
+					state = 377
+					state = 378
+					state = 379
+					state = 380
+					state = 381
+					state = 382
+					state = 383
+					state = 384
+					state = 385
+					state = 386
+					state = 387
+					state = 388
+					state = 389
+					state = 390
+					state = 391
+					state = 392
+					state = 393
+					state = 394
+					state = 395
+					state = 396
+					state = 463
+					state = 948
+					state = 949
+					state = 950
+					state = 951
+					state = 952
+					state = 953
+					state = 954
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_State }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 101
+					state = 2498	
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Civil_Administration }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 641
+					state = 686
+					state = 727
+					state = 2106
+					state = 2495
+					state = 2500
+					state = 2501
+					state = 2502
+					state = 2503
+					state = 2505
+					state = 2506
+					state = 2507
+					state = 2519
+					state = 2520	
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Unc_Territory }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 685
+					state = 981	
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Concession }
+		}
+	}
+	set_variable = { 992.TNO_admin_title = token:Admin_Title_Federal_District }
+	set_variable = { 2519.TNO_admin_title = token:Admin_Title_Inc_Territory }
+
+	#Venezuela
+	VEN = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 1250
+					state = 1251
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_State }
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 1250
+					state = 1251
+				}
+			}
+			set_variable = { TNO_admin_title = token:Admin_Title_Territory }
+		}
+	}
+}
+
+TNO_admin_title_assoc_region_americas_init = {
+	#Uruguay
+	every_state = {
+		limit = {
+			OR = {
+				state = 300
+				state = 1630
+				state = 1631
+				state = 1632
+				state = 1633
+				state = 1634
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Interior }
+	}
+	set_variable = { 1629.TNO_assoc_region = token:Assoc_Region_Montevideo }
+
+	#Chile
+	every_state = {
+		limit = {
+			OR = {
+				state = 506
+				state = 1512
+				state = 1513
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Far_North }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 1514
+				state = 1515
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Near_North }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 270
+				state = 279
+				state = 1516
+				state = 1517
+				state = 1518
+				state = 1519
+				state = 1520
+				state = 2103
+				state = 2104
+				state = 2508
+				state = 2509
+				state = 2510
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Central_Core }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 1521
+				state = 1522
+				state = 1523
+				state = 1524
+				state = 2105
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_CCP_TB }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 1525
+				state = 1526
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Lakes }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 507
+				state = 1527
+				state = 1528
+				state = 1529
+				state = 1530
+				state = 1536
+				state = 1585
+				state = 1593
+				state = 2107
+				state = 2108
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Canals }
+	}
+
+	#Paraguay
+	every_state = {
+		limit = {
+			OR = {
+				state = 688
+				state = 1621
+				state = 1622
+				state = 1623
+				state = 1624
+				state = 1649
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Chaco }
+	}
+	every_state = {
+		limit = {
+			OR = {
+				state = 301
+				state = 1616
+				state = 1617
+				state = 1618
+				state = 1619
+				state = 1620
+				state = 2100
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Paranena }
+	}
+
+	#Bolivia and Santa Cruz
+	every_state = {
+		limit = {
+			OR = {
+				state = 542
+				state = 1667
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Beni_Dept }
+	}
+
+	every_state = {
+		limit = {
+			OR = {
+				state = 302
+				state = 1678
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_La_Paz_Dept }
+	}
+
+	every_state = {
+		limit = {
+			OR = {
+				state = 487
+				state = 1648
+				state = 1675
+				state = 1677
+			}
+		}
+		set_variable = { TNO_assoc_region = token:Assoc_Region_Santa_Cruz_Dept }
+	}
+}

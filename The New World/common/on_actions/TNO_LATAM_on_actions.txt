@@ -1,0 +1,230 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				country_event = {
+					id = USA_Trujillo_Conspiracy.1
+					days = 104
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.2
+					days = 153
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.3
+					days = 207
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.4
+					days = 256
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.5
+					days = 341
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.6
+					days = 380
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.7
+					days = 418
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.8
+					days = 451
+				}
+				country_event = {
+					id = USA_Trujillo_Conspiracy.9
+					days = 452
+				}
+			}
+			DOM = {
+				country_event = { # Trujillo Dies
+					id = HIS_general.1
+					days = 2341
+				}
+				country_event = { # Trujillo Assassinated
+					id = HIS_general.2
+					days = 1610
+				}
+				country_event = { # 1966 elections
+					id = HIS_puertoplata.18
+					days = 1612
+				}
+				country_event = { # 1966 elections - Balaguer Ceasefire
+					id = HIS_PP_ceasefire.17
+					days = 1612
+				}
+				country_event = { # 1970 elections
+					id = HIS_puertoplata.19
+					days = 3057
+				}
+				country_event = { # 1970 elections - Balaguer Ceasefire
+					id = HIS_PP_ceasefire.18
+					days = 3057
+				}
+			}
+			HAI = {
+				country_event = { # Haitian Elections
+					id = HIS_HAI.4
+					days = 895
+				}
+				country_event = { # Death of Papa Doc
+					id = HIS_HAI.18
+					days = 3397
+				}
+			}
+			PAR = {
+				country_event = { # News Event Effects for Fascist Youth Congress + Punta del Este
+					id = PAR_scripted.0
+					days = 340
+				}
+				country_event = { # Guion Rojo Coup
+					id = PAR_scripted.1
+					days = 530
+				}
+				country_event = { # Natalicio Steps On A Lego And Dies
+					id = PAR_scripted.3
+					days = 1810
+				}
+				country_event = { # 1968 Election
+					id = PAR_scripted.6
+					days = 2419
+				}
+			}
+
+			BRA = {
+				set_variable = { SACW_set_nuclear_budget = 0 }
+				set_variable = { SACW_nuclear_cost = 0.05 }
+				set_variable = { SACW_nuclear_monthly_speed = 0.25 }
+				set_variable = { SACW_nuclear_monthly_supporter_speed = 0 }
+				set_variable = { SACW_nuclear_security_monthly_compromise = 0 }
+				set_variable = { SACW_nuclear_security_compromise_supporters = 0 }
+				add_dynamic_modifier = { modifier = LATAM_nuclear_cost }
+			}
+			ARG = {
+				set_variable = { SACW_set_nuclear_budget = 0 }
+				set_variable = { SACW_nuclear_cost = 0.05 }
+				set_variable = { SACW_nuclear_monthly_speed = 0.25 }
+				set_variable = { SACW_nuclear_monthly_supporter_speed = 0 }
+				set_variable = { SACW_nuclear_security_monthly_compromise = 0 }
+				set_variable = { SACW_nuclear_security_monthly_compromise_supporters = 0 }
+				add_dynamic_modifier = { modifier = LATAM_nuclear_cost }
+			}
+		}
+	}
+	on_weekly_HAI = {
+		effect = {
+			if = {
+				limit = { has_global_flag = HIS_HAI_civil_war_ongoing }
+				TNO_HAI_crush_check = yes
+			}
+		}
+	}
+	on_weekly_PAR = {
+		effect = {
+			#if = {
+			#	limit = { has_global_flag = PAR_bush_war_stage_one }
+			#	TNO_PAR_timer_check = yes
+			#	add_to_variable = { PAR.fulna_surplus = 1 }
+			#	add_to_variable = { PAR.regime_minus = -1 }
+			#	PAR_calculate_strength_stability = yes
+			#}
+			if = {
+				limit = { has_global_flag = PAR_bush_war_ongoing }
+				BRA = { TNO_PAR_bush_war_fulna_take_over_check = yes }
+				add_to_variable = { PAR.PAR_FULNA_alignment = 1 }
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = PAR_battle_asuncion
+							option = PAR_BATTLE_ASUNCION_LIBERAL_VICTORY
+						}
+					}
+					clamp_variable = {
+						var = PAR.PAR_FULNA_alignment
+						min = 56
+						max = 100
+					}
+				} else_if = {
+					limit = {
+						has_game_rule = {
+							rule = PAR_battle_asuncion
+							option = PAR_BATTLE_ASUNCION_FEBRARISTA_VICTORY
+						}
+					}
+					clamp_variable = {
+						var = PAR.PAR_FULNA_alignment
+						min = 45
+						max = 55
+					}
+				} else_if = {
+					limit = {
+						has_game_rule = {
+							rule = PAR_battle_asuncion
+							option = PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY
+						}
+					}
+					clamp_variable = {
+						var = PAR.PAR_FULNA_alignment
+						min = 0
+						max = 44
+					}
+				} else = {
+					clamp_variable = {
+						var = PAR.PAR_FULNA_alignment
+						min = 0
+						max = 100
+					}
+				}
+			}
+		}
+	}
+	on_monthly_PAR = {
+		effect = {
+			if = {
+				limit = { has_global_flag = PAR_bush_war_stage_one }
+				for_each_loop = {
+					array = paraguay_map_grid_array
+					if = {
+						limit = {
+							has_state_flag = PAR_cant_use_bombers_here
+						}
+						clr_state_flag = PAR_cant_use_bombers_here
+					}
+				}
+				for_each_loop = {
+					array = paraguay_map_grid_array
+					if = {
+						limit = {
+							has_state_flag = PAR_arg_bombers
+						}
+						clr_state_flag = PAR_arg_bombers
+					}
+				}
+			}
+		}
+	}
+	on_monthly_BRA = {
+		effect = {
+			if = {
+				limit = { has_country_flag = SACW_nukes }
+				TNO_SACW_Nuclear_development_increase = yes
+			}
+		}
+	}
+	on_monthly_ARG = {
+		effect = {
+			if = {
+				limit = { has_country_flag = SACW_nukes }
+				TNO_SACW_Nuclear_development_increase = yes
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			SA_calculate_balance_of_power = yes
+		}
+	}
+}

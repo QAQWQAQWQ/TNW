@@ -1,0 +1,19 @@
+characters = {
+
+	### National Party ###
+	
+	NZL_Jim_McLay = {
+		name = NZL_Jim_McLay
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Jim_McLay.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JIM_MCLAY_DESC"
+			expire = "1994.4.20"
+			ideology = conservatism_progressive_conservatism_subtype
+			id = -1
+		}
+	}
+}

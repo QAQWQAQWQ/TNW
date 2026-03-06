@@ -1,0 +1,145 @@
+﻿division_template = {
+	name = "División de Infantería"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		IFV = { x = 2 y = 0 }
+		IFV = { x = 2 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "División de Infantería Motorizada"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		IFV = { x = 2 y = 0 }
+		IFV = { x = 2 y = 1 }
+		IFV = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Unidad de Autodefensa"
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "I. División de Infantería Motorizada"
+		location = "8113"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "II. División de Infantería Motorizada"
+		location = "8113"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "III. División de Infantería Motorizada"
+		location = "8024"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "IV. División de Infantería Motorizada"
+		location = "17383"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "V. División de Infantería Motorizada"
+		location = "17383"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "VI. División de Infantería Motorizada"
+		location = "5056"
+		division_template = "División de Infantería Motorizada"
+		start_experience_factor = 0.55
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "I. División de Infantería"
+		location = "3974"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "II. División de Infantería"
+		location = "3974"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "III. División de Infantería"
+		location = "1944"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "IV. División de Infantería"
+		location = "1944"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "V. División de Infantería"
+		location = "10823"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "VI. División de Infantería"
+		location = "13619"
+		division_template = "División de Infantería"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+}

@@ -1,0 +1,123 @@
+capital = 658
+
+# Vacant
+recruit_character = GUL_Generic_Vacant
+fill_empty_minister_nochecks = yes
+
+#GDP Regional distribution
+set_country_flag = GDP_regions
+
+set_cosmetic_tag = GUL_ITA
+oob = "GUL_1962"
+
+set_country_flag = ME_Nation
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
+add_manpower = 25000
+
+inherit_technology = ITA
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranationalism = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+
+	conservatism = 0
+	paternalism = 10
+	despotism = 70
+	fascism = 10
+	national_socialism = 10
+	
+}
+
+add_ideas = {
+	#standard#
+	TRI_Member_Client
+	GUL_oil_cult
+	ITA_idea_colonial_government
+	
+	#political#
+	tno_political_parties_nonpartisan_system
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_no_voting
+	
+	#military#
+	tno_conscription_limited_conscription
+	tno_military_supervision_rules_of_engagement
+	tno_training_basic_training
+	tno_draft_exemptions_educational_deferment
+	
+	#economic#
+	tno_trade_laws_export_focus
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_pensions_low_pensions
+	tno_unemployment_no_subsidies
+	
+	#social#
+	tno_health_care_low_income_protections
+	tno_education_public_education
+	tno_penal_system_harsh_penal_code
+	tno_gender_rights_women_in_the_workplace
+	tno_security_resource_extraction
+	tno_regulations_token_regulations
+
+	#misc#
+	tno_refugees_open
+	tno_women_banned
+	tno_racial_integration_integrated_military
+	tno_child_labor_illegal
+	tno_safety_limited_regulations
+	tno_pollution_no_controls
+	tno_lgbt_rights_lgbt_outlawed
+	tno_minorities_segregation
+
+	#socdev#
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_admin_efficiency_deficient_administrative_systems
+	tno_healthcare_nascent
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_basic
+	tno_academic_base_basic_literacy
+
+	#ministers#
+	# GUL_Zayed_bin_Sultan_Al_Nahyan_hog #None of these have icons
+	# GUL_Giorgio_Fua_eco
+	# GUL_Irnerio_Bertuzzi_sec
+	# GUL_Giorgio_Ruffolo_for
+}
+
+#Characters
+recruit_character = GUL_Enrico_Mattei
+recruit_character = GUL_Giuseppe_Oriana
+
+recruit_character = GUL_Zayed_bin_Sultan_al_Nahyan
+recruit_character = GUL_Abdulrahman_al_Bakir
+recruit_character = GUL_Shakhbut_bin_Sultan_al_Nahyan
+recruit_character = GUL_Gurudas_Dasgupta
+
+set_country_flag = TNO_eliminate_military_spending
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Corporatism }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Corporatism }

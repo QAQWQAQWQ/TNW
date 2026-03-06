@@ -1,0 +1,19 @@
+characters = {
+	###################################################
+	###########			AZAD HIND			###########
+	###################################################
+
+	AZH_Ram_lakhan_yadav = {
+		name = AZH_Ram_lakhan_yadav
+		portraits = {
+			civilian = { large = "gfx/leaders/AZH/Portrait_AZH_Ram_lakhan_yadav.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_RAM_LAKHAN_YADAV_DESC"
+			ideology = paternalism_social_nationalism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+}

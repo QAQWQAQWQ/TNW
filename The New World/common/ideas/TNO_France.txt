@@ -1,0 +1,130 @@
+ideas = {
+	country = {
+		###TNW###
+		FRS_The_homeland_of_the_French_nation = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FRS_The_homeland_of_the_French_nation
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				political_power_facto = -0.045
+				admin_efficiency_monthly_rate = -0.5
+				stability_weekly = -0.002
+				war_support_weekly = -0.002
+
+			targeted_modifier = {
+				
+			}
+		}
+
+	
+  }
+
+  FRS_Reich_Shackles = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FRS_Reich_Shackles
+			modifier = {
+				
+
+			targeted_modifier = {
+				
+			}
+		}
+
+	
+  }
+
+  FRS_continuous_rain = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FRS_Reich_Shackles
+			modifier = {
+				political_power_factor = -0.01
+				stability_factor = -0.10
+				admin_program_cost_factor = 0.06
+				admin_efficiency_monthly_rate = -0.01
+				drift_defence_factor = -0.08
+				political_parties_policy_monthly_rate = -0.01
+
+			targeted_modifier = {
+				
+			}
+		}
+
+	
+  }
+
+  FRS_lost_future = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FRS_lost_future
+			modifier = {
+				gdp_growth_modifier = -00.075
+				inflation_rate_modifier = 00.75 
+				stability_factor = -0.15
+				war_support_factor = -0.25
+				compliance_gain = -0.03
+				resistance_growth = 0.05
+				conscription_factor = -0.40 
+
+				
+			}
+		}
+
+		FRS_economic_stagnation = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FRS_economic_stagnation
+			modifier = {
+				gdp_growth_modifier = -00.0275
+				Industrial_capacity_factory = -0.35
+				inflation_rate_modifier = 0.25
+		        production_factory_max_efficiency_factor = -0.40
+				production_factory_efficiency_gain_factor = -0.40
+				research_speed_factor = -0.17
+
+				
+			}
+		}
+
+	
+  }
+
+}

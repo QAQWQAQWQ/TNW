@@ -1,0 +1,325 @@
+ division_template = {
+	name = "Divisão de Infantaria Leve"				# Brazil Light Infantry Division
+	division_names_group = BRA_GAR_01
+	regiments = {
+	light_infantry = { x = 0 y = 0 }
+	light_infantry = { x = 0 y = 1 }
+	light_infantry = { x = 1 y = 0 }
+	light_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Divisão de Infantaria"				# Brazil Normal Army Division
+	division_names_group = BRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+			artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigada Blindada"				# Brazil Normal Tank Division
+	division_names_group = BRA_ARM_01
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Cavalaria"				# Brazil Cavalry Division
+	division_names_group = BRA_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = "5223"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = "12938"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = "8148"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = "14784"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = "8233"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = "17413"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = "8143"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = "14771"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = "12933"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = "5107"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = "2150"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1a Brigada Blindada"
+		location = "8143"
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2a Brigada Blindada"
+		location = "5107"
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = "14777"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = "2168"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = "8179"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = "2164"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = "5223"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = "14781"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = "12913"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = "2132"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = "5153"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = "17470"
+		division_template = "Divisão de Infantaria Leve"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = "5220"
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = "17404"
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = "2228"
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = "2164"
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+}

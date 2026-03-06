@@ -1,0 +1,1256 @@
+TNO_admin_title_init = {
+	TNO_admin_title_endo_exo_init = yes
+	TNO_admin_title_special_region_init = yes
+	TNO_admin_title_long_name_init = yes
+	TNO_admin_title_assoc_region_europe_init = yes
+	TNO_admin_title_assoc_region_americas_init = yes
+	TNO_admin_title_assoc_region_asia_init = yes
+	TNO_admin_title_europe_init = yes
+	TNO_admin_title_americas_init = yes
+	TNO_admin_title_asia_init = yes
+	TNO_admin_title_africa_init = yes
+	TNO_admin_title_sub_admin_init = yes
+	TNO_admin_title_descs_init = yes
+	TNO_admin_title_subdivisions_init = yes
+
+	set_global_flag = TNO_admin_title_map_mode_admin_title_only
+	
+	every_country = {
+		capital_scope = {
+			if = {
+				limit = {
+					OR = {
+						has_variable = TNO_admin_title
+						has_variable = TNO_assoc_region 
+					}
+				}
+				PREV = { set_variable = { TNO_selected_state_admin_title_map_mode = capital } }
+			}
+			else = {
+				set_variable = { PREV.TNO_selected_state_admin_title_map_mode = 1 }
+			}
+		}
+		force_update_map_mode = { mapmode = tno_admin_title_map_mode }
+	}
+}
+
+TNO_admin_title_endo_exo_init = {
+	###Sort by type of interaction, language, and then type of admin title
+
+	##Default Interactions
+	#German
+	add_to_array = { global.has_german_default = token:Admin_Title_Province }
+	add_to_array = { global.has_german_default = token:Admin_Title_Military_Territory }
+	add_to_array = { global.has_german_default = token:Admin_Title_Districts }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Kyiv }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Yekaterinoslav }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Chernihiv }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Zhytomyr }	
+	add_to_array = { global.has_german_default = token:Assoc_Region_Volyn }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Yuzivka }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Crimea }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Galicia_Ukraine }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Estonia }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Latvia }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Lithuania }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Belarus }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Tula }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Penza }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Kursk }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Moscow }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Volgograd }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Saratov }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Saint_Petersburg }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Voronezh }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Azerbaijan }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Caucasus_Mountain }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Georgia }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Kalmykia }
+	add_to_array = { global.has_german_default = token:Assoc_Region_Stavropol }
+	add_to_array = { global.has_german_default = token:Assoc_Region_RG_Netherlands }
+
+	#Italian
+	add_to_array = { global.has_italian_default = token:Admin_Title_Municipality }
+
+	#Japanese
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Territory }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Metropolis }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Subprefecture }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Treaty_Port }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Circuit }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Urban_Prefecture }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Prefecture }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Prefecture_Shu }
+	add_to_array = { global.has_japanese_default = token:Admin_Title_Prefecture_Cho }
+	add_to_array = { global.has_japanese_default = token:Assoc_Region_Korea }
+	add_to_array = { global.has_japanese_default = token:Assoc_Region_Sakhalin }
+	add_to_array = { global.has_japanese_default = token:Assoc_Region_New_Guinea }
+
+	#Spanish
+	add_to_array = { global.has_spanish_default = token:Admin_Title_County }
+	add_to_array = { global.has_spanish_default = token:Assoc_Region_CCP_TB }
+	add_to_array = { global.has_spanish_default = token:Assoc_Region_Chaco }
+	add_to_array = { global.has_spanish_default = token:Assoc_Region_Paranena }
+
+	#Russian
+	add_to_array = { global.has_russian_default = token:Admin_Title_Region }
+
+	##Endonym Interactions
+	#Spanish
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_State }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Province }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Federal_District }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Municipality }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Department }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Territory }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Colonial_Province }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Special_Commissariat }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Special_District }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Commune }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Federal_Territory }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_Judicial_Department }
+	add_to_array = { global.has_spanish_endonym = token:Admin_Title_National_Territory }
+	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Far_North }
+	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Near_North }
+	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Central_Core }
+	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_CCP_TB }
+ 	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Lakes }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Canals }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Chaco }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Paranena }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Old_Castile }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Basque_Country }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Navarre }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Aragon }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Catalonia }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Valencia }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Balearic_Islands }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_New_Castile }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Andalusia }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Beni_Dept }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_La_Paz_Dept }
+  	add_to_array = { global.has_spanish_endonym = token:Assoc_Region_Santa_Cruz_Dept }
+
+  	#Portuguese
+  	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_State }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Province }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Federal_District }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Municipality }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Colony }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Federal_Territory }
+   	add_to_array = { global.has_portuguese_endonym = token:Admin_Title_Districts }
+   	add_to_array = { global.has_portuguese_endonym = token:Assoc_Region_Galicia_Iberia }
+   	add_to_array = { global.has_portuguese_endonym = token:Assoc_Region_Extremadura }
+
+	#Arabic
+  	add_to_array = { global.has_arabic_endonym = token:Admin_Title_State }
+  	add_to_array = { global.has_arabic_endonym = token:Admin_Title_Municipality }
+  	add_to_array = { global.has_arabic_endonym = token:Admin_Title_Governorate }
+  	add_to_array = { global.has_arabic_endonym = token:Admin_Title_Banner }
+  	add_to_array = { global.has_arabic_endonym = token:Admin_Title_Port }
+
+	#Italian
+  	add_to_array = { global.has_italian_endonym = token:Admin_Title_Province }
+  	add_to_array = { global.has_italian_endonym = token:Admin_Title_Governorate }
+  	add_to_array = { global.has_italian_endonym = token:Admin_Title_Treaty_Port }
+  	add_to_array = { global.has_italian_endonym = token:Admin_Title_Canal_Zone }
+  	add_to_array = { global.has_italian_endonym = token:Assoc_Region_Balearic_Islands }
+
+  	#Turkish
+  	add_to_array = { global.has_turkish_endonym = token:Admin_Title_Province }
+  	add_to_array = { global.has_turkish_endonym = token:Admin_Title_Special_Zone }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Aegean }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Black_Sea }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Central_Anatolia }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_East_Anatolia }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Mediterranean }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Southeast_Anatolia }
+  	add_to_array = { global.has_turkish_endonym = token:Assoc_Region_Cyprus_Province }
+
+  	#Chinese
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_Municipality }
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_ASR }
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_SAR }
+   	add_to_array = { global.has_chinese_endonym = token:Admin_Title_County }
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_Dzong }
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_Leagues_Banners }
+  	add_to_array = { global.has_chinese_endonym = token:Admin_Title_Counties_Leagues_Banners }
+  	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Nanjing_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Shanghai_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Jiangsu_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Huaihai_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Zhejiang_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Ouhai_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Anhui_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Beijing_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Tianjin_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Qingdao_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Zhili_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Hebei_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Taiyue_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Shandong_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Shanxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Chongqing_SAR }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Chuandong_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Chuanxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Guizhou_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Guangxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Yunnan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Xikang_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Tibet_Area }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Wuhan_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Jiangxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Ganjiang_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Hubei_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Hunan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Hengnan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Henan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Zhongyuan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Xiamen_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_PRD_SAR }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Fujian_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Xingquan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Guangdong_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Qiongya_SAR }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Taiwan_SAR }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Shaanxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Hanzhong_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Longxi_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Gansu_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Qinghai_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Xinjiang_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Mukden_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Changchun_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Harbin_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Dalian_Municipality }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Liaoning_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Jilin_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Heilongjiang_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Jinghai_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Beihai_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Kuye_SAR }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Chahar_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Suiyuan_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Rehe_Province }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Mongolia_Area }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_East_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_North_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Southwest_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_South_Central_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_South_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Northwest_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Northeast_China }
+	add_to_array = { global.has_chinese_endonym = token:Assoc_Region_Frontier }
+
+  	#French
+  	add_to_array = { global.has_french_endonym = token:Admin_Title_Department }
+
+  	#Ukrainian
+  	add_to_array = { global.has_ukrainian_endonym = token:Assoc_Region_Crimea }
+ 	add_to_array = { global.has_ukrainian_endonym = token:Assoc_Region_Galicia_Ukraine }
+
+ 	#Swedish
+ 	add_to_array = { global.has_swedish_endonym = token:Admin_Title_County }
+ 	add_to_array = { global.has_swedish_endonym = token:Admin_Title_City }
+ 	add_to_array = { global.has_swedish_endonym = token:Admin_Title_Municipality }
+}
+
+TNO_admin_title_long_name_init = {
+	#Long Names, for display in the textbox
+	add_to_array = { global.title_has_long_name = token:Admin_Title_Unc_Territory }
+	add_to_array = { global.title_has_long_name = token:Admin_Title_Inc_Territory }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_Chongqing_SAR }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_PRD_SAR }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_Qiongya_SAR }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_Taiwan_SAR }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_Kuye_SAR }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_CCP_TB }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_Beni_Dept }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_La_Paz_Dept }
+	add_to_array = { global.title_has_long_name = token:Assoc_Region_White_Karelia_Province }
+}
+
+TNO_admin_title_special_region_init = {
+	#Initialization
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Beni_Dept }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_La_Paz_Dept }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Santa_Cruz_Dept }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_RG_Netherlands }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Nanjing_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Shanghai_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Jiangsu_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Huaihai_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Zhejiang_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Ouhai_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Anhui_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Beijing_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Tianjin_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Qingdao_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Zhili_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Hebei_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Taiyue_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Shandong_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Shanxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Chongqing_SAR }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Chuandong_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Chuanxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Guizhou_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Guangxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Yunnan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Xikang_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Tibet_Area }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Wuhan_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Jiangxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Ganjiang_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Hubei_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Hunan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Hengnan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Henan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Zhongyuan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Xiamen_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_PRD_SAR }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Fujian_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Xingquan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Guangdong_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Qiongya_SAR }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Taiwan_SAR }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Shaanxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Hanzhong_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Longxi_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Gansu_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Qinghai_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Xinjiang_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Mukden_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Changchun_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Harbin_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Dalian_Municipality }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Liaoning_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Jilin_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Heilongjiang_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Jinghai_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Beihai_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Kuye_SAR }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Chahar_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Suiyuan_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Rehe_Province }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_Mongolia_Area }
+	add_to_array = { global.title_is_special_region = token:Assoc_Region_White_Karelia_Province }
+}
+
+TNO_admin_title_sub_admin_init = {
+	#Initialization
+	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Province }
+   	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Municipality }
+   	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Department }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_County }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Prefecture }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Commune }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Dzong }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Leagues_Banners }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Counties_Leagues_Banners }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Districts }
+ 	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Boroughs }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Parishes }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_COG }
+  	add_to_array = { global.has_sub_admin_version = token:Admin_Title_Districts_Unorganized_Atolls }
+
+	#Greece
+	GRE = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_admin_title = token:Admin_Title_Department }
+					AND = {
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Cyprus_Dept }
+						NOT = {
+							state = 2322
+							state = 2323
+						}
+					}
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Prefecture }
+		}
+	}
+
+	#Turkey + Puppets
+	TUR = {
+		every_owned_state = {
+			limit = { 
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Aegean }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Black_Sea }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Central_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_East_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Marmara }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Mediterranean }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Southeast_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Cyprus_Province }
+				}
+				NOT = { check_variable = { TNO_admin_title = token:Admin_Title_Province } }
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+		}
+		every_owned_state = {
+			limit = { 
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Aegean }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Black_Sea }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Central_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_East_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Marmara }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Mediterranean }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Southeast_Anatolia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Cyprus_Province }
+				}
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	BKU = {
+		every_owned_state = {
+			limit = { 
+				check_variable = { TNO_assoc_region = token:Assoc_Region_Southeast_Anatolia }
+				NOT = { 
+					check_variable = { TNO_admin_title = token:Admin_Title_Province }
+					check_variable = { TNO_admin_title = token:Admin_Title_Special_Zone }
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+		}
+		every_owned_state = {
+			limit = { 
+				check_variable = { TNO_admin_title = token:Admin_Title_Province }
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	#Uruguay
+	URG = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Interior }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Montevideo }
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Department }
+		}
+	}
+
+	#Chile
+	CHL = {
+		every_owned_state = {
+			limit = { check_variable = { TNO_admin_title = token:Admin_Title_Province } }
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Department }
+		}
+		every_owned_state = {
+			limit = { check_variable = { TNO_admin_title = token:Admin_Title_Department } }
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Commune }
+		}
+	}
+
+	#Ostland, Moscowien, and Kaukasus
+	OST = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Estonia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Latvia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Lithuania }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Belarus }
+				}
+				NOT = {
+					state = 11
+					state = 13
+					state = 79
+					state = 1397
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	MCW = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Tula }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Penza }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Kursk }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Moscow }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Volgograd }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Saratov }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Saint_Petersburg }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Voronezh }
+				}
+				NOT = {
+					state = 195
+					state = 243
+					state = 260
+					state = 1442
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	CAU = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Azerbaijan }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Caucasus_Mountain }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Georgia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Kalmykia }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Kuban }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Stavropol }
+				}
+				NOT = { state = 1552 }
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	#Paraguay
+	PAR = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Chaco }
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Paranena }
+				}
+				NOT = { 
+					state = 1621
+					state = 1622
+					state = 1623
+					state = 1624
+					state = 1649
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Department }
+		}
+	}
+
+	#Germany
+	GER = {
+		every_owned_state = {
+			limit = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Reichsgau }
+				NOT = { 
+					state = 64
+					state = 775
+					state = 1025
+					state = 1532
+					state = 1809
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+		}
+	}
+
+	#USA
+	USA = {
+		every_owned_state = {
+			limit = {
+				check_variable = { TNO_admin_title = token:Admin_Title_State }
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_County }
+		}
+	}
+	set_variable = { 357.TNO_sub_admin_title = token:Admin_Title_COG }
+	set_variable = { 371.TNO_sub_admin_title = token:Admin_Title_Parishes }
+	set_variable = { 772.TNO_sub_admin_title = token:Admin_Title_Boroughs }
+	set_variable = { 686.TNO_sub_admin_title = token:Admin_Title_Municipality }
+	set_variable = { 2106.TNO_sub_admin_title = token:Admin_Title_Districts }
+	set_variable = { 2495.TNO_sub_admin_title = token:Admin_Title_Districts_Unorganized_Atolls }
+
+	#Iberia
+	IBR = {
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 166
+					state = 167
+					state = 169
+					state = 171
+					state = 173
+					state = 174
+					state = 178
+					state = 982
+					state = 986
+					state = 988
+					state = 993
+					state = 995
+					state = 996
+					state = 997
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+		}
+	}
+
+	#Bolivia
+	BOL = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 1677
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Province }
+		}
+	}
+
+	#China
+	for_each_scope_loop = {
+		array = global.greater_china_states
+		if = {
+			limit = {
+				controller = {
+					OR = {
+						tag = CHI
+						is_in_array = { global.chinese_warlords = THIS }
+					}
+				}
+			}
+			if = {
+				limit = { check_variable = { TNO_assoc_region = token:Assoc_Region_Tibet_Area } }
+				set_variable = { TNO_sub_admin_title = token:Admin_Title_Dzong }
+			}
+			else_if = {
+				limit = { check_variable = { TNO_assoc_region = token:Assoc_Region_Mongolia_Area } }
+				set_variable = { TNO_sub_admin_title = token:Admin_Title_Leagues_Banners }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Qinghai_Province } 
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Chahar_Province }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Suiyuan_Province }
+					}
+				}
+				set_variable = { TNO_sub_admin_title = token:Admin_Title_Counties_Leagues_Banners }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Nanjing_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Shanghai_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Beijing_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Tianjin_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Qingdao_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Wuhan_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Xiamen_Municipality }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Chongqing_SAR }
+						check_variable = { TNO_assoc_region = token:Assoc_Region_PRD_SAR }
+					}
+				}
+				set_variable = { TNO_sub_admin_title = token:Admin_Title_Districts }
+			}
+			else = {
+				set_variable = { TNO_sub_admin_title = token:Admin_Title_County }
+			}
+		}
+	}
+
+	#Sweden
+	SWE = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 124
+					state = 141
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Municipality }
+		}
+	}
+
+	#Finland
+	FIN = {
+		every_owned_state = {
+			limit = {
+				NOT = {
+					state = 111
+				}
+			}
+			set_variable = { TNO_sub_admin_title = token:Admin_Title_Municipality }
+		}
+	}
+}
+
+TNO_admin_title_descs_init = {
+	#Initialization
+	add_to_array = { global.title_has_desc = token:Admin_Title_Territory }
+	add_to_array = { global.title_has_desc = token:Admin_Title_Special_Zone }
+	add_to_array = { global.title_has_desc = token:Assoc_Region_Santa_Cruz_Dept }
+
+	# Admin Titles
+	every_state = {
+		limit = {
+			check_variable = { TNO_admin_title = token:Admin_Title_Special_Zone }	
+		}
+		add_to_array = { global.state_has_desc = THIS.id }
+		add_to_array = { state_has_desc_entry = BKU }
+	}
+	648 = {
+		add_to_array = { global.state_has_desc = THIS.id }
+		add_to_array = { state_has_desc_entry = JAP }
+	}
+
+	# Assoc Regions
+	every_state = {
+		limit = {
+			check_variable = { TNO_assoc_region = token:Assoc_Region_Santa_Cruz_Dept }
+			is_controlled_by = STC	
+		}
+		add_to_array = { global.state_has_desc = THIS.id }
+		add_to_array = { state_has_desc_entry = STC }
+		add_to_array = { state_has_desc_entry = BOL }
+	}
+}
+
+TNO_admin_title_subdivisions_init = {
+	every_state = {
+		limit = {
+			is_spanish_state = yes
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Province }	
+		}
+		if = {
+			limit = {
+				OR = {
+					state = 166
+					state = 167
+					state = 171
+					state = 173
+					state = 174
+					state = 178
+					state = 982
+					state = 986
+					state = 988
+					state = 996
+					state = 997
+				}
+			}
+			set_variable = { TNO_subdivisions = 2 }
+		}
+		if = {
+			limit = {
+				OR = {
+					state = 169
+					state = 993
+				}
+			}
+			set_variable = { TNO_subdivisions = 3 }
+		}
+		if = {
+			limit = {
+				state = 995
+			}
+			set_variable = { TNO_subdivisions = 4 }
+		}
+	}
+
+	every_state = {
+		limit = {
+			check_variable = { TNO_sub_admin_title = token:Admin_Title_Department }
+			is_controlled_by = PAR
+			NOT = { state = 688 }
+		}
+		if = {
+			limit = {
+				OR = {
+					state = 301
+					state = 1616
+					state = 1617
+					state = 1618
+					state = 1620
+					state = 2100
+				}
+			}
+			set_variable = { TNO_subdivisions = 2 }
+		}
+		if = {
+			limit = {
+				state = 1619
+			}
+			set_variable = { TNO_subdivisions = 3 }
+		}
+	}
+
+	997 = {
+		set_variable = { TNO_subdivisions = 2 }
+	}
+}
+
+## Changes the admin title of the currently scoped state to the admin title specified in `TNO_admin_title`
+# Ex:
+# set_temp_variable = { TNO_admin_title = <admin title token> }
+# TNO_adjust_admin_title = yes
+TNO_adjust_admin_title = {
+	log = "TNO_adjust_admin_title - State: [THIS.GetID] - [?TNO_admin_title] -> [?admin_title_temp]"
+	set_variable = { TNO_admin_title = admin_title_temp }
+	custom_effect_tooltip = adjust_admin_title_tt
+}
+
+## Changes the assoc region of the currently scoped state to the assoc region specified in `TNO_assoc_region`
+# Ex:
+# set_temp_variable = { TNO_assoc_region = <assoc region token> }
+# TNO_adjust_assoc_region = yes
+TNO_adjust_assoc_region = {
+	log = "TNO_adjust_assoc_region - State: [THIS.GetID] - [?TNO_assoc_region] -> [?assoc_region_temp]"
+	set_variable = { TNO_assoc_region = assoc_region_temp }
+	custom_effect_tooltip = adjust_assoc_region_tt
+}
+
+##Same format as the above, just using `TNO_assoc_region_2```  instead
+TNO_adjust_assoc_region_2 = {
+	log = "TNO_adjust_assoc_region_2 - State: [THIS.GetID] - [?TNO_assoc_region_2] -> [?assoc_region_2_temp]"
+	set_variable = { TNO_assoc_region_2 = assoc_region_2_temp }
+	custom_effect_tooltip = adjust_assoc_region_2_tt
+}
+
+## Changes the sub admin title of the currently scoped state to the sub admin title specified in `TNO_sub_admin_title
+# Ex:
+# set_temp_variable = { TNO_sub_admin_title = <sub admin title token> }
+# TNO_adjust_sub_admin_title = yes
+TNO_adjust_sub_admin_title = {
+	log = "TNO_adjust_sub_admin_title - State: [THIS.GetID] - [?TNO_sub_admin_title] -> [?sub_admin_title_temp]"
+	set_variable = { TNO_sub_admin_title = sub_admin_title_temp }
+	custom_effect_tooltip = adjust_sub_admin_title_tt
+}
+
+## Handles any possible admin title interactions when a state switches owners
+# Ex:
+# if = {
+#		limit = {
+#			FROM = {
+#				tag = <old owner>
+#			}
+#			ROOT = {
+#				tag = <new owner>
+#			}
+#		}
+#		FROM.FROM = {
+#			<effects here>
+#		}
+#	}
+TNO_admin_title_state_control_effect = { 
+	log = "TNO_admin_title_state_control_effect - State: [FROM.FROM.GetID] - ROOT: [old_owner.GetTag] -> FROM: [new_owner.GetTag]"
+	if = {
+		limit = {
+			OR = {
+				FROM = {
+					tag = BKU
+				}
+				AND = {
+					FROM = {
+						tag = TUR
+					}
+					OR = {
+						has_global_flag = ita_tur_ita_win
+						has_global_flag = ita_tur_ita_lose
+					}
+				}
+			}
+			ROOT = {
+				OR = {
+					is_in_faction_with = IME
+					tag = IRQ
+				}
+			}
+		}
+		FROM.FROM = {
+			clear_variable = TNO_admin_title
+			clear_variable = TNO_assoc_region
+			if = {
+				limit = {
+					ROOT = {
+						tag = IRQ
+					}
+					FROM.FROM = {
+						OR = {
+							is_claimed_by = IRQ
+							is_core_of = IRQ
+						}
+					}
+				}
+				FROM.FROM = { 
+					set_temp_variable = { admin_title_temp = token:Admin_Title_Banner }
+					TNO_adjust_admin_title = yes 
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				OR = {
+					is_in_faction_with = TUR
+					tag = BKU
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					is_core_of = BKU
+				}
+			}
+			FROM.FROM = { 
+				set_temp_variable = { assoc_region_temp = token:Assoc_Region_Southeast_Anatolia }
+				TNO_adjust_assoc_region = yes 
+			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						check_variable = { TNO_assoc_region = token:Assoc_Region_Southeast_Anatolia }
+						NOT = {
+							state = 1779
+							state = 1993
+						}
+					}
+				}
+				FROM.FROM = { 
+					set_temp_variable = { sub_admin_title_temp = token:Admin_Title_Province }
+					TNO_adjust_sub_admin_title = yes
+				}
+			}
+			if = {
+				limit = { FROM.FROM = { state = 1779 } }
+				FROM.FROM = { 
+					set_temp_variable = { admin_title_temp = token:Admin_Title_Province }
+					TNO_adjust_admin_title = yes
+					set_temp_variable = { sub_admin_title_temp = token:Admin_Title_Districts }
+					TNO_adjust_sub_admin_title = yes
+				}
+			}
+			if = {
+				limit = { FROM.FROM = { state = 1993 } }
+				FROM.FROM = { 
+					set_temp_variable = { admin_title_temp = token:Admin_Title_Special_Zone }
+					TNO_adjust_admin_title = yes
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = GRE
+			}
+			ROOT = {
+				OR = {
+					tag = TUR
+					is_in_faction_with = TUR
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					check_variable = { TNO_assoc_region = token:Assoc_Region_Cyprus_Dept }
+					NOT = {
+						state = 2322
+						state = 2323
+					}
+				}
+			}
+			FROM.FROM = { 
+				set_temp_variable = { sub_admin_title_temp = token:Admin_Title_Districts }
+				TNO_adjust_sub_admin_title = yes
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = ITA
+			}
+			ROOT = {
+				tag = TUR
+			}
+			has_global_flag = ita_tur_ita_lose
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					state = 164
+				}
+			}
+			FROM.FROM = {
+				set_temp_variable = { assoc_region_temp = token:Assoc_Region_Aegean }
+				TNO_adjust_assoc_region = yes
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Province }
+				TNO_adjust_admin_title = yes
+			}
+		}
+	}
+	else_if = { # China Admin Title Reverse
+		limit = {
+			FROM.FROM = { has_variable = china_state_ref }
+			ROOT = {
+				NOT = {
+					tag = CHI
+					is_in_array = { global.chinese_warlords = THIS }
+				}
+			}
+		}
+		FROM.FROM = {
+			clear_variable = TNO_assoc_region
+			clear_variable = TNO_sub_admin_title
+			clear_variable = TNO_admin_title
+		}
+		if = {
+			limit = {
+				FROM.FROM = { state = 810 }
+				FROM = { tag = JAP }
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Territory }
+				TNO_adjust_admin_title = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = { check_variable = { china_state_ref = 37 } }
+				FROM = { tag = JAP }
+			}
+			FROM.FROM = { 
+				set_temp_variable = { assoc_region_temp = token:Assoc_Region_Taiwan_Jap }
+				TNO_adjust_assoc_region = yes 
+			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 524
+							state = 1850
+							state = 1851
+							state = 1852
+							state = 1853
+							state = 1856
+						}
+					}
+				}
+				FROM.FROM = {
+					set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture_Cho }
+					TNO_adjust_admin_title = yes
+				}
+			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 1854
+							state = 1855
+						}
+					}
+				}
+				FROM.FROM = {
+					set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture_Shu }
+					TNO_adjust_admin_title = yes
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				OR = {
+					tag = RPS
+					tag = SDS
+					tag = SDF
+				}
+			}
+			FROM = {
+				tag = EGY
+			}
+		}
+		FROM.FROM = {
+			set_temp_variable = { admin_title_temp = token:Admin_Title_Province }
+			TNO_adjust_admin_title = yes
+		}
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				OR = {
+					tag = AYA
+					tag = AZA
+				}
+			}
+			FROM = {
+				tag = EGY
+			}
+		}
+		FROM.FROM = { clear_variable = TNO_admin_title }
+	}
+	else_if = { 
+		limit = { 
+			ROOT = {
+				tag = GER
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = { state = 195 }
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Reichsgau }
+				TNO_adjust_admin_title = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = { 
+					OR = {
+						state = 706
+						state = 707 
+					}
+				}
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Military_Territory }
+				TNO_adjust_admin_title = yes
+			}
+		}
+	}
+	else_if = { #Failsafe for WW3
+		limit = {
+			FROM = {
+				tag = JAP
+			}
+			ROOT = {
+				tag = USA 
+			}
+			JAP = {
+				has_war_with = USA
+			}
+			USA = {
+				has_war_with = JAP
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					state = 629
+					NOT = { is_controlled_by = USA }
+				}
+			}
+			FROM.FROM = {
+				clear_variable = TNO_assoc_region 
+				set_temp_variable = { admin_title_temp = token:Admin_Title_State }
+				TNO_adjust_admin_title = yes
+				set_temp_variable = { sub_admin_title_temp = token:Admin_Title_County }
+				TNO_adjust_sub_admin_title = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					OR = {
+						state = 768
+						state = 769
+					}
+					NOT = { is_controlled_by = USA }
+				}
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Port }
+				TNO_adjust_admin_title = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					OR = {
+						state = 2518
+						state = 2523
+					}
+					NOT = { is_controlled_by = USA }
+				}
+			}
+			clear_variable = TNO_assoc_region 
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Unc_Territory }
+				TNO_adjust_admin_title = yes
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = ITA
+			}
+			ROOT = {
+				tag = NYM 
+			}
+		}
+		if = {
+			limit = {
+				FROM.FROM = {
+					state = 1705
+				}
+			}
+			FROM.FROM = {
+				set_temp_variable = { admin_title_temp = token:Admin_Title_Port }
+				TNO_adjust_admin_title = yes
+			}
+		}
+	}
+	else = {
+		log = "TNO_admin_title_state_control_effect - No interactions occured"
+	}
+	clear_global_event_target = new_owner
+	clear_global_event_target = old_owner
+}
+
+TNO_admin_title_endo_exo_button_effects = {
+	if = {
+		limit = {
+			has_global_flag = TNO_exonym_mode
+		}
+		every_state = {
+			limit = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Prefecture_Shu }
+			}
+			set_state_flag = admin_title_was_shu
+			set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture }
+			TNO_adjust_admin_title = yes
+		}
+		every_state = {
+			limit = {
+				check_variable = { TNO_admin_title = token:Admin_Title_Prefecture_Cho }
+			}
+			set_state_flag = admin_title_was_cho
+			set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture }
+			TNO_adjust_admin_title = yes
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_global_flag = TNO_exonym_mode }
+		}
+		every_state = {
+			limit = {
+				has_state_flag = admin_title_was_shu
+			}
+			set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture_Shu }
+			TNO_adjust_admin_title = yes
+		}
+		every_state = {
+			limit = {
+				has_state_flag = admin_title_was_cho
+			}
+			set_temp_variable = { admin_title_temp = token:Admin_Title_Prefecture_Cho }
+			TNO_adjust_admin_title = yes
+		}
+	}
+}
