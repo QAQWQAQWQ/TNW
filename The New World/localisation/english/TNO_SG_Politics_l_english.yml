@@ -1,0 +1,1153 @@
+﻿l_english:
+ top_level: "Head of Government"
+
+ TNO_POLITICS_FACTION_LEADER: "Leader"
+ TNO_POLITICS_FACTION_MEMBER: "Member"
+
+ TNO_POLITICS_CATEGORY_1_LAW_tno_political_parties_TT: "§FEffects from our §YPolitical Parties§! policy:\n  Daily Political Power Gain: [?tno_political_parties_political_power_gain|+=]\n  Ideology Drift Defense: [?tno_political_parties_drift_defence_factor|%+=]\n  Stability: [?tno_political_parties_stability_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_political_parties_name: "§WPolitical Parties§!"
+ 
+ tno_political_parties_nonpartisan_system_MODIFIER: "Daily Political Power Gain: §G+0.15§! - §G+0.25§!\nIdeology Drift Defense: §R-25.00%§! - §G+25.00%§!\nStability: §R-5.00%§! - §R-2.50%§!"
+ tno_political_parties_nonpartisan_system_MODIFIER_2: ""
+ 
+ tno_political_parties_one_party_state_MODIFIER: "Daily Political Power Gain: §G+0.10§! - §G+0.20§!\nIdeology Drift Defense: §G+25.00%§! - §G+50.00%§!"
+ tno_political_parties_one_party_state_MODIFIER_2: ""
+ 
+ tno_political_parties_controlled_opposition_MODIFIER: "Daily Political Power Gain: §Y0.00§! - §G+0.10§!\nIdeology Drift Defense: §Y0.00%§! - §G+25.00%§!\nStability: §R-2.50%§! - §G+2.50%§!"
+ tno_political_parties_controlled_opposition_MODIFIER_2: ""
+
+ tno_political_parties_dominant_party_system_MODIFIER: "Daily Political Power Gain: §Y0.00§! - §G+0.05§!\nIdeology Drift Defense: §Y0.00%§! - §G+15.00%§!\nStability: §R-2.50%§! - §G+2.50%§!"
+ tno_political_parties_dominant_party_system_MODIFIER_2: ""
+
+ tno_political_parties_multiparty_system_MODIFIER: "Stability: §R-5.00%§! - §G+5.00%§!"
+ tno_political_parties_multiparty_system_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_religious_rights_TT: "§FEffects from our §YReligious Rights§! policy:\n  Stability: [?tno_religious_rights_stability_factor|%+=]\n  War Support: [?tno_religious_rights_war_support_factor|%+=]\n  Daily Political Power Gain: [?tno_religious_rights_political_power_gain|+=]\n  Ideology Drift Defense: [?tno_religious_rights_drift_defence_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_religious_rights_name: "§WReligious Rights§!"
+ 
+ tno_religious_rights_state_religion_MODIFIER: "Stability: §R-5.00%§! - §G+10.00%§!\nWar Support: §Y0.00%§! - §G+10.00%§!\nDaily Political Power Gain: §R-0.15§! - §G+0.15§!"
+ tno_religious_rights_state_religion_MODIFIER_2: ""
+
+ tno_religious_rights_pluralism_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!\nDaily Political Power Gain: §R-0.10§! - §R-0.05§!"
+ tno_religious_rights_pluralism_MODIFIER_2: ""
+
+ tno_religious_rights_secularism_MODIFIER: "Stability: §R-2.50%§! - §G+5.00%§!"
+ tno_religious_rights_secularism_MODIFIER_2: ""
+
+ tno_religious_rights_laicism_MODIFIER: "Stability: §R-5.00%§! - §G+2.50%§!\nWar Support: §R-2.50%§! - §Y0.00%§!\nDaily Political Power Gain: §R-0.025§! - §G+0.025§!"
+ tno_religious_rights_laicism_MODIFIER_2: ""
+
+ tno_religious_rights_suppression_of_churches_MODIFIER: "Stability: §R-7.50%§! - §R-2.50%§!\nWar Support: §R-5.00%§! - §Y0.00%§!\nIdeology Drift Defense: §R-10.00%§! - §G+25.00%§!\nDaily Political Power Gain: §R-0.05§! - §G+0.05§!"
+ tno_religious_rights_suppression_of_churches_MODIFIER_2: ""
+
+ tno_religious_rights_state_atheism_MODIFIER: "Stability: §R-10.00%§! - §R-5.00%§!\nWar Support: §R-5.00%§! - §Y0.00%§!\nIdeology Drift Defense: §R-10.00%§! - §G+50.00%§!\nDaily Political Power Gain: §G+0.05§! - §G+0.10§!"
+ tno_religious_rights_state_atheism_MODIFIER_2: ""
+
+ TNO_POLITICS_CATEGORY_1_LAW_tno_trade_unions_TT: "§FEffects from our §YTrade Unions§! policy:\n  Factory Output: [?tno_trade_unions_industrial_capacity_factory|%+=]\n  Dockyard Output: [?tno_trade_unions_industrial_capacity_dockyard|%+=]\n  Production Efficiency Cap: [?tno_trade_unions_production_factory_max_efficiency_factor|%+=]\n  Stability: [?tno_trade_unions_stability_factor|%+=]\n  Monthly Industrial Expertise: [?tno_trade_unions_industrial_expertise_monthly_rate|=+]\n  Monthly Poverty Rate Change: [?tno_trade_unions_poverty_monthly_rate|+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_trade_unions_name: "§WTrade Unions§!"
+ 
+ tno_trade_unions_illegal_MODIFIER: "Factory Output: §G+2.50%§! - §G+5.00%§!\nDockyard Output: §G+2.50%§! - §G+5.00%§!\nProd. Efficiency Cap: §G+2.50%§! - §G+5.00%§!"
+ tno_trade_unions_illegal_MODIFIER_2: "Stability: §R-7.50%§! - §R-5.00%§!\nMonthly Poverty: §R+0.02%§! - §Y0.00%§!"
+
+ tno_trade_unions_state_controlled_MODIFIER: "Factory Output: §Y0.00%§! - §G+2.50%§!\nDockyard Output: §Y0.00%§! - §G+2.50%§!\nProd. Efficiency Cap: §Y0.00%§! - §G+2.50%§!"
+ tno_trade_unions_state_controlled_MODIFIER_2: "Monthly Poverty: §R+0.01%§! - §G-0.01%§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.10§!"
+
+ tno_trade_unions_nonsocialist_allowed_MODIFIER: "Factory Output: §R-5.00%§! - §R-2.50%§!\nDockyard Output: §R-5.00%§! - §R-2.50%§!\nProd. Efficiency Cap: §R-5.00%§! - §R-2.50%§!"
+ tno_trade_unions_nonsocialist_allowed_MODIFIER_2: "Monthly Poverty: §Y0.00%§! - §G-0.01%§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.25§!"
+
+ tno_trade_unions_all_allowed_MODIFIER: "Factory Output: §R-7.50%§! - §R-5.00%§!\nDockyard Output: §R-7.50%§! - §R-5.00%§!\nProd. Efficiency Cap: §R-7.50%§! - §R-5.00%§!\n"
+ tno_trade_unions_all_allowed_MODIFIER_2: "Stability: §Y0.00%§! - §G+2.50%§!\nMonthly Poverty: §Y0.00%§! - §G-0.02%§!\nMonthly Industrial Expertise: §G+0.25§! - §G+0.50§!"
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_immigration_TT: "§FEffects from our §YImmigration§! policy:\n  Stability: [?tno_immigration_stability_factor|%+=]\n  Monthly Population: [?tno_immigration_monthly_population|%+=]\n  Political Power Gain: [?tno_immigration_political_power_factor|%+=]\n  Monthly Academic Base: [?tno_immigration_academic_base_monthly_rate|+=]\n  Monthly Industrial Expertise: [?tno_immigration_industrial_expertise_monthly_rate|+=]\n  Monthly Poverty Rate Change: [?tno_immigration_poverty_monthly_rate|+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_immigration_name: "§WImmigration§!"
+ 
+ tno_immigration_closed_borders_MODIFIER: "Stability: §R-10.00%§! - §G+10.00%§!\nMonthly Population: §R-5.00%§! - §Y0.00%§!"
+ tno_immigration_closed_borders_MODIFIER_2: ""
+
+ tno_immigration_skilled_labor_only_MODIFIER: "Stability: §R-5.00%§! - §Y0.00%§!\nMonthly Population: §G+5.00%§! - §G+2.50%§!"
+ tno_immigration_skilled_labor_only_MODIFIER_2: "Monthly Academic Base: §G+0.25§! - §G+0.50§!\nMonthly Industrial Expertise: §G+0.25§! - §G+0.50§!"
+
+ tno_immigration_quota_immigration_MODIFIER: "Monthly Population: §G+10.00%§! - §G+5.00%§!"
+ tno_immigration_quota_immigration_MODIFIER_2: "Monthly Academic Base: §G+0.10§! - §G+0.25§!\nMonthly Industrial Expertise: §G+0.10§! - §G+0.25§!"
+
+ tno_immigration_open_immigration_MODIFIER: "Stability: §R-10.00%§! - §R-5.00%§!\nMonthly Population: §G+10.00%§! - §G+25.00%§!"
+ tno_immigration_open_immigration_MODIFIER_2: "Monthly Academic Base: §G+0.10§! - §G+0.20§!\nMonthly Industrial Expertise: §G+0.15§! - §G+0.25§!\nMonthly Poverty Rate: §R+0.01%§! - §Y0.00§!"
+
+ tno_immigration_encouraged_immigration_MODIFIER: "Stability: §R-15.00%§! - §R-10.00%§!\nMonthly Population: §G+20.00%§! - §G+35.00%§!"
+ tno_immigration_encouraged_immigration_MODIFIER_2: "Monthly Academic Base: §Y0.00§! - §G+0.10§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.15§!\nMonthly Poverty Rate: §R+0.03%§! - §R+0.01%§!"
+
+ tno_immigration_ethnic_immigration_MODIFIER: "Monthly Population: §G+25.00%§! - §Y0.00%§!\nPolitical Power Gain: §R-7.50%§! - §R-5.00%§!"
+ tno_immigration_ethnic_immigration_MODIFIER_2: "Monthly Academic Base: §G+0.10§! - §G+0.25§!\nMonthly Industrial Expertise: §G+0.10§! - §G+0.25§!"
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_slavery_TT: "§FEffects from our §YForced Labor§! policy:\n  Stability: [?tno_slavery_stability_factor|%+=]\n  Research Speed: [?tno_slavery_research_speed_factor|%+=]\n  War Support: [?tno_slavery_war_support_factor|%+=]\n  Daily Political Power Gain: [?tno_slavery_political_power_gain|+=]\n  Construction Speed: [?tno_slavery_production_speed_buildings_factor|%+=]\n  Factory Output: [?tno_slavery_industrial_capacity_factory|%+=]\n  Needed Consumer Goods: [?tno_slavery_consumer_goods_use_modifier|%-=]\n  Consumer Goods Production Factor: [?tno_slavery_consumer_goods_production_factor|%+=]\n  Free Repair: [?tno_slavery_free_repair|%+=]\n  Monthly Academic Base: [?tno_slavery_academic_base_monthly_rate|+=]\n  Monthly Industrial Base: [?tno_slavery_industrial_expertise_monthly_rate|+=]\n  Monthly Agricultural Base: [?tno_slavery_agriculture_monthly_rate|+=]\n  Monthly Poverty Rate Change: [?tno_slavery_poverty_monthly_rate|+=]\n  Recruitable Population: [?tno_slavery_recruitable_population_modifier|%+=]\n  Recruitable Non-Core Population: [?tno_slavery_recruitable_noncore_population_modifier|%+=]\n  Admin Costs: [?tno_admin_program_cost_factor|%-=]\n  Offensive War Stability: [?tno_slavery_offensive_war_stab_modifier|%+=]\n  Defensive War Stability: [?tno_slavery_defensive_war_stab_modifier|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_slavery_name: "§WForced Labor§!"
+ 
+ tno_slavery_chattel_MODIFIER: "Stability: §R-20.00%§! - §R-5.00%§!\nWar Support: §R-10.00%§! - §R-2.50%§!\nConstruction Speed: §G+5.00%§! - §G+20.00%§!\nFree Repair: §G+50.00%§! - §G+200.00%§!\nMonthly Population: §R-15.00%§! - §R-2.50%§!\nRecruitable Population: §R-5.00%§! - §Y0.00%§!"
+ tno_slavery_chattel_MODIFIER_2: "Factory Output: §G+5.00%§! - §G+20.00%§!\nNeeded Consumer Goods: §G-1.00%§! - §G-3.00%§!\nConsumer Goods Prod.: §G+5.00%§! - §G+10.00%§!\nMonthly Industrial Expertise: §R-0.50§! - §R-0.25§!\nMonthly Agricultural Base: §R-0.50§! - §R-0.25§!\nMonthly Poverty Rate: §R+0.06%§! - §R+0.02%§!"
+
+ tno_slavery_corvee_MODIFIER: "Stability: §R-10.00%§! - §R-2.50%§!\nWar Support: §R-5.00%§! - §Y0.00%§!\nConstruction Speed: §G+5.00%§! - §G+10.00%§!\nFree Repair: §G+25.00%§! - §G+75.00%§!\nMonthly Population: §R-5.00%§! - §Y0.00%§!\nRecruitable Population: §R-2.50%§! - §Y0.00%§!"
+ tno_slavery_corvee_MODIFIER_2: "Factory Output: §G+2.50%§! - §G+10.00%§!\nNeeded Consumer Goods: §Y0.00%§! - §G-2.00%§!\nConsumer Goods Prod.: §G+2.50%§! - §G+5.00%§!\nMonthly Industrial Expertise: §R-0.50§! - §R-0.25§!\nMonthly Agricultural Base: §R-0.50§! - §R-0.25§!\nMonthly Poverty Rate: §R+0.04%§! - §R+0.01%§!"
+
+ tno_slavery_penal_labor_MODIFIER: "Stability: §R-5.00%§! - §G+5.00%§!\nConstruction Speed: §Y0.00%§! - §G+5.00%§!\nFree Repair: §Y0.00%§! - §G+25.00%§!\n"
+ tno_slavery_penal_labor_MODIFIER_2: "Consumer Goods Prod.: §Y0.00%§! - §G+1.00%§!\nMonthly Industrial Expertise: §R-0.15§! - §G+0.05§!\nMonthly Poverty Rate: §R+0.02%§! - §Y0.00%§!"
+
+ tno_slavery_work_programs_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!\nWar Support: §R-5.00%§! - §Y0.00%§!\nConstruction Speed: §Y0.00%§! - §G+5.00%§!\nFree Repair: §Y0.00%§! - §G+10.00%§!"
+ tno_slavery_work_programs_MODIFIER_2: "Consumer Goods Prod.: §Y0.00%§! - §G+5.00%§!\nMonthly Industrial Expertise: §R-0.25§! - §G+0.25§!\nMonthly Poverty Rate: §R+0.02%§! - §G-0.02%§!\nAdministrative Cost: §R+1.50%§! - §R+0.75%§!"
+
+ tno_slavery_pow_only_MODIFIER: "Stability: §R-5.00%§! - §R-2.50%§!\nWar Support: §R-10.00%§! - §R-2.50%§!\nConstruction Speed: §Y0.00%§! - §G+10.00%§!\nFree Repair: §Y0.00%§! - §G+25.00%§!\nRecruitable Non-Core: §R-2.50%§! - §Y0.00%§!"
+ tno_slavery_pow_only_MODIFIER_2: "Factory Output: §Y0.00%§! - §G+10.00%§!\nConsumer Goods Prod.: §G+2.50%§! - §G+5.00%§!\nMonthly Industrial Expertise: §R-0.15§! - §R-0.05§!\nOffensive War Stability: §R-10.00%§! - §R-5.00%§!\nDefensive War Stability: §R-5.00%§! - §R-2.50%§!"
+
+ tno_slavery_outlawed_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!\nWar Support: §Y0.00%§! - §G+5.00%§!"
+ tno_slavery_outlawed_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_public_meetings_TT: "§FEffects from our §YPublic Meetings§! policy:\n  Stability: [?tno_public_meetings_stability_factor|%+=]\n  Political Power Gain: [?tno_public_meetings_political_power_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_public_meetings_name: "§WPublic Meetings§!"
+ 
+ tno_public_meetings_outlawed_MODIFIER: "Stability: §R-10.00%§! - §Y0.00%§!"
+ tno_public_meetings_outlawed_MODIFIER_2: ""
+
+ tno_public_meetings_regulated_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!\nPolitical Power Gain: §Y+0.00%§! - §G+2.50%§!"
+ tno_public_meetings_regulated_MODIFIER_2: ""
+
+ tno_public_meetings_allowed_MODIFIER: "Political Power Gain: §G+2.50%§! - §G+5.00%§!"
+ tno_public_meetings_allowed_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_press_rights_TT: "§FEffects from our §YPress Rights§! policy:\n  Stability: [?tno_press_rights_stability_factor|%+=]\n  Daily Political Power Gain: [?tno_press_rights_political_power_factor|%+=]\n  War Support: [?tno_press_rights_war_support_factor|%+=]\n  Ideology Drift Defense: [?tno_press_rights_drift_defence_factor|%+=]\n  Intel to Others: [?tno_press_rights_intel_to_others|-=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_press_rights_name: "§WPress Rights§!"
+ 
+ tno_press_rights_propaganda_press_MODIFIER: "Stability: §Y0.00%§! - §G+20.00%§!\nPolitical Power Gain: §R-15.00%§! - §R-10.00%§!\nWar Support: §Y0.00%§! - §G+25.00%§!"
+ tno_press_rights_propaganda_press_MODIFIER_2: "Ideology Drift Defense: §Y0.00%§! - §G+75.00%§!\nIntel to Others: §G-10.00%§! - §G-25.00%§!"
+
+ tno_press_rights_state_press_only_MODIFIER: "Stability: §G+5.00%§! - §G+10.00%§!\nPolitical Power Gain: §R-7.50%§! - §R-5.00%§!\nWar Support: §G+5.00%§! - §G+10.00%§!"
+ tno_press_rights_state_press_only_MODIFIER_2: "Ideology Drift Defense: §G+25.00%§! - §G+50.00%§!\nIntel to Others: §G-5.00%§! - §G-15.00%§!"
+
+ tno_press_rights_censored_press_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!\nPolitical Power Gain: §R-5.00%§! - §R-2.50%§!\nWar Support: §Y0.00%§! - §G+5.00%§!"
+ tno_press_rights_censored_press_MODIFIER_2: "Ideology Drift Defense: §G+10.00%§! - §G+25.00%§!"
+
+ tno_press_rights_free_press_MODIFIER: "Political Power Gain: §Y0.00%§! - §G+10.00%§!\nIdeology Drift Defense: §R-25.00%§! - §R-10.00%§!\nIntel to Others: §R+15.00%§! - §Y0.00%§!"
+ tno_press_rights_free_press_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_1_LAW_tno_vote_franchise_TT: "§FEffects from our §YVoter Franchise§! policy:\n  Stability: [?tno_vote_franchise_stability_factor|%+=]\n  Daily Political Power Gain: [?tno_vote_franchise_political_power_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_1_LAW_tno_vote_franchise_name: "§WVoter Franchise§!"
+ 
+ tno_vote_franchise_no_voting_MODIFIER: "Stability: §R-15.00%§! - §Y0.00%§!\nPolitical Power Gain: §Y0.00%§! - §G+15.00%§!"
+ tno_vote_franchise_no_voting_MODIFIER_2: ""
+
+ tno_vote_franchise_elite_voting_MODIFIER: "Stability: §R-7.50%§! - §Y0.00%§!\nPolitical Power Gain: §G+5.00%§! - §G+10.00%§!"
+ tno_vote_franchise_elite_voting_MODIFIER_2: ""
+
+ tno_vote_franchise_inequal_voting_MODIFIER: "Stability: §R-5.00%§! - §Y0.50%§!\nPolitical Power Gain: §G+2.50%§! - §G+7.50%§!"
+ tno_vote_franchise_inequal_voting_MODIFIER_2: ""
+
+ tno_vote_franchise_registered_voting_MODIFIER: "Stability: §R-5.00%§! - §G+2.50%§!\nPolitical Power Gain: §Y0.00%§! - §G+5.00%§!"
+ tno_vote_franchise_registered_voting_MODIFIER_2: ""
+
+ tno_vote_franchise_universal_MODIFIER: "Stability: §Y0.00%§! - §G+5.00%§!"
+ tno_vote_franchise_universal_MODIFIER_2: ""
+
+ tno_vote_franchise_promoted_voting_MODIFIER: "Stability: §G+2.50%§! - §G+5.00%§!\nPolitical Power Gain: §R-2.50%§! - §G+2.50%§!"
+ tno_vote_franchise_promoted_voting_MODIFIER_2: ""
+ 
+ 
+ TNO_POLITICS_CATEGORY_2_LAW_tno_conscription_TT: "§FEffects from our §YConscription§! policy:\n  Recruitable Population: [?tno_conscription_conscription|%Y]\n  Stability: [?tno_conscription_stability_factor|%+=]\n  War Support: [?tno_conscription_war_support_factor|%+=]\n  Daily Political Power Gain: [?tno_conscription_political_power_gain|+=]\n  Research Speed: [?tno_conscription_research_speed_factor|%+=]\n  Monthly Military Professionalism: [?tno_conscription_army_professionalism_monthly_rate|+]\n  Division Organization: [?tno_conscription_army_org_factor|%+=]\n  Division Recovery Rate: [?tno_conscription_army_morale_factor|%+=]\n  Factory Output: [?tno_conscription_industrial_capacity_factory|%+=]\n  Dockyard Output: [?tno_conscription_industrial_capacity_dockyard|%+=]\n  Construction Speed: [?tno_conscription_production_speed_buildings_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_2_LAW_tno_conscription_name: "§WConscription§!"
+ 
+ tno_conscription_scraping_the_barrel_MODIFIER: "Recruitable Population: §Y20.00%§! - §Y25.00%§!\nStability: §R-50.00%§! - §R-30.00%§!\nWar Support: §R-50.00%§! - §R-30.00%§!\nDaily Political Power Gain: §R-1.50§! - §R-1.00§!\nResearch Speed: §R-15.00%§! - §R-10.00%§!\nMonthly Military Prof.: §R-2.00§! - §R-1.50§!"
+ tno_conscription_scraping_the_barrel_MODIFIER_2: "Division Organization: §R-50.00%§! - §R-40.00%§!\nDivision Recovery Rate: §R-50.00%§! - §R-40.00%§!\nFactory Output: §R-50.00%§! - §R-45.00%§!\nDockyard Output: §R-50.00%§! - §R-45.00%§!\nConstruction Speed: §R-50.00%§! - §R-45.00%§!"
+
+ tno_conscription_all_adults_serve_MODIFIER: "Recruitable Population: §Y15.00%§! - §Y20.00%§!\nStability: §R-30.00%§! - §R-25.00%§!\nWar Support: §R-30.00%§! - §R-25.00%§!\nDaily Political Power Gain: §R-1.25§! - §R-0.75§!\nResearch Speed: §R-10.00%§! - §R-5.00%§!\nMonthly Military Prof.: §R-1.50§! - §R-1.00§!"
+ tno_conscription_all_adults_serve_MODIFIER_2: "Division Organization: §R-30.00%§! - §R-25.00%§!\nDivision Recovery Rate: §R-30.00%§! - §R-25.00%§!\nFactory Output: §R-30.00%§! - §R-25.00%§!\nDockyard Output: §R-30.00%§! - §R-25.00%§!\nConstruction Speed: §R-30.00%§! - §R-25.00%§!"
+
+ tno_conscription_service_by_requirement_MODIFIER: "Recruitable Population: §Y7.50%§! - §Y10.00%§!\nStability: §R-25.00%§! - §R-20.00%§!\nWar Support: §R-25.00%§! - §R-20.00%§!\nDaily Political Power Gain: §R-0.70§! - §R-0.50§!\nResearch Speed: §R-7.50%§! - §R-5.00%§!"
+ tno_conscription_service_by_requirement_MODIFIER_2: "Division Organization: §R-20.00%§! - §R-15.00%§!\nDivision Recovery Rate: §R-20.00%§! - §R-15.00%§!\nFactory Output: §R-25.00%§! - §R-20.00%§!\nDockyard Output: §R-25.00%§! - §R-20.00%§!\nConstruction Speed: §R-25.00%§! - §R-20.00%§!"
+
+ tno_conscription_extensive_conscription_MODIFIER: "Recruitable Population: §Y3.50%§! - §Y5.00%§!\nStability: §R-20.00%§! - §R-15.00%§!\nWar Support: §R-20.00%§! - §R-15.00%§!\nDaily Political Power Gain: §R-0.40§! - §R-0.20§!\nResearch Speed: §R-3.50%§! - §R-2.50%§!"
+ tno_conscription_extensive_conscription_MODIFIER_2: "Division Organization: §R-12.50%§! - §R-10.00%§!\nDivision Recovery Rate: §R-12.50%§! - §R-10.00%§!\nFactory Output: §R-15.00%§! - §R-10.00%§!\nDockyard Output: §R-15.00%§! - §R-10.00%§!\nConstruction Speed: §R-15.00%§! - §R-10.00%§!"
+
+ tno_conscription_broadened_conscription_MODIFIER: "Recruitable Population: §Y3.00%§! - §Y3.50%§!\nStability: §R-15.00%§! - §R-10.00%§!\nWar Support: §R-15.00%§! - §R-10.00%§!\nDaily Political Power Gain: §R-0.15§! - §R-0.10§!"
+ tno_conscription_broadened_conscription_MODIFIER_2: "Division Recovery Rate: §R-10.00%§!- §R-5.00%§!"
+
+ tno_conscription_limited_conscription_MODIFIER: "Recruitable Population: §Y2.00%§! - §Y2.50%§!\nStability: §R-7.50%§! - §R-5.00%§!\nWar Support: §R-7.50%§! - §R-5.00%§!\nDaily Political Power Gain: §R-0.10§! - §R-0.05§!"
+ tno_conscription_limited_conscription_MODIFIER_2: ""
+
+ tno_conscription_volunteer_only_MODIFIER: "Recruitable Population: §Y1.00%§! - §Y1.20%§!\nDivision Organization: §Y0.00%§! - §G+10.00%§!\nDivision Recovery Rate: §Y0.00%§! - §G+10.00%§!"
+ tno_conscription_volunteer_only_MODIFIER_2: ""
+
+ tno_conscription_disarmed_nation_MODIFIER: "Recruitable Population: §Y0.00%§! - §Y0.20%§!\nStability: §R-10.00%§! - §G+10.00%§!\nWar Support: §R-20.00%§! - §R-50.00%§!\nDaily Political Power Gain: §R-0.25§! - §G+0.25§!\nMonthly Military Prof.: §R-0.25§!- §R-2.00§!"
+ tno_conscription_disarmed_nation_MODIFIER_2: "Division Organization: §R-20.00%§! - §R-25.00%§!\nDivision Recovery Rate: §R-20.00%§! - §R-25.00%§!\nFactory Output: §R-5.00%§! - §R-15.00%§!\nDockyard Output: §R-5.00%§! - §R-15.00%§!\nArmy Experience Gain: §R-15.00%§! - §R-10.00%§!"
+ 
+ TNO_POLITICS_CATEGORY_2_LAW_tno_military_supervision_TT: "§FEffects from our §YMilitary Supervision§! policy:\n  Division Attack: [?tno_military_supervision_army_attack_factor|%+=]\n  War Support: [?tno_military_supervision_war_support_factor|%+=]\n  Leader Experience Gain: [?tno_military_supervision_experience_gain_factor|%+=]\n  Resistance Growth: [?tno_military_supervision_resistance_growth|%-=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_2_LAW_tno_military_supervision_name: "§WSupervision§!"
+ 
+ tno_military_supervision_kill_em_all_MODIFIER: "Division Attack: §G+5.00%§! - §G+10.00%§!\nWar Support: §R-15.00%§! - §R-10.00%§!\nLeader Exp. Gain: §R-15.00%§! - §R-10.0%§!\nResistance Growth: §R+10.00%§! - §R+5.00%§!"
+ tno_military_supervision_kill_em_all_MODIFIER_2: ""
+
+ tno_military_supervision_no_supervision_MODIFIER: "Division Attack: §G+2.50%§! - §G+5.00%§!\nWar Support: §R-5.00%§! - §R-2.50%§!\nLeader Exp. Gain: §R-7.50%§! - §R-5.00%§!\nResistance Growth: §R+5.00%§! - §R+2.50%§!"
+ tno_military_supervision_no_supervision_MODIFIER_2: ""
+
+ tno_military_supervision_rules_of_engagement_MODIFIER: "War Support: §Y0.00%§! - §G+2.50%§!\nLeader Exp. Gain: §Y0.00%§! - §G+2.50%§!"
+ tno_military_supervision_rules_of_engagement_MODIFIER_2: ""
+
+ tno_military_supervision_watchdog_groups_MODIFIER: "Division Attack: §R-7.50%§! - §R-5.00%§!\nWar Support: §G+2.50%§! - §G+5.00%§!\nLeader Exp. Gain: §G+2.50%§! - §G+5.00%§!\nResistance Growth: §G-2.50%§! - §G-5.00%§!"
+ tno_military_supervision_watchdog_groups_MODIFIER_2: ""
+
+ tno_military_supervision_total_supervision_MODIFIER: "Division Attack: §R-10.00%§! - §R-5.00%§!\nWar Support: §G+5.00%§! - §G+10.00%§!\nLeader Exp. Gain: §G+5.00%§! - §G+10.00%§!\nResistance Growth: §G-5.00%§! - §G-10.00%§!"
+ tno_military_supervision_total_supervision_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_2_LAW_tno_training_TT: "§FEffects from our §YTraining§! policy:\n  Army Organization: [?tno_training_army_org_factor|%+=]\n  Division Attack: [?tno_training_army_attack_factor|%+=]\n  Division Defense: [?tno_training_army_defence_factor|%+=]\n  Personnel Cost Modifier: [TNOGet_training_personnel_cost_modifier_color]\n  Minimum Training Level: [?tno_training_minimum_training_level|%-=]\n  Division Training Time: [?tno_training_training_time_army_factor|%Y=]\n  Mobilization Speed: [?tno_training_mobilization_speed|%+=]\n  Monthly Military Professionalism: [?tno_training_army_professionalism_monthly_rate|+]\n  Air Accidents Chance: [?tno_training_air_accidents_factor|%-=]\n  Bad Weather Penalty: [?tno_training_air_weather_penalty|%-=]\n  Static Anti-Air Hit Chance Factor: [?tno_training_static_anti_air_hit_chance_factor|%+=]\n  Army Experience Gain: [?tno_training_experience_gain_army_factor|%+=]\n  Air Experience Gain: [?tno_training_experience_gain_air_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_2_LAW_tno_training_name: "§WTraining§!"
+
+ TNO_training_personnel_cost_modifier_green: "[?tno_training_personnel_cost_modifier|%G]"
+ TNO_training_personnel_cost_modifier_yellow: "[?tno_training_personnel_cost_modifier|%Y]"
+ TNO_training_personnel_cost_modifier_red: "[?tno_training_personnel_cost_modifier|%R]"
+ 
+ tno_training_none_MODIFIER: "Army Organization: §R-25.00%§! - §R-20.00%§!\nDivision Attack: §R-25.00%§! - §R-20.00%§!\nDivision Defense: §R-25.00%§! - §R-20.00%§!\nPersonnel Cost Modifier: §Y-20.00%§! - §Y-10.00%§!\nAir Accidents Chance: §R+25.00%§! - §R+20.00%§!\nBad Weather Penalty: §R+25.00%§! - §R+20.00%§!\nAnti-Air Hit Chance: §R-25.00%§! - §R-20.00%§!"
+ tno_training_none_MODIFIER_2: "Minimum Training Level: §G-10.00%§! - §G-20.00%§!\nDivision Training Time: §Y-80.00%§! - §Y-100.00%§!\nMobilization Speed: §G+100.00%§! - §G+200.00%§!\nMonthly Military Prof.: §R-2.00§! - §R-1.50§!\nArmy Exp. Gain: §R-15.00%§! - §R-10.00%§!\nAir Exp. Gain: §R-15.00%§! - §R-10.00%§!"
+
+ tno_training_minimal_training_MODIFIER: "Army Organization: §R-15.00%§! - §R-10.00%§!\nDivision Attack: §R-15.00%§! - §R-10.00%§!\nDivision Defense: §R-15.00%§! - §R-10.00%§!\nPersonnel Cost Modifier: §Y50.00%§! - §Y40.00%§!\nAir Accidents Chance: §R+15.00%§! - §R+10.00%§!\nBad Weather Penalty: §R+15.00%§! - §R+10.00%§!\nAnti-Air Hit Chance: §R-15.00%§! - §R-10.00%§!"
+ tno_training_minimal_training_MODIFIER_2: "Minimum Training Level: §G-5.00%§! - §G-10.00%§!\nDivision Training Time: §Y-35.00%§! - §Y-50.00%§!\nMobilization Speed: §G+50.00%§! - §G+100.00%§!\nMonthly Military Prof.: §R-1.00§! - §R-0.50§!\nArmy Exp. Gain: §R-10.00%§! - §R-5.00%§!\nAir Exp. Gain: §R-10.00%§! - §R-5.00%§!"
+
+ tno_training_basic_training_MODIFIER: "Personnel Cost Modifier: §Y70.00%§! - §Y60.00%§!\nDivision Attack: §Y0.00%§! - §G+1.00%§!\nDivision Defense: §Y0.00%§! - §G+2.50%§!"
+ tno_training_basic_training_MODIFIER_2: ""
+
+ tno_training_combat_schooling_MODIFIER: "Division Attack: §G+2.50%§! - §G+5.00%§!\nDivision Defense: §G+2.50%§! - §G+5.00%§!\nPersonnel Cost Modifier: §Y90.00%§! - §Y80.00%§!\nAir Accidents Chance: §G-2.50%§! - §G-5.00%§!\nBad Weather Penalty: §G-2.50%§! - §G-5.00%§!\nAnti-Air Hit Chance: §G+5.00%§! - §G+10.00%§!"
+ tno_training_combat_schooling_MODIFIER_2: "Minimum Training Level: §R+20.00%§! - §R+10.00%§!\nMobilization Speed: §R-40.00%§! - §R-20.00%§!\nMonthly Military Prof.: §G+0.50§! - §G+1.00§!\nArmy Exp. Gain: §G+2.50%§! - §G+5.00%§!\nAir Exp. Gain: §G+2.50%§! - §G+5.00%§!"
+
+ tno_training_advanced_training_methods_MODIFIER: "Division Attack: §G+5.00%§! - §G+10.00%§!\nDivision Defense: §G+5.00%§! - §G+10.00%§!\nPersonnel Cost Modifier: §Y120.00%§! - §Y100.00%§!\nAir Accidents Chance: §G-10.00%§! - §G-15.00%§!\nBad Weather Penalty: §G-10.00%§! - §G-15.00%§!\nAnti-Air Hit Chance: §G+20.00%§! - §G+25.00%§!"
+ tno_training_advanced_training_methods_MODIFIER_2: "Minimum Training Level: §R+25.00%§! - §R+20.00%§!\nDivision Training Time: §R+25.00%§! - §R+20.00%§!\nMobilization Speed: §R-50.00%§! - §R-40.00%§!\nMonthly Military Prof.: §G+1.50§! - §G+2.00§!\nArmy Exp. Gain: §G+5.00%§! - §G+10.00%§!\nAir Exp. Gain: §G+5.00%§! - §G+10.00%§!"
+ 
+ TNO_POLITICS_CATEGORY_2_LAW_tno_draft_exemptions_TT: "§FEffects of our §YDraft Exemptions§! policy:\n  Recruitable Population Factor: [?tno_draft_exemptions_conscription_factor|%+=]\n  War Support: [?tno_draft_exemptions_war_support_factor|%+=]\n  Political Power Gain: [?tno_draft_exemptions_political_power_gain|%+=]\n  Research Speed: [?tno_draft_exemptions_research_speed_factor|%+=]\n  Stability: [?tno_draft_exemptions_stability_factor|%+=]\n  Monthly Academic Base Gain: [?tno_draft_exemptions_academic_base_monthly_rate|+]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_2_LAW_tno_draft_exemptions_name: "§WDraft Exemptions§!"
+ 
+ tno_draft_exemptions_none_MODIFIER: "War Support: §R-5.00%§! - §R-10.00%§!"
+ tno_draft_exemptions_none_MODIFIER_2: ""
+
+ tno_draft_exemptions_elite_exemptions_MODIFIER: "Recruitable Pop. Factor: §R-7.50%§! - §R-5.00%§!\nWar Support: §R-10.00%§! - §R-7.50%§!\nPolitical Power Gain: §G+2.50%§! - §G+5.00%§!\nStability: §Y0.00%§! - §G+2.50%§!"
+ tno_draft_exemptions_elite_exemptions_MODIFIER_2: ""
+
+ tno_draft_exemptions_educational_deferment_MODIFIER: "Recruitable Pop. Factor: §R-7.50%§! - §R-5.00%§!\nWar Support: §R-10.00%§! - §R-5.00%§!\nResearch Speed: §Y0.00%§! - §G+2.50%§!\nMonthly Academic Base Gain: §Y0.00§! - §G+0.20§!"
+ tno_draft_exemptions_educational_deferment_MODIFIER_2: ""
+
+ tno_draft_exemptions_civil_service_deferment_MODIFIER: "Recruitable Pop. Factor: §R-12.50%§! - §R-10.00%§!\nPolitical Power Gain: §G+2.50%§! - §G+5.00%§!\nResearch Speed: §Y0.00%§! - §G+2.50%§!\nMonthly Academic Base Gain: §Y0.00§! - §G+0.20§!"
+ tno_draft_exemptions_civil_service_deferment_MODIFIER_2: ""
+
+ tno_draft_exemptions_generous_exemptions_MODIFIER: "Recruitable Pop. Factor: §R-20.00%§! - §R-15.00%§!\nWar Support: §Y0.00%§! - §G+5.00%§!\nPolitical Power Gain: §G+2.50%§! - §G+5.00%§!\nResearch Speed: §Y0.00%§! - §G+2.50%§!\nMonthly Academic Base Gain: §Y0.00§! - §G+0.20§!"
+ tno_draft_exemptions_generous_exemptions_MODIFIER_2: "Stability: §Y0.00%§! - §G+2.50%§!"
+ 
+ 
+ TNO_POLITICS_CATEGORY_3_LAW_tno_trade_laws_TT: "§FEffects of our §YTrade Laws§! policy:\n  Factory Output: [?tno_trade_laws_industrial_capacity_factory|%+=]\n  Dockyard Output: [?tno_trade_laws_industrial_capacity_dockyard|%+=]\n  Construction Speed: [?tno_trade_laws_production_speed_buildings_factor|%+=]\n  Research Speed: [?tno_trade_laws_research_speed_factor|%+=]\n  Monthly Industrial Expertise: [?tno_trade_laws_industrial_expertise_monthly_rate|+=]\n  Consumer Goods Production: [?tno_trade_laws_consumer_goods_production_factor|%+=]\n  Needed Consumer Goods: [?tno_trade_laws_consumer_goods_use_modifier|%-=]\n  Monthly Agricultural Base: [?tno_trade_laws_agriculture_monthly_rate|+=]\n  Ideology Drift Defense: [?tno_trade_laws_drift_defence_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_trade_laws_name: "§WTrade Law§!"
+ 
+ tno_trade_laws_free_trade_MODIFIER: "Factory Output: §R-5.00%§! - §G+15.00%§!\nDockyard Output: §R-5.00%§! - §G+15.00%§!\nConstruction Speed: §R-5.00%§! - §G+15.00%§!"
+ tno_trade_laws_free_trade_MODIFIER_2: "Research Speed: §R-5.00%§! - §G+10.00%§!\nMonthly Industrial Expertise: §R-0.25§! - §G+0.25§!\nConsumer Goods Prod.: §Y0.00%§! - §G+10.00%§!\n"
+
+ tno_trade_laws_export_focus_MODIFIER: "Factory Output: §Y0.00%§! - §G+10.00%§!\nDockyard Output: §Y0.00%§! - §G+10.00%§!\nConstruction Speed: §Y0.00%§! - §G+10.00%§!"
+ tno_trade_laws_export_focus_MODIFIER_2: "Research Speed: §Y0.00%§! - §G+5.00%§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.25§!\nConsumer Goods Prod.: §Y0.00%§! - §G+5.00%§!"
+
+ tno_trade_laws_limited_exports_MODIFIER: "Factory Output: §G+2.50%§! - §G+5.00%§!\nDockyard Output: §G+2.50%§! - §G+5.00%§!\nConstruction Speed: §G+2.50%§! - §G+5.00%§!"
+ tno_trade_laws_limited_exports_MODIFIER_2: "Research Speed: §Y0.00%§! - §G+2.50%§!\nMonthly Industrial Expertise: §G+0.10§! - §G+0.50§!\nConsumer Goods Prod.: §Y0.00%§! - §G+2.50%§!"
+
+ tno_trade_laws_closed_economy_MODIFIER: "Ideological Drift Defense: §R-10.00%§! - §G+10.00%§!\nNeeded Consumer Goods: §Y0.00%§! - §R-20.00%§!\nMonthly Agricultural Base: §R-0.50§! - §G+0.50§!"
+ tno_trade_laws_closed_economy_MODIFIER_2: "Research Speed: §R-10.00%§! - §Y0.00%§!\nMonthly Industrial Expertise: §R-0.50§! - §G+0.50§!"
+
+ TNO_POLITICS_CATEGORY_3_LAW_tno_income_taxation_TT: "§FEffects of our §YIncome Taxation§! policy:\n  Political Power Gain: [?tno_income_taxation_political_power_gain|+=]\n  Poverty Tax Rate: [?tno_income_taxation_poverty_taxation_rate|%+=]\n  Needed Consumer Goods: [?tno_income_taxation_consumer_goods_use_modifier|%-=]\n  Monthly Poverty Rate Decrease: [?tno_income_taxation_poverty_monthly_rate|+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_income_taxation_name: "§WIncome Taxation§!"
+ 
+ tno_income_taxation_no_income_taxation_MODIFIER: "Political Power Gain: §R-0.10§! - §R-0.05§!\nPoverty Taxation Rate: §G10.00%§! - §G20.00%§!\nNeeded Consumer Goods: §G-1.00%§! - §G-2.50%§!"
+ tno_income_taxation_no_income_taxation_MODIFIER_2: ""
+
+ tno_income_taxation_low_income_weighted_MODIFIER: "Political Power Gain: §R-0.05§! - §G0.05§!\nPoverty Taxation Rate: §Y0.00%§! - §G10.00%§!"
+ tno_income_taxation_low_income_weighted_MODIFIER_2: ""
+
+ tno_income_taxation_flat_taxes_MODIFIER: "Political Power Gain: §G0.05§! - §G0.10§!\nNeeded Consumer Goods: §R5.00%§! - §R2.50%§!"
+ tno_income_taxation_flat_taxes_MODIFIER_2: ""
+
+ tno_income_taxation_high_income_weighted_MODIFIER: "Political Power Gain: §G0.10§! - §G0.15§!\nNeeded Consumer Goods: §R7.50%§! - §R5.00%§!"
+ tno_income_taxation_high_income_weighted_MODIFIER_2: ""
+
+ tno_income_taxation_negative_taxation_MODIFIER: "Political Power Gain: §G0.10§! - §G0.20§!\nNeeded Consumer Goods: §R7.50%§! - §R5.00%§!\nMonthly Poverty Rate: §G-0.01%§! - §G-0.03%§!"
+ tno_income_taxation_negative_taxation_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_3_LAW_tno_minimum_wage_TT: "§FEffects of our §YMinimum Wage§! policy:\n  Stability: [?tno_minimum_wage_stability_factor|%+=]\n  £prod_eff_cap Production Efficiency Cap: [?tno_minimum_wage_production_factory_max_efficiency_factor|%+=]\n  Monthly Industrial Expertise: [?tno_minimum_wage_industrial_expertise_monthly_rate|+=]\n  Monthly Poverty Rate Decrease: [?tno_minimum_wage_poverty_monthly_rate|+=]\n  Needed Consumer Goods: [?tno_minimum_wage_consumer_goods_use_modifier|%-=]\n  Trade Unions Policy Monthly Rate: [?tno_minimum_wage_trade_unions_policy_monthly_rate_modifier|+=2]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_minimum_wage_name: "§WMinimum Wage§!"
+ 
+ tno_minimum_wage_no_minimum_wage_MODIFIER: "Stability: §R-10.00%§! - §R-5.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §G+2.50%§! - §G+5.00%§!\nMonthly Industrial Expertise: §R-0.50§! - §R-0.25§!"
+ tno_minimum_wage_no_minimum_wage_MODIFIER_2: "Monthly Poverty Rate: §R+0.03%§! - §R+0.01%§!\nNeeded Consumer Goods: §G-2.50%§! - §G-5.00%§!"
+
+ tno_minimum_wage_trinket_minimum_wage_MODIFIER: "Stability: §R-5.00%§! - §R-2.50%§!\n£prod_eff_cap Prod. Efficiency Cap: §Y0.00%§! - §G+2.50%§!\nMonthly Industrial Expertise: §R-0.25§! - §R-0.10§!"
+ tno_minimum_wage_trinket_minimum_wage_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §Y0.00%§!\nNeeded Consumer Goods: §G-1.00%§! - §G-2.50%§!"
+
+ tno_minimum_wage_low_minimum_wage_MODIFIER: "Stability: §R-1.00%§! - §G+1.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-1.00%§! - §G+1.00%§!\nMonthly Industrial Expertise: §R-0.10§! - §G+0.10§!"
+ tno_minimum_wage_low_minimum_wage_MODIFIER_2: "Monthly Poverty Rate: §R+0.01%§! - §G-0.01%§!"
+
+ tno_minimum_wage_acceptable_minimum_MODIFIER: "Stability: §Y0.00%§! - §G+2.50%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-5.00%§! - §R-2.50%§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.25§!"
+ tno_minimum_wage_acceptable_minimum_MODIFIER_2: "Monthly Poverty Rate: §Y0.00%§! - §G-0.02%§!\nNeeded Consumer Goods: §R+3.50%§! - §R+2.50%§!"
+
+ tno_minimum_wage_good_minimum_wage_MODIFIER: "Stability: §G+2.50%§! - §G+5.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-10.00%§! - §R-5.00%§!\nMonthly Industrial Expertise: §G+0.25§! - §G+0.50§!"
+ tno_minimum_wage_good_minimum_wage_MODIFIER_2: "Monthly Poverty Rate: §G-0.01%§! - §G-0.03%§!\nNeeded Consumer Goods: §R+7.50%§! - §R+5.00%§!"
+
+ tno_minimum_wage_annual_wage_MODIFIER: "Stability: §G+5.50%§! - §G+10.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-7.50%§! - §R-2.50%§!\nMonthly Industrial Expertise: §G+0.30§! - §G+0.55§!"
+ tno_minimum_wage_annual_wage_MODIFIER_2: "Monthly Poverty Rate: §G-0.01%§! - §G-0.03%§!\nNeeded Consumer Goods: §R+6.00%§! - §R+4.50%§!"
+
+ tno_minimum_wage_collective_bargaining_MODIFIER: "Stability: §G+5.00%§! - §G+7.50%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-7.50%§! - §R-2.50%§!\nMonthly Industrial Expertise: §Y0.00§! - §G+0.30§!"
+ tno_minimum_wage_collective_bargaining_MODIFIER_2: "Monthly Poverty Rate: §G-0.02%§! - §G-0.04%§!\nNeeded Consumer Goods: §R+6.00%§! - §R+5.00%§!\nTrade Unions Policy Monthly Rate: §G+0.20§! - §G+0.40§!"
+ 
+ TNO_POLITICS_CATEGORY_3_LAW_tno_max_workhours_TT: "§FEffects of our §YWorkday§! policy:\n  Stability: [?tno_max_workhours_stability_factor|%+=]\n  £prod_growth Production Efficiency Gain: [?tno_max_workhours_production_factory_efficiency_gain_factor|%+=]\n  Factory Output: [?tno_max_workhours_industrial_capacity_factory|%+=]\n  Dockyard Output: [?tno_max_workhours_industrial_capacity_dockyard|%+=]\n  Needed Consumer Goods: [?tno_max_workhours_consumer_goods_use_modifier|%-=]\n  Consumer Goods Production Factor: [?tno_max_workhours_consumer_goods_production_factor|%+=]\n  Research Speed: [?tno_max_workhours_research_speed_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_max_workhours_name: "§WMax Workhours§!"
+ 
+ tno_max_workhours_unlimited_work_day_MODIFIER: "Stability: §R-10.00%§! - §R-5.00%§!\n£prod_growth Prod. Efficiency Gain: §R-20.00%§! - §R-15.00%§!\nFactory Output: §G+5.00%§! - §G+10.00%§!\nDockyard Output: §G+5.00%§! - §G+10.00%§!"
+ tno_max_workhours_unlimited_work_day_MODIFIER_2: "Needed Consumer Goods: §G-2.50%§! - §G-5.00%§!\nConsumer Goods Prod.: §G+1.00%§! - §G+2.50%§!\nResearch Speed: §R-5.00%§! - §R-2.50%§!"
+
+ tno_max_workhours_14_hour_work_day_MODIFIER: "Stability: §R-5.00%§! - §R-2.50%§!\n£prod_growth Prod. Efficiency Gain: §R-10.00%§! - §R-7.50%§!\nFactory Output: §G+2.50%§! - §G+5.00%§!\nDockyard Output: §G+2.50%§! - §G+5.00%§!"
+ tno_max_workhours_14_hour_work_day_MODIFIER_2: "Needed Consumer Goods: §G-1.00%§! - §G-2.50%§!\nConsumer Goods Prod.: §Y0.00%§! - §G+1.00%§!"
+
+ tno_max_workhours_12_hour_work_day_MODIFIER: "£prod_growth Prod. Efficiency Gain: §G+1.00%§! - §G+2.50%§!\nFactory Output: §G+1.00%§! - §G+2.50%§!\nDockyard Output: §G+1.00%§! - §G+2.50%§!"
+ tno_max_workhours_12_hour_work_day_MODIFIER_2: "Needed Consumer Goods: §Y0.00%§! - §G-1.00%§!"
+
+ tno_max_workhours_10_hour_work_day_MODIFIER: "Stability: §G+1.00%§! - §G+2.50%§!\n£prod_growth Prod. Efficiency Gain: §G+5.00%§! - §G+10.00%§!\nFactory Output: §R-7.50%§! - §R-5.00%§!\nDockyard Output: §R-7.50%§! - §R-5.00%§!"
+ tno_max_workhours_10_hour_work_day_MODIFIER_2: "Needed Consumer Goods: §R+2.00%§! - §R+1.00%§!\nConsumer Goods Prod.: §R-2.00%§! - §R-1.00%§!"
+
+ tno_max_workhours_8_hour_work_day_MODIFIER: "Stability: §G+2.50%§! - §G+5.00%§!\n£prod_growth Prod. Efficiency Gain: §G+10.00%§! - §G+20.00%§!\nFactory Output: §R-15.00%§! - §R-10.00%§!\nDockyard Output: §R-15.00%§! - §R-10.00%§!"
+ tno_max_workhours_8_hour_work_day_MODIFIER_2: "Needed Consumer Goods: §R+3.00%§! - §R+2.50%§!\nConsumer Goods Prod.: §R-5.00%§! - §R-2.50%§!"
+
+ tno_max_workhours_6_hour_work_day_MODIFIER: "Stability: §G+10.00%§! - §G+3.50%§!\n£prod_growth Prod. Efficiency Gain: §G+25.00%§! - §G+15.00%§!\nFactory Output: §R-17.50%§! - §R-12.50%§!\nDockyard Output: §R-17.50%§! - §R-12.50%§!"
+ tno_max_workhours_6_hour_work_day_MODIFIER_2: "Needed Consumer Goods: §R+3.50%§! - §R+4.00%§!\nConsumer Goods Prod.: §R-4.00%§! - §R-3.50%§!"
+ 
+ TNO_POLITICS_CATEGORY_3_LAW_tno_pensions_TT: "§FEffects of our §YPensions§! policy:\n  Policy Cost Per Capita: [TNOGet_tno_pensions_proportional_pop_cost]\n  Stability: [?tno_pensions_stability_factor|%+=]\n  Monthly Poverty Rate Decrease: [?tno_pensions_poverty_monthly_rate|+=]\n  Needed Consumer Goods: [?tno_pensions_consumer_goods_use_modifier|%-=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNOGet_tno_pensions_proportional_pop_cost_key: "§R$$[?tno_pensions_proportional_pop_cost_display|0]§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_pensions_name: "§WPensions§!"
+ 
+ tno_pensions_no_pensions_MODIFIER: "Policy Cost Per Capita: §Y$$1§!\nStability: §R-7.50%§! - §R-5.00%§!\nMonthly Poverty Rate: §R+0.03%§! - §R+0.01%§!\nNeeded Consumer Goods: §G-2.50%§! - §G-5.00%§!"
+ tno_pensions_no_pensions_MODIFIER_2: ""
+
+ tno_pensions_trinket_pensions_MODIFIER: "Policy Cost Per Capita: §R$$28§! - §R$$24§!\nStability: §R-5.00%§! - §R-2.50%§!\nMonthly Poverty Rate: §R+0.01%§! - §Y0.00%§!\nNeeded Consumer Goods: §Y0.00%§! - §G-2.50%§!"
+ tno_pensions_trinket_pensions_MODIFIER_2: ""
+
+ tno_pensions_low_pensions_MODIFIER: "Policy Cost Per Capita: §R$$48§! - §R$$44§!\nStability: §R-2.50%§! - §Y0.00%§!\nNeeded Consumer Goods: §Y0.00%§! - §G-1.00%§!"
+ tno_pensions_low_pensions_MODIFIER_2: ""
+
+ tno_pensions_acceptable_pensions_MODIFIER: "Policy Cost Per Capita: §R$$80§! - §R$$76§!\nStability: §G+2.50%§! - §G+5.00%§!\nMonthly Poverty Rate: §Y0.00%§! - §G-0.01%§!\nNeeded Consumer Goods: §R+2.50%§! - §Y0.00%§!"
+ tno_pensions_acceptable_pensions_MODIFIER_2: ""
+
+ tno_pensions_good_pensions_MODIFIER: "Policy Cost Per Capita: §R$$120§! - §R$$108§!\nStability: §G+2.50%§! - §G+5.00%§!\nMonthly Poverty Rate: §G-0.01%§! - §G-0.03%§!\nNeeded Consumer Goods: §R+5.00%§! - §R+2.50%§!"
+ tno_pensions_good_pensions_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_3_LAW_tno_unemployment_TT: "§FEffects of our §YUnemployment Subsidies§! policy:\n  Policy Cost Per Capita: §R[TNOGet_tno_unemployment_proportional_pop_cost]§!\n  Stability: [?tno_unemployment_stability_factor|%+=]\n  Monthly Poverty Rate Decrease: [?tno_unemployment_poverty_monthly_rate|+=]\n  Needed Consumer Goods: [?tno_unemployment_consumer_goods_use_modifier|%-=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNOGet_tno_unemployment_proportional_pop_cost_key: "§R$$[?tno_unemployment_proportional_pop_cost_display|0]§!"
+ TNO_POLITICS_CATEGORY_3_LAW_tno_unemployment_name: "§WUnemployment§!"
+ 
+ tno_unemployment_no_subsidies_MODIFIER: "Policy Cost Per Capita: §Y$$0§!\nStability: §R-10.00%§! - §R-7.50%§!\nMonthly Poverty Rate: §R+0.04%§! - §R+0.02%§!\nNeeded Consumer Goods: §G-0.00%§! - §G-2.50%§!"
+ tno_unemployment_no_subsidies_MODIFIER_2: ""
+
+ tno_unemployment_trinket_subsidies_MODIFIER: "Policy Cost Per Capita: §R$$20§! - §R$$16§!\nStability: §R-5.00%§! - §R-2.50%§!\nMonthly Poverty Rate: §R+0.01%§! - §G-0.01%§!\nNeeded Consumer Goods: §R+1.00%§! - §G-1.00%§!"
+ tno_unemployment_trinket_subsidies_MODIFIER_2: ""
+
+ tno_unemployment_low_subsidies_MODIFIER: "Policy Cost Per Capita: §R$$45§! - §R$$41§!\nStability: §R-1.00%§! - §G+1.00%§!\nMonthly Poverty Rate: §Y0.00%§! - §G-0.02%§!\n"
+ tno_unemployment_low_subsidies_MODIFIER_2: ""
+
+ tno_unemployment_moderate_subsidies_MODIFIER: "Policy Cost Per Capita: §R$$100§! - §R$$95§!\nStability: §Y0.00%§! - §G+2.50%§!\nMonthly Poverty Rate: §G-0.01%§! - §G-0.03%§!\nNeeded Consumer Goods: §R+2.50%§! - §R+1.00%§!"
+ tno_unemployment_moderate_subsidies_MODIFIER_2: ""
+
+ tno_unemployment_generous_subsidies_MODIFIER: "Policy Cost Per Capita: §R$$148§! - §R$$124§!\nStability: §G+5.00%§! - §G+10.0%§!\nMonthly Poverty Rate: §G-0.02%§! - §G-0.05%§!\nNeeded Consumer Goods: §R+5.00%§! - §R+2.50%§!"
+ tno_unemployment_generous_subsidies_MODIFIER_2: ""
+
+ tno_unemployment_full_employment_policy_MODIFIER: "Policy Cost Per Capita: §R$$22§! - §R$$16§!\nStability: §R-10.00%§! - §G+10.0%§!\nMonthly Poverty Rate: §R+0.01%§! - §G-0.01%§!"
+ tno_unemployment_full_employment_policy_MODIFIER_2: ""
+ 
+
+ 
+ TNO_POLITICS_CATEGORY_4_LAW_tno_health_care_TT: "§FEffects of our §YHealthcare§! policy:\n  Policy Cost Per Capita: [TNOGet_tno_health_care_proportional_pop_cost]\n  Monthly Population: [?tno_health_care_population_factor|%+=]\n  Stability: [?tno_health_care_stability_factor|%+=]\n  War Support: [?tno_health_care_war_support_factor|+=]\n  Political Power Gain: [?tno_health_care_political_power_gain|+=]\n  Monthly Poverty Rate Decrease: [?tno_health_care_poverty_monthly_rate|+=]\n  Healthcare Quality Monthly Rate: [?tno_health_care_healthcare_quality_rate_factor|+]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNOGet_tno_health_care_proportional_pop_cost_key: "§R$$[?tno_health_care_proportional_pop_cost_display|0]§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_health_care_name: "§WHealthcare§!"
+ 
+ tno_health_care_no_government_support_MODIFIER: "Policy Cost Per Capita: §Y$$1§!\nMonthly Population: §R-35.00%§! - §R-25.00%§!\nStability: §R-25.00%§! - §R-20.00%§!\nPolitical Power Gain: §R-0.20§! - §R-0.10§!"
+ tno_health_care_no_government_support_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §R+0.01%§!\nMonthly Healthcare Rate: §R-2.0§! - §R-1.0§!"
+
+ tno_health_care_service_for_care_MODIFIER: "Policy Cost Per Capita: §R$$10§! - §R$$6§!\nMonthly Population: §R-20.00%§! - §R-10.00%§!\nWar Support: §Y0.00%§! - §G+10.00%§!"
+ tno_health_care_service_for_care_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §R+0.01%§!\nMonthly Healthcare Rate: §R-0.2§! - §Y0.0§!"
+
+ tno_health_care_negotiated_coverage_MODIFIER: "Policy Cost Per Capita: §R$$25§! - §R$$1§!\nMonthly Population: §R-5.00%§! - §Y0.00%§!\nPolitical Power Gain: §Y0.00§! - §G+0.05§!"
+ tno_health_care_negotiated_coverage_MODIFIER_2: "Monthly Poverty Rate: §G-0.01%§! - §G-0.02%§!\nMonthly Healthcare Rate: §R-0.1§! - §G+0.1§!"
+
+ tno_health_care_support_for_emergencies_MODIFIER: "Policy Cost Per Capita: §R$$36§! - §R$$24§!\nMonthly Population: §R-10.00%§! - §R-5.00%§!\nPolitical Power Gain: §Y0.00§! - §G+0.10§!"
+ tno_health_care_support_for_emergencies_MODIFIER_2: "Monthly Poverty Rate: §R+0.01%§! - §Y0.00%§!\nMonthly Healthcare Rate: §Y0.0§! - §G+0.2§!"
+
+ tno_health_care_low_income_protections_MODIFIER: "Policy Cost Per Capita: §R$$56§! - §R$$44§!\nMonthly Population: §G+2.50%§! - §G+5.00%§!\nStability: §G+2.50%§! - §G+7.50%§!\nPolitical Power Gain: §G+0.10§! - §G+0.25§!"
+ tno_health_care_low_income_protections_MODIFIER_2: "Monthly Poverty Rate: §Y0.00%§! - §G-0.01%§!\nMonthly Healthcare Rate: §G+0.2§! - §G+0.3§!"
+
+ tno_health_care_universal_health_care_MODIFIER: "Policy Cost Per Capita: §R$$92§! - §R$$84§!\nMonthly Population: §G+7.50%§! - §G+12.50%§!\nStability: §G+5.00%§! - §G+10.00%§!\nPolitical Power Gain: §G+0.20§! - §G+0.35§!"
+ tno_health_care_universal_health_care_MODIFIER_2: "Monthly Poverty Rate: §G-0.01%§! - §G-0.02%§!\nMonthly Healthcare Rate: §G+0.25§! - §G+0.35§!"
+
+ tno_health_care_free_universal_care_MODIFIER: "Policy Cost Per Capita: §R$$112§! - §R$$94§!\nMonthly Population: §G+10.00%§! - §G+20.00%§!\nStability: §G+7.50%§! - §G+15.00%§!\nPolitical Power Gain: §G+0.30§! - §G+0.40§!"
+ tno_health_care_free_universal_care_MODIFIER_2: "Monthly Poverty Rate: §G-0.025%§! - §G-0.04%§!\nMonthly Healthcare Rate: §G+0.3§! - §G+0.4§!"
+ 
+ TNO_POLITICS_CATEGORY_4_LAW_tno_education_TT: "§FEffects our §YEducation§! policy:\n  Policy Cost Per Capita: [TNOGet_tno_education_proportional_pop_cost]\n  Research Speed: [?tno_education_research_speed_factor|%+=]\n  Stability: [?tno_education_stability_factor|%+=]\n  Daily Political Power Gain: [?tno_education_political_power_gain|+=]\n  Taxable Population: [?tno_education_taxable_population_factor|%+=]\n  Monthly Poverty Rate Decrease: [?tno_education_poverty_monthly_rate|+=]\n  Monthly Academic Base Gain: [?tno_education_academic_base_rate_factor|+]\n  Monthly Research Facilities Gain: [?tno_education_research_facilities_rate_factor|+]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNOGet_tno_education_proportional_pop_cost_key: "§R$$[?tno_education_proportional_pop_cost_display|0]§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_education_name: "§WEducation§!"
+
+ tno_education_restricted_education_MODIFIER: "Policy Cost Per Capita: §R$$9§! - §R$$7§!\nResearch Speed: §R-15.00%§! - §R-10.00%§!\nStability: §R-15.00%§! - §R-10.00%§!"
+ tno_education_restricted_education_MODIFIER_2: "Monthly Poverty Rate: §R+0.04%§! - §R+0.01%§!\nMonthly Academic Base Gain: §R-2.00§! - §R-1.00§!\nMonthly Research Fac. Gain: §R-1.00§! - §R-0.75§!"
+
+ tno_education_stratified_education_MODIFIER: "Policy Cost Per Capita: §R$$28§! - §R$$24§!\nResearch Speed: §R-10.00%§! - §Y0.00%§!\nStability: §R-10.00%§! - §R-2.50%§!\nPolitical Power Gain: §R-0.10§! - §R-0.05§!"
+ tno_education_stratified_education_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §Y0.00%§!\nMonthly Academic Base Gain: §R-0.25§! - §Y0.00§!\nMonthly Research Fac. Gain: §R-0.25§! - §Y0.00§!"
+
+ tno_education_public_education_MODIFIER: "Policy Cost Per Capita: §R$$42§! - §R$$36§!\nResearch Speed: §Y0.00%§! - §G+5.00%§!\nPolitical Power Gain: §R-0.15§! - §R-0.10§!\nTaxable Population: §Y0.00%§! - §G+2.00§!"
+ tno_education_public_education_MODIFIER_2: "Monthly Academic Base Gain: §Y0.00§! - §G+0.25§!\nMonthly Research Fac. Gain: §Y0.00§! - §G+0.25§!"
+
+ tno_education_subsidised_higher_education_MODIFIER: "Policy Cost Per Capita: §R$$72§! - §R$$64§!\nResearch Speed: §G+5.00%§! - §G+10.00%§!\nStability: §G+2.50%§! - §G+5.00%§!\nPolitical Power Gain: §R-0.20§! - §R-0.15§!\nTaxable Population: §G+2.50%§! - §G+4.00§!"
+ tno_education_subsidised_higher_education_MODIFIER_2: "Monthly Poverty Rate: §G-0.01%§! - §G-0.02%§!\nMonthly Academic Base Gain: §G+0.25§! - §G+0.50§!\nMonthly Research Fac. Gain: §G+0.25§! - §G+0.50§!"
+
+ tno_education_public_higher_education_MODIFIER: "Policy Cost Per Capita: §R$$112§! - §R$$104§!\nResearch Speed: §G+7.50%§! - §G+12.50%§!\nStability: §G+5.00%§! - §G+7.50%§!\nPolitical Power Gain: §R-0.225§! - §R-0.175§!\nTaxable Population: §G+6.00%§! - §G+8.00§!"
+ tno_education_public_higher_education_MODIFIER_2: "Monthly Poverty Rate: §G-0.02%§! - §G-0.03%§!\nMonthly Academic Base Gain: §G+0.50§! - §G+0.75§!\nMonthly Research Fac. Gain: §G+0.25§! - §G+0.50§!"
+
+ tno_education_free_education_MODIFIER: "Policy Cost Per Capita: §R$$160§! - §R$$140§!\nResearch Speed: §G+10.00%§! - §G+15.00%§!\nStability: §G+5.00%§! - §G+7.50%§!\nPolitical Power Gain: §R-0.25§! - §R-0.20§!\nTaxable Population: §G+8.00%§! - §G+10.00§!"
+ tno_education_free_education_MODIFIER_2: "Monthly Poverty Rate: §G-0.03%§! - §G-0.05%§!\nMonthly Academic Base Gain: §G+1.00§! - §G+1.25§!\nMonthly Research Fac. Gain: §G+0.50§! - §G+0.75§!"
+ 
+ TNO_POLITICS_CATEGORY_4_LAW_tno_penal_system_TT: "§FEffects of our §YPenal System§! policy:\n  Monthly Population: [?tno_penal_system_population_factor|%+=]\n  Stability: [?tno_penal_system_stability_factor|%+=]\n  Political Power Gain: [?tno_penal_system_political_power_factor|%+=]\n  Admin Costs: [?tno_penal_system_admin_program_cost_factor|%-=]\n  Army Costs: [?tno_penal_system_army_cost_modifier|%-=]\n  Monthly Poverty Rate Decrease: [?tno_penal_system_poverty_monthly_rate|+]\n  Monthly Academic Base Gain: [?tno_penal_system_academic_base_rate_factor|+]\n  Monthly Admin Efficiency Gain: [?tno_penal_system_administrative_rate_factor|+]\n  Needed Consumer Goods: [?tno_penal_system_consumer_goods_use_factor|%-=]\n  War Support: [?tno_penal_system_war_support_factor|%+=]\n  Recruitable Population Factor: [?tno_penal_system_conscription_factor|%+=]\n  Mobilization Speed: [?tno_penal_system_mobilization_speed|%+=]\n  Offensive War Stability: [?tno_penal_system_offensive_war_stability_factor|%+=]\n  Defensive War Stability: [?tno_penal_system_defensive_war_stability_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_penal_system_name: "§WPenal System§!"
+ 
+ tno_penal_system_overt_oppression_MODIFIER: "Monthly Population: §R-5.00%§! - §R-10.00%§!\nStability: §R-15.00%§! - §R-5.00%§!\nAdmin Costs: §R+2.50%§! - §R+1.50%§!\nArmy Costs: §R+1.50%§! - §R+0.50%§!"
+ tno_penal_system_overt_oppression_MODIFIER_2: "Monthly Poverty Rate: §R+0.04%§! - §R+0.02%§!\nMonthly Academic Base Gain: §R-0.50§! - §R-0.10§!\nMonthly Admin Efficiency Gain: §R-0.50§! - §R-0.10§!\nNeeded Consumer Goods: §Y0.00%§! - §G-3.00%§!"
+
+ tno_penal_system_politicized_penal_system_MODIFIER: "Monthly Population: §R-7.50%§! - §Y0.00%§!\nStability: §R-10.00%§! - §G+2.50%§!\nAdmin Costs: §R+1.50%§! - §R+0.50%§!\nArmy Costs: §R+1.50%§! - §R+0.25%§!\nPolitical Power Gain: §R-5.00%§! - §G+5.00%§!"
+ tno_penal_system_politicized_penal_system_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §Y0.00%§!\nMonthly Academic Base Gain: §R-0.25§! - §Y0.00§!\nMonthly Admin Efficiency Gain: §R-0.50§! - §R-0.25§!"
+
+ tno_penal_system_harsh_penal_code_MODIFIER: "Monthly Population: §R-5.00%§! - §Y0.00%§!\nStability: §Y0.00%§! - §G+7.50%§!\nAdmin Costs: §R+2.00%§! - §R+0.50%§!\nArmy Costs: §R+1.00%§! - §R+0.50%§!\nPolitical Power Gain: §Y0.00%§! - §G+2.50%§!"
+ tno_penal_system_harsh_penal_code_MODIFIER_2: "Monthly Poverty Rate: §R+0.02%§! - §Y0.00%§!"
+
+ tno_penal_system_incarceration_MODIFIER: "Stability: §R-2.50%§! - §G+10.00%§!\nWar Support: §Y0.00%§! - §G+5.00%§!\nAdmin Costs: §R+2.00%§! - §R+1.00%§!\nPolitical Power Gain: §R-5.00%§! - §R-2.50%§!"
+ tno_penal_system_incarceration_MODIFIER_2: ""
+
+ tno_penal_system_rehabilitation_MODIFIER: "Stability: §R-5.00%§! - §G+15.00%§!\nAdmin Costs: §R+5.00%§! - §R+2.50%§!\nPolitical Power Gain: §R-7.50%§! - §R-5.00%§!"
+ tno_penal_system_rehabilitation_MODIFIER_2: "Monthly Poverty Rate: §Y0.00%§! - §G-0.02%§!\nNeeded Consumer Goods: §R+2.00%§! - §R+1.00%§!\nRecruitable Population: §Y0.00%§! - §G+5.00%§!"
+
+ tno_penal_system_military_justice_MODIFIER: "Stability: §R-5.00%§! - §G+10.00%§!\nWar Support: §R-10.00%§! - §R-5.00%§!\nMobilization Speed: §R-20.00%§! - §R-5.00%§!"
+ tno_penal_system_military_justice_MODIFIER_2: "Offensive War Stability: §R-20.00%§! - §R-15.00%§!\nDefensive War Stability: §R-15.00%§! - §R-10.00%§!"
+
+ tno_penal_system_frontier_justice_MODIFIER: "Monthly Population: §R-10.00%§! - §R-2.50%§!\nStability: §R-25.00%§! - §R-15.00%§!\nWar Support: §R-25.00%§! - §R-15.00%§!"
+ tno_penal_system_frontier_justice_MODIFIER_2: "Recruitable Population: §R-15.00%§! - §R-10.00%§!"
+ 
+ TNO_POLITICS_CATEGORY_4_LAW_tno_gender_rights_TT: "§FEffects of our §YGender Rights§! policy:\n  Monthly Population: [?tno_gender_rights_population_factor|%+=]\n  Stability: [?tno_gender_rights_stability_factor|%+=]\n  War Support: [?tno_gender_rights_war_support_factor|%+=]\n  Needed Consumer Goods: [?tno_gender_rights_consumer_goods_use_modifier|%-=]\n  Consumer Goods Production Factor: [?tno_gender_rights_consumer_goods_production_factor|%+=]\n  Taxable Population: [?tno_gender_rights_taxable_population_factor|%+=]\n  Monthly Industrial Expertise: [?tno_gender_rights_industrial_expertise_rate_factor|+=]\n  Monthly Academic Base Gain: [?tno_gender_rights_academic_base_rate_factor|+=]\n  Factory Output: [?tno_gender_rights_industrial_capacity_factory_factor|%+=]\n  Dockyard Output: [?tno_gender_rights_industrial_capacity_dockyard_factor|%+=]\n  Recruitable Population Factor: [?tno_gender_rights_conscription_factor|%+=]\n  Division Organization: [?tno_gender_rights_organization_factor|%+=]\n  Division Recovery Rate: [?tno_gender_rights_organization_regain_factor|%+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_gender_rights_name: "§WGender Rights§!"
+ 
+ tno_gender_rights_heavily_restricted_MODIFIER: "Monthly Population: §G+10.00%§! - §G+20.00%§!\nStability: §R-10.00%§! - §G+10.00%§!\nWar Support: §R-10.00%§! - §G+10.00%§!\nNeeded Consumer Goods: §G-1.00%§! - §G-3.00%§!\nConsumer Goods Prod.: §R-10.00%§! - §R-5.00%§!\nTaxable Population: §R-20.00%§! - §R-10.00%§!"
+ tno_gender_rights_heavily_restricted_MODIFIER_2: "Monthly Industrial Expertise: §R-0.25§! - §R-0.10§!\nMonthly Academic Base Gain: §R-0.50§! - §R-0.25§!"
+
+ tno_gender_rights_traditional_roles_MODIFIER: "Monthly Population: §Y0.00%§! - §G+15.00%§!\nStability: §R-5.00%§! - §G+5.00%§!\nWar Support: §Y0.00%§! - §G+5.00%§!\nNeeded Consumer Goods: §Y0.00%§! - §G-2.00%§!\nConsumer Goods Prod.: §R-5.00%§! - §Y0.00%§!\nTaxable Population: §R-10.00%§! - §R-5.00%§!"
+ tno_gender_rights_traditional_roles_MODIFIER_2: ""
+
+ tno_gender_rights_women_in_the_workplace_MODIFIER: "Monthly Industrial Expertise: §G+0.05§! - §G+0.25§!\nMonthly Academic Base Gain: §G+0.05§! - §G+0.25§!\nFactory Output: §G+2.50%§! - §G+5.00%§!\nDockyard Output: §G+2.50%§! - §G+5.00%§!"
+ tno_gender_rights_women_in_the_workplace_MODIFIER_2: ""
+
+ tno_gender_rights_gender_equality_MODIFIER: "Monthly Population: §Y0.00%§! - §R-10.00%§!\nStability: §R-10.00%§! - §Y0.00%§!\nNeeded Consumer Goods: §R+0.50%§! - §R+1.00%§!\nConsumer Goods Prod.: §Y0.00%§! - §G+1.00%§!\nRecruitable Population:  §Y0.00%§! - §G+10.00%§!"
+ tno_gender_rights_gender_equality_MODIFIER_2: "Monthly Industrial Expertise: §G+0.15§! - §G+0.30§!\nMonthly Academic Base Gain: §G+0.15§! - §G+0.30§!\nFactory Output: §G+5.00%§! - §G+10.00%§!\nDockyard Output: §G+5.00%§! - §G+10.00%§!"
+
+ tno_gender_rights_promoted_equality_MODIFIER: "Monthly Population: §R-2.50%§! - §R-15.00%§!\nStability: §R-15.00%§! - §R-5.00%§!\nWar Support: §R-15.00%§! - §R-7.50%§!\nNeeded Consumer Goods: §R+1.00%§! - §R+2.00%§!\nConsumer Goods Prod.: §G+1.50%§! - §G+2.50%§!\nRecruitable Population:  §G+5.00%§! - §G+20.00%§!"
+ tno_gender_rights_promoted_equality_MODIFIER_2: "Monthly Industrial Expertise: §G+0.20§! - §G+0.35§!\nMonthly Academic Base Gain: §G+0.20§! - §G+0.35§!\nFactory Output: §G+5.00%§! - §G+10.00%§!\nDockyard Output: §G+5.00%§! - §G+10.00%§!"
+
+ tno_gender_rights_enforced_equality_MODIFIER: "Monthly Population: §R-10.00%§! - §R-25.00%§!\nStability: §R-20.00%§! - §R-15.00%§!\nWar Support: §R-20.00%§! - §R-10.00%§!\nNeeded Consumer Goods: §R+2.00%§! - §R+3.00%§!\nConsumer Goods Prod.: §G+1.50%§! - §G+2.50%§!\nRecruitable Population:  §G+35.00%§! - §G+50.00%§!"
+ tno_gender_rights_enforced_equality_MODIFIER_2: "Monthly Industrial Expertise: §G+0.35§! - §G+0.50§!\nMonthly Academic Base Gain: §G+0.35§! - §G+0.50§!\nFactory Output: §G+10.00%§! - §G+15.00%§!\nDockyard Output: §G+10.00%§! - §G+15.00%§!\nDivision Organization: §R-10.00%§! - §Y0.00%§!\nOrganization Regain: §R-15.00%§! - §Y0.00%§!"
+ 
+
+ TNO_POLITICS_CATEGORY_4_LAW_tno_security_TT: "§FEffects of our §YSecurity§! policy:\n  Policy Cost Per Capita: [TNOGet_tno_security_proportional_pop_cost]\n  Stability: [?tno_security_stability_factor|%+=]\n  Political Power Gain: [?tno_security_political_power_gain|+=]\n  Intel to Others: [?tno_security_intel_to_others|-=]\n  Monthly Population: [?tno_security_population_factor|%+=]\n  Miscellaneous Income (as % GDP): [?tno_security_misc_income_factor|%Y=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNOGet_tno_security_proportional_pop_cost_key: "§R$$[?tno_security_proportional_pop_cost_display|0]§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_security_name: "§WSecurity§!"
+ 
+ tno_security_anarchic_MODIFIER: "Policy Cost Per Capita: §Y$$1§!\nStability: §R-30.00%§! - §R-20.00%§!\nPolitical Power Gain: §R-0.50§! - §R-0.25§!\nIntel to Others: §R+100.00%§! - §R+50.00%§!"
+ tno_security_anarchic_MODIFIER_2: ""
+
+ tno_security_resource_extraction_MODIFIER: "Policy Cost Per Capita: §R$$15§! - §R$$5§!\nStability: §R-10.00%§! - §Y0.00%§!\nPolitical Power Gain: §R-0.20§! - §Y0.00§!\nMonthly Population: §R-10.00%§! - §R-5.00%§!\nMiscellaneous Income (as % GDP): §Y+0.50%§! - §Y+1.00%§!"
+ tno_security_resource_extraction_MODIFIER_2: ""
+
+ tno_security_crime_prevention_MODIFIER: "Policy Cost Per Capita: §R$$55§! - §R$$40§!\nStability: §G+5.00%§! - §G+10.00%§!\nPolitical Power Gain: §G0.05§! - §G+0.15§!"
+ tno_security_crime_prevention_MODIFIER_2: ""
+
+ tno_security_maintenance_of_order_MODIFIER: "Policy Cost Per Capita: §R$$40§! - §R$$32§!\nStability: §G+15.00%§! - §G+30.00%§!\nPolitical Power Gain: §Y0.00§! - §G+0.05§!"
+ tno_security_maintenance_of_order_MODIFIER_2: ""
+
+ tno_security_political_control_MODIFIER: "Policy Cost Per Capita: §R$$60§! - §R$$45§!\nStability: §R-5.00%§! - §G+10.00%§!\nPolitical Power Gain: §G+0.10§! - §G+0.25§!"
+ tno_security_political_control_MODIFIER_2: ""
+ 
+ TNO_POLITICS_CATEGORY_4_LAW_tno_regulations_TT: "§FEffects of our §YIndustrial Regulations§! policy:\n  Policy Cost Relative to GDP: [?tno_regulations_policy_cost|%%-=]\n  Monthly Population: [?tno_regulations_population_modifier|%+=]\n  Factory Output: [?tno_regulations_industrial_capacity_factory|%+=]\n  Dockyard Output: [?tno_regulations_industrial_capacity_dockyard|%+=]\n  £prod_eff_cap Production Efficiency Cap: [?tno_regulations_factory_max_efficiency_factor|%+=]\n  Consumer Goods Production Factor: [?tno_regulations_consumer_goods_production_factor|%+=]\n  Thermo Plant Power: [?tno_regulations_thermo_plant_power_factor|+=]\n--------------\nValues adjusted with its §Ypolicy effectiveness.§!§!"
+ TNO_POLITICS_CATEGORY_4_LAW_tno_regulations_name: "§WIndustrial Regulations§!"
+ 
+ tno_regulations_utterly_unregulated_MODIFIER: "Policy Cost: §Y0% GDP§!\nMonthly Population: §R-20.00%§! - §R-10.00%§!\nFactory Output: §G+5.00%§! - §G+10.00§!\nDockyard Output: §G+5.00%§! - §G+10.00§!"
+ tno_regulations_utterly_unregulated_MODIFIER_2: "£prod_eff_cap Prod. Efficiency Cap: §G+5.00%§! - §G+10.00§!\nConsumer Goods Prod.: §G+2.50%§! - §G+5.00§!\n£power_texticon Thermo Plant Power: §G+1§! - §G+2§!"
+
+ tno_regulations_token_regulations_MODIFIER: "Policy Cost: §R0.1% GDP§!\nMonthly Population: §R-10.00%§! - §R-5.00%§!\nFactory Output: §G+2.50%§! - §G+5.00§!\nDockyard Output: §G+2.50%§! - §G+5.00§!"
+ tno_regulations_token_regulations_MODIFIER_2: "£prod_eff_cap Prod. Efficiency Cap: §G+2.50%§! - §G+5.00§!\nConsumer Goods Prod.: §G+1.00%§! - §G+2.50§!\n£power_texticon Thermo Plant Power: §Y0§! - §G+1§!"
+
+ tno_regulations_moderate_regulations_MODIFIER: "Policy Cost: §R0.2% GDP§!\nMonthly Population: §Y0.00%§! - §G+2.50%§!\nFactory Output: §R-2.50%§! - §G+2.50§!\nDockyard Output: §R-2.50%§! - §G+2.50§!"
+ tno_regulations_moderate_regulations_MODIFIER_2: ""
+
+ tno_regulations_strict_regulations_MODIFIER: "Policy Cost: §R0.3% GDP§!\nMonthly Population: §G+2.50%§! - §G+5.00%§!\nFactory Output: §R-5.00%§! - §R-2.50%§!\nDockyard Output: §R-5.00%§! - §R-2.50%§!"
+ tno_regulations_strict_regulations_MODIFIER_2: "£prod_eff_cap Prod. Efficiency Cap: §R-5.00%§! - §R-2.50%§!\nConsumer Goods Prod.: §R-2.00%§! - §R-1.00§!\n£power_texticon Thermo Plant Power: §R-1§! - §Y0§!"
+
+ tno_regulations_harsh_regulations_MODIFIER: "Policy Cost: §R0.4% GDP§!\nMonthly Population: §G+5.00%§! - §G+10.00%§!\nFactory Output: §R-10.00%§! - §R-5.00%§!\nDockyard Output: §R-10.00%§! - §R-5.00%§!"
+ tno_regulations_harsh_regulations_MODIFIER_2: "£prod_eff_cap Prod. Efficiency Cap: §R-10.00%§! - §R-5.00%§!\nConsumer Goods Prod.: §R-5.00%§! - §R-2.50§!\n£power_texticon Thermo Plant Power: §R-2§! - §R-1§!"
+
+ TNO_POLITICS_SD_academic_base_TT: "[This.GetSocietyDevelopment_AcademicBase_TT]"
+ TNO_POLITICS_SD_research_facilities_TT: "[This.GetSocietyDevelopment_ResearchFacilities_TT]"
+ TNO_POLITICS_SD_agriculture_TT: "[This.GetSocietyDevelopment_Agriculture_TT]"
+ TNO_POLITICS_SD_healthcare_TT: "[This.GetSocietyDevelopment_Healthcare_TT]" 
+ TNO_POLITICS_SD_industrial_equipment_TT: "[This.GetSocietyDevelopment_IndustrialEquipment_TT]"
+ TNO_POLITICS_SD_industrial_expertise_TT: "[This.GetSocietyDevelopment_IndustrialExpertise_TT]"
+ TNO_POLITICS_SD_army_professionalism_TT: "[This.GetSocietyDevelopment_ArmyProfessionalism_TT]"
+ TNO_POLITICS_SD_admin_efficiency_TT: "[This.GetSocietyDevelopment_AdminEfficiency_TT]"
+ 
+ GetCategory_header_1_text: "[This.GetCategory_header_1_tt]"
+ GetCategory_header_2_text: "[This.GetCategory_header_2_tt]"
+ GetCategory_header_3_text: "[This.GetCategory_header_3_tt]"
+ GetCategory_header_4_text: "[This.GetCategory_header_4_tt]"
+ GetCategory_header_5_text: "[This.GetCategory_header_5_tt]"
+ GetCategory_header_6_text: "[This.GetCategory_header_6_tt]"
+
+
+ TNO_Category_collapse_tt: "§GClick§! to collapse"
+ TNO_Category_expand_tt: "§GClick§! to expand"
+
+ tno_academic_base_mass_illiteracy_MODIFIER: "Research Speed: §R-15.00%§!\n£prod_growth  Prod. Efficiency Gain: §R-15.00%§!\n£prod_eff Prod. Efficiency Retention: §R-20.00%§!\nGDP Growth Multiplier: §R-5.00%§!\nNeeded Consumer Goods: §G-5.00%§!\nMonthly Poverty Rate Decrease: §R-0.03%§!"
+ tno_academic_base_mass_illiteracy_MODIFIER_2: ""
+ tno_academic_base_mass_illiteracy_MODIFIER_COMBINED: "§YMass Illiteracy§!\n$tno_academic_base_mass_illiteracy_MODIFIER$\n$tno_academic_base_mass_illiteracy_MODIFIER_2$"
+
+ tno_academic_base_basic_literacy_MODIFIER: "Research Speed: §R-5.00%§!\n£prod_growth  Prod. Efficiency Gain: §R-7.50%§!\n£prod_eff Prod. Efficiency Retention: §R-10.00%§!\nGDP Growth Multiplier: §R-3.50%§!\nNeeded Consumer Goods: §G-2.50%§!\nMonthly Poverty Rate Decrease: §R-0.01%§!"
+ tno_academic_base_basic_literacy_MODIFIER_2: ""
+ tno_academic_base_basic_literacy_MODIFIER_COMBINED: "§YBasic Literacy§!\n$tno_academic_base_basic_literacy_MODIFIER$\n$tno_academic_base_basic_literacy_MODIFIER_2$"
+ 
+ tno_academic_base_primary_schooling_MODIFIER: "GDP Growth Multiplier: §R-2.00%§!\nNeeded Consumer Goods: §G-1.00%§!"
+ tno_academic_base_primary_schooling_MODIFIER_2: ""
+ tno_academic_base_primary_schooling_MODIFIER_COMBINED: "§YPrimary Schooling§!\n$tno_academic_base_primary_schooling_MODIFIER$\n$tno_academic_base_primary_schooling_MODIFIER_2$"
+
+ tno_academic_base_secondary_schooling_MODIFIER: "Research Speed: §G+5.00%§!\n£prod_growth  Prod. Efficiency Gain: §G+2.50%§!\n£prod_eff Prod. Efficiency Retention: §G+2.50%§!\nNeeded Consumer Goods: §R+1.00%§!"
+ tno_academic_base_secondary_schooling_MODIFIER_2: ""
+ tno_academic_base_secondary_schooling_MODIFIER_COMBINED: "§YSecondary Schooling§!\n$tno_academic_base_secondary_schooling_MODIFIER$\n$tno_academic_base_secondary_schooling_MODIFIER_2$"
+ 
+ tno_academic_base_tertiary_schooling_MODIFIER: "Research Speed: §G+10.00%§!\nDockyard Output: §G+5.00%§!\n£prod_growth  Prod. Efficiency Gain: §G+5.00%§!\n£prod_eff Prod. Efficiency Retention: §G+5.00%§!\nNeeded Consumer Goods: §R+2.50%§!\nGDP Growth Multiplier: §G+2.50%§!"
+ tno_academic_base_tertiary_schooling_MODIFIER_2: ""
+ tno_academic_base_tertiary_schooling_MODIFIER_COMBINED: "§YTertiary Schooling§!\n$tno_academic_base_tertiary_schooling_MODIFIER$\n$tno_academic_base_tertiary_schooling_MODIFIER_2$"
+
+ tno_academic_base_golden_age_MODIFIER: "Research Speed: §G+10.00%§!\nDockyard Output: §G+5.00%§!\n£prod_growth  Prod. Efficiency Gain: §G+10.00%§!\n£prod_eff Prod. Efficiency Retention: §G+10.00%§!\nNeeded Consumer Goods: §R+5.00%§!\nGDP Growth Multiplier: §G+5.00%§!"
+ tno_academic_base_golden_age_MODIFIER_2: ""
+ tno_academic_base_golden_age_MODIFIER_COMBINED: "§YAcademic Golden Age§!\n$tno_academic_base_golden_age_MODIFIER$\n$tno_academic_base_golden_age_MODIFIER_2$"
+
+ tno_research_facilities_makeshift_MODIFIER: "Research Speed: §R-20.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-10.00%§!\nGDP Growth Multiplier: §R-5.00%§!"
+ tno_research_facilities_basic_MODIFIER: "Research Speed: §R-12.50%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-5.00%§!\nGDP Growth Multiplier: §R-3.00%§!"
+ tno_research_facilities_outdated_MODIFIER: "Research Speed: §R-5.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §R-2.50%§!\nGDP Growth Multiplier: §R-1.00%§!"
+ tno_research_facilities_modern_MODIFIER: ""
+ tno_research_facilities_advanced_MODIFIER: "Research Speed: §G+7.50%§!\n£prod_eff_cap Prod. Efficiency Cap: §G+2.50%§!\nGDP Growth Multiplier: §G+1.00%§!"
+ tno_research_facilities_cutting_edge_MODIFIER: "Research Speed: §G+15.00%§!\n£prod_eff_cap Prod. Efficiency Cap: §G+5.00%§!\nGDP Growth Multiplier: §G+2.50%§!"
+
+ tno_research_facilities_makeshift_MODIFIER_2: ""
+ tno_research_facilities_basic_MODIFIER_2: ""
+ tno_research_facilities_outdated_MODIFIER_2: ""
+ tno_research_facilities_modern_MODIFIER_2: ""
+ tno_research_facilities_advanced_MODIFIER_2: ""
+ tno_research_facilities_cutting_edge_MODIFIER_2: ""
+
+ tno_research_facilities_makeshift_MODIFIER_COMBINED: "§YMakeshift Laboratories§!\n$tno_research_facilities_makeshift_MODIFIER$\n$tno_research_facilities_makeshift_MODIFIER_2$"
+ tno_research_facilities_basic_MODIFIER_COMBINED: "§YRudimentary Research Facilities§!\n$tno_research_facilities_basic_MODIFIER$\n$tno_research_facilities_basic_MODIFIER_2$"
+ tno_research_facilities_outdated_MODIFIER_COMBINED: "§YOutdated Research Facilities§!\n$tno_research_facilities_outdated_MODIFIER$\n$tno_research_facilities_outdated_MODIFIER_2$"
+ tno_research_facilities_modern_MODIFIER_COMBINED: "§YModern Research Facilities§!"
+ tno_research_facilities_advanced_MODIFIER_COMBINED: "§YAdvanced Research Facilities§!\n$tno_research_facilities_advanced_MODIFIER$\n$tno_research_facilities_advanced_MODIFIER_2$"
+ tno_research_facilities_cutting_edge_MODIFIER_COMBINED: "§YCutting-Edge Research Facilities§!\n$tno_research_facilities_cutting_edge_MODIFIER$\n$tno_research_facilities_cutting_edge_MODIFIER_2$"
+
+ tno_agriculture_subsistence_MODIFIER: "Recruitable Population Factor: §R-20%§!\nFactory Output: §R-10.00%§!\nDockyard Output: §R-10.00%§!\nNeeded Consumer Goods: §R20%§!\nDivision Training Time: §Y+50.00%§!"
+ tno_agriculture_centralized_MODIFIER: "Recruitable Population Factor: §R-10%§!\nFactory Output: §R-5.00%§!\nDockyard Output: §R-5.00%§!\nNeeded Consumer Goods: §R15%§!\nDivision Training Time: §Y+25.00%§!"
+ tno_agriculture_basic_mechanized_MODIFIER: "Needed Consumer Goods: §R10%§!\nDivision Training Time: §Y+10.00%§!"
+ tno_agriculture_mass_mechanized_MODIFIER: "Recruitable Population Factor: §G+5%§!\nNeeded Consumer Goods: §R5%§!\nMonthly Population: §G+10.00%§!\nArmy Organization Regain: §G+2.50%§!"
+ tno_agriculture_modern_MODIFIER: "Recruitable Population Factor: §G+10%§!\nMonthly Population: §G+20.00%§!\nArmy Organization Regain: §G+5.00%§!"
+
+ tno_agriculture_subsistence_MODIFIER_2: "Monthly Population: §R-35.00%§!\nArmy Organization Regain: §R-5.00%§!\nSupply Consumption: §R+5%§!\nFuel Consumption: §G-10.00%§!"
+ tno_agriculture_centralized_MODIFIER_2: "Monthly Population: §R-15.00%§!\nArmy Organization Regain: §R-2.50%§!\nFuel Consumption: §G-5.00%§!"
+ tno_agriculture_basic_mechanized_MODIFIER_2: ""
+ tno_agriculture_mass_mechanized_MODIFIER_2: ""
+ tno_agriculture_modern_MODIFIER_2: ""
+
+ tno_agriculture_subsistence_MODIFIER_COMBINED: "§YSubsistence Agriculture§!\n$tno_agriculture_subsistence_MODIFIER$\n$tno_agriculture_subsistence_MODIFIER_2$"
+ tno_agriculture_centralized_MODIFIER_COMBINED: "§YCentralized Agriculture§!\n$tno_agriculture_centralized_MODIFIER$\n$tno_agriculture_centralized_MODIFIER_2$"
+ tno_agriculture_basic_mechanized_MODIFIER_COMBINED: "§YBasic Mechanization§!\n$tno_agriculture_basic_mechanized_MODIFIER$\n$tno_agriculture_basic_mechanized_MODIFIER_2$"
+ tno_agriculture_mass_mechanized_MODIFIER_COMBINED: "§YMass Mechanization§!\n$tno_agriculture_mass_mechanized_MODIFIER$\n$tno_agriculture_mass_mechanized_MODIFIER_2$"
+ tno_agriculture_modern_MODIFIER_COMBINED: "§YModern Agriculture§!\n$tno_agriculture_modern_MODIFIER$\n$tno_agriculture_modern_MODIFIER_2$"
+
+ tno_admin_efficiency_organized_chaos_MODIFIER: "Base Taxable Population: §Y75%§!\nStability: §R-10.00%§!\nDaily Political Power Gain: §R-25.00%§!\nSupply Node Range: §R-10.00%§!"
+ tno_admin_efficiency_nonexistent_state_apparatus_MODIFIER: "Base Taxable Population: §Y80%§!\nStability: §R-20.00%§!\nDaily Political Power Gain: §R-20.00%§!\nRecruitable Population Factor: §R-20%§!"
+ tno_admin_efficiency_illegitimate_administration_MODIFIER: "Base Taxable Population: §Y85%§!\nStability: §R-15.00%§!\nDaily Political Power Gain: §R-10.00%§!\nRecruitable Population Factor: §R-12.5%§!"
+ tno_admin_efficiency_deficient_administrative_systems_MODIFIER: "Base Taxable Population: §Y90%§!\nStability: §R-10.00%§!\nDaily Political Power Gain: §R-10.00%§!\nRecruitable Population Factor: §R-5%§!"
+ tno_admin_efficiency_functional_administrative_systems_MODIFIER: "Base Taxable Population: §Y100%§!\nSupply Node Range: §G+10.00%§!"
+ tno_admin_efficiency_streamlined_bureaucracy_MODIFIER: "Base Taxable Population: §Y100%§!\nStability: §G10.00%§!\nDaily Political Power Gain: §G10.00%§!\nSupply Node Range: §G+15.00%§!\nSupply Consumption Factor: §G-5.00%§!"
+ tno_admin_efficiency_well_oiled_machine_MODIFIER: "Base Taxable Population: §Y100%§!\nStability: §G15.00%§!\nDaily Political Power Gain: §G20.00%§!\nSupply Node Range: §G+20.00%§!\nSupply Consumption Factor: §G-10.00%§!"
+
+ tno_admin_efficiency_organized_chaos_MODIFIER_2: "Drift Defense Factor: §G+5%§!\nSocial Spending Modifier: §R+60%§!\nNeeded Consumer Goods: §R+7.50%§!"
+ tno_admin_efficiency_nonexistent_state_apparatus_MODIFIER_2: "Drift Defense Factor: §R-50%§!\nSocial Spending Modifier: §R+45%§!\nNeeded Consumer Goods: §R+5.00%§!"
+ tno_admin_efficiency_illegitimate_administration_MODIFIER_2: "Drift Defense Factor: §R-10%§!\nSocial Spending Modifier: §R+30%§!\nNeeded Consumer Goods: §R+2.50%§!"
+ tno_admin_efficiency_deficient_administrative_systems_MODIFIER_2: "Drift Defense Factor: §R-5%§!\nSocial Spending Modifier: §R+15%§!\nNeeded Consumer Goods: §R+1.00%§!"
+ tno_admin_efficiency_functional_administrative_systems_MODIFIER_2: ""
+ tno_admin_efficiency_streamlined_bureaucracy_MODIFIER_2: "Drift Defense Factor: §G10%§!\nSocial Spending Modifier: §G-5%§!\nNeeded Consumer Goods: §G-1.00%§!"
+ tno_admin_efficiency_well_oiled_machine_MODIFIER_2: "Drift Defense Factor: §G25%§!\nSocial Spending Modifier: §G-10%§!\nNeeded Consumer Goods: §G-2.50%§!"
+
+ tno_admin_efficiency_organized_chaos_MODIFIER_COMBINED: "§YOrganized Chaos§!\n$tno_admin_efficiency_organized_chaos_MODIFIER$\n$tno_admin_efficiency_organized_chaos_MODIFIER_2$"
+ tno_admin_efficiency_nonexistent_state_apparatus_MODIFIER_COMBINED: "§YNonexistent State Apparatus§!\n$tno_admin_efficiency_nonexistent_state_apparatus_MODIFIER$\n$tno_admin_efficiency_nonexistent_state_apparatus_MODIFIER_2$"
+ tno_admin_efficiency_illegitimate_administration_MODIFIER_COMBINED: "§YIllegitimate State Apparatus§!\n$tno_admin_efficiency_illegitimate_administration_MODIFIER$\n$tno_admin_efficiency_illegitimate_administration_MODIFIER_2$"
+ tno_admin_efficiency_deficient_administrative_systems_MODIFIER_COMBINED: "§YDeficient State Apparatus§!\n$tno_admin_efficiency_deficient_administrative_systems_MODIFIER$\n$tno_admin_efficiency_deficient_administrative_systems_MODIFIER_2$"
+ tno_admin_efficiency_functional_administrative_systems_MODIFIER_COMBINED: "§YFunctional State Apparatus§!\n$tno_admin_efficiency_functional_administrative_systems_MODIFIER$\n$tno_admin_efficiency_functional_administrative_systems_MODIFIER_2$"
+ tno_admin_efficiency_streamlined_bureaucracy_MODIFIER_COMBINED: "§YStreamlined State Apparatus§!\n$tno_admin_efficiency_streamlined_bureaucracy_MODIFIER$\n$tno_admin_efficiency_streamlined_bureaucracy_MODIFIER_2$"
+ tno_admin_efficiency_well_oiled_machine_MODIFIER_COMBINED: "§YWell-Oiled Machine§!\n$tno_admin_efficiency_well_oiled_machine_MODIFIER$\n$tno_admin_efficiency_well_oiled_machine_MODIFIER_2$"
+
+ tno_healthcare_makeshift_MODIFIER: "Monthly Population: §R-25.00%§!\nDivision Attrition: §R+10.00%§!\nArmy Organization Regain: §R-15.00%§!\nStability: §R-25.00%§!\nWar Support: §R-10.00%§!"
+ tno_healthcare_makeshift_MODIFIER_2: "Monthly Poverty Rate Decrease: §R-0.04%§!"
+ tno_healthcare_makeshift_MODIFIER_COMBINED: "§YMakeshift Healthcare§!\n$tno_healthcare_makeshift_MODIFIER$\n$tno_healthcare_makeshift_MODIFIER_2$"
+
+ tno_healthcare_rudimentary_MODIFIER: "Monthly Population: §R-15.00%§!\nArmy Organization Regain: §R-5.00%§!\nStability: §R-10.00%§!\nWar Support: §R-10.00%§!\nMonthly Poverty Rate Decrease: §R-0.02%§!"
+ tno_healthcare_rudimentary_MODIFIER_2: ""
+ tno_healthcare_rudimentary_MODIFIER_COMBINED: "§YRudimentary Healthcare§!\n$tno_healthcare_rudimentary_MODIFIER$\n$tno_healthcare_rudimentary_MODIFIER_2$"
+
+ tno_healthcare_nascent_MODIFIER: "Monthly Population: §R-5.00%§!\nStability: §R-5.00%§!"
+ tno_healthcare_nascent_MODIFIER_2: ""
+ tno_healthcare_nascent_MODIFIER_COMBINED: "§YNascent Healthcare§!\n$tno_healthcare_nascent_MODIFIER$\n$tno_healthcare_nascent_MODIFIER_2$"
+
+ tno_healthcare_developed_MODIFIER: "Monthly Population: §G+5.00%§!\nArmy Organization Regain: §G+5.00%§!\nStability: §G+5.00%§!"
+ tno_healthcare_developed_MODIFIER_2: ""
+ tno_healthcare_developed_MODIFIER_COMBINED: "§YDeveloped Healthcare§!\n$tno_healthcare_developed_MODIFIER$\n$tno_healthcare_developed_MODIFIER_2$"
+
+ tno_healthcare_advanced_MODIFIER: "Monthly Population: §G+15.00%§!\nDivision Attrition: §G-5.00%§!\nArmy Organization Regain: §G+5.00%§!\nStability: §G+10.00%§!\nWar Support: §G+2.50%§!"
+ tno_healthcare_advanced_MODIFIER_2: "Monthly Poverty Rate Decrease: §G+0.02%§!"
+ tno_healthcare_advanced_MODIFIER_COMBINED: "§YAdvanced Healthcare§!\n$tno_healthcare_advanced_MODIFIER$\n$tno_healthcare_advanced_MODIFIER_2$"
+
+ tno_healthcare_world_class_MODIFIER: "Monthly Population: §G+25.00%§!\nDivision Attrition: §G-10.00%§!\nArmy Organization Regain: §G+5.00%§!\nStability: §G+15.00%§!\nWar Support: §G+5.00%§!"
+ tno_healthcare_world_class_MODIFIER_2: "Monthly Poverty Rate Decrease: §G+0.04%§!"
+ tno_healthcare_world_class_MODIFIER_COMBINED: "§YWorld Class Healthcare§!\n$tno_healthcare_world_class_MODIFIER$\n$tno_healthcare_world_class_MODIFIER_2$"
+
+ tno_industrial_equipment_hand_tools_MODIFIER: "Factory Output: §R-30.00%§!\nDockyard Output: §R-50.00%§!\nConstruction Speed: §R-30.00%§!\nResource Gain Efficiency: §R-20.00%§!\nConsumer Goods Prod.: §R-25.00%§!"
+ tno_industrial_equipment_hand_tools_MODIFIER_2: "GDP Growth Multiplier: §R-6.00%§!\nNaval Industry Cost: §G-50%§!\nMilitary Procurement Cost §G-70%§!"
+ tno_industrial_equipment_hand_tools_MODIFIER_COMBINED: "§YHand Tools§!\n$tno_industrial_equipment_hand_tools_MODIFIER$\n$tno_industrial_equipment_hand_tools_MODIFIER_2$"
+
+ tno_industrial_equipment_power_tools_MODIFIER: "Factory Output: §R-20.00%§!\nDockyard Output: §R-30.00%§!\nConstruction Speed: §R-20.00%§!\nResource Gain Efficiency: §R-10.00%§!\nConsumer Goods Prod.: §R-15.00%§!"
+ tno_industrial_equipment_power_tools_MODIFIER_2: "GDP Growth Multiplier: §R-4.00%§!\nNaval Industry Cost: §G-25%§!\nMilitary Procurement Cost §G-55%§!"
+ tno_industrial_equipment_power_tools_MODIFIER_COMBINED: "§YPower Tools§!\n$tno_industrial_equipment_power_tools_MODIFIER$\n$tno_industrial_equipment_power_tools_MODIFIER_2$"
+ 
+ tno_industrial_equipment_manufacturing_lines_MODIFIER: "Factory Output: §R-10.00%§!\nDockyard Output: §R-10.00%§!\nConstruction Speed: §R-10.00%§!\nConsumer Goods Prod.: §R-5.00%§!"
+ tno_industrial_equipment_manufacturing_lines_MODIFIER_2: "GDP Growth Multiplier: §R-2.00%§!\nNaval Industry Cost: §G-10%§!\nMilitary Procurement Cost §G-40%§!"
+ tno_industrial_equipment_manufacturing_lines_MODIFIER_COMBINED: "§YRudimentary Manufacturing Lines§!\n$tno_industrial_equipment_manufacturing_lines_MODIFIER$\n$tno_industrial_equipment_manufacturing_lines_MODIFIER_2$"
+ 
+ tno_industrial_equipment_factory_complexes_MODIFIER: "Military Procurement Cost §G-25%§!"
+ tno_industrial_equipment_factory_complexes_MODIFIER_2: ""
+ tno_industrial_equipment_factory_complexes_MODIFIER_COMBINED: "§YFactory Complexes§!\n$tno_industrial_equipment_factory_complexes_MODIFIER$\n$tno_industrial_equipment_factory_complexes_MODIFIER_2$"
+ 
+ tno_industrial_equipment_modern_MODIFIER: "Factory Output: §G+10.00%§!\nDockyard Output: §G+10.00%§!\nConstruction Speed: §G+10.00%§!\nResource Gain Efficiency: §G+10.00%§!\nConsumer Goods Prod.: §G+5.00%§!"
+ tno_industrial_equipment_modern_MODIFIER_2: "GDP Growth Multiplier: §G+2.00%§!\nMilitary Procurement Cost §G-10%§!"
+ tno_industrial_equipment_modern_MODIFIER_COMBINED: "§YModern Industrial Equipment§!\n$tno_industrial_equipment_modern_MODIFIER$\n$tno_industrial_equipment_modern_MODIFIER_2$"
+ 
+ tno_industrial_equipment_cutting_edge_MODIFIER: "Factory Output: §G+20.00%§!\nDockyard Output: §G+20.00%§!\nConstruction Speed: §G+20.00%§!\nResource Gain Efficiency: §G+20.00%§!\nConsumer Goods Prod.: §G+15.00%§!"
+ tno_industrial_equipment_cutting_edge_MODIFIER_2: "GDP Growth Multiplier: §G+4.00%§!\nMilitary Procurement Cost §R+5%§!"
+ tno_industrial_equipment_cutting_edge_MODIFIER_COMBINED: "§YCutting-Edge Industrial Equipment§!\n$tno_industrial_equipment_cutting_edge_MODIFIER$\n$tno_industrial_equipment_cutting_edge_MODIFIER_2$"
+
+ tno_industrial_expertise_pre_industrial_MODIFIER: "£prod_eff_cap Prod. Efficiency Cap: §R-20.00%§!\n£prod_eff  Prod. Efficiency Retention: §R-50.00%§!\n£prod_growth  Prod. Efficiency Gain: §R-35.00%§!\nNeeded Consumer Goods: §G-10.00%§!\nNaval Industry Cost: §R+100%§!"
+ tno_industrial_expertise_pre_industrial_MODIFIER_2: "GDP Growth Multiplier: §R-8.00%§!\nConsumer Goods Prod.: §R-25.00%§!\nMilitary Procurement Cost §G-80%§!"
+ tno_industrial_expertise_pre_industrial_MODIFIER_COMBINED: "§YPre-Industrial Methods§!\n$tno_industrial_expertise_pre_industrial_MODIFIER$\n$tno_industrial_expertise_pre_industrial_MODIFIER_2$"
+ 
+ tno_industrial_expertise_incompetent_MODIFIER: "£prod_eff_cap Prod. Efficiency Cap: §R-15.00%§!\n£prod_eff  Prod. Efficiency Retention: §R-40.00%§!\n£prod_growth  Prod. Efficiency Gain: §R-25.00%§!\nNeeded Consumer Goods: §G-5.00%§!\nNaval Industry Cost: §R+50%§!"
+ tno_industrial_expertise_incompetent_MODIFIER_2: "GDP Growth Multiplier: §R-5.00%§!\nConsumer Goods Prod.: §R-15.00%§!\nMilitary Procurement Cost §G-60%§!"
+ tno_industrial_expertise_incompetent_MODIFIER_COMBINED: "§YNascent Industrial Methods§!\n$tno_industrial_expertise_incompetent_MODIFIER$\n$tno_industrial_expertise_incompetent_MODIFIER_2$"
+ 
+ tno_industrial_expertise_nascent_MODIFIER: "£prod_eff_cap Prod. Efficiency Cap: §R-10.00%§!\n£prod_eff  Prod. Efficiency Retention: §R-20.00%§!\n£prod_growth  Prod. Efficiency Gain: §R-15.00%§!\nNaval Industry Cost: §R+25%§!"
+ tno_industrial_expertise_nascent_MODIFIER_2: "GDP Growth Multiplier: §R-2.00%§!\nConsumer Goods Prod.: §R-5.00%§!\nMilitary Procurement Cost §G-40%§!"
+ tno_industrial_expertise_nascent_MODIFIER_COMBINED: "§YIncompetent Industrial Methods§!\n$tno_industrial_expertise_nascent_MODIFIER$\n$tno_industrial_expertise_nascent_MODIFIER_2$"
+ 
+ tno_industrial_expertise_experienced_MODIFIER: "Needed Consumer Goods: §R+1.00%§!"
+ tno_industrial_expertise_experienced_MODIFIER_2: "GDP Growth Multiplier: §G+1.00%§!\nConsumer Goods Prod.: §G+5.00%§!\nMilitary Procurement Cost §G-20%§!"
+ tno_industrial_expertise_experienced_MODIFIER_COMBINED: "§YEfficient Industrial Methods§!\n$tno_industrial_expertise_experienced_MODIFIER$\n$tno_industrial_expertise_experienced_MODIFIER_2$"
+ 
+ tno_industrial_expertise_innovative_MODIFIER: "£prod_eff_cap Prod. Efficiency Cap: §G+10.00%§!\n£prod_eff  Prod. Efficiency Retention: §G+20.00%§!\n£prod_growth  Prod. Efficiency Gain: §G+15.00%§!\nNeeded Consumer Goods: §R+2.50%§!\nNaval Industry Cost: §G-10%§!"
+ tno_industrial_expertise_innovative_MODIFIER_2: "GDP Growth Multiplier: §G+4.00%§!\nConsumer Goods Prod.: §G+15.00%§!"
+ tno_industrial_expertise_innovative_MODIFIER_COMBINED: "§YInnovative Industrial Methods§!\n$tno_industrial_expertise_innovative_MODIFIER$\n$tno_industrial_expertise_innovative_MODIFIER_2$"
+
+ tno_army_professionalism_untrained_MODIFIER: "Division Organization: §R-25.00%§!\nDivision Attack: §R-25.00%§!\nDivision Defense: §R-25.00%§!\nDivision Recovery Rate: §R-30.00%§!\nMax Planning: §R-35%§!\nPlanning Speed: §R-50%§!"
+ tno_army_professionalism_reluctant_conscripts_MODIFIER: "Division Organization: §R-15.00%§!\nDivision Attack: §R-20.00%§!\nDivision Defense: §R-20.00%§!\nDivision Recovery Rate: §R-15.00%§!\nMax Planning: §R-25%§!\nPlanning Speed: §R-35%§!"
+ tno_army_professionalism_disgruntled_veterans_MODIFIER: "Division Organization: §R-10.00%§!\nDivision Attack: §R-10.00%§!\nDivision Defense: §R-10.00%§!\nDivision Recovery Rate: §R-15.00%§!\nMax Planning: §R-25%§!\nPlanning Speed: §R-20%§!"
+ tno_army_professionalism_cronyism_MODIFIER: "Division Organization: §R-5.00%§!\nDivision Attack: §R-5.00%§!\nDivision Defense: §R-5.00%§!\nDivision Recovery Rate: §R-15.00%§!\nMax Planning: §R-30%§!\nPlanning Speed: §R-20%§!"
+ tno_army_professionalism_political_interference_MODIFIER: "Division Organization: §R-5.00%§!\nDivision Attack: §R-5.00%§!\nDivision Defense: §R-5.00%§!\nDivision Recovery Rate: §R-5.00%§!\nMax Planning: §R-5%§!\nPlanning Speed: §R-15%§!"
+ tno_army_professionalism_professional_MODIFIER: "Special Forces Capacity Multiplier: §G+10.0%§!"
+ tno_army_professionalism_spartan_discipline_MODIFIER: "Division Organization: §G+15.00%§!\nDivision Attack: §G+7.50%§!\nDivision Defense: §G+7.50%§!\nDivision Recovery Rate: §G+15.00%§!\nMax Planning: §G+10%§!\nPlanning Speed: §G+10%§!"
+
+ tno_army_professionalism_untrained_MODIFIER_2: "Air Attack: §R-35%§!\nAir Defense: §R-35%§!\nAir Agility: §R-30%§!\nNavy Organization: §R-35.0%§!"
+ tno_army_professionalism_reluctant_conscripts_MODIFIER_2: "Daily Political Power Gain: §R-0.20§!\nAir Attack: §R-20%§!\nAir Defense: §R-20%§!\nAir Agility: §R-15%§!\nNavy Organization: §R-20.0%§!"
+ tno_army_professionalism_disgruntled_veterans_MODIFIER_2: "Daily Political Power Gain: §R-0.15§!\nAir Attack: §R-10%§!\nAir Defense: §R-10%§!\nAir Agility: §R-10%§!\nNavy Organization: §R-10.0%§!"
+ tno_army_professionalism_cronyism_MODIFIER_2: "Daily Political Power Gain: §R-0.10§!\nAir Attack: §R-10%§!\nAir Defense: §R-10%§!\nAir Agility: §R-5%§!\nNavy Organization: §R-5.0%§!\nSupply Consumption: §R+5%§!"
+ tno_army_professionalism_political_interference_MODIFIER_2: "Daily Political Power Gain: §R-0.20§!"
+ tno_army_professionalism_professional_MODIFIER_2: ""
+ tno_army_professionalism_spartan_discipline_MODIFIER_2: "Special Forces Capacity Multiplier: §G+20.0%§!\nAir Attack: §G+7.5%§!\nAir Defense: §G+7.5%§!\nAir Agility: §G+7.5%§!\nNavy Organization: §G+10.0%§!"
+
+ tno_army_professionalism_untrained_MODIFIER_COMBINED: "§YDisorganized Rabble§!\n$tno_army_professionalism_untrained_MODIFIER$\n$tno_army_professionalism_untrained_MODIFIER_2$"
+ tno_army_professionalism_reluctant_conscripts_MODIFIER_COMBINED: "§YIncompetent Officer Corps§!\n$tno_army_professionalism_reluctant_conscripts_MODIFIER$\n$tno_army_professionalism_reluctant_conscripts_MODIFIER_2$"
+ tno_army_professionalism_disgruntled_veterans_MODIFIER_COMBINED: "§YDysfunctional High Command§!\n$tno_army_professionalism_disgruntled_veterans_MODIFIER$\n$tno_army_professionalism_disgruntled_veterans_MODIFIER_2$"
+ tno_army_professionalism_cronyism_MODIFIER_COMBINED: "§YWidespread Cronyism§!\n$tno_army_professionalism_cronyism_MODIFIER$\n$tno_army_professionalism_cronyism_MODIFIER_2$"
+ tno_army_professionalism_political_interference_MODIFIER_COMBINED: "§YPolitical Interference§!\n$tno_army_professionalism_political_interference_MODIFIER$\n$tno_army_professionalism_political_interference_MODIFIER_2$"
+ tno_army_professionalism_professional_MODIFIER_COMBINED: "§YProfessional Army§!\n$tno_army_professionalism_professional_MODIFIER$\n$tno_army_professionalism_professional_MODIFIER_2$"
+ tno_army_professionalism_spartan_discipline_MODIFIER_COMBINED: "§YEsprit de Corps§!\n$tno_army_professionalism_spartan_discipline_MODIFIER$\n$tno_army_professionalism_spartan_discipline_MODIFIER_2$"
+
+ TNO_SD_Trend: "Trend:"
+
+ TNO_SD_Trend_academic_base: "Our §YAcademic Base§! is currently [get_academic_base_trend_tt], at a §Ymonthly rate§! of [Getacademic_base_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_academic_base_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_research_facilities: "Our §YResearch Facilities§! are currently [get_research_facilities_trend_tt], at a §Ymonthly rate§! of [Getresearch_facilities_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_research_facilities_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_agriculture: "Our §YAgriculture§! is currently [get_agriculture_trend_tt], at a §Ymonthly rate§! of [Getagriculture_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_agriculture_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_healthcare: "Our §YHealthcare§! is currently [get_healthcare_trend_tt], at a §Ymonthly rate§! of [Gethealthcare_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_healthcare_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_admin_efficiency: "Our §YAdministrative Efficiency§! is currently [get_admin_efficiency_trend_tt], at a §Ymonthly rate§! of [Getadmin_efficiency_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_admin_efficiency_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_industrial_equip: "Our §YIndustrial Equipment§! is currently [get_industrial_equipment_trend_tt], at a §Ymonthly rate§! of [Getindustrial_equipment_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_industrial_equipment_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_industrial_expertise: "Our §YIndustrial Expertise§! is currently [get_industrial_expertise_trend_tt], at a §Ymonthly rate§! of [Getindustrial_expertise_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_industrial_expertise_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+ TNO_SD_Trend_army_professionalism: "Our §YMilitary Professionalism§! is currently [get_army_professionalism_trend_tt], at a §Ymonthly rate§! of [Getarmy_professionalism_monthly_change_var].\nOur current §YDevelopment Status§! in this category is at [get_army_professionalism_development_status].\n\nShould §YSocietal Development Progress§! in this category reach §Y240§!, our §Ylevel of development§! will §Gimprove§! inside said category.\nShould §YSocietal Development Progress§! fall to §Y-240§!, our §Ylevel of development§! will §Rdecrease§! inside said category."
+
+ TNO_policy_trend_political_parties: "Our §YPolitical Parties§! base §Fpolicy effectiveness is §W[?tno_political_parties_effectiveness]%§! and it's [get_political_parties_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?political_parties_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@political_parties_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_religious_rights: "Our §YReligious Rights§! base §Fpolicy effectiveness is §W[?tno_religious_rights_effectiveness]%§! and it's [get_religious_rights_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?religious_rights_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@religious_rights_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_trade_unions: "Our §YTrade Unions§! base §Fpolicy effectiveness is§! §W[?tno_trade_unions_effectiveness]%§! and it's [get_trade_unions_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?trade_unions_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@trade_unions_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_immigration: "[GetCategory1Lawtno_immigrationTrendTT]"
+ TNO_policy_trend_immigration_normal: "Our §YImmigration§! base §Fpolicy effectiveness is§! §W[?tno_immigration_effectiveness]%§!, modified to §Y[?tno_immigration_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§!.\n\nOur base policy effectiveness is [get_immigration_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?immigration_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@immigration_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_immigration_below: "Our §YImmigration§! base §Fpolicy effectiveness is§! §W[?tno_immigration_effectiveness]%§!, modified to §Y[?tno_immigration_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§! and due to §Ynavy size effects§!.\n\nOur base policy effectiveness is [get_immigration_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?immigration_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@immigration_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_slavery: "Our §YForced Labor§! base §Fpolicy effectiveness is§! §W[?tno_slavery_effectiveness]%§!, modified to §Y[?tno_slavery_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§!.\n\nOur base policy effectiveness is [get_slavery_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §![?slavery_policy_monthly_change]%§!§F, and a rate§!§F of §!§W§W[?modifier@slavery_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_public_meetings: "Our §YPublic Meetings§! base §Fpolicy effectiveness is§! §W[?tno_public_meetings_effectiveness]%§!, modified to §Y[?tno_public_meetings_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§!.\n\nOur base policy effectiveness is [get_public_meetings_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §![?public_meetings_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@public_meetings_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_press_rights: "Our §YPress Rights§! base §Fpolicy effectiveness is§! §W[?tno_press_rights_effectiveness]%§!, modified to §Y[?tno_press_rights_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§!.\n\nOur base policy effectiveness is [get_press_rights_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?press_rights_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@press_rights_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_vote_franchise: "Our §YVote Franchise§! base §Fpolicy effectiveness is§! §W[?tno_vote_franchise_effectiveness]%§! and it's [get_vote_franchise_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?vote_franchise_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@vote_franchise_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_conscription: "Our §YConscription§! base §Fpolicy effectiveness is§! §W[?tno_conscription_effectiveness]%§!, modified to §Y[?tno_conscription_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_bureaucracy_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is  [get_conscription_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?conscription_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@conscription_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_military_supervision: "Our §YMilitary Supervision§! base §Fpolicy effectiveness is§! §W[?tno_military_supervision_effectiveness]%§! and it's [get_military_supervision_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?military_supervision_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@military_supervision_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_training: "Our §YTraining§! base §Fpolicy effectiveness is§! §W[?tno_training_effectiveness]%§!, modified to §Y[?tno_training_effectiveness_actual|2]%§! by our army maintenance budget of §Y[?TNO_army_funding_policy_effect|%]§! and by our national §YMilitary Base§! coverage of [?TNO_barrack_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_training_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?training_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@training_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_draft_exemptions: "Our §YDraft Exemptions§! base §Fpolicy effectiveness is§! §W[?tno_draft_exemptions_effectiveness]%§! and it's [get_draft_exemptions_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?draft_exemptions_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@draft_exemptions_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_trade_laws: "[GetCategory3Lawtno_trade_lawsTrendTT]"
+ TNO_policy_trend_trade_laws_normal: "Our §YTrade Laws§! base §Fpolicy effectiveness is§! §W[?tno_trade_laws_effectiveness]%§! and it's [get_trade_laws_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?trade_laws_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@trade_laws_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_trade_laws_below: "Our §YTrade Laws§! base §Fpolicy effectiveness is§! §W[?tno_trade_laws_effectiveness]%§!, modified to §Y[?tno_trade_laws_effectiveness_actual|2]%§! due to §Ynavy size effects§!.\n\nOur base policy effectiveness is [get_trade_laws_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?trade_laws_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@trade_laws_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_income_taxation: "Our §YIncome Taxation§! base §Fpolicy effectiveness is§! §W[?tno_income_taxation_effectiveness]%§!, modified to §Y[?tno_income_taxation_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_bureaucracy_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_income_taxation_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?income_taxation_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@income_taxation_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_minimum_wage: "Our §YMinimum Wage§! base §Fpolicy effectiveness is§! §W[?tno_minimum_wage_effectiveness]%§!, modified to §Y[?tno_minimum_wage_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_bureaucracy_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_minimum_wage_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?minimum_wage_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@minimum_wage_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_max_workhours: "Our §YWorkday§! base §Fpolicy effectiveness is§! §W[?tno_max_workhours_effectiveness]%§!, modified to §Y[?tno_max_workhours_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_bureaucracy_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_max_workhours_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?max_workhours_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@max_workhours_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_pensions: "Our §YPensions§! base §Fpolicy effectiveness is§! §W[?tno_pensions_effectiveness]%§!, modified to §Y[?tno_pensions_effectiveness_actual|2]%§! by our social budget of §Y[?TNO_social_funding_policy_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_pensions_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?pensions_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@pensions_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_unemployment: "Our §YUnemployment§! base §Fpolicy effectiveness is§! §W[?tno_unemployment_effectiveness]%§!, modified to §Y[?tno_unemployment_effectiveness_actual|2]%§! by our social budget of §Y[?TNO_social_funding_policy_effect|%]§!.\n\nOur base policy effectiveness is [get_unemployment_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?unemployment_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@unemployment_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_regulations: "Our §YIndustrial Regulations§! base §Fpolicy effectiveness is§! §W[?tno_regulations_effectiveness]%§!, modified to §Y[?tno_regulations_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_regulations_effect|%]§! and our national §YOffice§! coverage of [?TNO_office_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_regulations_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?regulations_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@regulations_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_health_care: "Our §YHealthcare§! base §Fpolicy effectiveness is§! §W[?tno_health_care_effectiveness]%§!, modified to §Y[?tno_health_care_effectiveness_actual|2]%§! by our social budget of §Y[?TNO_social_funding_policy_effect|%]§! and by our national §YHospital§! coverage of [?TNO_hospital_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_health_care_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?health_care_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@health_care_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_education: "Our §YEducation§! base §Fpolicy effectiveness is§! §W[?tno_education_effectiveness]%§!, modified to §Y[?tno_education_effectiveness_actual|2]%§! by our social budget of §Y[?TNO_social_funding_policy_effect|%]§! and by our national §YSchool§! coverage of [?TNO_school_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_education_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?education_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@education_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_penal_system: "Our §YPenal System§! base §Fpolicy effectiveness is§! §W[?tno_penal_system_effectiveness]%§!, modified to §Y[?tno_penal_system_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§! and by our national §YPrison§! coverage of [?TNO_prison_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_penal_system_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?penal_system_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@penal_system_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_gender_rights: "Our §YGender Rights§! base §Fpolicy effectiveness is§! §W[?tno_gender_rights_effectiveness]%§! and it's [get_gender_rights_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?gender_rights_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@gender_rights_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+ TNO_policy_trend_security: "Our §YSecurity§! base §Fpolicy effectiveness is§! §W[?tno_security_effectiveness]%§!, modified to §Y[?tno_security_effectiveness_actual|2]%§! by our administrative budget of §Y[?TNO_admin_funding_security_effect|%]§! and by our national §YPrison§! coverage of [?TNO_prison_coverage_percent_gui]%.\n\nOur base policy effectiveness is [get_security_policy_trend_tt]§F, at a §!§Ybase monthly rate§!§F of §!§W[?security_policy_monthly_change]%§!§F, and a rate§!§F of §!§W[?modifier@security_policy_monthly_rate]%§!§F from §!§Ymodifiers§!."
+
+ TNO_health_care_sp_effect_neg: "§R[?tno_health_care_effectiveness_sp_effect]%§!"
+ TNO_health_care_sp_effect_net: "§Y[?tno_health_care_effectiveness_sp_effect]%§!"
+ TNO_health_care_sp_effect_pos: "§G[?tno_health_care_effectiveness_sp_effect]%§!"
+ 
+ TNO_education_sp_effect_neg: "§R[?tno_education_effectiveness_sp_effect]%§!"
+ TNO_education_sp_effect_net: "§Y[?tno_education_effectiveness_sp_effect]%§!"
+ TNO_education_sp_effect_pos: "§G[?tno_education_effectiveness_sp_effect]%§!"
+ 
+ TNO_penal_system_sp_effect_neg: "§R[?tno_penal_system_effectiveness_sp_effect]%§!"
+ TNO_penal_system_sp_effect_net: "§Y[?tno_penal_system_effectiveness_sp_effect]%§!"
+ TNO_penal_system_sp_effect_pos: "§G[?tno_penal_system_effectiveness_sp_effect]%§!"
+ 
+ TNO_security_sp_effect_neg: "§R[?tno_security_effectiveness_sp_effect]%§!"
+ TNO_security_sp_effect_net: "§Y[?tno_security_effectiveness_sp_effect]%§!"
+ TNO_security_sp_effect_pos: "§G[?tno_security_effectiveness_sp_effect]%§!"
+ 
+ TNO_unemployment_sp_effect_neg: "§R[?tno_unemployment_effectiveness_sp_effect]%§!"
+ TNO_unemployment_sp_effect_net: "§Y[?tno_unemployment_effectiveness_sp_effect]%§!"
+ TNO_unemployment_sp_effect_pos: "§G[?tno_unemployment_effectiveness_sp_effect]%§!"
+
+ academic_base_monthly_change_value_tt: "[?academic_base_monthly_change_tt|+2]"
+ research_facilities_monthly_change_value_tt: "[?research_facilities_monthly_change_tt|+2]"
+ agriculture_monthly_change_value_tt: "[?agriculture_monthly_change_tt|+2]"
+ healthcare_monthly_change_value_tt: "[?healthcare_monthly_change_tt|+2]"
+ admin_efficiency_monthly_change_value_tt: "[?admin_efficiency_monthly_change_tt|+2]"
+ industrial_equipment_monthly_change_value_tt: "[?industrial_equipment_monthly_change_tt|+2]"
+ industrial_expertise_monthly_change_value_tt: "[?industrial_expertise_monthly_change_tt|+2]"
+ army_professionalism_monthly_change_value_tt: "[?army_professionalism_monthly_change_tt|+2]"
+
+ TNO_SD_Trend_Academic_Base_Status_Positive: "[?ROOT.academic_base_counter|G]/§Y240§!"
+ TNO_SD_Trend_Academic_Base_Status_Negative: "[?ROOT.academic_base_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Research_Facilities_Status_Positive: "[?ROOT.research_facilities_counter|G]/§Y240§!"
+ TNO_SD_Trend_Research_Facilities_Status_Negative: "[?ROOT.research_facilities_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Agriculture_Status_Positive: "[?ROOT.agriculture_counter|G]/§Y240§!"
+ TNO_SD_Trend_Agriculture_Status_Negative: "[?ROOT.agriculture_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Healthcare_Status_Positive: "[?ROOT.healthcare_counter|G]/§Y240§!"
+ TNO_SD_Trend_Healthcare_Status_Negative: "[?ROOT.healthcare_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Admin_Efficiency_Status_Positive: "[?ROOT.admin_efficiency_counter|G]/§Y240§!"
+ TNO_SD_Trend_Admin_Efficiency_Status_Negative: "[?ROOT.admin_efficiency_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Industrial_Equip_Status_Positive: "[?ROOT.industrial_equipment_counter|G]/§Y240§!"
+ TNO_SD_Trend_Industrial_Equip_Status_Negative: "[?ROOT.industrial_equipment_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Industrial_Expertise_Status_Positive: "[?ROOT.industrial_expertise_counter|G]/§Y240§!"
+ TNO_SD_Trend_Industrial_Expertise_Status_Negative: "[?ROOT.industrial_expertise_counter|R]/-§Y240§!"
+ TNO_SD_Trend_Army_Professionalism_Status_Positive: "[?ROOT.army_professionalism_counter|G]/§Y240§!"
+ TNO_SD_Trend_Army_Professionalism_Status_Negative: "[?ROOT.army_professionalism_counter|R]/-§Y240§!"
+
+ TNO_SD_Trend_SocDev_Neutral: "§Ystagnant§!"
+ TNO_SD_Trend_SocDev_Increase_Low: "§Gslowly improving§!"
+ TNO_SD_Trend_SocDev_Increase: "§Gimproving§!"
+ TNO_SD_Trend_SocDev_Increase_High: "§Gimproving rapidly§!"
+ TNO_SD_Trend_SocDev_Decrease_Low: "§Rslowly worsening§!"
+ TNO_SD_Trend_SocDev_Decrease: "§Rworsening§!"
+ TNO_SD_Trend_SocDev_Decrease_High: "§Rworsening rapidly§!"
+
+ societal_development: "Societal Development"
+
+ TNO_safety_policy_dynamic_modifier: "§YSafety§! Policy"
+ TNO_health_care_policy_dynamic_modifier: "§YHealthcare§! Policy"
+ TNO_pollution_policy_dynamic_modifier: "§YPollution§! Policy"
+ TNO_education_policy_dynamic_modifier: "§YEducation§! Policy"
+ TNO_penal_system_policy_dynamic_modifier: "§YPenal System§! Policy"
+ TNO_lgbt_rights_policy_dynamic_modifier: "§YSexual Minorities§! Policy"
+ TNO_gender_rights_policy_dynamic_modifier: "§YGender Rights§! Policy"
+ TNO_minorities_policy_dynamic_modifier: "§YMinorities§! Policy"
+ TNO_security_policy_dynamic_modifier: "§YSecurity§! Policy"
+ TNO_regulations_policy_dynamic_modifier: "§YIndustrial Regulations§! Policy"
+
+ TNO_trade_laws_policy_dynamic_modifier: "§YTrade§! Policy"
+ TNO_income_taxation_policy_dynamic_modifier: "§YIncome Taxation§! Policy"
+ TNO_minimum_wage_policy_dynamic_modifier: "§YMinimum Wage§! Policy"
+ TNO_max_workhours_policy_dynamic_modifier: "§YWorkhours§! Policy"
+ TNO_pensions_policy_dynamic_modifier: "§YPensions§! Policy"
+ TNO_unemployment_policy_dynamic_modifier: "§YUnemployment§! Policy"
+ 
+ TNO_political_parties_policy_dynamic_modifier: "§YPolitical Parties§! Policy"
+ TNO_religious_rights_policy_dynamic_modifier: "§YReligious Rights§! Policy"
+ TNO_trade_unions_policy_dynamic_modifier: "§YTrade Unions§! Policy"
+ TNO_immigration_policy_dynamic_modifier: "§YImmigration§! Policy"
+ TNO_slavery_policy_dynamic_modifier: "§YForced Labor§! Policy"
+ TNO_public_meetings_policy_dynamic_modifier: "§YPublic Meetings§! Policy"
+ TNO_press_rights_policy_dynamic_modifier: "§YPress Rights§! Policy"
+ TNO_vote_franchise_policy_dynamic_modifier: "§YVote Franchise§! Policy"
+ TNO_refugees_policy_dynamic_modifier: "§YRefugees§! Policy"
+
+ TNO_conscription_policy_dynamic_modifier: "§YConscription§! Policy"
+ TNO_women_policy_dynamic_modifier: "§YWomen's Armed Service§! Policy"
+ TNO_military_supervision_policy_dynamic_modifier: "§YMilitary Supervision§! Policy"
+ TNO_training_policy_dynamic_modifier: "§YMilitary Training§! Policy"
+ TNO_draft_exemptions_policy_dynamic_modifier: "§YDraft Exemptions§! Policy"
+
+ TNO_improve_trade_laws_policy_effectiveness_low_tt: "§GSlightly increases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_improve_income_taxation_policy_effectiveness_low_tt: "§GSlightly increases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_low_tt: "§GSlightly increases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_improve_max_workhours_policy_effectiveness_low_tt: "§GSlightly increases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_improve_pensions_policy_effectiveness_low_tt: "§GSlightly increases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_improve_unemployment_policy_effectiveness_low_tt: "§GSlightly increases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_improve_health_care_policy_effectiveness_low_tt: "§GSlightly increases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_improve_education_policy_effectiveness_low_tt: "§GSlightly increases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_improve_penal_system_policy_effectiveness_low_tt: "§GSlightly increases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_improve_gender_rights_policy_effectiveness_low_tt: "§GSlightly increases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_improve_security_policy_effectiveness_low_tt: "§GSlightly increases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_improve_regulations_policy_effectiveness_low_tt: "§GSlightly increases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_low_tt: "§GSlightly increases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_improve_religious_rights_policy_effectiveness_low_tt: "§GSlightly increases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_improve_trade_unions_policy_effectiveness_low_tt: "§GSlightly increases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_improve_immigration_policy_effectiveness_low_tt: "§GSlightly increases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_improve_slavery_policy_effectiveness_low_tt: "§GSlightly increases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_improve_public_meetings_policy_effectiveness_low_tt: "§GSlightly increases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_improve_press_rights_policy_effectiveness_low_tt: "§GSlightly increases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_low_tt: "§GSlightly increases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_improve_conscription_policy_effectiveness_low_tt: "§GSlightly increases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_improve_military_supervision_policy_effectiveness_low_tt: "§GSlightly increases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_improve_training_policy_effectiveness_low_tt: "§GSlightly increases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_low_tt: "§GSlightly increases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+
+ TNO_improve_trade_laws_policy_effectiveness_med_tt: "§GIncreases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_improve_income_taxation_policy_effectiveness_med_tt: "§GIncreases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_med_tt: "§GIncreases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_improve_max_workhours_policy_effectiveness_med_tt: "§GIncreases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_improve_pensions_policy_effectiveness_med_tt: "§GIncreases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_improve_unemployment_policy_effectiveness_med_tt: "§GIncreases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_improve_health_care_policy_effectiveness_med_tt: "§GIncreases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_improve_education_policy_effectiveness_med_tt: "§GIncreases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_improve_penal_system_policy_effectiveness_med_tt: "§GIncreases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_improve_gender_rights_policy_effectiveness_med_tt: "§GIncreases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_improve_security_policy_effectiveness_med_tt: "§GIncreases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_improve_regulations_policy_effectiveness_med_tt: "§GIncreases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_med_tt: "§GIncreases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_improve_religious_rights_policy_effectiveness_med_tt: "§GIncreases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_improve_trade_unions_policy_effectiveness_med_tt: "§GIncreases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_improve_immigration_policy_effectiveness_med_tt: "§GIncreases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_improve_slavery_policy_effectiveness_med_tt: "§GIncreases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_improve_public_meetings_policy_effectiveness_med_tt: "§GIncreases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_improve_press_rights_policy_effectiveness_med_tt: "§GIncreases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_med_tt: "§GIncreases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_improve_conscription_policy_effectiveness_med_tt: "§GIncreases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_improve_military_supervision_policy_effectiveness_med_tt: "§GIncreases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_improve_training_policy_effectiveness_med_tt: "§GIncreases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_med_tt: "§GIncreases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+
+ TNO_improve_trade_laws_policy_effectiveness_high_tt: "§GHighly increases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_improve_income_taxation_policy_effectiveness_high_tt: "§GHighly increases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_high_tt: "§GHighly increases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_improve_max_workhours_policy_effectiveness_high_tt: "§GHighly increases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_improve_pensions_policy_effectiveness_high_tt: "§GHighly increases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_improve_unemployment_policy_effectiveness_high_tt: "§GHighly increases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_improve_health_care_policy_effectiveness_high_tt: "§GHighly increases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_improve_education_policy_effectiveness_high_tt: "§GHighly increases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_improve_penal_system_policy_effectiveness_high_tt: "§GHighly increases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_improve_gender_rights_policy_effectiveness_high_tt: "§GHighly increases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_improve_security_policy_effectiveness_high_tt: "§GHighly increases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_improve_regulations_policy_effectiveness_high_tt: "§GHighly increases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_high_tt: "§GHighly increases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_improve_religious_rights_policy_effectiveness_high_tt: "§GHighly increases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_improve_trade_unions_policy_effectiveness_high_tt: "§GHighly increases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_improve_immigration_policy_effectiveness_high_tt: "§GHighly increases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_improve_slavery_policy_effectiveness_high_tt: "§GHighly increases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_improve_public_meetings_policy_effectiveness_high_tt: "§GHighly increases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_improve_press_rights_policy_effectiveness_high_tt: "§GHighly increases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_high_tt: "§GHighly increases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_improve_conscription_policy_effectiveness_high_tt: "§GHighly increases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_improve_military_supervision_policy_effectiveness_high_tt: "§GHighly increases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_improve_training_policy_effectiveness_high_tt: "§GHighly increases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_high_tt: "§GHighly increases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+ 
+ TNO_worsen_trade_laws_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_worsen_pensions_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_worsen_unemployment_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_worsen_education_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_worsen_penal_system_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_worsen_security_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_worsen_regulations_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_worsen_immigration_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_worsen_slavery_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_worsen_press_rights_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_low_tt: "§RSlightly decreases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_worsen_training_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_low_tt: "§RSlightly decreases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+
+ TNO_worsen_trade_laws_policy_effectiveness_med_tt: "§RDecreases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_med_tt: "§RDecreases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_med_tt: "§RDecreases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_med_tt: "§RDecreases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_worsen_pensions_policy_effectiveness_med_tt: "§RDecreases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_worsen_unemployment_policy_effectiveness_med_tt: "§RDecreases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_med_tt: "§RDecreases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_worsen_education_policy_effectiveness_med_tt: "§RDecreases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_worsen_penal_system_policy_effectiveness_med_tt: "§RDecreases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_med_tt: "§RDecreases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_worsen_security_policy_effectiveness_med_tt: "§RDecreases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_worsen_regulations_policy_effectiveness_med_tt: "§RDecreases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_med_tt: "§RDecreases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_med_tt: "§RDecreases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_med_tt: "§RDecreases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_worsen_immigration_policy_effectiveness_med_tt: "§RDecreases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_worsen_slavery_policy_effectiveness_med_tt: "§RDecreases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_med_tt: "§RDecreases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_worsen_press_rights_policy_effectiveness_med_tt: "§RDecreases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_med_tt: "§RDecreases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_med_tt: "§RDecreases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_med_tt: "§RDecreases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_worsen_training_policy_effectiveness_med_tt: "§RDecreases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_med_tt: "§RDecreases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+
+ TNO_worsen_trade_laws_policy_effectiveness_high_tt: "§RHighly decreases§! §Ytrade laws§! (§Y[GetCategory3Lawtno_trade_laws]§!) policy effectiveness.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_high_tt: "§RHighly decreases§! §Yincome taxation§! (§Y[GetCategory3Lawtno_income_taxation]§!) policy effectiveness.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_high_tt: "§RHighly decreases§! §Yminimum wage§! (§Y[GetCategory3Lawtno_minimum_wage]§!) policy effectiveness.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_high_tt: "§RHighly decreases§! §Yworkday§! (§Y[GetCategory3Lawtno_max_workhours]§!) policy effectiveness.\n"
+ TNO_worsen_pensions_policy_effectiveness_high_tt: "§RHighly decreases§! §Ypensions§! (§Y[GetCategory3Lawtno_pensions]§!) policy effectiveness.\n"
+ TNO_worsen_unemployment_policy_effectiveness_high_tt: "§RHighly decreases§! §Yunemployment§! (§Y[GetCategory3Lawtno_unemployment]§!) policy effectiveness.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_high_tt: "§RHighly decreases§! §Yhealthcare§! (§Y[GetCategory4Lawtno_health_care]§!) policy effectiveness.\n"
+ TNO_worsen_education_policy_effectiveness_high_tt: "§RHighly decreases§! §Yeducation§! (§Y[GetCategory4Lawtno_education]§!) policy effectiveness.\n"
+ TNO_worsen_penal_system_policy_effectiveness_high_tt: "§RHighly decreases§! §Ypenal system§! (§Y[GetCategory4Lawtno_penal_system]§!) policy effectiveness.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_high_tt: "§RHighly decreases§! §Ygender rights§! (§Y[GetCategory4Lawtno_gender_rights]§!) policy effectiveness.\n"
+ TNO_worsen_security_policy_effectiveness_high_tt: "§RHighly decreases§! §Ysecurity§! (§Y[GetCategory4Lawtno_security]§!) policy effectiveness.\n"
+ TNO_worsen_regulations_policy_effectiveness_high_tt: "§RHighly decreases§! §Yindustrial regulations§! (§Y[GetCategory4Lawtno_regulations]§!) policy effectiveness.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_high_tt: "§RHighly decreases§! §Ypolitical parties§! (§Y[GetCategory1Lawtno_political_parties]§!) policy effectiveness.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_high_tt: "§RHighly decreases§! §Yreligious rights§! (§Y[GetCategory1Lawtno_religious_rights]§!) policy effectiveness.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_high_tt: "§RHighly decreases§! §Ytrade unions§! (§Y[GetCategory1Lawtno_trade_unions]§!) policy effectiveness.\n"
+ TNO_worsen_immigration_policy_effectiveness_high_tt: "§RHighly decreases§! §Yimmigration§! (§Y[GetCategory1Lawtno_immigration]§!) policy effectiveness.\n"
+ TNO_worsen_slavery_policy_effectiveness_high_tt: "§RHighly decreases§! §Yforced labor§! (§Y[GetCategory1Lawtno_slavery]§!) policy effectiveness.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_high_tt: "§RHighly decreases§! §Ypublic meetings§! (§Y[GetCategory1Lawtno_public_meetings]§!) policy effectiveness.\n"
+ TNO_worsen_press_rights_policy_effectiveness_high_tt: "§RHighly decreases§! §Ypress rights§! (§Y[GetCategory1Lawtno_press_rights]§!) policy effectiveness.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_high_tt: "§RHighly decreases§! §Yvote franchise§! (§Y[GetCategory1Lawtno_vote_franchise]§!) policy effectiveness.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_high_tt: "§RHighly decreases§! §Yconscription§! (§Y[GetCategory2Lawtno_conscription]§!) policy effectiveness.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_high_tt: "§RHighly decreases§! §Ymilitary supervision§! (§Y[GetCategory2Lawtno_military_supervision]§!) policy effectiveness.\n"
+ TNO_worsen_training_policy_effectiveness_high_tt: "§RHighly decreases§! §Ymilitary training§! (§Y[GetCategory2Lawtno_training]§!) policy effectiveness.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_high_tt: "§RHighly decreases§! §Ydraft exemptions§! (§Y[GetCategory2Lawtno_draft_exemptions]§!) policy effectiveness.\n"
+
+ TNO_improve_trade_laws_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_improve_income_taxation_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_improve_max_workhours_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_improve_pensions_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_improve_unemployment_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+ TNO_improve_health_care_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_improve_education_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_improve_penal_system_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_improve_gender_rights_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_improve_security_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_improve_regulations_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_improve_religious_rights_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_improve_trade_unions_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_improve_immigration_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_improve_slavery_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_improve_public_meetings_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_improve_press_rights_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_improve_conscription_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_improve_military_supervision_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_improve_training_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_monthly_low_tt: "§GSlightly increases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"
+
+ TNO_improve_trade_laws_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_improve_income_taxation_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_improve_max_workhours_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_improve_pensions_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_improve_unemployment_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+ TNO_improve_health_care_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_improve_education_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_improve_penal_system_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_improve_gender_rights_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_improve_security_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_improve_regulations_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_improve_religious_rights_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_improve_trade_unions_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_improve_immigration_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_improve_slavery_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_improve_public_meetings_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_improve_press_rights_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_improve_conscription_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_improve_military_supervision_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_improve_training_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_monthly_med_tt: "§GIncreases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"
+
+ TNO_improve_trade_laws_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_improve_income_taxation_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_improve_minimum_wage_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_improve_max_workhours_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_improve_pensions_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_improve_unemployment_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+
+ TNO_improve_health_care_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_improve_education_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_improve_penal_system_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_improve_gender_rights_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_improve_security_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_improve_regulations_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_improve_political_parties_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_improve_religious_rights_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_improve_trade_unions_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_improve_immigration_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_improve_slavery_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_improve_public_meetings_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_improve_press_rights_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_improve_vote_franchise_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_improve_conscription_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_improve_military_supervision_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_improve_training_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_improve_draft_exemptions_policy_effectiveness_monthly_high_tt: "§GHighly increases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"
+ 
+ TNO_worsen_trade_laws_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_worsen_pensions_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_worsen_unemployment_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_worsen_education_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_worsen_penal_system_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_worsen_security_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_worsen_regulations_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_worsen_immigration_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_worsen_slavery_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_worsen_press_rights_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_worsen_training_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_monthly_low_tt: "§RSlightly decreases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"
+
+ TNO_worsen_trade_laws_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_worsen_pensions_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_worsen_unemployment_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_worsen_education_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_worsen_penal_system_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_worsen_security_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_worsen_regulations_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_worsen_immigration_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_worsen_slavery_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_worsen_press_rights_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_worsen_training_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_monthly_med_tt: "§RDecreases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"
+
+ TNO_worsen_trade_laws_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ytrade laws§! policy effectiveness drift.\n"
+ TNO_worsen_income_taxation_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yincome taxation§! policy effectiveness drift.\n"
+ TNO_worsen_minimum_wage_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yminimum wage§! policy effectiveness drift.\n"
+ TNO_worsen_max_workhours_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yworkday§! policy effectiveness drift.\n"
+ TNO_worsen_pensions_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ypensions§! policy effectiveness drift.\n"
+ TNO_worsen_unemployment_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yunemployment§! policy effectiveness drift.\n"
+
+ TNO_worsen_health_care_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yhealthcare§! policy effectiveness drift.\n"
+ TNO_worsen_education_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yeducation§! policy effectiveness drift.\n"
+ TNO_worsen_penal_system_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ypenal system§! policy effectiveness drift.\n"
+ TNO_worsen_gender_rights_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ygender rights§! policy effectiveness drift.\n"
+ TNO_worsen_security_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ysecurity§! policy effectiveness drift.\n"
+ TNO_worsen_regulations_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yindustrial regulations§! policy effectiveness drift.\n"
+
+ TNO_worsen_political_parties_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ypolitical parties§! policy effectiveness drift.\n"
+ TNO_worsen_religious_rights_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yreligious rights§! policy effectiveness drift.\n"
+ TNO_worsen_trade_unions_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ytrade unions§! policy effectiveness drift.\n"
+ TNO_worsen_immigration_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yimmigration§! policy effectiveness drift.\n"
+ TNO_worsen_slavery_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yforced labor§! policy effectiveness drift.\n"
+ TNO_worsen_public_meetings_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ypublic meetings§! policy effectiveness drift.\n"
+ TNO_worsen_press_rights_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ypress rights§! policy effectiveness drift.\n"
+ TNO_worsen_vote_franchise_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yvote franchise§! policy effectiveness drift.\n"
+
+ TNO_worsen_conscription_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Yconscription§! policy effectiveness drift.\n"
+ TNO_worsen_military_supervision_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ymilitary supervision§! policy effectiveness drift.\n"
+ TNO_worsen_training_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ymilitary training§! policy effectiveness drift.\n"
+ TNO_worsen_draft_exemptions_policy_effectiveness_monthly_high_tt: "§RHighly decreases§! monthly §Ydraft exemptions§! policy effectiveness drift.\n"

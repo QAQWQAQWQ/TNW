@@ -1,0 +1,24 @@
+﻿l_english:
+ 
+####PARTY NAMES#####
+ FML_despotism_party:0 "CNA"
+ FML_despotism_party_long:0 "Comando Naval do Atlântico"
+ FML_paternalism_party:0 "CNA"
+ FML_paternalism_party_long:0 "Comando Naval do Atlântico"
+
+#Country names
+
+ FML_despotism:0 "Atlantic Naval Command"
+ FML_despotism_DEF:0 "the Atlantic Naval Command"
+ FML_despotism_ADJ:0 "Portuguese"
+ 
+ ### Leaders ###
+ 
+ 
+
+### Ideas ### 
+FML_peaceful_island_sea_war:0 "A Peaceful Island In A Sea Of War"
+FML_american_bogeyman:0 "The American Bogeyman"
+
+FML_american_interests:0 "American Interests"
+FML_little_piece_paradise:0 "A Little Piece Of Paradise"

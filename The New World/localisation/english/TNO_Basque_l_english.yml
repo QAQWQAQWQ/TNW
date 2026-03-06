@@ -1,0 +1,45 @@
+﻿l_english:
+ BSQ_Xabier_Arzalluz: "Xabier Arzalluz" 
+ BSQ: "Basque Republic"
+ BSQ_DEF: "the Basque Republic"
+ BSQ_ADJ: "Basque"
+
+ BSQ_communist_party:0 "ETA-FM"
+ BSQ_communist_party_long:0 "Euskadi ta Askatasuna - Fronte Militarra"
+ BSQ_socialist_party:0 "ETA-LA"
+ BSQ_socialist_party_long:0 "Euskadi ta Askatasuna - Langileen Aurrealdea"
+ BSQ_progressivism_party:0 "EAS"
+ BSQ_progressivism_party_long:0 "Euskadiko Alderdi Sozialista"
+ BSQ_liberalism_party:0 "EKD"
+ BSQ_liberalism_party_long:0 "Euskal Kristau Demokrazia"
+ BSQ_conservatism_party:0 "EAJ"
+ BSQ_conservatism_party_long:0 "Eusko Alderdi Jeltzalea"
+ BSQ_paternalism_party:0 "EJ"
+ BSQ_paternalism_party_long:0 "Eusko Jaurlaritza"
+ BSQ_despotism_party:0 "BVE"
+ BSQ_despotism_party_long:0 "Batallón Vasco Español"
+ BSQ_fascism_party:0 "GCR"
+ BSQ_fascism_party_long:0 "Guerrilleros de Cristo Rey"
+
+ #Leader traits 
+ red_lehendakari_trait:0 "The Red Lehendakari"
+
+
+ #Country names 
+ BSQ_fascism_ADJ:0 "Basque" 
+ BSQ_liberalism:0 "Basque Republic" 
+ BSQ_liberalism_DEF:0 "the Basque Republic" 
+ BSQ_liberalism_ADJ:0 "Basque" 
+ BSQ_conservatism:0 "Basque Republic" 
+ BSQ_conservatism_DEF:0 "the Basque Republic" 
+ BSQ_conservatism_ADJ:0 "Basque" 
+ BSQ_paternalism:0 "Basque Republic" 
+ BSQ_paternalism_DEF:0 "the Basque Republic" 
+ BSQ_paternalism_ADJ:0 "Basque" 
+ BSQ_despotism_ADJ:0 "Basque" 
+ BSQ_communist_ADJ:0 "Basque" 
+ BSQ_socialist_ADJ:0 "Basque"
+ BSQ_national_socialism_ADJ:0 "Basque" 
+
+ #Leader Desc 
+ 

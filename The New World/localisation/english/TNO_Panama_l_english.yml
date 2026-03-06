@@ -1,0 +1,99 @@
+﻿l_english: 
+ ###########
+ ##Parties##
+ ###########
+
+ PAN_communist_party: "PO"
+ PAN_communist_party_long: "Partido Obrero"
+ PAN_socialist_party: "PS (R)"
+ PAN_socialist_party_long: "Partido Socialista (Radical)"
+ PAN_progressivism_party: "PS (M)"
+ PAN_progressivism_party_long: "Partido Socialista (Moderate)"
+ PAN_liberalism_party: "PLN"
+ PAN_liberalism_party_long: "Partido Liberal Nacional"
+ PAN_liberal_conservatism_party: "PLN"
+ PAN_liberal_conservatism_party_long: "Partido Liberal Nacional"
+ PAN_conservatism_party: "CPN"
+ PAN_conservatism_party_long: "Coalición Patriótica Nacional"
+ PAN_paternalism_party: "PP"
+ PAN_paternalism_party_long: "Partido Panameñista"
+ PAN_despotism_party: "CPN"
+ PAN_despotism_party_long: "Coalición Patriótica Nacional"
+ PAN_fascism_party: "TPN"
+ PAN_fascism_party_long: "Tercer Partido Nacionalista"
+
+#MINISTERS
+
+ PAN_Jose_Bazan: "José Bazán"
+ PAN_Jose_Bazan_hog_desc: "§YHead of Government\nLiberalism§!"
+ PAN_Ricardo_Espinosa: "Ricardo Espinosa"
+ PAN_Ricardo_Espinosa_for_desc: "§YForeign Minister\nConservatism§!"
+ PAN_Bolivar_Vallarino: "Bolívar Paredes"
+ PAN_Bolivar_Vallarino_sec_desc: "§YSecurity Minister\nConservatism§!"
+ PAN_Eric_Devalle: "Eric Devalle"
+ PAN_Eric_Devalle_eco_desc: "§YEconomy Minister\nConservatism§!"
+ PAN_Max_Devalle: "Max Devalle"
+ PAN_Max_Devalle_hog_desc: "§YHead of Government\nConservatism§!"
+ PAN_Raul_Arango: "Raúl Arango"
+ PAN_Raul_Arango_hog_desc: "§YHead of Government\nPaternalism§!"
+ PAN_Gilberto_Guardia: "Gilberto Guardia"
+ PAN_Gilberto_Guardia_eco_desc: "§YEconomy Minister\nFascism§!"
+ PAN_Gilberto_Guardia_hog_desc: "§YHead of Government\nFascism§!"
+ PAN_Boris_Martinez: "Boris Martínez"
+ PAN_Boris_Martinez_sec_desc: "§YSecurity Minister\nDespotism§!"
+ PAN_Abraham_Stevenson: "Abraham Stevenson"
+ PAN_Abraham_Stevenson_eco_desc: "§YEconomy Minister\nFascism§!"
+ PAN_Demetrio_Bahas: "Demetrio Bahas"
+ PAN_Demetrio_Bahas_hog_desc: "§YHead of Government\nPaternalism§!"
+ PAN_Omar_Torrijos: "Omar Torrijos"
+ PAN_Omar_Torrijos_sec_desc: "§YSecurity Minister\nCommunist§!"
+ PAN_Ricardo_Espriella: "Ricardo Espriella"
+ PAN_Ricardo_Espriella_eco_desc: "§YEconomy Minister\nPaternalism§!"
+ PAN_Jose_Fabrega: "José Fábrega"
+ PAN_Jose_Fabrega_hog_desc: "§YHead of Government\nDespotism§!"
+ PAN_Manuel_Noriega: "Manuel Noriega"
+ PAN_Manuel_Noriega_sec_desc: "§YSecurity Minister\nDespotism§!"
+
+#Characters#
+PAN_Jose_Remon_Cantera: "José Antonio Remón Cantera"
+PAN_Jose_Remon_Cantera_desc: "When Washington first divided the isthmus, it chose not to impose colonial rule as it did with Puerto Rico, preferring a controlled disorder. However, Panamanian politics and the canal eventually gave way to José Antonio Remón Cantera, America's policeman in Panama.\n\nAn obscure figure until he entered Panama's security forces, Remón joined during its lowest point, devastated by the Great Depression. Amidst American worries of Axis infiltration, a Panamanian was allowed for the first time to head the National Police. Remón was appointed due to being the only candidate who studied at a military academy.\n\nIn power, he molded Panama's democracy to his liking, rigging elections and couping Presidents to his and America's content. After he overthrew Arias again for attempting to curb the Police's influence, Remón decided it was not enough to influence Panama's politics from behind the scenes, and became President himself.\n\nSince then, he has amended the constitution, served multiple terms in office and survived an assassination attempt in 1955. With no one daring to oppose him since he ordered the death of one of his Vice Presidents, José Ramón Guizado, a suspected conspirator of the assassination attempt. He possesses absolute power with resistance at an all-time low, enacting progressive and nationalist reforms so long as they don't upset America or the oligarchy too much.\n\nWith America's continued backing, Remón will likely rule Panama for another decade unless something radical happens."
+king_maker_remon: "The Kingmaker"
+
+PAN_Roberto_Chiari_Ramon: "Roberto F. Chiari Remón"
+PAN_Aquilino_Boyd: "Aquilino Boyd"
+PAN_Panama_Defense_Council: "Panama Defence Council"
+PAN_Jose_de_la_Rosa_Castillo: "José de la Rosa Castillo"
+PAN_Arnulfo_Arias: "Arnulfo Arias"
+PAN_Ruben_Batista: "Rubén Batista"
+PAN_Juan_Galindo: "Juan Galindo"
+PAN_Jose_Humberto_Ramos: "José Humberto Ramos"
+PAN_Ruben_Dario_Paredes: "Rubén Darío Paredes"
+
+ #########
+ ##Ideas##
+ #########
+
+ PAN_Divided_at_the_Isthmus: "Divided at the Isthmus"
+ PAN_Divided_at_the_Isthmus_desc: "A scar runs around the nation, slicing it in half ever since the Americans saw fit to complete the job left by other empires. Foreign ships and cargo run rife through it daily, guarded by Washington's watchmen overseeing the world's trade. This is the Panama Canal Zone and its "zonians" — as they are derisively referred to by Panamians — the barriers to Panama's sovereignty and its self-sufficiency.\n\nHowever, there is no denying that the Canal has made many men monied, even if most wealth trickles upward to the oligarchy. The incision of 1904 has given Panama a far higher standard of living than many of its Central American neighbors, allowing for vast economic booms only furthered by the post-war influx of Sphere trade. Yet, some still long for something richer than wealth — a destiny not tied to the USA."
+ PAN_Two_Flags_One_Nation: "Two Flags One Nation"
+ PAN_Two_Flags_One_Nation_desc: "Atop each flagpole in the Panama Canal Zone, the Stars and Stripes fly proudly on top. Meanwhile, Panama's flag sits below it, if it is lucky enough to be even flown at all. To numerous Panamians, this is only emblematic of a grander problem, the Yankee exploitation of their nation.\n\nEncapsulated in the word Panameñismo, or Panama for Panamians, it signifies the rising nationalist trend in the country. The most recent climax of this was the 1959 anti-American riots, where Panamians who tried to raise their flag in the Canal were met with brutal force by American troops, leading to a spree of vandalism against American properties. Due to this, the current flag status quo was enacted, an unsatisfying compromise serving only as a rallying point for further nationalist discontent."
+ PAN_Half_measures_and_handshakes: "Half-Measures and Handshakes"
+ PAN_Half_measures_and_handshakes_desc: ""Neither millions nor alms, we want justice."\n\nRemón first uttered the statement after he was elected, and three years later, the Remón-Eisenhower Treaty was signed — the latest piece of legislation covering the running of the Panama Canal. Notably, it saw America make numerous concessions to the Panamian government, including the return of territories, gains in Canal worker and trader rights, and increased payments to Panama for the Canal.\n\nHowever, despite it being one of the high points of Remón's reign, many believe the treaty granted them no justice. Nationalist dissidents such as Arnulfo Arias have railed against Remón for his alleged bending of the knee to continued American hegemony, legitimizing the Isthmus division. His views are far from a minority, meaning that the matter of the Canal must be revisited sooner rather than later."
+ PAN_Coroneles_and_Criollos: "Coroneles and Criollos"
+ PAN_Coroneles_and_Criollos_desc: "Of the interest groups dotting Panama, the two that dominate its establishment are the military and the oligarchy. Remón's status as dictator is the most overt indicator of the National Guard's supremacy, but their despotism can't be maintained as the ends. So, while the military wields the stick, the oligarchy holds the carrot.\n\nThe predominantly white oligarchy doles out a sufficient level of welfare to keep the masses tame, spurred by Remón's progressive moods. On both sides, animosity exists toward this relationship. However, its symbiotic nature prevents any disruption owing to the self-preservation of its leaders, knowing that one without the other would guarantee a revolution."
+ PAN_policemen_of_nations: "The Policemen of Nations"
+ PAN_policemen_of_nations_desc: "Regimes must stick together, and even if Remón finds the excesses of those such as the Trujillistas abhorrent, he knows it is not enough to just rely on the Americans. Considering this, it was little surprise to those in the know when Panama began cultivating ties with the Somoza regime in Nicaragua, a dictatorship Remón gradually came to view as a model for his own.\n\nSince then, both countries have combined their powers to stomp out any dissent to their regimes. Prisoner exchanges have become common between the two, capturing any dissidents unfortunate enough to stray too close to Costa Rica's borders before being shipped back home to a grisly fate. Intelligence agencies cooperate concerning information, as do regular security forces in training exercises, all doing their part to police their nations for America."
+ 
+ #######################
+ ##Leader Descriptions##
+ #######################
+
+ POLITICS_RIDLEY_DESC: "Alright so if your expecting some obscure Panamanian madman that would fit the BurgSys ideology or a funny joke, i got neither.\n\nSo Ridley is commonly put on the lower end of mid-tier, and this placement is clearly bullshit and heres why. First off, all of Ridley's smash attacks are crazy, with side B K.Oing at like 40% and his down smash having enough range to cover any ground recovery from a ledge. Thats not even bringing up Ridley's up smash which is almost as destructive as Ganondorf's up smash with the same range, and faster. *Almost* every Ridley arial is good, with back air dealing considerable damage and front air being easy to land and can easily keep the other person from recovering properly. Then theres his up air that completely dicks over any character even close to the top blastzone. His spike sucks, but thats really it (even with the spike though it has it's uses).\n\nThen there's his specials, which are all decent to fantastic. Ridley's side B is an incredibly useful commmand grab that instantly grants you control of the stage. Then theres his up special which, admitedly, isn't the best recovery, but coupled with Ridley's extra jump makes it servicable. Plus it's high damage output and knockback leave it as a solid attack too. His neutral B is a great projectile move, which is basically just Mario's fireballs but better and more of them. Finally, skewer is cool.\n\nRidley's biggest weakness is it's size and lack of armor to justify it. But, its solid air maneuverability keeps it from just being a sitting duck, and it's multitude of great attacks, atleast in my opinion, make up for it.\n\nSo, to conclude, make Ridley high mid-tier to low high-tier.\n\nAlright, TED Talk over."
+
+ ################
+ ##Super Events##
+ ################
+
+  BE_CANAL_WAR_T: "THE CANAL WAR"
+  BE_CANAL_WAR_D: "We should keep the Panama Canal. After all, we stole it fair and square.\n- S. I. Hayakawa"
+  BE_CANAL_WAR_A: "An Isthmus Ablaze"

@@ -1,0 +1,16 @@
+﻿l_english:
+
+# Icon tooltip
+TNO_ugly_american_icon_tt: "§MBEST SERVED COLD§!"
+TNO_ugly_american_icon_tt_delayed: "§FIn a land without history, where time is measured in the thickness of ice, human memory is an anomaly. Here, in the §WGreat White Nothing§!, old wounds freeze over, preserved in perfect agony. Revenge is a dish best served cold, and on this continent, every dish is frozen stone-hard.\n\nFor §UChilean Antarctica§!, the wound was inflicted during the §xSnipe War§!. A humiliating defeat at the hands of §mArgentina§! left a festering sore. Lost islands, trampled honor, the eternal shadow of a stronger neighbor - all this has become the bedrock of their existence, fuel for the fire that burns in the hearts of those who remember.\n\nNow, two wills contend for the soul of this forgotten domain. One is the will of the §aProfessor§!, the very architect of their claim to these lands. He wields the pen, playing a patient game of law and influence. He weaves a web of alliances in the halls of the §BOrganization of American States§!, inviting newcomers to §UChilean§! soil to turn an isolated outpost into an international crossroads. His dream is fueled by blood money from the deep, but he believes in a future built on §Krecognition§!.\n\nThe other is the will of the §sCaptain§!, the hero of Greenwich Island. He walks the path of §siron§! and §xblood§!. To him, every whisper of diplomacy is the hiss of treason. He will forge his marines into apex predators, tempered in the icy hell of §WAntarctica§!. The ghosts of §xSnipe§! scream for vengeance, and for him, there is only one law: that of the fang and claw. He does not seek recognition. §ZHe craves retribution§!.\n\nBut while they scheme and sharpen their blades, the continent watches, indifferent to their petty wars. The true enemy is not the §mArgentine§! soldier, but the all-consuming dark of the polar night; not the political rival, but the slow, creeping madness of isolation. §UChile's§! future on the §WExiled continent§! will be written in ink, or it will be written in crimson upon the snow. §WAntarctica§! Awaits...§!"
+####=== The tooltips that are shown when hovering over the menu pictures ===####
+###- TNO v1.5.0 - The Crow and the Bull, September 29th 2025
+
+## SINGLE PLAYER
+TNO_menupic_tooltip_1: "I §Mlove§! this world, but it has drifted into a §Ztwilight elegy§!. The echoes of its fading past still resonate, even now, through the lives of §mmy posterity§!"
+
+## MULTIPLAYER
+TNO_menupic_tooltip_2: " To that §xgreat venture§! which §Mmy heart§! reveres.And though §Zdark fate should§! weave my thread of life,Still shall the multitude, with jealous tears,Defend the radiant morrow born of strife—§UOur temple built in hope§!, §Kbeyond the years§!"
+
+## QUIT
+TNO_menupic_tooltip_3: "§UTis reverence that I make my stay§!, nor shall my spirit rust.."

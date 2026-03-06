@@ -1,0 +1,78 @@
+﻿l_english: 
+IBR_ibwar_our_darkest_hour:0 "Our Darkest Hour"
+IBR_ibwar_our_darkest_hour_desc:0 "What we thought was impossible many years ago has occurred: Iberia has collapsed, and by its own weight. The Federal Government, the only legitimate entity of power since the foundation of the Union, is now surrounded by separatists and traitors alike looking to take advantage of the precarious situation of our country. We are the only ones who can put an end to this chaos, and as such we must begin preparations for a brutal war, much more devastating than the Civil War of 1936, and bring peace back to Iberia. The times ahead will certainly be hard and uncertain, but we must stay confident in our capabilities as a nation and get through this period at all costs."
+
+IBR_ibwar_the_federal_war_economy:0 "The Federal War Economy"
+IBR_ibwar_the_federal_war_economy_desc:0 "The Iberian economy has always been sluggish since the formation of the Union, in part due to the peculiarities of our state structure. In recent years, it also veered slowly more towards civilian goods while disregarding military production. The current state of affairs has hence found the economy completely and utterly unprepared for the sudden war effort we now find ourselves in. Therefore, a reorientation of the economy back to satisfying military needs must start as soon as possible, for in these times of war we cannot neglect the needs of our Armed Forces."
+
+IBR_ibwar_support_our_troops:0 "Support Our Troops"
+IBR_ibwar_support_our_troops_desc:0 "A lot of good soldiers have been betraying the Federal Government since the beginning of hostilities, eventually ending up joining some traitor or another. Due to the large amounts of troops fleeing our ranks, they have been left small and weak for the time being, even after evacuating whomever we could from the colonial garrisons in Africa. Therefore, if we want to win the war, we must secure support for our troops in any way possible."
+
+IBR_ibwar_evacuate_the_industry:0 "Evacuate the Industry"
+IBR_ibwar_evacuate_the_industry_desc:0 "We have regrettably been left with hardly industrialized territories to survive this war effort, as some of the most developed areas like Catalonia and the Vascongadas have fallen into enemy hands. The little industrial base we have is also very vulnerable to enemy attacks and incursions, further complicating our logistics. Therefore, we must relocate the most useful factories and equipment as far from the frontlines as possible, to ensure it continues running and producing much-needed goods without interruption and to protect it from our many enemies."
+
+IBR_ibwar_secure_castillan_harvests:0 "Secure Castilian Harvests"
+IBR_ibwar_secure_castillan_harvests_desc:0 "The lands of Castilla, despite being sparsely populated compared to other areas of the Peninsula, have always functioned as the breadbasket for a large portion of Iberians. Some parts of the region are still under our control, and they keep producing key harvests for our troops and civilians. We must do our best to ensure the safety of our food production, as it can become a major target for traitors to the state."
+
+IBR_ibwar_fortress_madrid:0 "Fortress Madrid"
+IBR_ibwar_fortress_madrid_desc:0 "Madrid has been the beating heart of our nation since the old times of the Habsburgs. The largest city of the Peninsula is, undoubtedly, a prime target of those who want to defeat the Federal Government. We cannot waste any more time: planning and construction of modern usable military fortifications must start at once, so that the city and its immediate surroundings are prepared for future enemy incursions. In a war like this, Madrid has to be protected at all costs if we are to come out on top."
+
+IBR_ibwar_establish_civilian_rationing:0 "Establish Civilian Rationing"
+IBR_ibwar_establish_civilian_rationing_desc:0 "Unfortunately, the decrepit condition of our infrastructure is clearly insufficient to support both military and civilian logistics in their current volume. It has become apparent that a decision has to be made between prioritizing Army or population needs, and in this time of conflict, the Armed Forces simply cannot function under constant shortages. Rationing will be enforced on the civilian population for the clear benefit of our troops. "
+
+IBR_ibwar_money_from_the_businesses:0 "Money from Businesses"
+IBR_ibwar_money_from_the_businesses_desc:0 "Some of the most respected businesses of our country have decided to flee Iberia amid the chaos of the war or, even worse, have sided with one of our many enemies. Hence we are left with a handful of loyal businessmen who are certainly helpful to our effort, but who also have resources that our state treasury desperately needs. With our economy devastated, we have no other choice but to ask these businesses to lend the Federal Government money for the continuation of the war effort. While this is not a desirable long-term solution, it can provide a stopgap for some of the most critical expenses."
+
+IBR_ibwar_penal_repair_brigades:0 "Penal Repair Brigades"
+IBR_ibwar_penal_repair_brigades_desc:0 "As the fighting continues on, more and more critical infrastructure gets damaged or destroyed by military action, creating even more difficult conditions to fight and crippling our logistics. Consequently, we are forced to create repair brigades with prison inmates, who will work ahead of the military and fix whatever can be salvaged so that our Armed Forces can make use of the most optimal infrastructure conditions. These prisoners will also benefit from sentence reductions and will be able to prove their usefulness to the State."
+
+IBR_ibwar_wartime_seizures:0 "Wartime Seizures"
+IBR_ibwar_wartime_seizures_desc:0 "The Iberian Government has always respected private property and will continue to do so under normal circumstances. However, the current war situation requires drastic measures to achieve maximum efficiency and secure the final victory against all traitors. Some key industries for the war effort are in the hands of private individuals and corporations, who might be placing their own interests in front of their duty to the State and its people. We will therefore temporarily seize control of some of these industries, guiding them towards assisting better the needs of the State in the current situation. Once the war is over, we will hand them back to their rightful owners."
+IBR_ibwar_wartime_seizures_tt:0 "We will §Ggain§! 4 £tt_prod_unit production units."
+
+IBR_ibwar_immediate_reserve_mobilization:0 "Immediate Reserve Mobilization"
+IBR_ibwar_immediate_reserve_mobilization_desc:0 "During peacetime, the Union introduced a compulsory military service scheme, which brought many young men into contact with the Army. Many recruits completely decoupled from the Armed Forces once this small period of training was over, but some loyal Iberians remained attached to the Army by signing up to the reservist lists and agreeing to be called back into service at any given moment if needed by the State. That moment has come now. We need to mobilize all reservists as quickly as possible and get them to assist our regular troops at the front, so that we have a healthy supply of men readily available to face the enemy."
+IBR_ibwar_immediate_reserve_mobilization_tt:0 "5 units of reservists will join the fight."
+
+IBR_ibwar_open_the_emergency_supplies:0 "Open the Emergency Supplies"
+IBR_ibwar_open_the_emergency_supplies_desc:0 "A portion of military equipment produced before the current circumstances was kept well hidden in emergency caches, with the purpose of being used only when a major crisis struck our country. Unfortunately, we now find ourselves in one of these situations, and we desperately need whatever hardware we can get for our Armed Forces. The time has come to open the emergency caches and retrieve critical equipment and supplies that our Army requires."
+
+IBR_ibwar_we_have_the_tanks:0 "We Have the Tanks!"
+IBR_ibwar_we_have_the_tanks_desc:0 "While one could think that we are simply doomed to fail, that's far from the truth. We are in possession of a large number of tanks and armored vehicles, significantly more than our enemies. These machines are essential for the Army and are very useful when applying modern tactics to our war situation. Rapid pushes and unexpected movements can mean the difference in this conflict, and we will utilize them the best we can to achieve victory once and for all."
+
+IBR_ibwar_we_have_the_planes:0 "We Have the Planes!"
+IBR_ibwar_we_have_the_planes_desc:0 "Warplanes played a massive role both in the previous World War and during the conflicts that came after it. Fighters, interceptors, and bombers tremendously assist the forces on the ground, while also having the capability of disrupting the industry and logistics of our enemies. We must deploy all planes available and find the most experienced and talented pilots who can make the best of them, which will be key to securing another advantage over our foes."
+
+IBR_ibwar_we_have_the_artillery:0 "We Have the Artillery!"
+IBR_ibwar_we_have_the_artillery_desc:0 "Infantry and artillery have gone together since times immemorial now, giving armies the ability to disrupt enemy lines very effectively. We have the capability to supply artillery pieces to the front line and complement the queen of the battlefield in the coming battles, and as such we must put emphasis on the great importance of this equipment, which can be just what we need to overpower our enemies. "
+
+IBR_ibwar_enact_emergency_conscription:0 "Enact Emergency Conscription"
+IBR_ibwar_enact_emergency_conscription_desc:0 "Our regular troops are insufficient to defeat our enemies: we are getting a worrying number of units all over the front reporting manpower shortages every day. We need to take dire measures to replenish our ranks as fast as possible, so we'll start emergency conscription policies all over our territory. All able-bodied males must report in the coming days to newly-established recruitment stations and make themselves available to the State. There will be no excuses taken: every Iberian must do their duty to the nation in these trying times."
+
+IBR_ibwar_the_unbroken_legion:0 "The Unbroken Legion"
+IBR_ibwar_the_unbroken_legion_desc:0 "The Legión Española is still with us! Founded in 1920 by José Milán Astray, a loyal friend of our Caudillo since times before the Second Republic, it has been a symbol of national pride and persistence for many heartfelt Spaniards and Iberians. In these times of need, the Legion must head to the front, for their first time since the Civil War many decades ago. Today they may face greater odds than on previous occasions, but their experience, courage, vigor, and spirit will be of invaluable help to our State."
+IBR_ibwar_the_unbroken_legion_tt:0 "3 units of the Legión will join the fight."
+
+IBR_ibwar_the_lone_caudillo:0 "The Lone Caudillo"
+IBR_ibwar_the_lone_caudillo_dsc:0 "The Portuguese have betrayed the Federal Government, leaving the Union and declaring their independence. We are therefore only left with the will and spirit of the Spanish Caudillo. Franco led the nation flawlessly during the hardships of the Civil War, and as one symbol of our State, we must look up to him, marching and fighting just like he did many decades ago. The principles of the Generalíssimo are the only ones we need to guide us to victory."
+
+IBR_ibwar_save_the_government:0 "Save the Government"
+IBR_ibwar_save_the_government_desc:0 "The war situation, both on the front and inside our borders, is becoming increasingly volatile, with our enemies doing their best to disrupt our government institutions. Attacks on routine operations are now the usual rhetoric, further shattering the delicate apparatus of state necessary to keep control of our territories. Now it has become a matter of survival. Our current capital is simply unsafe for running the country. It is imperative to organize a transfer of the most critical institutions to another city, preferably in a more secure position, which would shield the government better and ensure that our staff can endure this conflict."
+
+IBR_ibwar_fly_to_the_canaries:0 "Fly to the Canaries"
+IBR_ibwar_fly_to_the_canaries_desc:0 "We have decided to completely evacuate the government out of the war-stricken Peninsula and temporarily place our institutions in Las Palmas de Gran Canaria. By making this move we ensure that the government can function without any external danger, working from far into the Atlantic, essentially prioritizing safety from our enemies over practicality, as ruling from far away will be undoubtedly difficult. However, if we survive the war, we'll be able to return to Iberia with our government intact, thereby hitting the ground running again."
+IBR_ibwar_fly_to_the_canaries_tt:0 "We will still capitulate if we lose control of all of our Peninsular territory."
+
+IBR_ibwar_road_to_valencia:0 "Road to Valencia"
+IBR_ibwar_road_to_valencia_desc:0 "Relocating to the coastal city of Valencia offers more flexibility as a capital than the isolated islands in the Canaries. The city is not overly exposed to the front, but still close enough to rule over our lands in the Peninsula efficiently and direct resources more accordingly. Being on a port on the coast is also advantageous in case we need an emergency evacuation to another location."
+
+IBR_ibwar_propaganda_campaigms:0 "Propaganda Campaigns"
+IBR_ibwar_propaganda_campaigms_desc:0 "Morale among the civilian population is understandably low due to the increasing hardships everyone has to go through. Many think we don't stand a chance at winning and some are even defecting to the enemy or leaving Iberia. While times might seem too tough, there is no problem propaganda can't solve. We must use every medium available to reach the population and spread tactically positive news so that the general populace is convinced that we are doing fine on the front, and that peace will be coming very soon."
+
+IBR_ibwar_we_will_endure:0 "We Will Endure"
+IBR_ibwar_we_will_endure_desc:0 "We have survived the start of the war, something that many thought was outright impossible at the beginning of the conflict. While the situation is still convoluted, we have mobilized every man possible, secured critical resources for the effort, and dealt with the most pressing demands of our Armed Forces. Some among the populace still see the future with pessimism, but our initial job is done, and we can only hope that it is enough to keep on fighting for the coming months. Our will is stronger than our enemies: we have endured, and we will triumph!"
+
+
+
+
+ 
