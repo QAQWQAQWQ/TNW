@@ -558,6 +558,7 @@ SDS = "countries/Middle East.txt"				# Sudan Free Officers - Sudanese CW
 SDF = "countries/Middle East.txt"				# Sudan Defense Forces - Sudanese CW
 AYA = "countries/Africa.txt"					# Anyanya - South Sudanese CW
 AZA = "countries/Africa.txt"					# Azania - South Sudanese CW
+FAL = "countries/Africa.txt"
 
 # // LATAM // #
 

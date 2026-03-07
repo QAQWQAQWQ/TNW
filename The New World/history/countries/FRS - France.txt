@@ -103,11 +103,25 @@ add_ideas = {
 }
 
 set_autonomy = { target = MAD autonomy_state = autonomy_colony }
+set_autonomy = { target = FAL autonomy_state = autonomy_colony }
 MAD = {
 	set_popularities = {
 		despotism = 79
 		fascism = 21
 	}
+}
+
+FAL = {
+ set_popularities = {
+	progressivism = 25
+	liberalism = 5
+	paternalism = 8
+	conservatism = 15
+	liberal_conservatism = 18
+	liberal_conservatism_2 = 4
+	fascism = 15
+	despotism = 10
+ }
 }
 set_technology = {
 	##INFANTRY##

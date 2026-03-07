@@ -354,6 +354,11 @@ FRS = {
 	color = rgb { 90 110 140 }
 	color_ui = rgb { 90 110 140 }
 }
+
+FAL = {
+	color = rgb { 90 110 140 }
+	color_ui = rgb { 90 110 140 }
+}
 FRM = {
 	color = rgb { 15 15 101 }
 	color_ui = rgb { 15 15 101 }

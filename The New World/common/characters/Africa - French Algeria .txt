@@ -1,0 +1,19 @@
+characters = {
+
+    FAL_Governor_Palace = {
+		name = FAL_Governor_Palace
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CFS/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+
+
+}
