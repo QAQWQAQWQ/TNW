@@ -4,6 +4,26 @@ characters = {
 	###########################################################
 
 	######TNW#####
+	CHI_Cheng_zude = {
+		name = CHI_Cheng_zude
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_China_Cheng_zude.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CHENG_ZUDE_DESC"
+			ideology = despotism_wang_jingwei_thought_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+
+
+
+
 	CHI_Sun_yunxuan = {
 		name = CHI_Sun_yunxuan
 		portraits = {
@@ -13,7 +33,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SUN_YUNXUAN_DESC"
-			ideology = despotism_technocratic_corporatism_subtype
+			ideology = liberal_conservatism_moderate_technocracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

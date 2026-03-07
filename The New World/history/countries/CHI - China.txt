@@ -21,6 +21,7 @@ set_stability = 1.00
 set_research_slots = 3
 set_convoys = 40
 ####tnw####
+recruit_character = CHI_Cheng_zude
 recruit_character = CHI_Sun_yunxuan
 recruit_character = CHI_Li_huan
 recruit_character = CHI_Li_huan
@@ -28,21 +29,7 @@ recruit_character = CHI_Qiu_jingyi
 recruit_character = CHI_Zhao_yaodong 
 recruit_character = CHI_Xue_shiming
 ####tnw####
-recruit_character = CHI_zhou_fohai
-recruit_character = CHI_tao_xisheng
-recruit_character = CHI_zhang_renli
-recruit_character = CHI_xiao_shuxuan
-recruit_character = CHI_dissidents
-recruit_character = CHI_Bao_Wenyue
-recruit_character = CHI_Ye_Peng
-recruit_character = CHI_Fu_Shuangying
-recruit_character = CHI_Ren_Yuandao
-recruit_character = CHI_Xiong_Jiandong
-recruit_character = CHI_Hao_Pengju
-recruit_character = CHI_Hu_Yukun
-recruit_character = CHI_sun_dianying
-recruit_character = CHI_luo_benli
-recruit_character = CHI_pang_bingxun
+
  set_technology = {
 	basic_train = 1
 
