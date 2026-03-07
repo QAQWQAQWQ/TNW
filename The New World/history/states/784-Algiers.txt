@@ -3,7 +3,7 @@ state = {
 	name = "STATE_784"
 
 	history = {
-		owner = FRS
+		owner = FAL
 		victory_points = { 3959 25 }
 		victory_points = { 1145 10 }
 		buildings = {
@@ -21,8 +21,8 @@ state = {
 			prisons = 2
 		}
 		add_core_of = ALG
-		add_core_of = FRS
-		add_claim_by = FFR
+		add_core_of = FAL
+		add_claim_by = FAL
 		set_state_flag = state_renamings
 	}
 

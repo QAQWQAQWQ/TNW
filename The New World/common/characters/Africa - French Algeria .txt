@@ -4,7 +4,7 @@ characters = {
 		name = FAL_Governor_Palace
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CFS/Portrait_FAL_Governor_Palace.png"
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
 			}
 		}
 		country_leader = {

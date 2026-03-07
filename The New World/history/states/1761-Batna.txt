@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ILG
+		owner = FAL
 		add_claim_by = FRS
 		add_core_of = ILG
 		add_core_of = ALG
