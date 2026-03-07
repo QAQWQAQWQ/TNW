@@ -10,10 +10,6 @@ add_ideas = {
 	#Country
 
 	#MINISTERS
-	FRA_Jean_Poperen_hog
-	FRA_Jean_Pierre_Chevenement_for
-	FRA_Edouard_Balladur_eco
-	FRA_Alain_Richard_sec
 
 	#SPIRITS
 	
@@ -71,7 +67,7 @@ add_ideas = {
 }
 
 
-set_technology = {
+ set_technology = {
 	##INFANTRY##
 	infantry_weapons_1 = 1
 	night_vision_1 = 1
