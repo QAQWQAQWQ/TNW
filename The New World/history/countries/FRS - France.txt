@@ -113,15 +113,14 @@ MAD = {
 
 FAL = {
  set_popularities = {
-	progressivism = 25
-	liberalism = 5
-	paternalism = 8
-	conservatism = 15
-	liberal_conservatism = 18
-	liberal_conservatism_2 = 4
-	fascism = 15
-	despotism = 10
- }
+	paternalism = 1
+	despotism = 23
+	despotism_2 = 19
+	conservatism = 16
+	progressivism = 10
+	fascism = 10
+	socialist = 22
+}
 }
 set_technology = {
 	##INFANTRY##
