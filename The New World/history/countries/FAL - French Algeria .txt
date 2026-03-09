@@ -287,17 +287,16 @@ set_politics = {
 	ruling_party = paternalism
 	last_election = "1995.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	paternalism = 1
 	despotism = 23
-	socialist = 22
+	despotism_2 = 22
 	conservatism = 16
 	progressivism = 10
 	fascism = 10
-	despotism_2 = 19
 }
 
 #econtype

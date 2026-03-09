@@ -18,7 +18,7 @@ characters = {
 		name = FAL_pca
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
@@ -32,7 +32,7 @@ characters = {
 		name = FAL_fln
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
@@ -46,7 +46,7 @@ characters = {
 		name = FAL_flnleft
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
@@ -60,7 +60,7 @@ characters = {
 		name = FAL_flnright
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
@@ -74,7 +74,7 @@ characters = {
 		name = FAL_alf
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
@@ -88,7 +88,7 @@ characters = {
 		name = FAL_PiedNoir
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+				large = " "
 			}
 		}
 		country_leader = {
