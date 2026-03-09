@@ -3,6 +3,13 @@ capital = 784
 #GDP Regional distribution
 set_country_flag = GDP_regions
 recruit_character = FAL_Governor_Palace 
+recruit_character = FAL_pca
+recruit_character = FAL_fln
+recruit_character = FAL_flnleft
+recruit_character = FAL_flnright
+recruit_character = FAL_alf
+recruit_character = FAL_PiedNoir
+
 
 add_ideas = {
 	#FACTION

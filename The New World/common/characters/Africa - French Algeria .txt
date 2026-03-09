@@ -14,6 +14,90 @@ characters = {
 		}
 	}
 
+	FAL_pca = {
+		name = FAL_pca
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = socialist_revolutionary_frontism_subtype 
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+	FAL_fln = {
+		name = FAL_fln
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+	FAL_flnleft = {
+		name = FAL_flnleft
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_reformist_socialism_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+	FAL_flnright = {
+		name = FAL_flnright
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = fascism_baathism_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+	FAL_alf = {
+		name = FAL_alf
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_colonial_government_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
+	FAL_PiedNoir = {
+		name = FAL_PiedNoir
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/Portrait_FAL_Governor_Palace.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism_1_military_junta_subtype
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+
 
 
 }

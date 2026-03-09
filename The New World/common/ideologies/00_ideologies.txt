@@ -143,7 +143,7 @@ ideologies = {
 	#               Despotism              #
 	########################################
 	despotism_1 = {
-		types = { despotism_1_subtype = {} }
+		types = { despotism_1_military_junta_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 45 45 45 }
 		ai_neutral = yes
