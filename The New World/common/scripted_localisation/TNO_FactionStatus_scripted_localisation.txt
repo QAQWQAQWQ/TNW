@@ -56,6 +56,11 @@ defined_text = {
 		trigger = { has_idea = Pakt_Mitstreiter }
 		localization_key = "GFX_Pakt_Mitstreiter"
 	}
+	#french community
+	text = {
+		trigger = { has_idea = french_community }
+		localization_key = "GFX_Pakt_french_community"
+	}
 	#Sovereign Member
 	text = {
 		trigger = { has_idea = Pakt_Bundnispartner }

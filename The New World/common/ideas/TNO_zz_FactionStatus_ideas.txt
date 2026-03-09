@@ -22,6 +22,19 @@ ideas = {
 			}
 		}
 
+		#french community
+		french_community = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea french_community" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				annual_gdp_growth_factor = 0.075
+			}
+		}
+
+
+
 		#Militärverwaltung
 		Pakt_Military_Authority = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_Military_Authority" }

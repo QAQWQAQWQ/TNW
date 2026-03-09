@@ -36,9 +36,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/factions/status/GFX_Pakt_Marionettenstaat.dds"
 	}
 	spriteType = {
+		name = "GFX_Pakt_french_community"
+		textureFile = "gfx/interface/factions/status/GFX_Pakt_french_community.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Pakt_Mitstreiter"
 		textureFile = "gfx/interface/factions/status/GFX_Pakt_Mitstreiter.dds"
 	}
+
+
 	spriteType = {
 		name = "GFX_Pakt_Bundnispartner"
 		textureFile = "gfx/interface/factions/status/GFX_Pakt_Bundnispartner.dds"
