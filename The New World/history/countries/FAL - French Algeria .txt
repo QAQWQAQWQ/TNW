@@ -293,10 +293,11 @@ set_politics = {
 set_popularities = {
 	paternalism = 1
 	despotism = 23
-	despotism_2 = 22
+	despotism_2 = 19
 	conservatism = 16
 	progressivism = 10
 	fascism = 10
+	socialist = 22
 }
 
 #econtype
