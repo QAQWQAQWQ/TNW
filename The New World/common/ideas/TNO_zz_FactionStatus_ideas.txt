@@ -23,8 +23,8 @@ ideas = {
 		}
 
 		#french community
-		french_community = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea french_community" }
+		Pakt_french_community = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_french_community" }
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
