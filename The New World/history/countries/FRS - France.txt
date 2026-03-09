@@ -110,18 +110,6 @@ MAD = {
 		fascism = 21
 	}
 }
-
-FAL = {
- set_popularities = {
-	paternalism = 1
-	despotism = 23
-	despotism_2 = 19
-	conservatism = 16
-	progressivism = 10
-	fascism = 10
-	socialist = 22
-}
-}
 set_technology = {
 	##INFANTRY##
 	infantry_weapons_1 = 1
