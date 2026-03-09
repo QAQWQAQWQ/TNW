@@ -1218,6 +1218,7 @@ remove_faction_status = {
 			Pakt_Bundnispartner
 			Pakt_Ordensstaat
 			Pakt_Observer
+			french_community
 			Anti_Heydrich_Pact
 			Sphere_Leader
 			Sphere_Core_Member
