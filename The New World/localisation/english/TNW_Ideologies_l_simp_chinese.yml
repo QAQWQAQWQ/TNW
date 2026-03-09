@@ -143,7 +143,7 @@
  despotism_National_revolutionary_thought_subtype: "民族革命思潮"
  despotism_absolute_monarchy_subtype: "绝对君主制"
  despotism_military_junta_subtype: "军政府" 
- despotism_1_military_junta_subtype: "军事政府"
+ despotism_2_military_junta_subtype: "军事政府"
  despotism_civilian_dictatorship_subtype: "文官独裁"
  despotism_theocracy_subtype: "神权制"
  despotism_papacy_subtype: "教廷"

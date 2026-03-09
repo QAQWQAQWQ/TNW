@@ -297,7 +297,7 @@ set_popularities = {
 	conservatism = 16
 	progressivism = 10
 	fascism = 10
-	despotism_1 = 19
+	despotism_2 = 19
 }
 
 #econtype
