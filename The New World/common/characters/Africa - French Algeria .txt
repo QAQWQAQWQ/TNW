@@ -50,7 +50,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = progressivism_reformist_socialism_subtype
+			ideology = progressivism_1_subtype
 			expire = "1999.1.23"
 			id = -1
 		}

@@ -296,7 +296,7 @@ set_popularities = {
 	despotism = 23
 	despotism_2 = 19
 	fascism = 10
-	progressivism = 10
+	progressivism_1 = 10
 	conservatism = 15
 	
 	
