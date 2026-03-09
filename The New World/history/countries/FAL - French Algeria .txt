@@ -13,7 +13,7 @@ recruit_character = FAL_PiedNoir
 
 add_ideas = {
 	#FACTION
-	Pakt_Mitstreiter
+	french_community
 	#Country
 
 	#MINISTERS
