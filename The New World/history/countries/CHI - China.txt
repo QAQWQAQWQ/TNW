@@ -21,7 +21,7 @@ set_stability = 1.00
 set_research_slots = 3
 set_convoys = 40
 ####tnw####
-recruit_character = CHI_Cheng_zude
+recruit_character = CHI_Yuan_mingxuan
 recruit_character = CHI_Sun_yunxuan
 recruit_character = CHI_Li_huan
 recruit_character = CHI_Li_huan

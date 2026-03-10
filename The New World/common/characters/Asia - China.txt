@@ -4,15 +4,15 @@ characters = {
 	###########################################################
 
 	######TNW#####
-	CHI_Cheng_zude = {
-		name = CHI_Cheng_zude
+	CHI_Yuan_mingxuan = {
+		name = CHI_Yuan_mingxuan
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_China_Cheng_zude.png"
+				large = "gfx/leaders/CHI/Portrait_China_Yuan_mingxuan.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_CHENG_ZUDE_DESC"
+			desc = "POLITICS_YUAN_MINGXUAN_DESC"
 			ideology = despotism_wang_jingwei_thought_subtype
 			traits = { }
 			expire = "1999.1.1.1"
