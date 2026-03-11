@@ -40,6 +40,7 @@
  economy_minister:0 "经济部长"
  security_minister:0 "安全部长"
  intel_minister:0 "情报部长"
+ scripted_gui_open_tt_frs_nps:0 "打开法国政局GUI"
  scripted_gui_open_tt_ger_sgr:0 "打开德国工业GUI"
  scripted_gui_open_tt_ita_fas:0 "打开意大利外交GUI"
  scripted_gui_open_tt_ita_dem:0 "打开民主意大利外交GUI"

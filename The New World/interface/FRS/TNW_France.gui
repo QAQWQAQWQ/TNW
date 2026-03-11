@@ -1,0 +1,21 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TNW_French_National_Politics_open"
+		size = { width = 220 height = 128 }
+		position = { x=0 y=289 }
+
+		buttonType ={
+			name ="frs_National_Politics_open"
+			spriteType = "GFX_French_National_Politics_open"
+			position = { x=238 y=41 }
+			pdx_tooltip = "scripted_gui_open_tt_frs_nps"
+			scale = 0.65
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=189 y=-16 }
+		}
+	}
+}

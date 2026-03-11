@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_French_National_Politics_open"
+		texturefile = "gfx/interface/FRS/FRS_gui/French_National_Politics_open.dds"
+	}
+
+ # World News Images - now in TNO_news_events.gfx
+}
