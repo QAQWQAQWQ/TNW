@@ -4,6 +4,7 @@ ideas = {
 	#################################################
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 	hidden_ideas = {
+		SE_ALGERIA_NUCLEAR_EXPLOSION = {}
 		SE_GERMAN_CIVIL_WAR = {}
 		SE_SOUTH_AFRICAN_WAR = {}
 		SE_JAPANESE_ECONOMIC_WAR = {}

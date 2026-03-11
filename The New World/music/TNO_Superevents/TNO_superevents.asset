@@ -1,3 +1,12 @@
+###TNW SE MUSIC##
+music = {
+	name = "TNO_SE_ALGERIA_NUCLEAR_EXPLOSION"
+	file = "tno_se_algeria_nuclear_explosion.ogg"
+}
+###TNW SE MUSIC##
+
+
+
 music = {
 	name = "TNO_SE_GERMAN_CIVIL_WAR"
 	file = "tno_se_german_civil_war.ogg"

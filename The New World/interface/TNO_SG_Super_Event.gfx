@@ -31,6 +31,11 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 	spriteType = {
+		name = "GFX_SE_ALGERIA_NUCLEAR_EXPLOSION"
+		textureFile = "gfx/superevent_pictures/algeria_nuclear_explosion.png"
+	}
+	###TNW SE###
+	spriteType = {
 		name = "GFX_SE_WW3"
 		textureFile = "gfx/superevent_pictures/ww3.png"
 	}

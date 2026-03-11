@@ -1,6 +1,25 @@
 add_namespace = WORLD
 add_namespace = Spa_WORLD
 add_namespace = novel #for althist novels
+add_namespace = TNW_WORLD
+##TNW超事件测试##
+news_event = {
+	id = TNW_WORLD.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.1" }
+	title = TNW_WORLD.1.t
+	desc = TNW_WORLD.1.d
+	picture = GFX_news_TNW_basque_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.1.a
+		set_temp_variable = { TNO_temp_super_event = token:SE_ALGERIA_NUCLEAR_EXPLOSION }
+		TNO_fire_super_event = yes
+	}
+}
+
+
 #SPA-basque_war#
 news_event = {
 	id = Spa_WORLD.1

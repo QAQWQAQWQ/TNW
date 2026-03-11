@@ -1,5 +1,14 @@
 music_station = "tno_superevents"
 
+##TNW SE MUSIC###
+music = {
+	song = "TNO_SE_ALGERIA_NUCLEAR_EXPLOSION"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+##TNW SE MUSIC###
+
 music = {
 	song = "TNO_SE_GERMAN_CIVIL_WAR"
 	chance = {
