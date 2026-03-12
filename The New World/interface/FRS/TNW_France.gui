@@ -1,13 +1,14 @@
 guiTypes = {
-	containerWindowType = {
-		name = "TNW_French_National_Politics_open"
-		size = { width = 220 height = 128 }
-		position = { x=0 y=289 }
 
-		buttonType ={
-			name ="frs_National_Politics_open"
-			spriteType = "GFX_French_National_Politics_open"
-			position = { x=238 y=41 }
+	containerWindowType = {
+		name = "TNW_France_Internal_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "France_Internal_GUI_Open_Button"
+			quadTextureSprite = "GFX_France_Internal_GUI_open_Button"
+			position = { x = 238 y = 30 }
 			pdx_tooltip = "scripted_gui_open_tt_frs_nps"
 			scale = 0.65
 		}
@@ -18,4 +19,38 @@ guiTypes = {
 			position = { x=189 y=-16 }
 		}
 	}
+
+	containerWindowType = {
+		name = "TNW_frs_Internal_menu_main"
+		size = { width = 1133 height = 838 }
+		position = { x=-300 y=80 }
+		show_position = { x=555 y=80 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		moveable = yes
+	}
+	background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		buttonType = {
+			name = "FRS_close_button"
+			position = { x = -32 y = 16 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		iconType ={
+			name ="FRS_France_is_great"
+			spriteType = "GFX_cnmszdhwdflx"
+			position = { x= 144 y = 56 }
+		}
+
+
 }

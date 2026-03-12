@@ -1,7 +1,12 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_French_National_Politics_open"
-		texturefile = "gfx/interface/FRS/FRS_gui/French_National_Politics_open.dds"
+		name = "GFX_France_Internal_GUI_open_Button"
+		texturefile = "gfx/interface/france_internal_gui/France_Internal_GUI_open_Button.png"
+	}
+
+	spriteType = {
+		name = "GFX_cnmszdhwdflx"
+		texturefile = "gfx/interface/france_internal_gui/cnmszdhwdflx.png"
 	}
 
  # World News Images - now in TNO_news_events.gfx

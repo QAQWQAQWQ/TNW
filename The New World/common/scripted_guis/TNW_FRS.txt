@@ -1,6 +1,0 @@
-scripted_gui = {
-
-
-
-    
-}
