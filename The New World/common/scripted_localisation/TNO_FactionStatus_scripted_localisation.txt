@@ -58,8 +58,8 @@ defined_text = {
 	}
 	#french community
 	text = {
-		trigger = { has_idea = Pakt_french_community }
-		localization_key = "GFX_Pakt_french_community"
+		trigger = { has_idea = Pakt_French_community }
+		localization_key = "GFX_Pakt_French_community"
 	}
 	#Sovereign Member
 	text = {
@@ -495,6 +495,11 @@ defined_text = {
 	text = {
 		trigger = { has_idea = Pakt_Mitstreiter }
 		localization_key = Pakt_Mitstreiter
+	}
+	#Pakt_French_community
+	text = {
+		trigger = { has_idea = Pakt_French_community }
+		localization_key = Pakt_French_community
 	}
 	#Sovereign Member
 	text = {
@@ -1014,6 +1019,11 @@ defined_text = {
 	text = {
 		trigger = { has_idea = Pakt_Mitstreiter }
 		localization_key = Pakt_Mitstreiter_desc
+	}
+	#Pakt_French_community
+	text = {
+		trigger = { has_idea = Pakt_French_community }
+		localization_key = Pakt_French_community_desc
 	}
 	#Sovereign Member
 	text = {

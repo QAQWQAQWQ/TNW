@@ -13,7 +13,7 @@ recruit_character = FAL_PiedNoir
 
 add_ideas = {
 	#FACTION
-	Pakt_french_community
+	Pakt_French_community
 	#Country
     FAL_Pearls_covered_in_dust
 	FAL_endless_war
