@@ -8,6 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_GOVERNOR_PALACE_DESC"
 			ideology = paternalism_anocracy_subtype
 			expire = "1999.1.23"
 			id = -1

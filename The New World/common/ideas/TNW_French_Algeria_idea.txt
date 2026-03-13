@@ -1,0 +1,80 @@
+ideas = {
+
+    country = {
+        FAL_Pearls_covered_in_dust = {
+			allowed = {
+				original_tag = FAL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FAL_Pearls_covered_in_dust
+			modifier = {
+				gdp_growth_modifier = -1.35
+				research_speed_factor = -0.15
+				Industrial_capacity_factory = -0.25
+				production_factory_max_efficiency_factor = -0.20
+				consumer_goods_use_modifier = 0.35
+				poverty_monthly_rate = -0.12
+				
+			
+		}
+  }
+
+  FAL_endless_war = {
+			allowed = {
+				original_tag = FAL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FAL_endless_war
+			modifier = {
+				custom_modifier_tooltip = GER_gone_over_tt
+				command_power_gain_mult = -0.37
+				compliance_gain = -0.025
+				army_morale_factor = -0.10
+				army_defence_factor = -0.12
+				army_attack_factor = -0.12
+				planning_speed = -0.35
+				max_planning = -0.20
+				army_professionalism_monthly_rate = -2.5
+			
+		}
+  }
+
+  FAL_dense_spider_web = {
+			allowed = {
+				original_tag = FAL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_FAL_dense_spider_web
+			modifier = {
+				political_power_factor = -0.35
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+				
+			
+		}
+  }
+
+
+
+    }
+
+
+
+
+
+}

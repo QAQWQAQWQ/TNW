@@ -15,7 +15,9 @@ add_ideas = {
 	#FACTION
 	Pakt_french_community
 	#Country
-
+    FAL_Pearls_covered_in_dust
+	FAL_endless_war
+	FAL_dense_spider_web
 	#MINISTERS
 
 	#SPIRITS

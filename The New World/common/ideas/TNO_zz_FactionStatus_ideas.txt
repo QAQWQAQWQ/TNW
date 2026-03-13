@@ -29,7 +29,7 @@ ideas = {
 			allowed_civil_war = { always = no }
 
 			modifier = {
-				annual_gdp_growth_factor = 0.075
+				
 			}
 		}
 

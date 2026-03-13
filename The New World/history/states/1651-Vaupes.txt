@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1651"
 
 	history = {
-		owner = CLL
+		owner = COL
 		add_core_of = COL
 		add_core_of = CLC
 		add_core_of = CLL

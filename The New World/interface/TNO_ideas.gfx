@@ -4571,6 +4571,21 @@ SpriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/FIN/idea_FIN_the_growth_regime.dds"
 	}
 
+	## French Algeria ##
+	SpriteType = {
+		name = "GFX_idea_FAL_Pearls_covered_in_dust"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FAL/idea_FAL_Pearls_covered_in_dust.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_FAL_endless_war"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FAL/idea_FAL_endless_war.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_FAL_dense_spider_web"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FAL/idea_FAL_dense_spider_web.png"
+	}
+
+
 	## French State ##
 
 	SpriteType = {
