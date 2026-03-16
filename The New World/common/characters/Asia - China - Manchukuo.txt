@@ -10,7 +10,109 @@ characters = {
 
 		country_leader = {
 			desc = "POLITICS_CHOI_KYU_HAH_DESC"
-			ideology = conservatism_paternalistic_conservatism_subtype
+			ideology = liberal_conservatism_big_tent_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_NCP = {
+		name = MAN_NCP
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_NCP_DESC"
+			ideology = conservatism_populist_conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_mpp = {
+		name = MAN_mpp
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_MPP_DESC"
+			ideology = progressivism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_mrtu = {
+		name = MAN_mrtu
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_MRTU_DESC"
+			ideology = fascism_corporate_statism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_mcc = {
+		name = MAN_mcc
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_MCC_DESC"
+			ideology = progressivism_2_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_nsjp = {
+		name = MAN_nsjp
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_NSJP_DESC"
+			ideology = conservatism_2_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	MAN_Anti_Manchu_ruf = {
+		name = MAN_Anti_Manchu_ruf
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_ANTI_MANCHU_RUF_DESC"
+			ideology = ultranationalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

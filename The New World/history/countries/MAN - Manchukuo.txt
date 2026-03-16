@@ -27,20 +27,31 @@ set_war_support = 0.5
 add_manpower = 1000000
 
 recruit_character = MAN_Choi_Kyu_hah
-
+recruit_character = MAN_NCP
+recruit_character = MAN_mpp
+recruit_character = MAN_mrtu
+recruit_character = MAN_mcc
+recruit_character = MAN_nsjp
+recruit_character = MAN_Anti_Manchu_ruf
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberal_conservatism
 	last_election = "1962.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	despotism = 10
-	conservatism = 45
-	ultranationalism = 8
-	liberal_conservatism = 18
-	paternalism = 19
+	conservatism = 12
+	liberal_conservatism = 35
+	progressivism = 15
+	progressivism_2 = 15
+	fascism = 16
+	conservatism_2 = 5
+	ultranationalism = 2
+
+
+
+
 }
 
 set_technology = {
@@ -295,7 +306,10 @@ set_cosmetic_tag = MAN_DaimanzhouKyowakoku
 add_ideas = {
 	#Country#
 	Sphere_Core_Member
-	
+	#idea#
+	MAN_New_Era_New_Manchuria
+	MAN_Pan_Asian_Comrades
+	MAN_The_Chaos_Generation
 
 	#Ministers
 	MAN_Ruan_Zhenduo_hog

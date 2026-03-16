@@ -2440,23 +2440,19 @@ SpriteTypes = {
 	## Manchukuo ##
 
 	SpriteType = {
-		name = "GFX_idea_MAN_chained_to_the_rising_sun"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_chained_to_the_rising_sun.dds"
+		name = "GFX_idea_MAN_New_Era_New_Manchuria"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_New_Era_New_Manchuria.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_MAN_kwantung_army"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_kwantung_army.dds"
+		name = "GFX_idea_MAN_Pan_Asian_Comrades"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_Pan_Asian_Comrades.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_MAN_opium"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_opium.dds"
+		name = "GFX_idea_MAN_The_Chaos_Generation"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_The_Chaos_Generation.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_MAN_partisans_in_the_east"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_partisans_in_the_east.dds"
-	}
-
-	## North Borneo ##
+	
+	## North Borneo ##png
 
 	SpriteType = {
 		name = "GFX_idea_NRB_sarawak_independence_movement"
