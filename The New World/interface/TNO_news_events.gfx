@@ -1515,32 +1515,13 @@ spriteTypes = {
 	}
 
 	## Manchukuo ##
-
-
 	spriteType = {
-		name = "GFX_news_event_MAN_pujie"
-		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/news_event_MAN_pujie.png"
+		name = "GFX_news_event_TNW_President_dies"
+		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/TNW_President_dies.png"
 	}
 
-	spriteType = {
-		name = "GFX_news_event_MAN_mia_coup"
-		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/news_event_MAN_mia_coup.png"
-	}
 
-	spriteType = {
-		name = "GFX_news_event_MAN_kwantung_coup"
-		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/news_event_MAN_kwantung_coup.png"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_MAN_somucho"
-		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/news_event_MAN_somucho.png"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_MAN_puyi_death"
-		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/news_event_MAN_puyi_death.png"
-	}
+	
 
 	## Mengjiang ##
 

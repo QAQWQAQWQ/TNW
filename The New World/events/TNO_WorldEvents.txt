@@ -19,6 +19,21 @@ news_event = {
 	}
 }
 
+#满洲国事件链#
+news_event = {
+	id = TNW_WORLD.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.1" }
+	title = TNW_WORLD.2.t
+	desc = TNW_WORLD.2.d
+	picture = GFX_news_event_TNW_President_dies
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.2.a
+		
+	}
+}
 
 #SPA-basque_war#
 news_event = {
