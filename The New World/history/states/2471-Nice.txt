@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = FRS
 		victory_points = { 13583 15 }
 		buildings = {
 			barracks = 1

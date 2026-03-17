@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = OST
+		owner = BLR
 		add_core_of = OST
 		victory_points = {
 			14560 10

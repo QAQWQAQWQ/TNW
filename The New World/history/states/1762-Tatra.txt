@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = GER
+		owner = SLO
 		buildings = {
 			infrastructure = 3
 			schools = 1

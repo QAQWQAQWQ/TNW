@@ -7,7 +7,7 @@ state = { #Population Done
 	state_category = city
 
 	history = {
-		owner = SWI
+		owner = GER
 		buildings = {
 			infrastructure = 5
 			barracks = 1

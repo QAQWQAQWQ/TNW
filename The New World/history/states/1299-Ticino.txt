@@ -7,7 +7,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = SWI
+		owner = ITA
 		buildings = {
 			infrastructure = 4
 			radar_station = 1
