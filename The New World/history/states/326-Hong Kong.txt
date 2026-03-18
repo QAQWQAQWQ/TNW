@@ -4,7 +4,7 @@ state = {
 	manpower = 3346600
 	state_category = city
 	history = {
-		owner = GNG
+		owner = CHI
 		add_core_of = GNG
 		victory_points = { 10062 45 }
 		set_variable = { china_state_ref = 32 }

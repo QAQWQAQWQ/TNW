@@ -26285,7 +26285,7 @@ GNG_IJA_wheel_turns_effect = {
 			592 = {
 				create_unit = {
 					division = "name = \"109th Division 'Tan'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 		}
@@ -26334,7 +26334,7 @@ GNG_IJA_wheel_turns_effect = {
 			592 = {
 				create_unit = {
 					division = "name = \"73th Division 'Ikari'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 		}
@@ -26398,14 +26398,14 @@ GNG_IJA_wheel_turns_effect = {
 				set_demilitarized_zone = no
 				create_unit = {
 					division = "name = \"84th Division 'Totsu'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 			729 = {
 				set_demilitarized_zone = no
 				create_unit = {
 					division = "name = \"115th DIvision 'Kita'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 		}
@@ -26512,19 +26512,19 @@ GNG_IJA_wheel_turns_effect = {
 			592 = {
 				create_unit = {
 					division = "name = \"129th Division 'Shimbu'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 			326 = {
 				create_unit = {
 					division = "name = \"68th Division 'Hinoki'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 			729 = {
 				create_unit = {
 					division = "name = \"130th Division 'Shoki'\" division_template = \"Rikugun Shidan - Army Division\" start_experience_factor = 0.3"
-					owner = GNG
+					owner = CHI
 				}
 			}
 		}
