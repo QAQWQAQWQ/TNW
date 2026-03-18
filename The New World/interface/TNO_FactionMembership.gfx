@@ -18,8 +18,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Reichskommissariat.png"
 	}
 	spriteType = {
-		name = "GFX_Stahlpakt_Allies"
-		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Allies.png"
+		name = "GFX_Stahlpakt_Beobachterstaat"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Beobachterstaat.png"
 	}
 	spriteType = {
 		name = "GFX_Stahlpakt_Commonwealth"

@@ -33,8 +33,7 @@ recruit_character = PER_Jamshid_Amouzegar
 set_country_flag = ME_Nation
 
 add_ideas = {
-	#Faction Status
-	Pakt_Observer
+	Stahlpakt_Beobachterstaat
 
 	PER_German_Persian_Oil_Company
 	PER_Mosaddeghs_Legacy

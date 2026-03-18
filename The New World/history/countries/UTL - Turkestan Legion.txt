@@ -27,6 +27,7 @@ set_politics = {
 }
 
 add_ideas = {
+	Stahlpakt_Beobachterstaat
 	# NatSpirits #
 	UTL_Veli_Rides_Again
 	UTL_Black_Dogs

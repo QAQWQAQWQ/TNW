@@ -440,6 +440,10 @@ add_to_faction = BLZ
 add_to_faction = HAI
 add_to_faction = FAR
 add_to_faction = SPA
+add_to_faction = SUS
+add_to_faction = LIB
+add_to_faction = WOL
+add_to_faction = POR
 
 set_autonomy = {
 	target = WIN

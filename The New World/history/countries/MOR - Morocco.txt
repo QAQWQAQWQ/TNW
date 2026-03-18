@@ -40,6 +40,7 @@ recruit_character = MOR_Bensalem_Guessous
 recruit_character = MOR_Ahmed_Dlimi
 recruit_character = MOR_Driss_Omar
 add_ideas = {
+	Stahlpakt_member
 	#political#
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

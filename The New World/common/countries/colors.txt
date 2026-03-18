@@ -245,8 +245,8 @@ OST = {
 	color_ui = rgb { 102 100 86 }
 }
 BLR = {
-	color = rgb { 136 10 65 }
-	color_ui = rgb { 136 10 65 }
+	color = rgb { 112 96 91 }
+	color_ui = rgb { 112 96 91 }
 }
 #BSR = {
 #	color = rgb { 145 43 64 }

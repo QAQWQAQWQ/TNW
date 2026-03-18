@@ -93,7 +93,7 @@ recruit_character = FIN_Adolf_Ehrnrooth
 
 add_ideas = {
 	#Faction Status
-	Pakt_Observer
+	Stahlpakt_member
 
 	### Ideas ###
 	FIN_army_buff

@@ -16,6 +16,8 @@ recruit_character = MDI_Foday_Sankoh
 
 
 add_ideas = {
+	Stahlpakt_member
+	
 	MDI_idea_disloyal_army
 	MDI_idea_disorganized_political_spheres
 

@@ -505,6 +505,11 @@ add_to_faction = TNS
 add_to_faction = BUL
 add_to_faction = BSQ
 add_to_faction = BLR
+add_to_faction = FIN
+add_to_faction = IRE
+#add_to_faction = SWE
+#add_to_faction = PER
+#add_to_faction = UTL
 
 add_to_faction = ITA
 add_to_faction = GRE
@@ -518,6 +523,8 @@ add_to_faction = SNM
 add_to_faction = SNS
 add_to_faction = BKU
 add_to_faction = TUN
+add_to_faction = MOR
+add_to_faction = MDI
 
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }

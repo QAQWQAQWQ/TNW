@@ -175,7 +175,7 @@ add_ideas = {
 
 	### FACTION ###
 
-	Pakt_Observer
+	Stahlpakt_member
 
 	### POLITICAL ###
 

@@ -42,9 +42,10 @@ defined_text = {
 	}
 
 	text = {
-		trigger = { has_idea = Stahlpakt_Allies }
-		localization_key = "GFX_Stahlpakt_Allies"
+		trigger = { has_idea = Stahlpakt_Beobachterstaat }
+		localization_key = "GFX_Stahlpakt_Beobachterstaat"
 	}
+
 
 	text = {
 		trigger = { has_idea = Stahlpakt_Commonwealth }
@@ -503,8 +504,8 @@ defined_text = {
 	}
 
 	text = {
-		trigger = { has_idea = Stahlpakt_Allies }
-		localization_key = "Stahlpakt_Allies"
+		trigger = { has_idea = Stahlpakt_Beobachterstaat }
+		localization_key = "Stahlpakt_Beobachterstaat"
 	}
 
 	text = {
@@ -1058,8 +1059,8 @@ defined_text = {
 	}
 
 	text = {
-		trigger = { has_idea = Stahlpakt_Allies }
-		localization_key = "Stahlpakt_Allies_desc"
+		trigger = { has_idea = Stahlpakt_Beobachterstaat }
+		localization_key = "Stahlpakt_Beobachterstaat_desc"
 	}
 
 	text = {
