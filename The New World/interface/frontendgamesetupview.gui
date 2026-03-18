@@ -711,14 +711,14 @@ guiTypes = {
 			}
 			iconType = { # FRANCE BLOCKED ENTRY
 				name = "countries_blocker_big_pakt_3_entry"
-				position = { x = 287 y = 160 }
+				position = { x = -1000000 y = -1000000 }
 				spriteType = "GFX_country_selection_screen_blocker_big"
 				pdx_tooltip = "BOOKMARK_FRANCE_BLOCKER"
 				pdx_tooltip_delayed = "BOOKMARK_FRANCE_BLOCKER_DELAYED"
 			}
 			iconType = { # MANCHUKUO BLOCKED ENTRY
 				name = "countries_blocker_big_sphere_3_entry"
-				position = { x = 827 y = 160 }
+				position = { x = -1000000 y = -1000000 }
 				spriteType = "GFX_country_selection_screen_blocker_big"
 				pdx_tooltip = "BOOKMARK_MANCHUKUO_BLOCKER"
 				pdx_tooltip_delayed = "BOOKMARK_MANCHUKUO_BLOCKER_DELAYED"
