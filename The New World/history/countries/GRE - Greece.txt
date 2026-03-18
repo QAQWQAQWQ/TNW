@@ -80,6 +80,7 @@ recruit_character = GRE_Ioannis_Zigdis
 recruit_character = GRE_Petros_Garoufalias
 
 add_ideas = {
+	Stahlpakt_member
 	### Economic Laws ###
 	tno_trade_laws_limited_exports
 	tno_income_taxation_no_income_taxation

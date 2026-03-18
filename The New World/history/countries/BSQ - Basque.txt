@@ -37,7 +37,7 @@ recruit_character = BSQ_Xabier_Arzalluz
 
 
 add_ideas = {
-	Pakt_Protektorat
+	Stahlpakt_member
 	#cabinet
 	BSQ_Jesus_Leizaola_hog
 	BSQ_Txabi_Etxebarrieta_for

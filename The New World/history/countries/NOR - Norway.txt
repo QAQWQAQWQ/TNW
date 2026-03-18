@@ -311,7 +311,7 @@ recruit_character = NOR_Arne_Dagfin_Dahl
 
 add_ideas = {
 	###FACTION###
-	Pakt_Autonomous_Reichskommissariat
+	Stahlpakt_member
 	###SPIRITS###
 	NOR_the_overstayed_occupation
 	NOR_Milorg

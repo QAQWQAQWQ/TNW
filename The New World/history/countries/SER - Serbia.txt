@@ -54,7 +54,7 @@ oob = "SER_1962"
 
 add_ideas = {
 	#Faction
-	Pakt_Marionettenstaat
+	Stahlpakt_member
 	#Spirits
 	SER_Serbia_Shall_Not_be_Pacified
 	SER_government_of_anything_but_salvation

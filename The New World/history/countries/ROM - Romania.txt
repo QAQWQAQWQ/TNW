@@ -36,7 +36,7 @@ country_event = {
 }
 
 add_ideas = {
-	Pakt_Mitstreiter
+	Stahlpakt_member
 	## Spirits
 	ROM_Scars_Of_Vienna
 	ROM_Ghosts_Of_The_Past

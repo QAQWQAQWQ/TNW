@@ -122,6 +122,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/factions/EP.dds"
 	}
 	spriteType = {
+		name = "GFX_EiserneAllianz"
+		textureFile = "gfx/interface/factions/SP.png"
+	}
+	spriteType = {
 		name = "GFX_triumvirate"
 		textureFile = "gfx/interface/factions/T.dds"
 	}

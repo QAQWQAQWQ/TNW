@@ -18,6 +18,8 @@ recruit_character = BLR_Vladimir_Ksyanevich
 set_country_flag = tno_playable_country
 
 add_ideas = {
+	Stahlpakt_Reichskommissariat
+
 	#political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism

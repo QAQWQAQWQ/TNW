@@ -1,4 +1,35 @@
 spriteTypes = {
+	#Stahlpakt#
+	#钢铁同盟图标#
+	spriteType = {
+		name = "GFX_Stahlpakt_Leader"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Leader.png"
+	}
+	spriteType = {
+		name = "GFX_Stahlpakt_roma_Leader"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_roma_Leader.png"
+	}
+	spriteType = {
+		name = "GFX_Stahlpakt_Member"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Member.png"
+	}
+	spriteType = {
+		name = "GFX_Stahlpakt_Reichskommissariat"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Reichskommissariat.png"
+	}
+	spriteType = {
+		name = "GFX_Stahlpakt_Allies"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Allies.png"
+	}
+	spriteType = {
+		name = "GFX_Stahlpakt_Commonwealth"
+		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Commonwealth.png"
+	}
+	
+
+
+
+
 	spriteType = {
 		name = "GFX_UA_Member"
 		textureFile = "gfx/interface/factions/status/UA_Member.dds"

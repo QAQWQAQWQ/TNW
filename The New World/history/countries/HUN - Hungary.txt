@@ -34,7 +34,7 @@ recruit_character = HUN_Vilmos_Nagy
 # Generals
 
 add_ideas = {
-	Pakt_Mitstreiter
+	Stahlpakt_member
 	### <STARTING IDEAS> ###
 	HUN_Broken_Yoke
 	HUN_Transylvanian_Issue

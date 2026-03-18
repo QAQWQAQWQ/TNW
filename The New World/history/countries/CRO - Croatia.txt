@@ -19,7 +19,7 @@ set_variable = {
 }
 
 add_ideas = {
-	TRI_Member_Client
+	Stahlpakt_member
 	CRO_the_partisan_problem
 	CRO_bosnian_autonomy
 	CRO_the_sham_kingdom

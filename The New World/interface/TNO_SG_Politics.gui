@@ -144,6 +144,15 @@ guiTypes = {
 			centerposition = yes
 		}
 
+		#SP
+		iconType = {
+			name = "faction_icon_einheitspakt"
+			position = {x = -30 y = -26}
+			quadTextureSprite = "GFX_EiserneAllianz"
+			scale = 0.61334
+			pdx_tooltip = EiserneAllianz
+		}
+
 		iconType = {
 			name = "faction_icon_einheitspakt"
 			position = {x = -30 y = -26}

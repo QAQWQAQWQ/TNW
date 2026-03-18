@@ -327,7 +327,7 @@ set_war_support = 0.6
 
 add_ideas = {
 	#FACTION
-	Pakt_Autonomous_Reichskommissariat
+	Stahlpakt_Reichskommissariat
 	#SPIRITS
 	CAU_bergbaureich
 	CAU_shipments_to_ger

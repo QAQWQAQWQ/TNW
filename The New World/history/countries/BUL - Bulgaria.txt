@@ -63,7 +63,7 @@ set_naval_oob = "BUL_1962_naval"
 set_air_oob = "BUL_1962_air"
 
 add_ideas = {
-	Pakt_Mitstreiter
+	Stahlpakt_member
 	
 	BUL_Konstantin_Partov_hog
 	BUL_Stanislav_Balan_for

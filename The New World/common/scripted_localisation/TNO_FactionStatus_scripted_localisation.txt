@@ -15,6 +15,44 @@ defined_text = {
 		localization_key = "GFX_AS_Member"
 	}
 
+
+	### Stahlpakt ###
+	#new pakt leader##
+	#钢铁同盟领袖-德国#
+	text = {
+		trigger = { has_idea = Stahlpakt_Leader }
+		localization_key = "GFX_Stahlpakt_Leader"
+	}
+	#钢铁同盟领袖-意大利#
+	text = {
+		trigger = { 
+			has_idea = Stahlpakt_roma_Leader
+	 }
+		localization_key = "GFX_Stahlpakt_roma_Leader"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_member }
+		localization_key = "GFX_Stahlpakt_Member"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Reichskommissariat }
+		localization_key = "GFX_Stahlpakt_Reichskommissariat"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Allies }
+		localization_key = "GFX_Stahlpakt_Allies"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Commonwealth }
+		localization_key = "GFX_Stahlpakt_Commonwealth"
+	}
+
+	#######
+
 	### Pakt ###
 	#Master of Europe
 	text = {
@@ -444,6 +482,37 @@ defined_text = {
 #Name
 defined_text = {
 	name = GetFactionStatus_name
+
+	#钢铁同盟-标题
+	text = {
+		trigger = { has_idea = Stahlpakt_Leader }
+		localization_key = "Stahlpakt_Leader"
+	}
+	text = {
+		trigger = { has_idea = Stahlpakt_roma_Leader }
+		localization_key = "Stahlpakt_roma_Leader"
+	}
+	text = {
+		trigger = { has_idea = Stahlpakt_member }
+		localization_key = "Stahlpakt_member"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Reichskommissariat }
+		localization_key = "Stahlpakt_Reichskommissariat"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Allies }
+		localization_key = "Stahlpakt_Allies"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Commonwealth }
+		localization_key = "Stahlpakt_Commonwealth"
+	}
+
+
 
 	text = {
 		trigger = { has_idea = UA_Member }
@@ -968,6 +1037,44 @@ defined_text = {
 
 defined_text = {
 	name = GetFactionStatus_desc
+	#钢铁同盟#
+	#钢铁同盟-简述
+	text = {
+		trigger = { has_idea = Stahlpakt_Leader }
+		localization_key = "Stahlpakt_Leader_desc"
+	}
+	text = {
+		trigger = { has_idea = Stahlpakt_roma_Leader }
+		localization_key = "Stahlpakt_roma_Leader_desc"
+	}
+	text = {
+		trigger = { has_idea = Stahlpakt_member }
+		localization_key = "Stahlpakt_member_desc"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Reichskommissariat }
+		localization_key = "Stahlpakt_Reichskommissariat_desc"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Allies }
+		localization_key = "Stahlpakt_Allies_desc"
+	}
+
+	text = {
+		trigger = { has_idea = Stahlpakt_Commonwealth }
+		localization_key = "Stahlpakt_Commonwealth_desc"
+	}
+
+
+
+
+
+
+
+
+
 
 	text = {
 		trigger = { has_idea = UA_Member }

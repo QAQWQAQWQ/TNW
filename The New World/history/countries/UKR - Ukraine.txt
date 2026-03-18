@@ -19,7 +19,7 @@ set_stability = 2
 
 add_ideas = {
 	##FACTION##
-	Pakt_Autonomous_Reichskommissariat
+	Stahlpakt_Reichskommissariat
 	##SPIRITS##
 	### MINISTERS ###
 	UKR_Georg_Leibrandt_hog

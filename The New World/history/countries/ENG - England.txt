@@ -396,7 +396,7 @@ set_stability = 0.4
 add_ideas = {
 
 	### FACTION ###
-	Pakt_Mitstreiter
+	Stahlpakt_Commonwealth
 
 	### NATIONAL SPIRITS ###
 	ENG_dictum_of_the_protector

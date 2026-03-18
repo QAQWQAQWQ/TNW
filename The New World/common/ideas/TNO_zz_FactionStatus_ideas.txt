@@ -10,6 +10,80 @@ ideas = {
 				army_defence_factor = 0.05
 			}
 		}
+		### Stahlpakt ###
+		#new pakt leader##
+		#钢铁同盟领袖-德国#
+		Stahlpakt_Leader = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Leader" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+		#钢铁同盟领袖-意大利#
+		Stahlpakt_roma_Leader = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_roma_Leader" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+		##Commonwealth
+		##钢铁同盟英联邦
+		Stahlpakt_Commonwealth = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Commonwealth" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+
+		##member country
+		##钢铁同盟成员国#
+		Stahlpakt_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+		##Reichskommissariat
+		##钢铁同盟成专员辖区#
+		Stahlpakt_Reichskommissariat = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Reichskommissariat" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+		##stahpakt Allies
+		#钢铁同盟友邦
+		Stahlpakt_Allies = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Allies" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+		
+
+
+
+
+
+
 		### Pakt ###
 		#Master of Europe
 		Pakt_Leader = {

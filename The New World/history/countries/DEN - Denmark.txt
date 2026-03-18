@@ -29,7 +29,7 @@ set_convoys = 50
 
 add_ideas = {
 	#Faction
-	Pakt_Protektorat
+	Stahlpakt_member
 	#Spirits
 	DEN_permanent_secretaries
 	DEN_agrarian_economy

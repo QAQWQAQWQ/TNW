@@ -25,7 +25,7 @@ set_stability = 0.50
 
 add_ideas = {
 	###FACTION###
-	Pakt_Marionettenstaat
+	Stahlpakt_member
 	###SPIRITS###
 	SLO_Chained_Minds
 	SLO_Political_Tensions

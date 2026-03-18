@@ -31,7 +31,7 @@ set_major = yes
 
 add_ideas = {
 	#FACTION
-	Pakt_Autonomous_Reichskommissariat
+	Stahlpakt_Reichskommissariat
 	#SPIRITS
 	GRO_Just_Another_Camp
 	GRO_Aryan_Only_SS
