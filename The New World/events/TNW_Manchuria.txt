@@ -1,0 +1,61 @@
+﻿add_namespace = MAN
+add_namespace = MAN_skeleton
+
+
+################
+### SKELETON ###
+################
+
+country_event = {
+	id = MAN.1
+	title = MAN.1.t
+	desc = MAN.1.desc
+
+    trigger = {
+        tag = MAN
+        date > 2003.2.1
+        date < 2003.2.10
+    }
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+                             retire_character = MAN_Choi_Kyu_hah
+		                     promote_character = MAN_Lee_Teng_hui
+                                          }
+			}
+
+	option = {
+		name = MAN.1.a
+		news_event = TNW_WORLD.2
+	}
+}
+
+country_event = {
+	id = MAN.2
+	title = MAN.2.t
+	desc = MAN.2.desc
+
+    trigger = {
+        tag = MAN
+        date > 2004.4.1
+        date < 2004.4.10
+    }
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+                             retire_character = MAN_Lee_Teng_hui
+		                     promote_character = MAN_Sadakazu_Tanigaki
+                                          }
+			}
+
+	option = {
+		name = MAN.2.a
+		news_event = TNW_WORLD.3
+	}
+}

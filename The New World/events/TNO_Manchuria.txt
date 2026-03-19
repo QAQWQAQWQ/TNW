@@ -1,8 +1,0 @@
-﻿add_namespace = MAN
-add_namespace = MAN_skeleton
-
-
-################
-### SKELETON ###
-################
-
