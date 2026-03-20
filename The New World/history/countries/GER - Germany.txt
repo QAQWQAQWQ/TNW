@@ -483,7 +483,8 @@ if = {
 }
 
 ### DIPLOMACY ###
-create_faction_from_template = { name = Stahlpakt icon = GFX_EiserneAllianz template = faction_template_generic }
+#create_faction_from_template = { name = Stahlpakt icon = GFX_EiserneAllianz template = faction_template_generic }
+create_faction = Stahlpakt
 add_faction_goal_slot = { category = short_term  value = -10 }
 add_faction_goal_slot = { category = medium_term value = -10 }
 add_faction_goal_slot = { category = long_term   value = -10 }

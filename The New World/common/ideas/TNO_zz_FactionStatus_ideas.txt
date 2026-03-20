@@ -69,7 +69,7 @@ ideas = {
 		##stahpakt Allies
 		#钢铁同盟友邦
 		Stahlpakt_Beobachterstaat = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Beobachterstaat" }
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Allies" }
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 

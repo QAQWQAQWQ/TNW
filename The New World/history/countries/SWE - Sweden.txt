@@ -7,7 +7,7 @@ fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 recruit_character = SWE_Tage_Erlander
 recruit_character = SWE_Lord_Wiz_of_Chaddington
-
+set_cosmetic_tag = SWE_kingdom
 oob = "SWE_1962"
 set_naval_oob = "SWE_1962_naval"
 set_air_oob = "SWE_1962_air"

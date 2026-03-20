@@ -2,7 +2,7 @@ capital = 897
 
 # Vacant
 recruit_character = NOR_Generic_Vacant
-
+set_cosmetic_tag = NOR_pakt
 
 
 

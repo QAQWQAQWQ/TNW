@@ -26,7 +26,7 @@ recruit_character = DEN_Jorgen_Hviid
 oob = "DEN_1962"
 set_naval_oob = "DEN_1962_naval"
 set_convoys = 50
-
+set_cosmetic_tag = DEN_kingdom
 add_ideas = {
 	#Faction
 	Stahlpakt_member

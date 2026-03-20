@@ -125,7 +125,7 @@ guiTypes = {
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x = 39 y = 39 }
+				position = { x = 38 y = 39 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -147,7 +147,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 230 y = 40 }
+				position = { x = 250 y = 40 }
 				font = "Bomb_16"
 				text = "Germanian"
 				maxWidth = 290
@@ -159,7 +159,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 230 y = 56}
+				position = { x = 250 y = 56}
 				size = { width = 175 height = 20 }
 				clipping = no
 
@@ -178,7 +178,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 230 y = 75 }
+				position = { x = 260 y = 75 }
 				font = "Bomb_16"
 				text = "Rudolf Kittler"
 				maxWidth = 290
@@ -418,8 +418,8 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "party_name"
-						position = { x = 5 y = 3 }
-						font = "aldrich_20_outline"
+						position = { x = 5 y = 6 }
+						font = "Main_14_black"
 						text = "party"
 						maxWidth = 273
 						maxHeight = 20
@@ -428,9 +428,9 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = 5 y = 24 } #y = 27
+						position = { x = 5 y = 27 } #y = 27
 						#position = { x = -5000 y = 27 }
-						font = "invisiblefont"
+						font = "Main_14_black"
 						text = "ideology"
 						maxWidth = 245
 						maxHeight = 26 #20
@@ -439,7 +439,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "elections"
 						position = { x = 5 y = 50 }
-						font = "aldrich_20_outline"
+						font = "hoi4_typewriter22"
 						text = "elections"
 						maxWidth = 275
 						maxHeight = 20

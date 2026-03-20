@@ -2,6 +2,10 @@ PER_empire = {
 	color = rgb { 123 101 81 }
 	color_ui = rgb { 123 101 81 }
 }
+SWE_kingdom = {
+	color = rgb { 65 75 159 }
+	color_ui = rgb { 65 75 159 }
+}
 COG_GER = {
 	color = rgb { 118 124 94 }
 	color_ui = rgb { 118 124 94 }
@@ -221,6 +225,13 @@ NOR_GER = {
 	color = rgb { 141 128 115 }
 	color_ui = rgb { 141 128 115 }
 }
+
+NOR_pakt = {
+	color = rgb { 141 128 115 }
+	color_ui = rgb { 141 128 115 }
+}
+
+
 
 #Speer cosmetics#
 
@@ -1166,6 +1177,10 @@ EAM_DESPOTISM = {
 DEN_RK = {
 	color = rgb { 112 97 89 }
 	color_ui = rgb { 112 97 89 }
+}
+DEN_kingdom = {
+	color = rgb { 134 25 40 }
+	color_ui = rgb { 134 25 40 }
 }
 WAL_UNION = {
 	color = rgb { 127 20 20 }
