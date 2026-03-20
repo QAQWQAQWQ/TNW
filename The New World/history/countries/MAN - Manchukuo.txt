@@ -26,7 +26,11 @@ set_stability = 0.9
 set_war_support = 0.5
 add_manpower = 1000000
 
+promote_character = MAN_Choi_Kyu_hah
 recruit_character = MAN_Choi_Kyu_hah
+recruit_character = MAN_Lee_Teng_hui
+recruit_character = MAN_Sadakazu_Tanigaki
+
 recruit_character = MAN_NCP
 recruit_character = MAN_mpp
 recruit_character = MAN_mrtu

@@ -16,6 +16,40 @@ characters = {
 			id = -1
 		}
 	}
+	
+	MAN_Lee_Teng_hui = {
+		name = MAN_Lee_Teng_hui
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Lee_Teng_hui.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_Lee_Teng_hui_DESC"
+			ideology = liberal_conservatism_big_tent_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	
+	MAN_Sadakazu_Tanigaki = {
+		name = MAN_Sadakazu_Tanigaki
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Sadakazu_Tanigaki.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_Sadakazu_Tanigaki_DESC"
+			ideology = liberal_conservatism_big_tent_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
 
 	MAN_NCP = {
 		name = MAN_NCP

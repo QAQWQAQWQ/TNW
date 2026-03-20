@@ -1519,6 +1519,11 @@ spriteTypes = {
 		name = "GFX_news_event_TNW_President_dies"
 		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/TNW_President_dies.png"
 	}
+	
+	spriteType = {
+		name = "GFX_news_event_MAN_Sadakazu_Tanigaki"
+		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/event_MAN_Sadakazu_Tanigaki.png"
+	}
 
 
 	
