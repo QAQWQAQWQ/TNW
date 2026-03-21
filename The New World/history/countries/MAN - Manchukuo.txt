@@ -30,6 +30,8 @@ promote_character = MAN_Choi_Kyu_hah
 recruit_character = MAN_Choi_Kyu_hah
 recruit_character = MAN_Lee_Teng_hui
 recruit_character = MAN_Sadakazu_Tanigaki
+recruit_character = MAN_Cai_Ying_wen
+recruit_character = MAN_Xu_Cai_gao
 
 recruit_character = MAN_NCP
 recruit_character = MAN_mpp

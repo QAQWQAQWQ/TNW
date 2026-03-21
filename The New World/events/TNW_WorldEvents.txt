@@ -50,6 +50,51 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = TNW_WORLD.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.4" }
+	title = TNW_WORLD.4.t
+	desc = TNW_WORLD.4.d
+	picture = GFX_news_event_MAN_Cai_ying_wen
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.4.a
+		
+	}
+}
+
+news_event = {
+	id = TNW_WORLD.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.5" }
+	title = TNW_WORLD.5.t
+	desc = TNW_WORLD.5.d
+	picture = GFX_news_event_MAN_Lee_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.5.a
+		
+	}
+}
+
+news_event = {
+	id = TNW_WORLD.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.6" }
+	title = TNW_WORLD.6.t
+	desc = TNW_WORLD.6.d
+	picture = GFX_news_event_MAN_Martial_law
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.6.a
+		
+	}
+}
+
 #SPA-basque_war#
 news_event = {
 	id = Spa_WORLD.1

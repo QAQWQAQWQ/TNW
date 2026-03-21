@@ -1525,10 +1525,20 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/event_MAN_Sadakazu_Tanigaki.png"
 	}
 
-	
+	spriteType = {
+		name = "GFX_news_event_MAN_Cai_ying_wen"
+		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/event_MAN_Cai_ying_wen.png"
+	}
 
-
+    spriteType = {
+		name = "GFX_news_event_MAN_Lee_elected"
+		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/event_MAN_Lee_elected.png"
+	}
 	
+    spriteType = {
+		name = "GFX_news_event_MAN_Martial_law"
+		texturefile = "gfx/event_pictures/news_event/Asia/Manchukuo/event_MAN_Martial_law.png"
+	}
 
 	## Mengjiang ##
 
