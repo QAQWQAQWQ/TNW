@@ -1,0 +1,21 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+			set_temp_variable = { temp_law = token:SWE_The_Anti_Marriage_Rape_Act_of_1965 }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:SWE_The_Parental_Leave_System_in_1974 }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = SWE_The_1975_New_Abortion_Law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:SWE_The_1980_Law_on_Succession_to_the_Throne }
+            TNO_add_assorted_law = yes
+ 
+
+	}
+}
+}

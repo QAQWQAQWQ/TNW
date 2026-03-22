@@ -7225,6 +7225,16 @@ misc_law_array_startup = {
 
 	if = {
 		limit = {
+			tag = SWE
+		}
+		add_to_array = { TNO_assorted_laws = token:SWE_The_Anti_Marriage_Rape_Act_of_1965 }
+		add_to_array = { TNO_assorted_laws = token:SWE_The_Parental_Leave_System_in_1974 }
+		add_to_array = { TNO_assorted_laws = token:SWE_The_1975_New_Abortion_Law }
+		add_to_array = { TNO_assorted_laws = token:SWE_The_1980_Law_on_Succession_to_the_Throne }
+	}
+
+	if = {
+		limit = {
 			tag = ENG
 		}
 		add_to_array = { TNO_assorted_laws = token:ENG_Charter_of_the_BPP_law }#英国人民党宪章（1972修订版）

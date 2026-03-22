@@ -58,7 +58,9 @@ add_ideas = {
 	SWE_Olof_Johansson_eco
     SWE_Lars_Engqvist_hog
 	# Starting ideas
-    
+    SWE_European_Lighthouse
+	SWE_Peoples_Home_1
+	SWE_The_impact_of_European_integrated_economy
 
 	### Military
 	tno_conscription_broadened_conscription

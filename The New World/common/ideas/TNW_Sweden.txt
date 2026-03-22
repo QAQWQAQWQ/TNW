@@ -1,9 +1,9 @@
 ideas = {
 	country = {
-		SWE_folkhem_start = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_folkhem_start" }
+		SWE_European_Lighthouse = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_European_Lighthouse" }
 
-			picture = SWE_folkhem_start
+			picture = SWE_European_Lighthouse
 
 			allowed = {
 				always = no
@@ -11,16 +11,16 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_use_modifier = 0.05
-				political_power_gain = 0.2
-				poverty_monthly_rate = 0.02
+				stability_factor = 0.075
+				political_power_gain = 0.25
+                trade_opinion_factor = -0.1
 			}
 		}
 
-		SWE_schwedenisierung_3 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_schwedenisierung_3" }
+		SWE_Peoples_Home_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_Peoples_Home_1" }
 
-			picture = SWE_schwedenisierung_3
+			picture = SWE_Peoples_Home_1
 
 			allowed = {
 				always = no
@@ -28,18 +28,18 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
-				experience_gain_army_factor = 0.05
-				experience_gain_navy_factor = 0.05
-				experience_gain_air_factor = 0.05
-				gdp_growth_modifier = 0.1
+				consumer_goods_factor = 0.35
+				production_speed_buildings_factor = -0.3
+				gdp_growth_modifier = -0.0045
+				civilian_annual_cost = 0.65
+
 			}
 		}
 
-		SWE_exports_3 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_exports_3" }
+		SWE_The_impact_of_European_integrated_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_The_impact_of_European_integrated_economy" }
 
-			picture = SWE_exports_3
+			picture = SWE_The_impact_of_European_integrated_economy
 
 			allowed = {
 				always = no
@@ -47,9 +47,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				local_resources_factor = 0.1
-				trade_opinion_factor = 0.1
-				production_units_to_GDP_ratio_modifier = 0.05
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				gdp_growth_modifier = -0.0135
+				industrial_capacity_factory = -0.2
+				inflation_rate_modifier = 0.025
 			}
 		}
 	}

@@ -33,6 +33,12 @@ ideas = {
 		ENG_Republic_Land_Act_law = {}
 		ENG_Anglo_German_Alliance_Treaty_law = {}
 		ENG_National_Corporatist_Labour_Code_law = {}
+		# Sweden Assorted Laws
+		SWE_The_Anti_Marriage_Rape_Act_of_1965 = {}
+		SWE_The_Parental_Leave_System_in_1974 = {}
+		SWE_The_1975_New_Abortion_Law = {}
+		SWE_The_1980_Law_on_Succession_to_the_Throne = {}
+
 
 		# Ukraine Assorted Laws
 		UKR_GPO_law = {}

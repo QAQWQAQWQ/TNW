@@ -5338,4 +5338,26 @@ spriteTypes = {
 		texturefile = "gfx/texticons/hydroelectric_plant.dds"
 		legacy_lazy_load = no
 	}
+
+	## sweden laws##
+		spriteType = {
+		name = "GFX_SWE_christ_laws"
+		texturefile = "gfx/texticons/Sweden/GFX_SWE_christ_laws.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SWE_medical"
+		texturefile = "gfx/texticons/Sweden/GFX_SWE_medical.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SWE_woman_rights_laws"
+		texturefile = "gfx/texticons/Sweden/GFX_SWE_woman_rights_laws.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SWE_Kings_laws"
+		texturefile = "gfx/texticons/Sweden/GFX_SWE_Kings_laws.png"
+		legacy_lazy_load = no
+	}
 }

@@ -5751,16 +5751,16 @@ SpriteTypes = {
 	## Sweden ##
 
 	SpriteType = {
-		name = "GFX_idea_SWE_exports_3"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/idea_SWE_exports_3.dds"
+		name = "GFX_idea_SWE_European_Lighthouse"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/SWE_European_Lighthouse.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_SWE_folkhem_start"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/idea_SWE_folkhem.dds"
+		name = "GFX_idea_SWE_Peoples_Home_1"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/SWE_Peoples_Home_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_SWE_schwedenisierung_3"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/idea_SWE_schwedenisierung_3.dds"
+		name = "GFX_idea_SWE_The_impact_of_European_integrated_economy"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SWE/SWE_The_impact_of_European_integrated_economy.dds"
 	}
 
 	## Transnistria ##
@@ -8312,4 +8312,5 @@ SpriteTypes = {
 		name = "GFX_idea_ZOM_zombies"
 		texturefile = "gfx/interface/ideas/national_spirits/Other/ZOM/idea_ZOM_zombies.dds"
 	}
+
 }
