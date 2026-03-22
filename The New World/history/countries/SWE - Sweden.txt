@@ -7,8 +7,18 @@ fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 recruit_character = SWE_Goran_Persson
 
+recruit_character = SWE_Anders_Carlsson
+recruit_character = SWE_Gudrun_Schyman
+recruit_character = SWE_Bo_Lundgren
+recruit_character = SWE_Alf_Svensson
+recruit_character = SWE_Lars_Leijonborg
+recruit_character = SWE_Mikael_Jansson
+recruit_character = SWE_Anders_Arleskog
+
 recruit_character = SWE_Bjorn_von_Sydow
 recruit_character = SWE_Anna_Lindh
+recruit_character = SWE_Olof_Johansson
+recruit_character = SWE_Lars_Engqvist
 set_cosmetic_tag = SWE_kingdom
 oob = "SWE_1962"
 set_naval_oob = "SWE_1962_naval"
@@ -26,12 +36,14 @@ set_politics = {
 
 set_popularities = {
 	socialist = 10
-	progressivism = 39
-	liberalism = 23
-	liberal_conservatism = 14
-	conservatism = 6
-	fascism = 1
-	national_socialism = 7
+	progressivism = 37
+	communist = 3
+	liberalism = 13
+	liberal_conservatism = 9
+	conservatism = 10
+	paternalism = 3
+	national_socialism = 5
+	liberalism_2 = 10
 }
 
 set_stability = 0.8
@@ -43,15 +55,10 @@ add_ideas = {
 	##minster##
 	SWE_Bjorn_von_Sydow_sec
 	SWE_Anna_Lindh_for
-	
-
+	SWE_Olof_Johansson_eco
+    SWE_Lars_Engqvist_hog
 	# Starting ideas
-	SWE_industry
-	SWE_folkhem_start
-	SWE_schwedenisierung_3
-	SWE_exports_3
-	#SWE_media_1
-	#SWE_OB_1
+    
 
 	### Military
 	tno_conscription_broadened_conscription

@@ -57,4 +57,164 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	SWE_Olof_Johansson = { #奥洛夫·约翰逊（财政部长）
+		name = SWE_Olof_Johansson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Olof_Johansson.dds"
+				small = "GFX_idea_SWE_Olof_Johansson"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SWE_Olof_Johansson_DESC"
+			expire = "1999.1.1"
+			ideology = liberalism_classical_liberalism_subtype
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SWE_Olof_Johansson_eco
+			allowed = { original_tag = SWE }
+			traits = {
+				SWE_Olof_Johansson_trait
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SWE_Lars_Engqvist = {  #拉尔斯·恩奎斯特（内政大臣）
+		name = SWE_Lars_Engqvist
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Lars_Engqvist.dds"
+				small = "GFX_idea_SWE_Lars_Engqvist"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SWE_Lars_Engqvist_hog
+			allowed = { original_tag = SWE }
+			traits = {
+				SWE_Lars_Engqvist_trait
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	SWE_Anders_Carlsson = {
+		name = SWE_Anders_Carlsson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Anders_Carlsson.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Anders_Carlsson_DESC"
+			expire = "1999.1.1"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+	}
+
+	SWE_Gudrun_Schyman = {
+		name = SWE_Gudrun_Schyman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Gudrun_Schyman.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Gudrun_Schyman_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_subtype
+			id = -1
+		}
+	}
+
+	SWE_Bo_Lundgren = {
+		name = SWE_Bo_Lundgren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Bo_Lundgren.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Bo_Lundgren_DESC"
+			expire = "1999.1.1"
+			ideology = liberal_conservatism_market_liberalism_subtype
+			id = -1
+		}
+	}
+
+	SWE_Alf_Svensson = {
+		name = SWE_Alf_Svensson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Alf_Svensson.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Alf_Svensson_DESC"
+			expire = "1999.1.1"
+			ideology = conservatism_christian_conservatism_subtype
+			id = -1
+		}
+	}
+
+	SWE_Lars_Leijonborg = {
+		name = SWE_Lars_Leijonborg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Lars_Leijonborg.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Lars_Leijonborg_DESC"
+			expire = "1999.1.1"
+			ideology = liberalism_national_liberal_subtype
+			id = -1
+		}
+		country_leader = {
+			desc = "SWE_Lars_Leijonborg_DESC"
+			expire = "1999.1.1"
+			ideology = liberalism_2
+			id = -1
+		}
+	}
+
+	SWE_Mikael_Jansson = {
+		name = SWE_Mikael_Jansson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Mikael_Jansson.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Mikael_Jansson_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_right_wing_populism_subtype
+			id = -1
+		}
+	}
+
+	SWE_Anders_Arleskog = {
+		name = SWE_Anders_Arleskog
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Anders_Arleskog.png"
+			}
+		}
+		country_leader = {
+			desc = "SWE_Anders_Arleskog_DESC"
+			expire = "1999.1.1"
+			ideology = national_socialism_subtype
+			id = -1
+		}
+	}
 }

@@ -4800,6 +4800,12 @@ spriteTypes = {
 		name = "GFX_idea_SWE_Anna_Lindh"
 		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Anna_Lindh.png"
 	}
-
-	
+	spriteType = {
+		name = "GFX_idea_SWE_Olof_Johansson"
+		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Olof_Johansson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_Lars_Engqvist"
+		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Lars_Engqvist.png"
+	}
 }
