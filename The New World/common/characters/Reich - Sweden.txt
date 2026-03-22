@@ -1,26 +1,60 @@
 characters = {
-	SWE_Tage_Erlander = {
-		name = SWE_Tage_Erlander
+	SWE_Goran_Persson = {
+		name = SWE_Goran_Persson
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SWE/Portrait_Sweden_Tage_Erlander.png"
-				small = "GFX_idea_SWE_Tage_Erlander"
+				large = "gfx/leaders/SWE/Portrait_SWE_Goran_Persson.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_TAGE_ERLANDER_DESC"
+			desc = "POLITICS_SWE_Goran_Persson_DESC"
 			expire = "1999.1.1"
+						traits = { SWE_alone_hawk }
 			ideology = progressivism_reformist_socialism_subtype
 			id = -1
 		}
 	}
-	# Easter Egg Leader
-	SWE_Lord_Wiz_of_Chaddington = {
-		name = SWE_Lord_Wiz_of_Chaddington
+
+		SWE_Bjorn_von_Sydow = { #比约恩·古斯塔夫·冯·西多（国防大臣）
+		name = SWE_Bjorn_von_Sydow
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SWE/Portrait_Sweden_Lord_Wiz_of_Chaddington.png"
+				large = "gfx/leaders/SWE/SWE_Bjorn_von_Sydow.png"
+				small = "GFX_idea_SWE_Bjorn_von_Sydow"
 			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = SWE_Bjorn_von_Sydow_sec
+			allowed = { original_tag = SWE }
+			traits = {
+				SWE_Bjorn_von_Sydow_trait
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	                 }
+	SWE_Anna_Lindh = { #安娜·林德（外交大臣）
+		name = SWE_Anna_Lindh
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWE/SWE_Anna_Lindh.png"
+				small = "GFX_idea_SWE_Anna_Lindh"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SWE_Anna_Lindh_for
+			allowed = { original_tag = SWE }
+			traits = {
+				SWE_Anna_Lindh_trait
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 }
