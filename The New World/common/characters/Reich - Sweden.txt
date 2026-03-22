@@ -177,7 +177,7 @@ characters = {
 		country_leader = {
 			desc = "SWE_Lars_Leijonborg_DESC"
 			expire = "1999.1.1"
-			ideology = liberalism_2
+			ideology = liberalism_2_subtype
 			id = -1
 		}
 	}
