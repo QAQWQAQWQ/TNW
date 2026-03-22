@@ -4793,7 +4793,7 @@ spriteTypes = {
 	### SWE ###
 	spriteType = {
 		name = "GFX_idea_SWE_Bjorn_von_Sydow"
-		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Anna_Lindh.png"
+		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Bjorn_von_Sydow.png"
 	}
 
 	spriteType = {
