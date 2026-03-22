@@ -4790,4 +4790,16 @@ spriteTypes = {
 		name = "GFX_idea_GRE_Konstantinos_Kollias"
 		texturefile = "gfx/interface/ideas/ministers/GRE/GRE_Minister_Konstantinos_Kollias.dds"
 	}
+	### SWE ###
+	spriteType = {
+		name = "GFX_idea_SWE_Bjorn_von_Sydow"
+		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Anna_Lindh.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SWE_Anna_Lindh"
+		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Anna_Lindh.png"
+	}
+
+	
 }

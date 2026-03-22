@@ -38,12 +38,6 @@ country_event = {
 	title = MAN.2.t
 	desc = MAN.2.desc
 
-    trigger = {
-        tag = MAN
-        date > 2004.4.1
-        date < 2004.4.10
-    }
-
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -57,5 +51,89 @@ country_event = {
 	option = {
 		name = MAN.2.a
 		news_event = TNW_WORLD.3
+	}
+}
+
+country_event = {
+	id = MAN.3
+	title = MAN.3.t
+	desc = MAN.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+                             retire_character = MAN_Lee_Teng_hui
+		                     promote_character = MAN_Cai_Ying_wen
+							 
+		set_party_name = {
+        ideology = progressivism
+        long_name = MAN_Kuomin_Lianhe
+        name = MAN_Kuomin_Lianhe
+		}
+		
+		set_politics = {
+		ruling_party = progressivism
+		last_election = "2003.10.20"
+		election_frequency = 48
+		elections_allowed = no
+	    }
+                                          }
+										  
+			}
+
+	option = {
+		name = MAN.3.a
+		news_event = TNW_WORLD.4
+	}
+}
+
+country_event = {
+	id = MAN.4
+	title = MAN.4.t
+	desc = MAN.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+	
+			}
+
+	option = {
+		name = MAN.4.a
+		news_event = TNW_WORLD.5
+	}
+}
+
+country_event = {
+	id = MAN.5
+	title = MAN.5.t
+	desc = MAN.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+                             retire_character = MAN_Lee_Teng_hui
+		                     promote_character = MAN_Xu_Cai_gao
+		
+		set_politics = {
+		ruling_party = despotism
+		last_election = "2003.10.20"
+		election_frequency = 48
+		elections_allowed = no
+	    }
+		
+		
+                                          }
+										  
+			}
+
+	option = {
+		name = MAN.3.a
+		news_event = TNW_WORLD.6
 	}
 }

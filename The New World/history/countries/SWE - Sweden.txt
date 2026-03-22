@@ -5,8 +5,10 @@ recruit_character = SWE_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 
-recruit_character = SWE_Tage_Erlander
-recruit_character = SWE_Lord_Wiz_of_Chaddington
+recruit_character = SWE_Goran_Persson
+
+recruit_character = SWE_Bjorn_von_Sydow
+recruit_character = SWE_Anna_Lindh
 set_cosmetic_tag = SWE_kingdom
 oob = "SWE_1962"
 set_naval_oob = "SWE_1962_naval"
@@ -17,7 +19,7 @@ set_research_slots = 4
 
 set_politics = {
 	ruling_party = progressivism
-	last_election = "1960.09.18"
+	last_election = "2000.09.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -38,6 +40,10 @@ set_war_support = 0.3
 add_ideas = {
 	#faction
 	Stahlpakt_Beobachterstaat
+	##minster##
+	SWE_Bjorn_von_Sydow_sec
+	SWE_Anna_Lindh_for
+	
 
 	# Starting ideas
 	SWE_industry

@@ -1,0 +1,10 @@
+leader_traits = {
+
+	SWE_alone_hawk = { ##孤鹰##
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.1
+
+		ai_will_do = { factor = 1 }
+	}
+}

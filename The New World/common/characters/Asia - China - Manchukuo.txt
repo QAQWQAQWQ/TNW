@@ -50,6 +50,40 @@ characters = {
 			id = -1
 		}
 	}
+	
+	MAN_Cai_Ying_wen = {
+		name = MAN_Cai_Ying_wen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Tsai_Ingwen.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_Cai_Ying_wen_DESC"
+			ideology = progressivism_neocorporatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	
+	MAN_Xu_Cai_gao = {
+		name = MAN_Xu_Cai_gao
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Xu_caihou.png"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_Xu_Cai_gao_DESC"
+			ideology = despotism_interim_government_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
 
 	MAN_NCP = {
 		name = MAN_NCP
