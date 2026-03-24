@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owenr = BOR
+		owner = SAF
 		buildings = {
 			thermoelectric_plant = 2
 			prisons = 2
