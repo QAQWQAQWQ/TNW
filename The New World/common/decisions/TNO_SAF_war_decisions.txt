@@ -929,23 +929,23 @@ ARK_south_african_war_catgeory = {
 				random_owned_controlled_state = {
 					create_unit = {
 						division = "name = \"Boer Volunteers\" division_template = \"Boer Volunteers\" start_experience_factor = 0.1 start_equipment_factor = 0.9"
-						owner = BOR
+						owenr = BOR
 					}
 					create_unit = {
 						division = "name = \"Boer Volunteers\" division_template = \"Boer Volunteers\" start_experience_factor = 0.1 start_equipment_factor = 0.9"
-						owner = BOR
+						owenr = BOR
 					}
 					create_unit = {
 						division = "name = \"Boer Volunteers\" division_template = \"Boer Volunteers\" start_experience_factor = 0.1 start_equipment_factor = 0.9"
-						owner = BOR
+						owenr = BOR
 					}
 					create_unit = {
 						division = "name = \"Boer Volunteers\" division_template = \"Boer Volunteers\" start_experience_factor = 0.1 start_equipment_factor = 0.9"
-						owner = BOR
+						owenr = BOR
 					}
 					create_unit = {
 						division = "name = \"Boer Volunteers\" division_template = \"Boer Volunteers\" start_experience_factor = 0.1 start_equipment_factor = 0.9"
-						owner = BOR
+						owenr = BOR
 					}
 				}
 			}

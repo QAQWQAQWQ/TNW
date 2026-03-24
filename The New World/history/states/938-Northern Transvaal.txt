@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = BOR
+		owenr = BOR
 		buildings = {
 			infrastructure = 3
 			radar_station = 1

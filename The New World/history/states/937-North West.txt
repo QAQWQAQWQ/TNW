@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = BOR
+		owenr = BOR
 		buildings = {
 			hospitals = 1
 			prisons = 1

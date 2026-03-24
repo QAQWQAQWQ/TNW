@@ -3,7 +3,7 @@ state = {
 	name = "STATE_935"
 
 	history = {
-		owner = BOR
+		owenr = BOR
 		buildings = {
 			infrastructure = 2
 			air_base = 1 }

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = BOR
+		owenr = BOR
 		buildings = {
 			thermoelectric_plant = 2
 			infrastructure = 3

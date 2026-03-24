@@ -1310,8 +1310,8 @@ BRS = {
 	color_ui = rgb { 137 67 67 }
 }
 ZIM = {
-	color = rgb { 0 74 0 }
-	color_ui = rgb { 0 74 0 }
+	color = rgb { 39 76 63 }
+	color_ui = rgb { 39 76 63 }
 }
 ZMO = {
 	color = rgb { 115 119 93 }
