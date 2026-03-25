@@ -1318,8 +1318,8 @@ ZMO = {
 	color_ui = rgb { 115 119 93 }
 }
 BTS = {
-	color = rgb { 70 93 153 }
-	color_ui = rgb { 70 93 153 }
+	color = rgb { 170 123 104 }
+	color_ui = rgb { 170 123 104  }
 }
 GAZ = {
 	color = rgb { 70 146 153 }
@@ -1472,8 +1472,8 @@ ANL = {
 	color_ui = rgb { 113 85 87 }
 }
 NAM = {
-	color = rgb { 95 122 95 }
-	color_ui = rgb { 95 122 95 }
+	color = rgb { 170 103 78 }
+	color_ui = rgb { 170 103 78 }
 }
 OVB = {
 	color = rgb { 143 176 190 }
