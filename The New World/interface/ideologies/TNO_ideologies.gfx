@@ -284,6 +284,11 @@ spriteTypes = {
 		name = "GFX_ideology_paternalism_right_wing_populism_subtype"
 		texturefile = "gfx/interface/ideologies/paternalism_right_wing_populism_subtype.dds"
 	}
+	#tnw#
+	spriteType = {
+		name = "GFX_ideology_paternalism_Herrenvolk_Democracy_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_Herrenvolk_Democracy_subtype.png"
+	}
 	spriteType = {
 		name = "GFX_ideology_national_socialism_spartanism_subtype"
 		texturefile = "gfx/interface/ideologies/national_socialism_spartanism_subtype.dds"

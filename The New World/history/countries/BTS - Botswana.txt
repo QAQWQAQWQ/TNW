@@ -3,12 +3,8 @@ capital = 1050
 # Vacant
 recruit_character = BTS_Generic_Vacant
 # Characters
-recruit_character = BTS_Seretse_Khama
-recruit_character = BTS_Josiah_Gondo
-recruit_character = BTS_Quett_Masire
-recruit_character = BTS_Gaositwe_K_T_Chiepe
-recruit_character = BTS_Ponatshego_Kedikilwe
-recruit_character = BTS_Mompati_Merafhe
+recruit_character = BTS_Clive_Derby_Lewis
+
 
 
 oob = "BTS_1962"
@@ -69,7 +65,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -81,8 +77,8 @@ set_popularities = {
 	progressivism = 20
 	liberalism = 20
 	liberal_conservatism = 0
-	conservatism = 60
-	paternalism = 0
+	conservatism = 0
+	paternalism = 60
 	despotism = 0
 	fascism = 0
 	national_socialism = 0

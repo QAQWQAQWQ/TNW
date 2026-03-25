@@ -1,13 +1,6 @@
 capital = 778
 
-recruit_character = NAM_Sam_Nujoma
-
-recruit_character = NAM_Andimba_Toivo_ya_Toivo
-recruit_character = NAM_Peter_Katjavivi
-recruit_character = NAM_Klaus_Dierks
-recruit_character = NAM_Peter_Mweshihange
-
-recruit_character = NAM_Generic_Vacant
+recruit_character = NAM_Ferdinand_Hartzenberg
 
 oob = "NAM_1962"
 
@@ -67,7 +60,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,12 +68,12 @@ set_politics = {
 
 set_popularities = {
 	communist = 0
-	socialist = 60
+	socialist = 10
 	progressivism = 10
 	liberalism = 10
 	liberal_conservatism = 0
 	conservatism = 10
-	paternalism = 10
+	paternalism = 60
 	despotism = 0
 	fascism = 0
 	national_socialism = 0

@@ -3,7 +3,7 @@ characters = {
 		name = ZIM_Ian_Smith
 		portraits = { civilian = { large = "gfx/leaders/ZIM/Portrait_Rhodesia_Ian_Smith.png" } }
 		country_leader = {
-			ideology = conservatism_populist_conservatism_subtype
+			ideology = paternalism_Herrenvolk_Democracy_subtype
 			expire = "1999.1.23.1"
 			id = -1
 		}
