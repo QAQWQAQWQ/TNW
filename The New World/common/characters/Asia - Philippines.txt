@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FIDEL_AGCAOLIL_DESC"
-			ideology = communist_mao_zedong_thought_subtype
+			ideology = communist_peoples_democracy_subtype
 			traits = { supremo_ng_himagsikan }
 			expire = "1999.1.1.1"
 			id = -1

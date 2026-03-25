@@ -747,8 +747,8 @@ PAK = {
 ## Insular SEA ##
 
 PHI = {
-	color = rgb { 189 100 127 }
-	color_ui = rgb { 189 100 127 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 UPH = {
 	color = rgb { 71 124 178 }
