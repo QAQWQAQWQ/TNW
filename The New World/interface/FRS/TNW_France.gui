@@ -1,0 +1,7 @@
+guiTypes = {
+	containerWindowType = {
+		name = "fra_ger_decisons_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 510 height= 450 }
+	}
+}

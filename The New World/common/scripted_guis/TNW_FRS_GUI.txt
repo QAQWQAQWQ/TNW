@@ -1,2 +1,16 @@
 
-    
+scripted_gui = {
+	fra_ger_decisons_ui = {
+		context_type = decision_category
+		window_name = "fra_ger_decisons_ui_window"
+		effects = {
+			
+		}
+		properties={
+		} 
+		
+		ai_enabled = {
+			always = yes
+		}
+	}
+}

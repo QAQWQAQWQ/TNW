@@ -1,0 +1,16 @@
+fra_ger_decisions = {
+	scripted_gui = fra_ger_decisons_ui
+	priority = 1
+	icon = generic_research
+	visible = {
+		OR = {
+			original_tag = FRS
+		}
+	} 
+	activation = {
+		OR = {
+			original_tag = FRS
+		}
+	}
+	visible_when_empty = yes
+}
