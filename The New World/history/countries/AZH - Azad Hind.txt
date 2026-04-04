@@ -4,7 +4,7 @@ capital = 1349
 set_country_flag = GDP_regions
 
 # Vacant
-recruit_character = AZH_Ram_lakhan_yadav
+recruit_character = AZH_Subrata_Bose
 
 
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.

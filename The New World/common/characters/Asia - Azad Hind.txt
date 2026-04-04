@@ -16,4 +16,20 @@ characters = {
 			id = -1
 		}
 	}
+
+
+	AZH_Subrata_Bose = {
+		name = AZH_Subrata_Bose
+		portraits = {
+			civilian = { large = "gfx/leaders/AZH/Portrait_AZH_Subrata_Bose.png" }
+		}
+		country_leader = {
+			desc = "POLITICS_SUBRATA_BOSE_DESC"
+			ideology = paternalism_left_wing_corporatism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
 }
+
