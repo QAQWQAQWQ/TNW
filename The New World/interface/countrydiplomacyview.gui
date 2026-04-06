@@ -428,7 +428,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = -50000 y = 27 } #y = 27
+						position = { x = 5 y = 24 } #y = 27
 						#position = { x = -5000 y = 27 }
 						font = "Main_14_black"
 						text = "ideology"
