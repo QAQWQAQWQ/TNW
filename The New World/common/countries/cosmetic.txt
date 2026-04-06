@@ -2089,7 +2089,10 @@ MCW_oktan = {
 	color = rgb { 94 88 82 }
 	color_ui = rgb { 94 88 82 }
 }
-
+INS_Sukarno = {
+	color = rgb { 159 52 77 }
+	color_ui = rgb { 159 52 77 }
+}
 INS_FRI = {
 	color = rgb { 42 98 162 }
 	color_ui = rgb { 42 98 162 }

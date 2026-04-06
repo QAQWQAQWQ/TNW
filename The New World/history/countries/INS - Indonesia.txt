@@ -5,11 +5,9 @@ set_country_flag = GDP_regions
 
 # Vacant
 
+recruit_character = INS_Megawati_Sukarnoputri
 
-recruit_character = INS_Suharto
-
-
-
+set_cosmetic_tag = INS_Sukarno
 set_research_slots = 3
 
 #econtype

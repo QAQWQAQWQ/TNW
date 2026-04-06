@@ -308,7 +308,6 @@ set_country_flag = gui_alert_visible
 country_lock_all_division_template = yes
 
 set_cosmetic_tag = MAN_DaimanzhouKyowakoku
-
 add_ideas = {
 	#Country#
 	Sphere_Core_Member
