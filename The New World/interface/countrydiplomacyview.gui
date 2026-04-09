@@ -419,7 +419,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = 5 y = 6 }
-						font = "Main_14_black"
+						font = "aldrich_20_outline"
 						text = "party"
 						maxWidth = 273
 						maxHeight = 20
@@ -430,7 +430,7 @@ guiTypes = {
 						name = "ideology_name"
 						position = { x = 5 y = 24 } #y = 27
 						#position = { x = -5000 y = 27 }
-						font = "Main_14_black"
+						font = "invisiblefont"
 						text = "ideology"
 						maxWidth = 245
 						maxHeight = 26 #20
@@ -439,7 +439,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "elections"
 						position = { x = 5 y = 50 }
-						font = "hoi4_typewriter22"
+						font = "aldrich_20_outline"
 						text = "elections"
 						maxWidth = 275
 						maxHeight = 20
