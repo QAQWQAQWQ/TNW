@@ -125,7 +125,7 @@ guiTypes = {
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x = 38 y = 39 }
+				position = { x = 39 y = 39 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -147,7 +147,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 250 y = 40 }
+				position = { x = 230 y = 40 }
 				font = "Bomb_16"
 				text = "Germanian"
 				maxWidth = 290
@@ -159,7 +159,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 250 y = 56}
+				position = { x = 230 y = 56}
 				size = { width = 175 height = 20 }
 				clipping = no
 
@@ -178,7 +178,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 250 y = 75 }
+				position = { x = 230 y = 75 }
 				font = "Bomb_16"
 				text = "Rudolf Kittler"
 				maxWidth = 290
@@ -418,7 +418,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "party_name"
-						position = { x = 5 y = 6 }
+						position = { x = 5 y = 3 }
 						font = "aldrich_20_outline"
 						text = "party"
 						maxWidth = 273
