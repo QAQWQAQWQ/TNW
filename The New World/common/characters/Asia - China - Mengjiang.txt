@@ -1,11 +1,11 @@
 characters = {
-	MEN_Unenbagatur = {
-		name = MEN_Unenbagatur
+	MEN_Jagchid_Sechen = {
+		name = MEN_Jagchid_Sechen
 		portraits = {
-			civilian = { large = "gfx/leaders/MEN/MEN_Ünenbagatur.png" }
+			civilian = { large = "gfx/leaders/MEN/Portrait_mengjiang_Jagchid_Sechen.png" }
 		}
 		country_leader = {
-			desc = "POLITICS_UNENBAGATUR_DESC"
+			desc = "POLITICS_JAGCHID_SECHEN_DESC"
 			ideology = despotism_aristocratic_conservatism_subtype
 			traits = {  }
 			expire = "1999.1.1.1"
