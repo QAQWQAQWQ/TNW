@@ -48,8 +48,11 @@
 
 
  ###Manchou Assorted Laws###
- MAN_Manchuria_New_Constitution_law: "1965年·大满洲共和国新宪法"
- MAN_Manchurian_Compulsory_Education_law: "1984年·满洲共和国义务教育法"
+ MAN_Manchuria_New_Constitution_law: "1965年·§O大满洲共和国§!新宪法"
+ MAN_Manchuria_New_Constitution_law_desc: ""
+
+ MAN_Manchurian_Compulsory_Education_law: "§L1984年!·§O满洲共和国§!义务教育法"
+ MAN_Manchurian_Compulsory_Education_law_desc: "“根据‘§X五族协和，泛亚共荣§!’的思想，国家义务教育的目的在于协助所有国民完善其个人的品德，培养独立生活能力和取得能参加建设国家和促进共荣圈繁荣活动的合格国民资格。”——《§O满洲§!·§I一九八三年教育厅§!》教育包含小学至初中共九年，小学六年，初中三年，高中三年，大学四年。小学和初中在国家是免费义务教育，如有成绩优异者，可免费享受国家提供的大学教育。进入§L二十世纪八十年代§!，提高教育质量成为满洲教育的焦点。义务教育被纳入宪法§j条文§!中，并成为满洲四大国政目标之一。在§L一九八四年§!逐步推广至偏远地区，截至§L一九九零年§!，已全面落实小学义务教育，临进千禧，§O满洲共和国§!开始注重培养全面发展的复合型创造性人才用来面对§I新兴产业科技§!。"
  MAN_Presidential_and_Public_Service_Act_law: "1990年·总统及公务员法"
  MAN_Manchuria_Intelligence_Bureau_law: "1973年·满洲共和国情报厅"
  MAN_Manchurian_Military_Reform_law: "1985年·新满洲共和国军改革法"
