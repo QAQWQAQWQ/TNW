@@ -14,6 +14,31 @@ on_actions = {
 
 			set_temp_variable = { temp_law = token:SWE_The_1980_Law_on_Succession_to_the_Throne }
             TNO_add_assorted_law = yes
+
+			##MAN##
+			set_temp_variable = { temp_law = token:MAN_Manchuria_New_Constitution_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Manchurian_Compulsory_Education_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Presidential_and_Public_Service_Act_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Manchuria_Intelligence_Bureau_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Manchurian_Military_Reform_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Manchurian_Republic_Special_For }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_Manchuria_International_Development_Group_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:MAN_xinjing_Agreement_law }
+            TNO_add_assorted_law = yes
  
 
 	}

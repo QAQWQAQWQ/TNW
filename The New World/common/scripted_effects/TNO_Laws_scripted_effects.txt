@@ -7245,6 +7245,20 @@ misc_law_array_startup = {
 		add_to_array = { TNO_assorted_laws = token:ENG_Anglo_German_Alliance_Treaty_law }#英德同盟条约
 		add_to_array = { TNO_assorted_laws = token:ENG_National_Corporatist_Labour_Code_law }#全国职团劳动法典                                   
 	}
+
+	if = {
+		limit = {
+			tag = MAN
+		}
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchuria_New_Constitution_law }#1965·大满洲共和国新宪法
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchurian_Compulsory_Education_law }#1984·满洲共和国义务教育法
+		add_to_array = { TNO_assorted_laws = token:MAN_Presidential_and_Public_Service_Act_law }#1990·总统及公务员法
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchuria_Intelligence_Bureau_law }#1973·满洲共和国情报厅
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchurian_Military_Reform_law }#1985·新满洲共和国军改革法
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchurian_Republic_Special_Forces_law }#满洲共和国特种部队
+		add_to_array = { TNO_assorted_laws = token:MAN_Manchuria_International_Development_Group_law }#满洲国际开发集团 
+		add_to_array = { TNO_assorted_laws = token:MAN_xinjing_Agreement_law }#1982·新京协定                               
+	}
 	# Global Generic
 	else = {
 		add_to_array = { TNO_assorted_laws = token:pollution_law }
