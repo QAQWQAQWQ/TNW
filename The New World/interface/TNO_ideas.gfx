@@ -2440,6 +2440,21 @@ SpriteTypes = {
 	## Manchukuo ##
 
 	SpriteType = {
+		name = "GFX_idea_MAN_Manchu_spirit"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_Manchu_spirit.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_MAN_National_Treasures"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_National_Treasures.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_MAN_New_Era_New_Manchuria"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_New_Era_New_Manchuria.png"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_MAN_New_Era_New_Manchuria"
 		texturefile = "gfx/interface/ideas/national_spirits/Asia/MAN/idea_MAN_New_Era_New_Manchuria.png"
 	}
