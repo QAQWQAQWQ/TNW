@@ -1,5 +1,53 @@
 spriteTypes = {
 
+
+	##MANLAW##
+	spriteType = {
+		name = "GFX_MAN_Manchuria_New_Constitution"
+		texturefile = "gfx/texticons/MAN/MAN_Manchuria_New_Constitution.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MAN_Manchurian_Compulsory_Education"
+		texturefile = "gfx/texticons/MAN/MAN_Manchurian_Compulsory_Education.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MAN_Presidential_and_Public_Service_Act"
+		texturefile = "gfx/texticons/MAN/MAN_Presidential_and_Public_Service_Act.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MAN_Manchuria_Intelligence_Bureau_law"
+		texturefile = "gfx/texticons/MAN/MAN_Manchuria_Intelligence_Bureau_law.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_MAN_Manchurian_Military_Reform"
+		texturefile = "gfx/texticons/MAN/MAN_Manchurian_Military_Reform.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_MAN_Manchurian_Republic_Special_Forces"
+		texturefile = "gfx/texticons/MAN/MAN_Manchurian_Republic_Special_Forces.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_MAN_Manchuria_International_Development_Group"
+		texturefile = "gfx/texticons/MAN/MAN_Manchuria_International_Development_Group.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_MAN_xinjing_Agreement"
+		texturefile = "gfx/texticons/MAN/MAN_xinjing_Agreement.png"
+		legacy_lazy_load = no
+	}
+
+
+
 	#FRS law#
 	spriteType = {
 		name = "GFX_FRS_General_Regulations_for_Civil_Servants_1941"
