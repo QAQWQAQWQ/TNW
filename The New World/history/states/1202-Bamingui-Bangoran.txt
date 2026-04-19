@@ -3,15 +3,15 @@ state = {
 	name = "STATE_1202"
 
 	history = {
-		owner = KNM
-		add_core_of = KAM
+		owner = CAF
+		add_core_of = CAF
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		1974 14054 14056 14057
+		14055 1974 14054 14056 14057
 	}
 	manpower = 220000
 	buildings_max_level_factor = 1.000
