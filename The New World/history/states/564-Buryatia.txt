@@ -10,13 +10,13 @@ state = {
 
 	history = {
 		owner = TOM
+		add_core_of = TOM
 		buildings = {
 			infrastructure = 2
 			thermoelectric_plant = 1
 			offices = 1
 			schools = 1
 		}
-		add_core_of = TOM
 		victory_points = {
 			14459 10
 		}
