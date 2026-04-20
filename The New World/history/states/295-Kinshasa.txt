@@ -12,7 +12,6 @@ state = {
 		set_state_flag = universal_renamings
 
 		victory_points = { 5117 20 }
-		victory_points = { 8193 10 }
 
 		buildings = {
 			schools = 1
@@ -27,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		5117 8193 12925 13899 13905 13907
+		5117 12925
 	}
 	manpower = 3586781
 	buildings_max_level_factor = 1.000

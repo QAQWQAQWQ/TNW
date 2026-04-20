@@ -12,6 +12,7 @@ state = {
 		victory_points = {
 			12975 3
 		}
+		victory_points = { 8193 10 }
 		buildings = {
 			offices = 1
 			barracks = 1
@@ -24,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		6789 12975 13896 13897 13901 13902
+		8193 6789 12975 13896 13897 13901 13899 13905 13907
 	}
 	manpower = 335705
 	buildings_max_level_factor = 1.000
