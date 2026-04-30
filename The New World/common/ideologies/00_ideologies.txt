@@ -225,6 +225,7 @@ ideologies = {
 		types = {
 			paternalism_subtype = {}
 
+			paternalism_Institutionalized_authoritarianism_subtype = {can_be_randomly_selected = no}
             paternalism_Herrenvolk_Democracy_subtype = {can_be_randomly_selected = no}
             paternalism_National_Republicanism_subtype = { can_be_randomly_selected = no }
 			paternalism_national_conservatism_subtype = { can_be_randomly_selected = no }

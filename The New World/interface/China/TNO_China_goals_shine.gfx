@@ -1,10 +1,10 @@
 SpriteTypes = {
 	SpriteType = {
-		name = "GFX_focus_CHI_Pan-Asian_Ideal_shine"
-		texturefile = "gfx/interface/goals/CHI/CHI_Pan-Asian_Ideal.png"
+		name = "GFX_focus_CHI_Play_the_March_of_East_Asian_Nations_shine"
+		texturefile = "gfx/interface/goals/CHI/CHI_Play_the_March_of_East_Asian_Nations.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_Pan-Asian_Ideal.png"
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_Play_the_March_of_East_Asian_Nations.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -17,7 +17,7 @@ SpriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_Pan-Asian_Ideal.png"
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_Play_the_March_of_East_Asian_Nations.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -30,12 +30,13 @@ SpriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
 	SpriteType = {
-		name = "GFX_focus_CHI_The_Bright_Torch_of_East_Asia_shine"
-		texturefile = "gfx/interface/goals/CHI/CHI_The_Bright_Torch_of_East_Asia.png"
+		name = "GFX_focus_CHI_Under_the_bright_sky_and_white_sun_shine"
+		texturefile = "gfx/interface/goals/CHI/CHI_Under_the_bright_sky_and_white_sun.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_The_Bright_Torch_of_East_Asia.png"
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_Under_the_bright_sky_and_white_sun.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -48,7 +49,7 @@ SpriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHI/CHI_The_Bright_Torch_of_East_Asia.png"
+			animationmaskfile = "gfx/interface/goals/CHI/CHI_Under_the_bright_sky_and_white_sun.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -61,5 +62,6 @@ SpriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+	
 
 }

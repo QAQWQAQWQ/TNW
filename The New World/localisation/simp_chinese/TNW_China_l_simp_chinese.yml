@@ -17,6 +17,9 @@
  CHI_fascism_party_long:0 "国民党 - 华北派(Guomindang - Huabeipai)"
  CHI_JAP_PUP_fascism_party:0 "华北政务委员会"
  CHI_JAP_PUP_fascism_party_long:0 "华北政务委员会"
+ CHI: "中华民国"
+ CHI_DEF: "中华民国"
+ CHI_ADJ: "中国"
    
  CHI_Yuan_mingxuan:"袁名宣"
  CHI_Sun_yunxuan:"孙运璿"
@@ -40,6 +43,36 @@
  CHI_Trade_Act_of_the_Republic_of_China:0 " §B中华民国贸易法§!"
  CHI_National_Defense_Act_of_the_Republic_of_China:0 "§G中华民国国防法§!"
  CHI_Mobilization_Act:0 "§全国总动员戡乱法§!"
+
+
+ CHI_Peace_Pan_Asia_Coexistence_Co-Prosperity: "兴亚乃光 智深勇沉"
+ CHI_Instituting_Meritocracy: "不缘伯乐称奇骨"
+ CHI_Play_the_March_of_East_Asian_Nations: "奏响东亚民族交响曲"
+ CHI_Under_the_bright_sky_and_white_sun: "青天白日之下"
+ CHI_Eyes_on_the_Stage: "瞩目寰宇弈局"
+ CHI_Tokyo_Express: "东京疾轨"
+ CHI_xinjing_Hotline: "新京枢电"
+ CHI_Old_Dream_of_the_South_Seas: "南洋旧梦"
+ CHI_Scorching_Mumbai: "天竺流金"
+ CHI_Singapura_Passion: "狮屿英华"
+ CHI_Beyond_the_Doorstep: "飞花两岸照船红"
+ CHI_Our_Image: "百里榆堤半日风"
+ CHI_Perfecting_the_Five_Power_Constitution: "臻善五权宪制"
+ CHI_Deepening_Local_Autonomy: "推进均权自治"
+ CHI_Centralizing_the_Executive_Core: "整饬行政中枢"
+ CHI_Anti_Corruption_Oversight: "激浊扬清"
+ CHI_Turbulence_in_the_Legislative_Yuan: "府院风云"
+ CHI_Silencing_Factional_Discord: "弭平派争"
+ CHI_A_Solitary_Lamp_in_the_Darkest_Night: "几与驽骀价一齐"
+ CHI_Drafting_the_Grand_Blueprint: "擘画宏图"
+ CHI_Developing_the_Yangtze_River_Economic_Belt: "大江经略"
+ CHI_Revitalizing_Underperforming_Enterprises: "振兴疲敝产业"
+ CHI_Attracting_Japanese_Manchurian_Investment: "日满共济"
+ CHI_Striving_for_Self_Strengthening: "亟图自强"
+ CHI_The_Silicon_Valley_of_Jiangnan: "江南硅谷"
+ CHI_Expanding_Pan_Asian_Trade_Routes: "稻米流脂粟米白"
+ CHI_Realizing_National_Wealth_and_Prosperity: "公私仓廪俱丰实"
+
 
 
 

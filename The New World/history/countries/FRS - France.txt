@@ -8,19 +8,20 @@ set_naval_oob = "FRA_1962_naval"
 
 
 #INITIAL
-recruit_character = FRA_Jack_Lang
-recruit_character = FRA_Emmanuel_Le_Roy_Ladurie
-recruit_character = FRA_Jacques_Chirac
-recruit_character = FRA_Pierre_Pujo
-recruit_character = FRA_FranCois_Duprat
-recruit_character = FRA_Pierre_Joxe
-recruit_character = FRA_Jean_Marie_Le_Pen
-recruit_character = FRA_Emmanuel_Ladurie
+recruit_character = FRA_Bruno_Megret
+recruit_character = FRA_Gerard_Longuet
+recruit_character = FRA_Pierre_Mehaignerie
+recruit_character = FRA_Bernard_Kouchner
+recruit_character = FRA_Michel_Crozier
+recruit_character = FRA_Jean_Lamale
+recruit_character = FRA_Didier_Bariani
 #Minister
 recruit_character = FRA_Jean_Poperen
 recruit_character = FRA_Jean_Pierre_Chevenement
 recruit_character = FRA_Edouard_Balladur
 recruit_character = FRA_Alain_Richard
+#LEADER#
+recruit_character = FRA_Andre_Bettencourt
 
 
 #VACANT
@@ -424,21 +425,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = paternalism
 	last_election = "1995.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	progressivism = 25
-	liberalism = 5
-	paternalism = 8
-	conservatism = 15
+	paternalism = 20
+	fascism = 19
+	paternalism_1 = 18
 	liberal_conservatism = 18
-	liberal_conservatism_2 = 4
-	fascism = 15
-	despotism = 10
+	progressivism = 10
+	fascism_1 = 5
+	paternalism_2 = 5
+	conservatism = 5
 }
 
 country_lock_all_division_template = yes

@@ -1,64 +1,81 @@
 SpriteTypes = {
 	SpriteType = {
-		name = "GFX_focus_CHI_The_Bright_Torch_of_East_Asia"
-		texturefile = "gfx/interface/goals/CHI/CHI_The_Bright_Torch_of_East_Asia.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_CHI_Pan-Asian_Ideal"
-		texturefile = "gfx/interface/goals/CHI/CHI_Pan-Asian_Ideal.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_CHI_new_year_finances"
-		texturefile = "gfx/interface/goals/CHI/CHI_new_year_finances.png"
+		name = "GFX_focus_CHI_Play_the_March_of_East_Asian_Nations"
+		texturefile = "gfx/interface/goals/CHI/CHI_Play_the_March_of_East_Asian_Nations.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Strengthen_the_monetary_system"
-		texturefile = "gfx/interface/goals/CHI/CHI_Strengthen_the_monetary_system.png"
+		name = "GFX_focus_CHI_Under_the_bright_sky_and_white_sun"
+		texturefile = "gfx/interface/goals/CHI/CHI_Under_the_bright_sky_and_white_sun.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_protect_national_industry"
-		texturefile = "gfx/interface/goals/CHI/CHI_protect_national_industry.png"
+		name = "GFX_focus_CHI_Eyes_on_the_Stage"
+		texturefile = "gfx/interface/goals/CHI/CHI_Eyes_on_the_Stage.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Support_small_and_medium-sized_enterprises"
-		texturefile = "gfx/interface/goals/CHI/CHI_Support_small_and_medium-sized_enterprises.png"
+		name = "GFX_focus_CHI_Tokyo_Express"
+		texturefile = "gfx/interface/goals/CHI/CHI_Tokyo_Express.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Protect_investment_environment"
-		texturefile = "gfx/interface/goals/CHI/CHI_Protect_investment_environment.png"
+		name = "GFX_focus_CHI_xinjing_Hotline"
+		texturefile = "gfx/interface/goals/CHI/CHI_xinjing_Hotline.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Livelihood_for_the_people"
-		texturefile = "gfx/interface/goals/CHI/CHI_Livelihood_for_the_people.png"
+		name = "GFX_focus_CHI_Old_Dream_of_the_South_Seas"
+		texturefile = "gfx/interface/goals/CHI/CHI_Old_Dream_of_the_South_Seas.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Look_at_the_world"
-		texturefile = "gfx/interface/goals/CHI/CHI_Look_at_the_world.png"
+		name = "GFX_focus_CHI_Scorching_Mumbai"
+		texturefile = "gfx/interface/goals/CHI/CHI_Scorching_Mumbai.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_On_the_other_side_of_the_ocean"
-		texturefile = "gfx/interface/goals/CHI/CHI_On_the_other_side_of_the_ocean.png"
+		name = "GFX_focus_CHI_Singapura_Passion"
+		texturefile = "gfx/interface/goals/CHI/CHI_Singapura_Passion.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Focus_on_allies"
-		texturefile = "gfx/interface/goals/CHI/CHI_Focus_on_allies.png"
+		name = "GFX_focus_CHI_Beyond_the_Doorstep"
+		texturefile = "gfx/interface/goals/CHI/CHI_Beyond_the_Doorstep.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Trip_to_Manchuria"
-		texturefile = "gfx/interface/goals/CHI/CHI_Trip_to_Manchuria.png"
+		name = "GFX_focus_CHI_Our_Image"
+		texturefile = "gfx/interface/goals/CHI/CHI_Our_Image.png"
 	}
 
 	SpriteType = {
-		name = "GFX_focus_CHI_Nanyang_Accord"
-		texturefile = "gfx/interface/goals/CHI/CHI_Nanyang_Accord.png"
+		name = "GFX_focus_CHI_Perfecting_the_Five_Power_Constitution"
+		texturefile = "gfx/interface/goals/CHI/CHI_Perfecting_the_Five_Power_Constitution.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Deepening_Local_Autonomy"
+		texturefile = "gfx/interface/goals/CHI/CHI_Deepening_Local_Autonomy.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Centralizing_the_Executive_Core"
+		texturefile = "gfx/interface/goals/CHI/CHI_Centralizing_the_Executive_Core.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Anti_Corruption_Oversight"
+		texturefile = "gfx/interface/goals/CHI/CHI_Anti_Corruption_Oversight.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Turbulence_in_the_Legislative_Yuan"
+		texturefile = "gfx/interface/goals/CHI/CHI_Turbulence_in_the_Legislative_Yuan.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Silencing_Factional_Discord"
+		texturefile = "gfx/interface/goals/CHI/CHI_Silencing_Factional_Discord.png"
 	}
 }

@@ -65,38 +65,7 @@ ideas = {
 			}
 		}
 
-		MAN_National_Treasures = {
-				allowed = {
-				original_tag = MAN
-				always = no 
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			picture = GFX_idea_MAN_National_Treasures
-			removal_cost = -1
 
-			modifier = {
-				political_power_factor = -0.10
-				
-			}
-		}
-
-		MAN_Manchu_spirit = {
-				allowed = {
-				original_tag = MAN
-				always = no 
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			picture = GFX_idea_MAN_Manchu_spirit
-			removal_cost = -1
-
-			modifier = {
-				political_power_factor = -0.10
-				
-			}
-		}
+		
    }
 }
