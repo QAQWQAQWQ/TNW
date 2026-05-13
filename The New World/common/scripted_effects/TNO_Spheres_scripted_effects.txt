@@ -18,9 +18,18 @@ TNO_Spheres_init = {
 				tag = IRE
 				tag = ULS
 				tag = WAL
-				tag = SWE
 				tag = FIN
 				tag = PER
+				tag = MOC
+				tag = SNM
+				tag = VAC
+				tag = ITA
+				tag = SAU
+				tag = IRQ
+				tag = CRO
+				tag = OMA
+				tag = CLC
+				tag = SWI
 			}
 		}
 		set_variable = { ECON_SPHERE_LEADER = GER }
@@ -90,16 +99,7 @@ TNO_Spheres_init = {
 	every_country = {
 		limit = {
 			OR = {
-				tag = MOC
-				tag = SNM
-				tag = VAC
-				tag = ITA
-				tag = SAU
-				tag = IRQ
-				tag = CRO
-				tag = OMA
-				tag = CLC
-				tag = SWI
+				
 			}
 		}
 		set_variable = { ECON_SPHERE_LEADER = ITA }

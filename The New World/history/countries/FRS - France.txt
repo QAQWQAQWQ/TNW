@@ -16,10 +16,10 @@ recruit_character = FRA_Michel_Crozier
 recruit_character = FRA_Jean_Lamale
 recruit_character = FRA_Didier_Bariani
 #Minister
-recruit_character = FRA_Jean_Poperen
-recruit_character = FRA_Jean_Pierre_Chevenement
-recruit_character = FRA_Edouard_Balladur
-recruit_character = FRA_Alain_Richard
+recruit_character = FRA_Francois_Durand
+recruit_character = FRA_Roland_Dumas
+recruit_character = FRA_Jean_Louis_Debre
+recruit_character = FRA_Ernest_Antoine_Seilliere
 #LEADER#
 recruit_character = FRA_Andre_Bettencourt
 
@@ -34,19 +34,21 @@ add_manpower = 32000
 
 add_ideas = {
 	#FACTION
-	Pakt_Mitstreiter
+	Pakt_French_community
 	#Country
-	FRS_The_homeland_of_the_French_nation
-	FRS_Reich_Shackles
-	FRS_continuous_rain
-	FRS_lost_future
-	FRS_economic_stagnation
+	FRS_millennium
+	FRS_Party_strife
+	FRS_The_river_is_going_downhill
+	FRS_Unpolished_Gold_and_Jade
+	FRS_Only_the_best_and_the_most_focused
+	
+	
 
 	#MINISTERS
-	FRA_Jean_Poperen_hog
-	FRA_Jean_Pierre_Chevenement_for
-	FRA_Edouard_Balladur_eco
-	FRA_Alain_Richard_sec
+	FRA_Francois_Durand_hog
+	FRA_Roland_Dumas_for
+	FRA_Jean_Louis_Debre_eco
+	FRA_Ernest_Antoine_Seilliere_sec
 
 	#SPIRITS
 	

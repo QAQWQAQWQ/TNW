@@ -50,8 +50,7 @@ set_stability = 0.8
 set_war_support = 0.3
 
 add_ideas = {
-	#faction
-	Stahlpakt_Beobachterstaat
+	Stahlpakt_observer
 	##minster##
 	SWE_Bjorn_von_Sydow_sec
 	SWE_Anna_Lindh_for
@@ -113,6 +112,9 @@ add_ideas = {
 	tno_industrial_expertise_experienced
 	tno_army_professionalism_professional
 	tno_admin_efficiency_functional_administrative_systems
+
+
+	
 }
 
 set_technology = {

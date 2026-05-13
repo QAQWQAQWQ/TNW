@@ -147,7 +147,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 230 y = 40 }
+				position = { x = 250 y = 40 }
 				font = "Bomb_16"
 				text = "Germanian"
 				maxWidth = 290
@@ -165,7 +165,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "faction_name"
-					position = { x = 0 y = 2 }
+					position = { x = 20 y = 2 }
 					font = "Bomb_16"
 					text = "faction"
 					maxWidth = 290
@@ -178,7 +178,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 230 y = 75 }
+				position = { x = 250 y = 75 }
 				font = "Bomb_16"
 				text = "Rudolf Kittler"
 				maxWidth = 290
@@ -298,7 +298,7 @@ guiTypes = {
 			buttonType = {
 				name = "relations_tab_button"
 				quadTextureSprite = "GFX_tab_large"
-				position = { x = 111 y =-8 }
+				position = { x = 111 y =-7 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
 				font = "Bomb_16"
 			}

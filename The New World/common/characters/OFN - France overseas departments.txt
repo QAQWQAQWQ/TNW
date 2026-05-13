@@ -1,0 +1,107 @@
+characters = {
+	## LEADERS ##
+	FFR_Michele_Alliot_Marie = {
+		name = FFR_Michele_Alliot_Marie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FFR/Portrait_Free_France_Michele_Alliot_Marie.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MICHELE_ALLIOT_MARIE_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Gerard_Jaquet = {
+		name = FFR_Gerard_Jaquet
+		
+		country_leader = {
+			desc = ""
+			ideology = progressivism_reformist_socialism_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Raymonde_Tillon = {
+		name = FFR_Raymonde_Tillon
+		
+		country_leader = {
+			desc = ""
+			ideology = socialist_left_wing_nationalism_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+	FFR_Leon_Landini = {
+		name = FFR_Leon_Landini
+		
+		country_leader = {
+			desc = ""
+			ideology = communist_marxism_leninism_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Albert_Detraz = {
+		name = FFR_Albert_Detraz
+		
+		country_leader = {
+			desc = ""
+			ideology = progressivism_1_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Robert_Verdier = {
+		name = FFR_Robert_Verdier
+		
+		country_leader = {
+			desc = ""
+			ideology = progressivism_2_subtype 
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Simone_Veil = {
+		name = FFR_Simone_Veil
+		
+		country_leader = {
+			desc = ""
+			ideology = liberalism_social_liberalism_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+	FFR_Jean_Marie_Cavada = {
+		name = FFR_Jean_Marie_Cavada
+		
+		country_leader = {
+			desc = ""
+			ideology = liberal_conservatism_christian_democracy_subtype
+			expire = "2020.1.1"
+			id = -1
+		}
+		
+	}
+
+
+
+
+	## MINISTERS ##
+	
+}

@@ -4,7 +4,7 @@ state = { #Population Done
 	state_category = small_island
 
 	history = {
-		owner = WIN
+		owner = FFR
 		victory_points = { 177 1 }
 		buildings = {
 			infrastructure = 3

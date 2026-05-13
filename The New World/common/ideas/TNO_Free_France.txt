@@ -1,133 +1,67 @@
 ideas = {
 	country = {
-		FFR_military_administration = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_military_administration" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_military_administration
-
-			modifier = {
-				war_support_factor = 0.1
-				conscription_factor = 0.1
-				political_power_gain = -0.2
-				planning_speed = -0.6
-				army_org_factor = -0.4
-				taxable_population_modifier = -0.25
+		FFR_Definition = {
+			allowed = {
+				original_tag = FFR
+				always = no 
 			}
-		}
 
-		FFR_military_administration_2 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_military_administration_2" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_military_administration_2
-
-			modifier = {
-				war_support_factor = 0.15
-				conscription_factor = 0.15
-				political_power_gain = -0.15
-				planning_speed = -0.4
-				army_org_factor = -0.3
-				taxable_population_modifier = -0.2
+			allowed_civil_war = {
+				always = yes
 			}
-		}
-
-		FFR_military_administration_3 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_military_administration_3" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_military_administration_3
+			picture = GFX_idea_FFR_Definition
 
 			modifier = {
-				war_support_factor = 0.2
-				conscription_factor = 0.2
-				political_power_gain = -0.1
-				planning_speed = -0.25
-				army_org_factor = -0.2
-				taxable_population_modifier = -0.15
-			}
-		}
-
-		FFR_precious_metal = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_precious_metal" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = generic_precious_metals
-
-			modifier = {
-				local_resources_factor = 0.15
-				annual_gdp_growth_factor = 0.05
-				trade_opinion_factor = 0.1
-				misc_income_modifier = 0.02
-			}
-		}
-
-		FFR_spirit_french = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_spirit_french" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_spirit_french
-
-			modifier = {
-				surrender_limit = 0.05
-				stability_factor = 0.15
-				political_power_gain = 0.25
-			}
-		}
-
-		FFR_case_belgian_citizenship = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_case_belgian_citizenship" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_case_belgian_citizenship
-
-			modifier = {
-				stability_factor = -0.05
-				political_power_gain = -0.1
-			}
-		}
-
-		FFR_tomb_republic = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_tomb_republic" }
-			allowed = { always = no }
-			removal_cost = -1
-
-			picture = FFR_tomb_republic
-
-			modifier = {
-				stability_factor = -0.5
-				political_power_gain = -1
-			}
-		}
-
-		FFR_the_reclamation = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FFR_the_reclamation" }
-			allowed = { original_tag = FFR }
-			removal_cost = -1
-
-			picture = FFR_the_reclamation
-		}
-
-		FRD_aiding_the_reclamation = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRD_aiding_the_reclamation" }
-			allowed = { original_tag = FRD }
-			removal_cost = -1
-
-			picture = FFR_the_reclamation
-
-			modifier = {
-				army_morale_factor = 0.2
-				out_of_supply_factor = -0.3
-				war_support_factor = 0.5
 				stability_factor = -0.1
-				army_defence_factor = 0.4
+				drift_defence_factor = -0.5
+				poverty_monthly_rate = 0.1
+				public_meetings_policy_monthly_rate = -1
+				
 			}
 		}
+
+		FFR_Blossoms_and_Rum = {
+			allowed = {
+				original_tag = FFR
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_idea_FFR_Blossoms_and_Rum
+
+			modifier = {
+				annual_gdp_growth_factor = 0.05
+				agriculture_monthly_rate = 0.1
+				industrial_equipment_monthly_rate = 0.5
+			}
+			targeted_modifier = {
+				tag = USA
+				extra_trade_to_target_factor = 0.10
+			}
+		}
+
+		FFR_Memories_of_a_Grey_Era = {
+			allowed = {
+				original_tag = FFR
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_idea_FFR_Memories_of_a_Grey_Era
+
+			modifier = {
+				political_power_gain = -0.03
+				stability_weekly = -0.05
+				admin_efficiency_monthly_rate = -1
+				custom_modifier_tooltip = TNO_improve_trade_unions_policy_effectiveness_high_tt
+				
+			}
+		}
+
+		
 	}
 }

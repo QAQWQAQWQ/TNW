@@ -42,8 +42,8 @@ defined_text = {
 	}
 
 	text = {
-		trigger = { has_idea = Stahlpakt_Beobachterstaat }
-		localization_key = "GFX_Stahlpakt_Beobachterstaat"
+		trigger = { has_idea = Stahlpakt_observer }
+		localization_key = "GFX_Stahlpakt_observer"
 	}
 
 
@@ -503,10 +503,10 @@ defined_text = {
 		localization_key = "Stahlpakt_Reichskommissariat"
 	}
 
-    ##Beobachterstaat
+    ##Stahlpakt_observer
 	text = {
-		trigger = { has_idea = Stahlpakt_Beobachterstaat }
-		localization_key = "Stahlpakt_Beobachterstaat"
+		trigger = { has_idea = Stahlpakt_observer }
+		localization_key = "Stahlpakt_observer"
 	}
 
 	text = {
@@ -1060,8 +1060,8 @@ defined_text = {
 	}
     ##Beobachterstaat
 	text = {
-		trigger = { has_idea = Stahlpakt_Beobachterstaat }
-		localization_key = "Stahlpakt_Beobachterstaat_desc"
+		trigger = { has_idea = Stahlpakt_observer }
+		localization_key = "Stahlpakt_observer_desc"
 	}
 
 	text = {

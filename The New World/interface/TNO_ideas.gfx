@@ -1508,33 +1508,20 @@ SpriteTypes = {
 	## Free France ##
 
 	SpriteType = {
-		name = "GFX_idea_FFR_case_belgian_citizenship"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_case_belgian_citizenship.dds"
+		name = "GFX_idea_FFR_Definition"
+		texturefile = "gfx/interface/ideas/national_spirits/OFN/FFR/idea_FFR_Definition.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_FFR_military_administration"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_military_administration.dds"
+		name = "GFX_idea_FFR_Blossoms_and_Rum"
+		texturefile = "gfx/interface/ideas/national_spirits/OFN/FFR/idea_FFR_Blossoms_and_Rum.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_FFR_military_administration_2"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_military_administration_2.dds"
+		name = "GFX_idea_FFR_Memories_of_a_Grey_Era"
+		texturefile = "gfx/interface/ideas/national_spirits/OFN/FFR/idea_FFR_Memories_of_a_Grey_Era.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_FFR_military_administration_3"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_military_administration_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FFR_spirit_french"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_spirit_french.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FFR_the_reclamation"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_the_reclamation.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FFR_tomb_republic"
-		texturefile = "gfx/interface/ideas/national_spirits/Africa/FFR/idea_FFR_tomb_republic.dds"
-	}
+	
 
 	## Fuuta Fulbe ##
 
@@ -4598,6 +4585,37 @@ SpriteTypes = {
 
 
 	## French State ##
+    SpriteType = {
+		name = "GFX_idea_FRS_millennium"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_millennium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRS_Only_the_best_and_the_most_focused"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_Only_the_best_and_the_most_focused.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRS_Party_strife"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_Party_strife.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRS_The_river_is_going_downhill"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_The_river_is_going_downhill.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRS_Unpolished_Gold_and_Jade"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_Unpolished_Gold_and_Jade.png"
+	}
+
+
+
+
+
+
+
 
 	SpriteType = {
 		name = "GFX_idea_FRS_The_homeland_of_the_French_nation"

@@ -78,4 +78,61 @@ SpriteTypes = {
 		name = "GFX_focus_CHI_Silencing_Factional_Discord"
 		texturefile = "gfx/interface/goals/CHI/CHI_Silencing_Factional_Discord.png"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Without_Bole_praise_for_the_wondrous_bone"
+		texturefile = "gfx/interface/goals/CHI/CHI_Without_Bole_praise_for_the_wondrous_bone.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Near_priced_with_a_common_steed"
+		texturefile = "gfx/interface/goals/CHI/CHI_Near_priced_with_a_common_steed.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Grand_Vista"
+		texturefile = "gfx/interface/goals/CHI/CHI_Grand_Vista.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_The_Mighty_River"
+		texturefile = "gfx/interface/goals/CHI/CHI_The_Mighty_River.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Industry_Revitalized"
+		texturefile = "gfx/interface/goals/CHI/CHI_Industry_Revitalized.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Japan_Manchuria"
+		texturefile = "gfx/interface/goals/CHI/CHI_Japan_Manchuria.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Self_Strengthening"
+		texturefile = "gfx/interface/goals/CHI/CHI_Self_Strengthening.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Jiangnan_Silicon_Valley"
+		texturefile = "gfx/interface/goals/CHI/CHI_Jiangnan_Silicon_Valley.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Rice_gleams_with_oil_millet_shines_white"
+		texturefile = "gfx/interface/goals/CHI/CHI_Rice_gleams_with_oil_millet_shines_white.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Public_and_private"
+		texturefile = "gfx/interface/goals/CHI/CHI_Public_and_private.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CHI_Revive_Asia_radiant_light"
+		texturefile = "gfx/interface/goals/CHI/CHI_Revive_Asia_radiant_light.png"
+	}
+
+	
 }

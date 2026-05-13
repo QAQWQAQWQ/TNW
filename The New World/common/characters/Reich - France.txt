@@ -7,7 +7,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_ANDRE_BETTENCOURT_DESC"
 			ideology = paternalism_Institutionalized_authoritarianism_subtype
-			traits = {  }
+			traits = { An_aged_old_man  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
@@ -105,24 +105,24 @@ characters = {
 	
 	
 	## MISC LEADERS ##
-	FRA_Jean_Poperen = {
-		name = FRA_Jean_Poperen
+	FRA_Francois_Durand = {
+		name = FRA_Francois_Durand
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_France_Jean_Poperen.png"
-				small = "GFX_idea_FRA_minister_Jean_Poperen"
+				large = ""
+				small = "GFX_idea_FRA_minister_Franois_Durand"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_JEAN_PEOPEREN_DESC"
-			ideology = progressivism_reformist_socialism_subtype
+			desc = " "
+			ideology = fascism_corporate_statism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = FRA_Jean_Poperen_hog
+			idea_token = FRA_Francois_Durand_hog
 			allowed = { original_tag = FRS }
 			traits = {
 				head_of_government
@@ -133,16 +133,16 @@ characters = {
 		}
 	}
 
-	FRA_Jean_Pierre_Chevenement = {
-		name = FRA_Jean_Pierre_Chevenement
+	FRA_Roland_Dumas = {
+		name = FRA_Roland_Dumas
 		portraits = {
 			civilian = {
-				small = "GFX_idea_FRA_minister_Jean_Pierre_Chevenement"
+				small = "GFX_idea_FRA_minister_Dumas"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_JEAN_PIREER_CHEVENEMENT_DESC"
-			ideology = conservatism_subtype
+			desc = " "
+			ideology = progressivism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -150,7 +150,7 @@ characters = {
 
 		advisor = {
 			slot = foreign_minister
-			idea_token = FRA_Jean_Pierre_Chevenement_for
+			idea_token = FRA_Roland_Dumas_for
 			allowed = { original_tag = FRS }
 			traits = {
 				foreign_minister
@@ -161,16 +161,16 @@ characters = {
 		}
 	}
 
-	FRA_Edouard_Balladur = {
-		name = FRA_Edouard_Balladur
+	FRA_Jean_Louis_Debre = {
+		name = FRA_Jean_Louis_Debre
 		portraits = {
 			civilian = {
-				small = "GFX_idea_FRA_minister_Edouard_Balladur"
+				small = "GFX_idea_FRA_minister_Jean_LouisDebr"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_EDOUARD_BALLADUR_DESC"
-			ideology = liberal_conservatism_moderate_technocracy_subtype
+			desc = " "
+			ideology = liberalism_national_liberal_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -178,7 +178,7 @@ characters = {
 
 		advisor = {
 			slot = economy_minister
-			idea_token = FRA_Edouard_Balladur_eco
+			idea_token = FRA_Jean_Louis_Debre_eco
 			allowed = { original_tag = FRS }
 			traits = {
 				economy_minister
@@ -189,17 +189,17 @@ characters = {
 		}
 	}
 
-	FRA_Alain_Richard = {
-		name = FRA_Alain_Richard
+	FRA_Ernest_Antoine_Seilliere = {
+		name = FRA_Ernest_Antoine_Seilliere 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FRA/Portrait_France_Alain_Richard.png"
-				small = "GFX_idea_FRA_minister_Alain_Richard"
+				large = " "
+				small = "GFX_idea_FRA_minister_Cache"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_ALAIN_RICHARD_DESC"
-			ideology = conservatism_subtype
+			desc = " "
+			ideology = despotism_corporatocracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -207,7 +207,7 @@ characters = {
 
 		advisor = {
 			slot = security_minister
-			idea_token = FRA_Alain_Richard_sec
+			idea_token = FRA_Ernest_Antoine_Seilliere_sec
 			allowed = { original_tag = FRS }
 			traits = {
 				security_minister

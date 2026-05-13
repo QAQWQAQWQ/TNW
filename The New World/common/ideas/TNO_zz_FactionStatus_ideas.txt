@@ -68,8 +68,21 @@ ideas = {
 		}
 		##stahpakt Allies
 		#钢铁同盟友邦
-		Stahlpakt_Beobachterstaat = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_Allies" }
+		Stahlpakt_observer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Stahlpakt_observer" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+
+        
+		#french community
+		#钢铁同盟法语共同体
+		Pakt_French_community = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_French_community" }
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 
@@ -96,16 +109,6 @@ ideas = {
 			}
 		}
 
-		#french community
-		Pakt_French_community = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_French_community" }
-			allowed = { always = no }
-			allowed_civil_war = { always = no }
-
-			modifier = {
-				
-			}
-		}
 
 
 

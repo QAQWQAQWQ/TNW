@@ -28,6 +28,28 @@ spriteTypes = {
 
 	#FRA#
 	spriteType = {
+		name = "GFX_idea_FRA_minister_Franois_Durand"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Franois_Durand.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_minister_Jean_LouisDebr"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Jean_LouisDebr.png"
+	}
+    spriteType = {
+		name = "GFX_idea_FRA_minister_Dumas"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Dumas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_minister_Cache"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Cache.png"
+	}
+
+
+
+
+
+	spriteType = {
 		name = "GFX_idea_FRA_minister_Jean_Poperen"
 		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Jean_Poperen.png"
 	}
