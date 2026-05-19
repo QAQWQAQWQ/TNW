@@ -1,4 +1,9 @@
 spriteTypes = {
+	#TNW ICON#
+	spriteType = {
+		name = "GFX_ideology_despotism_Pan_Asian_Three_People_Principles_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_Pan_Asian_Three_People_Principles_subtype.dds"
+	}
 	# --- Subideologies --- #
 	spriteType = {
 		name = "GFX_ideology_fascism_French_Fascism_subtype"

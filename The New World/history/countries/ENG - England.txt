@@ -1,20 +1,12 @@
 capital = 1300
-set_cosmetic_tag = ENG_joyce
+set_cosmetic_tag = ENG_kingdom
 #GDP Regional distribution
 set_country_flag = GDP_regions
 
-# Vacant
-recruit_character = ENG_Generic_Vacant
-
 set_naval_oob = "ENG_1962_naval"
-
 # Country leaders
-recruit_character = ENG_Andrew_Brons
-recruit_character = ENG_Norman_Tebbit
-recruit_character = ENG_John_Redwood
-recruit_character = ENG_Douglas_Hurd
-recruit_character = ENG_Nigel_Lawson
-recruit_character = ENG_Liam_Fox
+recruit_character = ENG_George_VII
+
 # party leader
 recruit_character = ENG_John_Prescott
 recruit_character = ENG_Peter_Lilley
@@ -71,7 +63,7 @@ recruit_character = ENG_Peter_Mandelson
 	recruit_character = SCO_ENG_Reconstruction
 
 #################################################
-
+set_country_flag = tnw_hog_ui_enabled
 load_focus_tree = ENG_Intro_tree
 
 #these variables are used for wallop's ideas tooltips
@@ -399,12 +391,6 @@ add_ideas = {
 	Stahlpakt_Commonwealth
 
 	### NATIONAL SPIRITS ###
-	ENG_dictum_of_the_protector
-	ENG_the_crownless_realm
-	ENG_orderly_dissent
-	ENG_the_weight_of_duty
-	ENG_planned_prosperity
-
 	### MINISTERS ###
 	ENG_John_Redwood_hog
 	ENG_Douglas_Hurd_for
@@ -496,20 +482,14 @@ set_variable = { TNO_economy_subtype = token:Econ_Subtype_Corporate_Oligopoly }
 set_variable = { economic_centralization = 75 }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = liberal_conservatism
 	last_election = "1961.11.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	paternalism = 45
-	paternalism_1 = 14
-	paternalism_2 = 11
-	fascism_1 = 12
-	conservatism_1 = 4
-	conservatism = 6
-	fascism = 8
+	liberal_conservatism = 100
 }
 
 set_variable = { communist_1_var = token:ENG_communist_1 }

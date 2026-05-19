@@ -1,47 +1,13 @@
 capital = 945
-
+set_cosmetic_tag = MAD_tafama
 # Vacant
-recruit_character = MAD_Generic_Vacant
-recruit_character = MAD_Pierre_Boisson
-recruit_character = MAD_Governing_Council
-recruit_character = MAD_Gilles_Andriamahazo
-recruit_character = MAD_Norbert_Zafimahova
-recruit_character = MAD_Philibert_Tsiranana
-recruit_character = MAD_Gisele_Rabesahala
-recruit_character = MAD_Monja_Jaona
-recruit_character = MAD_Jacques_Rabemananjara
-recruit_character = MAD_Gabriel_Ramanantsoa
-recruit_character = MAD_Central_Committee
-recruit_character = MAD_Charles_Ravoajanahary
 recruit_character = MAD_Didier_Ratsiraka
-recruit_character = MAD_Richard_Ratsimandrava
-recruit_character = MAD_Joseph_Raseta
+recruit_character = MAD_Albert_Zafy
+recruit_character = MAD_qlws
 
-recruit_character = MDG_Emil_Maurice
-recruit_character = MDG_Willi_Stoph
-recruit_character = MDG_Horst_von_Oppenfeld
-recruit_character = MDG_Alexander_Lohr
-recruit_character = MDG_Hans_Joachim_Marseille
-recruit_character = MDG_Erhard_Milch
-recruit_character = MDG_Werner_Goldberg
-recruit_character = MDG_Paul_Ludwig_Hirschfeld
-recruit_character = MDG_Walter_Hollaender
-recruit_character = MDG_Felix_Zymalkowski
-recruit_character = MDG_Jurgen_Wattenberg
 
-recruit_character = MDG_Generalburo_Madagassische
 
-MDG_Emil_Maurice = { set_character_flag = MDG_character }
-MDG_Willi_Stoph = { set_character_flag = MDG_character }
-MDG_Horst_von_Oppenfeld = { set_character_flag = MDG_character }
-MDG_Alexander_Lohr = { set_character_flag = MDG_character }
-MDG_Hans_Joachim_Marseille = { set_character_flag = MDG_character }
-MDG_Erhard_Milch = { set_character_flag = MDG_character }
-MDG_Werner_Goldberg = { set_character_flag = MDG_character }
-MDG_Paul_Ludwig_Hirschfeld = { set_character_flag = MDG_character }
-MDG_Walter_Hollaender = { set_character_flag = MDG_character }
-MDG_Felix_Zymalkowski = { set_character_flag = MDG_character }
-MDG_Jurgen_Wattenberg = { set_character_flag = MDG_character }
+
 
 fill_empty_minister_nochecks = yes
 
@@ -50,13 +16,10 @@ set_naval_oob = "MAD_1962_naval"
 add_manpower = 75000
 
 add_ideas = {
-	Pakt_Mitstreiter
+	Sphere_Coequal
 	
 	#SPIRITS
-	MAD_last_french_colony
-	MAD_military_commission_for_madagascar
-	MAD_disloyal_gendarmerie
-	MAD_secret_societies
+	Prosperous_all_over_the_world
 	
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
@@ -443,8 +406,10 @@ set_politics = {
 }
 
 set_popularities = {
-	despotism = 79
-	fascism = 21
+	despotism = 63
+	liberal_conservatism = 23
+	conservatism = 14
+	
 }
 
 #econtype

@@ -11,6 +11,7 @@ COG_GER = {
 	color_ui = rgb { 118 124 94 }
 }
 
+
 GER_COG_int = {
 	color = rgb { 118 124 94 }
 	color_ui = rgb { 118 124 94 }
@@ -39,6 +40,11 @@ SBA_REVOLT = {
 KRS_REVOLT = {
 	color = rgb { 100 20 20 }
 	color_ui = rgb { 100 0 0 }
+}
+
+KEN_Oneko = {
+	color = rgb { 117 77 59 }
+	color_ui = rgb { 117 77 59 }
 }
 
 ZLT_SERENE_REPUBLIC = {
@@ -1347,6 +1353,11 @@ CAU_BOR = {
 SCO_military_administration = {
 	color = rgb { 119 33 33 }
 	color_ui = rgb { 119 33 33 }
+}
+
+ENG_kingdom = {
+	color = rgb { 125 32 32 }
+	color_ui = rgb { 125 32 32 }
 }
 
 ENG_commonwealth_britain = {

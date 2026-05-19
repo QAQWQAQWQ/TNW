@@ -1,0 +1,20 @@
+scripted_gui = {
+
+	TNW_head_of_gov_icon = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNW_head_of_gov_tt_container"
+		
+		visible = {
+			has_country_flag = tnw_hog_ui_enabled
+			
+		}
+		effects ={
+
+			TNW_head_of_gov_icon_click = {
+				
+			}
+		}
+	}
+}
+

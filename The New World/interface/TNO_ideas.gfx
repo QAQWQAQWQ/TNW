@@ -1805,6 +1805,11 @@ SpriteTypes = {
 
 	###TNW###
 
+	SpriteType = {
+		name = "GFX_idea_Prosperous_all_over_the_world"
+		texturefile = "gfx/interface/ideas/national_spirits/Africa/AFR/idea_Prosperous_all_over_the_world.png"
+	}
+
 	## Afghanistan ##
 
 	SpriteType = {

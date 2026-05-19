@@ -470,10 +470,17 @@ defined_text = {
 
 defined_text = {
 	name = GetSubIdeologyLocDespotism
+	#tnw#
+	text = {
+		trigger = { has_country_leader_ideology = despotism_Pan_Asian_Three_People_Principles_subtype }
+		localization_key = despotism_Pan_Asian_Three_People_Principles_subtype
+	}
+
 	text = {
 		trigger = { has_country_leader_ideology = despotism_baathism_subtype }
 		localization_key = despotism_baathism_subtype
 	}
+	
 	text = {
 		trigger = { has_country_leader_ideology = despotism_colonial_government_subtype }
 		localization_key = despotism_colonial_government_subtype

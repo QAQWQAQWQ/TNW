@@ -2,107 +2,21 @@ characters = {
 	######################################## LEADERS AND MINISTERS ##########################################################
 
 	####Collab####
-	ENG_Norman_Tebbit = {
-		name = ENG_Norman_Tebbit 
+	ENG_George_VII = {
+		name = ENG_George_VII
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/Portrait_Britain_Norman_Tebbit.png"
+				large = "gfx/leaders/ENG/Portrait_Britain_George_VII.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_NORMAN_TEBBIT_DESC"
+			desc = "POLITICS_GEORGE_VII_DESC"
 			expire = "1994.4.20"
-			ideology = paternalism_National_Republicanism_subtype
+			ideology = liberal_conservatism_moderate_technocracy_subtype
 		}
 	}
 
-	ENG_John_Prescott = {#民族劳工党
-		name = ENG_John_Prescott
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_JOHN_PRESCOTT_DESC"
-			expire = "1994.4.20"
-			ideology = paternalism_1_subtype
-		}
-	}
-
-	ENG_Peter_Lilley = {#国家保守党
-		name = ENG_Peter_Lilley
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_PETER_LILLEY_DESC"
-			expire = "1994.4.20"
-			ideology = conservatism_populist_conservatism_subtype
-		}
-		
-	}
-
-	ENG_Malcolm_Rifkind = {#地方联合协会
-		name = ENG_Malcolm_Rifkind 
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_MALCOLM_RIFKIND_DESC"
-			expire = "1994.4.20"
-			ideology = conservatism_1_subtype
-		}
-	}
-
-	ENG_Iain_Duncan_Smith = {#革新党
-		name = ENG_Iain_Duncan_Smith
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_IAIN_DUNCAN_SMITH_DESC"
-			expire = "1994.4.20"
-			ideology = fascism_1_subtype
-		}
-		
-	}
-
-	ENG_Frank_Field = {#不列颠社会党
-		name = ENG_Frank_Field
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_FRANK_FIELD_DESC"
-			expire = "1994.4.20"
-			ideology = fascism_corporate_statism_subtype
-		}
-		
-	}
-
-	ENG_Peter_Mandelson = {#企业与金融交流协会
-		name = ENG_Peter_Mandelson
-		portraits = {
-			civilian = {
-				large = " "
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_FRANK_FIELD_DESC"
-			expire = "1994.4.20"
-			ideology = paternalism_2_subtype 
-		}
-		
-	}
+	
 
 	
 

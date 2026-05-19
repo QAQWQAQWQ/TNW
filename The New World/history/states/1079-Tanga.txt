@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = FMF
+		owner = TNZ
 		add_core_of = FMF
 		buildings = {
 			infrastructure = 1

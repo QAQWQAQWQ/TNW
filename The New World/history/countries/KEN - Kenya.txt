@@ -1,13 +1,15 @@
 capital = 1092
 
 # Vacant
-recruit_character = KEN_Generic_Vacant
-fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-recruit_character = KEN_Tom_Mboya
-
+recruit_character = KEN_Achieng_Oneko
+set_cosmetic_tag = KEN_Oneko
 oob = "BFR_1962"
 
 add_ideas = {
+	Sphere_Coequal
+	#national_spirits
+	Prosperous_all_over_the_world
+
 	#political#
 	tno_political_parties_multiparty_system
 	tno_religious_rights_pluralism
@@ -58,7 +60,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = despotism
 	last_election = "1931.1.1"
 	election_frequency = 96
 	elections_allowed = no
@@ -69,12 +71,12 @@ set_popularities = {
 	ultranationalism = 0
 	socialist = 0
 	progressivism = 0
-	liberalism = 67
+	liberalism = 0
 
-	conservatism = 8
-	paternalism = 23
-	despotism = 0
-	fascism = 2
+	conservatism = 0
+	paternalism = 0
+	despotism = 100
+	fascism = 0
 	
 }
 

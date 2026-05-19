@@ -1,17 +1,17 @@
 characters = {
 	## Kenya ##
 	# Country Leaders #
-	KEN_Tom_Mboya = {
-		name = KEN_Tom_Mboya
+	KEN_Achieng_Oneko = {
+		name = KEN_Achieng_Oneko
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KEN/Portrait_Kenya_Tom_Mboya.png"
+				large = "gfx/leaders/KEN/Portrai_Kenya_Achieng_Oneko.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_OJUKWU_DESC"
+			desc = "POLITICS_ACHIENG_ONEKO_DESC"
 			expire = "1985.1.1"
-			ideology = liberalism_subtype
+			ideology = despotism_Pan_Asian_Three_People_Principles_subtype
 			traits = {
 
 			}

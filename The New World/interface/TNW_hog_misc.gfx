@@ -1,0 +1,9 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_government_head_icon"
+		textureFile = "gfx/interface/hoggui/government_head_icon.png"
+	}
+
+
+}

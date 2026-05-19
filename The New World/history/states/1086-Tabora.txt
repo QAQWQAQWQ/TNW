@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TND
+		owner = TNZ
 		add_core_of = TND
 
 		buildings = {

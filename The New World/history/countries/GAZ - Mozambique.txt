@@ -1,17 +1,13 @@
 capital = 880
 
 # Vacant
-recruit_character = GAZ_Generic_Vacant
-
-recruit_character = GAZ_Eduardo_Mondlane
-recruit_character = GAZ_Joaquim_Chissano
-recruit_character = GAZ_Alberto_Massavanhane
-recruit_character = GAZ_Marcelino_dos_Santos
-recruit_character = GAZ_Samora_Machel
+recruit_character = GAZ_Afonso_Dhlakama
 
 oob = "BFR_1962"
 
 add_ideas = {
+	Sphere_Coequal
+    Prosperous_all_over_the_world
 ### POLITICAL LAWS ###
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion
@@ -66,21 +62,21 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 20
-	socialist = 75
-	progressivism = 5
+	communist = 0
+	socialist = 0
+	progressivism = 0
 	liberalism = 0
 	liberal_conservatism = 0
 	conservatism = 0
 	paternalism = 0
-	despotism = 0
+	despotism = 100
 	fascism = 0
 	national_socialism = 0
 	ultranationalism = 0
