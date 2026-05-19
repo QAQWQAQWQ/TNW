@@ -1,2 +1,6 @@
 ﻿l_simp_chinese:
- TNW_gov_ui_tt:0 "点击此处切换"
+ TNW_gov_ui_tt:0 "[TNWgovuitt]"
+ TNW_ENG_gov_ui_tt:0 "点击此处切换§Y国王§!与§Y首相§!"
+ vice_leader_name:0 "§Y[TNWgetviceleadername]§!"
+ vice_leader_desc:0 "§L[TNWviceleaderdesc]§!"
+ 

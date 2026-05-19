@@ -396,6 +396,7 @@ add_ideas = {
 	ENG_Douglas_Hurd_for
 	ENG_Nigel_Lawson_eco
 	ENG_Liam_Fox_sec
+	ENG_Norman_Tebbit
 
 	### POLITICAL ###
 	tno_political_parties_one_party_state

@@ -10,11 +10,32 @@ scripted_gui = {
 			
 		}
 		effects ={
-
 			TNW_head_of_gov_icon_click = {
-				
+				if = {
+					limit = { has_country_flag = vice_leader_open }
+					clr_country_flag = vice_leader_open 
+				}
+				else = {
+					set_country_flag = vice_leader_open
+				}				
 			}
 		}
+		properties = {	
+			vice_leader = {
+				image = [TNWviceleaderportrait]
+			}
+		}		
+		triggers = {
+			vice_leader_visible = {
+				has_country_flag = vice_leader_open
+			}
+			vice_leader_frame2_visible = {
+				has_country_flag = vice_leader_open
+			}
+			vice_leader_name_visible = {
+				has_country_flag = vice_leader_open
+			}			
+		}		
 	}
 }
 
