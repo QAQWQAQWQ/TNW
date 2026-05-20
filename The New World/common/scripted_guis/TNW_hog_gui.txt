@@ -12,6 +12,7 @@ scripted_gui = {
 		effects ={
 
 			TNW_head_of_gov_icon_click = {
+				load_focus_tree = china_modernization
 				
 			}
 		}
