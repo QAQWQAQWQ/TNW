@@ -1,5 +1,13 @@
+
 defined_text = {
 	name = TNWviceleaderportrait
+	text = {
+		trigger = { 		    
+			original_tag = ENG
+			has_idea = ENG_Kenneth_Clarke
+		}
+		localization_key = GFX_portrait_Kenneth_Clarke
+	}
 	text = {
 		trigger = { 		    
 			original_tag = CHI
@@ -9,20 +17,34 @@ defined_text = {
 	}			
 }
 
-
 defined_text = {
 	name = TNWgetviceleadername
+	text = {
+		trigger = { 		    
+			original_tag = ENG
+			has_idea = ENG_Kenneth_Clarke
+		}
+		localization_key = ENG_Kenneth_Clarke
+	}
+	
 	text = {
 		trigger = { 		    
 			original_tag = CHI
 			has_idea = CHI_chu_youyi
 		}
 		localization_key = CHI_chu_youyi
-	}			
+	}		
 }
 
 defined_text = {
 	name = TNWviceleaderdesc
+	text = {
+		trigger = { 		    
+			original_tag = ENG
+			has_idea = ENG_Kenneth_Clarke
+		}
+		localization_key = POLITICS_KENNETH_CLARKE_DESC
+	}
 	text = {
 		trigger = { 		    
 			original_tag = CHI
@@ -36,51 +58,14 @@ defined_text = {
 	name = TNWgovuitt
 	text = {
 		trigger = { 		    
-			original_tag = CHI
-		}
-		localization_key = TNW_CHI_gov_ui_tt
-	}			
-}
-
-defined_text = {
-	name = TNWviceleaderportrait
-	text = {
-		trigger = { 		    
-			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
-		}
-		localization_key = GFX_portrait_Kenneth_Clarke
-	}			
-}
-
-defined_text = {
-	name = TNWgetviceleadername
-	text = {
-		trigger = { 		    
-			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
-		}
-		localization_key = ENG_Kenneth_Clarke
-	}			
-}
-
-defined_text = {
-	name = TNWviceleaderdesc
-	text = {
-		trigger = { 		    
-			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
-		}
-		localization_key = POLITICS_KENNETH_CLARKE_DESC
-	}			
-}
-
-defined_text = {
-	name = TNWgovuitt
-	text = {
-		trigger = { 		    
 			original_tag = ENG
 		}
 		localization_key = TNW_ENG_gov_ui_tt
+	}	
+	text = {
+		trigger = { 		    
+			original_tag = CHI
+		}
+		localization_key = TNW_CHI_gov_ui_tt
 	}			
 }
