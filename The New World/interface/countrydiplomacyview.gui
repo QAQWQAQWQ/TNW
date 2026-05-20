@@ -1,18 +1,40 @@
 guiTypes = {
 	containerWindowType = {
 		name = "TNW_head_of_gov_tt_container"
-		position = { x = 145 y = 250 }
-		size = { width = 80 height = 80 }
+		position = { x = -1 y = -1 }
+		size = { width = 200 height = 303 }
 		margin = { top = 1 left = 1 right = 1 bottom = 1 }
 		clipping = yes
-		scale = 0.9
+		iconType = {
+			name = "vice_leader"
+			position = { x = 9 y = 55 }
+			spriteType = "GFX_leader_unknown"
+			pdx_tooltip = "vice_leader_name"
+			pdx_tooltip_delayed = "vice_leader_desc"		
+		}
+		iconType = {
+			name = "vice_leader_frame2"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 1 y = 45 }
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "vice_leader_name"
+			position = { x = 10 y = 273 }
+			font = "Bomb_18"
+			text = [TNWgetviceleadername]
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
 		buttonType = {
 			name = "TNW_head_of_gov_icon"
-			position = { x = 0 y = 0 }
+			position = { x = 145 y = 250 }
 			quadTextureSprite = "GFX_government_head_icon"
 			clicksound = click_close
 			pdx_tooltip  = "TNW_gov_ui_tt"
-		}
+		}		
 	}
 	extendedScrollbarType = {
 		name = "nat_spirit_bottom_slider_diplo"

@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_Norman_Tebbit"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Norman_Tebbit.png"
+	}
+
+}
