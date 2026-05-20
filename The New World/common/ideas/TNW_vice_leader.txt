@@ -1,5 +1,6 @@
 ideas = {
 	hidden_ideas = {
-		ENG_Norman_Tebbit = {}
+		ENG_Kenneth_Clarke = {}
+		CHI_chu_youyi = {}
 	}
 }

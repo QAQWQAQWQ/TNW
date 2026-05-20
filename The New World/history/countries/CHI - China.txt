@@ -348,7 +348,7 @@ set_variable = { CHI_industry_output = -0.40 }
 set_variable = { CHI_industry_cg_produce = -0.10 }
 set_variable = { CHI_industry_effcap = -0.35 }
 set_variable = { CHI_industry_const = -0.25 }
-
+set_country_flag = tnw_hog_ui_enabled
 set_politics = {
 	ruling_party = despotism
 	last_election = "1960.11.11"
@@ -430,6 +430,7 @@ add_ideas = {
 	tno_military_supervision_no_supervision
 	tno_training_basic_training
 	tno_draft_exemptions_none
+	CHI_chu_youyi
 
 	#Economic
 	tno_trade_laws_export_focus
