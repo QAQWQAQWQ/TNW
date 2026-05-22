@@ -815,7 +815,7 @@ bitmapfonts = {
 			"gfx/fonts/Arial_18_1"
 			"gfx/fonts/aldrich_22_outline"
 		}
-		color = 0xffb2c9c2
+		color = 0xFFFFFFFF
 		textcolors = {
 			### Default Colors ###
 			F = { 178 201 194 } # New default
