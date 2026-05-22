@@ -1,0 +1,11 @@
+focus_tree ={
+    id = Aomen_shard_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AOM
+		}
+	}
+    default = no
+}

@@ -8,12 +8,10 @@ set_naval_oob = "ENG_1962_naval"
 recruit_character = ENG_George_VII
 
 # party leader
-recruit_character = ENG_John_Prescott
-recruit_character = ENG_Peter_Lilley
+recruit_character = ENG_Lee_Anderson
+recruit_character = ENG_John_Major
+recruit_character = ENG_Catherine_Blaiklock
 recruit_character = ENG_Malcolm_Rifkind
-recruit_character = ENG_Iain_Duncan_Smith
-recruit_character = ENG_Frank_Field
-recruit_character = ENG_Peter_Mandelson
 
 
 # These Guys Don't Exist?
@@ -392,11 +390,11 @@ add_ideas = {
 
 	### NATIONAL SPIRITS ###
 	### MINISTERS ###
-	ENG_John_Redwood_hog
-	ENG_Douglas_Hurd_for
-	ENG_Nigel_Lawson_eco
-	ENG_Liam_Fox_sec
 	ENG_Kenneth_Clarke
+	ENG_Lee_Anderson_hog
+	ENG_John_Major_for
+	ENG_Catherine_Blaiklock_eco
+	ENG_Malcolm_Rifkind_sec
 
 	### POLITICAL ###
 	tno_political_parties_one_party_state

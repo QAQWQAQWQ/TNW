@@ -23,23 +23,23 @@ characters = {
 
 
     #minister#
-	ENG_John_Redwood = {
-		name = ENG_John_Redwood
+	ENG_Lee_Anderson = {
+		name = ENG_Lee_Anderson
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ENG_minister_John_Redwood"
+				small = "GFX_idea_ENG_minister_Lee_Anderson"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_JOHN_REDWOOD_DESC"
-			ideology = paternalism_National_Republicanism_subtype
+			desc = "POLITICS_LEE_ANDERSON_DESC"
+			ideology = paternalism_right_wing_populism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = ENG_John_Redwood_hog
+			idea_token = ENG_Lee_Anderson_hog
 			allowed = { original_tag = ENG }
 			traits = {
 				head_of_government
@@ -52,15 +52,15 @@ characters = {
 
 	
 	
-	ENG_Douglas_Hurd = {
-		name = ENG_Douglas_Hurd
+	ENG_John_Major = {
+		name = ENG_John_Major
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ENG_minister_Douglas_Hurd"
+				small = "GFX_idea_ENG_minister_John_Major"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_DOUGLAS_HURD_DESC"
+			desc = "POLITICS_JOHN_MAJOR_DESC"
 			ideology = paternalism_National_Republicanism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
@@ -69,7 +69,7 @@ characters = {
 
 		advisor = {
 			slot = foreign_minister
-			idea_token = ENG_Douglas_Hurd_for
+			idea_token = ENG_John_Major_for
 			allowed = { original_tag = ENG }
 			traits = {
 				foreign_minister
@@ -80,16 +80,16 @@ characters = {
 		}
 	}
 
-	ENG_Nigel_Lawson = {
-		name = ENG_Nigel_Lawson
+	ENG_Catherine_Blaiklock = {
+		name = ENG_Catherine_Blaiklock
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ENG_minister_Nigel_Lawson"
+				small = "GFX_idea_ENG_minister_Catherine_Blaiklock"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_NIGEL_LAWSON_DESC"
-			ideology = paternalism_corporate_paternalism_subtype
+			desc = "POLITICS_CATHERINE_BLAIKLOCK_DESC"
+			ideology = paternalism_national_conservatism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -97,7 +97,7 @@ characters = {
 
 		advisor = {
 			slot = economy_minister
-			idea_token = ENG_Nigel_Lawson_eco
+			idea_token = ENG_Catherine_Blaiklock_eco
 			allowed = { original_tag = ENG }
 			traits = {
 				economy_minister
@@ -108,16 +108,16 @@ characters = {
 		}
 	}
 
-	ENG_Liam_Fox = {
-		name = ENG_Liam_Fox
+	ENG_Malcolm_Rifkind = {
+		name = ENG_Malcolm_Rifkind
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ENG_minister_Liam_Fox"
+				small = "GFX_idea_ENG_minister_Malcolm_Rifkind"
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_LIAM_FOX_DESC"
-			ideology = paternalism_anocracy_subtype
+			ideology = conservatism_free_market_conservatism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -125,7 +125,7 @@ characters = {
 
 		advisor = {
 			slot = security_minister
-			idea_token = ENG_Liam_Fox_sec
+			idea_token = ENG_Malcolm_Rifkind_sec
 			allowed = { original_tag = ENG }
 			traits = {
 				security_minister

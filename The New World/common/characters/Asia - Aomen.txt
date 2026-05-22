@@ -1,0 +1,16 @@
+characters = {
+
+    AOM_Zhang_yu = {
+		name = AOM_Zhang_yu
+		portraits = {
+			civilian = { large = "gfx/leaders/AOM/Portrait_Aomen_Zhang_yu.png" }
+		}
+		country_leader = {
+			#desc = "POLITICS_ZHANG_YU_DESC"
+			expire = "2020.1.1"
+			ideology = paternalism_anocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+}

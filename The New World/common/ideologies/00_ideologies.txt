@@ -162,6 +162,7 @@ ideologies = {
 		types = {
 			despotism_subtype = {}
 
+            despotism_Three_People_Principles_subtype = { can_be_randomly_selected = no }
 			despotism_Pan_Asian_Three_People_Principles_subtype = { can_be_randomly_selected = no }
 			despotism_National_revolutionary_thought_subtype = { can_be_randomly_selected = no }
 			despotism_absolute_monarchy_subtype = { can_be_randomly_selected = no }

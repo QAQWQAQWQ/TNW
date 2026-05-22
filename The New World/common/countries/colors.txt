@@ -602,6 +602,14 @@ CHI = {
 	color = rgb {120 81 152}
 	color_ui = rgb {120 81 152 }
 }
+AOM = {
+	color = rgb {120 81 152}
+	color_ui = rgb {120 81 152 }
+}
+HKC = {
+	color = rgb {120 81 152}
+	color_ui = rgb {120 81 152 }
+}
 MAN = {
 	color = rgb { 168 0 67 }
 	color_ui = rgb { 168 0 67 }

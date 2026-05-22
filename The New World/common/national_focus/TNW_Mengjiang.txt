@@ -1,0 +1,11 @@
+focus_tree ={
+    id = MengJiang_shard_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEN
+		}
+	}
+    default = no
+}

@@ -475,6 +475,10 @@ defined_text = {
 		trigger = { has_country_leader_ideology = despotism_Pan_Asian_Three_People_Principles_subtype }
 		localization_key = despotism_Pan_Asian_Three_People_Principles_subtype
 	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_Three_People_Principles_subtype }
+		localization_key = despotism_Three_People_Principles_subtype
+	}
 
 	text = {
 		trigger = { has_country_leader_ideology = despotism_baathism_subtype }

@@ -216,6 +216,8 @@ XIN = "countries/China.txt"						# Xinjiang
 ETR = "countries/China.txt"						# East Turkestan
 UYG = "countries/China.txt"						# Uyghuristan
 TIB = "countries/China.txt"						# Tibet
+AOM = "countries/China.txt"						# aomen
+HKC = "countries/China.txt"						# Hongkong
 
 GNG = "countries/Japan - Overseas.txt"			# Guangdong
 GAN = "countries/Japan - Overseas.txt"			# Seihoku Homengun

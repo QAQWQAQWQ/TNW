@@ -4620,6 +4620,25 @@ spriteTypes = {
 	}
 
 	### England ###
+
+	#NEW#
+	spriteType = {
+		name = "GFX_idea_ENG_minister_Lee_Anderson"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Lee_Anderson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_minister_John_Major"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_John_Major.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_minister_Catherine_Blaiklock"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Catherine_Blaiklock.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_minister_Malcolm_Rifkind"
+		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_Malcolm_Rifkind.png"
+	}
+	#
 	spriteType = {
 		name = "GFX_idea_ENG_minister_John_Redwood"
 		texturefile = "gfx/interface/ideas/ministers/ENG/ENG_minister_John_Redwood.png"

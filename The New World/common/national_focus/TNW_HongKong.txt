@@ -1,0 +1,11 @@
+focus_tree ={
+    id = HongKong_shard_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HKC
+		}
+	}
+    default = no
+}

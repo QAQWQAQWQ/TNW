@@ -380,7 +380,7 @@ bookmarks = {
 		## RUSSIA ##
 
 		## CPS ##
-		"GNG" = {
+		"HKC" = {
 			minor = yes
 			history = "GNG_THENEWORDER_DESC"
 			ideology = fascism
@@ -394,7 +394,7 @@ bookmarks = {
 
 		"ZZZ" = { minor = yes history = "" }
 
-		"YUN" = {
+		"AOM" = {
 			minor = yes
 			history = "YUN_THENEWORDER_DESC"
 			ideology = despotism
@@ -766,7 +766,7 @@ bookmarks = {
 		## CPS ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"AAJ" = {
+		"MEN" = {
 			minor = yes
 			history = "AAJ_THENEWORDER_DESC"
 			ideology = despotism
