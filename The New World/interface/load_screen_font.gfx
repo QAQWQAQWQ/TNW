@@ -6,6 +6,8 @@ bitmapfonts = {
 		
 		fontfiles = {
 			"gfx/fonts/aldrich_30_outline"
+			"gfx/fonts/Arial_24_0"
+			"gfx/fonts/Arial_24_1"
 		}
 		
 		color = 0xffffffff
@@ -25,6 +27,8 @@ bitmapfonts = {
 		#path = "gfx/fonts/hoi_24header"
 		
 		fontfiles = {
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
 			"gfx/fonts/aldrich_22_outline"
 		}
 		

@@ -89,8 +89,9 @@ bitmapfonts = {
 		name = "aldrich_36_outline"
 		fontfiles = {
 			"gfx/fonts/aldrich_36_outline"
-			"gfx/fonts/fzrzhm_28_outline_0"
-			"gfx/fonts/fzrzhm_28_outline_1"
+			"gfx/fonts/Arial_28_0"	
+			"gfx/fonts/Arial_28_1"	
+			"gfx/fonts/Arial_28_2"	
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -173,9 +174,10 @@ bitmapfonts = {
 		name = "aldrich_48_outline"
 		fontfiles = {
 			"gfx/fonts/aldrich_48_outline"
-			"gfx/fonts/fzrzhm_34_outline_0"
-			"gfx/fonts/fzrzhm_34_outline_1"
-			"gfx/fonts/fzrzhm_34_outline_2"
+			"gfx/fonts/Arial_34_0"	
+			"gfx/fonts/Arial_34_1"	
+			"gfx/fonts/Arial_34_2"	
+			"gfx/fonts/Arial_34_4"	
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -258,8 +260,9 @@ bitmapfonts = {
 		name = "aldrich_32_outline"
 		fontfiles = {
 			"gfx/fonts/aldrich_32_outline"
-			"gfx/fonts/fzrzhdb_28_outline_0"
-			"gfx/fonts/fzrzhdb_28_outline_1"
+			"gfx/fonts/Arial_28_0"	
+			"gfx/fonts/Arial_28_1"	
+			"gfx/fonts/Arial_28_2"	
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -341,8 +344,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_30_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_24_outline_0"
-			"gfx/fonts/fzrzhdb_24_outline_1"
+			"gfx/fonts/Arial_24_0"
+			"gfx/fonts/Arial_24_1"
 			"gfx/fonts/aldrich_30_outline"
 		}
 		color = 0xffb2c9c2
@@ -425,8 +428,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_28_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_22_outline_0"
-			"gfx/fonts/fzrzhdb_22_outline_1"
+			"gfx/fonts/Arial_22_0"
+			"gfx/fonts/Arial_22_1"
 			"gfx/fonts/aldrich_28_outline"
 		}
 		color = 0xffb2c9c2
@@ -509,8 +512,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_24_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_20_outline_0"
-			"gfx/fonts/fzrzhdb_20_outline_1"
+			"gfx/fonts/Arial_20_0"
+			"gfx/fonts/Arial_20_1"
 			"gfx/fonts/aldrich_24_outline"
 		}
 		color = 0xffb2c9c2
@@ -593,8 +596,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_24_outline_closing"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_20_outline_0"
-			"gfx/fonts/fzrzhdb_20_outline_1"
+			"gfx/fonts/Arial_20_0"
+			"gfx/fonts/Arial_20_1"
 			"gfx/fonts/aldrich_24_outline"
 		}
 		color = 0xffb2c9c2
@@ -640,7 +643,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_22_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_18_outline"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
 			"gfx/fonts/aldrich_22_outline"
 		}
 		color = 0xffb2c9c2
@@ -723,8 +727,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_20_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhdb_16_outline"
-			"gfx/fonts/aldrich_20_outline"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
+			"gfx/fonts/aldrich_22_outline"
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -806,8 +811,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_18_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhm_16_outline"
-			"gfx/fonts/aldrich_18_outline"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
+			"gfx/fonts/aldrich_22_outline"
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -889,8 +895,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_16_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhm_14_outline"
-			"gfx/fonts/aldrich_16_outline"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
+			"gfx/fonts/aldrich_22_outline"
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -972,8 +979,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_14_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhm_10_outline"
-			"gfx/fonts/aldrich_14_outline"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
+			"gfx/fonts/aldrich_22_outline"
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -1055,7 +1063,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_12_outline"
 		fontfiles = {
-			"gfx/fonts/fzrzhm_9_outline"
+			"gfx/fonts/Arial_9"
 			"gfx/fonts/aldrich_12_outline"
 		}
 		color = 0xffb2c9c2
@@ -1139,7 +1147,8 @@ bitmapfonts = {
 		name = "Bomb_16"
 		fontfiles = {
 			"gfx/fonts/Bomb_16"
-			"gfx/fonts/fzwhjz_16"
+			"gfx/fonts/Arial_16_0"
+			"gfx/fonts/Arial_16_1"
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1159,7 +1168,8 @@ bitmapfonts = {
 		name = "Bomb_18"
 		fontfiles = {
 			"gfx/fonts/Bomb_18"
-			"gfx/fonts/fzwhjz_18"
+			"gfx/fonts/Arial_18_0"
+			"gfx/fonts/Arial_18_1"
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1179,7 +1189,8 @@ bitmapfonts = {
 		name = "Bomb_20"
 		fontfiles = {
 			"gfx/fonts/Bomb_20"
-			"gfx/fonts/fzwhjz_20"
+			"gfx/fonts/Arial_20_0"
+			"gfx/fonts/Arial_20_1"
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1199,7 +1210,8 @@ bitmapfonts = {
 		name = "Bomb_24"
 		fontfiles = {
 			"gfx/fonts/Bomb_24"
-			"gfx/fonts/fzwhjz_22"
+			"gfx/fonts/Arial_22_0"
+			"gfx/fonts/Arial_22_1"
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1219,7 +1231,9 @@ bitmapfonts = {
 		name = "Bomb_28"
 		fontfiles = {
 			"gfx/fonts/Bomb_28"
-			"gfx/fonts/fzwhjz_26"
+			"gfx/fonts/Arial_26_0"	
+			"gfx/fonts/Arial_26_1"	
+			"gfx/fonts/Arial_26_2"	
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1239,7 +1253,9 @@ bitmapfonts = {
 		name = "Bomb_32"
 		fontfiles = {
 			"gfx/fonts/Bomb_32"
-			"gfx/fonts/fzwhjz_30"
+			"gfx/fonts/Arial_30_0"	
+			"gfx/fonts/Arial_30_1"	
+			"gfx/fonts/Arial_30_2"	
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1259,7 +1275,10 @@ bitmapfonts = {
 		name = "Bomb_36"
 		fontfiles = {
 			"gfx/fonts/Bomb_36"
-			"gfx/fonts/fzwhjz_32"
+			"gfx/fonts/Arial_32_0"	
+			"gfx/fonts/Arial_32_1"	
+			"gfx/fonts/Arial_32_2"	
+			"gfx/fonts/Arial_32_4"	
 		}
 		color = 0xffffffff
 		textcolors = {
