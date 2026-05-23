@@ -213,7 +213,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter16"
 			"gfx/fonts/hoi_16typewriter"
 			"gfx/fonts/hoi_16typewriter_cryllic"
-			"gfx/fonts/Arial_14"	
+			"gfx/fonts/fzwhjz_18"	
 		}	
 	languages = { "l_simp_chinese" } 
 	}
@@ -224,7 +224,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter16_inverted"
 			"gfx/fonts/hoi_16typewriter_inverted"
 			"gfx/fonts/hoi_16typewriter_cryllic_inverted"
-			"gfx/fonts/Arial_14"	
+			"gfx/fonts/fzwhjz_18"	
 		}	
 	languages = { "l_simp_chinese" } 
 	}
@@ -235,8 +235,8 @@ bitmapfonts = {
 			"gfx/fonts/hoi4_typewriter22"		
 			"gfx/fonts/hoi_22typewriter"
 			"gfx/fonts/hoi_22typewriter_cryllic"
-			"gfx/fonts/Arial_20_0"	
-			"gfx/fonts/Arial_20_1"	
+			"gfx/fonts/fzwhjz_20_0"	
+			"gfx/fonts/fzwhjz_20_1"	
 		}		
 	languages = { "l_simp_chinese" } 
 	}
@@ -246,9 +246,9 @@ bitmapfonts = {
 		fontfiles = { 
 			"gfx/fonts/hoi4_typewriter22_inverted"		
 			"gfx/fonts/hoi_22typewriter_inverted"
-			"gfx/fonts/hoi_22typewriter_cryllic__inverted"
-			"gfx/fonts/Arial_20_0"	
-			"gfx/fonts/Arial_20_1"	
+			"gfx/fonts/hoi_22typewriter_cryllic_inverted"
+			"gfx/fonts/fzwhjz_20_0"	
+			"gfx/fonts/fzwhjz_20_1"	
 		}	
 	languages = { "l_simp_chinese" } 
 	}

@@ -177,7 +177,7 @@ bitmapfonts = {
 			"gfx/fonts/Arial_34_0"	
 			"gfx/fonts/Arial_34_1"	
 			"gfx/fonts/Arial_34_2"	
-			"gfx/fonts/Arial_34_4"	
+			"gfx/fonts/Arial_34_3"	
 		}
 		color = 0xffb2c9c2
 		textcolors = {
@@ -1143,6 +1143,256 @@ bitmapfonts = {
 		}
 	}
 
+	bitmapfont = {
+		name = "fzwhjz_18"
+		fontfiles = {
+			"gfx/fonts/fzwhjz_18"
+			"gfx/fonts/aldrich_22_outline"
+		}
+		color = 0xff000000
+		textcolors = {
+			### Default Colors ###
+			F = { 178 201 194 } # New default
+			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
+			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
+
+			### Base Colors ###
+			W = { 255 255 255 } # White
+			B = { 47 138 135 }  # Blue
+			G = { 133 234 142 } # Green
+			R = { 224 130 130 } # Red
+			g = { 176 176 176 } # Gray
+			Y = { 220 218 80 }  # Yellow
+			H = { 220 218 80 }  # Duplicate yellow from basegame
+			O = { 234 161 14 }  # Orange
+			C = { 253 100 144 } # Hot Pink
+			P = { 169 27 79 }   # Pink
+			r = { 132 50 0 }    # Rust Brown
+			w = { 211 201 0 }   # Gold
+			e = { 146 0 0 }     # Dark Red
+			p = { 204 0 204 }   # Magenta
+			j = { 153 102 51 }  # Brown
+			S = { 255 128 114 } # Salmon
+			x = { 225 0 0 }     # Über-red
+			y = { 0 225 0 }     # Über-green
+			z = { 22 88 255 }   # Über-blue
+			l = { 147 112 219 } # Lavender
+			n = { 60 180 60 }   # Dark Green
+			q = { 65 65 65 }    # Darker Grey
+			Q = { 0 84 142 }    # Prussian Blue
+			I = { 116 71 209 }  # Deep Purple
+
+			### Tomsk GUI Colors ###
+			d = { 225 225 225 } # Gainsboro
+			m = { 0 174 239 }   # Deep Sky Blue
+			h = { 161 16 107 }  # Jazzberry Jam
+			s = { 137 137 137 } # Suva Gray
+
+			### Britain Parties ###
+			V = { 213 40 20 }	# Scarlet
+			E = { 152 40 92 }	# Purple
+			f = { 255 193 12 }	# Amber
+			i = { 46 60 169 }	# Cerulean Blue
+			J = { 213 87 57 }	# Light Orange
+			K = { 45 152 40 }	# Emerald Green
+			o = { 129 88 56 }	# Darker Brown
+			U = { 214 138 75 }	# Peru (Ideologues)
+
+			### Guangdong ###
+			A = { 0 108 114 }   # Teal (Government)
+			u = { 210 119 39 }  # Bitter Organe (Rioters)
+
+			### Branch Specific Colors ###
+			Z = { 128 48 56 }   # Reddish-Brown
+			X = { 188 54 68 }   # Lighter Reddish-Brown
+			$ = { 28 74 104 }   # Midnight Blue
+			< = { 85 119 198 }  # Havelock Blue
+			* = { 0 155 178 }   # Cyan
+			. = { 170 98 52 }   # Brown-Orange
+			, = { 135 120 74 }  # Brown-Green
+			& = { 89 132 97 }   # Dark Olive
+			a = { 60 114 240 }  # Royal Blue (PNM)
+			b = { 100 100 100 } # Dark Grey
+
+			## OPEN SLOTS
+			# c = {  } #
+			# k = {  } #
+			# t = {  } #
+			# v = {  } #
+			# H = {  } #
+			# N = {  } #
+			# T = {  } #
+		}
+	}
+	bitmapfont = {
+		name = "fzwhjz_20"
+		fontfiles = {
+			"gfx/fonts/fzwhjz_20_0"
+			"gfx/fonts/fzwhjz_20_1"
+			"gfx/fonts/aldrich_24_outline"
+		}
+		color = 0xff000000
+		textcolors = {
+			### Default Colors ###
+			F = { 178 201 194 } # New default
+			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
+			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
+
+			### Base Colors ###
+			W = { 255 255 255 } # White
+			B = { 47 138 135 }  # Blue
+			G = { 133 234 142 } # Green
+			R = { 224 130 130 } # Red
+			g = { 176 176 176 } # Gray
+			Y = { 220 218 80 }  # Yellow
+			H = { 220 218 80 }  # Duplicate yellow from basegame
+			O = { 234 161 14 }  # Orange
+			C = { 253 100 144 } # Hot Pink
+			P = { 169 27 79 }   # Pink
+			r = { 132 50 0 }    # Rust Brown
+			w = { 211 201 0 }   # Gold
+			e = { 146 0 0 }     # Dark Red
+			p = { 204 0 204 }   # Magenta
+			j = { 153 102 51 }  # Brown
+			S = { 255 128 114 } # Salmon
+			x = { 225 0 0 }     # Über-red
+			y = { 0 225 0 }     # Über-green
+			z = { 22 88 255 }   # Über-blue
+			l = { 147 112 219 } # Lavender
+			n = { 60 180 60 }   # Dark Green
+			q = { 65 65 65 }    # Darker Grey
+			Q = { 0 84 142 }    # Prussian Blue
+			I = { 116 71 209 }  # Deep Purple
+
+			### Tomsk GUI Colors ###
+			d = { 225 225 225 } # Gainsboro
+			m = { 0 174 239 }   # Deep Sky Blue
+			h = { 161 16 107 }  # Jazzberry Jam
+			s = { 137 137 137 } # Suva Gray
+
+			### Britain Parties ###
+			V = { 213 40 20 }	# Scarlet
+			E = { 152 40 92 }	# Purple
+			f = { 255 193 12 }	# Amber
+			i = { 46 60 169 }	# Cerulean Blue
+			J = { 213 87 57 }	# Light Orange
+			K = { 45 152 40 }	# Emerald Green
+			o = { 129 88 56 }	# Darker Brown
+			U = { 214 138 75 }	# Peru (Ideologues)
+
+			### Guangdong ###
+			A = { 0 108 114 }   # Teal (Government)
+			u = { 210 119 39 }  # Bitter Organe (Rioters)
+
+			### Branch Specific Colors ###
+			Z = { 128 48 56 }   # Reddish-Brown
+			X = { 188 54 68 }   # Lighter Reddish-Brown
+			$ = { 28 74 104 }   # Midnight Blue
+			< = { 85 119 198 }  # Havelock Blue
+			* = { 0 155 178 }   # Cyan
+			. = { 170 98 52 }   # Brown-Orange
+			, = { 135 120 74 }  # Brown-Green
+			& = { 89 132 97 }   # Dark Olive
+			a = { 60 114 240 }  # Royal Blue (PNM)
+			b = { 100 100 100 } # Dark Grey
+
+			## OPEN SLOTS
+			# c = {  } #
+			# k = {  } #
+			# t = {  } #
+			# v = {  } #
+			# H = {  } #
+			# N = {  } #
+			# T = {  } #
+		}
+	}
+	bitmapfont = {
+		name = "fzwhjz_34"
+		fontfiles = {
+			"gfx/fonts/fzwhjz_34_0"	
+			"gfx/fonts/fzwhjz_34_1"	
+			"gfx/fonts/fzwhjz_34_2"	
+			"gfx/fonts/fzwhjz_34_3"	
+			"gfx/fonts/aldrich_48_outline"
+		}
+		color = 0xff000000
+		textcolors = {
+			### Default Colors ###
+			F = { 178 201 194 } # New default
+			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
+			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
+
+			### Base Colors ###
+			W = { 255 255 255 } # White
+			B = { 47 138 135 }  # Blue
+			G = { 133 234 142 } # Green
+			R = { 224 130 130 } # Red
+			g = { 176 176 176 } # Gray
+			Y = { 220 218 80 }  # Yellow
+			H = { 220 218 80 }  # Duplicate yellow from basegame
+			O = { 234 161 14 }  # Orange
+			C = { 253 100 144 } # Hot Pink
+			P = { 169 27 79 }   # Pink
+			r = { 132 50 0 }    # Rust Brown
+			w = { 211 201 0 }   # Gold
+			e = { 146 0 0 }     # Dark Red
+			p = { 204 0 204 }   # Magenta
+			j = { 153 102 51 }  # Brown
+			S = { 255 128 114 } # Salmon
+			x = { 225 0 0 }     # Über-red
+			y = { 0 225 0 }     # Über-green
+			z = { 22 88 255 }   # Über-blue
+			l = { 147 112 219 } # Lavender
+			n = { 60 180 60 }   # Dark Green
+			q = { 65 65 65 }    # Darker Grey
+			Q = { 0 84 142 }    # Prussian Blue
+			I = { 116 71 209 }  # Deep Purple
+
+			### Tomsk GUI Colors ###
+			d = { 225 225 225 } # Gainsboro
+			m = { 0 174 239 }   # Deep Sky Blue
+			h = { 161 16 107 }  # Jazzberry Jam
+			s = { 137 137 137 } # Suva Gray
+
+			### Britain Parties ###
+			V = { 213 40 20 }	# Scarlet
+			E = { 152 40 92 }	# Purple
+			f = { 255 193 12 }	# Amber
+			i = { 46 60 169 }	# Cerulean Blue
+			J = { 213 87 57 }	# Light Orange
+			K = { 45 152 40 }	# Emerald Green
+			o = { 129 88 56 }	# Darker Brown
+			U = { 214 138 75 }	# Peru (Ideologues)
+
+			### Guangdong ###
+			A = { 0 108 114 }   # Teal (Government)
+			u = { 210 119 39 }  # Bitter Organe (Rioters)
+
+			### Branch Specific Colors ###
+			Z = { 128 48 56 }   # Reddish-Brown
+			X = { 188 54 68 }   # Lighter Reddish-Brown
+			$ = { 28 74 104 }   # Midnight Blue
+			< = { 85 119 198 }  # Havelock Blue
+			* = { 0 155 178 }   # Cyan
+			. = { 170 98 52 }   # Brown-Orange
+			, = { 135 120 74 }  # Brown-Green
+			& = { 89 132 97 }   # Dark Olive
+			a = { 60 114 240 }  # Royal Blue (PNM)
+			b = { 100 100 100 } # Dark Grey
+
+			## OPEN SLOTS
+			# c = {  } #
+			# k = {  } #
+			# t = {  } #
+			# v = {  } #
+			# H = {  } #
+			# N = {  } #
+			# T = {  } #
+		}
+	}	
 	bitmapfont = {
 		name = "Bomb_16"
 		fontfiles = {
