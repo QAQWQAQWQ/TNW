@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_Kenneth_Clarke"
-		texturefile = "gfx/leaders/ENG/Portrait_Britain_Kenneth_Clarke.png"
+		name = "GFX_portrait_George_VII"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_George_VII.png"
 	}
 
 	spriteType = {

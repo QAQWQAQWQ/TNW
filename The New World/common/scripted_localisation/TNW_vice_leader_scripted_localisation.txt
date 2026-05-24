@@ -4,9 +4,9 @@ defined_text = {
 	text = {
 		trigger = { 		    
 			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
+			has_idea = ENG_George_VII
 		}
-		localization_key = GFX_portrait_Kenneth_Clarke
+		localization_key = GFX_portrait_George_VII
 	}
 	text = {
 		trigger = { 		    
@@ -22,9 +22,9 @@ defined_text = {
 	text = {
 		trigger = { 		    
 			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
+			has_idea = ENG_George_VII
 		}
-		localization_key = ENG_Kenneth_Clarke
+		localization_key = ENG_George_VII
 	}
 	
 	text = {
@@ -41,9 +41,9 @@ defined_text = {
 	text = {
 		trigger = { 		    
 			original_tag = ENG
-			has_idea = ENG_Kenneth_Clarke
+			has_idea = ENG_George_VII
 		}
-		localization_key = POLITICS_KENNETH_CLARKE_DESC
+		localization_key = POLITICS_GEORGE_VII_DESC
 	}
 	text = {
 		trigger = { 		    

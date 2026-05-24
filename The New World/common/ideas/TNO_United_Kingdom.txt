@@ -102,4 +102,81 @@ ideas = {
 		
  }
 
+  country = {
+		ENG_Galloping_Across_the_Eternal_Land = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_ENG_Galloping_Across_the_Eternal_Land
+			modifier = {
+				custom_modifier_tooltip = ENG_British_Economic_Circle
+				political_power_gain = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = 0.1
+				poverty_taxation_rate_modifier = 0.1
+				production_speed_infrastructure_factor = 0.05
+				
+
+
+				
+		}
+
+	
+  }
+
+		
+ }
+
+ country = {
+		ENG_The_English_Patient = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_ENG_The_English_Patient
+			modifier = {
+				stability_weekly = -0.1
+				modifier_drift_defence_factor = -0.5
+				poverty_monthly_rate = 0.08
+				academic_base_monthly_rate = -1
+				public_meetings_policy_monthly_rate = -0.5
+				fascism_drift = -0.1
+				national_socialism_drift = -0.1
+
+				
+		}
+
+	
+  }
+
+		
+ }
+
+ country = {
+		ENG_The_Land_of_Nowhere = {
+			allowed = {
+				original_tag = ENG
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_idea_ENG_The_Land_of_Nowhere
+			modifier = {
+				stability_weekly = -0.05
+				admin_program_cost_factor = 0.15
+				offices_coverage_modifier = -0.1
+				admin_efficiency_monthly_rate = -0.02
+				civilian_annual_cost = 0.02
+				political_parties_policy_monthly_rate = 0.25
+				
+		}
+
+	
+  }
+
+		
+ }
+
 }

@@ -336,6 +336,14 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+
+	liberal_conservatism_3 = {
+		types = { liberal_conservatism_3_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 36 36 111 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	
 
 	########################################

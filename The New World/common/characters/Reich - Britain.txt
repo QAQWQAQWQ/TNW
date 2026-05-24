@@ -12,7 +12,94 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_GEORGE_VII_DESC"
 			expire = "1994.4.20"
+			ideology = liberal_conservatism_3_subtype
+		}
+	}
+
+	ENG_Kenneth_Clarke = {
+		name = ENG_Kenneth_Clarke
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/Portrait_Britain_Kenneth_Clarke.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KENNETH_CLARKE_DESC"
+			expire = "1994.4.20"
 			ideology = liberal_conservatism_moderate_technocracy_subtype
+			traits = { The_behemoth }
+		}
+	}
+
+	ENG_John_McDonnell = {
+		name = ENG_John_McDonnell
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOHN_MCDONNELL_DESC"
+			expire = "1994.4.20"
+			ideology = progressivism_reformist_socialism_subtype
+		}
+	}
+
+	ENG_Jeremy_Corbyn = {
+		name = ENG_Jeremy_Corbyn
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JEREMY_CORBYN_DESC"
+			expire = "1994.4.20"
+			ideology = socialist_social_democracy_subtype
+		}
+	}
+
+	ENG_Michael_McLaughlin = {
+		name = ENG_Michael_McLaughlin
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MICHAEL_MCLAUGHLIN_DESC"
+			expire = "1994.4.20"
+			ideology = paternalism_national_conservatism_subtype
+		}
+	}
+
+	
+
+	ENG_Roger_Clare = {
+		name = ENG_Roger_Clare
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ROGER_CLARE_DESC"
+			expire = "1994.4.20"
+			ideology = fascism_corporate_statism_subtype
+		}
+	}
+
+	ENG_John_Roberts = {
+		name = ENG_John_Roberts
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOHN_ROBERTS_DESC"
+			expire = "1994.4.20"
+			ideology = fascism_1_subtype
 		}
 	}
 

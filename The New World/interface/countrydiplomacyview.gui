@@ -20,7 +20,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "vice_leader_name"
-			position = { x = 10 y = 273 }
+			position = { x = 10 y = 263 }
 			font = "Bomb_18"
 			text = [TNWgetviceleadername]
 			maxWidth = 155

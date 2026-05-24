@@ -1,5 +1,15 @@
 leader_traits = {
 
+	The_behemoth = {
+		random = no
+		political_power_factor = 0.5
+		stability_factor = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 	An_aged_old_man = {
 		random = no

@@ -4371,6 +4371,21 @@ SpriteTypes = {
 	#################
 
 	## Britain ##
+	#NEW#
+	SpriteType = {
+		name = "GFX_idea_ENG_Galloping_Across_the_Eternal_Land"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/ENG/ENG_Galloping_Across_the_Eternal_Land.png" 
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_The_English_Patient"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/ENG/ENG_The_English_Patient.png" 
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ENG_The_Land_of_Nowhere"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/ENG/ENG_The_Land_of_Nowhere.png" 
+	}
 
 	SpriteType = {
 		name = "GFX_idea_ENG_dictum_of_the_protector"

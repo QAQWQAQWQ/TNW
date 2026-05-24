@@ -6,59 +6,19 @@ set_country_flag = GDP_regions
 set_naval_oob = "ENG_1962_naval"
 # Country leaders
 recruit_character = ENG_George_VII
-
-# party leader
+recruit_character = ENG_Kenneth_Clarke
+# MINISTER
 recruit_character = ENG_Lee_Anderson
 recruit_character = ENG_John_Major
 recruit_character = ENG_Catherine_Blaiklock
 recruit_character = ENG_Malcolm_Rifkind
+#PARTY LEADER#
+recruit_character = ENG_John_McDonnell
+recruit_character = ENG_Jeremy_Corbyn
+recruit_character = ENG_Michael_McLaughlin
+recruit_character = ENG_Roger_Clare 
+recruit_character = ENG_John_Roberts
 
-
-# These Guys Don't Exist?
-#recruit_character = ENG_ted_grant
-#recruit_character = ENG_William_R_Hinde
-#recruit_character = ENG_Francis_Mitchell
-#recruit_character = ENG_William_Galwey
-#recruit_character = ENG_John_Churcher
-#recruit_character = ENG_William_Brittain
-#recruit_character = ENG_Frank_Mclardy
-#recruit_character = ENG_Ernest_Down
-#recruit_character = ENG_Richard_Anderson
-
-
-#################################################
-#                OLD CHARACTERS                 #
-#################################################
-
-	# Country leaders
-	recruit_character = ENG_Alec_Douglas_Home
-	recruit_character = ENG_Margaret_Thatcher
-	recruit_character = ENG_Bernard_Montgomery
-	recruit_character = ENG_Dennis_Skinner
-
-	#Ministers
-	recruit_character = ENG_John_Biffen
-	recruit_character = ENG_Peter_Thorneycroft
-	recruit_character = ENG_Francis_Pym
-	recruit_character = ENG_Anthony_Barber
-	recruit_character = ENG_Ralph_Assheton
-	recruit_character = ENG_Selwyn_Lloyd
-	recruit_character = ENG_Anthony_Kershaw
-
-	#Generals
-	recruit_character = ENG_Orde_Wingate
-	recruit_character = ENG_Charles_Frederic_Keightley
-	recruit_character = ENG_Evelyn_Hugh_Barker
-	recruit_character = ENG_Geoffrey_Baker
-	recruit_character = ENG_Hugh_Charles_Stockwell
-	recruit_character = ENG_James_Cassels
-	recruit_character = ENG_Michael_Carver
-	recruit_character = ENG_Ronald_Gibbs
-	recruit_character = ENG_Philip_Vian
-	recruit_character = ENG_Victor_Crutchley
-
-	#Scotland Victory
-	recruit_character = SCO_ENG_Reconstruction
 
 #################################################
 set_country_flag = tnw_hog_ui_enabled
@@ -389,8 +349,11 @@ add_ideas = {
 	Stahlpakt_Commonwealth
 
 	### NATIONAL SPIRITS ###
+	ENG_Galloping_Across_the_Eternal_Land
+	ENG_The_Land_of_Nowhere
+	ENG_The_English_Patient
 	### MINISTERS ###
-	ENG_Kenneth_Clarke
+	ENG_George_VII
 	ENG_Lee_Anderson_hog
 	ENG_John_Major_for
 	ENG_Catherine_Blaiklock_eco
@@ -488,7 +451,12 @@ set_politics = {
 }
 
 set_popularities = {
-	liberal_conservatism = 100
+	liberal_conservatism = 22
+	progressivism = 21
+	socialist = 15
+	paternalism = 15
+	fascism = 13
+	fascism_1 = 14
 }
 
 set_variable = { communist_1_var = token:ENG_communist_1 }
