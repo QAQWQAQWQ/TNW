@@ -60,7 +60,7 @@ guitypes = {
 			name = "description"
 			position = { x = 11 y = 121 }
 			text = "[Statelore_Get_Desc]"
-			font = "aldrich_18_outline"
+			font = "fzwhjz_18"
 			maxwidth = 390
 			maxheight = 375
 			format = left
