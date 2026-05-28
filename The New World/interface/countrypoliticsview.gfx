@@ -213,6 +213,11 @@ spriteTypes = {
 		name = "GFX_autonomy_china_warlord_regime_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_warlord_regime.dds"
 	}
+    #TNW#
+	spriteType = {
+		name = "GFX_autonomy_special_city_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_special_city.dds"
+	}
 
 	#-------------
 

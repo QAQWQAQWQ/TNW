@@ -482,6 +482,9 @@ add_to_faction = TNZ
 add_to_faction = GAZ
 add_to_faction = MAD
 add_to_faction = KEN
+add_to_faction = AOM
+add_to_faction = HKC
+add_to_faction = MAG
 
 
 set_country_flag = JAP_TRAD_IN_POWER

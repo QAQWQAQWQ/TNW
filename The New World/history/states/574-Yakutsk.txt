@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = TOM
+		owner = MAG
 		buildings = {
 			schools = 1
 			offices = 2

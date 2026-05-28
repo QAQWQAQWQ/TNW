@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = TOM
+		owner = MAG
 		buildings = {
 			infrastructure = 2
 			air_base = 1

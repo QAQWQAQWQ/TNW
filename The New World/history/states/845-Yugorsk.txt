@@ -9,7 +9,7 @@ state = { #Population Done
 		1771 1841 4846 7895 10720 13338 13342
 	}
 	history = {
-		owner = TOM
+		owner = KOM
 		buildings = {
 			barracks = 1
 			hospitals = 1

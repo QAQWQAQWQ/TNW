@@ -5,7 +5,7 @@ state = { #Population Done
 			3127 4326 11111
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		buildings = {
 			infrastructure = 2
 		}

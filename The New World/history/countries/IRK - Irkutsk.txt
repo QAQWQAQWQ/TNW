@@ -2,9 +2,7 @@ capital = 566
 
 add_manpower = 12500
 
-set_province_controller = 10543
-set_province_controller = 8671
-set_province_controller = 1810
+
 
 oob = "IRK_1962"
 set_air_oob = "IRK_1962_air"

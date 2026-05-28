@@ -3,7 +3,7 @@ state = {
 	name = "STATE_637"
 
 	history = {
-		owner = TOM
+		owner = MAG
 		set_state_flag = has_offshore_island
 		buildings = {
 			barracks = 1

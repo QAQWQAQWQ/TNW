@@ -9,7 +9,7 @@ state = { #Population Done
 		4311 4383 7300 7373 12200 13303
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		buildings = {
 			infrastructure = 2
 			schools = 1

@@ -6,7 +6,7 @@ state = { #Population Done
 		steel = 8
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		victory_points = { 3338 15 }
 		victory_points = { 3168 7 }
 		victory_points = { 312 3 }

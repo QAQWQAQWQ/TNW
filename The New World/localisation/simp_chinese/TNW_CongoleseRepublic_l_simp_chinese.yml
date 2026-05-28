@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- CFS_DEF: "刚果民主共和国"
+ CFS_DEF: "比属刚果"
  CFS_ADJ: "刚果"
  CFS_despotism: "刚果国"
  CFS_despotism_DEF: "刚果国"
@@ -23,7 +23,7 @@
  CFS_Maurice_Mpolo: "莫里斯·姆波洛"
  CFS_fascism_party: "私人军事公司残党"
  CFS_fascism_party_long: "私人军事公司残党(PMC Remnants)"
- CFS: "刚果民主共和国"
+ CFS: "比属刚果"
  CFS_Joseph_Okito_hog_desc: "§Y政府首脑\n自由主义§!\n--------------\n"
  CFS_Albert_Kalonji_for_desc: "§Y外交部长\n自由主义§!\n--------------\n"
  CFS_Godefroid_Munongo_eco_desc: "§Y经济部长\n家长制§!\n--------------\n"

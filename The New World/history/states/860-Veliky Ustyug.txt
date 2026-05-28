@@ -8,7 +8,7 @@ state = { #Population Done
 		3064 3166 6088 6100 6193 6199 9101 9124 9213 11061 13343
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		buildings = {
 			infrastructure = 2
 			prisons = 1

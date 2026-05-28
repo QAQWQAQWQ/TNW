@@ -5,7 +5,6 @@ recruit_character = WRS_Generic_Vacant
 
 
 
-set_country_flag = is_russian_nation
 
 oob = "WRS_1962"
 set_air_oob = "WRS_1962_air"
@@ -18,7 +17,6 @@ set_research_slots = 3
 load_focus_tree = WRS_initial
 
 ###Playable
-set_country_flag = tno_playable_country
 set_technology = {
 	basic_train = 1
 

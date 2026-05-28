@@ -5,7 +5,7 @@ state = { #Population Done
 		6162 6274 6288 9293 11124 12203 13322 7346 11352 1336 9283 189 123 6025
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 1

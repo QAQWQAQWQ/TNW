@@ -526,6 +526,9 @@ add_to_faction = TUN
 add_to_faction = MOR
 add_to_faction = MDI
 
+add_to_faction = POR
+add_to_faction = SPA
+
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }
 set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }

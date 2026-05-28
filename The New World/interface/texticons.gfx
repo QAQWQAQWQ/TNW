@@ -1,6 +1,20 @@
 spriteTypes = {
 
 
+	#CHI_HKCANDAOM
+	spriteType = {
+		name = "GFX_kmt_party"
+		texturefile = "gfx/texticons/CHI_Party_membership/kmt_party.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_No_party"
+		texturefile = "gfx/texticons/CHI_Party_membership/No_party.png"
+		legacy_lazy_load = no
+	}
+
+
 	##MANLAW##
 	spriteType = {
 		name = "GFX_MAN_Manchuria_New_Constitution"

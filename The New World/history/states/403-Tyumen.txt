@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TOM
+		owner = KOM
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 1

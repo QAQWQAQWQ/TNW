@@ -6,7 +6,7 @@ characters = {
 			civilian = { large = "gfx/leaders/HKC/Portrait_Hongkong_Guan_wonuan.png" }
 		}
 		country_leader = {
-			#desc = "POLITICS_GUAN_WONUAN_DESC"
+			desc = "POLITICS_GUAN_WONUAN_DESC"
 			expire = "2020.1.1"
 			ideology = despotism_Three_People_Principles_subtype
 			traits = {}

@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = TOM
-		add_core_of = TOM
+		owner = MAG
+		add_core_of = MAG
 		buildings = {
 			infrastructure = 2
 			thermoelectric_plant = 1

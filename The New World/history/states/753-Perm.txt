@@ -5,7 +5,7 @@ state = { #Population Done
 		steel = 19
 	}
 	history = {
-		owner = TOM
+		owner = MCW
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 2
