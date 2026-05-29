@@ -1,7 +1,18 @@
 SpriteTypes = {
 
-	### Generic Focus Icons ###
-
+	### Generic Focus Icons ###	
+    frameAnimatedSpriteType ={
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		noOfFrames = 29
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"	
+		legacy_lazy_load = no		
+	}
+	
 	SpriteType = {
 		name = "GFX_focus_generic_a_better_world"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_a_better_world.dds"
