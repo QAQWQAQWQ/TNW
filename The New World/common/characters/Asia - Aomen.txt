@@ -8,7 +8,49 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_ZHANG_YU_DESC"
 			expire = "2020.1.1"
+			ideology = despotism_Three_People_Principles_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	AOM_Stanley_Ho_Hungsun = {
+		name = AOM_Stanley_Ho_Hungsun
+		portraits = {
+			civilian = { large = " " }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_YU_DESC"
+			expire = "2020.1.1"
+			ideology = conservatism_oligarchic_conservatism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	AOM_qlws = {
+		name = AOM_qlws
+		portraits = {
+			civilian = { large = " " }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_YU_DESC"
+			expire = "2020.1.1"
 			ideology = paternalism_anocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	AOM_Chui_Saion = {
+		name = AOM_Chui_Saion
+		portraits = {
+			civilian = { large = " " }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_YU_DESC"
+			expire = "2020.1.1"
+			ideology = liberal_conservatism_moderate_technocracy_subtype
 			traits = {}
 			id = -1
 		}

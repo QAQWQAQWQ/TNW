@@ -4603,6 +4603,34 @@ SpriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/FAL/idea_FAL_dense_spider_web.png"
 	}
 
+	##Aomen city##
+	SpriteType = {
+		name = "GFX_idea_AOM_Thousands_of_Gold_and_Earth"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/AOM/idea_AOM_Thousands_of_Gold_and_Earth.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AOM_Ease_Homesickness"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/AOM/idea_AOM_Ease_Homesickness.png"
+	}
+
+
+	##HongKong city##
+	SpriteType = {
+		name = "GFX_idea_HKC_Strange_Future"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/HKC/idea_HKC_Strange_Future.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_HKC_Rights_and_Wrongs"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/HKC/idea_HKC_Rights_and_Wrongs.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_HKC_Golden_Light_Shining"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/HKC/idea_HKC_Golden_Light_Shining.png"
+	}
+
 
 	## French State ##
     SpriteType = {

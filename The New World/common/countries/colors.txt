@@ -870,8 +870,8 @@ SAM = {
 	color_ui = rgb { 194 169 148 }
 }
 TAR = {
-	color = rgb { 150 205 217 }
-	color_ui = rgb { 150 205 217 }
+	color = rgb { 66 107 117 }
+	color_ui = rgb { 66 107 117 }
 }
 VOL = {
 	color = rgb { 110 110 133 }

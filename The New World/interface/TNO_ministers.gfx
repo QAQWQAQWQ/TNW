@@ -1,4 +1,15 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_ZZA_minister_Universal"
+		texturefile = "gfx/interface/ideas/ministers/ZZA/ZZA_minister_Universal.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HKC_minister_legco"
+		texturefile = "gfx/interface/ideas/ministers/HKC/HKC_minister_legco.png"
+	}
+
 	spriteType = {
 		name = "GFX_idea_Mr_Placeholder_the_Third"
 		texturefile = "gfx/interface/ideas/minister_Mr_Placeholder_the_Third.dds"

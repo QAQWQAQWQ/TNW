@@ -13,4 +13,35 @@ characters = {
 			id = -1
 		}
 	}
+
+	HKC_qlws = {
+		name = HKC_qlws 
+		portraits = {
+			civilian = { large = " " }
+		}
+		country_leader = {
+			desc = "POLITICS_GUAN_WONUAN_DESC"
+			expire = "2020.1.1"
+			ideology = paternalism_anocracy_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	HKC_Liang_fuhua = {
+		name = HKC_Liang_fuhua
+		portraits = {
+			civilian = { large = " " }
+		}
+		country_leader = {
+			desc = "POLITICS_GUAN_WONUAN_DESC"
+			expire = "2020.1.1"
+			ideology = liberal_conservatism_big_tent_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	
 }
+

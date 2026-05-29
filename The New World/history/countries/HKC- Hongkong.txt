@@ -11,6 +11,8 @@ set_country_flag = tno_playable_country
 load_focus_tree = HongKong_shard_focus
 ####tnw####
 recruit_character = HKC_Guan_wonuan
+recruit_character = HKC_qlws
+recruit_character = HKC_Liang_fuhua
 set_technology = {
 	basic_train = 1
 
@@ -319,13 +321,19 @@ if = {
 }
 
 set_popularities = {
-	paternalism = 1
-	despotism = 99
+	liberal_conservatism = 20
+	paternalism = 17
+	despotism = 63
 }
 
 add_ideas = {
 	#Country
-	Sphere_Core_Member
+	Sphere_Coequal
+	#IDEA
+	HKC_Golden_Light_Shining 
+	HKC_Rights_and_Wrongs
+	HKC_Strange_Future
+	
     #Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism

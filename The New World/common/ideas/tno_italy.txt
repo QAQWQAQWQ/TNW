@@ -68,29 +68,7 @@ ideas = {
 			}
 		}
 
-		ITA_traditore = {
-			allowed = {
-				original_tag = ITA
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_ITA_traditore
-			modifier = {
-				research_speed_factor = -0.04
-				production_factory_efficiency_gain_factor = -0.02
-				line_change_production_efficiency_factor = -0.008
-				production_speed_buildings_factor = -0.06
-				political_power_gain = -10
-			}
-
-			targeted_modifier = {
-				
-			}
-		}
+		
 
 	
 

@@ -11,6 +11,9 @@ set_country_flag = tno_playable_country
 load_focus_tree = Aomen_shard_focus
 ####tnw####
 recruit_character = AOM_Zhang_yu
+recruit_character = AOM_Stanley_Ho_Hungsun
+recruit_character = AOM_qlws
+recruit_character = AOM_Chui_Saion
 set_technology = {
 	basic_train = 1
 
@@ -312,20 +315,25 @@ if = {
 
 
  set_politics = {
-	ruling_party = paternalism
+	ruling_party = despotism
 	last_election = "1960.11.11"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	paternalism = 99
-	despotism = 1
+	despotism = 87
+	conservatism = 3
+	paternalism = 5
+	liberal_conservatism = 5
 }
 
 add_ideas = {
 	#Country
-	Sphere_Core_Member
+	Sphere_Coequal
+	#IDEA
+	AOM_Thousands_of_Gold_and_Earth
+	AOM_Ease_Homesickness
     #Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
