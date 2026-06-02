@@ -271,58 +271,18 @@ SIK = "countries/Asia.txt"						# Sikkim
 # // Russia // #
 
 # /// West Russia /// #
-BKR = "countries/West Russia.txt"				# Bashkiria
-GAY = "countries/West Russia.txt"				# Gayny
-GOR = "countries/West Russia.txt"				# Gorky
 KOM = "countries/West Russia.txt"				# Komi
-ONG = "countries/West Russia.txt"				# Onega
-PRM = "countries/West Russia.txt"				# Aryan Brotherhood
-SAM = "countries/West Russia.txt"				# Samara
 TAR = "countries/West Russia.txt"				# Tatarstan
-VOL = "countries/West Russia.txt"				# Vologda
-VYT = "countries/West Russia.txt"				# Vyatka
-WRS = "countries/West Russia.txt"				# WRRF
 
 # /// Southern Urals /// #
-DRL = "countries/South Urals.txt"				# Dirlewanger
-MGN = "countries/South Urals.txt"				# Magnitogorsk
-ORE = "countries/South Urals.txt"				# Orenburg
-URL = "countries/South Urals.txt"				# Ural League
 
 # /// West Siberia /// #
-FAV = "countries/West Siberia.txt"				# Free Aviators
-OMS = "countries/West Siberia.txt"				# Omsk
-SVR = "countries/West Siberia.txt"				# Sverdlovsk
-TYM = "countries/West Siberia.txt"				# Tyumen
-VOR = "countries/West Siberia.txt"				# Vorkuta
-YGR = "countries/West Siberia.txt"				# Yugra
-ZLT = "countries/West Siberia.txt"				# Zlatoust
-NTG = "countries/West Siberia.txt"				# Nizhny Tagil - Omsk Breakaway
-SGV = "countries/Omsk Breakaway.txt"			# Spetsgruppa V - Omsk Breakaway
 
 # /// Central Siberia /// #
-ALT = "countries/Central Siberia.txt"			# Oyrotia
-KAL = "countries/Central Siberia.txt"			# Siberian Workers' Federation
-KEM = "countries/Central Siberia.txt"			# Kemerovo
-KRS = "countries/Central Siberia.txt"			# Krasnoyarsk
-NOV = "countries/Central Siberia.txt"			# Novosibirsk
-NRL = "countries/Central Siberia.txt"			# Norilsk
-PRC = "countries/Central Siberia.txt"			# People's Revolutionary Council
-SBA = "countries/Central Siberia.txt"			# Siberian Black Army
 TOM = "countries/Central Siberia.txt"			# Tomsk
-TAN = "countries/Central Siberia.txt"			# Tannu Tuva - SBA Breakaway
 
 # /// Far East /// #
-AMR = "countries/Far East.txt"					# Amur
-BRY = "countries/Far East.txt"					# Buryatia
-CHT = "countries/Far East.txt"					# Chita
-IRK = "countries/Far East.txt"					# Irkutsk
-KMC = "countries/Far East.txt"					# Kamchatka
 MAG = "countries/Far East.txt"					# Magadan
-OMO = "countries/Far East.txt"					# Omolon
-YAK = "countries/Far East.txt"					# Yakutia
-VIL = "countries/Far East.txt"					# Vilyuy - OMO Breakaway/AM Anarchy
-SOR = "countries/Far East.txt"					# Soviet Remnants in Manchukuo - Resistance Tag
 
 # /// Kazakhstan /// #
 KAZ = "countries/Central Asia.txt"				# Kazakh SSR
@@ -337,31 +297,7 @@ UTL = "countries/Central Asia.txt"				# Turkestan Legion
 UZB = "countries/Central Asia.txt"				# Uzbekistan
 
 # /// After Midnight /// #
-TMA = "countries/West Russia.txt"				# North Russian Liberation Front
-TMB = "countries/West Siberia.txt"				# Brotherhood of Cain
-TMC = "countries/Far East.txt"					# United Siberian Salvation Committee
-TMD = "countries/West Siberia.txt"				# Imperial Airborne Brigades
-TME = "countries/Central Siberia.txt"			# Central Eurasian Republic
-TMF = "countries/West Siberia.txt"				# Nenetsian Free Army
-TMG = "countries/Far East.txt"					# Russian Empire
-TMH = "countries/Central Siberia.txt"			# Kingdom of Altay
-TMI = "countries/South Urals.txt"				# Chelyabinsk Institute
-TMJ = "countries/Central Siberia.txt"			# Republic of New Tomsk
-TMK = "countries/Central Asia.txt"				# Free Kazakh Clans
-TML = "countries/Central Asia.txt"				# Autonomous Soviet Liberation Army
-TMM = "countries/Far East.txt"					# Free Port of Magadan
-TMN = "countries/South Urals.txt"				# Revolutionary Communes of Orenburg
-TMO = "countries/Omsk Breakaway.txt"			# Redeemed Black League
-TMP = "countries/Central Asia.txt"				# Kazakh Purification Army
-TMQ = "countries/West Russia.txt"				# Idel-Ural Free State
-TMR = "countries/Far East.txt"					# Amur Refugee Zone
-TMS = "countries/West Russia.txt"				# Christian Republic of Samara
-TMT = "countries/West Siberia.txt"				# Trans-Ural Confederation
-TMU = "countries/West Russia.txt"				# Ural Purification Zone
-TMV = "countries/West Russia.txt"				# Imperial Mercantile Consortium
-TMW = "countries/Central Siberia.txt"			# Siberian Free Territory
-TMX = "countries/Central Siberia.txt"			# Bratsk Communal Vanguard
-TMY = "countries/Far East.txt"					# Regency of Holy Russia
+
 
 # // Africa // #
 

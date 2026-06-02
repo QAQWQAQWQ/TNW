@@ -840,195 +840,35 @@ PAP = {
 ### Russia ###
 
 ## West Russia ##
-
-BKR = {
-	color = rgb { 146 186 139 }
-	color_ui = rgb { 146 186 139 }
-}
-GAY = {
-	color = rgb { 75 65 80 }
-	color_ui = rgb { 75 65 80 }
-}
-GOR = {
-	color = rgb { 160 118 131 }
-	color_ui = rgb { 160 118 131 }
-}
 KOM = {
 	color = rgb { 94 131 162 }
 	color_ui = rgb { 94 131 162 }
-}
-ONG = {
-	color = rgb { 81 135 91 }
-	color_ui = rgb { 81 135 91 }
-}
-PRM = {
-	color = rgb { 170 140 85 }
-	color_ui = rgb { 170 140 85 }
-}
-SAM = {
-	color = rgb { 194 169 148 }
-	color_ui = rgb { 194 169 148 }
 }
 TAR = {
 	color = rgb { 66 107 117 }
 	color_ui = rgb { 66 107 117 }
 }
-VOL = {
-	color = rgb { 110 110 133 }
-	color_ui = rgb { 110 110 133 }
-}
-VYT = {
-	color = rgb { 65 100 42 }
-	color_ui = rgb { 65 100 42 }
-}
-WRS = {
-	color = rgb { 163 66 76 }
-	color_ui = rgb { 163 66 76 }
-}
 
 ## Southern Urals ##
 
-DRL = {
-	color = rgb { 55 55 55 }
-	color_ui = rgb { 55 55 55 }
-}
-MGN = {
-	color = rgb { 60 69 81 }
-	color_ui = rgb { 60 69 81 }
-}
-ORE = {
-	color = rgb { 86 120 86 }
-	color_ui = rgb { 86 120 86 }
-}
-URL = {
-	color = rgb { 180 179 218 }
-	color_ui = rgb { 180 179 218 }
-}
+
 
 ## West Siberia ##
 
-FAV = {
-	color = rgb { 184 99 120 }
-	color_ui = rgb { 184 99 120 }
-}
-OMS = {
-	color = rgb { 43 50 43 }
-	color_ui = rgb { 43 50 43 }
-}
-SVR = {
-	color = rgb { 140 110 124 }
-	color_ui = rgb { 140 110 124 }
-}
-TYM = {
-	color = rgb { 130 61 61 }
-	color_ui = rgb { 130 61 61 }
-}
-VOR = {
-	color = rgb { 135 189 184 }
-	color_ui = rgb { 135 189 184 }
-}
-YGR = {
-	color = rgb { 193 196 150 }
-	color_ui = rgb { 193 196 150 }
-}
-ZLT = {
-	color = rgb { 169 88 56 }
-	color_ui = rgb { 169 88 56 }
-}
-NTG = {
-	color = rgb { 115 0 0 }
-	color_ui = rgb { 115 0 0 }
-}
-SGV = {
-	color = rgb { 43 50 43 }
-	color_ui = rgb { 43 50 43 }
-}
 
 ## Central Siberia ##
 
-ALT = {
-	color = rgb { 126 136 125 }
-	color_ui = rgb { 126 136 125 }
-}
-KAL = {
-	color = rgb { 150 0 0 }
-	color_ui = rgb { 150 0 0 }
-}
-KEM = {
-	color = rgb { 60 90 138 }
-	color_ui = rgb { 60 90 138 }
-}
-KRS = {
-	color = rgb { 215 212 174 }
-	color_ui = rgb { 215 212 174 }
-}
-NOV = {
-	color = rgb { 94 125 136 }
-	color_ui = rgb { 94 125 136 }
-}
-NRL = {
-	color = rgb { 210 213 219 }
-	color_ui = rgb { 210 213 219 }
-}
-PRC = {
-	color = rgb { 112 21 16 }
-	color_ui = rgb { 112 21 16 }
-}
-SBA = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
 TOM = {
 	color = rgb { 84 114 69 }
 	color_ui = rgb { 84 114 69 }
 }
-TAN = {
-	color = rgb { 112 21 16 }
-	color_ui = rgb { 112 21 16 }
-}
 
 ## Far East ##
-
-AMR = {
-	color = rgb { 186 158 158 }
-	color_ui = rgb { 186 158 158 }
-}
-BRY = {
-	color = rgb { 175 15 28 }
-	color_ui = rgb { 175 15 28 }
-}
-CHT = {
-	color = rgb { 142 131 138 }
-	color_ui = rgb { 142 131 138 }
-}
-IRK = {
-	color = rgb { 145 43 64 }
-	color_ui = rgb { 163 17 31 }
-}
-KMC = {
-	color = rgb { 171 194 240 }
-	color_ui = rgb { 171 194 240 }
-}
 MAG = {
 	color = rgb { 202 198 178 }
 	color_ui = rgb { 202 198 178 }
 }
-OMO = {
-	color = rgb { 210 213 219 }
-	color_ui = rgb { 210 213 219 }
-}
-YAK = {
-	color = rgb { 79 99 101 }
-	color_ui = rgb { 79 99 101 }
-}
-VIL = {
-	color = rgb { 195 198 204 }
-	color_ui = rgb { 195 198 204 }
-}
-SOR = {
-	color = rgb { 145 43 64 }
-	color_ui = rgb { 163 17 31 }
-}
+
 
 ## Kazakhstan ##
 
@@ -1070,106 +910,6 @@ UTL = {
 
 ## After Midnight ##
 
-TMA = {
-	color = rgb { 113 56 66 }
-	color_ui = rgb { 113 56 6 }
-}
-TMB = {
-	color = rgb { 95 30 55 }
-	color_ui = rgb { 95 30 55 }
-}
-TMC = {
-	color = rgb { 0 70 119 }
-	color_ui = rgb { 0 70 119 }
-}
-TMD = {
-	color = rgb { 93 80 93 }
-	color_ui = rgb { 93 80 93 }
-}
-TME = {
-	color = rgb { 149 157 124 }
-	color_ui = rgb { 149 157 124 }
-}
-TMF = {
-	color = rgb { 63 89 127 }
-	color_ui = rgb { 63 89 127 }
-}
-TMG = {
-	color = rgb { 65 100 42 }
-	color_ui = rgb { 65 100 42 }
-}
-TMH = {
-	color = rgb { 59 81 104 }
-	color_ui = rgb { 59 81 104 }
-}
-TMI = {
-	color = rgb { 194 204 204 }
-	color_ui = rgb { 194 204 204 }
-}
-TMJ = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 128 128 128 }
-}
-TMK = {
-	color = rgb { 91 123 142 }
-	color_ui = rgb { 91 123 142 }
-}
-TML = {
-	color = rgb { 150 60 60 }
-	color_ui = rgb { 150 60 60 }
-}
-TMM = {
-	color = rgb { 144 157 169 }
-	color_ui = rgb { 144 157 169 }
-}
-TMN = {
-	color = rgb { 127 43 43 }
-	color_ui = rgb { 127 43 43 }
-}
-TMO = {
-	color = rgb { 43 50 43 }
-	color_ui = rgb { 43 50 43 }
-}
-TMP = {
-	color = rgb { 62 83 62 }
-	color_ui = rgb { 62 83 62 }
-}
-TMQ = {
-	color = rgb { 120 185 197 }
-	color_ui = rgb { 120 185 197 }
-}
-TMR = {
-	color = rgb { 127 126 148 }
-	color_ui = rgb { 127 126 148 }
-}
-TMS = {
-	color = rgb { 140 166 175 }
-	color_ui = rgb { 140 166 175 }
-}
-TMT = {
-	color = rgb { 120 153 136 }
-	color_ui = rgb { 120 153 136 }
-}
-TMU = {
-	color = rgb { 72 42 72 }
-	color_ui = rgb { 72 42 72 }
-}
-TMV = {
-	color = rgb { 69 74 86 }
-	color_ui = rgb { 69 74 86 }
-}
-TMW = {
-	color = rgb { 10 0 0 }
-	color_ui = rgb { 10 0 0 }
-}
-TMX = {
-	color = rgb { 131 105 116 }
-	color_ui = rgb { 131 105 116 }
-}
-TMY = {
-	color = rgb { 72 56 72 }
-	color_ui = rgb { 72 56 72 }
-}
 
 ### Africa ###
 
