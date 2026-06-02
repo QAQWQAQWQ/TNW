@@ -1258,10 +1258,6 @@ GNB = {
 	color = rgb { 124 124 86 }
 	color_ui = rgb { 124 124 86 }
 }
-GAM = {
-	color = rgb { 94 114 88 }
-	color_ui = rgb { 94 114 88 }
-}
 MLI = {
 	color = rgb { 150 130 90 }
 	color_ui = rgb { 150 130 90 }

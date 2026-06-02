@@ -284,101 +284,17 @@ bookmarks = {
 		## PAKT ##
 
 		## RUSSIA ##
-		"WRS" = {
-			minor = yes
-			history = "WRS_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				RUS_terror_bombing
-				WRS_veterans_of_the_long_war
-				WRS_agricultural_insecurity
-			}
-			focuses = {
-				WRS_initial_enduring
-				WRS_the_red_bonaparte
-				WRS_the_peoples_marshal
-			}
-		}
+		
 
-		"SAM" = {
-			minor = yes
-			history = "SAM_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				SAM_Turncoat_General
-				SAM_german_bootlickers
-				SAM_The_Smolensk_Manifesto
-			}
-			focuses = {
-				SAM_Our_Guide
-				SAM_Our_Loyalty
-				SAM_Who_Shall_Stand_Beside_Vlasov
-			}
-		}
+		
 
-		"VYT" = {
-			minor = yes
-			history = "VYT_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				VYT_the_tsar_and_himself
-				VYT_officer_infighting
-				VYT_unrepentant_reaction
-			}
-			focuses = {
-				VYT_return_of_the_tsar
-				VYT_legacy_of_the_tsardom
-				VYT_the_eagle_flies_once_more
-			}
-		}
+		
 
-		"KOM" = {
-			minor = yes
-			history = "KOM_THENEWORDER_DESC"
-			ideology = progressivism
-			ideas = {
-				KOM_syvtyvkartsi
-				KOM_clash_of_shadows_c_1
-				RUS_syktyvkar_arsenal
-			}
-			focuses = {
-				KOM_the_last_years_of_the_voznesentsi
-				KOM_something_wicked_this_way_comes
-				KOM_the_affairs_of_the_legislature
-			}
-		}
+		
 
-		"PRM" = {
-			minor = yes
-			history = "PRM_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				PRM_aryan_cult
-				PRM_aryan_control_3
-				PRM_aryan_schematics
-			}
-			focuses = {
-				PRM_AB_initial_beneath_cross
-				PRM_AB_initial_ubermensch
-				PRM_AB_initial_brotherhood
-			}
-		}
+	
 
-		"OMS" = {
-			minor = yes
-			history = "OMS_THENEWORDER_DESC"
-			ideology = ultranationalism
-			ideas = {
-				OMS_fueled_by_revenge
-				OMS_nothing_left_to_lose
-				OMS_karbyshev_figurehead
-			}
-			focuses = {
-				OMS_initial_last_days_of_comrade_karbyshev
-				OMS_initial_against_the_old_guard
-				OMS_initial_the_shield_of_the_motherland
-			}
-		}
+		
 		## RUSSIA ##
 
 		## CPS ##
@@ -495,53 +411,9 @@ bookmarks = {
 
 		## RUSSIA ##
 
-		"TYM" = {
-			minor = yes
-			history = "TYM_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				TYM_revisionist_remnant
-				TYM_unorthodox_bolshevism
-				RUS_ural_automotive_plant
-			}
-			focuses = {
-				TYM_holding_out
-				TYM_on_the_clock
-				TYM_off_the_clock
-			}
-		}
-
-		"SVR" = {
-			minor = yes
-			history = "SVR_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				SVR_notso_redarmy
-				SVR_black_league_influence_tier_1
-				SVR_revisionist_influence_tier_2
-			}
-			focuses = {
-				SVR_a_bastion_of_freedom
-				SVR_trust_the_marshal
-				SVR_cast_them_down
-			}
-		}
-
-		"KEM" = {
-			minor = yes
-			history = "KEM_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				KEM_esoteric_kingdom
-				KEM_the_two_wolves
-				KEM_kings_unions
-			}
-			focuses = {
-				KEM_reign_of_the_mad_king
-				KEM_prince_yuriys_ideals
-				KEM_princess_lydias_pragmatism
-			}
-		}
+		
+		
+		
 
 		"TOM" = {
 			minor = yes
@@ -559,37 +431,9 @@ bookmarks = {
 			}
 		}
 
-		"SBA" = {
-			minor = yes
-			history = "SBA_THENEWORDER_DESC"
-			ideology = socialist
-			ideas = {
-				SBA_anarchist_refuge
-				SBA_militarized_society
-				SBA_black_army_administration_2
-			}
-			focuses = {
-				SBA_intro_mother_anarchys_eldest_sons
-				SBA_intro_the_third_congress_of_tulun
-				SBA_intro_riding_on
-			}
-		}
+		
 
-		"NOV" = {
-			minor = yes
-			history = "NOV_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				NOV_Disproportionate_Population
-				NOV_The_All_Siberian_Army
-				RUS_novosibirsk_aircraft_plant
-			}
-			focuses = {
-				NOV_land_of_the_strong
-				NOV_the_champions_of_industry
-				NOV_the_soldiers_soviet
-			}
-		}
+		
 		## RUSSIA ##
 
 		## CPS ##
@@ -683,48 +527,11 @@ bookmarks = {
 
 		## RUSSIA ##
 
-		"IRK" = {
-			minor = yes
-			history = "IRK_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				IRK_bitter_remnant
-				IRK_yagodas_paranoia
-				RUS_irkutsk_hydro_station
-			}
-			focuses = {
-				IRK_mutiny_the_response
-				IRK_mutiny_an_ironclad_union
-				IRK_mutiny_the_union_forever
-			}
-		}
+		
 
-		"BRY" = {
-			minor = yes
-			history = "BRY_THENEWORDER_DESC"
-			ideology = socialist
-			ideas = {
-				BRY_uncertain_revolutionaries
-				BRY_ghost_of_bukharinism
-			}
-			focuses = {
-				BRY_the_spark
-				BRY_the_dreams_of_those_before
-				BRY_that_burns_the_tyrant_down
-			}
-		}
+		
 
-		"CHT" = {
-			minor = yes
-			history = "CHT_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
 
 		"MAG" = {
 			minor = yes
@@ -742,21 +549,7 @@ bookmarks = {
 			}
 		}
 
-		"AMR" = {
-			minor = yes
-			history = "AMR_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				RUS_heirs_of_harbin
-				AMR_rusfascist_stronghold
-				AMR_paranoid_vozhd_1
-			}
-			focuses = {
-				AMR_the_true_heir_of_harbin
-				AMR_god_nation_labor
-				AMR_rodzaevskys_paranoia
-			}
-		}
+		
 
 		"ZZZ" = { minor = yes history = "" }
 		## RUSSIA ##
