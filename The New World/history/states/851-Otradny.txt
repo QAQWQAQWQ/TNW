@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = MCW
+		owner = TAR
 		buildings = {
 			infrastructure = 1
 		}

@@ -22,7 +22,7 @@ state = {
 		victory_points = {
 			13397 20
 		}
-		add_core_of = FFR
+		add_core_of = FWA
 	}
 
 	provinces = {

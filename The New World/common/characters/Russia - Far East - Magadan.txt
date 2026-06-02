@@ -11,7 +11,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_ANATOLY_SOBCHAK_DESC"
 			expire = "2020.1.1"
-			ideology = fascism_corporate_statism_subtype
+			ideology = conservatism_paternalistic_conservatism_subtype
 			traits = {  }
 			id = -1
 		}

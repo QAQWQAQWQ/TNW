@@ -1,3 +1,7 @@
+SAU_arab = {
+	color = rgb { 76 121 90 }
+	color_ui = rgb { 76 121 90 }
+}
 PER_empire = {
 	color = rgb { 123 101 81 }
 	color_ui = rgb { 123 101 81 }
@@ -1932,6 +1936,15 @@ CAO_win = {
 }
 
 # CAO COLLAPSE #
+GAM_be = {
+	color = rgb { 94 114 88 }
+	color_ui = rgb { 94 114 88 }
+}
+NGA_pr = {
+	color = rgb { 98 119 94 }
+	color_ui = rgb { 98 119 94 }
+}
+
 CHF_unified = {
 	color = rgb { 153 0 0 }
 	color_ui = rgb { 153 0 0 }

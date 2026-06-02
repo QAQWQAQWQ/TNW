@@ -5,7 +5,7 @@ recruit_character = SAU_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 set_country_flag = ME_Nation
-
+set_cosmetic_tag = SAU_arab
 oob = "SAU_1962"
 set_air_oob = "SAU_1962_air"
 

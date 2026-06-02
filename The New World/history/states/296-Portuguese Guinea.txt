@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SUS
-		add_core_of = SUS
+		owner = GNB
+		add_core_of = GNB
 		set_state_flag = has_offshore_island
 		victory_points = {
 			12891 1

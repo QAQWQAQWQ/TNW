@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = MLI
+		owner = WFR
 		add_core_of = MLI
 		victory_points = {
 			14219 1

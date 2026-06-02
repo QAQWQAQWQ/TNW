@@ -1516,9 +1516,19 @@ JOL = {
 	color_ui = rgb { 100 120 120 }
 }
 GNB = {
-	color = rgb { 153 102 0 }
-	color_ui = rgb { 153 102 0 }
+	color = rgb { 124 124 86 }
+	color_ui = rgb { 124 124 86 }
 }
+GAM = {
+	color = rgb { 94 114 88 }
+	color_ui = rgb { 94 114 88 }
+}
+
+WFR = {
+	color = rgb { 110 110 140 }
+	color_ui = rgb { 110 110 140 }
+}
+
 MLI = {
 	color = rgb { 150 130 90 }
 	color_ui = rgb { 150 130 90 }

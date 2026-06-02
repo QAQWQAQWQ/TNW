@@ -391,7 +391,6 @@ USC = "countries/USA - Africa.txt"				# Central African Republic
 MAD = "countries/Africa.txt"					# Madagascar
 MDG = "countries/Germany - Africa.txt"			# Madagascar CW - Garrison
 MDM = "countries/Africa.txt"					# Madagascar CW - Anarchy
-
 UGD = "countries/Africa.txt"					# Uganda
 TOO = "countries/Africa.txt"					# Tooro - Stage 2 Fragment
 RWA = "countries/Africa.txt"					# Rwanda
@@ -456,15 +455,15 @@ OVB = "countries/Africa.txt"					# Ovamboland
 HRR = "countries/Africa.txt"					# Hereroland
 
 # /// West Africa /// #
+MLI = "countries/Africa.txt"
 CAO = "countries/Africa.txt"					# Cameroon
 FFR = "countries/West Europe.txt"				# Free France
 SUS = "countries/Africa.txt"					# Guinea
 WOL = "countries/Africa.txt"					# Senegal/Wolofia
-
+GAM = "countries/Africa.txt"
 JOL = "countries/Africa.txt"					# Casamance/Jola
 GNB = "countries/Africa.txt"					# Guinea-Bissau
 CPV = "countries/Africa.txt"					# Cabo Verde
-MLI = "countries/Africa.txt"					# Mali
 KAY = "countries/Africa.txt"					# Kayes Govenment
 IVO = "countries/Africa.txt"					# Ivory Coast
 BKF = "countries/Africa.txt"					# Haute-Volte/Mossiland
@@ -476,7 +475,6 @@ SWB = "countries/Africa.txt"					# Sawaba - PALF Ally
 EWE = "countries/Africa.txt"					# Ghana
 CPP = "countries/Africa.txt"					# Ghana - PALF CW Ally
 GBE = "countries/Africa.txt"					# Benin/Gbeland
-
 MDI = "countries/Africa.txt"					# Sierra Leone
 LIB = "countries/Africa.txt"					# Liberia
 

@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = KNM
+		owner = CAF
 		add_core_of = KAM
 		victory_points = {
 			2081 1

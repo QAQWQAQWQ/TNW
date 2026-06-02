@@ -1,4 +1,4 @@
-capital = 779
+capital = 1208
 
 # Vacant
 recruit_character = IVO_Generic_Vacant

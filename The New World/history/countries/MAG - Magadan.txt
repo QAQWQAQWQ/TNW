@@ -351,7 +351,7 @@ create_equipment_variant = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = conservatism
 	last_election = "1961.1.20"
 	election_frequency = 48
 	elections_allowed = no
@@ -360,15 +360,15 @@ set_politics = {
 set_popularities = {
 	communist = 0
 	ultranationalism = 0
-	national_socialism = 22
+	national_socialism = 0
 	socialist = 0
 	progressivism = 0
 	liberalism = 0
 
-	conservatism = 0
+	conservatism = 100
 	paternalism = 6
-	despotism = 8
-	fascism = 64
+	despotism =0
+	fascism = 0
 	
 }
 
