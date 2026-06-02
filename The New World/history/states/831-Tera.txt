@@ -3,7 +3,11 @@ state = {
 	name = "STATE_831"
 
 	history = {
+<<<<<<< Updated upstream
 		owner = IVO
+=======
+		owner = WFR
+>>>>>>> Stashed changes
 		add_core_of = HAU
 		victory_points = {
 			7950 1

@@ -8,7 +8,11 @@ state = { #Population Done
 	}
 
 	history = {
+<<<<<<< Updated upstream
 		owner = TAR
+=======
+		owner = MCW
+>>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 2
 			air_base = 2

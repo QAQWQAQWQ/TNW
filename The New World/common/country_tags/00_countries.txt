@@ -230,17 +230,6 @@ SPH = "countries/Asia.txt"						# AFRSR
 FGB = "countries/Japan - Overseas.txt"			# Firipin Gunseibu
 
 INS = "countries/Asia - Sphere.txt"				# Indonesia
-FRI = "countries/Asia - Sphere.txt"				# Free Indonesia
-SRB = "countries/Asia - Sphere.txt"				# Soerabaja
-MKS = "countries/Asia - Sphere.txt"				# Makassar
-BKB = "countries/Asia - Sphere.txt"				# Bukit Barisan
-DMP = "countries/Asia - Sphere.txt"				# Dewan Militer PRIM
-DMS = "countries/Asia - Sphere.txt"				# Dewan Militer Siliwangi
-PMT = "countries/Asia - Sphere.txt"				# Permesta
-SLS = "countries/Asia - Sphere.txt"				# Sulawesi Selatan
-NII = "countries/Asia - Sphere.txt"				# Negara Islam Indonesia
-ABD = "countries/Asia - Sphere.txt"				# Angkatan Bersendjata Demokrasi Rakjat
-JJK = "countries/Asia - Sphere.txt"				# Jogjakarta
 
 NRB = "countries/Japan - Overseas.txt"			# Nanpo Gunseikan
 SRK = "countries/Asia - Sphere.txt"				# Sarawak - Takagi Withdrawal
@@ -273,6 +262,7 @@ SIK = "countries/Asia.txt"						# Sikkim
 # /// West Russia /// #
 KOM = "countries/West Russia.txt"				# Komi
 TAR = "countries/West Russia.txt"				# Tatarstan
+<<<<<<< Updated upstream
 
 # /// Southern Urals /// #
 
@@ -282,6 +272,9 @@ TAR = "countries/West Russia.txt"				# Tatarstan
 TOM = "countries/Central Siberia.txt"			# Tomsk
 
 # /// Far East /// #
+=======
+TOM = "countries/Central Siberia.txt"			# Tomsk
+>>>>>>> Stashed changes
 MAG = "countries/Far East.txt"					# Magadan
 
 # /// Kazakhstan /// #
@@ -394,10 +387,20 @@ HRR = "countries/Africa.txt"					# Hereroland
 CAO = "countries/Africa.txt"					# Cameroon
 FFR = "countries/West Europe.txt"				# Free France
 SUS = "countries/Africa.txt"					# Guinea
+<<<<<<< Updated upstream
 WOL = "countries/Africa.txt"
 JOL = "countries/Africa.txt"
 GNB = "countries/Africa.txt"					
 MLI = "countries/Africa.txt"
+=======
+WOL = "countries/Africa.txt"					# Senegal/Wolofia
+
+JOL = "countries/Africa.txt"					# Casamance/Jola
+GNB = "countries/Africa.txt"					# Guinea-Bissau
+CPV = "countries/Africa.txt"					# Cabo Verde
+WFR = "countries/Africa.txt"
+MLI = "countries/Africa.txt"					# Mali
+>>>>>>> Stashed changes
 KAY = "countries/Africa.txt"					# Kayes Govenment
 IVO = "countries/Africa.txt"					# Ivory Coast
 BKF = "countries/Africa.txt"					# Haute-Volte/Mossiland		

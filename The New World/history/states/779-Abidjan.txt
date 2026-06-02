@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = IVO
+		owner = WFR
 		buildings = {
 			infrastructure = 3
 			air_base = 1

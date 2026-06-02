@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ideas ={
 
     country ={
@@ -43,4 +44,51 @@ ideas ={
   }
 
     }
+=======
+ideas ={
+
+    country ={
+
+    AOM_Thousands_of_Gold_and_Earth = {
+			allowed = {
+				original_tag = AOM
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_AOM_Thousands_of_Gold_and_Earth
+			modifier = {
+				stability_weekly = -0.001
+                gdp_growth_modifier = 0.5
+                inflation_rate_modifier = 2
+                income_taxation_policy_monthly_rate = 0.1
+			
+		}
+  }
+
+  AOM_Ease_Homesickness = {
+			allowed = {
+				original_tag = AOM
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_AOM_Ease_Homesickness
+			modifier = {
+				political_power_gain = -0.1
+                social_program_cost_factor = 0.1
+                admin_program_cost_factor = 0.1
+                drift_defence_factor = -0.1
+			
+		}
+  }
+
+    }
+>>>>>>> Stashed changes
 }

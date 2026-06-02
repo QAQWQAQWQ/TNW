@@ -6,7 +6,11 @@ state = {
 	}
 
 	history = {
+<<<<<<< Updated upstream
 		owner = TAR
+=======
+		owner = MCW
+>>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 1
 		}

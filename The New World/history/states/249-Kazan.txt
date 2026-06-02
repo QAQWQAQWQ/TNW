@@ -3,7 +3,11 @@ state = { #Population Done
 	name = "STATE_249"
 
 	history = {
+<<<<<<< Updated upstream
 		owner = TAR
+=======
+		owner = MCW
+>>>>>>> Stashed changes
 		buildings = {
 			schools = 1
 			hospitals = 1

@@ -6,7 +6,11 @@ state = {
 	}
 
 	history = {
+<<<<<<< Updated upstream
 		owner = IVO
+=======
+		owner = WFR
+>>>>>>> Stashed changes
 		add_core_of = MLI
 		victory_points = {
 			14219 1

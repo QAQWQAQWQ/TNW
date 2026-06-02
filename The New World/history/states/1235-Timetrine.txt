@@ -3,7 +3,11 @@ state = {
 	name = "STATE_1235"
 
 	history = {
+<<<<<<< Updated upstream
 		owner = IVO
+=======
+		owner = WFR
+>>>>>>> Stashed changes
 		add_core_of = AZW
 		buildings = {
 			infrastructure = 1

@@ -775,50 +775,6 @@ INS = {
 	color = rgb { 159 52 77 }
 	color_ui = rgb { 159 52 77 }
 }
-FRI = {
-	color = rgb { 42 98 162 }
-	color_ui = rgb { 42 98 162 }
-}
-SRB = {
-	color = rgb { 120 50 62 }
-	color_ui = rgb { 120 50 62 }
-}
-MKS = {
-	color = rgb { 140 77 88 }
-	color_ui = rgb { 140 77 88 }
-}
-BKB = {
-	color = rgb { 133 44 64 }
-	color_ui = rgb { 133 44 64 }
-}
-DMP = {
-	color = rgb { 11 71 160 }
-	color_ui = rgb { 11 71 160 }
-}
-DMS = {
-	color = rgb { 68 76 128 }
-	color_ui = rgb { 68 76 128 }
-}
-PMT = {
-	color = rgb { 71 146 193 }
-	color_ui = rgb { 71 146 193 }
-}
-SLS = {
-	color = rgb { 131 201 139 }
-	color_ui = rgb { 131 201 139 }
-}
-NII = {
-	color = rgb { 0 66 19 }
-	color_ui = rgb { 0 66 19 }
-}
-ABD = {
-	color = rgb { 255 22 69 }
-	color_ui = rgb { 255 22 69 }
-}
-JJK = {
-	color = rgb { 0 21 85 }
-	color_ui = rgb { 0 21 85 }
-}
 
 NRB = {
 	color = rgb { 145 49 73 }
@@ -848,6 +804,7 @@ TAR = {
 	color = rgb { 66 107 117 }
 	color_ui = rgb { 66 107 117 }
 }
+<<<<<<< Updated upstream
 
 ## Southern Urals ##
 
@@ -858,17 +815,25 @@ TAR = {
 
 ## Central Siberia ##
 
+=======
+>>>>>>> Stashed changes
 TOM = {
 	color = rgb { 84 114 69 }
 	color_ui = rgb { 84 114 69 }
 }
+<<<<<<< Updated upstream
 
 ## Far East ##
+=======
+>>>>>>> Stashed changes
 MAG = {
 	color = rgb { 202 198 178 }
 	color_ui = rgb { 202 198 178 }
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 ## Kazakhstan ##
 
@@ -1258,6 +1223,14 @@ GNB = {
 	color = rgb { 124 124 86 }
 	color_ui = rgb { 124 124 86 }
 }
+CPV = {
+	color = rgb { 1 56 147 }
+	color_ui = rgb { 1 56 147 }
+}
+WFR = {
+	color = rgb { 110 110 140 }
+	color_ui = rgb { 110 110 140 }
+}
 MLI = {
 	color = rgb { 150 130 90 }
 	color_ui = rgb { 150 130 90 }
@@ -1353,10 +1326,7 @@ CHF = {
 	color = rgb { 153 0 0 }
 	color_ui = rgb { 153 0 0 }
 }
-CPV = {
-	color = rgb { 1 56 147 }
-	color_ui = rgb { 1 56 147 }
-}
+
 
 ### MENA ###
 
