@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = WFR
+		owner = IVO
 		add_core_of = FFR
 		buildings = {
 			infrastructure = 1
