@@ -3,7 +3,7 @@ state = {
 	name = "STATE_836"
 
 	history = {
-		owner = WFR
+		owner = IVO
 		add_core_of = MLI
 		victory_points = { 14149 1 }
 		buildings = {
