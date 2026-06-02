@@ -3,11 +3,7 @@ state = {
 	name = "STATE_1540"
 
 	history = {
-<<<<<<< Updated upstream
-		owner = IVO
-=======
 		owner = WFR
->>>>>>> Stashed changes
 		add_core_of = MLI
 		victory_points = {
 			14145 3

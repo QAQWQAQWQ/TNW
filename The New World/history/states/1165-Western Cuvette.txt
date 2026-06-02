@@ -3,11 +3,7 @@ state = {
 	name = "STATE_1165"
 
 	history = {
-<<<<<<< Updated upstream
-		owner = CAF
-=======
 		owner = GAB
->>>>>>> Stashed changes
 		add_core_of = COG
 		set_state_flag = universal_renamings
 		victory_points = {

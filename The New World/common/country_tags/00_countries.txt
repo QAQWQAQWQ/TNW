@@ -262,19 +262,7 @@ SIK = "countries/Asia.txt"						# Sikkim
 # /// West Russia /// #
 KOM = "countries/West Russia.txt"				# Komi
 TAR = "countries/West Russia.txt"				# Tatarstan
-<<<<<<< Updated upstream
-
-# /// Southern Urals /// #
-
-# /// West Siberia /// #
-
-# /// Central Siberia /// #
 TOM = "countries/Central Siberia.txt"			# Tomsk
-
-# /// Far East /// #
-=======
-TOM = "countries/Central Siberia.txt"			# Tomsk
->>>>>>> Stashed changes
 MAG = "countries/Far East.txt"					# Magadan
 
 # /// Kazakhstan /// #
@@ -387,12 +375,6 @@ HRR = "countries/Africa.txt"					# Hereroland
 CAO = "countries/Africa.txt"					# Cameroon
 FFR = "countries/West Europe.txt"				# Free France
 SUS = "countries/Africa.txt"					# Guinea
-<<<<<<< Updated upstream
-WOL = "countries/Africa.txt"
-JOL = "countries/Africa.txt"
-GNB = "countries/Africa.txt"					
-MLI = "countries/Africa.txt"
-=======
 WOL = "countries/Africa.txt"					# Senegal/Wolofia
 
 JOL = "countries/Africa.txt"					# Casamance/Jola
@@ -400,7 +382,6 @@ GNB = "countries/Africa.txt"					# Guinea-Bissau
 CPV = "countries/Africa.txt"					# Cabo Verde
 WFR = "countries/Africa.txt"
 MLI = "countries/Africa.txt"					# Mali
->>>>>>> Stashed changes
 KAY = "countries/Africa.txt"					# Kayes Govenment
 IVO = "countries/Africa.txt"					# Ivory Coast
 BKF = "countries/Africa.txt"					# Haute-Volte/Mossiland		
