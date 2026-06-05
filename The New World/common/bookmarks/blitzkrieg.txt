@@ -10,16 +10,15 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 2002.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "BRA"
+		default_country = "CHI"
 		default = yes
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
-
-		#### MAJORS ####
-		# ROW 1 MAJOR #
+		
+		"ZZZ" = { history = "" }
 		"USA" = {
 			history = "USA_THENEWORDER_DESC"
 			ideology = conservatism
@@ -34,6 +33,7 @@ bookmarks = {
 				USA_Boxing_In_the_Sphere
 			}
 		}
+		"ZZZ" = { history = "" }
 
 		"GER" = {
 			history = "GER_THENEWORDER_DESC"
@@ -49,13 +49,11 @@ bookmarks = {
 				HGR_victory_tree
 			}
 		}
-
-		"USA" = { #For random country select
-			history = "USA_THENEWORDER_DESC"
+		"ZZZ" = { history = "" }
+		"ITA" = { #For random country select
+			history = "ITA_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				USA_last_bastion_of_liberty
-				USA_the_american_depression_4
 				
 			}
 			focuses = {
@@ -63,21 +61,7 @@ bookmarks = {
 			}
 		}
 
-		"GER" = { #For random country select
-			history = "GER_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				to_banish_want
-				the_two_principles
-				endsieg
-			}
-			focuses = {
-				BOR_der_wilde_ritt
-				SGR_doppeldenken
-				HGR_victory_tree
-			}
-		}
-
+		"ZZZ" = { history = "" }
 		"JAP" = {
 			history = "JAP_THENEWORDER_DESC"
 			ideology = fascism
@@ -88,9 +72,10 @@ bookmarks = {
 			
 			}
 		}
+		"ZZZ" = { history = "" }
 
-		"ITA" = {
-			history = "ITA_THENEWORDER_DESC"
+		"AST" = {
+			history = "AUS_THENEWORDER_DESC"
 			ideology = fascism
 			ideas = {
 				
@@ -99,9 +84,7 @@ bookmarks = {
 				
 			}
 		}
-		# ROW 1 MAJOR #
-
-		# ROW 2 MAJOR #
+		"ZZZ" = { history = "" }
 		"CAN" = {
 			history = ""
 			ideology = liberalism
@@ -109,6 +92,18 @@ bookmarks = {
 			focuses = {}
 		}
 		
+		
+		"FRA" = {
+			history = "FRA_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ZZZ" = { history = "" }
 		"ENG" = {
 			history = "ENG_THENEWORDER_DESC"
 			ideology = fascism
@@ -119,10 +114,7 @@ bookmarks = {
 				
 			}
 		}
-
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
-
+		
 		"CHI" = {
 			history = "CHI_THENEWORDER_DESC"
 			ideology = fascism
@@ -133,16 +125,13 @@ bookmarks = {
 				
 			}
 		}
-
-		"TUR" = {
-			history = ""
-			ideology = paternalism
+		"MAN" = {
+			history = "MAN_THENEWORDER_DESC"
+			ideology = fascism
 		}
-		# ROW 2 MAJOR #
-		
-		# ROW 3 MAJOR #
-		"BRA" = {
-			history = "BRA_THENEWORDER_DESC"
+
+		"THA" = {
+			history = "THA_THENEWORDER_DESC"
 			ideology = liberalism
 			ideas = {
 				BRA_the_populist_republic
@@ -153,32 +142,6 @@ bookmarks = {
 				BRA_vargass_true_successor
 				BRA_Fireworks_in_Rio
 				BRA_new_tools_greatest_manager
-			}
-		}
-
-		"FRS" = {
-			history = ""
-			ideology = fascism
-		}
-
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
-
-		"MAN" = {
-			history = ""
-			ideology = fascism
-			ideas = {}
-			focuses = {}
-		}
-
-		"SPA" = {
-			history = "SPA_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				
-			}
-			focuses = {
-				
 			}
 		}
 		# ROW 3 MAJOR #

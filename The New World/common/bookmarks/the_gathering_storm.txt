@@ -1,25 +1,24 @@
 bookmarks = {
 
-	##########################################################
-	##### DON'T DELETE THIS, ALSO EDIT IN blitzkrieg.txt #####
-	##### DON'T DELETE THIS, ALSO EDIT IN blitzkrieg.txt #####
-	##########################################################
+	###################################################################
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	###################################################################
 
 	bookmark = {
 		name = "THENEWORDER_NAME"
 		desc = "THENEWORDER_DESC"
 		date = 2002.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "AAO"
+		default_country = "CHI"
 		default = yes
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
-
-		#### MAJORS ####
-		# ROW 1 MAJOR #
+		
+		"ZZZ" = { history = "" }
 		"USA" = {
 			history = "USA_THENEWORDER_DESC"
 			ideology = conservatism
@@ -34,6 +33,7 @@ bookmarks = {
 				USA_Boxing_In_the_Sphere
 			}
 		}
+		"ZZZ" = { history = "" }
 
 		"GER" = {
 			history = "GER_THENEWORDER_DESC"
@@ -49,37 +49,19 @@ bookmarks = {
 				HGR_victory_tree
 			}
 		}
-
-		"USA" = { #For random country select
-			history = "USA_THENEWORDER_DESC"
+		"ZZZ" = { history = "" }
+		"ITA" = { #For random country select
+			history = "ITA_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				USA_last_bastion_of_liberty
-				USA_the_american_depression_4
-				USA_jim_crow
+				
 			}
 			focuses = {
-				USA_the_nixon_presidency
-				USA_the_civil_rights_dillema
-				USA_Boxing_In_the_Sphere
+				
 			}
 		}
 
-		"GER" = { #For random country select
-			history = "GER_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				to_banish_want
-				the_two_principles
-				endsieg
-			}
-			focuses = {
-				BOR_der_wilde_ritt
-				SGR_doppeldenken
-				HGR_victory_tree
-			}
-		}
-
+		"ZZZ" = { history = "" }
 		"JAP" = {
 			history = "JAP_THENEWORDER_DESC"
 			ideology = fascism
@@ -87,12 +69,13 @@ bookmarks = {
 				
 			}
 			focuses = {
-				
+			
 			}
 		}
+		"ZZZ" = { history = "" }
 
-		"ITA" = {
-			history = "ITA_THENEWORDER_DESC"
+		"AST" = {
+			history = "AUS_THENEWORDER_DESC"
 			ideology = fascism
 			ideas = {
 				
@@ -101,9 +84,7 @@ bookmarks = {
 				
 			}
 		}
-		# ROW 1 MAJOR #
-
-		# ROW 2 MAJOR #
+		"ZZZ" = { history = "" }
 		"CAN" = {
 			history = ""
 			ideology = liberalism
@@ -111,6 +92,18 @@ bookmarks = {
 			focuses = {}
 		}
 		
+		
+		"FRA" = {
+			history = "FRA_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ZZZ" = { history = "" }
 		"ENG" = {
 			history = "ENG_THENEWORDER_DESC"
 			ideology = fascism
@@ -121,10 +114,7 @@ bookmarks = {
 				
 			}
 		}
-
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
-
+		
 		"CHI" = {
 			history = "CHI_THENEWORDER_DESC"
 			ideology = fascism
@@ -135,52 +125,23 @@ bookmarks = {
 				
 			}
 		}
-
-		"TUR" = {
-			history = ""
-			ideology = paternalism
+		"MAN" = {
+			history = "MAN_THENEWORDER_DESC"
+			ideology = fascism
 		}
-		# ROW 2 MAJOR #
-		
-		# ROW 3 MAJOR #
-		"BRA" = {
-			history = "BRA_THENEWORDER_DESC"
+
+		"THA" = {
+			history = "THA_THENEWORDER_DESC"
 			ideology = liberalism
 			ideas = {
-				BRA_idea_rampant_corruption
-				BRA_rapid_industrialisation
+				BRA_the_populist_republic
 				BRA_overbearing_military
+				BRA_idea_Lobster_conflict
 			}
 			focuses = {
 				BRA_vargass_true_successor
 				BRA_Fireworks_in_Rio
 				BRA_new_tools_greatest_manager
-			}
-		}
-
-		"FRS" = {
-			history = ""
-			ideology = fascism
-		}
-
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
-
-		"MAN" = {
-			history = ""
-			ideology = fascism
-			ideas = {}
-			focuses = {}
-		}
-
-		"SPA" = {
-			history = "SPA_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				
-			}
-			focuses = {
-				
 			}
 		}
 		# ROW 3 MAJOR #
@@ -285,20 +246,33 @@ bookmarks = {
 
 		## RUSSIA ##
 		
-
 		
 
 		
 
-		
+		"KOM" = {
+			minor = yes
+			history = "KOM_THENEWORDER_DESC"
+			ideology = progressivism
+			ideas = {
+				KOM_syvtyvkartsi
+				KOM_clash_of_shadows_c_1
+				RUS_syktyvkar_arsenal
+			}
+			focuses = {
+				KOM_the_last_years_of_the_voznesentsi
+				KOM_something_wicked_this_way_comes
+				KOM_the_affairs_of_the_legislature
+			}
+		}
 
-	
+		
 
 		
 		## RUSSIA ##
 
 		## CPS ##
-		"GNG" = {
+		"HKC" = {
 			minor = yes
 			history = "GNG_THENEWORDER_DESC"
 			ideology = fascism
@@ -312,19 +286,15 @@ bookmarks = {
 
 		"ZZZ" = { minor = yes history = "" }
 
-		"YUN" = {
+		"AOM" = {
 			minor = yes
 			history = "YUN_THENEWORDER_DESC"
 			ideology = despotism
 			ideas = {
-				#YUN_bandit_holdouts
-				YUN_hidden_potential_0
-				YUN_army_of_the_southwest
+				
 			}
 			focuses = {
-				YUN_evict_he_yingqin
-				YUN_xinan_insurgency
-				YUN_we_are_not_enemies
+				
 			}
 		}
 		## CPS ##
@@ -412,6 +382,7 @@ bookmarks = {
 		## RUSSIA ##
 
 		
+
 		
 		
 
@@ -431,9 +402,6 @@ bookmarks = {
 			}
 		}
 
-		
-
-		
 		## RUSSIA ##
 
 		## CPS ##
@@ -532,7 +500,6 @@ bookmarks = {
 		
 
 		
-
 		"MAG" = {
 			minor = yes
 			history = "MAG_THENEWORDER_DESC"
@@ -549,7 +516,6 @@ bookmarks = {
 			}
 		}
 
-		
 
 		"ZZZ" = { minor = yes history = "" }
 		## RUSSIA ##
@@ -557,7 +523,7 @@ bookmarks = {
 		## CPS ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"AAJ" = {
+		"MEN" = {
 			minor = yes
 			history = "AAJ_THENEWORDER_DESC"
 			ideology = despotism
