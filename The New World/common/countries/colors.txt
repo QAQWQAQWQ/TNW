@@ -910,8 +910,8 @@ CFS = {
 	color_ui = rgb { 0 78 159 }
 }
 CAF = {
-	color = rgb { 98 105 143 }
-	color_ui = rgb { 98 105 143 }
+	color = rgb { 71 103 104 }
+	color_ui = rgb { 71 103 104 }
 }
 AZD = {
 	color = rgb { 182 163 10 }
@@ -1058,11 +1058,16 @@ CMR = {
 	color = rgb { 83 119 109 }
 	color_ui = rgb { 83 119 109 }
 }
+EAF = {
+	color = rgb { 93 147 116 }
+	color_ui = rgb { 93 147 116 }
+}
+
 
 ## Horn of Africa ##
 IEA = {
-	color = rgb { 114 138 97 }
-	color_ui = rgb { 114 138 97 }
+	color = rgb { 116 138 97 }
+	color_ui = rgb { 116 138 97 }
 }
 COR = {
 	color = rgb { 83 118 158 }
@@ -1228,8 +1233,8 @@ CPV = {
 	color_ui = rgb { 1 56 147 }
 }
 WFR = {
-	color = rgb { 110 110 140 }
-	color_ui = rgb { 110 110 140 }
+	color = rgb { 64 88 134 }
+	color_ui = rgb { 64 88 134 }
 }
 MLI = {
 	color = rgb { 150 130 90 }

@@ -6,7 +6,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = PAL
+		owner = ITA
 		victory_points = { 14453 5 }
 		buildings = {
 			infrastructure = 3

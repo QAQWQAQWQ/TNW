@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TNZ
+		owner = EAF
 		buildings = {
 			infrastructure = 2
 		}

@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = UGD
+		owner = EAF
 		add_core_of = UGD
 		victory_points = {
 			12989 10

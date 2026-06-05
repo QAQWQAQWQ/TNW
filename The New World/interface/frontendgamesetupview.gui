@@ -766,7 +766,7 @@ guiTypes = {
 		# Visual Cover
 		iconType = {
 			name = "countries_cover"
-			position = { x = 2 y = 37 }
+			position = { x = 10000 y = 37 }
 			spriteType = "GFX_countries_cover"
 			#alwaystransparent = yes
 		}

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1080"
 
 	history = {
-		owner = TNZ
+		owner = EAF
 		add_core_of = FMF
 		buildings = {
 			schools = 1

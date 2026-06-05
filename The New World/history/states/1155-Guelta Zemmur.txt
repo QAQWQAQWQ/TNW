@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1155"
 
 	history = {
-		owner =  MOR
+		owner =  WFR
 		add_core_of = IBR
 		add_core_of = MOR
 		buildings = {

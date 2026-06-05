@@ -1,3 +1,7 @@
+EGY_Italiana = {
+	color = rgb { 137 187 120 }
+	color_ui = rgb { 137 187 120 }
+}
 SAU_arab = {
 	color = rgb { 76 121 90 }
 	color_ui = rgb { 76 121 90 }

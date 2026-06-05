@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1117"
 
 	history = {
-		owner = ORM
+		owner = IEA
 		add_core_of = ORM
 		victory_points = {
 			7912 3

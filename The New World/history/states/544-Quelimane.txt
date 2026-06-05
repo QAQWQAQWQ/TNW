@@ -3,7 +3,7 @@ state = {
 	name = "STATE_544"
 
 	history = {
-		owner = GAZ
+		owner = EAF
 		buildings = {
 			offices = 2
 			prisons = 2

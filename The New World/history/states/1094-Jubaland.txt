@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = SML
+		owner = IEA
 		add_core_of = SML
 		buildings = {
 			infrastructure = 1

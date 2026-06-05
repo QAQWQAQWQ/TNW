@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1109"
 
 	history = {
-		owner = ERT
+		owner = IEA
 		add_core_of = ERT
 		victory_points = { 15555 20 }
 		buildings = {

@@ -9,7 +9,7 @@ recruit_character = EGY_Regency_Council
 recruit_character = EGY_Muhammad_Abdel_Moneim
 recruit_character = EGY_Adalberto_Genova
 recruit_character = EGY_Anwar_Sadat
-
+set_cosmetic_tag = EGY_Italiana
 set_country_flag = ME_Nation
 
 oob = "EGY_1962"

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1084"
 
 	history = {
-		owner = TNZ
+		owner = EAF
 		add_core_of = TNZ
 		buildings = {
 			infrastructure = 2

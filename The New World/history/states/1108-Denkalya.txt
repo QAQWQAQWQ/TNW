@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1108"
 
 	history = {
-		owner = ERT
+		owner = IEA
 		add_core_of = ERT
 		set_state_flag = has_offshore_island
 		victory_points = { 8043 3 }

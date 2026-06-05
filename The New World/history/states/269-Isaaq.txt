@@ -3,7 +3,7 @@ state = {
 	name = "STATE_269"
 
 	history = {
-		owner = SML
+		owner = IEA
 		buildings = {
 			infrastructure = 2
 			air_base = 1

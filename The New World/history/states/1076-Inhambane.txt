@@ -8,7 +8,7 @@ state = { #Population Done
 		2193 5177 5212 13675 15382
 	}
 	history = {
-		owner = GAZ
+		owner = EAF
 		add_core_of = GZO
 		victory_points = { 15382 2 }
 		victory_points = { 2193 1 }

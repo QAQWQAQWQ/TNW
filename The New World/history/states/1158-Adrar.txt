@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner =  MOR
+		owner =  WFR
 		add_claim_by = TRZ
 		add_core_of = IBR
 		add_claim_by = MOR

@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ETB
+		owner = IEA
 		add_core_of = ETB
 		victory_points = { 5010 30 }
 		buildings = {

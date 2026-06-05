@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TNZ
+		owner = EAF
 		add_core_of = ZZS
 		buildings = {
 			offices = 1

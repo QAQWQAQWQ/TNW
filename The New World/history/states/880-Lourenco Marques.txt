@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = GAZ
+		owner = EAF
 		add_core_of = GZO
 		victory_points = {
 			8245 15

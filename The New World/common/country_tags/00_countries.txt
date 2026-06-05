@@ -330,6 +330,7 @@ GZS = "countries/Africa.txt"					# Republic of Mozambique - Simango CW
 RMB = "countries/Africa.txt"					# Nyasaland
 BMB = "countries/Africa.txt"					# Bemba - Stage 3 Fragment
 CMR = "countries/Africa.txt"					# Comoros
+EAF = "countries/Africa.txt"	                #East African Federation
 
 # /// Horn of Africa /// #
 IEA = "countries/Italy - Overseas.txt"			# Italian East Africa
