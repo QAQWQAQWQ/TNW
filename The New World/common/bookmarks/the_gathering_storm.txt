@@ -151,10 +151,9 @@ bookmarks = {
 		#### MINORS ####
 		### ROW 1 ###
 		# Buffer
-		"ZZZ" = { minor = yes history = "" }
 
 		## OFN ##
-		"CHL" = {
+		"NZL" = {
 			minor = yes
 			history = ""
 			ideology = liberal_conservatism
@@ -162,43 +161,42 @@ bookmarks = {
 			focuses = {}
 		}
 
-		"MEX" = {
+		"ICE" = {
 			minor = yes
-			history = "MEX_THENEWORDER_DESC"
+			history = ""
+			ideology = liberal_conservatism
+			ideas = {}
+			focuses = {}
+		}
+
+		"FFR" = {
+			minor = yes
+			history = "FFR_THENEWORDER_DESC"
 			ideology = paternalism
 			ideas = {
-				MEX_the_imperfect_dictatorship_initial
-				MEX_mexican_miracle_startscreen
-				MEX_the_leviathan_4
+				
 			}
 			focuses = {
-				MEX_visiting_the_east
-				MEX_the_olympic_dream
-				MEX_a_friendly_visit
+				
 			}
 		}
 
-		"SAF" = {
+		"VEN" = {
 			minor = yes
-			history = "SAF_THENEWORDER_DESC"
+			history = "VEN_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				SAF_The_Empty_Throne
-				SAF_Desperate_Neutrality
-				SAF_Divided_Nation
+				
 			}
 			focuses = {
-				SAF_maintain_the_status_quo
-				SAF_south_africas_situation
-				SAF_the_african_national_congress
+				
 			}
 		}
 
-		## OFN ##
+		## OFN - 2##
 
-		## PAKT ##
 
-		"IRE" = {
+		"MEX" = {
 			minor = yes
 			history = "IRE_THENEWORDER_DESC"
 			ideology = paternalism
@@ -214,9 +212,9 @@ bookmarks = {
 			}
 		}
 
-		"UKR" = {
+		"LIB" = {
 			minor = yes
-			history = "UKR_THENEWORDER_DESC"
+			history = "LIB_THENEWORDER_DESC"
 			ideology = national_socialism
 			ideas = {
 				
@@ -226,7 +224,7 @@ bookmarks = {
 			}
 		}
 
-		"BRG" = {
+		"MCW" = {
 			minor = yes
 			history = "BRG_THENEWORDER_DESC"
 			ideology = national_socialism
@@ -318,87 +316,80 @@ bookmarks = {
 
 		## OFN ##
 		"ZZZ" = { minor = yes history = "" }
+		## OFN - 3##
 
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
-		## OFN ##
-
-		## PAKT ##
-
-		"ANG" = {
+		"CFS" = {
 			minor = yes
-			history = "ANG_THENEWORDER_DESC"
-			ideology = national_socialism
-
+			history = "CFS_THENEWORDER_DESC"
+			ideology = despotism
 			ideas = {
-				ANG_Afrikaner_Airstrip
-				ANG_Away_In_The_Clouds
-				ANG_Incoherent_Bookkeeping
+				
 			}
 			focuses = {
-				ANG_the_air_empire
-				ANG_keepingourheadsdown
-				ANG_pushforabettertomorrow
+				
 			}
 		}
 
-		"COG" = {
+		"WOL" = {
 			minor = yes
-			history = "COG_THENEWORDER_DESC"
-			ideology = national_socialism
-
+			history = "WOL_THENEWORDER_DESC"
+			ideology = despotism
 			ideas = {
-				COG_Heart_Of_Afrika_7
-				COG_Hands_Off_Administration
-				COG_Soldiers_Of_Fortune
+				
 			}
 			focuses = {
-				COG_the_pride_of_afrika
-				COG_a_corporate_empire
-				COG_the_safari_beckons
+				
 			}
 		}
 
-		"GRO" = {
+		"CAF" = {
 			minor = yes
-			history = "GRO_THENEWORDER_DESC"
+			history = "CAF_THENEWORDER_DESC"
 			ideology = national_socialism
 
 			ideas = {
-				GRO_Just_Another_Camp
-				GRO_Aryan_Only_SS
-				GRO_The_Unending_War
+				
 			}
 			focuses = {
-				GRO_the_guardians_of_afrika
-				GRO_prepare_the_werewolves
-				GRO_be_happy_or_else
+				
 			}
 		}
 
-		## PAKT ##
-
-		## RUSSIA ##
-
-		
-
-		
-		
-
-		"TOM" = {
+		"MDI" = {
 			minor = yes
-			history = "TOM_THENEWORDER_DESC"
+			history = "MDI_THENEWORDER_DESC"
+			ideology = national_socialism
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"SUS" = {
+			minor = yes
+			history = "SUS_THENEWORDER_DESC"
+			ideology = national_socialism
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"EWE" = {
+			minor = yes
+			history = "EWE_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				TOM_formation_of_the_salons
-				TOM_warlord_of_the_city
-				TOM_provisional_government
+				
 			}
 			focuses = {
-				TOM_the_first_draft
-				TOM_the_legacy_of_white_russia
-				TOM_the_death_of_the_author
+				
 			}
 		}
 

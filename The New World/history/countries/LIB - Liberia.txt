@@ -1,5 +1,5 @@
 capital = 298
-
+load_focus_tree = ZZZ_national_focus
 recruit_character = LIB_William_Tubman
 recruit_character = LIB_William_Tolbert
 recruit_character = LIB_Joseph_Rudolph_Grimes

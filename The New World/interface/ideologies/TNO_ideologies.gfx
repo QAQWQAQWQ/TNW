@@ -1,5 +1,10 @@
 spriteTypes = {
 	#TNW ICON#
+
+	spriteType = {
+		name = "GFX_ideology_despotism_Postcolonial_Elitism_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_Postcolonial_Elitism_subtype.png"
+	}
 	spriteType = {
 		name = "GFX_ideology_despotism_Three_People_Principles_subtype"
 		texturefile = "gfx/interface/ideologies/despotism_Three_People_Principles_subtype.png"

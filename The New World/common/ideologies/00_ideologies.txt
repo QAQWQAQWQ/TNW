@@ -161,6 +161,7 @@ ideologies = {
 	despotism = {
 		types = {
 			despotism_subtype = {}
+			despotism_Postcolonial_Elitism_subtype = { can_be_randomly_selected = no }
 
             despotism_Three_People_Principles_subtype = { can_be_randomly_selected = no }
 			despotism_Pan_Asian_Three_People_Principles_subtype = { can_be_randomly_selected = no }

@@ -1,5 +1,5 @@
 capital = 751
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = SHO_Generic_Vacant
 add_manpower = 100000

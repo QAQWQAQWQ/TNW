@@ -1,6 +1,11 @@
 spriteTypes = {
 
-
+    #ideology
+	spriteType = {
+		name = "GFX_afr_Postcolonial_Elitism"
+		texturefile = "gfx/texticons/ideology/afr_Postcolonial_Elitism.png"
+		legacy_lazy_load = no
+	}
 	#CHI_HKCANDAOM
 	spriteType = {
 		name = "GFX_kmt_party"

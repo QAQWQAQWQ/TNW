@@ -1,5 +1,5 @@
 capital = 1013
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 
 

@@ -1,5 +1,5 @@
 capital = 828
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = SUS_Generic_Vacant
 

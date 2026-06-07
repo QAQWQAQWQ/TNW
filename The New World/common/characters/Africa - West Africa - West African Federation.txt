@@ -1,0 +1,18 @@
+
+characters = {
+ WFR_Henri_konan = {
+		name = WFR_Henri_konan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WFR/Portrait_WFR_Henri_konan.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HENRI_KONAN_DESC"
+			ideology = despotism_Postcolonial_Elitism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

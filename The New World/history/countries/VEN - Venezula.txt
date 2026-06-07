@@ -1,5 +1,6 @@
 capital = 307
-
+load_focus_tree = ZZZ_national_focus
+set_country_flag = tno_playable_country
 #GDP Regional distribution
 set_country_flag = GDP_regions
 

@@ -1,6 +1,6 @@
-capital = 834
+capital = 779
   # Vacant
- recruit_character = WFR_Generic_Vacant
+ recruit_character = WFR_Henri_konan
  add_ideas = {
 
 

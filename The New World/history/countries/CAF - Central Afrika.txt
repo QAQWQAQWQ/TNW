@@ -1,5 +1,5 @@
 capital = 538
-
+load_focus_tree = ZZZ_national_focus
 recruit_character = CAF_David_Dacko
 recruit_character = CAF_Abel_Goumba
 

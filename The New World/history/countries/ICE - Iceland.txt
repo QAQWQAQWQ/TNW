@@ -1,4 +1,6 @@
 capital = 100 #Iceland
+load_focus_tree = ZZZ_national_focus
+set_country_flag = tno_playable_country
 
 recruit_character = ICE_Olafur_Thors
 recruit_character = ICE_Bjarni_Benediktsson

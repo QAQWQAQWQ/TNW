@@ -1,5 +1,5 @@
 capital = 111
-
+load_focus_tree = ZZZ_national_focus
 oob = "FIN_1962"
 set_naval_oob = "FIN_1962_naval"
 set_air_oob = "FIN_1962_air"

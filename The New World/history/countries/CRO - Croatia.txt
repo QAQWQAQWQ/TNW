@@ -1,5 +1,5 @@
 capital = 109
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = CRO_Generic_Vacant
 fill_empty_minister_nochecks = yes

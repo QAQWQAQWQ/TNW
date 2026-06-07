@@ -1,5 +1,5 @@
 capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = LAO_Generic_Vacant
 

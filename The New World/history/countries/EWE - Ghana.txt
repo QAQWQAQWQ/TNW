@@ -1,5 +1,5 @@
 capital = 827
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = EWE_Generic_Vacant
 set_cosmetic_tag = EWE_EWE

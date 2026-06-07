@@ -151,10 +151,9 @@ bookmarks = {
 		#### MINORS ####
 		### ROW 1 ###
 		# Buffer
-		"ZZZ" = { minor = yes history = "" }
 
 		## OFN ##
-		"CHL" = {
+		"NZL" = {
 			minor = yes
 			history = ""
 			ideology = liberal_conservatism
@@ -162,43 +161,41 @@ bookmarks = {
 			focuses = {}
 		}
 
-		"MEX" = {
+		"ICE" = {
 			minor = yes
-			history = "MEX_THENEWORDER_DESC"
+			history = ""
+			ideology = liberal_conservatism
+			ideas = {}
+			focuses = {}
+		}
+
+		"FFR" = {
+			minor = yes
+			history = "FFR_THENEWORDER_DESC"
 			ideology = paternalism
 			ideas = {
-				MEX_the_imperfect_dictatorship_initial
-				MEX_mexican_miracle_startscreen
-				MEX_the_leviathan_4
+				
 			}
 			focuses = {
-				MEX_visiting_the_east
-				MEX_the_olympic_dream
-				MEX_a_friendly_visit
+				
 			}
 		}
 
-		"SAF" = {
+		"VEN" = {
 			minor = yes
-			history = "SAF_THENEWORDER_DESC"
+			history = "VEN_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				SAF_The_Empty_Throne
-				SAF_Desperate_Neutrality
-				SAF_Divided_Nation
+				
 			}
 			focuses = {
-				SAF_maintain_the_status_quo
-				SAF_south_africas_situation
-				SAF_the_african_national_congress
+				
 			}
 		}
 
-		## OFN ##
+		## OFN -  2 ##
 
-		## PAKT ##
-
-		"IRE" = {
+		"MEX" = {
 			minor = yes
 			history = "IRE_THENEWORDER_DESC"
 			ideology = paternalism
@@ -214,9 +211,9 @@ bookmarks = {
 			}
 		}
 
-		"UKR" = {
+		"LIB" = {
 			minor = yes
-			history = "UKR_THENEWORDER_DESC"
+			history = "LIB_THENEWORDER_DESC"
 			ideology = national_socialism
 			ideas = {
 				
@@ -226,55 +223,36 @@ bookmarks = {
 			}
 		}
 
-		"BRG" = {
+		"MCW" = {
 			minor = yes
-			history = "BRG_THENEWORDER_DESC"
+			history = "MCW_THENEWORDER_DESC"
 			ideology = national_socialism
 			ideas = {
-				BRG_the_shadow_state
-				BRG_purge_the_rot
-				BRG_the_three_realms
+				
 			}
 			focuses = {
-				BRG_unter_der_schwarzen_sonne
-				BRG_a_wise_leader
-				BRG_the_last_hope_for_germania
+				
 			}
 		}
 
 		## PAKT ##
 
-		## RUSSIA ##
-		
-		
-
-		
-
-		"KOM" = {
+		"SPR" = {
 			minor = yes
-			history = "KOM_THENEWORDER_DESC"
+			history = "SPR_THENEWORDER_DESC"
 			ideology = progressivism
 			ideas = {
-				KOM_syvtyvkartsi
-				KOM_clash_of_shadows_c_1
-				RUS_syktyvkar_arsenal
+				
 			}
 			focuses = {
-				KOM_the_last_years_of_the_voznesentsi
-				KOM_something_wicked_this_way_comes
-				KOM_the_affairs_of_the_legislature
+				
 			}
 		}
 
-		
 
-		
-		## RUSSIA ##
-
-		## CPS ##
-		"HKC" = {
+		"ROM" = {
 			minor = yes
-			history = "GNG_THENEWORDER_DESC"
+			history = "ROM_THENEWORDER_DESC"
 			ideology = fascism
 			ideas = {
 				
@@ -284,11 +262,21 @@ bookmarks = {
 			}
 		}
 
-		"ZZZ" = { minor = yes history = "" }
-
-		"AOM" = {
+		"FIN" = {
 			minor = yes
-			history = "YUN_THENEWORDER_DESC"
+			history = "FIN_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"BUL" = {
+			minor = yes
+			history = "BUL_THENEWORDER_DESC"
 			ideology = despotism
 			ideas = {
 				
@@ -300,125 +288,109 @@ bookmarks = {
 		## CPS ##
 
 		## TRIUM ##
-		"ZZZ" = { minor = yes history = "" }
+		"VIN" = { minor = yes history = "" }
 
-		"GRE" = { minor = yes history = "" }
+		"PHI" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
+		"CAM" = { minor = yes history = "" }
 
-		## TRIUM ##
+		"LAO" = { minor = yes history = "" }
+		
+		"SHO" = { minor = yes history = "" }
 
-		# Buffer
-		"ZZZ" = { minor = yes history = "" }
-		### ROW 1 ###
+		"BUR" = { minor = yes history = "" }
+		## OFN - 3##
 
-		### ROW 2 ###
-		# Buffer
-		"ZZZ" = { minor = yes history = "" }
-
-		## OFN ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
-		## OFN ##
-
-		## PAKT ##
-
-		"ANG" = {
+		"CFS" = {
 			minor = yes
-			history = "ANG_THENEWORDER_DESC"
-			ideology = national_socialism
-
+			history = "CFS_THENEWORDER_DESC"
+			ideology = despotism
 			ideas = {
-				ANG_Afrikaner_Airstrip
-				ANG_Away_In_The_Clouds
-				ANG_Incoherent_Bookkeeping
+				
 			}
 			focuses = {
-				ANG_the_air_empire
-				ANG_keepingourheadsdown
-				ANG_pushforabettertomorrow
+				
 			}
 		}
 
-		"COG" = {
+		"WOL" = {
 			minor = yes
-			history = "COG_THENEWORDER_DESC"
-			ideology = national_socialism
-
+			history = "WOL_THENEWORDER_DESC"
+			ideology = despotism
 			ideas = {
-				COG_Heart_Of_Afrika_7
-				COG_Hands_Off_Administration
-				COG_Soldiers_Of_Fortune
+				
 			}
 			focuses = {
-				COG_the_pride_of_afrika
-				COG_a_corporate_empire
-				COG_the_safari_beckons
+				
 			}
 		}
 
-		"GRO" = {
+		"CAF" = {
 			minor = yes
-			history = "GRO_THENEWORDER_DESC"
+			history = "CAF_THENEWORDER_DESC"
 			ideology = national_socialism
 
 			ideas = {
-				GRO_Just_Another_Camp
-				GRO_Aryan_Only_SS
-				GRO_The_Unending_War
+				
 			}
 			focuses = {
-				GRO_the_guardians_of_afrika
-				GRO_prepare_the_werewolves
-				GRO_be_happy_or_else
+				
 			}
 		}
 
-		## PAKT ##
-
-		## RUSSIA ##
-
-		
-
-		
-		
-
-		"TOM" = {
+		"MDI" = {
 			minor = yes
-			history = "TOM_THENEWORDER_DESC"
+			history = "MDI_THENEWORDER_DESC"
+			ideology = national_socialism
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"SUS" = {
+			minor = yes
+			history = "SUS_THENEWORDER_DESC"
+			ideology = national_socialism
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"EWE" = {
+			minor = yes
+			history = "EWE_THENEWORDER_DESC"
 			ideology = conservatism
 			ideas = {
-				TOM_formation_of_the_salons
-				TOM_warlord_of_the_city
-				TOM_provisional_government
+				
 			}
 			focuses = {
-				TOM_the_first_draft
-				TOM_the_legacy_of_white_russia
-				TOM_the_death_of_the_author
+				
 			}
 		}
 
 		## RUSSIA ##
 
-		## CPS ##
-		"ZZZ" = { minor = yes history = "" }
+		##PAKT - 3 ##
+		"POR" = { minor = yes history = "POR_THENEWORDER_DESC" }
+
+		"HUN" = { minor = yes history = "HUN_THENEWORDER_DESC" }
+
+		"PER" = { minor = yes history = "PER_THENEWORDER_DESC" }
+	
+		"DEN" = { minor = yes history = "DEN_THENEWORDER_DESC" }
+
+		"SER" = { minor = yes history = "SER_THENEWORDER_DESC" }
 
 		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
-		## CPS ##
-
-		## TRIUM ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"ARG" = { minor = yes history = "ARG_THENEWORDER_DESC" }
-
-		"ZZZ" = { minor = yes history = "" }
-		## TRIUM ##
+	
 
 		# Buffer
 		"ZZZ" = { minor = yes history = "" }
@@ -523,41 +495,67 @@ bookmarks = {
 		## CPS ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"MEN" = {
+		"SLO" = {
 			minor = yes
-			history = "AAJ_THENEWORDER_DESC"
+			history = "SLO_THENEWORDER_DESC"
 			ideology = despotism
 			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAJ_Nobu_Shirase_Land
-				AAJ_Nissui
+				
 			}
 			focuses = {
 
 			}
 		}
 
-		"ZZZ" = { minor = yes history = "" }
-		## CPS ##
-
-		## TRIUM ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"AAA" = {
+		"GRE" = {
 			minor = yes
-			history = "AAA_THENEWORDER_DESC"
+			history = "GRE_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"NOR" = {
+			minor = yes
+			history = "SLO_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		
+
+		"IRE" = {
+			minor = yes
+			history = "IRE_THENEWORDER_DESC"
 			ideology = paternalism
 			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAA_Dreams_Of_The_South_Pole
-				AAA_War_Legacy
+				
 			}
 			focuses = {
 
 			}
 		}
 		
-		"ZZZ" = { minor = yes history = "" }
+		"CRO" = {
+			minor = yes
+			history = "CRO_THENEWORDER_DESC"
+			ideology = paternalism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
 		## TRIUM ##
 
 		# Buffer

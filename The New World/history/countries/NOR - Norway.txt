@@ -1,5 +1,5 @@
 capital = 897
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = NOR_Generic_Vacant
 set_cosmetic_tag = NOR_pakt

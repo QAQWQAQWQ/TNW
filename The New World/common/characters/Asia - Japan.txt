@@ -1,16 +1,16 @@
 characters = {
 	# Starting Country Leaders
     ###TNW###
-	JAP_Mitsuo_Horiuchi = {
-		name = JAP_Mitsuo_Horiuchi
+	JAP_Koichi_Kato = {
+		name = JAP_Koichi_Kato
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/JAP/Portrait_JAP_Mitsuo_Horiuchi.png"
+				large = "gfx/leaders/JAP/Portrait_JAP_Koichi_Kato.png"
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_MITSUO_HORIUCHI_DESC"
-			ideology = liberal_conservatism_subtype
+			ideology = conservatism_free_market_conservatism_subtype
 			traits = {  }
 			expire = "1989.1.1.1"
 			id = -1

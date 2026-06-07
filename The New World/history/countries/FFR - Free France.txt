@@ -9,7 +9,8 @@ recruit_character = FFR_Robert_Verdier
 recruit_character = FFR_Simone_Veil
 recruit_character = FFR_Jean_Marie_Cavada 
 
-
+set_country_flag = tno_playable_country
+load_focus_tree = ZZZ_national_focus
 
 # flags for mass migrating characters over to france when reclamation/reconciliation
 

@@ -1,5 +1,6 @@
 capital = 266
 set_cosmetic_tag = PER_empire
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = PER_Generic_Vacant
 

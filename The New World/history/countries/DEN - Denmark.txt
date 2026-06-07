@@ -1,5 +1,5 @@
 capital = 37
-
+load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = DEN_Generic_Vacant
 
