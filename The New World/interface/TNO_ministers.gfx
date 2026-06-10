@@ -3741,6 +3741,22 @@ spriteTypes = {
 	}
 
 	### JAP ###
+	spriteType = {
+		name = "GFX_idea_JAP_minister_Teiichi_Tanigaki"
+		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Teiichi_Tanigaki.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_Nobutaka_Machimura"
+		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Nobutaka_Machimura.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_Ohta_Seiichi"
+		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Ohta_Seiichi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_Satori_Kozato"
+		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Satori_Kozato.png"
+	}
 	#HOG#
 	spriteType = {
 		name = "GFX_idea_JAP_Ikeda_Hayato"

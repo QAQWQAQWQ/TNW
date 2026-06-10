@@ -27,6 +27,10 @@ set_variable = { SAF_Pakt_Displeasure = .12 }
 set_variable = { SAF_free_prod_units = 12 }
 
 country_lock_all_division_template = yes
+create_faction = South_African_Joint_Command
+add_to_faction = SAF
+add_to_faction = BTS
+add_to_faction = NAM
 
 add_ideas = {
 	

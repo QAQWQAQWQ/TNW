@@ -65,7 +65,18 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+    #TNW JAPAN
+	spriteType = {
+		name = "GFX_Kizoku_in_gicho_Konoe_Tadateru"
+		texturefile = "gfx/texticons/Japan house/Kizoku_in_gicho_Konoe_Tadateru.png"
+		legacy_lazy_load = no
+	}
 
+	spriteType = {
+		name = "GFX_Shugiin_gicho_Kozo_Watanabe"
+		texturefile = "gfx/texticons/Japan house/Shugiin_gicho_Kozo_Watanabe.png"
+		legacy_lazy_load = no
+	}
 
 	#FRS law#
 	spriteType = {

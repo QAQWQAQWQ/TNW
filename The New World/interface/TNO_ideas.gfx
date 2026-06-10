@@ -2389,45 +2389,45 @@ SpriteTypes = {
 	## Japan ##
 
 	SpriteType = {
-		name = "GFX_idea_JAP_army_indocrination"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_army_indocrination.dds"
+		name = "GFX_idea_JAP_emperor_akihito"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_emperor_akihito.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_cult_of_the_emperor"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_cult_of_the_emperor.dds"
+		name = "GFX_idea_JAP_factional_infighting"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_factional_infighting.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_dai_li_conspiracy"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_dai_li_conspiracy.dds"
+		name = "GFX_idea_JAP_party_officials_collaboration"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_party_officials_collaboration.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_gekokujo"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_gekokujo.dds"
+		name = "GFX_idea_JAP_reform_bureaucracy_and_political_power"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_reform_bureaucracy_and_political_power.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_hardliner_influence"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_hardliner_influence.dds"
+		name = "GFX_idea_JAP_military_spirit"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_military_spirit.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_legacy_guarded_pearl_exercises"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_legacy_guarded_pearl_exercises.dds"
+		name = "GFX_idea_JAP_imperial_way_and_the_nation"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_imperial_way_and_the_nation.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_military_fanatism"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_military_fanatism.dds"
+		name = "GFX_idea_JAP_house_of_representatives"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_house_of_representatives.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_JAP_nihon_ascendant"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_nihon_ascendant.dds"
+		name = "GFX_idea_JAP_house_of_peers"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_house_of_peers.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_JAP_showa_emperor"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_showa_emperor.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_JAP_zaibatsu_question"
-		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_zaibatsu_question.dds"
-	}
+	
 
 	## Manchukuo ##
 

@@ -18,6 +18,119 @@ characters = {
 	}
 	###############
 
+	JAP_Teiichi_Tanigaki = {
+		name = JAP_Teiichi_Tanigaki
+		portraits = {
+			civilian = {
+				large = ""
+				small = "GFX_idea_JAP_minister_Teiichi_Tanigaki"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = fascism_corporate_statism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_Teiichi_Tanigaki_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	JAP_Nobutaka_Machimura = {
+		name = JAP_Nobutaka_Machimura
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_Nobutaka_Machimura"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = progressivism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_Nobutaka_Machimura_for
+			allowed = { original_tag = JAP }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	JAP_Satori_Kozato = {
+		name = JAP_Satori_Kozato
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_Satori_Kozato"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = liberalism_national_liberal_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_Satori_Kozato_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	JAP_Ohta_Seiichi = {
+		name = JAP_Ohta_Seiichi
+		portraits = {
+			civilian = {
+				large = " "
+				small = "GFX_idea_JAP_minister_Ohta_Seiichi"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = despotism_corporatocracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_Ohta_Seiichi_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
 
 
 	

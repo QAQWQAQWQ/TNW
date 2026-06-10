@@ -524,11 +524,12 @@ add_to_faction = SNS
 add_to_faction = BKU
 add_to_faction = TUN
 add_to_faction = MOR
-add_to_faction = MDI
-
+add_to_faction = WFR
+add_to_faction = KTG
 add_to_faction = POR
 add_to_faction = SPA
-
+add_to_faction = ZIM
+add_to_faction = EAF
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }
 set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }

@@ -9,8 +9,10 @@ set_country_flag = GDP_regions
 
 # Country Leaders
 recruit_character = JAP_Koichi_Kato
-
-
+recruit_character = JAP_Teiichi_Tanigaki
+recruit_character = JAP_Nobutaka_Machimura
+recruit_character = JAP_Satori_Kozato
+recruit_character = JAP_Ohta_Seiichi 
 # Ministers
 
 
@@ -495,8 +497,19 @@ set_variable = {
 add_ideas = {
 	#Standard#
 	Sphere_Leader
+	JAP_emperor_akihito
+	JAP_imperial_way_and_the_nation
+	JAP_military_spirit
+	JAP_factional_infighting
+	JAP_reform_bureaucracy_and_political_power
+	JAP_party_officials_collaboration
+	JAP_house_of_peers
+	JAP_house_of_representatives
 	#JAP_korea_tunnel_#construction
-	
+	JAP_Teiichi_Tanigaki_hog
+	JAP_Nobutaka_Machimura_for
+	JAP_Satori_Kozato_eco
+	JAP_Ohta_Seiichi_sec
 
 	#SOCIETAL DEVELOPMENT
 	

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ZAM
+		owner = ZIM
 		add_core_of = ZAM
 		buildings = {
 			infrastructure = 2

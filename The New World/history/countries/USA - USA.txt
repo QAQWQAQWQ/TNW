@@ -442,7 +442,14 @@ add_to_faction = FAR
 add_to_faction = SUS
 add_to_faction = LIB
 add_to_faction = WOL
-
+add_to_faction = MDI
+add_to_faction = GNB
+add_to_faction = CAF
+add_to_faction = MEX
+add_to_faction = EWE
+add_to_faction = ANG
+add_to_faction = NGA
+add_to_faction = CFS
 set_autonomy = {
 	target = WIN
 	autonomy_state = autonomy_client_state
