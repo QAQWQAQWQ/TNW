@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_MITSUO_HORIUCHI_DESC"
+			desc = "POLITICS_KOICHI_KATO_DESC"
 			ideology = conservatism_free_market_conservatism_subtype
 			traits = {  }
 			expire = "1989.1.1.1"
