@@ -349,7 +349,6 @@ add_ideas = {
 	tno_military_supervision_no_supervision
 	tno_training_basic_training
 	tno_draft_exemptions_none
-	CHI_chu_youyi
 
 	#Economic
 	tno_trade_laws_export_focus

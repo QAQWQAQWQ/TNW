@@ -4,7 +4,7 @@ capital = 282
 set_country_flag = GDP_regions
 
 # Vacant
-
+set_country_flag = tnw_hog_ui_enabled
 # Starting Country Leaders
 
 # Country Leaders
@@ -497,6 +497,7 @@ set_variable = {
 add_ideas = {
 	#Standard#
 	Sphere_Leader
+	JAP_Emperor_Heisei
 	JAP_emperor_akihito
 	JAP_imperial_way_and_the_nation
 	JAP_military_spirit

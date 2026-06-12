@@ -28,7 +28,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+			quadTextureSprite ="GFX_tiled_window_border2_no_border"
 		}
 		
 		iconType = {

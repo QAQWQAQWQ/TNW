@@ -9,4 +9,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/Portrait_china_chu_youyi.png"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_Emperor_Heisei"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Emperor_Heisei.png"
+	}
+
 }

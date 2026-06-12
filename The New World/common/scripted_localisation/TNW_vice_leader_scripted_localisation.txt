@@ -15,6 +15,13 @@ defined_text = {
 		}
 		localization_key = GFX_portrait_chu_youyi
 	}			
+	text = {
+		trigger = { 		    
+			original_tag = JAP
+			has_idea = JAP_Emperor_Heisei
+		}
+		localization_key = GFX_Portrait_Emperor_Heisei
+	}			
 }
 
 defined_text = {
@@ -33,7 +40,15 @@ defined_text = {
 			has_idea = CHI_chu_youyi
 		}
 		localization_key = CHI_chu_youyi
-	}		
+	}	
+	
+	text = {
+		trigger = { 		    
+			original_tag = JAP
+			has_idea = JAP_Emperor_Heisei
+		}
+		localization_key = JAP_Emperor_Heisei
+	}
 }
 
 defined_text = {
@@ -51,6 +66,13 @@ defined_text = {
 			has_idea = CHI_chu_youyi
 		}
 		localization_key = POLITICS_CHU_YOUYI_DESC
+	}		
+	text = {
+		trigger = { 		    
+			original_tag = JAP
+			has_idea = JAP_Emperor_Heisei
+		}
+		localization_key = POLITICS_EMPEROR_HEISEI_DESC
 	}			
 }
 
@@ -67,5 +89,11 @@ defined_text = {
 			original_tag = CHI
 		}
 		localization_key = TNW_CHI_gov_ui_tt
-	}			
+	}	
+	text = {
+		trigger = { 		    
+			original_tag = JAP
+		}
+		localization_key = TNW_JAP_gov_ui_tt
+	}		
 }

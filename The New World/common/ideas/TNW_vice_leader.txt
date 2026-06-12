@@ -2,5 +2,6 @@ ideas = {
 	hidden_ideas = {
 		ENG_George_VII = {}
 		CHI_chu_youyi = {}
+		JAP_Emperor_Heisei= {}
 	}
 }
