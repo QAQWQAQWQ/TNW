@@ -152,7 +152,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = -170 y = -35 }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						maxWidth = 340
 						format = center
@@ -163,7 +163,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = -100 y = 5 }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = "CAREER_PROFILE_GAME_TIME_LABEL"
 						maxWidth = 200
 						format = center
@@ -206,7 +206,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = -110 y = -35 }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						maxWidth = 220
 						format = center
@@ -217,7 +217,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = -100 y = 5 }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_PLAYTHROUGHS_LABEL
 						maxWidth = 200
 						format = center
@@ -268,7 +268,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = -110 y = -35 }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						maxWidth = 220
 						format = center
@@ -279,7 +279,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = -100 y = 5 }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_HOURS_LABEL
 						maxWidth = 200
 						format = center
@@ -336,7 +336,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -346,7 +346,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LONGEST_BATTLE_DURATION_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -389,7 +389,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -400,7 +400,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LARGEST_MANPOWER_BATTLE_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -442,7 +442,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -452,7 +452,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_HIGHEST_CASUALTY_WAR_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -495,7 +495,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -506,7 +506,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_HIGHEST_ENEMY_CASUALTY_WAR_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -549,7 +549,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -559,7 +559,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LARGEST_TANKS_BATTLE_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -602,7 +602,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -613,7 +613,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LARGEST_ARMY_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -655,7 +655,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -665,7 +665,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LARGEST_NAVY_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -708,7 +708,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -719,7 +719,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LARGEST_AIRFORCE_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -780,7 +780,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextWideX y = @StatNumberTextWideY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "0000000000000000000"
 						format = right
 						maxWidth = @StatNumberTextWideW
@@ -792,7 +792,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextWideX y = @StatLabelTextWideY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CONQUERED_PERCENTAGE_LABEL
 						format = left
 						vertical_alignment = CENTER
@@ -838,7 +838,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextWideX y = @StatNumberTextWideY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "0000000000000000000000"
 						format = right
 						maxWidth = @StatNumberTextWideW
@@ -850,7 +850,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextWideX y = @StatLabelTextWideY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LIBERATED_NATIONS_LABEL
 						format = left
 						vertical_alignment = CENTER
@@ -895,7 +895,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -905,7 +905,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text =  CAREER_PROFILE_MOST_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -948,7 +948,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -959,7 +959,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BUILT_SHIPS_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1001,7 +1001,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1011,7 +1011,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BUILT_TANKS_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1054,7 +1054,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1065,7 +1065,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SUCCESSFUL_COUPS_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1107,7 +1107,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1117,7 +1117,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SUNK_PRIDE_OF_THE_FLEET_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1160,7 +1160,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1171,7 +1171,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SHOT_ACES_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1237,7 +1237,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextWideX y = @StatNumberTextWideY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "0000000000000000000"
 						format = right
 						maxWidth = @StatNumberTextWideW
@@ -1249,7 +1249,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextWideX y = @StatLabelTextWideY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_AIRSPACE_SUPERIORITY_RATING_LABEL
 						format = left
 						vertical_alignment = CENTER
@@ -1291,7 +1291,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1301,7 +1301,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_OFFENSIVE_BATTLES_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1344,7 +1344,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1355,7 +1355,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_DEFENSIVE_BATTLES_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1397,7 +1397,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1407,7 +1407,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_TOTAL_BATTLES_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1450,7 +1450,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1461,7 +1461,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_OFFENSIVE_BATTLES_RATIO_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1503,7 +1503,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1513,7 +1513,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BATTLES_AGAINST_ENCIRCLED_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1556,7 +1556,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1567,7 +1567,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BATTLES_AGAINST_ENCIRCLED_RATIO_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1609,7 +1609,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1619,7 +1619,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BATTLES_WITH_AIR_SUPPORT_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1662,7 +1662,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1673,7 +1673,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BATTLES_WITH_AIR_SUPPORT_RATIO_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1731,7 +1731,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1741,7 +1741,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_YEARS_AT_WAR_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1784,7 +1784,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1795,7 +1795,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_PROVINCES_GAINED_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1837,7 +1837,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1847,7 +1847,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_PROVINCES_LOST_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1890,7 +1890,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -1901,7 +1901,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_PROVINCES_GAINED_PER_YEAR_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -1943,7 +1943,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -1953,7 +1953,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_TOTAL_OWN_CASUALTIES_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -1996,7 +1996,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -2007,7 +2007,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_ENEMY_CASUALTIES_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -2053,7 +2053,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = right
 						maxWidth = @StatNumberTextW
@@ -2064,7 +2064,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CASUALTIES_PER_WEEK_LABEL
 						format = right
 						maxWidth = @StatLabelTextW
@@ -2096,7 +2096,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2106,7 +2106,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MOST_USED_COMBAT_WIDTH_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -2132,7 +2132,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -2179,7 +2179,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2189,7 +2189,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_PRODUCTION_OTHER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2235,7 +2235,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2245,7 +2245,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_PRODUCTION_LAND_VEHICLES_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2291,7 +2291,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2301,7 +2301,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_PRODUCTION_AIRCRAFT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2334,7 +2334,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -2381,7 +2381,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2391,7 +2391,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_FIGHTER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2437,7 +2437,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2447,7 +2447,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CAS_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2493,7 +2493,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2503,7 +2503,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_TACTICAL_BOMBER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2549,7 +2549,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2559,7 +2559,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_STRATEGIC_BOMBER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2605,7 +2605,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2615,7 +2615,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_NAVAL_BOMBER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2661,7 +2661,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2671,7 +2671,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_OTHER_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2699,7 +2699,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -2746,7 +2746,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2756,7 +2756,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_LIGHT_TANK_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2802,7 +2802,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2812,7 +2812,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MEDIUM_TANK_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2858,7 +2858,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2868,7 +2868,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_HEAVY_TANK_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2914,7 +2914,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2924,7 +2924,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SUPER_HEAVY_TANK_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -2970,7 +2970,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -2980,7 +2980,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MODERN_TANK_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3008,7 +3008,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -3055,7 +3055,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3065,7 +3065,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SUBMARINE_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3111,7 +3111,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3121,7 +3121,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SCREENING_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3167,7 +3167,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3177,7 +3177,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CAPITAL_SHIP_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3223,7 +3223,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3233,7 +3233,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CARRIERS_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3268,7 +3268,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -3315,7 +3315,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3325,7 +3325,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CIVILIAN_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3371,7 +3371,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3381,7 +3381,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3427,7 +3427,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3437,7 +3437,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_DOCKYARDS_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3483,7 +3483,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3493,7 +3493,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_ROCKET_SITES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3521,7 +3521,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -3568,7 +3568,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3578,7 +3578,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CIVILIAN_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3624,7 +3624,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3634,7 +3634,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3680,7 +3680,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3690,7 +3690,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_DOCKYARDS_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3736,7 +3736,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3746,7 +3746,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_ROCKET_SITES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3774,7 +3774,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -3821,7 +3821,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3831,7 +3831,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_CIVILIAN_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3877,7 +3877,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3887,7 +3887,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MILITARY_FACTORIES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3933,7 +3933,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3943,7 +3943,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_DOCKYARDS_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -3989,7 +3989,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -3999,7 +3999,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_ROCKET_SITES_BUILT_LABEL
 						format = left
 						maxWidth = @RatioLabelTextW
@@ -4033,7 +4033,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					format = center
@@ -4078,7 +4078,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4088,7 +4088,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MOBILE_WARFARE_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4134,7 +4134,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4144,7 +4144,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_SUPERIOR_FIREPOWER_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4190,7 +4190,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4200,7 +4200,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_GRAND_BATTLEPLAN_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4246,7 +4246,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4256,7 +4256,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_MASS_ASSAULT_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4284,7 +4284,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -4331,7 +4331,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4341,7 +4341,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_FLEET_IN_BEING_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4387,7 +4387,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4397,7 +4397,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_TRADE_INTERDICTION_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4443,7 +4443,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4453,7 +4453,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BASE_STRIKE_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4481,7 +4481,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = { x = @DlcTitleX y = @DlcTitleY }
-					font = "aldrich_36_outline"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = @DlcTitleW
 					maxHeight = @DlcTitleH
@@ -4528,7 +4528,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4538,7 +4538,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_STRATEGIC_DESTRUCTION_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4584,7 +4584,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4594,7 +4594,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_BATTLEFIELD_SUPPORT_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4640,7 +4640,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "value"
 						position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-						font = "aldrich_32_outline"
+						font = "hoi_30"
 						text = "XXX"
 						format = left
 						maxWidth = @StatNumberTextW
@@ -4650,7 +4650,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "label"
 						position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-						font = "aldrich_18_outline"
+						font = "hoi_18"
 						text = CAREER_PROFILE_OPERATIONAL_INTEGRITY_XP_LABEL
 						format = left
 						maxWidth = @StatLabelTextW
@@ -4669,8 +4669,413 @@ guiTypes = {
 			### Left Container ###
 
 			containerWindowType = {
-				name = "column_dlc043"
+				name = "column_dlc052"
 				position = { x = @LeftColumnPosX y = @ColumnPosY }
+				size = { width = @ColumnWidth height = @ColumnHeight }
+				orientation = center_up
+				origo = center_up
+
+				containerWindowType = {
+					name = "details"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					background = {
+						name = "background"
+						quadTextureSprite = "GFX_bg_dlc052_owned"
+					}
+
+					instantTextboxType = {
+						name = "dlc_title"
+						position = { x = @DlcTitleX y = @DlcTitleY }
+						font = "hoi_36header"
+						borderSize = { x = 0 y = 0 }
+						maxWidth = @DlcTitleW
+						maxHeight = @DlcTitleH
+						format = center
+						vertical_alignment = bottom
+						text = "THUNDER_AT_OUR_GATES"
+						Orientation = center_up
+					}
+
+					containerWindowType = {
+						name = "captured_commanders"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow1Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = CAPTURED_GENERALS
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text = CAREER_PROFILE_CAPTURED_COMMANDERS_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+
+					containerWindowType = {
+						name = "rescued_commanders"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow2Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = RESCUED_GENERALS
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text = CAREER_PROFILE_RESCUED_COMMANDERS_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+
+					containerWindowType = {
+						name = "ship_captains_promoted"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow3Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = SHIP_CAPTAINS_PROMOTED
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text = CAREER_PROFILE_SHIP_CAPTAINS_PROMOTED_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+				}
+			}
+
+			### Middle Container ###
+
+			containerWindowType = {
+				name = "column_dlc049"
+				position = { x = @MiddleColumnPosX y = @ColumnPosY }
+				size = { width = @ColumnWidth height = @ColumnHeight }
+				orientation = center_up
+				origo = center_up
+
+				containerWindowType = {
+					name = "details"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					background = {
+						name = "background"
+						quadTextureSprite = "GFX_bg_dlc049_owned"
+					}
+
+					instantTextboxType = {
+						name = "dlc_title"
+						position = { x = @DlcTitleX y = @DlcTitleY }
+						font = "hoi_36header"
+						borderSize = { x = 0 y = 0 }
+						maxWidth = @DlcTitleW
+						maxHeight = @DlcTitleH
+						format = center
+						vertical_alignment = bottom
+						text = "NO_COMPROMISE_NO_SURRENDER"
+						Orientation = center_up
+					}
+
+					containerWindowType = {
+						name = "faction_goals_completed"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow1Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = FACTION_GOALS_COMPLETED
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text = CAREER_PROFILE_FACTION_GOALS_COMPLETED_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+
+					containerWindowType = {
+						name = "mastery_gained"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow2Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = MASTERY_GAINED
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text =  CAREER_PROFILE_MASTERY_GAINED_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+
+					containerWindowType = {
+						name = "naval_headquarters_built"
+						position = { x = @StatContainerCenterX y = @DlcStatsRow3Y }
+						size = { width = @StatContainerCenterW height = @StatContainerH }
+						Orientation = center_up
+						Origo = center_up
+						clipping = no
+
+						background = {
+							name = "background"
+							quadTextureSprite = "GFX_tiled_window_transparent"
+						}
+
+						instantTextboxType = {
+							name = "value"
+							position = { x = @StatTextCenterX y = @StatNumberTextY }
+							font = "hoi_30"
+							text = NAVAL_HEADQUARTERS_BUILT
+							format = center
+							maxWidth = @StatTextCenterW
+							multiline = no
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						instantTextboxType = {
+							name = "label"
+							position = { x = @StatTextCenterX y = @StatLabelTextY }
+							font = "hoi_18"
+							text =  CAREER_PROFILE_NAVAL_HEADQUARTERS_BUILT_LABEL
+							format = center
+							maxWidth = @StatTextCenterW
+							text_color_code = L
+							Orientation = center_up
+							alwaysTransparent = yes
+						}
+
+						iconType = {
+							name = "best_in_career_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_best_in_career"
+							tooltip = "CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP"
+							Orientation = center
+							centerposition = yes
+						}
+
+						iconType = {
+							name = "compare_stats_difference_icon"
+							position = { x = @StarCenterX y = @StarCenterY }
+							spriteType = "GFX_icon_compare_stats_difference"
+							Orientation = center
+							centerposition = yes
+							alwaysTransparent = yes
+						}
+					}
+				}
+			}
+
+			### Right Container ###
+
+			containerWindowType = {
+				name = "column_dlc043"
+				position = { x = @RightColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -4688,7 +5093,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -4714,7 +5119,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = SPECIAL_PROJECTS_COMPLETED
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4726,7 +5131,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4770,7 +5175,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = LAUNCHED_RAIDS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4782,7 +5187,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_LAUNCHED_RAIDS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4827,7 +5232,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = SCIENTIST_LEVEL_UPS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4839,7 +5244,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4868,12 +5273,18 @@ guiTypes = {
 					}
 				}
 			}
+		}
 
-			### Middle Container ###
+		containerWindowType = {
+			name = "page6"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			### Left Container ###
 
 			containerWindowType = {
 				name = "column_dlc038"
-				position = { x = @MiddleColumnPosX y = @ColumnPosY }
+				position = { x = @LeftColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -4891,7 +5302,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -4917,7 +5328,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = MIO_SIZE_UPS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4929,7 +5340,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_MIO_SIZE_UPS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4973,7 +5384,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = SPECIAL_FORCES_DEPLOYED
 							format = center
 							maxWidth = @StatTextCenterW
@@ -4985,7 +5396,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5030,7 +5441,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = EQUIPMENT_SOLD
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5042,7 +5453,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_EQUIPMENT_SOLD_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5072,11 +5483,11 @@ guiTypes = {
 				}
 			}
 
-			### Right Container ###
+			### Middle Container ###
 
 			containerWindowType = {
 				name = "column_dlc036"
-				position = { x = @RightColumnPosX y = @ColumnPosY }
+				position = { x = @MiddleColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -5094,7 +5505,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -5120,7 +5531,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = DESIGNED_PLANES
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5132,7 +5543,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_DESIGNED_PLANES_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5190,7 +5601,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = left
 							maxWidth = @StatNumberTextW
@@ -5200,7 +5611,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_FIELD_OFFICERS_PROMOTED_LABEL
 							format = left
 							maxWidth = @StatLabelTextW
@@ -5243,7 +5654,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = right
 							maxWidth = @StatNumberTextW
@@ -5254,7 +5665,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_MUSSOLINI_MISSIONS_LABEL
 							format = right
 							maxWidth = @StatLabelTextW
@@ -5280,7 +5691,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_30_outline"
+							font = "hoi_30"
 							text = SHIPS_SUNK_BY_MARITIME
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5292,7 +5703,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_SHIPS_SUNK_BY_MARITIME_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5321,18 +5732,12 @@ guiTypes = {
 					}
 				}
 			}
-		}
 
-		containerWindowType = {
-			name = "page6"
-			position = { x = 0 y = 0 }
-			size = { width = 100% height = 100% }
-
-			### Left Container ###
+			### Right Container ###
 
 			containerWindowType = {
 				name = "column_dlc034"
-				position = { x = @LeftColumnPosX y = @ColumnPosY }
+				position = { x = @RightColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -5350,7 +5755,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -5376,7 +5781,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = DESIGNED_TANKS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5388,7 +5793,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_DESIGNED_TANKS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5432,7 +5837,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = BUILT_RAILWAY_GUNS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5444,7 +5849,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_BUILT_RAILWAY_GUNS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5489,7 +5894,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = BOMBED_TRAINS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5501,7 +5906,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_BOMBED_TRAINS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5530,12 +5935,18 @@ guiTypes = {
 					}
 				}
 			}
+		}
 
-			### Middle Container ###
+		containerWindowType = {
+			name = "page7"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			### Left Container ###
 
 			containerWindowType = {
 				name = "column_dlc031"
-				position = { x = @MiddleColumnPosX y = @ColumnPosY }
+				position = { x = @LeftColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -5553,7 +5964,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -5579,7 +5990,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = FOUGHT_CIVIL_WARS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5591,7 +6002,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_FOUGHT_CIVIL_WARS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5649,7 +6060,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = left
 							maxWidth = @StatNumberTextW
@@ -5659,7 +6070,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_HIGHEST_CASUALTY_CIVIL_WAR_LABEL
 							format = left
 							maxWidth = @StatLabelTextW
@@ -5702,7 +6113,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = right
 							maxWidth = @StatNumberTextW
@@ -5713,7 +6124,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_HIGHEST_ENEMY_CASUALTY_CIVIL_WAR_LABEL
 							format = right
 							maxWidth = @StatLabelTextW
@@ -5725,11 +6136,11 @@ guiTypes = {
 				}
 			}
 
-			### Right Container ###
+			### Middle Container ###
 
 			containerWindowType = {
 				name = "column_dlc028"
-				position = { x = @RightColumnPosX y = @ColumnPosY }
+				position = { x = @MiddleColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -5747,7 +6158,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -5773,7 +6184,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = SUCCESSFUL_OPERATIONS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5785,7 +6196,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_SUCCESSFUL_OPERATIONS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5829,7 +6240,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = RECRUITED_OPERATIVES
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5841,7 +6252,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_RECRUITED_OPERATIVES_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5885,7 +6296,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = CAPTURED_OPERATIVES
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5897,7 +6308,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_CAPTURED_OPERATIVES_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5926,18 +6337,12 @@ guiTypes = {
 					}
 				}
 			}
-		}
 
-		containerWindowType = {
-			name = "page7"
-			position = { x = 0 y = 0 }
-			size = { width = 100% height = 100% }
-
-			### Left Container ###
+			### Right Container ###
 
 			containerWindowType = {
 				name = "column_dlc023"
-				position = { x = @LeftColumnPosX y = @ColumnPosY }
+				position = { x = @RightColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -5955,7 +6360,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -5981,7 +6386,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = DESIGNED_SHIPS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -5993,7 +6398,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_DESIGNED_SHIPS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6051,7 +6456,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = left
 							maxWidth = @StatNumberTextW
@@ -6061,7 +6466,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_ADMIRAL_TRAITS_UNLOCKED_LABEL
 							format = left
 							maxWidth = @StatLabelTextW
@@ -6104,7 +6509,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = right
 							maxWidth = @StatNumberTextW
@@ -6115,7 +6520,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_SUNK_CONVOYS_LABEL
 							format = right
 							maxWidth = @StatLabelTextW
@@ -6141,7 +6546,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = HOSTED_GOVERNMENTS
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6153,7 +6558,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_HOSTED_GOVERNMENTS_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6182,12 +6587,18 @@ guiTypes = {
 					}
 				}
 			}
+		}
 
-			### Middle Container ###
+		containerWindowType = {
+			name = "page8"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			### Left Container ###
 
 			containerWindowType = {
 				name = "column_dlc022"
-				position = { x = @MiddleColumnPosX y = @ColumnPosY }
+				position = { x = @LeftColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -6205,7 +6616,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -6231,7 +6642,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = GENERAL_TRAITS_UNLOCKED
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6243,7 +6654,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_GENERAL_TRAITS_UNLOCKED_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6287,7 +6698,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = PLANES_SENT_AS_VOLUNTEER_FORCE
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6299,7 +6710,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_PLANES_SENT_AS_VOLUNTEER_FORCE_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6343,7 +6754,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = CAPTURED_EQUIPMENT
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6355,7 +6766,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_CAPTURED_EQUIPMENT_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6385,11 +6796,11 @@ guiTypes = {
 				}
 			}
 
-			### Right Container ###
+			### Middle Container ###
 
 			containerWindowType = {
 				name = "column_dlc020"
-				position = { x = @RightColumnPosX y = @ColumnPosY }
+				position = { x = @MiddleColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -6407,7 +6818,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -6433,7 +6844,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = PUPPETED_COUNTRIES
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6445,7 +6856,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_PUPPETED_COUNTRIES_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6503,7 +6914,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextLeftX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = left
 							maxWidth = @StatNumberTextW
@@ -6513,7 +6924,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextLeftX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_LICENSED_FOREIGN_MILITARY_TECH_LABEL
 							format = left
 							maxWidth = @StatLabelTextW
@@ -6556,7 +6967,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatNumberTextRightX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = "XXX"
 							format = right
 							maxWidth = @StatNumberTextW
@@ -6567,7 +6978,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatLabelTextRightX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text = CAREER_PROFILE_CONVERTED_VEHICLES_LABEL
 							format = right
 							maxWidth = @StatLabelTextW
@@ -6578,18 +6989,12 @@ guiTypes = {
 					}
 				}
 			}
-		}
 
-		containerWindowType = {
-			name = "page8"
-			position = { x = 0 y = 0 }
-			size = { width = 100% height = 100% }
-
-			### Left Container ###
+			### Right Container ###
 
 			containerWindowType = {
 				name = "column_dlc018"
-				position = { x = @LeftColumnPosX y = @ColumnPosY }
+				position = { x = @RightColumnPosX y = @ColumnPosY }
 				size = { width = @ColumnWidth height = @ColumnHeight }
 				orientation = center_up
 				origo = center_up
@@ -6607,7 +7012,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "dlc_title"
 						position = { x = @DlcTitleX y = @DlcTitleY }
-						font = "aldrich_36_outline"
+						font = "hoi_36header"
 						borderSize = { x = 0 y = 0 }
 						maxWidth = @DlcTitleW
 						maxHeight = @DlcTitleH
@@ -6633,7 +7038,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = VEHICLES_RECEIVED_BY_LEASE
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6645,7 +7050,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_VEHICLES_RECEIVED_BY_LEASE_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6689,7 +7094,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "value"
 							position = { x = @StatTextCenterX y = @StatNumberTextY }
-							font = "aldrich_32_outline"
+							font = "hoi_30"
 							text = VEHICLES_SENT_BY_LEASE
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6701,7 +7106,7 @@ guiTypes = {
 						instantTextboxType = {
 							name = "label"
 							position = { x = @StatTextCenterX y = @StatLabelTextY }
-							font = "aldrich_18_outline"
+							font = "hoi_18"
 							text =  CAREER_PROFILE_VEHICLES_SENT_BY_LEASE_LABEL
 							format = center
 							maxWidth = @StatTextCenterW
@@ -6728,36 +7133,6 @@ guiTypes = {
 							alwaysTransparent = yes
 						}
 					}
-				}
-			}
-
-			### Middle Container ###
-
-			containerWindowType = {
-				name = "middle_numbers"
-				position = { x = @MiddleColumnPosX y = @ColumnPosY }
-				size = { width = @ColumnWidth height = @ColumnHeight }
-				orientation = center_up
-				origo = center_up
-
-				background = {
-					name = "background"
-					quadTextureSprite = "GFX_tiled_war_bg_overlay"
-				}
-			}
-
-			### Right Container ###
-
-			containerWindowType = {
-				name = "right_numbers"
-				position = { x = @RightColumnPosX y = @ColumnPosY }
-				size = { width = @ColumnWidth height = @ColumnHeight }
-				orientation = center_up
-				origo = center_up
-
-				background = {
-					name = "background"
-					quadTextureSprite = "GFX_tiled_war_bg_overlay"
 				}
 			}
 
@@ -6841,7 +7216,7 @@ guiTypes = {
 			name = "dlc_title"
 			position = { x = @DlcTitleX y = @DlcTitleY }
 			Orientation = center_up
-			font = "aldrich_36_outline"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			maxWidth = @DlcTitleW
 			format = center
@@ -6851,7 +7226,7 @@ guiTypes = {
 			name = "dlc_description"
 			position = { x = 30 y = 130 }
 			textureFile = ""
-			font = "aldrich_18_outline"
+			font = "hoi_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 310
 			maxHeight = 100
@@ -6863,7 +7238,7 @@ guiTypes = {
 			position = { x = 80 y = -120 }
 			quadTextureSprite = "GFX_btn_blue"
 			buttonText = "CAREER_PROFILE_SHOW_IN_STORE"
-			buttonFont = "aldrich_16_outline"
+			buttonFont = "hoi_16mbs"
 			Orientation = "lower_left"
 			clicksound = click_default
 		}
