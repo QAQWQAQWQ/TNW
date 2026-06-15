@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = NRB
+		owner = SHO
 		buildings = {
 			infrastructure = 2
 			19234 = {

@@ -91,7 +91,7 @@ bookmarks = {
 			ideas = {}
 			focuses = {}
 		}
-		
+		"ZZZ" = { history = "" }
 		
 		"FRA" = {
 			history = "FRA_THENEWORDER_DESC"

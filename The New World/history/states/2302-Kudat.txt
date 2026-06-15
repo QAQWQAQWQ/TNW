@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = NRB
+		owner = SHO
 		set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 3

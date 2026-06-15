@@ -1602,7 +1602,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 26 y = 90 }
 			textureFile = ""
-			font = "Bomb_24"
+			font = "fzwhjz_18"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 430

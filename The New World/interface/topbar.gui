@@ -635,7 +635,7 @@ guiTypes = {
 				name = "DateText"
 				position = { x = -188 y = 2 }
 				textureFile = ""
-				font = "aldrich_18_outline"
+				font = "fzwhjz_18"
 				text = "7:00 29, September 1939"
 				multiline = no
 				format = center
