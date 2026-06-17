@@ -14,4 +14,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Emperor_Heisei.png"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_Serbia_Andrei_Karadjordjevic"
+		texturefile = "gfx/leaders/SER/Portrait_Serbia_Andrei_Karadjordjevic.png"
+	}
+
 }

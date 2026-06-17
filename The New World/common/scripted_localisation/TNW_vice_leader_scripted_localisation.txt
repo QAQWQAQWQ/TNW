@@ -21,6 +21,13 @@ defined_text = {
 			has_idea = JAP_Emperor_Heisei
 		}
 		localization_key = GFX_Portrait_Emperor_Heisei
+	}		
+	text = {
+		trigger = { 		    
+			original_tag = SER
+			has_idea = SER_King_Andrei_I
+		}
+		localization_key = GFX_Portrait_Serbia_Andrei_Karadjordjevic
 	}			
 }
 
@@ -49,6 +56,14 @@ defined_text = {
 		}
 		localization_key = JAP_Emperor_Heisei
 	}
+
+	text = {
+		trigger = { 		    
+			original_tag = SER
+			has_idea = SER_King_Andrei_I
+		}
+		localization_key = SER_King_Andrei_I
+	}
 }
 
 defined_text = {
@@ -73,6 +88,13 @@ defined_text = {
 			has_idea = JAP_Emperor_Heisei
 		}
 		localization_key = POLITICS_EMPEROR_HEISEI_DESC
+	}		
+	text = {
+		trigger = { 		    
+			original_tag = SER
+			has_idea = SER_King_Andrei_I
+		}
+		localization_key = POLITICS_KING_ANDREI_I_DESC
 	}			
 }
 
@@ -95,5 +117,11 @@ defined_text = {
 			original_tag = JAP
 		}
 		localization_key = TNW_JAP_gov_ui_tt
+	}		
+	text = {
+		trigger = { 		    
+			original_tag = SER
+		}
+		localization_key = TNW_SER_gov_ui_tt
 	}		
 }

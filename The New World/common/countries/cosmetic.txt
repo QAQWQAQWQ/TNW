@@ -238,6 +238,10 @@ SER_GER = {
 	color = rgb { 60 90 138 }
 	color_ui = rgb { 60 90 138 }
 }
+SER_Royle = {
+	color = rgb { 20 30 110 }
+	color_ui = rgb { 20 30 110 }
+}
 
 NOR_GER = {
 	color = rgb { 141 128 115 }

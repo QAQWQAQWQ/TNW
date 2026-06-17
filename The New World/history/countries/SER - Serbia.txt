@@ -2,53 +2,10 @@ capital = 1272
 load_focus_tree = ZZZ_national_focus
 # Vacant
 recruit_character = SER_Generic_Vacant
-
+set_cosmetic_tag = SER_Royle
 # Characters
-recruit_character = SER_Dimitrije_Ljotic
-recruit_character = SER_Dragomir_Jovanovic
-recruit_character = SER_Gunther_Altenburg
-recruit_character = SER_Milosav_Vasiljewic
-recruit_character = SER_Konstantin_Musicki
-recruit_character = SER_Aleksandar_Rankovic
-recruit_character = SER_Vlada_Zecevic
-recruit_character = SER_Ratko_Parezanin
-recruit_character = SER_Jakov_Ljotic
-recruit_character = SER_Velibor_Jonic
-recruit_character = SER_Marko_Nikezic
-recruit_character = SER_Dobrica_Cosic
-recruit_character = SER_Nikola_Kavaja
-recruit_character = SER_Petar_Stambolic
-recruit_character = SER_Milos_Minic
-recruit_character = SER_Dusan_Ckrebic
-recruit_character = SER_Nikola_Ljubicic
-recruit_character = SER_Mihajlo_Markovic
-recruit_character = SER_Borka_Vucic
-recruit_character = SER_Dragutin_Zelenovic
-recruit_character = SER_Sejdo_Bajramovic
-recruit_character = SER_Stojiljko_Kajevic
-recruit_character = SER_Andro_Loncaric
-recruit_character = SER_Dobroslav_Jevdjevic
-recruit_character = SER_Nikola_Kalabic
-recruit_character = SER_Dragutin_Keserovic
-recruit_character = SER_Mirko_Lalatovic
-recruit_character = SER_Dragisa_Kasikovic
-recruit_character = SER_Various_Leaders
-recruit_character = SER_Collapsed_Authority
-recruit_character = SER_Dobrivoje_Cilerdzic
-recruit_character = SER_Strahinja_Janjic
-recruit_character = SER_Velimir_Piletic
-recruit_character = SER_Borislav_Pekic
-recruit_character = SER_Nikola_Milosevic
-recruit_character = SER_Milan_Gavrilovic
-recruit_character = SER_Veljko_Guberina
-recruit_character = SER_Otpor_Provisional_Government
-recruit_character = SER_Milovan_Dilas
-recruit_character = SER_Yugoslavia_Provisional_Government
-recruit_character = SER_Blagoje_Neskovic
-recruit_character = SER_Josip_Broz_Tito
-recruit_character = SER_Vladimir_Copic
-recruit_character = SER_Momcilo_Dujic
-recruit_character = SER_Borivoje_Jonic
+recruit_character = SER_Radova_Karadzic
+set_country_flag = tnw_hog_ui_enabled
 
 oob = "SER_1962"
 
@@ -56,9 +13,8 @@ add_ideas = {
 	#Faction
 	Stahlpakt_member
 	#Spirits
-	SER_Serbia_Shall_Not_be_Pacified
-	SER_government_of_anything_but_salvation
-	SER_majka_srbija
+	SER_King_Andrei_I
+	
 
 	#Ministers
 	SER_Dragomir_Jovanovic_hog

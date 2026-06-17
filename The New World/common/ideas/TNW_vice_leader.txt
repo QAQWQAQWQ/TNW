@@ -3,5 +3,6 @@ ideas = {
 		ENG_George_VII = {}
 		CHI_chu_youyi = {}
 		JAP_Emperor_Heisei= {}
+		SER_King_Andrei_I = {}
 	}
 }
