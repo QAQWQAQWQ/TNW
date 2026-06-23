@@ -408,6 +408,15 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
+
+	corneredTileSpriteType = {
+		name = "GFX_nationfocus_bg"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/nationfocus_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 	
 	corneredTileSpriteType = {
 		name = "GFX_tiled_header"

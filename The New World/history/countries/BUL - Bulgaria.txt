@@ -5,7 +5,7 @@ recruit_character = BUL_Generic_Vacant
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
-
+set_cosmetic_tag = BUL_Tz
 
 # Characters
 

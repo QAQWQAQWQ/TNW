@@ -256,7 +256,7 @@ guiTypes = {
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_bg"
+				quadTextureSprite ="GFX_nationfocus_bg"
 			}
 
 			#background = {

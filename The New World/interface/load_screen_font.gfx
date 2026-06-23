@@ -27,13 +27,11 @@ bitmapfonts = {
 		#path = "gfx/fonts/hoi_24header"
 		
 		fontfiles = {
-			"gfx/fonts/Arial_18_0"
-			"gfx/fonts/Arial_18_1"
-			"gfx/fonts/aldrich_22_outline"
+			"gfx/fonts/fzwhjz_18"
 		}
 		
 		cursor_offset = { 0 4 }
-		color = 0xffffffff
+		color = 0xff000000
 
 		textcolors = {
 			B = { 47 138 135 }

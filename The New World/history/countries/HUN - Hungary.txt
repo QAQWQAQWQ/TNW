@@ -5,7 +5,7 @@ set_country_flag = GDP_regions
 
 # Vacant
 recruit_character = HUN_Generic_Vacant
-
+set_cosmetic_tag = HUN_kN
 oob = "HUN_1962"
 
 # Characters

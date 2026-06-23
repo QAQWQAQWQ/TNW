@@ -1,6 +1,7 @@
 capital = 109
 load_focus_tree = ZZZ_national_focus
 # Vacant
+set_cosmetic_tag = CRO_KING
 recruit_character = CRO_Generic_Vacant
 fill_empty_minister_nochecks = yes
 

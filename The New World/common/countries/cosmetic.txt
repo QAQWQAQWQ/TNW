@@ -2,6 +2,14 @@ EGY_Italiana = {
 	color = rgb { 137 187 120 }
 	color_ui = rgb { 137 187 120 }
 }
+BUL_Tz = {
+	color = rgb { 120 93 93 }
+	color_ui = rgb { 120 93 93 }
+}
+ROM_ROM = {
+	color = rgb { 232 198 111 }
+	color_ui = rgb { 232 198 111 }
+}
 ZIM_ZIM = {
 	color = rgb { 158 104 93 }
 	color_ui = rgb { 158 104 93 }
@@ -235,12 +243,16 @@ SGR_CAU_provisional_government = {
 }
 
 SER_GER = {
+	color = rgb { 20 30 110 }
+	color_ui = rgb { 20 30 110 }
+}
+SER_Royle = {
 	color = rgb { 60 90 138 }
 	color_ui = rgb { 60 90 138 }
 }
-SER_Royle = {
-	color = rgb { 20 30 110 }
-	color_ui = rgb { 20 30 110 }
+HUN_kN = {
+	color = rgb { 175 104 79 }
+	color_ui = rgb { 175 104 79 }
 }
 
 NOR_GER = {
@@ -354,6 +366,11 @@ CRO_Yugoslavia = {
 CRO_normal = {
 	color = rgb { 167 136 155 }
 	color_ui = rgb { 167 136 155 }
+}
+
+CRO_KING = {
+	color = rgb { 128 105 119 }
+	color_ui = rgb { 128 105 119 }
 }
 
 PAL_Levant_Union = {

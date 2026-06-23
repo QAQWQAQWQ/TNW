@@ -2,7 +2,7 @@
 load_focus_tree = ZZZ_national_focus
 #GDP Regional distribution
 set_country_flag = GDP_regions
-set_cosmetic_tag = GRE_Fascist_forces
+set_cosmetic_tag = GRE_Kingdom
 
 # Vacant
 recruit_character = GRE_Generic_Vacant
