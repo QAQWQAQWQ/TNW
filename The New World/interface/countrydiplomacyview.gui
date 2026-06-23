@@ -1,5 +1,22 @@
 guiTypes = {
 	containerWindowType = {
+		name = "TNW_government_leaders_container"
+		position = { x = 480 y = 117 }
+		size = { width = 200 height = 303 }
+		margin = { top = 1 left = 1 right = 1 bottom = 1 }
+		clipping = yes
+		scale = 0.8
+		iconType = {
+			name = "TNW_government_leaders_icon"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_government_leaders_icon"
+			pdx_tooltip  = "TNW_government_leaders_tt_I"
+			pdx_tooltip_delayed  = "TNW_government_leaders_tt_II"
+
+		}		
+
+	}
+	containerWindowType = { #1
 		name = "TNW_head_of_gov_tt_container"
 		position = { x = -1 y = -1 }
 		size = { width = 200 height = 303 }

@@ -1,0 +1,14 @@
+scripted_gui = {
+
+   TNW_government_leaders_icon = {
+        context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "TNW_government_leaders_container"
+
+        visible = {
+			has_country_flag = tnw_government_leaders_enabled
+			
+		}
+       
+    }
+}

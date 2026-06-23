@@ -19,4 +19,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SER/Portrait_Serbia_Andrei_Karadjordjevic.png"
 	}
 
+	spriteType = {
+		name = "GFX_SER_King_Andrei"
+		texturefile = "gfx/texticons/tnwgovleader/SER/SER_King_Andrei.dds"
+	}
+
+	
+
 }

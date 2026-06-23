@@ -5,5 +5,10 @@ spriteType = {
 		textureFile = "gfx/interface/hoggui/government_head_icon.png"
 	}
 
+	spriteType = {
+		name = "GFX_government_leaders_icon"
+		textureFile = "gfx/interface/hoggui/government_leaders_icon.png"
+	}
+
 
 }

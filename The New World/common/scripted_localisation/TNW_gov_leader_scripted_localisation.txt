@@ -1,0 +1,13 @@
+
+defined_text = {
+    name = TNWgovernmentleaderdesc
+    text = {
+		trigger = { 		    
+			original_tag = SER
+			has_idea = SER_Andrew_I
+		}
+		localization_key = POLITICS_ANDREW_I_DESC
+	}
+
+}
+
