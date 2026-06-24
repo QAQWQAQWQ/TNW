@@ -4,11 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/loadingscreens/mainmenu.dds"
 		borderSize = { x=0 y= 0 }
 		size = {  x=1920 y= 1440 }
-		noOfFrames = 2
-		animation_rate_fps = 2
-		looping = no
 		tilingCenter = no
-		legacy_lazy_load = no
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 }
