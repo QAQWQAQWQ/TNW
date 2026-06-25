@@ -6,8 +6,10 @@ bitmapfonts = {
 		
 		fontfiles = {
 			"gfx/fonts/aldrich_30_outline"
-			"gfx/fonts/Arial_24_0"
-			"gfx/fonts/Arial_24_1"
+			"gfx/fonts/Arial_34_0"
+			"gfx/fonts/Arial_34_1"
+			"gfx/fonts/Arial_34_2"
+			"gfx/fonts/Arial_34_3"
 		}
 		
 		color = 0xffffffff
