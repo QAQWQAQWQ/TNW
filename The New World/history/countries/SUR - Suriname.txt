@@ -1,9 +1,9 @@
 capital = 309
-
+oob = "SUR_2002"
 # Vacant
 recruit_character = SUR_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-
+set_cosmetic_tag= SUR_HOL
 recruit_character = SUR_Aat_Rhijn
 recruit_character = SUR_Gerard_Helders
 recruit_character = SUR_Jaap_Burger
@@ -21,7 +21,10 @@ recruit_character = SUR_Olton_van_Genderen_2
 recruit_character = SUR_Juliana
 recruit_character = SUR_Isaac_Arend_Diepenhorst
 
-
+declare_war_on = {
+	target = GUC
+	type = annex_everything
+}
 country_event = { # Death of Queen
 	id = SUR.1
 	days = 331
@@ -76,12 +79,9 @@ set_technology = {
 }
 
 add_ideas = {
-	SUR_1947_Constitution
-	SUR_Poster_Boy_OFN
-	SUR_queen_wilhelmina
-
+	
 	#Faction Status
-	OFN_Dependent_Member
+	
 
 	#POLITICAL
 	tno_political_parties_controlled_opposition

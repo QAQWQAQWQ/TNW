@@ -1,5 +1,5 @@
 capital = 310
-
+oob = GUC_2002
 # Vacant
 recruit_character = GUC_Generic_Vacant
 #fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
@@ -36,9 +36,7 @@ set_country_flag = TNO_eliminate_military_spending
 inherit_technology = BRA
 
 add_ideas = {
-	OFN_Observer
-	GUC_International_Ambiguity
-	GUC_Brazilian_Immigration
+	
 
 	#Ministers
 	GUC_Pauxy_Gentil_Nunes_hog

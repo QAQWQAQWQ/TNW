@@ -11,3 +11,15 @@ defined_text = {
 
 }
 
+defined_text = {
+    name = TNWgovernmentleadertext
+    text = {
+		trigger = { 		    
+			original_tag = SER
+			has_idea = SER_Andrew_I
+		}
+		localization_key = SER_government_leaders_tt
+	}
+
+}
+

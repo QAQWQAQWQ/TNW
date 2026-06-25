@@ -1665,8 +1665,8 @@ GUY = {
 	color_ui = rgb { 129 96 134 }
 }
 GUC = {
-	color = rgb { 117 135 54 }
-	color_ui = rgb { 117 135 54 }
+	color = rgb { 48 100 142 }
+	color_ui = rgb { 48 100 142 }
 }
 GUN = {
 	color = rgb { 0 0 0 }

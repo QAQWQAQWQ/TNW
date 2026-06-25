@@ -181,10 +181,7 @@ add_ideas = {
 	
 	#Faction Status
 	OFN_Dependent_Member
-	GUY_Elizabeth_British_Legacy
-	GUY_Fragile_Coalition
-	GUY_Venezuela_border_dispute
-	GUY_US_investment
+	
 
 	#Ministers
 	GUY_Forbes_Burnham_hog

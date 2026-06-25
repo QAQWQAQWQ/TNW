@@ -36,10 +36,7 @@ set_technology = {
 	consumer_goods_reduction_2 = 1
 }
 
-set_autonomy = {
-	target = GUC
-	autonomous_state = autonomy_military_government
-}
+
 
 set_research_slots = 4
 

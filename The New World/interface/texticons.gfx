@@ -78,6 +78,13 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	##gov-leader
+	spriteType = {
+		name = "GFX_SER_king_Andrew_I_HM"
+		texturefile = "gfx/texticons/tnwgovleader/SER/SER_king_Andrew_I_HM.png"
+		legacy_lazy_load = no
+	}
+
 	#FRS law#
 	spriteType = {
 		name = "GFX_FRS_General_Regulations_for_Civil_Servants_1941"
