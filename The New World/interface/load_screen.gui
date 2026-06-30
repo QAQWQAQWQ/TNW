@@ -93,7 +93,7 @@ guiTypes = {
 			iconType = {
 				name = "progressbar"
 				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-299 y= 960 }
+				position = { x=-299 y= 1060 }
 			}
 			
 		}		

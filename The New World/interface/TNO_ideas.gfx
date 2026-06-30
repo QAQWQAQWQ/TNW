@@ -5707,109 +5707,25 @@ SpriteTypes = {
 	## Serbia ##
 
 	SpriteType = {
-		name = "GFX_idea_SER_all_for_one"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_all_for_one.dds"
+		name = "GFX_idea_SER_the_national_military_turmoil_unchecked"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_national_military_turmoil_unchecked.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_SER_between_revolutionaries_and_royalists"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_between_revolutionaries_and_royalists.dds"
+		name = "GFX_idea_SER_the_nations_economic_state_catalyzed_stagnation"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_nations_economic_state_catalyzed_stagnation.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_SER_death_to_fascism_freedom_to_the_people"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_death_to_fascism_freedom_to_the_people.dds"
+		name = "GFX_idea_SER_the_realm_of_orthodoxy"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_realm_of_orthodoxy.png"
 	}
+
 	SpriteType = {
-		name = "GFX_idea_SER_generational_divide"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_generational_divide.dds"
+		name = "GFX_idea_SER_the_vanguard"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_vanguard.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_SER_milos_against_murad"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_milos_against_murad.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_national_liberation_army"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_national_liberation_army.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_our_great_teachers_legacy"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_our_great_teachers_legacy.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_our_island_of_freedom"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_our_island_of_freedom.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_reactionary_remnants"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_reactionary_remnants.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_rebirth_of_a_nation"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_rebirth_of_a_nation.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_refugee_crisis"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_refugee_crisis.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_refugee_question"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_refugee_question.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_reichsfestung_belgrad"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_reichsfestung_belgrad.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_resurgent_nationalism"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_resurgent_nationalism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_return_of_the_kingdom"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_return_of_the_kingdom.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_serbian_collaborators"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_serbian_collaborators.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_sopo_terrorism"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_sopo_terrorism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_sps_dominance"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_sps_dominance.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_the_clock_ticks"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_clock_ticks.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_the_crown_in_exile"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_crown_in_exile.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_the_fatherland_in_disarray"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_fatherland_in_disarray.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_the_occupation_regime"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_the_occupation_regime.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_thin_facade_of_constitutionalism"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_thin_facade_of_constitutionalism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_widespread_insurrection"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_widespread_insurrection.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_yugoslav_rebirth"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_yugoslav_rebirth.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SER_zealots_conservatives_and_conformists"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/SER/idea_SER_zealots_conservatives_and_conformists.dds"
-	}
+	
 
 	## Slave Revolt ##
 

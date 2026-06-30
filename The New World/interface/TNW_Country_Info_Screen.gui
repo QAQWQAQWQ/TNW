@@ -9,6 +9,7 @@ guiTypes = {
 			position = { x = -148 y = 4 }
 			quadTextureSprite = "GFX_topbar_star_button"
 			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = TNO_COUNTRY_INFO_OPEN_BUTTON_TT
 			scale = 0.75
 		}
 	}
@@ -30,8 +31,10 @@ guiTypes = {
 		}
 		iconType = {
 			name = "poster"
-			position = { x = 749 y = 8 }
+			position = { x = 90 y = 8 }
 			alwaystransparent = yes
+			maxwidth = 150
+			maxheight = 36
 		}
 		iconType = {
 			name = "background"
@@ -54,12 +57,12 @@ guiTypes = {
 
 		iconType = {
 			name = "flag"
-			position = { x = 10 y = 13 }
+			position = { x = 100 y = 8 }
 			spriteType = "GFX_flag_small"
 		}
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 43 y = 5 }
+			position = { x = 130 y = -4 }
 			text = "[ROOT.GetName]"
 			font = "Bomb_16"
 			maxwidth = 150
@@ -87,7 +90,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "center_title"
-			position = { x = 195 y = 15 }
+			position = { x = 230 y = 35 }
 			text = "==[CountryInfo_GET_Content_Country]=="
 			font = "aldrich_32_outline"
 			maxwidth = 545
@@ -98,11 +101,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "center_desc"
-			position = { x = 195 y = 52 }
+			position = { x = 310 y = 100 }
 			text = "[CountryInfo_GET_Content_desc_Country]"
 			font = "aldrich_20_outline"
-			maxwidth = 545
-			maxheight = 377
+			maxwidth = 440
+			maxheight = 100
 			format = left
 		}
 
@@ -110,7 +113,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = 782 y = 401 }
+			position = { x = 620 y = 480 }
 			quadTextureSprite = "GFX_button_123x34"
 			buttonFont = "Bomb_16"
 			buttonText = "[GET_CLOSEBUTTON_TEXT]"
@@ -123,7 +126,7 @@ guiTypes = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
 			position = { x = 207 y = 180 }
-			web_link = "https://discordapp.com/invite/TheNewOrder"
+			web_link = "https://discord.gg/theneworder"
 		}
 		buttonType = {
 			name = "TNO_reddit_button"
@@ -135,13 +138,13 @@ guiTypes = {
 			name = "TNO_youtube_button"
 			quadTextureSprite = "GFX_youtube_button"
 			position = { x = 563 y = 180 }
-			web_link = "https://space.bilibili.com/3461581346179773"
+			web_link = "https://www.youtube.com/c/TheNewOrderDevelopmentTeam"
 		}
 		buttonType = {
 			name = "TNO_twitter_button"
 			quadTextureSprite = "GFX_twitter_button"
-			position = { x = 563 y = 230 }
-			web_link = "https://www.zhihu.com/column/c_1287153672841744384"
+			position = { x = 207 y = 230 }
+			web_link = "https://twitter.com/tnomod"
 		}
 		buttonType = {
 			name = "TNO_twitch_button"
@@ -152,7 +155,7 @@ guiTypes = {
 		buttonType = {
 			name = "TNO_tvtropes_button"
 			quadTextureSprite = "GFX_tvtropes_button"
-			position = { x = 207 y = 230 }
+			position = { x = 563 y = 230 }
 			web_link = "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheNewOrderLastDaysOfEurope"
 		}
 	}
@@ -220,12 +223,12 @@ guiTypes = {
 				animation_time = 2000
 				iconType = {
 					name = "animated_logo"
-					position = { x = 16 y = 0 }
+					position = { x = -10000000 y = 0 }
 					spriteType = "GFX_CountryInfo_animated_logo"
 				}
 				instantTextBoxType = {
 					name = "pls_click_on_entry_text"
-					position = { x = 0 y = 210 }
+					position = { x = -1000000 y = 210 }
 					text = CountryInfo_pls_click_on_entry
 					font = "aldrich_36_outline"
 					maxwidth = 545
@@ -253,7 +256,7 @@ guiTypes = {
 	# Belonging to `top_tabs`
 	containerWindowType = {
 		name = "CountryInfo_top_tabs_entry"
-		size = { width = 188 height = 45 }
+		slotsize = { width = 50 height = -100 }
 		buttonType = {
 			name = "tab_button"
 			spriteType = "GFX_CountryInfo_top_tabs"

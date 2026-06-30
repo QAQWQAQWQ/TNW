@@ -5,6 +5,12 @@ recruit_character = SER_Generic_Vacant
 set_cosmetic_tag = SER_Royle
 # Characters
 recruit_character = SER_Radova_Karadzic
+recruit_character = SER_Vojislav_Seselj
+recruit_character = SER_Vuk_Draskovic
+recruit_character = SER_Nebojsa_M_Krsticskovic
+recruit_character = SER_Misa_Vacicic
+recruit_character = SER_Aleksandar_Vucic
+
 set_country_flag = tnw_hog_ui_enabled
 set_country_flag = tnw_government_leaders_enabled
 
@@ -16,6 +22,13 @@ add_ideas = {
 	#Spirits
 	SER_King_Andrei_I
 	SER_Andrew_I
+
+	SER_the_vanguard
+	SER_the_realm_of_orthodoxy
+	SER_the_nations_economic_state_catalyzed_stagnation
+	SER_the_national_military_turmoil_unchecked
+	
+	
 
 	#Ministers
 	SER_Dragomir_Jovanovic_hog
@@ -223,11 +236,14 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 15
-	socialist = 9
-	paternalism = 18
-	despotism = 24
-	national_socialism = 34
+	national_socialism = 23
+	ultranationalism = 22
+	paternalism = 20
+	national_socialism_2 = 13
+	fascism = 11
+	paternalism_2 = 11
+
+
 }
 
 

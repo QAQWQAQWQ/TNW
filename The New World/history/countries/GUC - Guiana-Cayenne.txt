@@ -96,6 +96,7 @@ add_ideas = {
 	tno_academic_base_basic_literacy
 	tno_admin_efficiency_deficient_administrative_systems
 }
+inherit_technology = FRS
 
 set_research_slots = 2
 

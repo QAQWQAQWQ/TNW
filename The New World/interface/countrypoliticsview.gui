@@ -578,8 +578,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 10 y = 263 }
-			font = "Bomb_18"
+			position = { x = 10 y = 272 }
+			font = "fzwhjz_18"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -668,7 +668,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 120 y = 38 }
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 218
 				maxHeight = 20

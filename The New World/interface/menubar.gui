@@ -374,7 +374,7 @@ guiTypes = {
 				name = "leader_label"
 				position = { x = 0 y = 0 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 280
@@ -385,7 +385,7 @@ guiTypes = {
 				name = "leader"
 				position = { x = 0 y = 20 }
 				textureFile = ""
-				font = "aldrich_20_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 280
@@ -396,7 +396,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = 0 y = 44 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 280
@@ -407,7 +407,7 @@ guiTypes = {
 				name = "ideology"
 				position = { x = 0 y = 64 }
 				textureFile = ""
-				font = "aldrich_20_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 280
@@ -440,7 +440,7 @@ guiTypes = {
 				name = "party_label"
 				position = { x = 0 y = 136 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 280
@@ -451,7 +451,7 @@ guiTypes = {
 				name = "party"
 				position = { x = 0 y = 156 }
 				textureFile = ""
-				font = "aldrich_20_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 280

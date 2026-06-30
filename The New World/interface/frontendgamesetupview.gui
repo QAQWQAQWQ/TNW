@@ -974,7 +974,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "leader_label"
 				position = { x = 7 y = -2 }
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -985,7 +985,7 @@ guiTypes = {
 				name = "leader"
 				position = { x = 7 y = 15 }
 				textureFile = ""
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -996,7 +996,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = 7 y = 38 }
 				textureFile = ""
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -1006,7 +1006,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology"
 				position = { x = 7 y = 55 }
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -1056,7 +1056,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party_label"
 				position = { x = 7 y = 78 }
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -1066,7 +1066,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party"
 				position = { x = 7 y = 95 }
-				font = "aldrich_22_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				maxHeight = 24
@@ -1325,8 +1325,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_label"
-				position = { x = -10 y = 28 }
-				font = "aldrich_24_outline"
+				position = { x = -10 y = 34 }
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -1335,8 +1335,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 80 y = 28 }
-				font = "aldrich_24_outline"
+				position = { x = 80 y = 34 }
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 270
 				maxHeight = 40
@@ -1346,8 +1346,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = -10 y = 48 }
-				font = "aldrich_24_outline"
+				position = { x = -10 y = 53 }
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -1356,8 +1356,8 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 50 y = 48 }
-				font = "aldrich_24_outline"
+				position = { x = 50 y = 55 }
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 300
 				maxHeight = 40
@@ -1408,9 +1408,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = -10 y = 70 }
+				position = { x = -10 y = 75 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -1419,9 +1419,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 115 y = 70 }
+				position = { x = 115 y = 75 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 235
 				maxHeight = 40
@@ -2527,9 +2527,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "selected_nation_label"
-				position = { x = -277 y = 25 }
+				position = { x = -277 y = 30 }
 				textureFile = ""
-				font = "aldrich_24_outline"
+				font = "fzwhjz_18"
 				borderSize = {x = 0 y = 0}
 				text = "FE_NO_COUNTRY_SELECTED"
 				maxWidth = 274

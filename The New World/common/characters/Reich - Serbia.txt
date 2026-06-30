@@ -16,5 +16,94 @@ characters = {
 		}
 		
 	}
+
+	SER_Vojislav_Seselj = {
+		name = SER_Vojislav_Seselj
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SESELJ_DESC"
+			ideology = ultranationalism_reactionary_nationalism_subtype
+			traits = { }
+			expire = "1990.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	SER_Vuk_Draskovic = {
+		name = SER_Vuk_Draskovic
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DRASKOVIC_DESC"
+			ideology = paternalism_national_conservatism_subtype
+			traits = { }
+			expire = "1990.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	SER_Nebojsa_M_Krsticskovic = {
+		name = SER_Nebojsa_M_Krsticskovic
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DRASKOVIC_DESC"
+			ideology = national_socialism_2_subtype
+			traits = { }
+			expire = "1990.1.1.1"
+			id = -1
+		}
+		
+	}
+
+	SER_Misa_Vacicic = {
+		name = SER_Misa_Vacicic
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DRASKOVIC_DESC"
+			ideology = fascism_fascist_populism_subtype
+			traits = { }
+			expire = "1990.1.1.1"
+			id = -1
+		}
+		
+	}
+
+
+	SER_Aleksandar_Vucic = {
+		name = SER_Aleksandar_Vucic
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DRASKOVIC_DESC"
+			ideology = paternalism_2_subtype
+			traits = { }
+			expire = "1990.1.1.1"
+			id = -1
+		}
+		
+	}
+
+
+
 	
 }

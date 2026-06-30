@@ -1,0 +1,78 @@
+ideas  = {
+
+    country ={
+
+        SER_the_national_military_turmoil_unchecked = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SER_the_national_military_turmoil_unchecked" }
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+            picture = GFX_idea_SER_the_national_military_turmoil_unchecked
+
+			modifier = {
+				stability_factor = -0.1
+                army_morale_factor = -0.1
+                war_support_factor = -0.2
+                defensive_war_stability_factor = -0.1
+
+			}
+		}
+
+         SER_the_nations_economic_state_catalyzed_stagnation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SER_the_nations_economic_state_catalyzed_stagnation" }
+			allowed = {
+				always = no
+			}
+            
+			removal_cost = -1
+            picture = GFX_idea_SER_the_nations_economic_state_catalyzed_stagnation
+
+			modifier = {
+                political_power_gain = -0.01
+                stability_factor = -0.05
+                industrial_capacity_factory = -0.1
+                production_units_to_GDP_ratio_modifier = -0.1
+                gdp_growth_modifier = -3
+                inflation_rate_modifier = 1
+                monthly_credit_rating_progress = -0.5
+				
+
+			}
+		}
+
+        SER_the_realm_of_orthodoxy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SER_the_realm_of_orthodoxy" }
+			allowed = {
+				always = no
+			}
+            
+			removal_cost = -1
+            picture = GFX_idea_SER_the_realm_of_orthodoxy
+
+			modifier = {
+				political_power_factor = 0.05
+                subversive_activites_upkeep = 0.10
+
+			}
+		}
+
+        SER_the_vanguard = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SER_the_vanguard" }
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+            picture = GFX_idea_SER_the_vanguard
+			modifier = {
+                stability_weekly = 0.35
+                political_power_factor = 0.10
+                drift_defence_factor = 0.30
+                political_parties_policy_monthly_rate = 0.1
+				
+
+			}
+		}
+
+    }
+}
