@@ -394,10 +394,7 @@ set_autonomy = {
 add_ideas = {
 	#Country
 	Sphere_Core_Member
-	CHI_politics_under_surveillance
-	CHI_jap_conseiller_militaire
-	CHI_Soaring_economy
-	CHI_Nouvelle_industrialisation
+	
 
 	#Political
 	tno_political_parties_one_party_state

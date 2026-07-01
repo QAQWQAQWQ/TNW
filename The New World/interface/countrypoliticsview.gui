@@ -125,14 +125,14 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 45 y = 4 }
+			position = { x = 45 y = 8 }
 			textureFile = ""
 			font = "Bomb_36"
 			borderSize = {x = 0 y = 0}
 			text = "POLITICAL_POLITICAL"
-			maxWidth = 400
-			maxHeight = 20
-			fixedsize = yes
+			maxWidth = 100
+			maxHeight = 10
+			fixedsize = no
 		}
 
 		iconType ={

@@ -927,13 +927,13 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "diplomacy_title"
-			position = { x = 45 y = 7 }
+			position = { x = 45 y = 12 }
 			textureFile = ""
 			font = "Bomb_36"
-			borderSize = {x = 0 y = -5}
+			borderSize = {x = 0 y = -2}
 			text = "DIPLOMACY_DIPLOMACY"
 			maxWidth = 240
-			maxHeight = 20
+			maxHeight = 4
 			format = left
 			alwaystransparent = yes
 		}
@@ -1138,7 +1138,7 @@ guiTypes = {
 		iconType = {
 			name = "diplo_relations_bg"
 			spriteType = "GFX_diplo_relations_bg"
-			position = { x = 4 y = 3 }
+			position = { x = -4 y = 5 }
 		}
 
 		iconType = {
@@ -1314,7 +1314,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "description"
 			position = { x = 31 y = 95 }
-			font = "aldrich_24_outline"
+			font = "fzwhjz_18"
 			text = "Maus"
 			maxWidth = 470
 			maxHeight = 300

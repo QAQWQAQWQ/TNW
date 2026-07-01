@@ -31,9 +31,9 @@ guiTypes = {
 		}
 		iconType = {
 			name = "poster"
-			position = { x = 90 y = 8 }
+			position = { x = 90 y = 13 }
 			alwaystransparent = yes
-			maxwidth = 150
+			maxwidth = 77
 			maxheight = 36
 		}
 		iconType = {
@@ -113,10 +113,11 @@ guiTypes = {
 
 		buttonType = {
 			name = "close_button"
-			position = { x = 620 y = 480 }
-			quadTextureSprite = "GFX_button_123x34"
+			position = { x = 720 y = 8 }
+			size = { width = 80 height = 20 }
+			quadTextureSprite = "GFX_closebutton_small"
 			buttonFont = "Bomb_16"
-			buttonText = "[GET_CLOSEBUTTON_TEXT]"
+			buttonText = " "
 			pdx_tooltip = TNO_COUNTRY_INFO_BUTTON_TT
 			shortcut = "ESCAPE"
 		}
@@ -256,7 +257,8 @@ guiTypes = {
 	# Belonging to `top_tabs`
 	containerWindowType = {
 		name = "CountryInfo_top_tabs_entry"
-		slotsize = { width = 50 height = -100 }
+		slotsize = { width = 30 height = 1 }
+		position = { x = 120 y = 510 }
 		buttonType = {
 			name = "tab_button"
 			spriteType = "GFX_CountryInfo_top_tabs"
@@ -288,7 +290,7 @@ guiTypes = {
 	# Belonging to `gridbox_container`
 	containerWindowType = {
 		name = "CountryInfo_Folder_Entry"
-		size = { width = 150 height = 36 }
+		size = { width = 33 height = 36 }
 		buttonType = {
 			name = "Folder_button"
 			spriteType = "GFX_CountryInfo_entry_folder"
