@@ -7,7 +7,7 @@ state = {
 
 
 	history = {
-		owner = TNS
+		owner = ROM
 		add_core_of = TNS
 		buildings = {
 			infrastructure = 4

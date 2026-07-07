@@ -1581,6 +1581,26 @@ spriteTypes = {
 		name = "GFX_idea_ITA_Stefano_Delle_Chiaie"
 		texturefile = "gfx/interface/ideas/ministers/ITA/ITA_minister_Stefano_Delle_Chiaie.png"
 	}
+	##NEW italy minister##
+	spriteType = {
+		name = "GFX_idea_ITA_Luca_Romagnoli"
+		texturefile = "gfx/interface/ideas/ministers/ITA/ITA_minister_Luca_Romagnoli.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Silvio_Berlusconi"
+		texturefile = "gfx/interface/ideas/ministers/ITA/ITA_minister_Silvio_Berlusconi.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_minister_Pino_Rauti"
+		texturefile = "gfx/interface/ideas/ministers/ITA/ITA_minister_Pino_Rauti.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_Salvo_Lima"
+		texturefile = "gfx/interface/ideas/ministers/ITA/ITA_minister_Salvo_Lima.png"
+	}
 
 
 	### NOR - Norway ###

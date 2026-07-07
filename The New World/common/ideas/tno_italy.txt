@@ -68,6 +68,140 @@ ideas = {
 			}
 		}
 
+
+		## New Italy idea ##
+
+		ITA_The_Sly_Fox_and_the_Wolf_Pack = {
+			allowed = {
+				original_tag = ITA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ITA_The_Sly_Fox_and_the_Wolf_Pack
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				admin_program_cost_factor = 0.1
+				offices_coverage_modifier = -0.05
+				admin_efficiency_monthly_rate = -0.01
+
+
+			}
+
+			targeted_modifier = {
+				
+			}
+		}
+
+		ITA_Iconoclasm = {
+			allowed = {
+				original_tag = ITA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ITA_Iconoclasm
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.2
+				modifier_drift_defence_factor = -0.5
+				poverty_monthly_rate = -0.01
+				public_meetings_policy_monthly_rate = -0.1
+				custom_modifier_tooltip= ita_drift_defence_factor_tt
+			}
+
+			targeted_modifier = {
+				
+			}
+		}
+
+
+		ITA_Sarcophagus = {
+			allowed = {
+				original_tag = ITA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ITA_Sarcophagus
+			modifier = {
+				consumer_goods_use_modifier = 0.1
+				poverty_monthly_rate = -0.03
+				military_expenditures_factor = 0.15
+				gdp_growth_modifier = -1.5
+				industrial_capacity_factory = -0.1
+				monthly_credit_rating_progress = -0.5
+			}
+
+			targeted_modifier = {
+				
+			}
+		}
+
+
+		ITA_Scourging_the_Rooster_the_Lamb_and_the_Ghost = {
+			allowed = {
+				original_tag = ITA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ITA_Scourging_the_Rooster_the_Lamb_and_the_Ghost
+			modifier = {
+				conscription = -0.12
+				compliance_gain = -0.02
+				resistance_growth = 0.1
+				army_org_factor = -0.15
+				custom_modifier_tooltip = ita_resistance_activity_tt
+			}
+
+			targeted_modifier = {
+				
+			}
+		}
+
+		ITA_Arson_in_the_Mist = {
+			allowed = {
+				original_tag = ITA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_ITA_Arson_in_the_Mist
+			modifier = {
+				stability_factor = -0.1
+				custom_modifier_tooltip= fascism_aristocratic_fascism_subtype_dirft
+				custom_modifier_tooltip = fascism_sansepolcrismo_subtype_drift
+				
+			}
+			hidden_modifier = {
+				fascism_drift = -0.1
+
+			}
+
+			targeted_modifier = {
+				
+			}
+		}
+
+
 		
 
 	

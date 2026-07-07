@@ -7259,6 +7259,14 @@ misc_law_array_startup = {
 		add_to_array = { TNO_assorted_laws = token:MAN_Manchuria_International_Development_Group_law }#满洲国际开发集团 
 		add_to_array = { TNO_assorted_laws = token:MAN_xinjing_Agreement_law }#1982·新京协定                               
 	}
+
+	if ={
+		limit = {
+			tag = ITA
+		}
+
+
+	}
 	# Global Generic
 	else = {
 		add_to_array = { TNO_assorted_laws = token:pollution_law }

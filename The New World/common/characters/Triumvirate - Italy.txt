@@ -1,27 +1,43 @@
 characters = {
 	# Country leaders #
-   ITA_Giuseppe_Umberto_Rauti = {
-		name = ITA_Giuseppe_Umberto_Rauti
+   ITA_Vittorio_Emanuele = {
+		name = ITA_Vittorio_Emanuele
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ITA/Portrait_ITA_Giuseppe_Umberto_Rauti.png"
+				large = "gfx/leaders/ITA/Portiait_ITA_Vittorio_Emanuele.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_Council_of_Fascism_DESC"
+			desc = "POLITICS_VITTORIO_EMANUELE_DESC"
 			expire = "1999.9.9"
-			ideology = fascism_subtype
+			ideology = despotism_absolute_monarchy_subtype
 			traits = { }
 			id = -1
 		}
 	}
 
-	ITA_Francesco_Giulio_Baghino = {
-		name = ITA_Francesco_Giulio_Baghino
+	ITA_Vincenzo_Trentino = {
+		name = ITA_Vincenzo_Trentino
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_ITA_Francesco_Giulio_Baghino.png"
-				small = "GFX_idea_ITA_Francesco_Giulio_Baghino"
+				large = "gfx/leaders/ITA/Portrait_ITA_Vincenzo_Trentino.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VINCENZO_TRENTION_DESC"
+			expire = "1999.9.9"
+			ideology = fascism_subtype
+			traits = {Half_vulpine_half_leonine }
+			id = -1
+		}
+	}
+
+	ITA_Pino_Rauti = {
+		name = ITA_Pino_Rauti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Pino_Rauti.png"
+				small = "GFX_idea_ITA_minister_Pino_Rauti"
 			}
 		}
 		country_leader = {
@@ -33,25 +49,23 @@ characters = {
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = ITA_Francesco_Giulio_Baghino_hog
+			idea_token = ITA_Pino_Rauti_hog
 			allowed = { original_tag = ITA }
 			traits = {
 				head_of_government
-				hog_utterly_corrupt
+				
 			}
 			ledger = civilian
 			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
 		}
 	}
 
-	ITA_Giorgio_Bornacin = {
-		name = ITA_Giorgio_Bornacin
+	ITA_Silvio_Berlusconi = {
+		name = ITA_Silvio_Berlusconi
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_ITA_Giorgio_Bornacin.png"
-				small = "GFX_idea_ITA_Giorgio_Bornacin"
+				large = "gfx/leaders/ITA/Portrait_ITA_Silvio_Berlusconi.png"
+				small = "GFX_idea_Silvio_Berlusconi"
 			}
 		}
 		country_leader = {
@@ -64,25 +78,24 @@ characters = {
 
 		advisor = {
 			slot = foreign_minister
-			idea_token = ITA_Giorgio_Bornacin_for
+			idea_token = ITA_Silvio_Berlusconi_for
 			allowed = { original_tag = ITA }
 			traits = {
 				foreign_minister
-				for_apologetic_clerk
+				
 			}
 			ledger = civilian
 			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
+	
 		}
 	}
 
-	ITA_Mario_Draghi = {
-		name = ITA_Mario_Draghi
+	ITA_Salvo_Lima = {
+		name = ITA_Salvo_Lima
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_ITA_Mario_Draghi.png"
-				small = "GFX_idea_ITA_Mario_Draghi"
+				large = "gfx/leaders/ITA/Portrait_ITA_Salvo_Lima.png"
+				small = "GFX_idea_ITA_Salvo_Lima"
 			}
 		}
 		country_leader = {
@@ -94,25 +107,23 @@ characters = {
 		}
 		advisor = {
 			slot = economy_minister
-			idea_token = ITA_Mario_Draghi_eco
+			idea_token = ITA_Salvo_Lima_eco
 			allowed = { original_tag = ITA }
 			traits = {
 				economy_minister
-				eco_political_appointment
+				
 			}
 			ledger = civilian
 			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
 		}
 	}
 
-	ITA_Stefano_Delle_Chiaie = {
-		name = ITA_Stefano_Delle_Chiaie
+	ITA_Luca_Romagnoli = {
+		name = ITA_Luca_Romagnoli
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CHI/Portrait_ITA_Stefano_Delle_Chiaie.png"
-				small = "GFX_idea_ITA_Stefano_Delle_Chiaie"
+				large = "gfx/leaders/ITA/Portrait_ITA_Luca_Romagnoli.png"
+				small = "GFX_idea_ITA_Luca_Romagnoli"
 			}
 		}
 		country_leader = {
@@ -124,11 +135,11 @@ characters = {
 		}
 		advisor = {
 			slot = security_minister
-			idea_token = ITA_Stefano_Delle_Chiaie_sec
+			idea_token = ITA_Luca_Romagnoli_sec
 			allowed = { original_tag = ITA }
 			traits = {
 				security_minister
-				sec_silent_lawyer
+				
 			}
 			ledger = civilian
 			cost = -1

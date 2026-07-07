@@ -1,10 +1,10 @@
 characters = {
 	### ROMANIA
-	ROM_Ion_Mihailache = {
-		name = ROM_Ion_Mihailache
+	ROM_Ion_Diaconescu = {
+		name = ROM_Ion_Diaconescu
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROM/Portrait_Romania_Ion_Mihailache.png"
+				large = "gfx/leaders/ROM/Portrait_Romania_Ion_Diaconescu.png"
 			}
 		}
 		country_leader = {

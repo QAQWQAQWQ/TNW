@@ -8,6 +8,13 @@ defined_text = {
 		}
 		localization_key = POLITICS_ANDREW_I_DESC
 	}
+	text = {
+		trigger = { 		    
+			original_tag = ITA
+			has_idea = ITA_Vittorio_Emanuele_IV
+		}
+		localization_key = POLITICS_EMANUELE_IV_DESC
+	}
 
 }
 
@@ -21,5 +28,17 @@ defined_text = {
 		localization_key = SER_government_leaders_tt
 	}
 
+	 text = {
+		trigger = { 		    
+			original_tag = ITA
+			has_idea = ITA_Vittorio_Emanuele_IV
+		}
+		localization_key = ITA_government_leaders_tt
+	}
+
 }
+
+
+
+
 

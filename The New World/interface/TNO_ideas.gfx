@@ -1782,6 +1782,32 @@ SpriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_jap_conseiller_militaire.png"
 	}
 
+	## New China idae ##
+	SpriteType = {
+		name = "GFX_idea_CHI_March_Beneath_the_Blue_Sky"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_March_Beneath_the_Blue_Sky.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_CHI_Wisdom_Before_Valor"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_Wisdom_Before_Valor.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_CHI_Commerce_Along_the_Great_River"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_Commerce_Along_the_Great_River.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_CHI_Radiance_of_Martial_Virtue"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_Radiance_of_Martial_Virtue.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_CHI_Peace_and_Prosperity"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/CHI/idea_CHI_Peace_and_Prosperity.png"
+	}
+
     ## Italy ##
 	SpriteType = {
 		name = "GFX_idea_ITA_patria_e_leader"
@@ -1801,6 +1827,31 @@ SpriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_ITA_traditore"
 		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_traditore.png"
+	}
+	##new italy idea ##
+	SpriteType = {
+		name = "GFX_idea_ITA_The_Sly_Fox_and_the_Wolf_Pack"
+		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_The_Sly_Fox_and_the_Wolf_Pack.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ITA_Iconoclasm"
+		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_Iconoclasm.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ITA_Sarcophagus"
+		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_Sarcophagus.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ITA_Scourging_the_Rooster_the_Lamb_and_the_Ghost"
+		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_Scourging_the_Rooster_the_Lamb_and_the_Ghost.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_ITA_Arson_in_the_Mist"
+		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_Arson_in_the_Mist.png"
 	}
 
 	###TNW###

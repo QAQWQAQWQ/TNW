@@ -85,6 +85,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	spriteType = {
+		name = "GFX_ITA_Emperor_Vittorio_Emanuele"
+		texturefile = "gfx/texticons/tnwgovleader/ITA/ITA_Emperor_Vittorio_Emanuele.png"
+		legacy_lazy_load = no
+	}
+
 	#FRS law#
 	spriteType = {
 		name = "GFX_FRS_General_Regulations_for_Civil_Servants_1941"

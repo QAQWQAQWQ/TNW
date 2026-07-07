@@ -6,21 +6,8 @@ set_cosmetic_tag = ROM_ROM
 
 
 # Characters
-recruit_character = ROM_Ion_Mihailache
-recruit_character = ROM_Nicolae_Penescu
-recruit_character = ROM_Corneliu_Coposu
-recruit_character = ROM_Gheorghe_Zane
-recruit_character = ROM_Ion_Ratiu
-recruit_character = ROM_Mihail_Farcasanu
-recruit_character = ROM_Gheorghe_Bratianu
-recruit_character = ROM_Sanda_Tatarescu_Negropontes
-recruit_character = ROM_Iosef_Constantin_Dragan
-recruit_character = ROM_Adrian_Dimitriu
-recruit_character = ROM_Sergiu_Cunescu
-recruit_character = ROM_Radu_Campeanu
-recruit_character = ROM_Petre_Bejan
-recruit_character = ROM_Gheorghe_Vladescu_Racoasa
-recruit_character = ROM_Viorel_V_Tilea
+recruit_character = ROM_Ion_Diaconescu
+
 
 promote_character = ROM_Petre_Bejan
 
@@ -38,11 +25,7 @@ country_event = {
 add_ideas = {
 	Stahlpakt_member
 	## Spirits
-	ROM_Scars_Of_Vienna
-	ROM_Ghosts_Of_The_Past
-	ROM_Antonescus_Territorial_Remnant
-	ROM_Michael_The_Brave
-	ROM_King_And_Pawn
+	
 
 
 	## Ministers

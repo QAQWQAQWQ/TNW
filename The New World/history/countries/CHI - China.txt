@@ -394,7 +394,11 @@ set_autonomy = {
 add_ideas = {
 	#Country
 	Sphere_Core_Member
-	
+	CHI_March_Beneath_the_Blue_Sky
+	CHI_Wisdom_Before_Valor
+	CHI_Radiance_of_Martial_Virtue
+	CHI_Commerce_Along_the_Great_River
+	CHI_Buried_in_Pingsha_Huang_enters_the_sky
 
 	#Political
 	tno_political_parties_one_party_state

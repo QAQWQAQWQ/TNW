@@ -6,7 +6,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = TNS
+		owner = ROM
 		add_core_of = TNS
 		buildings = {
 			infrastructure = 3

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_198"
 
 	history = {
-		owner = TNS
+		owner = ROM
 		add_core_of = TNS
 		buildings = {
 			infrastructure = 3

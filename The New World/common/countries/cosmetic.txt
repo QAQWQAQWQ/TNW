@@ -1200,7 +1200,7 @@ scorza_ISR = {
 	color_ui = rgb { 104 156 123 }
 }
 
-ITA_socialrepublic = {
+ITA_EMP = {
 	color = rgb { 104 156 123 }
 	color_ui = rgb { 104 156 123 }
 }

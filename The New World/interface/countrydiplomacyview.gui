@@ -201,7 +201,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_name"
 				position = { x = 250 y = 40 }
-				font = "Bomb_16"
+				font = "fzwhjz_18"
 				text = "Germanian"
 				maxWidth = 290
 				fixedsize = yes
@@ -219,7 +219,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "faction_name"
 					position = { x = 20 y = 2 }
-					font = "Bomb_16"
+					font = "fzwhjz_18"
 					text = "faction"
 					maxWidth = 290
 					maxHeight = 20
@@ -231,8 +231,8 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 250 y = 75 }
-				font = "Bomb_16"
+				position = { x = 250 y = 80 }
+				font = "fzwhjz_18"
 				text = "Rudolf Kittler"
 				maxWidth = 290
 				maxHeight = 20
@@ -472,7 +472,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = 5 y = 3 }
-						font = "aldrich_20_outline"
+						font = "fzwhjz_18"
 						text = "party"
 						maxWidth = 273
 						maxHeight = 20
@@ -492,7 +492,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "elections"
 						position = { x = 5 y = 50 }
-						font = "aldrich_20_outline"
+						font = "fzwhjz_18"
 						text = "elections"
 						maxWidth = 275
 						maxHeight = 20

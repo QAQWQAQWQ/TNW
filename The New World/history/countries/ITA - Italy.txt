@@ -1,19 +1,19 @@
 capital = 2
-recruit_character = ITA_Giuseppe_Umberto_Rauti
+recruit_character = ITA_Vincenzo_Trentino
 #GDP Regional distribution
 set_country_flag = GDP_regions
-set_cosmetic_tag = ITA_socialrepublic
+set_cosmetic_tag = ITA_EMP
 #Italian endo/exo
 set_country_flag = italian_names
-
+set_country_flag = tnw_government_leaders_enabled
 oob = "ITA_1962"
 
 load_focus_tree = ita_intro
 
-recruit_character = ITA_Francesco_Giulio_Baghino
-recruit_character = ITA_Giorgio_Bornacin
-recruit_character = ITA_Mario_Draghi
-recruit_character = ITA_Stefano_Delle_Chiaie
+recruit_character = ITA_Pino_Rauti
+recruit_character = ITA_Silvio_Berlusconi
+recruit_character = ITA_Salvo_Lima
+recruit_character = ITA_Luca_Romagnoli
 
 
 
@@ -580,17 +580,13 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-
-	conservatism = 0
-	paternalism = 44
-	despotism = 0
-	fascism = 51
-	national_socialism = 5
+	despotism = 8
+	paternalism = 18
+	liberal_conservatism_2 = 11
+	liberal_conservatism_3 = 13
+	liberal_conservatism = 10
+	fascism_2 = 12
+	fascism = 28
 	
 }
 
@@ -799,10 +795,12 @@ set_air_oob = "ITA_1962_air"
 add_ideas = {
     Stahlpakt_roma_Leader
     #Country
-	ITA_patria_e_leader
-	ITA_only_party
-	ITA_Il_richiamo_della_patria
-	ITA_traditore
+	ITA_The_Sly_Fox_and_the_Wolf_Pack
+	ITA_Iconoclasm
+	ITA_Sarcophagus
+	ITA_Scourging_the_Rooster_the_Lamb_and_the_Ghost
+	ITA_Arson_in_the_Mist
+	ITA_Vittorio_Emanuele_IV
 	
 
 	### Political Laws ###
@@ -860,11 +858,10 @@ add_ideas = {
 	
 
 	#ministers#
-	ITA_Francesco_Giulio_Baghino_hog
-	ITA_Giorgio_Bornacin_for
-	ITA_Mario_Draghi_eco
-	ITA_Stefano_Delle_Chiaie_sec
-	
+	ITA_Pino_Rauti_hog
+	ITA_Silvio_Berlusconi_for
+	ITA_Salvo_Lima_eco
+	ITA_Luca_Romagnoli_sec
 }
 
 #intro tree completed focuses#
