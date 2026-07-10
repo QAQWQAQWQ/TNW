@@ -264,6 +264,13 @@ scripted_gui = {
 			Content_button_click = {
 				set_variable = { CountryInfo_Selected = f }
 			}
+			back_button_click = {
+				subtract_from_variable = { CountryInfo_Selected = 1 }
+			}			
+			forward_button_click = {
+				TNO_CountryInfo_button_overflow_solution = yes
+				add_to_variable = { CountryInfo_Selected = 1 }
+			}			
 		}
 		
 		### entry_gridbox end ###
@@ -276,12 +283,22 @@ scripted_gui = {
 					limit = {
 						check_variable = { CountryInfo_Selected = f }
 					}
-					set_temp_variable = { content_frame = 2 }
+					set_temp_variable = { content_frame = 1 }
 				}
 				else = {
 					set_temp_variable = { content_frame = 1 }
 				}
 			}
+			back_button_click_enabled = {
+				NOT = {
+					check_variable = { CountryInfo_Selected = 1 }
+				}	
+			}			
+			forward_button_click_enabled = {
+				NOT = {
+					check_variable = { CountryInfo_Selected = CountryInfo_array_main^num }
+				}	
+			}				
 			Folder_button_visible = {
 				if = {
 					limit = {

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  CountryInfo_pls_click_on_entry: "==点击左侧条目=="
- CountryInfo_Folder_button_tt: "§F§G点击§!切换“§Y[CountryInfo_GET_Folder_Country]§!”的展示条目§!"
- CountryInfo_Content_button_tt: "§F§G点击§!展示“§Y[CountryInfo_GET_Content_Country]§!”的条目标题§!"
+ CountryInfo_back_button_tt: "§F§G点击§!切换至“§Y上一条§!”的展示条目§!"
+ CountryInfo_forward_button_tt: "§F§G点击§!切换至“§Y下一条§!”的展示条目§!"
  TNO_COUNTRY_INFO_BUTTON_TT: "§Y出发，掌握你的命运。§!"
  TNO_COUNTRY_INFO_BUTTON_TEXT_VYT: "主与我们同在！"
  TNO_COUNTRY_INFO_BUTTON_TEXT_PRM: "胜利万岁！"
@@ -599,6 +599,8 @@
  CountryInfo_Tutorial_Folder.101: "新秩序"
  CountryInfo_Tutorial_Content.1: "冷战"
  CountryInfo_Tutorial_Content_desc.1: "§W新秩序：欧洲末日§!回答了这样的一个问题：§W轴心国§!赢得了二战之后的§B冷战§!会是何种模样？正如现实中的冷战，§WTNO§!的世界正处在战后三大势力的三足鼎立中：§q大日耳曼国§!、§e大日本帝国§!和§M美利坚合众国§!各据一方，警惕地注视着对手的一举一动。\n\n为争夺§Y世界霸权§!，曾经的列强们在战场上一次又一次正面交锋，穷尽手段只为把对方§x赶尽杀绝§!。如今，强权们更加青睐通过§Y幕后交易§!、§C国际操纵§!、§G经济竞赛§!，以及§Y扩张阵营影响力§!来进行角逐。§WTNO模组§!添加了下述的诸多游戏玩法，使得游戏体验与原版相比大大不同。"
+ CountryInfo_Tutorial_Content.2: "冷战"
+ CountryInfo_Tutorial_Content_desc.2: "§W新秩序：欧洲末日§!回答了这样的一个问题：§W轴心国§!赢得了二战之后的§B冷战§!会是何种模样？正如现实中的冷战，§WTNO§!的世界正处在战后三大势力的三足鼎立中：§q大日耳曼国§!、§e大日本帝国§!和§M美利坚合众国§!各据一方，警惕地注视着对手的一举一动。\n\n为争夺§Y世界霸权§!，曾经的列强们在战场上一次又一次正面交锋，穷尽手段只为把对方§x赶尽杀绝§!。如今，强权们更加青睐通过§Y幕后交易§!、§C国际操纵§!、§G经济竞赛§!，以及§Y扩张阵营影响力§!来进行角逐。§WTNO模组§!添加了下述的诸多游戏玩法，使得游戏体验与原版相比大大不同。" 
  CountryInfo_Tutorial_Content.3: "代理人战争"
  CountryInfo_Tutorial_Content_desc.3: "这并不意味着§WTNO§!中战争是难得一见的。恰恰相反，战争在这里可谓是§G司空见惯§!，几乎每个国家都会经历几场大大小小的战争。不过，战争并不是以直接冲突的方式呈现，而是以§R代理人战争§!的方式上演。§R代理人战争§!指的是大国通过支持冲突中的交战双方进行对抗，以避免大国间公开的直接冲突。这类情况也经常在一国§R内战§!中发生。\n\n§R代理人战争§!中的国家通常会受到外部势力支持。如果玩家并未扮演这个外部势力，那么受支援的参战国就会得到额外的单位。假如外部势力是玩家，便能够通过§W志愿军机制§!支援盟友，正如原版§W钢铁雄心IV§!那样。"
  CountryInfo_Tutorial_Content.4: "冷战互动"

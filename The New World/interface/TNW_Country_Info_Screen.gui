@@ -121,42 +121,54 @@ guiTypes = {
 			pdx_tooltip = TNO_COUNTRY_INFO_BUTTON_TT
 			shortcut = "ESCAPE"
 		}
+		buttonType = {
+			name = "back_button"
+			position = { x = 450 y = 400 }
+			quadTextureSprite ="GFX_browser_back"
+			pdx_tooltip = CountryInfo_back_button_tt
+		}
+		buttonType = {
+			name = "forward_button"
+			position = { x = 500 y = 400 }
+			quadTextureSprite ="GFX_browser_forward"
+			pdx_tooltip = CountryInfo_forward_button_tt
+		}		
 
 		### Social Media Links ###
 		buttonType = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
-			position = { x = 207 y = 180 }
+			position = { x = 310 y = 180 }
 			web_link = "https://discord.gg/theneworder"
 		}
 		buttonType = {
 			name = "TNO_reddit_button"
 			quadTextureSprite = "GFX_reddit_button"
-			position = { x = 385 y = 180 }
+			position = { x = 503 y = 180 }
 			web_link = "https://www.reddit.com/r/TNOmod/"
 		}
 		buttonType = {
 			name = "TNO_youtube_button"
 			quadTextureSprite = "GFX_youtube_button"
-			position = { x = 563 y = 180 }
+			position = { x = 503 y = 230 }
 			web_link = "https://www.youtube.com/c/TheNewOrderDevelopmentTeam"
 		}
 		buttonType = {
 			name = "TNO_twitter_button"
 			quadTextureSprite = "GFX_twitter_button"
-			position = { x = 207 y = 230 }
+			position = { x = 310 y = 230 }
 			web_link = "https://twitter.com/tnomod"
 		}
 		buttonType = {
 			name = "TNO_twitch_button"
 			quadTextureSprite = "GFX_twitch_button"
-			position = { x = 385 y = 230 }
+			position = { x = 310 y = 280 }
 			web_link = "https://www.twitch.tv/tnomod"
 		}
 		buttonType = {
 			name = "TNO_tvtropes_button"
 			quadTextureSprite = "GFX_tvtropes_button"
-			position = { x = 563 y = 230 }
+			position = { x = 503 y = 280 }
 			web_link = "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheNewOrderLastDaysOfEurope"
 		}
 	}
@@ -312,6 +324,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "CountryInfo_Content_Entry"
 		size = { width = 150 height = 36 }
+		position = { x = 1114 y = -1 }
 		clipping = no
 		buttonType = {
 			name = "Content_button"
@@ -328,7 +341,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "content_text"
 			position = { x = 20 y = 0 }
-			text = [CountryInfo_GET_Content_Country]
+			text = [TNW_CountryInfo_GET_Content_Country]
 			font = "aldrich_18_outline"
 			maxwidth = 145
 			maxheight = 30
