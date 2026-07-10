@@ -38,6 +38,15 @@ ideas = {
 		SWE_The_Parental_Leave_System_in_1974 = {}
 		SWE_The_1975_New_Abortion_Law = {}
 		SWE_The_1980_Law_on_Succession_to_the_Throne = {}
+		#italy Assorted Laws
+		ITA_Albertine_Statute_of_1848_law= {}
+		ITA_Head_of_Government_Powers_and_Prerogatives_Act_Fascist_Year_III_law = {}
+		ITA_Political_Parties_Dissolution_Decree_Fascist_Year_IV_law = {}
+		ITA_Grand_Council_of_Fascism_Competences_Act_Fascist_Year_VI_law = {}
+		ITA_Racial_Laws_Fascist_Year_XVI_law = {}
+		ITA_European_Confederation_Treaty_Fascist_Year_XXIV_law = {}
+		ITA_Trade_Union_Act_Amendment_1966_law = {}
+		
 
 
 		# Ukraine Assorted Laws

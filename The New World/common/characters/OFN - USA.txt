@@ -1,10 +1,10 @@
 characters = {
 	# Country leaders #
-	USA_wesley_clark = {
-		name = USA_wesley_clark
+	USA_Strom_Thurmond= {
+		name = USA_Strom_Thurmond
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/USA/Portrait_USA_wesley_clark.png"
+				large = "gfx/leaders/USA/Portrait_USA_Strom_Thurmond.png"
 			}
 		}
 		country_leader = {
@@ -16,4 +16,24 @@ characters = {
 			id = -1
 		}
 	}
+
+
+	USA_wesley_clark = {
+		name = USA_wesley_clark
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_wesley_clark.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WESLEY_CLARK_DESC"
+			expire = "1994.4.20"
+			ideology = " "
+			traits = {
+			}
+			id = -1
+		}
+	}
+
+
 }

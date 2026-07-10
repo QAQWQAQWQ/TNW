@@ -39,6 +39,29 @@ on_actions = {
 
 			set_temp_variable = { temp_law = token:MAN_xinjing_Agreement_law }
             TNO_add_assorted_law = yes
+
+			##ITA##
+			set_temp_variable = { temp_law = token:ITA_Albertine_Statute_of_1848_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = token:ITA_Head_of_Government_Powers_and_Prerogatives_Act_Fascist_Year_III_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = ITA_Political_Parties_Dissolution_Decree_Fascist_Year_IV_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = ITA_Grand_Council_of_Fascism_Competences_Act_Fascist_Year_VI_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = ITA_Racial_Laws_Fascist_Year_XVI_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = ITA_European_Confederation_Treaty_Fascist_Year_XXIV_law }
+            TNO_add_assorted_law = yes
+
+			set_temp_variable = { temp_law = ITA_Trade_Union_Act_Amendment_1966_law }
+            TNO_add_assorted_law = yes
+
  
 
 	}

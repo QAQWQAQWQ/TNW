@@ -7264,6 +7264,13 @@ misc_law_array_startup = {
 		limit = {
 			tag = ITA
 		}
+		add_to_array = { TNO_assorted_laws = token:ITA_Albertine_Statute_of_1848_law }#1848年阿尔贝蒂诺宪章
+		add_to_array = { TNO_assorted_laws = token:ITA_Head_of_Government_Powers_and_Prerogatives_Act_Fascist_Year_III_law }#法西斯纪年第三年政府首脑职权与特权法（已废除）
+		add_to_array = { TNO_assorted_laws = token:ITA_Political_Parties_Dissolution_Decree_Fascist_Year_IV_law }#法西斯纪年第四年解散政党令（已废除）
+		add_to_array = { TNO_assorted_laws = token:ITA_Grand_Council_of_Fascism_Competences_Act_Fascist_Year_VI_law }#法西斯纪年第六年法西斯大委员会职权法（已废除）
+		add_to_array = { TNO_assorted_laws = token:ITA_Racial_Laws_Fascist_Year_XVI_law }#法西斯纪年第十六年种族法（已废除）
+		add_to_array = { TNO_assorted_laws = token:ITA_European_Confederation_Treaty_Fascist_Year_XXIV_law }#法西斯纪年第24年欧洲邦联条约
+		add_to_array = { TNO_assorted_laws = token:ITA_Trade_Union_Act_Amendment_1966_law }#1966年工会法修正案
 
 
 	}
