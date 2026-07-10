@@ -490,7 +490,7 @@ set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
 # - Scars
 
 # Country leaders
-recruit_character = USA_wesley_clark
+recruit_character = USA_Strom_Thurmond
 
 # Ministers
 

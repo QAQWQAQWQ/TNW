@@ -1,5 +1,11 @@
 spriteTypes = {
 
+
+	##
+
+
+
+
     #ideology
 	spriteType = {
 		name = "GFX_afr_Postcolonial_Elitism"
@@ -77,6 +83,32 @@ spriteTypes = {
 		texturefile = "gfx/texticons/Japan house/Shugiin_gicho_Kozo_Watanabe.png"
 		legacy_lazy_load = no
 	}
+
+	#ITALAW#
+	spriteType = {
+		name = "GFX_ITA_law_icon_one"
+		texturefile = "gfx/texticons/ITA/ITA_law_icon_one.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ITA_law_icon_two"
+		texturefile = "gfx/texticons/ITA/ITA_law_icon_two.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ITA_law_icon_three"
+		texturefile = "gfx/texticons/ITA/ITA_law_icon_three.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ITA_law_icon_four"
+		texturefile = "gfx/texticons/ITA/ITA_law_icon_four.png"
+		legacy_lazy_load = no
+	}
+
 
 	##gov-leader
 	spriteType = {
