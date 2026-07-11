@@ -147,4 +147,22 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+
+
+
+	ITA_Vittorio_Emanuele = {
+		name = ITA_Vittorio_Emanuele
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portiait_ITA_Vittorio_Emanuele.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VITTORIO_EMANUELE_DESC"
+			expire = "1999.9.9"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { }
+			id = -1
+		}
+	}
 }
