@@ -15,4 +15,20 @@ characters = {
 		}
 	}
 
+	SPA_Rodolfo_Martin_Villa = {
+		name = SPA_Rodolfo_Martin_Villa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPA/Portrait_Spain_Rodolfo_Martin_Villa.png"
+				
+			}
+		}
+		country_leader = { 
+			desc = "POLITICS_Rodoifo_martin_villa_FONTAN_DESC"
+			ideology = conservatism_christian_conservatism_subtype
+			expire = "2020.10.20"
+			id = -1
+		}
+	}
+
 	}

@@ -16,7 +16,7 @@ set_stability = 0.5
 oob = "CTL_1962"
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socialist
 	last_election = "1962.1.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -34,20 +34,10 @@ set_popularities = {
 	fascism = 0
 	
 }
-recruit_character = CTL_Jordi_Pujol
-recruit_character = CTL_Herribert_Barrera
-recruit_character = CTL_Joan_Folchi
-recruit_character = CTL_Francesc_Dalmau
+recruit_character = CTL_cnt
 
-recruit_character = CTL_Josep_Tarradellas
-recruit_character = CTL_Gregorio_Lopez
-recruit_character = CTL_Joan_Reventos
-recruit_character = CTL_Joan_Parra
-
-recruit_character = CTL_Juli_Busquests
-recruit_character = CTL_Frederic_Escofet
 add_ideas = {
-	IBR_regional_faction_buff
+	
 	#cabinet
 	CTL_Jordi_Pujol_hog
 	CTL_Herribert_Barrera_for

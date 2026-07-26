@@ -16,4 +16,20 @@ characters = {
 		
 	}
 
+	BSQ_Eduardo_Moreno_Bergareche = {
+		name = BSQ_Eduardo_Moreno_Bergareche
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/BSQ/Portrait_BSQ_Eduardo_Moreno_Bergareche.png"
+			 }
+		}
+		country_leader = {
+			desc = "POLITICS_XABIER_ARZALLUZ_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_left_wing_nationalism_subtype
+			id = -1
+		}
+		
+	}
+
 }

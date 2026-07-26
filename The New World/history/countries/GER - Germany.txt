@@ -21,17 +21,14 @@ set_air_oob = "GER_1962_air"
 set_country_flag = tno_playable_country
 
 ### Leaders
-recruit_character = GER_helmut_kohl
+recruit_character = GER_gerhard_kaindl
 
 add_ideas = {
 	#Faction Status
 	Stahlpakt_Leader
 
 	## Spirits
-	to_banish_want
-	the_two_principles
-	endsieg
-	gone_over
+	
 
 	## Ministers
 	GER_Martin_Bormann_hog

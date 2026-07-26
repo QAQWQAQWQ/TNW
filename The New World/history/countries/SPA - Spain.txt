@@ -12,7 +12,7 @@ set_stability = 0.4
 oob = "SPA_1962"
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -31,9 +31,10 @@ set_popularities = {
 	
 }
 recruit_character = SPA_Antonio_Fontan
+recruit_character = SPA_Rodolfo_Martin_Villa
 
 add_ideas = {
-	OFN_Dependent_Member
+	
 	# Political # - direct copy from Iberia
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

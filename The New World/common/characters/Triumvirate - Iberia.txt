@@ -2461,177 +2461,20 @@ characters = {
 
 ########################################################################################################################Catalonia
 #MINISTERS
-	CTL_Jordi_Pujol = {
-		name = CTL_Jordi_Pujol
-		portraits = { civilian = { small = "GFX_idea_CTL_minister_Jordi_Pujol_hog" } }
-		advisor = {
-			slot = head_of_government
-			idea_token = CTL_Jordi_Pujol_hog
-			allowed = { original_tag = CTL }
-			traits = {
-				head_of_government
-				hog_backroom_backstabber
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	CTL_Herribert_Barrera = {
-		name = CTL_Herribert_Barrera
-		portraits = { civilian = { small = "GFX_idea_CTL_minister_Heribert_Barrera_for" } }
-		advisor = {
-			slot = foreign_minister
-			idea_token = CTL_Herribert_Barrera_for
-			allowed = { original_tag = CTL }
-			traits = {
-				foreign_minister
-				for_political_appointment
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	CTL_Joan_Folchi = {
-		name = CTL_Joan_Folchi
-		portraits = { civilian = { small = "GFX_idea_CTL_minister_Juan_Josep_Folchi_eco" } }
-		advisor = {
-			slot = economy_minister
-			idea_token = CTL_Joan_Folchi_eco
-			allowed = { original_tag = CTL }
-			traits = {
-				economy_minister
-				eco_administrative_genius
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	CTL_Francesc_Dalmau = {
-		name = CTL_Francesc_Dalmau
-		portraits = { civilian = { small = "GFX_idea_CTL_minister_Francesc_Dalmau_mil" } }
-		advisor = {
-			slot = security_minister
-			idea_token = CTL_Francesc_Dalmau_sec
-			allowed = { original_tag = CTL }
-			traits = {
-				security_minister
-				sec_health_and_safety
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	CTL_Josep_Tarradellas = {
-		name = CTL_Josep_Tarradellas
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CTL/Portrait_CTL_Josep_Tarradellas.png"
-			}
-		}
+	CTL_cnt = {
+		name = CTL_cnt
+		portraits = { civilian = {
+				large = "gfx/leaders/CTL/Portrait_CTL_cnt.png"
+			} }
 		country_leader = {
-			ideology = liberalism_national_liberal_subtype
+			desc = "POLITICS_CNT_DESC"
 			expire = "1999.1.1"
-			id = -1
-		}
-		country_leader = {
-			ideology = progressivism_subtype
-			expire = "1999.1.1"
-			id = -1
-		}
-		country_leader = {
-			ideology = conservatism_christian_conservatism_subtype
-			expire = "1999.1.1"
+			ideology = socialist_syndicalism_subtype
 			id = -1
 		}
 	}
 
-	CTL_Gregorio_Lopez = {
-		name = CTL_Gregorio_Lopez
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Generics/leader_unknown.png"
-			}
-		}
-		country_leader = {
-			ideology = communist_bolshevism_subtype
-			expire = "1999.1.1"
-			id = -1
-		}
-	}
-
-	CTL_Joan_Reventos = {
-		name = CTL_Joan_Reventos
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Generics/leader_unknown.png"
-			}
-		}
-		country_leader = {
-			ideology = socialist_revolutionary_frontism_subtype
-			expire = "1999.1.1"
-			id = -1
-		}
-	}
-
-	CTL_Joan_Parra = {
-		name = CTL_Joan_Parra
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Generics/leader_unknown.png"
-			}
-		}
-		country_leader = {
-			ideology = paternalism_national_conservatism_subtype
-			expire = "1999.1.1"
-			id = -1
-		}
-	}
-
-	CTL_Juli_Busquests = {
-		name = CTL_Juli_Busquests
-		portraits = {
-			army = {
-				large = "gfx/leaders/CTL/Portrait_CTL_Juli_Busquets_Bragulat.png"
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-			legacy_id = 1420
-		}
-	}
-
-	CTL_Frederic_Escofet = {
-		name = CTL_Frederic_Escofet
-		portraits = {
-			army = {
-				large = "gfx/leaders/CTL/Portrait_CTL_Frederic_Escofet_i_Alsina.png"
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-			legacy_id = 1421
-		}
-	}
+	
 ########################################################################################################################CNT
 #MINISTERS
 	CNT_Juan_Garcia = {

@@ -475,8 +475,8 @@ TBA = {
 	color_ui = rgb { 128 0 32 }
 }
 CTL = {
-	color = rgb { 249 206 124 }
-	color_ui = rgb { 249 206 124 }
+	color = rgb { 83 131 172 }
+	color_ui = rgb { 83 131 172 }
 }
 CNT = {
 	color = rgb { 255 105 94 }
@@ -487,8 +487,8 @@ GAL = {
 	color_ui = rgb { 102 178 204 }
 }
 BSQ = {
-	color = rgb { 76 153 110 }
-	color_ui = rgb { 76 153 110 }
+	color = rgb { 81 140 159 }
+	color_ui = rgb { 81 140 159 }
 }
 ADL = {
 	color = rgb { 176 207 191 }

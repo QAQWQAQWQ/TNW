@@ -31,10 +31,10 @@ guiTypes = {
 		}
 		iconType = {
 			name = "poster"
-			position = { x = 90 y = 13 }
+			position = { x = 100 y = 45 }
 			alwaystransparent = yes
 			maxwidth = 77
-			maxheight = 36
+			maxheight = 26
 		}
 		iconType = {
 			name = "background"

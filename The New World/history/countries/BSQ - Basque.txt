@@ -12,7 +12,7 @@ set_stability = 0.5
 oob = "BSQ_1962"
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = socialist
 	last_election = "1962.1.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -22,18 +22,19 @@ set_politics = {
 set_popularities = {
 	communist = 2
 	ultranationalism = 0
-	socialist = 0
+	socialist = 35
 	progressivism = 12
 	liberalism = 20
 
 	conservatism = 19
-	paternalism = 35
+	paternalism = 0
 	despotism = 12
 	fascism = 0
 	
 }
 
 recruit_character = BSQ_Xabier_Arzalluz
+recruit_character = BSQ_Eduardo_Moreno_Bergareche
 
 
 add_ideas = {

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_165"
 
 	history = {
-		owner = SPA
+		owner = CTL
 		victory_points = {
 			17984 6
 		}
@@ -12,7 +12,7 @@ state = {
 			hydroelectric_plant = 2
 			infrastructure = 4
 		}
-		add_core_of = SPA
+		add_core_of = CTL
 		set_state_flag = state_renamings
 		set_state_flag = GDP_category_city
 	}

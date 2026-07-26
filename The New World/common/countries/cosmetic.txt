@@ -1200,6 +1200,11 @@ scorza_ISR = {
 	color_ui = rgb { 104 156 123 }
 }
 
+POR_POR = {
+	color = rgb { 76 102 76 }
+	color_ui = rgb { 76 102 76 }
+}
+
 ITA_EMP = {
 	color = rgb { 104 156 123 }
 	color_ui = rgb { 104 156 123 }
