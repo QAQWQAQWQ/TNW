@@ -1,0 +1,121 @@
+# ██████╗ ███████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗ █████╗ ██╗          ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗ #
+# ██╔══██╗██╔════╝██╔════╝ ██║██╔═══██╗████╗  ██║██╔══██╗██║         ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝ #
+# ██████╔╝█████╗  ██║  ███╗██║██║   ██║██╔██╗ ██║███████║██║         ██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗ #
+# ██╔══██╗██╔══╝  ██║   ██║██║██║   ██║██║╚██╗██║██╔══██║██║         ██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║ #
+# ██║  ██║███████╗╚██████╔╝██║╚██████╔╝██║ ╚████║██║  ██║███████╗    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║ #
+# ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ #
+
+# Regional Organizations GUI
+
+spriteTypes = {
+	## General Assets
+	spriteType = {
+		name = "GFX_regional_organizations_diplo_bg"
+		textureFile = "gfx/interface/regional_organizations/regional_organizations_diplo_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_regional_organizations_list_bg"
+		textureFile = "gfx/interface/regional_organizations/regional_organizations_list_bg.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	## Org Icons
+	# ICONS SHOULD BE 60x55-60. 60 WIDTH IS MANDATORY
+	spriteType = {
+		name = "GFX_RegionalOrganization_EU"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_EU.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_Ostministerium"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_Ostministerium.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_OAS"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_OAS.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_VeracruzPact"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_VeracruzPact.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_AndeanPact"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_AndeanPact.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_CollabCommonwealth"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_CollabCommonwealth.dds"
+	}
+    spriteType = {
+		name = "GFX_RegionalOrganization_CentralAfricanFed"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_CentralAfricanFed.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_ExileCommonwealth"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_ExileCommonwealth.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_HelsinkiTreaty"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_HelsinkiTreaty.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_ATO"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_ATO.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_FrenchEmpire"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_FrenchEmpire.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_FrenchEmpire"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_FrenchEmpire.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_CordobaForum"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_CordobaForum.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_SanLorenzoPact"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_SanLorenzoPact.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_RoboreAccords"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_RoboreAccords.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_IberoAmericanConference"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_IberoAmericanConference.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_SpanishEmpire"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_SpanishEmpire.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_PortugueseEmpire"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_PortugueseEmpire.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_AfricanLabourBoard"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_AfricanLabourBoard.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_SACU"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_SACU.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_ItalianEmpire"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_ItalianEmpire.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_MonroviaConference"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_MonroviaConference.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_UnitedStatesOfLatinAfrica"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_UnitedStatesOfLatinAfrica.dds"
+	}
+	spriteType = {
+		name = "GFX_RegionalOrganization_CADAT"
+		textureFile = "gfx/interface/regional_organizations/GFX_RegionalOrganization_CADAT.dds"
+	}
+}

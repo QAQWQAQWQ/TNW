@@ -22,10 +22,10 @@ set_country_flag = tno_playable_country
 
 ### Leaders
 recruit_character = GER_gerhard_kaindl
-
 add_ideas = {
 	#Faction Status
 	Stahlpakt_Leader
+	
 
 	## Spirits
 	

@@ -1,0 +1,244 @@
+scripted_map_modes = {
+	tno_regional_organizations_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = country
+			color = {
+				set_temp_variable = { alpha = 0.95 }
+				if = {
+					limit = { # Europäischer Staatenbund/European Confederation
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_EU } }
+						FROM = { has_idea = RegionalOrganization_EU }
+					}
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0.329 }
+					set_temp_variable = { blue = 0.556 }
+				}
+				else_if = {
+					limit = { # Organization of American States
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_OAS } }
+						FROM = { has_idea = RegionalOrganization_OAS }
+					}
+					set_temp_variable = { red = 0.392 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.745 }
+				}
+				else_if = {
+					limit = { # Veracruz Pact
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_VeracruzPact } }
+						FROM = { has_idea = RegionalOrganization_VeracruzPact }
+					}
+					set_temp_variable = { red = 0.333 }
+					set_temp_variable = { green = 0.462 }
+					set_temp_variable = { blue = 0.357 }
+				}
+				else_if = {
+					limit = { # Andean Pact
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_AndeanPact } }
+						FROM = { has_idea = RegionalOrganization_AndeanPact }
+					}
+					set_temp_variable = { red = 0.604 }
+					set_temp_variable = { green = 0.502 }
+					set_temp_variable = { blue = 0.416 }
+				}
+				else_if = {
+					limit = { # The Commonwealth (London)
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_CollabCommonwealth } }
+						FROM = { has_idea = RegionalOrganization_CollabCommonwealth }
+					}
+					set_temp_variable = { red = 0.490 }
+					set_temp_variable = { green = 0.125 }
+					set_temp_variable = { blue = 0.125 }
+				}
+                else_if = {
+					limit = { # Central African Federation
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_CentralAfricanFed } }
+						FROM = { has_idea = RegionalOrganization_CentralAfricanFed }
+					}
+					set_temp_variable = { red = 0.478 }
+					set_temp_variable = { green = 0.259 }
+					set_temp_variable = { blue = 0.259 }
+				}
+                else_if = {
+					limit = { # French Empire
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_FrenchEmpire } }
+						FROM = { has_idea = RegionalOrganization_FrenchEmpire }
+					}
+					set_temp_variable = { red = 0.353 }
+					set_temp_variable = { green = 0.431  }
+					set_temp_variable = { blue = 0.549 }
+				}
+				else_if = {
+					limit = { # The Commonwealth (Ottawa)
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_ExileCommonwealth } }
+						FROM = { has_idea = RegionalOrganization_ExileCommonwealth }
+					}
+					set_temp_variable = { red = 0.619 }
+					set_temp_variable = { green = 0.270 }
+					set_temp_variable = { blue = 0.298 }
+				}
+				# else_if = {
+				# 	limit = { # Union of Soviet Socialist Republics
+				# 		ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_USSR } }
+				# 		FROM = { has_idea = RegionalOrganization_USSR }
+				# 	}
+				# 	set_temp_variable = { red = 0.568 }
+				# 	set_temp_variable = { green = 0.168 }
+				# 	set_temp_variable = { blue = 0.250 }
+				# }
+				else_if = {
+					limit = { # Helsinki Treaty
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_HelsinkiTreaty } }
+						FROM = { has_idea = RegionalOrganization_HelsinkiTreaty }
+					}
+					set_temp_variable = { red = 0.349 }
+					set_temp_variable = { green = 0.780 }
+					set_temp_variable = { blue = 0.760 }
+				}
+				else_if = {
+					limit = { # Ostministerium
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_Ostministerium } }
+						FROM = { has_idea = RegionalOrganization_Ostministerium }
+					}
+					set_temp_variable = { red = 0.342 }
+					set_temp_variable = { green = 0.342 }
+					set_temp_variable = { blue = 0.342 }
+				}
+				else_if = {
+					limit = { # Adana Treaty Organization
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_ATO } }
+						FROM = { has_idea = RegionalOrganization_ATO }
+					}
+					set_temp_variable = { red = 0.631 }
+					set_temp_variable = { green = 0.271 }
+					set_temp_variable = { blue = 0.271 }
+				}
+				else_if = {
+					limit = { # Córdoba Forum
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_CordobaForum } }
+						FROM = { has_idea = RegionalOrganization_CordobaForum }
+					}
+					set_temp_variable = { red = 0.839 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.294 }
+				}
+				else_if = {
+					limit = { # Pact of San Lorenzo
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_SanLorenzoPact } }
+						FROM = { has_idea = RegionalOrganization_SanLorenzoPact }
+					}
+					set_temp_variable = { red = 0.470 }
+					set_temp_variable = { green = 0.615 }
+					set_temp_variable = { blue = 0.627 }
+				}
+				else_if = {
+					limit = { # Union of Sovereign Nations
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_UNS } }
+						FROM = { has_idea = RegionalOrganization_UNS }
+					}
+					set_temp_variable = { red = 0.168 }
+					set_temp_variable = { green = 0.301 }
+					set_temp_variable = { blue = 0.588 }
+				}
+				else_if = {
+					limit = { # Roboré Accords
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_RoboreAccords } }
+						FROM = { has_idea = RegionalOrganization_RoboreAccords }
+					}
+					set_temp_variable = { red = 0.407 }
+					set_temp_variable = { green = 0.537 }
+					set_temp_variable = { blue = 0.254 }
+				}
+				else_if = {
+					limit = { # Ibero-American Conference
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_IberoAmericanConference } }
+						FROM = { has_idea = RegionalOrganization_IberoAmericanConference }
+					}
+					set_temp_variable = { red = 0.776 }
+					set_temp_variable = { green = 0.675 }
+					set_temp_variable = { blue = 0.509 }
+				}
+				else_if = {
+					limit = { # Spanish Empire
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_SpanishEmpire } }
+						FROM = { has_idea = RegionalOrganization_SpanishEmpire }
+					}
+					set_temp_variable = { red = 1.000 }
+					set_temp_variable = { green = 0.756 }
+					set_temp_variable = { blue = 0.047 }
+				}
+				else_if = {
+					limit = { # Portuguese Empire
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_PortugueseEmpire } }
+						FROM = { has_idea = RegionalOrganization_PortugueseEmpire }
+					}
+					set_temp_variable = { red = 0.349 }
+					set_temp_variable = { green = 0.517 }
+					set_temp_variable = { blue = 0.380 }
+				}
+				else_if = {
+					limit = { # African Labour Board
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_AfricanLabourBoard } }
+						FROM = { has_idea = RegionalOrganization_AfricanLabourBoard }
+					}
+					set_temp_variable = { red = 0.517 }
+					set_temp_variable = { green = 0.196 }
+					set_temp_variable = { blue = 0.000 }
+				}
+				else_if = {
+					limit = { # Italian Empire
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_ItalianEmpire } }
+						FROM = { has_idea = RegionalOrganization_ItalianEmpire }
+					}
+					set_temp_variable = { red = 0.427 }
+					set_temp_variable = { green = 0.557 }
+					set_temp_variable = { blue = 0.376 }
+				}
+				else_if = {
+					limit = { # Southern African Customs Union
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_SACU } }
+						FROM = { has_idea = RegionalOrganization_SACU }
+					}
+					set_temp_variable = { red = 0.651 }
+					set_temp_variable = { green = 0.396 }
+					set_temp_variable = { blue = 0.306 }
+				}
+				else_if = {
+					limit = { # Monrovia Conference
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_MonroviaConference } }
+						FROM = { has_idea = RegionalOrganization_MonroviaConference }
+					}
+					set_temp_variable = { red = 0.412 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.749 }
+				}
+				else_if = {
+					limit = { # United States of Latin Africa
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_UnitedStatesOfLatinAfrica } }
+						FROM = { has_idea = RegionalOrganization_UnitedStatesOfLatinAfrica }
+					}
+					set_temp_variable = { red = 0.553 }
+					set_temp_variable = { green = 0.588 }
+					set_temp_variable = { blue = 0.569 }
+				}
+				else_if = {
+					limit = { # Central Africa Development and Assistance Treaty
+						ROOT = { check_variable = { Selected_RegionalOrg = token:RegionalOrganization_CADAT } }
+						FROM = { has_idea = RegionalOrganization_CADAT }
+					}
+					set_temp_variable = { red = 0.545 }
+					set_temp_variable = { green = 0.514 }
+					set_temp_variable = { blue = 0.561 }
+				}
+				else = { # Default
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.5 }
+				}
+			}
+		}
+		far_text = country
+		near_text = none
+		update_daily = no
+	}
+}

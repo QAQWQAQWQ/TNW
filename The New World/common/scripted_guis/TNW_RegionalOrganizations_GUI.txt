@@ -1,0 +1,119 @@
+# ██████╗ ███████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗ █████╗ ██╗          ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗ #
+# ██╔══██╗██╔════╝██╔════╝ ██║██╔═══██╗████╗  ██║██╔══██╗██║         ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝ #
+# ██████╔╝█████╗  ██║  ███╗██║██║   ██║██╔██╗ ██║███████║██║         ██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗ #
+# ██╔══██╗██╔══╝  ██║   ██║██║██║   ██║██║╚██╗██║██╔══██║██║         ██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║ #
+# ██║  ██║███████╗╚██████╔╝██║╚██████╔╝██║ ╚████║██║  ██║███████╗    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║ #
+# ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ #
+# Regional Organizations GUI
+
+# TNO_RegionalOrganizations_DiploGUI
+# TNO_RegionalOrganizations_MapmodeGUI
+# TNO_RegionalOrganizations_MapmodeControlGUI
+
+scripted_gui = {
+	#################################################
+	#            Diplo Screen Interface             #
+	#################################################
+	TNO_RegionalOrganizations_DiploGUI = {
+		window_name = "TNO_RegionalOrganizations_DiploInterface"
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = { NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours } }
+
+		dynamic_lists = {
+			RegionalOrganizations_DiploList = {
+				array = TNO_RegionalOrganizations
+				value = reg_org
+				entry_container = RegionalOrganizations_DiploList_Container
+			}
+		}
+
+		properties = {
+			RegionalOrganization_Icon = {
+				image = "GFX_[?reg_org.GetTokenKey]"
+			}
+		}
+	}
+
+	#################################################
+	#               Mapmode Interface               #
+	#################################################
+	TNO_RegionalOrganizations_MapmodeGUI = {
+		context_type = country_mapicon
+		window_name = "RegionalOrganizations_MapmodeInterface"
+		mapmode = tno_regional_organizations_map_mode
+
+		visible = { always = yes }
+
+		mapicon_targets = {
+			target_array = global.countries
+			target_trigger = { FROM = { check_variable = { TNO_RegionalOrganizations_Led^num > 0 } } }
+		}
+
+		effects = {
+			regional_organization_leader_icon_click = {
+				# Select displayed organization via the map
+				set_variable = { ROOT.Selected_RegionalOrg = reg_org }
+				force_update_map_mode = { mapmode = tno_regional_organizations_map_mode }
+
+				# Member tooltip generation
+				effect_tooltip = {
+					# Tooltip is displayed using the [! function
+					if = {
+						limit = { check_variable = { global.RegionalOrganization_Members@var:reg_org^num = 1 } }
+						custom_effect_tooltip = regional_organizations_map_mode_mapicon_tooltip_alone
+					}
+					else = {
+						custom_effect_tooltip = regional_organizations_map_mode_mapicon_tooltip_filled
+						
+						# Text gridbox
+						set_temp_variable = { temp_org_idx = 0 }
+						regional_organizations_mapmode_get_org_members = yes
+					}
+				}
+			}
+		}
+
+		dynamic_lists = {
+			RegionalOrganizations_MapmodeList = {
+				array = FROM.TNO_RegionalOrganizations_Led
+				value = reg_org
+				entry_container = RegionalOrganizations_MapmodeList_Container
+			}
+		}
+
+		properties = {
+			regional_organization_leader_icon = {
+				image = "GFX_[?reg_org.GetTokenKey]"
+			}
+		}
+	}
+
+	#################################################
+	#           Mapmode Control Interface           #
+	#################################################
+	TNO_RegionalOrganizations_MapmodeControlGUI = {
+		window_name = "RegionalOrganizations_MapmodeControlInterface"
+		context_type = player_context
+		parent_window_name = "WindowWithAllMapModes_Standalone"
+		mapmode = tno_regional_organizations_map_mode
+
+		visible = { always = yes }
+
+		dynamic_lists = {
+			RegionalOrganizations_ControlList = {
+				array = global.TNO_RegionalOrganizations
+				value = reg_org
+				entry_container = RegionalOrganizations_ControlList_Container
+			}
+		}
+
+		effects = {
+			RegionalOrganization_SelectionButton_click = {
+				set_variable = { ROOT.Selected_RegionalOrg = reg_org }
+				force_update_map_mode = { mapmode = tno_regional_organizations_map_mode }
+			}
+		}
+	}
+}

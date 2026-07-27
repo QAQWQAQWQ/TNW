@@ -1,0 +1,177 @@
+# ██████╗ ███████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗ █████╗ ██╗          ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗ #
+# ██╔══██╗██╔════╝██╔════╝ ██║██╔═══██╗████╗  ██║██╔══██╗██║         ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝ #
+# ██████╔╝█████╗  ██║  ███╗██║██║   ██║██╔██╗ ██║███████║██║         ██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗ #
+# ██╔══██╗██╔══╝  ██║   ██║██║██║   ██║██║╚██╗██║██╔══██║██║         ██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║ #
+# ██║  ██║███████╗╚██████╔╝██║╚██████╔╝██║ ╚████║██║  ██║███████╗    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║ #
+# ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ #
+
+ideas = {
+	#################################################
+	#                  Dummy Ideas                  #
+	#################################################
+
+	#|=====[ Regional Organizations ]=====|#
+	hidden_ideas = {
+		RegionalOrganization_EU = { # Europäischer Staatenbund/European Confederation
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_EU" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_Ostministerium = { # Ostministerium
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_Ostministerium" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+			on_add = {
+				add_to_array = { modifiers@RegionalOrganization_Ostministerium = 0  }
+				resize_array = { modifiers@RegionalOrganization_Ostministerium = 15 }
+				set_variable = { modifiers@RegionalOrganization_Ostministerium^0 = -0.1   } # Political Power Gain
+				set_variable = { modifiers@RegionalOrganization_Ostministerium^13 = 0.025 } # GDP to Sphere Leader
+				add_dynamic_modifier = { modifier = GER_EconSphere_EE_dynamic_modifier }
+			}
+			on_remove = {
+				clear_array = modifiers@RegionalOrganization_Ostministerium
+				remove_dynamic_modifier = { modifier = GER_EconSphere_EE_dynamic_modifier }
+			}
+		}
+		RegionalOrganization_OAS = { # Organization of American States
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_OAS" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_VeracruzPact = { # Veracruz Pact
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_VeracruzPact" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_AndeanPact = { # Andean Pact
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_AndeanPact" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_CollabCommonwealth = { # The Commonwealth (London)
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_CollabCommonwealth" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+        RegionalOrganization_CentralAfricanFed = { # Central African Federation
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_CentralAfricanFed" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+        RegionalOrganization_FrenchEmpire = { # French Empire
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_FrenchEmpire" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_ExileCommonwealth = { # The Commonwealth (Ottawa)
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_ExileCommonwealth" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		# RegionalOrganization_USSR = { # Union of Soviet Socialist Republics
+		#	# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_USSR" }
+		# 	allowed = { always = no }
+		# 	allowed_civil_war = { always = no }
+		# 	modifier = {  }
+		# }
+		RegionalOrganization_HelsinkiTreaty = { # Helsinki Treaty
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_HelsinkiTreaty" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_ATO = { # Adana Treaty Organization
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_ATO" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_CordobaForum = { # Córdoba Forum
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_CordobaForum" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_SanLorenzoPact = { # Pact of San Lorenzo
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_SanLorenzoPact" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_UNS = { # Union of Sovereign Nations
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_UNS" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_RoboreAccords = { # Roboré Accords
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_RoboreAccords" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_IberoAmericanConference = { # Ibero-American Conference
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_IberoAmericanConference" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_SpanishEmpire = { # Spanish Empire
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_SpanishEmpire" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_PortugueseEmpire = { # Portuguese Empire
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_PortugueseEmpire" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_AfricanLabourBoard = { # African Labour Board
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_AfricanLabourBoard" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_ItalianEmpire = { # Italian Empire
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_ItalianEmpire" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_SACU = { # Southern African Customs Union
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_SACU" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_MonroviaConference = { # Monrovia Conference
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_MonroviaConference" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_UnitedStatesOfLatinAfrica = { # United States of Latin Africa
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_UnitedStatesOfLatinAfrica" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		RegionalOrganization_CADAT = { # Central Africa Development and Assistance Treaty
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_CADAT" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+	}
+}

@@ -1,0 +1,153 @@
+# ██████╗ ███████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗ █████╗ ██╗          ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗ #
+# ██╔══██╗██╔════╝██╔════╝ ██║██╔═══██╗████╗  ██║██╔══██╗██║         ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝ #
+# ██████╔╝█████╗  ██║  ███╗██║██║   ██║██╔██╗ ██║███████║██║         ██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗ #
+# ██╔══██╗██╔══╝  ██║   ██║██║██║   ██║██║╚██╗██║██╔══██║██║         ██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║ #
+# ██║  ██║███████╗╚██████╔╝██║╚██████╔╝██║ ╚████║██║  ██║███████╗    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║ #
+# ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ #
+# Regional Organizations Interface
+
+# TNO_RegionalOrganizations_DiploInterface
+#	RegionalOrganizations_DiploList_Container
+# RegionalOrganizations_MapmodeInterface
+#	RegionalOrganizations_MapmodeList_Container
+# RegionalOrganizations_MapmodeControlInterface
+#	RegionalOrganizations_ControlList_Container
+
+guiTypes = {
+	#### Diplo Screen Display ####
+	containerWindowType = {
+		name = "TNO_RegionalOrganizations_DiploInterface"
+		position = { x = 17 y = 440 }
+		size = { width = 255 height = 82 }
+		clipping = no
+
+		iconType = {
+			name = "RegionalOrganizations_Background"
+			spriteType = "GFX_regional_organizations_diplo_bg"
+		}
+
+		# Org list gridbox
+		gridboxtype = {
+			name = "RegionalOrganizations_DiploList"
+			position = { x = -83 y = 27 }
+			size = { width = 240 height = 60 }
+			slotsize = { width = 60 height = 60 }
+			max_slots_horizontal = 4
+			max_slots_vertical = 1
+
+			# For alternative setup (same as economy one)
+			# countrydiplomacyview.gui Y value is 508
+		# 	position = { x = 79 y = 8 }
+		# 	size = { width = 130 height = 60 }
+		}
+	}
+	containerWindowType = {
+		name = "RegionalOrganizations_DiploList_Container"
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "RegionalOrganization_Icon"
+			spriteType = "GFX_RegionalOrganization_EU"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = RegionalOrganization_Icon_tt
+			pdx_tooltip_delayed = RegionalOrganization_Icon_tt_delayed
+			alwaystransparent = no
+		}
+	}
+
+	#### Mapmode Display ####
+	containerwindowtype = {
+		name = "RegionalOrganizations_MapmodeInterface"
+		position = { x = -35 y = 0 }
+		size = { width = 60 height = 60 }
+
+		gridboxtype = {
+			name = "RegionalOrganizations_MapmodeList"
+			size = { width = 60 height = 60 }
+			slotsize = { width = 60 height = 60 }
+			max_slots_horizontal = 3
+			max_slots_vertical = 1
+		}
+	}
+	containerWindowType = {
+		name = "RegionalOrganizations_MapmodeList_Container"
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "regional_organization_leader_icon"
+			position = { x = 0 y = 0 }
+			quadtexturesprite = "GFX_RegionalOrganization_EU"
+			pdx_tooltip = regional_organizations_map_mode_mapicon_tooltip
+			pdx_tooltip_delayed = regional_organizations_map_mode_mapicon_tooltip_delayed
+			no_clicksound = yes
+		}
+	}
+
+	#### Mapmode Control Display ####
+	containerwindowtype = {
+		name = "RegionalOrganizations_MapmodeControlInterface"
+		position = { x = -205 y = 136 }
+		size = { width = 207 height = 226 }
+		clipping = yes
+
+		containerwindowtype = {
+			name = "RegionalOrganizations_control_clipper"
+			position = { x = 100 y = 0 }
+			hide_position = { x = 100 y = 0 }
+			show_position = { x = 5 y = 0 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 450
+			size = { width = 212 height = 100%% }
+
+			background = {
+				name = "bg"
+				quadtexturesprite = "GFX_tiled_window_thin_border2"
+			}
+
+			containerwindowtype = {
+				name = "RegionalOrganizations_question_mark"
+				position = { x = 9 y = 9 }
+				size = { width = 96.5%% height = 96.5%% }
+
+				verticalScrollbar = "right_vertical_slider"
+				autohide_scrollbars = no
+
+				background = {
+					name = "bg"
+					quadtexturesprite = "GFX_tiled_window_transparent"
+				}
+
+				gridboxtype = {
+					name = "RegionalOrganizations_ControlList"
+					size = { width = 86 height = 100%% }
+					slotsize = { width = 86 height = 23 }
+					max_slots_horizontal = 1
+				}
+			}
+		}
+	}
+	containerwindowtype = {
+		name = "RegionalOrganizations_ControlList_Container"
+		size = { width = 86 height = 23 }
+
+		# Button & Text
+		buttontype = {
+			name = "RegionalOrganization_SelectionButton"
+			quadTextureSprite  = "GFX_regional_organizations_list_bg"
+			buttonFont = "aldrich_18_outline"
+			pdx_tooltip = RegionalOrganization_SelectionButton_tt
+		}
+		instantTextboxType = {
+			name = "RegionalOrganization_SelectionButton_Title"
+			position = { x = 7 y = 3 }
+			font = "aldrich_18_outline"
+			maxWidth = 163
+			maxHeight = 18
+			format = left
+			fixedsize = yes
+			text = RegionalOrganization_SelectionButton_text
+			alwaystransparent = yes
+		}
+	}
+}

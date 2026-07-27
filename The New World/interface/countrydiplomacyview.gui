@@ -550,7 +550,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "relations_info"
-				position = { x = 17 y = 440 } #685
+				position = { x = 17 y = 531 } #440 #685
 				size = { width = 255 height = -15 }
 
 				verticalScrollbar = "right_vertical_slider"
@@ -1138,7 +1138,7 @@ guiTypes = {
 		iconType = {
 			name = "diplo_relations_bg"
 			spriteType = "GFX_diplo_relations_bg"
-			position = { x = -4 y = 5 }
+			position = { x = -6 y = 5 }
 		}
 
 		iconType = {
