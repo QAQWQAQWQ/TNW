@@ -1,0 +1,149 @@
+# ██████╗ ███████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗ █████╗ ██╗          ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗ #
+# ██╔══██╗██╔════╝██╔════╝ ██║██╔═══██╗████╗  ██║██╔══██╗██║         ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝ #
+# ██████╔╝█████╗  ██║  ███╗██║██║   ██║██╔██╗ ██║███████║██║         ██║   ██║██████╔╝██║  ███╗███████║██╔██╗ ██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗ #
+# ██╔══██╗██╔══╝  ██║   ██║██║██║   ██║██║╚██╗██║██╔══██║██║         ██║   ██║██╔══██╗██║   ██║██╔══██║██║╚██╗██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║ #
+# ██║  ██║███████╗╚██████╔╝██║╚██████╔╝██║ ╚████║██║  ██║███████╗    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║ #
+# ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ #
+#Scripted Localization
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	General Scripted Loc
+#		TNO_RegionalOrganization_GetName
+#		TNO_RegionalOrganization_GetNameColored
+#		TNO_RegionalOrganization_GetNameMapmodeTooltip
+#		TNO_RegionalOrganization_GetMapmodeTooltip
+#		TNO_RegionalOrganization_GetMapmodeTooltip_Delayed
+#		TNO_RegionalOrganization_GetLeader
+#		TNO_RegionalOrganization_GetAlignment
+#		TNO_RegionalOrganization_GetAlignmentEffect
+#		TNO_RegionalOrganization_GetDesc
+#		TNO_RegionalOrganization_GetType
+#		TNO_RegionalOrganization_GetTypeEffect
+#		TNO_RegionalOrganization_GetGDP
+#		TNO_RegionalOrganization_GetModifiers
+#		TNO_RegionalOrganization_GetModifiersEntry
+
+#################################################
+##=|          General Scripted Loc           |=##
+##=====================| |=====================##
+#################################################
+
+# Returns a Regional Organization's name
+defined_text = {
+	name = TNO_RegionalOrganization_GetName
+	text = { localization_key = "[?reg_org.GetTokenKey]" }
+}
+
+# Returns a Regional Organization's name, but colored
+defined_text = {
+	name = TNO_RegionalOrganization_GetNameColored
+	text = { localization_key = "[?reg_org.GetTokenKey]_colored" }
+}
+
+# Returns a Regional Organization's name, for the mapmode tooltip
+defined_text = {
+	name = TNO_RegionalOrganization_GetNameMapmodeTooltip
+	text = { localization_key = "[?ROOT.Selected_RegionalOrg.GetTokenKey]_colored" }
+}
+
+# Returns the correct tooltip in the mapmode
+defined_text = {
+	name = TNO_RegionalOrganization_GetMapmodeTooltip
+	text = { # Tag is part of the organization
+		trigger = { is_in_array = { global.RegionalOrganization_Members@var:ROOT.Selected_RegionalOrg = FROM.Controller } }
+		localization_key = "[TNO_RegionalOrganization_GetNameMapmodeTooltip]"
+	}
+	text = { localization_key = "tno_regional_organizations_map_mode_tooltip_country" } # Or not
+}
+
+# Returns the correct delayed tooltip in the mapmode
+defined_text = {
+	name = TNO_RegionalOrganization_GetMapmodeTooltip_Delayed
+	text = { # In case the var is null
+		trigger = { check_variable = { ROOT.Selected_RegionalOrg = 0 } }
+		localization_key = ""
+	}
+	text = { # Tag is part of the organization
+		trigger = { is_in_array = { global.RegionalOrganization_Members@var:ROOT.Selected_RegionalOrg = FROM.Controller } }
+		localization_key = "tno_regional_organizations_map_mode_tooltip_delayed_1"
+	}
+	text = { localization_key = "tno_regional_organizations_map_mode_tooltip_delayed_2" } # Or not
+}
+
+# Returns a Regional Organization's leader
+defined_text = {
+	name = TNO_RegionalOrganization_GetLeader
+	text = { localization_key = "[?global.RegionalOrganization_Leader@var:reg_org.GetNameWithFlag]" }
+}
+
+# Returns a Regional Organization's alignment
+defined_text = {
+	name = TNO_RegionalOrganization_GetAlignment
+	text = { trigger = { check_variable = { global.RegionalOrganization_Alignment@var:reg_org = GER } } localization_key = "RegionalOrganization_Alignment_ProGermany" } # Pro-Germany
+	text = { trigger = { check_variable = { global.RegionalOrganization_Alignment@var:reg_org = JAP } } localization_key = "RegionalOrganization_Alignment_ProJapan"   } # Pro-Japan
+	text = { trigger = { check_variable = { global.RegionalOrganization_Alignment@var:reg_org = USA } } localization_key = "RegionalOrganization_Alignment_ProAmerica" } # Pro-America
+	text = { localization_key = "RegionalOrganization_Alignment_Unaligned" }
+}
+
+# Same as above, but for the scripted effect
+defined_text = {
+	name = TNO_RegionalOrganization_GetAlignmentEffect
+	text = { trigger = { check_variable = { org_alignment = GER } } localization_key = "RegionalOrganization_Alignment_ProGermany" } # Pro-Germany
+	text = { trigger = { check_variable = { org_alignment = JAP } } localization_key = "RegionalOrganization_Alignment_ProJapan"   } # Pro-Japan
+	text = { trigger = { check_variable = { org_alignment = USA } } localization_key = "RegionalOrganization_Alignment_ProAmerica" } # Pro-America
+	text = { localization_key = "RegionalOrganization_Alignment_Unaligned" }
+}
+
+# Returns a Regional Organization's desc
+defined_text = {
+	name = TNO_RegionalOrganization_GetDesc
+	text = { localization_key = "[?reg_org.GetTokenKey]_desc_[?global.RegionalOrganization_Desc@var:reg_org?0]" }
+}
+
+# Returns a Regional Organization's type
+defined_text = {
+	name = TNO_RegionalOrganization_GetType
+	text = { localization_key = "RegionalOrganization_Type_[?global.RegionalOrganization_Type@var:reg_org]" }
+}
+
+# Same as above, but for the scripted effect
+defined_text = {
+	name = TNO_RegionalOrganization_GetTypeEffect
+	text = { localization_key = "RegionalOrganization_Type_[?org_type]" }
+}
+
+# Returns the org's combined GDP value, if it has one
+defined_text = {
+	name = TNO_RegionalOrganization_GetGDP
+	text = {
+		trigger = { has_variable = global.RegionalOrganization_TotalGDP@var:reg_org }
+		localization_key = "RegionalOrganization_Icon_tt_GDP"
+	}
+}
+
+# Used to populate the effects tooltip in applicable regorgs
+defined_text = {
+	name = TNO_RegionalOrganization_GetModifiers
+	text = {
+		trigger = {
+			NOT = { check_variable = { modifiers@var:reg_org^num = 0 } }
+			set_temp_variable = { Recursion_i = -1 }
+		}
+		localization_key = "RegionalOrganization_Icon_tt_modifiers"
+	}
+}
+defined_text = {
+	name = TNO_RegionalOrganization_GetModifiersEntry
+	text = {
+		trigger = {
+			add_to_temp_variable = { Recursion_i = 1 } # Continues the loop
+			check_variable = { modifiers@var:reg_org^num > Recursion_i } # Used to terminate the loop
+			NOT = { check_variable = { modifiers@var:reg_org^Recursion_i = 0 } } # Skip over unset modifiers
+		}
+		localization_key = "[?reg_org.GetTokenKey]_modifier_[?Recursion_i]"
+	}
+	text = {
+		trigger = { check_variable = { modifiers@var:reg_org^num > Recursion_i } } # If the above conditions return false for but the loop still hasn't been terminated, it will simply just skip it and continue
+		localization_key = "[TNO_RegionalOrganization_GetModifiersEntry]"
+	}
+}

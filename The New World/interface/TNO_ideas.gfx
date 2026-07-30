@@ -4739,7 +4739,31 @@ SpriteTypes = {
 		name = "GFX_idea_FRS_economic_stagnation"
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/FRS/idea_FRS_economic_stagnation.png"
 	}
-	
+	## TNW Germany ##
+	SpriteType = {
+		name = "GFX_idea_GER_Legacy_of_party_system_reform"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_Legacy_of_party_system_reform.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_Leadership_rejuvenation"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_Leadership_rejuvenation.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_Half_the_world_center"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_Half_the_world_center.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_European_integrated_economy"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_European_integrated_economy.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_GER_Consolidating_the_maritime_borders"
+		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_Consolidating_the_maritime_borders.png"
+	}
 
 	## Germany ##
 

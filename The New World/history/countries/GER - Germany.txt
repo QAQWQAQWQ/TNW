@@ -22,19 +22,29 @@ set_country_flag = tno_playable_country
 
 ### Leaders
 recruit_character = GER_gerhard_kaindl
+recruit_character = GER_Heinrich_Lummer
+
+recruit_character = GER_Jurgen_Schutzinger
+recruit_character = GER_Helmut_Kohl
+recruit_character = GER_Gunter_Deckerteco
+recruit_character = GER_Udo_Voigt
 add_ideas = {
 	#Faction Status
 	Stahlpakt_Leader
 	
 
 	## Spirits
-	
+	GER_Leadership_rejuvenation
+	GER_European_integrated_economy
+	GER_Legacy_of_party_system_reform
+	GER_Half_the_world_center
+	GER_Consolidating_the_maritime_borders
 
 	## Ministers
-	GER_Martin_Bormann_hog
-	GER_Hermann_Goring_sec
-	GER_Walther_Hewel_for
-	GER_Albert_Speer_eco
+	GER_Jurgen_Schutzinger_hog
+	GER_Helmut_Kohl_for
+	GER_Gunter_Deckert_eco
+	GER_Udo_Voigt_sec
 
 	## Officer Corps ##
 	GER_Hermann_Goring_air_chief
@@ -527,6 +537,8 @@ add_to_faction = POR
 add_to_faction = SPA
 add_to_faction = ZIM
 add_to_faction = EAF
+add_to_faction = BSQ
+add_to_faction = CTL
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }
 set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }
@@ -555,16 +567,9 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	socialist = 1
-	progressivism = 1
-	liberalism = 4
-	conservatism = 4
-	paternalism = 5
-	despotism = 10
-	ultranationalism = 0
-	national_socialism_2 = 17
-	national_socialism = 58
+	national_socialism_3= 15
+	national_socialism_2 = 5
+	national_socialism = 80
 }
 set_variable = { national_socialism_2_var = token:GER_pre_GCW_national_socialism_2 }
 

@@ -1,15 +1,5 @@
 characters = {
-	GER_helmut_kohl = {
-		name = GER_helmut_kohl
-		portraits = { civilian = { large = "gfx/leaders/GER/Portrait_GER_helmut_kohl.png" } }
-		country_leader = {
-			desc = "POLITICS_HELMUT_KOHL_DESC"
-			ideology = national_socialism_subtype
-			traits = { Fuhrer }
-			expire = "1999.1.1.1"
-			id = -1
-		}
-	}
+	
 
 	GER_gerhard_kaindl = {
 		name = GER_gerhard_kaindl
@@ -17,9 +7,139 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_GERHARD_KAINDL_DESC"
 			ideology = national_socialism_subtype
-			traits = { Fuhrer }
+			traits = { Fuhrer  dictator }
 			expire = "1999.1.1.1"
 			id = -1
+		}
+	}
+
+	
+
+	GER_Heinrich_Lummer = {
+		name = GER_Heinrich_Lummer
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			desc = "POLITICS_HEINRICH_LUMMER_DESC"
+			ideology = national_socialism_2_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	GER_Jurgen_Schutzinger = {
+		name = GER_Jurgen_Schutzinger
+		portraits = {
+			civilian = {
+				large = ""
+				small = "GFX_idea_GER_minister_Jurgen_Schutzinger"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = fascism_corporate_statism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = GER_Jurgen_Schutzinger_hog
+			allowed = { original_tag = GER }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	GER_Helmut_Kohl = {
+		name = GER_Helmut_Kohl
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GER_minister_Helmut_Kohl"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = progressivism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = foreign_minister
+			idea_token = GER_Helmut_Kohl_for
+			allowed = { original_tag = GER }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	GER_Gunter_Deckerteco = {
+		name = GER_Gunter_Deckerteco
+		portraits = {
+			civilian = {
+				small = "GFX_idea_GER_minister_Gunter_Deckert"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = national_socialism_3_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = economy_minister
+			idea_token = GER_Gunter_Deckert_eco
+			allowed = { original_tag = GER }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+
+	GER_Udo_Voigt = {
+		name = GER_Udo_Voigt
+		portraits = {
+			civilian = {
+				large = " "
+				small = "GFX_idea_GER_minister_Udo_Voigt"
+			}
+		}
+		country_leader = {
+			desc = " "
+			ideology = despotism_corporatocracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = security_minister
+			idea_token = GER_Udo_Voigt_sec
+			allowed = { original_tag = GER }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

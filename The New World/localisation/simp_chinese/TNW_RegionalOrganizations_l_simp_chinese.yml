@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+ RegionalOrganization_Icon_tt: "§F[THIS.GetName]是[TNO_RegionalOrganization_GetNameColored]成员国.\n--------------\n-阵营领袖:§Y[TNO_RegionalOrganization_GetLeader]§!\n-阵营:[TNO_RegionalOrganization_GetAlignment]\n-类型:§g[TNO_RegionalOrganization_GetType]§!\n-成员数量:[?global.RegionalOrganization_Members@var:reg_org^num|0L][TNO_RegionalOrganization_GetGDP][TNO_RegionalOrganization_GetModifiers]§!"
+ RegionalOrganization_Icon_tt_delayed: "§L[TNO_RegionalOrganization_GetDesc]§!"
+ RegionalOrganization_Icon_tt_GDP: "\n-综合GDP:§G[?global.RegionalOrganization_TotalGDP@var:reg_org]B§!"
+ RegionalOrganization_Icon_tt_modifiers: "\n--------------\n§Y效果:§!§F[TNO_RegionalOrganization_GetModifiersEntry]§!"
+
+ RegionalOrganization_EU: "欧洲联盟"
+ RegionalOrganization_EU_colored:  "§Q$RegionalOrganization_EU$§!"
+ RegionalOrganization_EU_desc_0: "£zollverein_texticon §Q$RegionalOrganization_EU$§!是欧洲经济共同体向政治方向演进而产生的结果，这一新兴的政治联盟包括了诸多亲德的欧洲国家，在各国钢铁般的纽带之下，轴心国的欧洲各国紧密的连接，其组织架构和体制致力于欧洲一体化的推进，实现建立兄弟国家联盟的终极目标，当然，更准确的说，是让欧洲各国自愿俯首称臣，永远臣服于欧洲最伟大的帝国，德意志民族的大日耳曼国之下。"
+ 
+ RegionalOrganization_Alignment_ProGermany: "§s亲德§!"
+ RegionalOrganization_Alignment_ProJapan: "§R亲日§!"
+ RegionalOrganization_Alignment_ProAmerica: "§M亲美§!"
+ RegionalOrganization_Alignment_Unaligned: "§W不结盟§!"
+
+
+ #|=====[ TYPES ]=====|#
+ RegionalOrganization_Type_0: "国际组织"
+ RegionalOrganization_Type_1: "国际协会"
+ RegionalOrganization_Type_2: "国际论坛"
+ RegionalOrganization_Type_3: "政治联盟"
+ RegionalOrganization_Type_4: "联邦"
+ RegionalOrganization_Type_5: "邦联"
+ RegionalOrganization_Type_6: "经济联盟"
+ RegionalOrganization_Type_7: "防御条约"
+ RegionalOrganization_Type_8: "占领当局"
+ RegionalOrganization_Type_9: "殖民帝国"
+ RegionalOrganization_Type_10: "非正式体系"
+ RegionalOrganization_Type_11: "双边条约"
