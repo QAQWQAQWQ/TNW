@@ -8,75 +8,8 @@ set_country_flag = GDP_regions
 recruit_character = CHL_Generic_Vacant
 
 ### Leaders ###
-recruit_character = CHL_Jorge_Alessandri
-recruit_character = CHL_Julio_Philippi
-recruit_character = CHL_Raul_Rettig
-recruit_character = CHL_Eduardo_Frei
-recruit_character = CHL_Jorge_Prat
-recruit_character = CHL_Salvador_Allende
-recruit_character = CHL_Ramon_Callis
-recruit_character = CHL_Tomas_Chadwick
-recruit_character = CHL_Luis_Corvalan
-recruit_character = CHL_Aguirre_Doolan
+recruit_character = CHL_Andres_Pascal_Allende
 
-# Misc.
-recruit_character = CHL_Vicente_Huerta
-recruit_character = CHL_Sepulveda_Galindo
-
-### Ministers ###
-## Alessandri ##
-recruit_character = CHL_Sotero_del_Rio
-recruit_character = CHL_Arturo_Maschke
-recruit_character = CHL_Carlos_Vial
-
-## Frei ##
-recruit_character = CHL_Bernardo_Leighton
-recruit_character = CHL_Gabriel_Valdes
-recruit_character = CHL_Domingo_Santa_Maria
-recruit_character = CHL_Juan_de_Dios
-
-### Generals / Admirals ###
-recruit_character = CHL_Oscar_Izurieta
-recruit_character = CHL_Bernardino_Parada
-recruit_character = CHL_Luis_Miqueles
-recruit_character = CHL_Felix_Guerrero
-recruit_character = CHL_Rene_Cabrera
-recruit_character = CHL_Carlos_Pollarolo
-recruit_character = CHL_Carlos_Hepp
-recruit_character = CHL_Sergio_Castillo
-recruit_character = CHL_Cheyre_Toutin
-recruit_character = CHL_Tulio_Marambio
-recruit_character = CHL_Tomas_Opazo
-recruit_character = CHL_Ramon_Martinez
-recruit_character = CHL_Roberto_Viaux
-recruit_character = CHL_Rene_Schneider
-recruit_character = CHL_Hector_Martinez
-recruit_character = CHL_Carlos_Prats
-recruit_character = CHL_Manuel_Pinochet
-recruit_character = CHL_Camilo_Valenzuela
-recruit_character = CHL_Augusto_Pinochet
-recruit_character = CHL_Manuel_Torres
-recruit_character = CHL_Lisandro_Contreras
-recruit_character = CHL_Roberto_Souper
-recruit_character = CHL_Pablo_Wunderlich
-recruit_character = CHL_Fernando_Bascunan
-recruit_character = CHL_Luis_Urzua
-recruit_character = CHL_Sergio_Huidobro
-recruit_character = CHL_Sergio_Cid
-recruit_character = CHL_Hernan_Cubillos
-recruit_character = CHL_Jacobo_Neumann
-recruit_character = CHL_Fernando_Porta
-recruit_character = CHL_Raul_Montero
-recruit_character = CHL_Jose_Costa
-recruit_character = CHL_Ramon_Barros
-recruit_character = CHL_Alberto_Khan
-recruit_character = CHL_Oscar_Ferrari
-recruit_character = CHL_Raul_del_Solar
-recruit_character = CHL_Jorge_Swett
-recruit_character = CHL_Agustin_Rodriguez
-recruit_character = CHL_Raul_Lopez
-recruit_character = CHL_Hugo_Cabezas
-recruit_character = CHL_Patricio_Carvajal_Prado
 
 oob = "CHL_1962"
 set_naval_oob = "CHL_1962_naval"
@@ -99,18 +32,10 @@ reverse_add_opinion_modifier = { target = BRA modifier = CHL_recent_diplomacy }
 
 add_ideas = {
 	## Spirits
-	CHL_idea_social_question
-	CHL_idea_political_fragmentation_alessandri_1
-	CHL_idea_economic_subservience
-	CHL_idea_agrarian_timebomb
-	ABC_tripartite_pact
+	
 
 	# Ministers
-	CHL_Sotero_del_Rio_hog
-	CHL_Arturo_Maschke_for
-	CHL_Julio_Philippi_eco
-	CHL_Carlos_Vial_sec
-
+	
 ## Policies ##
 	# Political #
 	tno_political_parties_multiparty_system
@@ -572,22 +497,14 @@ create_equipment_variant = {
 }
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = communist
 	last_election = "1958.9.4"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communist = 10
-	socialist = 14
-	progressivism = 6
-	liberalism = 17
-	liberal_conservatism = 21
-	conservatism = 9
-	paternalism = 18
-	fascism = 4
-	national_socialism = 1
+	communist = 100
 }
 
 #Starting Equipment

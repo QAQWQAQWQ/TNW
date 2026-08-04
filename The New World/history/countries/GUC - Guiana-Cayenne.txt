@@ -4,15 +4,7 @@ oob = GUC_2002
 recruit_character = GUC_Generic_Vacant
 #fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
-recruit_character = GUC_Angelo_Almeida
-recruit_character = GUC_Pauxy_Gentil_Nunes
-recruit_character = GUC_Helio_Pennafort
-recruit_character = GUC_Luis_Mendes_da_Silva
-recruit_character = GUC_Fernando_Belfort
-recruit_character = GUC_OAS_Mandate
-recruit_character = GUC_Justin_Catayee
-recruit_character = GUC_Gaston_Monnerville
-recruit_character = GUC_Leon_Gontran_Damas
+recruit_character = GUC_Nicolas_Sarkozy
 
 add_manpower = 5000
 
