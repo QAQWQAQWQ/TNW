@@ -3,21 +3,8 @@ capital = 305
 # Vacant
 recruit_character = ECU_Generic_Vacant
 
-recruit_character = ECU_Jose_Maria_Velasco_Ibarra
-recruit_character = ECU_Carlos_Julio_Arosemena_Monroy
-recruit_character = ECU_Government_in_Exile
-recruit_character = ECU_Manuel_Agustin_Aguirre
-#recruit_character = ECU_Rafael_Echeverria_Flores
-recruit_character = ECU_Jorge_Luna_Yepes
-recruit_character = ECU_Marcos_Gandara_Enriquez
-recruit_character = ECU_Otto_Arosemena_Gomez
-recruit_character = ECU_Reynaldo_Varea_Donoso
-recruit_character = ECU_Jose_Federico_Intriago_Arrata
+recruit_character = ECU_Jaime_Lenin_Hurtado_Angulo
 
-promote_character = ECU_Carlos_Julio_Arosemena_Monroy
-#promote_character = ECU_Rafael_Echeverria_Flores
-promote_character = ECU_Jorge_Luna_Yepes
-promote_character = ECU_Marcos_Gandara_Enriquez
 
 ECU_Government_in_Exile = {
 	promote_character = progressivism_social_radicalism_subtype
@@ -30,17 +17,11 @@ oob = "ECU_1962"
 set_convoys = 50
 
 add_ideas = {
-	OFN_Observer
+	
 	#ministers#
-	ECU_Otto_Arosemena_Gomez_hog
-	ECU_Reynaldo_Varea_Donoso_for
-	ECU_Jose_Federico_Intriago_Arrata_eco
-	ECU_Marcos_Gandara_Enriquez_sec
+	
 	#ideas
-	ECU_idea_a_puppet_in_all_but_name
-	ECU_idea_communist_underbelly
-	ECU_idea_the_wolves_from_outside
-	ECU_idea_and_the_wolves_from_within
+	
 	#political#
 	tno_political_parties_multiparty_system
 	tno_religious_rights_pluralism
@@ -93,7 +74,7 @@ add_ideas = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = communist
 	last_election = "1960.6.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -101,14 +82,7 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 17
-	socialist = 11
-	progressivism = 8
-	liberalism = 14
-	liberal_conservatism = 5
-	conservatism = 10
-	paternalism = 21
-	fascism = 14
+	communist  = 100
 }
 
 #econtype

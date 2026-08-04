@@ -21,23 +21,7 @@ ideas = {
 
 		
 
-		JAP_imperial_way_and_the_nation = {#皇道与国家
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_JAP_imperial_way_and_the_nation
-			modifier = {
-				
-
-				
-			}
-		}
+		
 
 		JAP_military_spirit = {#军魂
 			allowed = {

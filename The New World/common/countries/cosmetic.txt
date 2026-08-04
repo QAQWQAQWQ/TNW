@@ -2,6 +2,25 @@ EGY_Italiana = {
 	color = rgb { 137 187 120 }
 	color_ui = rgb { 137 187 120 }
 }
+ARG_FAS = {
+	color = rgb { 140 167 170 }
+	color_ui = rgb { 140 167 170 }
+}
+
+PAR_POR = {
+	color = rgb { 200 2 7 }
+	color_ui = rgb { 200 2 7 }
+}
+URG_por = {
+	color = rgb { 15 126 144 }
+	color_ui = rgb { 15 126 144 }
+}
+
+VEN_SOC = {
+	color = rgb { 202 110 110 }
+	color_ui = rgb { 202 110 110 }
+}
+
 BUL_Tz = {
 	color = rgb { 120 93 93 }
 	color_ui = rgb { 120 93 93 }

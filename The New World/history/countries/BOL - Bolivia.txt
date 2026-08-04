@@ -4,32 +4,8 @@ capital = 302
 recruit_character = BOL_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
-recruit_character = BOL_David_Terrazas
-recruit_character = BOL_Armando_Alba_Zambrana
-recruit_character = BOL_Collapsed_Authority
-recruit_character = BOL_Rene_Barrientos
-recruit_character = BOL_Enrique_Hertzog
-recruit_character = BOL_Luis_Adolfo_Siles
-recruit_character = BOL_Alfredo_Ovando_Candia
-recruit_character = BOL_Rogelio_Miranda_Baldivia
-recruit_character = BOL_Bernardino_Bilbao_Rioja
-recruit_character = BOL_Oscar_Unzaga
-recruit_character = BOL_Juan_Jose_Torres
-recruit_character = BOL_Walter_Guevara
-recruit_character = BOL_Juan_Lechin_Oquendo
-recruit_character = BOL_Juan_Pereda
-recruit_character = BOL_Mamerto_Urriolagoitia
-recruit_character = BOL_Luis_Fernando_Guachalla
-recruit_character = BOL_Antenor_Patino
-recruit_character = BOL_Eduardo_Montes_y_Montes
-recruit_character = BOL_Gualberto_Villarroel
-recruit_character = BOL_Victor_Paz_Estenssoro
-recruit_character = BOL_Alberto_Crespo_Carpio
-recruit_character = BOL_Alfredo_Mollinedo
-recruit_character = BOL_Hernan_Zuazo
-recruit_character = BOL_Guillermo_Lora
-recruit_character = BOL_Hugo_Gonzalez_Moscoso
-recruit_character = BOL_Fausto_Reinaga
+recruit_character = BOL_Felipe_Quispe_Huanca
+
 
 BOL_Victor_Paz_Estenssoro = {
 	promote_character = liberalism_national_liberal_subtype
@@ -59,16 +35,9 @@ oob = "BOL_1962"
 
 add_ideas = {
 	
-	BOL_patchwork_country
-	BOL_killing_hope
-	BOL_jose_lanzas_lament
-	BOL_tripartite_pact
-	GER_BOR_dont_join_wars_please
+	
 
-	BOL_Alfredo_Mollinedo_hog
-	BOL_Mamerto_Urriolagoitia_for
-	BOL_Antenor_Patino_eco
-	BOL_Alberto_Crespo_Carpio_sec
+	
 	
 	# Political #
 	tno_political_parties_controlled_opposition
@@ -265,7 +234,7 @@ if = {
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = communist
 	last_election = "1959.12.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -273,18 +242,7 @@ set_politics = {
 }
 
 set_popularities = {
-	communist_1 = 2
-	communist = 4
-	socialist = 6
-	progressivism = 4
-	liberalism = 7
-	liberal_conservatism = 10
-	paternalism = 12
-	paternalism_1 = 3
-	despotism = 10
-	despotism_2 = 11
-	fascism = 29
-	fascism_1 = 2
+	communist = 100
 }
 
 #econtype

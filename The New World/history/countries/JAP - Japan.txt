@@ -499,7 +499,6 @@ add_ideas = {
 	Sphere_Leader
 	JAP_Emperor_Heisei
 	JAP_emperor_akihito
-	JAP_imperial_way_and_the_nation
 	JAP_military_spirit
 	JAP_factional_infighting
 	JAP_reform_bureaucracy_and_political_power

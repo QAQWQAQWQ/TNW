@@ -2,68 +2,25 @@ capital = 1616
 
 recruit_character = PAR_Generic_Vacant
 fill_empty_minister_nochecks = yes
+set_cosmetic_tag = PAR_POR
 
-recruit_character = PAR_Higinio_Morinigo
-recruit_character = PAR_Karl_Richert
-recruit_character = PAR_Mutshuito_Villasboa
-recruit_character = PAR_Juan_Natalicio_Gonzalez
-recruit_character = PAR_Alfredo_Stroessner
-recruit_character = PAR_Federico_Chaves
-recruit_character = PAR_Epifanio_Mendez_Fleitas
-recruit_character = PAR_Rafael_Franco
-recruit_character = PAR_Agustin_Goiburu
-recruit_character = PAR_Gustavo_Gonzalez
-recruit_character = PAR_Luis_Resck
-recruit_character = PAR_Oscar_Creydt
-recruit_character = PAR_Victoriano_Benitez_Vera
-recruit_character = PAR_Enzo_Debernardi
-recruit_character = PAR_Juan_Manuel_Frutos_Pane
-recruit_character = PAR_Luis_Maria_Argana
-recruit_character = PAR_Edgar_Ynsfran
-recruit_character = PAR_Sabino_Augusto_Montanaro
-recruit_character = PAR_Juan_Ramon_Chaves
-recruit_character = PAR_Eulogio_Estigarribia
-recruit_character = PAR_Bernardino_Gorostiaga
-recruit_character = PAR_Waldino_Ramon_Lovera
-recruit_character = PAR_FULNA_Provisional_Junta
-recruit_character = PAR_Che_Guevara
-recruit_character = PAR_Alfredo_Ramos
-recruit_character = PAR_Domingo_Laino
-recruit_character = PAR_Fernando_Levi_Ruffinelli
-recruit_character = PAR_Miguel_Angel_Soler
-recruit_character = PAR_Obdulio_Barthe
-recruit_character = PAR_Francisco_Alcibiades_Britez_Borges
+recruit_character = PAR_Ananias_Maidana_Palacios
 
 
-set_autonomy = {
-	target = STC
-	autonomy_state = autonomy_collaborator_puppet_state
-}
+
 
 oob = "PAR_1962"
 country_lock_all_division_template = yes
 
 set_politics = {
-	ruling_party = fascism	
+	ruling_party = communist
 	last_election = "1958.2.9"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	national_socialism = 1
-	fascism_2 = 16
-	fascism = 39
-	fascism_3 = 16
-	ultranationalism = 0
-	despotism = 0
-	paternalism = 14
-	conservatism = 0
-	liberal_conservatism = 5
-	liberalism = 0
-	progressivism = 1
-	socialist = 3
-	communist = 5
+	communist = 100
 }
 
 add_opinion_modifier = { target = BRA modifier = SOUTHAM_guaira }
@@ -313,11 +270,7 @@ if = {
 
 add_ideas = {
 	## Spirits
-	PAR_la_ley_del_mbarete
-	PAR_arcadian_backwater
-	PAR_new_national_state_morinigo
-	PAR_price_of_peace
-	PAR_the_chokehold
+	
 
 	## Policies ##
 	# Political #

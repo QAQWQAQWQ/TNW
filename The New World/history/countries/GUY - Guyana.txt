@@ -4,14 +4,8 @@ capital = 687
 recruit_character = GUY_Generic_Vacant
 #fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
-recruit_character = GUY_Peter_Aguiar
-recruit_character = GUY_Forbes_Burnham
-recruit_character = GUY_John_Carter
-recruit_character = GUY_Lionel_Luckhoo
-recruit_character = GUY_Plotemy_Reid
+recruit_character = GUY_Bharrat_Jagdeo
 
-recruit_character = GUY_Cheddi_Jagan
-recruit_character = GUY_Cecil_Clyde
 
 add_opinion_modifier = { target = VEN modifier = VEN_essequibo_is_venezuelan }
 
@@ -21,7 +15,7 @@ set_air_oob = "GUY_1962_air"
 set_stability = 0.3
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = progressivism
 	last_election = "1961.1.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -29,13 +23,7 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 8
-	socialist = 27
-	progressivism = 12
-	liberalism = 10
-	liberal_conservatism = 22
-	paternalism = 18
-	despotism = 3
+	progressivism = 100
 }
 
 set_technology = {
