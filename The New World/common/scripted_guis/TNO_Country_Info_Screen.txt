@@ -54,9 +54,7 @@ scripted_gui = {
 				index = g
 			}
 		}
-		
-		### top_tabs shit ###
-		
+		### entry_gridbox shit ###
 		effects = {
 			tab_button_click = {
 				if = {
@@ -64,10 +62,14 @@ scripted_gui = {
 						check_variable = { d = 1 }
 					}
 					clear_array = CountryInfo_array_main
-					for_each_loop = {
-						array = CountryInfo_storage_array
-						add_to_array = { CountryInfo_array_main = v }
-					}
+						meta_effect = {
+							text = {
+								for_each_loop = {
+									array = CountryInfo_folder_country_101
+									add_to_array = { CountryInfo_array_main = v }
+								}
+							}
+						}
 				}
 				else_if = {
 					limit = {
@@ -84,20 +86,28 @@ scripted_gui = {
 						check_variable = { d = 3 }
 					}
 					clear_array = CountryInfo_array_main
-					for_each_loop = {
-						array = CountryInfo_tutorial_store
-						add_to_array = { CountryInfo_array_main = v }
-					}
+						meta_effect = {
+							text = {
+								for_each_loop = {
+									array = CountryInfo_folder_tutorial_101
+									add_to_array = { CountryInfo_array_main = v }
+								}
+							}
+						}
 				}
 				else_if = {
 					limit = {
 						check_variable = { d = 4 }
 					}
 					clear_array = CountryInfo_array_main
-					for_each_loop = {
-						array = CountryInfo_development_store
-						add_to_array = { CountryInfo_array_main = v }
-					}
+						meta_effect = {
+							text = {
+								for_each_loop = {
+									array = CountryInfo_folder_development_101
+									add_to_array = { CountryInfo_array_main = v }
+								}
+							}
+						}
 				}
 				if = {
 					limit = {
@@ -108,168 +118,16 @@ scripted_gui = {
 					set_variable = { CountryInfo_Selected = 1 }
 				}
 				set_variable = { CountryInfo_tab = d }
-			}
-			
-		}
-		
-		### top_tabs end ###
-		
-		### entry_gridbox shit ###
-		effects = {
-			Folder_button_click = {
-				## EXPANDS
-				if = {
-					limit = {
-						set_temp_variable = { check = g }
-						add_to_temp_variable = { check = 1 }
-						OR = {
-							check_variable = { CountryInfo_array_main^check > 100 }
-							check_variable = { CountryInfo_array_main^check = 0 }
-						}
-					}
-					
-					# Removes entries after the folder
-					for_each_loop = {
-						array = CountryInfo_array_main
-						if = {
-							limit = {
-								check_variable = { i > g }
-							}
-							add_to_array = { removed = v }
-						}
-					}
-					for_each_loop = {
-						array = removed
-						if = {
-							limit = {
-								is_in_array = { array = CountryInfo_array_main value = v }
-							}
-							remove_from_array = { array = CountryInfo_array_main value = v }
-						}
-					}
-					
-					# Adds all entries inside the folder
-					
-					if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 1 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_country_[FOLDER]
-									add_to_array = { CountryInfo_array_main = v }
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-					else_if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 3 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_tutorial_[FOLDER]
-									add_to_array = { CountryInfo_array_main = v }
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-					else_if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 4 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_development_[FOLDER]
-									add_to_array = { CountryInfo_array_main = v }
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-					
-					# Readds previously removed entries
-					for_each_loop = {
-						array = removed
-						add_to_array = { CountryInfo_array_main = v }
-					}
-					clear_array = removed
-				}
-				# COLLAPSES
-				else = {
-					if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 1 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_country_[FOLDER]
-									if = {
-										limit = {
-											is_in_array = { array = CountryInfo_array_main value = v }
-										}
-										remove_from_array = { array = CountryInfo_array_main value = v }
-									}
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-					else_if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 3 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_tutorial_[FOLDER]
-									if = {
-										limit = {
-											is_in_array = { array = CountryInfo_array_main value = v }
-										}
-										remove_from_array = { array = CountryInfo_array_main value = v }
-									}
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-					else_if = {
-						limit = {
-							check_variable = { CountryInfo_tab = 4 }
-						}
-						meta_effect = {
-							text = {
-								for_each_loop = {
-									array = CountryInfo_folder_development_[FOLDER]
-									if = {
-										limit = {
-											is_in_array = { array = CountryInfo_array_main value = v }
-										}
-										remove_from_array = { array = CountryInfo_array_main value = v }
-									}
-								}
-							}
-							FOLDER = "[?f]"
-						}
-					}
-				}
-			}
+			}		
 			Content_button_click = {
 				set_variable = { CountryInfo_Selected = f }
 			}
 			back_button_click = {
 				subtract_from_variable = { CountryInfo_Selected = 1 }
 			}			
-			forward_button_click = {
-				TNO_CountryInfo_button_overflow_solution = yes
+			forward_button_click = {	
 				add_to_variable = { CountryInfo_Selected = 1 }
+
 			}			
 		}
 		
@@ -286,7 +144,7 @@ scripted_gui = {
 					set_temp_variable = { content_frame = 1 }
 				}
 				else = {
-					set_temp_variable = { content_frame = 1 }
+					set_temp_variable = { content_frame = 2 }
 				}
 			}
 			back_button_click_enabled = {
@@ -299,22 +157,6 @@ scripted_gui = {
 					check_variable = { CountryInfo_Selected = CountryInfo_array_main^num }
 				}	
 			}				
-			Folder_button_visible = {
-				if = {
-					limit = {
-						set_temp_variable = { f_check = g }
-						add_to_temp_variable = { f_check = 1 }
-						OR = {
-							check_variable = { CountryInfo_array_main^f_check > 100 }
-							check_variable = { CountryInfo_array_main^f_check = 0 }
-						}
-					}
-					set_temp_variable = { folder_frame = 1 }
-				}
-				else = {
-					set_temp_variable = { folder_frame = 2 }
-				}
-			}
 			tab_button_visible = {
 				if = {
 					limit = {
@@ -414,7 +256,6 @@ scripted_gui = {
 			poster = 			{ image = "[GET_POSTER]" }
 			
 			# Left folder
-			Folder_button = 	{ frame = folder_frame }
 			Content_button = 	{ frame = content_frame }
 			
 			# Top tabs
