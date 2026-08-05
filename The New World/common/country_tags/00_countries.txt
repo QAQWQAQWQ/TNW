@@ -492,6 +492,7 @@ PAN = "countries/Latin America.txt"				# Panama
 
 # /// South America /// #
 ARG = "countries/Latin America - Italy.txt"		# Argentina
+
 ARS = "countries/Latin America - Italy.txt"		# Argentine Occupation of Rio Grande du Sol
 BOL = "countries/Latin America.txt"				# Bolivia
 BRA = "countries/Brazil.txt"					# Brazil

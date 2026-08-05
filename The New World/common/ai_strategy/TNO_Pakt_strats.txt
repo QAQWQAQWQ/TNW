@@ -454,16 +454,7 @@ FIN_DO_NOT_NAVAL_INVADE = {
 	abort_when_not_enabled = yes
 
 	#stop naval invading cape town you incompetent facist fucks
-	ai_strategy = {
-		type = invasion_unit_request
-		tag = WRS
-		value = -1000
-	}
-	ai_strategy = {
-		type = front_unit_request
-		tag = WRS
-		value = 100
-	}
+	
 	ai_strategy = {
 		type = invasion_unit_request
 		id = WSB
