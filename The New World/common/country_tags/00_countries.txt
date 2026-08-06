@@ -388,7 +388,6 @@ IVO = "countries/Africa.txt"					# Ivory Coast
 BKF = "countries/Africa.txt"					# Haute-Volte/Mossiland		
 HAU = "countries/Africa.txt"					# Sokoto
 FTF = "countries/Africa.txt"					# Fuuta Massina/Fuuta Fulbe		
-CPV = "countries/Africa.txt"					# Cabo Verde
 ZAR = "countries/Africa.txt"					# Zarmaganda/Zarmaland
 NGR = "countries/Africa.txt"					# Niger - FMA/WAA Ally
 SWB = "countries/Africa.txt"					# Sawaba - PALF Ally
@@ -492,7 +491,6 @@ PAN = "countries/Latin America.txt"				# Panama
 
 # /// South America /// #
 ARG = "countries/Latin America - Italy.txt"		# Argentina
-
 ARS = "countries/Latin America - Italy.txt"		# Argentine Occupation of Rio Grande du Sol
 BOL = "countries/Latin America.txt"				# Bolivia
 BRA = "countries/Brazil.txt"					# Brazil

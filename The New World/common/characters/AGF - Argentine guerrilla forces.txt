@@ -1,0 +1,14 @@
+characters =  {
+
+    AGF_Nestor_Ostoic = {
+		name = AGF_Nestor_Ostoic
+		portraits = { civilian = { large = "gfx/leaders/AGF/Portrait_AGF_Nestor_Ostoic.png" } }
+		country_leader = {
+			desc = "POLITICS_NESTOR_OSTOIC_DESC"
+			expire = "1994.4.20"
+			ideology = socialist_revolutionary_frontism_subtype
+			traits = {  }
+			id = -1
+		}
+	}
+}
