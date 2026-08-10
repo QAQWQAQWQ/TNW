@@ -2439,6 +2439,8 @@ SpriteTypes = {
 
 	## Japan ##
 
+	
+
 	SpriteType = {
 		name = "GFX_idea_JAP_emperor_akihito"
 		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_emperor_akihito.png"

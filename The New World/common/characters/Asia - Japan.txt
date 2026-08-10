@@ -46,11 +46,11 @@ characters = {
 		}
 	}
 
-	JAP_Nobutaka_Machimura = {
-		name = JAP_Nobutaka_Machimura
+	JAP_Hayashi_sadayuki = {
+		name = JAP_Hayashi_sadayuki
 		portraits = {
 			civilian = {
-				small = "GFX_idea_JAP_minister_Nobutaka_Machimura"
+				small = "GFX_idea_JAP_minister_Hayashi_sadayuki"
 			}
 		}
 		country_leader = {
@@ -63,7 +63,7 @@ characters = {
 
 		advisor = {
 			slot = foreign_minister
-			idea_token = JAP_Nobutaka_Machimura_for
+			idea_token = JAP_Hayashi_sadayuki_for
 			allowed = { original_tag = JAP }
 			traits = {
 				foreign_minister
@@ -102,12 +102,12 @@ characters = {
 		}
 	}
 
-	JAP_Ohta_Seiichi = {
-		name = JAP_Ohta_Seiichi
+	JAP_Nobutaka_Machimura = {
+		name = JAP_Nobutaka_Machimura
 		portraits = {
 			civilian = {
 				large = " "
-				small = "GFX_idea_JAP_minister_Ohta_Seiichi"
+				small = "GFX_idea_JAP_minister_Nobutaka_Machimura"
 			}
 		}
 		country_leader = {
@@ -120,7 +120,7 @@ characters = {
 
 		advisor = {
 			slot = security_minister
-			idea_token = JAP_Ohta_Seiichi_sec
+			idea_token = JAP_Nobutaka_Machimura_sec
 			allowed = { original_tag = JAP }
 			traits = {
 				security_minister

@@ -12,7 +12,7 @@ recruit_character = JAP_Koichi_Kato
 recruit_character = JAP_Teiichi_Tanigaki
 recruit_character = JAP_Nobutaka_Machimura
 recruit_character = JAP_Satori_Kozato
-recruit_character = JAP_Ohta_Seiichi 
+recruit_character = JAP_Hayashi_sadayuki
 # Ministers
 
 
@@ -499,7 +499,6 @@ add_ideas = {
 	Sphere_Leader
 	JAP_Emperor_Heisei
 	JAP_emperor_akihito
-	JAP_military_spirit
 	JAP_factional_infighting
 	JAP_reform_bureaucracy_and_political_power
 	JAP_party_officials_collaboration
@@ -507,9 +506,9 @@ add_ideas = {
 	JAP_house_of_representatives
 	#JAP_korea_tunnel_#construction
 	JAP_Teiichi_Tanigaki_hog
-	JAP_Nobutaka_Machimura_for
+	JAP_Hayashi_sadayuki_for
 	JAP_Satori_Kozato_eco
-	JAP_Ohta_Seiichi_sec
+	JAP_Nobutaka_Machimura_sec
 
 	#SOCIETAL DEVELOPMENT
 	

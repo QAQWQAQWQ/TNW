@@ -3511,6 +3511,10 @@ spriteTypes = {
 
 	### JAP ###
 	spriteType = {
+		name = "GFX_idea_JAP_minister_Hayashi_sadayuki"
+		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Hayashi_sadayuki.png"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_minister_Teiichi_Tanigaki"
 		texturefile = "gfx/interface/ideas/ministers/JAP/JAP_minister_Teiichi_Tanigaki.png"
 	}
