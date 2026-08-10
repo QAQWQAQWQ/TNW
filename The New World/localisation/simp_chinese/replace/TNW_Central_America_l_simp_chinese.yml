@@ -1,0 +1,61 @@
+﻿l_simp_chinese:
+ PAN: "巴拿马共和国"
+ PAN_DEF: "巴拿马共和国"
+ PAN_ADJ: "巴拿马"
+
+ HON: "洪都拉斯共和国"
+ HON_DEF: "洪都拉斯共和国"
+ HON_ADJ: "洪都拉斯"
+
+ ELS: "萨尔瓦多共和国"
+ ELS_DEF: "萨尔瓦多共和国"
+ ELS_ADJ: "萨尔瓦多"
+
+ GUA: "危地马拉共和国"
+ GUA_DEF: "危地马拉共和国"
+ GUA_ADJ: "危地马拉"
+
+ NIC: "尼加拉瓜共和国"
+ NIC_DEF: "尼加拉瓜共和国"
+ NIC_ADJ: "尼加拉瓜"
+
+ COS: "哥斯达黎加共和国"
+ COS_DEF: "哥斯达黎加共和国"
+ COS_ADJ: "哥斯达黎加"
+
+ ##COUNTRY LEADER NAME AND PARTY NAME ##
+
+ ##Belize##
+ BLZ_Said_Musa: "萨伊德・穆萨"
+ BLZ_socialist_party: "人民联合党"
+ BLZ_socialist_party_long: "人民联合党"
+
+ ##Honduras##
+ HON_Ricardo_Maduro: "里卡多・马杜罗"
+ HON_conservatism_party: "洪都拉斯国民党"
+ HON_conservatism_party_long: "洪都拉斯国民党"
+
+ ##Guatemala##
+ GUA_Alfonso_Portillo: "阿方索・波蒂略"
+ GUA_conservatism_party: "危地马拉共和阵线"
+ GUA_conservatism_party_long: "危地马拉共和阵线"
+
+ ##Nicaragua##
+ NIC_Enrique_Bolanos: "恩里克・博拉尼奥斯"
+ NIC_liberal_conservatism_party: "制宪自由党"
+ NIC_liberal_conservatism_party_long: "制宪自由党"
+
+ ##Panama##
+ PAN_Martin_Torrijos: "马丁・托里霍斯"
+ PAN_socialist_party: "民主革命党"
+ PAN_socialist_party_long: "民主革命党"
+
+ ##El Salvador##
+ ELS_Francisco_Flores: "弗朗西斯科・弗洛雷"
+ ELS_liberal_conservatism_party: "民族主义共和联盟"
+ ELS_liberal_conservatism_party_long: "民族主义共和联盟"
+
+ ##Costa Rica##
+ COS_Abel_Pacheco: "阿贝尔・帕切科"
+ COS_liberal_conservatism_party: "基督教社会团结党"
+ COS_liberal_conservatism_party_long: "基督教社会团结党"

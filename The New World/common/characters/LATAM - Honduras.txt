@@ -1,14 +1,14 @@
 characters = {
-	HON_Ramon_Morales = {
-		name = HON_Ramon_Morales
+	HON_Ricardo_Maduro = {
+		name = HON_Ricardo_Maduro
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HON/Portrait_Honduras_Ramon_Morales.png"
+				large = "gfx/leaders/HON/Portrait_Honduras_Ricardo_Maduro.png"
 			}
 		}
 		country_leader = {
 			expire = "1994.4.20"
-			ideology = liberal_conservatism_oligarchic_liberalism_subtype
+			ideology = conservatism_paternalistic_conservatism_subtype
 			traits = { }
 			id = -1
 		}

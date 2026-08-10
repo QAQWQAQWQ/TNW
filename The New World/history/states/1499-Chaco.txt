@@ -10,7 +10,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = ARG
+		owner = RAF
 		buildings = {
 			barracks = 1
 			infrastructure = 2

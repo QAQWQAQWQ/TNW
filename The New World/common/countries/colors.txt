@@ -54,22 +54,22 @@ GER = {
 	color = rgb { 60 60 60 }
 	color_ui = rgb { 60 60 60 }
 }
-SGR = {
-	color = rgb { 141 128 115 }
-	color_ui = rgb { 141 128 115 }
-}
-BGR = {
-	color = rgb { 99 105 90 }
-	color_ui = rgb { 99 105 90 }
-}
-GGR = {
-	color = rgb { 84 82 75 }
-	color_ui = rgb { 84 82 75 }
-}
-HGR = {
-	color = rgb { 19 17 39 }
-	color_ui = rgb { 19 17 39 }
-}
+#SGR = {
+	#color = rgb { 141 128 115 }
+	#color_ui = rgb { 141 128 115 }
+#}
+#BGR = {
+	#color = rgb { 99 105 90 }
+	#color_ui = rgb { 99 105 90 }
+#}
+#GGR = {
+	#color = rgb { 84 82 75 }
+	#color_ui = rgb { 84 82 75 }
+#}
+#HGR = {
+	#color = rgb { 19 17 39 }
+	#color_ui = rgb { 19 17 39 }
+#}
 CZE = {
 	color = rgb { 113 106 107 }
 	color_ui = rgb { 113 106 107 }
@@ -1588,6 +1588,11 @@ PAN = {
 ARG = {
 	color = rgb { 140 167 170 }
 	color_ui = rgb { 140 167 170 }
+}
+
+RAF = {
+	color = rgb { 215 60 78 }
+	color_ui = rgb { 215 60 78 }
 }
 
 ARS = {

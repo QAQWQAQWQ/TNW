@@ -1,10 +1,10 @@
 characters = {
-	NIC_Luis_Somoza_Debayle = {
-		name = NIC_Luis_Somoza_Debayle
-		portraits = { civilian = { large = "gfx/leaders/NIC/Portrait_Nicaragua_Luis_Somoza_Debayle.png" } }
+	NIC_Enrique_Bolanos = {
+		name = NIC_Enrique_Bolanos
+		portraits = { civilian = { large = "gfx/leaders/NIC/Portrait_Nicaragua_Enrique_Bolanos.png" } }
 		country_leader = {
 			expire = "1994.4.20"
-			ideology = despotism_civilian_dictatorship_subtype
+			ideology = liberal_conservatism_market_liberalism_subtype
 			traits = { }
 			id = -1
 		}

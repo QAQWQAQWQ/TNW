@@ -3,7 +3,7 @@ capital = 312
 # Vacant
 recruit_character = HON_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-recruit_character = HON_Ramon_Morales
+recruit_character = HON_Ricardo_Maduro
 
 set_convoys = 50
 oob = "HON_1962"
@@ -66,7 +66,7 @@ add_ideas = {
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = conservatism
 	last_election = "1960.10.10"
 	election_frequency = 72
 	elections_allowed = no
@@ -85,11 +85,7 @@ NIC = {
 	JAP = { add_to_trade_modifier_PREV = yes }
 }
 set_popularities = {
-	communist = 8
-	socialist = 15
-	liberal_conservatism = 35
-	paternalism = 30
-	despotism = 12
+	conservatism = 100
 }
 
 #econtype

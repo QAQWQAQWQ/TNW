@@ -87,8 +87,8 @@
  BSQ_DEF: "巴斯克共和国"
  BSQ_ADJ: "巴斯克"
 
- CAN: "加拿大自治领"
- CAN_DEF: "加拿大自治领"
+ CAN: "加拿大共和国"
+ CAN_DEF: "加拿大共和国"
  CAN_ADJ: "加拿大"
  
  CHT: "赤塔"
@@ -310,9 +310,7 @@
  PAL_despotism: "巴勒斯坦王国"
  PAL_despotism_DEF: "巴勒斯坦王国"
  PAL_ADJ: "巴勒斯坦"
- PAN: "巴拿马共和国"
- PAN_DEF: "巴拿马共和国"
- PAN_ADJ: "巴拿马"
+ 
  PAR: "巴拉圭共和国"
  PAR_DEF: "巴拉圭共和国"
  PAR_ADJ: "巴拉圭"

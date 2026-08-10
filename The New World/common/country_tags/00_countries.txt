@@ -49,10 +49,6 @@
 
 # /// Reich - Western Europe /// #
 GER = "countries/Germany.txt"					# Germany
-SGR = "countries/Germany - Proper.txt"			# Speer's Germany
-BGR = "countries/Germany - Proper.txt"			# Bormann's Germany
-GGR = "countries/Germany - Proper.txt"			# Goering's Germany
-HGR = "countries/Germany - Proper.txt"			# Heydrich's Germany
 CZE = "countries/Germany - Proper.txt"			# Wehrkreis XIX
 CRN = "countries/Germany - Proper.txt"			# Cornwall Garrison
 HOL = "countries/Germany - Europe.txt"			# Netherlands
@@ -491,6 +487,7 @@ PAN = "countries/Latin America.txt"				# Panama
 
 # /// South America /// #
 ARG = "countries/Latin America - Italy.txt"		# Argentina
+RAF = "countries/Latin America.txt"				# Revolutionary Armed Forces of Argentina
 ARS = "countries/Latin America - Italy.txt"		# Argentine Occupation of Rio Grande du Sol
 BOL = "countries/Latin America.txt"				# Bolivia
 BRA = "countries/Brazil.txt"					# Brazil

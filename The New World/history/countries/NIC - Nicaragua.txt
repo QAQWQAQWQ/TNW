@@ -4,6 +4,7 @@ capital = 317
 recruit_character = NIC_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
+recruit_character = NIC_Enrique_Bolanos
 
 set_convoys = 50
 oob = "NIC_1962"
@@ -66,22 +67,16 @@ add_ideas = {
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = liberal_conservatism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialist = 8
-	progressivism = 6
-	liberalism = 12
-	conservatism = 8
-	paternalism = 10
-	despotism = 56
+	liberal_conservatism = 100
 }
 
-recruit_character = NIC_Luis_Somoza_Debayle
 
 #econtype
 set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }

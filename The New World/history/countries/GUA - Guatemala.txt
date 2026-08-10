@@ -70,7 +70,7 @@ add_ideas = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = conservatism
 	last_election = "1956.11.10"
 	election_frequency = 72
 	elections_allowed = yes
@@ -78,16 +78,11 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 6
-	progressivism = 34
-	liberalism = 6
-	conservatism = 18
-	paternalism = 33
-	despotism = 3
+	conservatism = 100
 }
 
-recruit_character = GUA_Luis_Cardoza_y_Aragon
-recruit_character = GUA_Miguel_Ydigoras_Fuentes
+recruit_character = GUA_Alfonso_Portillo
+
 
 #Econ Type
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }

@@ -6,7 +6,7 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = ARG
+		owner = RAF
 		buildings = {
 			infrastructure = 2
 			thermoelectric_plant = 1

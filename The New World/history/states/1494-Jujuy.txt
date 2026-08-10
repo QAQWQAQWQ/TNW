@@ -10,7 +10,7 @@ state = { #Population Done
 	state_category = pastoral
 
 	history = {
-		owner = ARG
+		owner = RAF
 		buildings = {
 			infrastructure = 1
 		}

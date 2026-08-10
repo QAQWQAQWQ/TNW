@@ -67,7 +67,7 @@ set_research_slots = 3
 
 
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = liberal_conservatism
 	last_election = "1958.2.2"
 	election_frequency = 48
 	elections_allowed = yes
@@ -75,12 +75,10 @@ set_politics = {
 }
 
 set_popularities = {
-	progressivism = 50
-	liberalism = 24
-	conservatism = 26
+	liberal_conservatism = 100
 }
 
-recruit_character = COS_Jose_Figueres_Ferrer
+recruit_character = COS_Abel_Pacheco
 
 #Econ Type
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }

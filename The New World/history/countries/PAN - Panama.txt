@@ -118,63 +118,23 @@ set_variable = { trade_opinion_embargo@ROM = 1 }
 set_variable = { trade_opinion_embargo@TNS = 1 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = socialist
 	last_election = "1960.5.10"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 5
-	ultranationalism = 0
-	socialist = 10
-	progressivism = 10
-	liberalism = 5
-	liberal_conservatism = 15
-	national_socialism = 0
-	conservatism = 10
-	
-	paternalism = 25
-	despotism = 15
-	fascism = 5
+	socialist = 100
 }
 
-recruit_character = PAN_Jose_Remon_Cantera
-recruit_character = PAN_Roberto_Chiari_Ramon
-recruit_character = PAN_Aquilino_Boyd
-recruit_character = PAN_Panama_Defense_Council
-recruit_character = PAN_Jose_de_la_Rosa_Castillo
-recruit_character = PAN_Arnulfo_Arias
-recruit_character = PAN_Ruben_Batista
-recruit_character = PAN_Juan_Galindo
-recruit_character = PAN_Boris_Martinez
-recruit_character = PAN_Omar_Torrijos
-recruit_character = PAN_Jose_Humberto_Ramos
-recruit_character = PAN_Ruben_Dario_Paredes
-recruit_character = PAN_Jose_Bazan
-recruit_character = PAN_Ricardo_Espinosa
-recruit_character = PAN_Eric_Devalle
-recruit_character = PAN_Bolivar_Vallarino
-recruit_character = PAN_Max_Devalle
-recruit_character = PAN_Raul_Arango
-recruit_character = PAN_Gilberto_Guardia
-recruit_character = PAN_Abraham_Stevenson
-recruit_character = PAN_Demetrio_Bahas
-recruit_character = PAN_Ricardo_Espriella
-recruit_character = PAN_Jose_Fabrega
-recruit_character = PAN_Manuel_Noriega
+recruit_character = PAN_Martin_Torrijos
+
 
 add_ideas = {
-PAN_Divided_at_the_Isthmus
-PAN_Two_Flags_One_Nation
-PAN_Half_measures_and_handshakes
-PAN_Coroneles_and_Criollos
-PAN_policemen_of_nations
+
 	#MINISTERS
-PAN_Jose_Bazan_hog
-PAN_Bolivar_Vallarino_sec
-PAN_Ricardo_Espinosa_for
-PAN_Eric_Devalle_eco
+
 	#SPIRITS
 	#POLITICAL
 tno_political_parties_controlled_opposition

@@ -8,7 +8,7 @@ state = {
 		tungsten = 7
 	}
 	history = {
-		owner = ARG
+		owner = RAF
 		buildings = {
 			infrastructure = 2
 		}

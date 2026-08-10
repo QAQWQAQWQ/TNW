@@ -5,7 +5,7 @@ state = {
 		11007
 	}
 history = {
-		owner = ARG
+		owner = RAF
 		buildings = {
 			infrastructure = 2
 			barracks = 1

@@ -9,25 +9,8 @@ recruit_character = CAN_Generic_Vacant
 
 #country leader
 recruit_character = CAN_Lester_B_Pearson
-recruit_character = CAN_John_Turner
-recruit_character = CAN_John_Diefenbaker
-recruit_character = CAN_Robert_Stanfield
-recruit_character = CAN_Tommy_Douglas
-recruit_character = CAN_Real_Cauoette
-recruit_character = CAN_James_Laxer
-recruit_character = CAN_Leslie_Morris
-recruit_character = CAN_Adrian_Arcand
-recruit_character = CAN_William_John_Beattie
-#Ministers
-# recruit_character = CAN_Lester_Pearson
-# recruit_character = CAN_George_Vanier
-# recruit_character = CAN_Leo_Cadieux
-recruit_character = CAN_Walter_Gordon
-#Generals
-recruit_character = CAN_Jacques_Dextraze
-recruit_character = CAN_Jack_Vance
-recruit_character = CAN_Ramsey_Muir_Withers
-recruit_character = CAN_Don_C_Laubman
+recruit_character = CAN_John_Manley
+
 
 oob = "CAN_1962"
 set_air_oob = "CAN_1962_air"
@@ -319,20 +302,9 @@ add_ideas = {
 		#FACTION STATUS
 	OFN_Independent_Member
 		#POLITICAL
-	tno_political_parties_multiparty_system
-	tno_religious_rights_secularism
-	tno_trade_unions_all_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_penal_labor
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_universal
+	
 		#IDEAS
-	tno_CAN_the_constitution_issue
-	tno_CAN_the_nixon_shock
-	tno_CAN_queen_in_exile
-	tno_CAN_status_of_quebec
-	tno_CAN_western_alienation
+	
 	#tno_CAN_canadian_empire
 		#MINISTERS
 	CAN_Walter_Gordon_eco
@@ -381,7 +353,7 @@ add_ideas = {
 set_research_slots = 4
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = liberal_conservatism
 	last_election = "1958.6.30"
 	election_frequency = 48
 	elections_allowed = yes
@@ -393,17 +365,7 @@ set_autonomy = {
 }
 
 set_popularities = {
-	communist = 0
-	progressivism = 14
-	liberalism = 32
-	liberal_conservatism = 5
-	conservatism = 31
-	socialist = 1
-	paternalism = 15
-	despotism = 0
-	fascism = 2
-	national_socialism = 0
-	ultranationalism = 0
+	liberal_conservatism = 100
 
 }
 
