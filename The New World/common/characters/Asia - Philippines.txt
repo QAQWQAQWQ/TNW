@@ -1,16 +1,16 @@
 characters = {
 	# Second Philippine Republic
-	PHI_Fidel_Agcaoili = {
-		name = PHI_Fidel_Agcaoili
+	PHI_Juan_Ponce_Enrile = {
+		name = PHI_Juan_Ponce_Enrile
 		portraits = { 
 			civilian = { 
-				large = "gfx/leaders/PHI/Portrait_PHI_Fidel_Agcaoili.png" 
+				large = "gfx/leaders/PHI/Portrait_PHI_Juan_Ponce_Enrile.png" 
 			} 
 		}
 		country_leader = {
-			desc = "POLITICS_FIDEL_AGCAOLIL_DESC"
-			ideology = communist_peoples_democracy_subtype
-			traits = { supremo_ng_himagsikan }
+			desc = "POLITICS_JUAN_PONCE_ENRILE_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = {  }
 			expire = "1999.1.1.1"
 			id = -1
 		}
