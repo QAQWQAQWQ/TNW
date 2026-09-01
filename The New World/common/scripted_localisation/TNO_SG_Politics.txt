@@ -317,6 +317,18 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocConservativeDemocracy
 	text = {
+		trigger = { has_country_leader_ideology = conservatism_Onenation_conservatism_subtype }
+		localization_key = conservatism_Onenation_conservatism_subtype
+	}
+
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_consensus_conservatism_subtype }
+		localization_key = conservatism_consensus_conservatism_subtype
+	}
+
+
+	
+	text = {
 		trigger = { has_country_leader_ideology = conservatism_agrarianism_subtype }
 		localization_key = conservatism_agrarianism_subtype
 	}

@@ -225,7 +225,6 @@ RegionalOrganizations_Startup = {
 	BUL = { RegionalOrganizations_Add = yes }
 	SER = { RegionalOrganizations_Add = yes }
 	FRA = { RegionalOrganizations_Add = yes }
-	ENG = { RegionalOrganizations_Add = yes }
 	IRE = { RegionalOrganizations_Add = yes }
 	ULS = { RegionalOrganizations_Add = yes }
 	ITA = { RegionalOrganizations_Add = yes }
@@ -237,12 +236,7 @@ RegionalOrganizations_Startup = {
 	CRO = { RegionalOrganizations_Add = yes }
 
 	## OAS - Organization of American States
-	set_temp_variable = { reg_org = token:RegionalOrganization_OAS }
-	USA = {
-		# set_temp_variable = { org_alignment = USA }
-		set_temp_variable = { org_type = 3 } # International Forum
-		RegionalOrganizations_Initialize = yes
-	}
+	
 	
 
 	## Veracuz Pact
@@ -264,6 +258,76 @@ RegionalOrganizations_Startup = {
 		set_temp_variable = { org_type = 3 } # Political Union
 		RegionalOrganizations_Initialize = yes
 	}
+
+	##United Nations
+	set_temp_variable = { reg_org = token:RegionalOrganization_UN }
+	USA = {
+		 set_temp_variable = { org_alignment = 0 }
+		set_temp_variable = { org_type = 0 } # Political Union
+		RegionalOrganizations_Initialize = yes
+	}
+	ENG = { RegionalOrganizations_Add = yes }
+	CAN = { RegionalOrganizations_Add = yes }
+	JAP = { RegionalOrganizations_Add = yes }
+	CHI = { RegionalOrganizations_Add = yes }
+	MEX = { RegionalOrganizations_Add = yes }
+	BRA = { RegionalOrganizations_Add = yes }
+	MAN = { RegionalOrganizations_Add = yes }
+	AZH = { RegionalOrganizations_Add = yes }
+	SWE = { RegionalOrganizations_Add = yes }
+	ICE = { RegionalOrganizations_Add = yes }
+	TUR = { RegionalOrganizations_Add = yes }
+	CAF = { RegionalOrganizations_Add = yes }
+	IRQ = { RegionalOrganizations_Add = yes }
+	SAU = { RegionalOrganizations_Add = yes }
+	CFS = { RegionalOrganizations_Add = yes }
+	ANG = { RegionalOrganizations_Add = yes }
+	EWE = { RegionalOrganizations_Add = yes }
+	SUS = { RegionalOrganizations_Add = yes }
+	MDI = { RegionalOrganizations_Add = yes }
+	LIB = { RegionalOrganizations_Add = yes }
+	GNB = { RegionalOrganizations_Add = yes }
+	WOL = { RegionalOrganizations_Add = yes }
+	NGA = { RegionalOrganizations_Add = yes }
+	NAM = { RegionalOrganizations_Add = yes }
+	SAF = { RegionalOrganizations_Add = yes }
+	BTS = { RegionalOrganizations_Add = yes }
+	MAD = { RegionalOrganizations_Add = yes }
+	BUR = { RegionalOrganizations_Add = yes }
+	AFG = { RegionalOrganizations_Add = yes }
+	THA = { RegionalOrganizations_Add = yes }
+	VIN = { RegionalOrganizations_Add = yes }
+	PHI = { RegionalOrganizations_Add = yes }
+	LAO = { RegionalOrganizations_Add = yes }
+	CAM = { RegionalOrganizations_Add = yes }
+	INS = { RegionalOrganizations_Add = yes }
+	AST = { RegionalOrganizations_Add = yes }
+	NZL = { RegionalOrganizations_Add = yes }
+	CUB = { RegionalOrganizations_Add = yes }
+	DOM = { RegionalOrganizations_Add = yes }
+	VEN = { RegionalOrganizations_Add = yes }
+	GUY = { RegionalOrganizations_Add = yes }
+	SUR = { RegionalOrganizations_Add = yes }
+	COL = { RegionalOrganizations_Add = yes }
+	ECU = { RegionalOrganizations_Add = yes }
+	PRU = { RegionalOrganizations_Add = yes }
+	BOL = { RegionalOrganizations_Add = yes }
+	CHL = { RegionalOrganizations_Add = yes }
+	URG = { RegionalOrganizations_Add = yes }
+	PAR = { RegionalOrganizations_Add = yes }
+	SYR = { RegionalOrganizations_Add = yes }
+	YEM = { RegionalOrganizations_Add = yes }
+	OMA = { RegionalOrganizations_Add = yes }
+	GUA = { RegionalOrganizations_Add = yes }
+	BLZ = { RegionalOrganizations_Add = yes }
+	HON = { RegionalOrganizations_Add = yes }
+	ELS = { RegionalOrganizations_Add = yes }
+	NIC = { RegionalOrganizations_Add = yes }
+	COS = { RegionalOrganizations_Add = yes }
+	PAN = { RegionalOrganizations_Add = yes }
+
+
+	
 	
 
 	## Italian Empire

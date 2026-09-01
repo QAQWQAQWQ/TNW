@@ -5,7 +5,7 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = MEN
+		owner = CHI
 		add_core_of = MEN
 		set_state_flag = GDP_regions_outer_mongolia
 		set_variable = { china_state_ref = 57 }

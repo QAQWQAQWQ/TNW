@@ -496,8 +496,6 @@ add_faction_goal_slot = { category = short_term  value = -10 }
 add_faction_goal_slot = { category = medium_term value = -10 }
 add_faction_goal_slot = { category = long_term   value = -10 }
 add_to_faction = GER
-add_to_faction = ENG
-add_to_faction = FRA
 add_to_faction = SLO
 add_to_faction = UKR
 add_to_faction = OST

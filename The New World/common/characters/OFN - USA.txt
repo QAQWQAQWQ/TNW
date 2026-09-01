@@ -1,5 +1,26 @@
 characters = {
 	# Country leaders #
+
+	USA_Elizabeth_Dole= {
+		name = USA_Elizabeth_Dole
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_Elizabeth_Dole.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WESLEY_CLARK_DESC"
+			expire = "1994.4.20"
+			ideology = conservatism_consensus_conservatism_subtype
+			traits = {
+			}
+			id = -1
+		}
+	}
+
+
+
+
 	USA_Strom_Thurmond= {
 		name = USA_Strom_Thurmond
 		portraits = {

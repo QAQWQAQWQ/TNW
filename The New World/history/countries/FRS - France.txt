@@ -34,7 +34,7 @@ add_manpower = 32000
 
 add_ideas = {
 	#FACTION
-	Pakt_French_community
+	
 	#Country
 	FRS_millennium
 	FRS_Party_strife

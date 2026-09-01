@@ -449,6 +449,7 @@ add_to_faction = EWE
 add_to_faction = ANG
 add_to_faction = NGA
 add_to_faction = CFS
+add_to_faction = ENG
 set_autonomy = {
 	target = WIN
 	autonomy_state = autonomy_client_state
@@ -458,7 +459,7 @@ set_research_slots = 4 #KD's Notes - 5 is excessive, you always end up researchi
 set_convoys = 500
 add_political_power = 99
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1960.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -491,6 +492,7 @@ set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
 
 # Country leaders
 recruit_character = USA_Strom_Thurmond
+recruit_character = USA_Elizabeth_Dole
 
 # Ministers
 

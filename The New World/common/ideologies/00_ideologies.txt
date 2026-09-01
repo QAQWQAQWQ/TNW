@@ -279,6 +279,9 @@ ideologies = {
 	conservatism = {
 		types = {
 			conservatism_subtype = {}
+			
+			conservatism_consensus_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_Onenation_conservatism_subtype = { can_be_randomly_selected = no }
 
 			conservatism_agrarianism_subtype = { can_be_randomly_selected = no }
 			conservatism_paternalistic_conservatism_subtype = { can_be_randomly_selected = no }

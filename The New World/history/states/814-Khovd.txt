@@ -7,7 +7,7 @@ state = {
 			barracks = 1
 			infrastructure = 2
 		}
-		owner = MEN
+		owner = CHI
 		add_core_of = MEN
 		victory_points = {
 			10539 5

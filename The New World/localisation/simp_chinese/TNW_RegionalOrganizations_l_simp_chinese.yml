@@ -13,6 +13,9 @@
  RegionalOrganization_Alignment_ProAmerica: "§M亲美§!"
  RegionalOrganization_Alignment_Unaligned: "§W不结盟§!"
 
+ RegionalOrganization_UN: "联合国"
+ RegionalOrganization_UN_colored: "§m$RegionalOrganization_UN$§!"
+ RegionalOrganization_UN_desc_0:  "£zollverein_texticon 随着瑞士的覆灭，国际联盟也真正意义上的灭亡，1948年，数十国代表齐聚美国旧金山，召开联合国国际组织会议，共同议定并通过了《联合国宪章》，与会各国代表郑重签署。同年，法国、英国、美国及其他多数签字国相继递交批准书，宪章随之生效，联合国遂告正式成立。\n\n而为发展国际间基于尊重各国人民平等权利与自决原则的友好关系，推动国际合作，以解决经济、社会、文化及人道主义诸般难题，并增进对全人类之人权与基本自由的普遍尊崇——为实现这些崇高宗旨，联合国确立了七项基本原则，其核心在于：各会员国主权平等；以和平方法化解争端；不得使用武力或武力威胁；联合国为维护国际和平与安全，在必要范围内可确保非会员国亦遵循上述准则；以及不得干涉本质上属于任何国家国内管辖之事项。"
 
  #|=====[ TYPES ]=====|#
  RegionalOrganization_Type_0: "国际组织"

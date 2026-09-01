@@ -35,6 +35,14 @@ ideas = {
 				remove_dynamic_modifier = { modifier = GER_EconSphere_EE_dynamic_modifier }
 			}
 		}
+		##TNW ICON##
+		RegionalOrganization_UN = { # United Nations
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_UN" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
+		####
 		RegionalOrganization_OAS = { # Organization of American States
 			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_OAS" }
 			allowed = { always = no }

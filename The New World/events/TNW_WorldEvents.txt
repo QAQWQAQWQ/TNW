@@ -19,6 +19,8 @@ news_event = {
 	}
 }
 
+
+
 #满洲国事件链#
 news_event = {
 	id = TNW_WORLD.2
@@ -92,6 +94,51 @@ news_event = {
 	option = {
 		name = TNW_WORLD.6.a
 		
+	}
+}
+
+news_event = {
+	id = TNW_WORLD.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.7" }
+	title = TNW_WORLD.7.t
+	desc = TNW_WORLD.7.d
+	picture = GFX_news_TNW_UnitedNations
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.7.a
+		custom_effect_tooltip = TNW_UN_TT
+	}
+}
+
+news_event = {
+	id = TNW_WORLD.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.8" }
+	title = TNW_WORLD.8.t
+	desc = TNW_WORLD.8.d
+	picture = GFX_news_TNW_Easing_of_Japan_US_relations
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.8.a
+		custom_effect_tooltip = TNW_Japan_US_relations_TT
+	}
+}
+
+news_event = {
+	id = TNW_WORLD.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_WORLD.9" }
+	title = TNW_WORLD.9.t
+	desc = TNW_WORLD.9.d
+	picture = GFX_news_TNW_Counter_terrorism_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_WORLD.9.a
+		custom_effect_tooltip = TNW_Counter_terrorism_conference_TT
 	}
 }
 

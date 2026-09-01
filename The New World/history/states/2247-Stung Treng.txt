@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = LAO
+		owner = THA
 		add_core_of = LAO
 		add_claim_by = CAM
 		buildings = {

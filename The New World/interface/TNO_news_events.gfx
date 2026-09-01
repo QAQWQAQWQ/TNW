@@ -23,6 +23,23 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event/SPA/TNW_basque_war.png"
 	}
 
+	##TNW##
+	spriteType = {
+		name = "GFX_news_TNW_UnitedNations"
+		texturefile = "gfx/event_pictures/news_event/TNW/TNW_UnitedNations.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_TNW_Easing_of_Japan_US_relations"
+		texturefile = "gfx/event_pictures/news_event/TNW/TNW_Easing_of_Japan_US_relations.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_TNW_Counter_terrorism_conference"
+		texturefile = "gfx/event_pictures/news_event/TNW/TNW_Counter_terrorism_conference.png"
+	}
+	####
+
 	###################
 	###   GENERIC   ###
 	###################
