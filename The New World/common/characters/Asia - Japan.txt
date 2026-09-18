@@ -10,12 +10,27 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KOICHI_KATO_DESC"
+			# 进步党 - 宏池会使用基础保守主义槽位。
 			ideology = conservatism_free_market_conservatism_subtype
 			traits = {  }
 			expire = "1989.1.1.1"
 			id = -1
 		}
 	}
+
+	JAP_EMPEROR_HEISEI = {
+		name = JAP_EMPEROR_HEISEI
+		portraits = {
+			civilian = {
+				large = " "
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_EMPEROR_HEISEI_DESC"
+			expire = "1994.4.20"
+		}
+	}
+
 	###############
 
 	JAP_Teiichi_Tanigaki = {
@@ -26,13 +41,7 @@ characters = {
 				small = "GFX_idea_JAP_minister_Teiichi_Tanigaki"
 			}
 		}
-		country_leader = {
-			desc = " "
-			ideology = fascism_corporate_statism_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
+		
 		advisor = {
 			slot = head_of_government
 			idea_token = JAP_Teiichi_Tanigaki_hog
@@ -53,13 +62,7 @@ characters = {
 				small = "GFX_idea_JAP_minister_Hayashi_sadayuki"
 			}
 		}
-		country_leader = {
-			desc = " "
-			ideology = progressivism_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
+		
 
 		advisor = {
 			slot = foreign_minister
@@ -81,13 +84,7 @@ characters = {
 				small = "GFX_idea_JAP_minister_Satori_Kozato"
 			}
 		}
-		country_leader = {
-			desc = " "
-			ideology = liberalism_national_liberal_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
+		
 
 		advisor = {
 			slot = economy_minister
@@ -110,13 +107,7 @@ characters = {
 				small = "GFX_idea_JAP_minister_Nobutaka_Machimura"
 			}
 		}
-		country_leader = {
-			desc = " "
-			ideology = despotism_corporatocracy_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
+		
 
 		advisor = {
 			slot = security_minister
@@ -132,6 +123,87 @@ characters = {
 	}
 
 
+	#####party leader##
+	# 进步党 - 经世会：民粹保守主义，小泽一郎（13%，conservatism_1 槽位）
+	JAP_Ichiro_Ozawa = {
+		name = JAP_Ichiro_Ozawa
+		country_leader = {
+			ideology = conservatism_1_subtype
+			traits = { }
+		}
+	}
+
+	# 进步党 - 清和会（主流）：管理型国家，小泉纯一郎（10%）
+	JAP_Junichiro_Koizumi = {
+		name = JAP_Junichiro_Koizumi
+		country_leader = {
+			ideology = despotism_managerial_state_subtype
+			traits = { }
+		}
+	}
+
+	# 进步党 - 清和会（反主流）：家长制发展主义，福田康夫（6.4%）
+	JAP_Yasuo_Fukuda = {
+		name = JAP_Yasuo_Fukuda
+		country_leader = {
+			ideology = paternalism_paternalistic_developmentalism_subtype
+			traits = { }
+		}
+	}
+
+	# 进步党 - 国家革新同志会：法团国家主义，石原慎太郎（5%）
+	JAP_Shintaro_Ishihara = {
+		name = JAP_Shintaro_Ishihara
+		country_leader = {
+			ideology = fascism_corporate_statism_subtype
+			traits = { }
+		}
+	}
+
+	# 协同党 - 春秋会：家长制保守主义，村上正邦（13.5%，conservatism_2 槽位）
+	JAP_Masakuni_Murakami = {
+		name = JAP_Masakuni_Murakami
+		country_leader = {
+			ideology = conservatism_2_subtype
+			traits = { }
+		}
+	}
+
+	# 协同党 - 政治改新实现会：友爱自由主义，鸠山由纪夫（9.5%）
+	JAP_Yukio_Hatoyama = {
+		name = JAP_Yukio_Hatoyama
+		country_leader = {
+			ideology = liberalism_Fraternal_Liberalism_subtype
+			traits = { }
+		}
+	}
+
+	# 协同党 - 政策研究会：中间派进步主义，高村正彦（7%）
+	JAP_Masahiko_Komura = {
+		name = JAP_Masahiko_Komura
+		country_leader = {
+			ideology = liberal_conservatism_centrist_progressivism_subtype
+			traits = { }
+		}
+	}
+
+	# 协同党 - 近未来政治研究会：护宪保守主义，山崎拓（5%，conservatism_3 槽位）
+	JAP_Taku_Yamasaki = {
+		name = JAP_Taku_Yamasaki
+		country_leader = {
+			ideology = conservatism_3_subtype
+			traits = { }
+		}
+	}
+
+	# 劳动大众党：进步主义，川端达夫（10%）
+	JAP_Tatsuo_Kawabata = {
+		name = JAP_Tatsuo_Kawabata
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = { }
+		}
+	}
 
 	
 }

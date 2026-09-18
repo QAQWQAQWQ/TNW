@@ -149,7 +149,6 @@ JAP_kaya_start_mechanic = {
 	set_variable = { JAP_kaya_total_ysk_influence = 0 } #Total YSK influence
 	set_variable = { JAP_kaya_kishi_rb_influence = 0.35 } #Determines how much of RB popularity on the wheel goes to Kishi.
 	JAP_kaya_calculate_clique_influences = yes #Figure out clique influences
-	JAP_diet_pop_wheel_translator = yes
 
 	#activate_mission = JAP_kaya_hardliner_demands
 }
@@ -339,7 +338,6 @@ JAP_kaya_increase_kishi_influence_low = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_kaya_increase_kishi_influence_medium = {
@@ -351,7 +349,6 @@ JAP_kaya_increase_kishi_influence_medium = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_kaya_increase_kishi_influence_large = {
@@ -363,7 +360,6 @@ JAP_kaya_increase_kishi_influence_large = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_kaya_decrease_kishi_influence_low = {
@@ -375,7 +371,6 @@ JAP_kaya_decrease_kishi_influence_low = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_kaya_decrease_kishi_influence_medium = {
@@ -387,7 +382,6 @@ JAP_kaya_decrease_kishi_influence_medium = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_kaya_decrease_kishi_influence_large = {
@@ -399,7 +393,6 @@ JAP_kaya_decrease_kishi_influence_large = {
 		max = 1
 	}
 	JAP_kaya_calculate_influence = yes
-	JAP_diet_pop_wheel_translator = yes
 }
 
 ###IKEDA MECHANIC: BROAD SIMILARITY WITH THE KAYA MECHANIC ABOVE###

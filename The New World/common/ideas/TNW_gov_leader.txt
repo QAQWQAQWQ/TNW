@@ -2,5 +2,6 @@ ideas = {
     hidden_ideas = {
         SER_Andrew_I = {}
         ITA_Vittorio_Emanuele_IV = {}
+        THA_king_Rama_IX = {}
     }
 }

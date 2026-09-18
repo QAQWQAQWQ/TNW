@@ -449,6 +449,7 @@ IRB = "countries/Middle East.txt"				# Baluchi Liberation Front - Iranian CW
 IRA = "countries/Middle East.txt"				# Iranian Socialists - Iranian CW
 
 AFG = "countries/Middle East.txt"				# Afghanistan
+AJD = "countries/Middle East.txt"               # Afghan mujahideen
 PAK = "countries/Middle East.txt"				# Northwest Frontier Provinces/Pakistan
 KLT = "countries/Middle East.txt"				# Kalat
 

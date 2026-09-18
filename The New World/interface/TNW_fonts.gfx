@@ -13,12 +13,12 @@ bitmapfonts = {
 		textcolors = {
 			### Default Colors ###
 			F = { 178 201 194 } # New default
-			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			L = { 0 0 0 } # Black
 			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
 			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
 
 			### Base Colors ###
-			W = { 255 255 255 } # White
+			W = { 0 0 0 } # Black
 			B = { 47 138 135 }  # Blue
 			G = { 133 234 142 } # Green
 			R = { 224 130 130 } # Red
@@ -815,16 +815,16 @@ bitmapfonts = {
 			"gfx/fonts/Arial_18_1"
 			"gfx/fonts/aldrich_22_outline"
 		}
-		color = 0xFFFFFFFF
+		color = 0xFF000000
 		textcolors = {
 			### Default Colors ###
 			F = { 178 201 194 } # New default
-			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			L = { 0 0 0 } # Black
 			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
 			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
 
 			### Base Colors ###
-			W = { 255 255 255 } # White
+			W = { 0 0 0 } # Black
 			B = { 47 138 135 }  # Blue
 			G = { 133 234 142 } # Green
 			R = { 224 130 130 } # Red
@@ -1153,18 +1153,18 @@ bitmapfonts = {
 		textcolors = {
 			### Default Colors ###
 			F = { 178 201 194 } # New default
-			L = { 195 176 145 } # Tan (default for certain areas like bios)
+			L = { 0 0 0 } # Black
 			D = { 89 199 194 }  # Default CRT blue color (Baby Blue)
 			M = { 35 206 255 }  # Light Neon Blue (old CRT default)
 
 			### Base Colors ###
-			W = { 255 255 255 } # White
+			W = { 0 0 0 } # Black
 			B = { 47 138 135 }  # Blue
-			G = { 133 234 142 } # Green
+			G = { 0 140 0 } # Green
 			R = { 224 130 130 } # Red
 			g = { 176 176 176 } # Gray
-			Y = { 220 218 80 }  # Yellow
-			H = { 220 218 80 }  # Duplicate yellow from basegame
+			Y = { 0 0 0 }  # Yellow
+			H = { 0 0 0 }  # Duplicate yellow from basegame
 			O = { 234 161 14 }  # Orange
 			C = { 253 100 144 } # Hot Pink
 			P = { 169 27 79 }   # Pink

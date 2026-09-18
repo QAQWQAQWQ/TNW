@@ -3,25 +3,22 @@ capital = 289
 #GDP Regional distribution
 set_country_flag = GDP_regions
 
+
+
 # Vacant
-recruit_character = THA_anupong_paochinda
+recruit_character = THA_Chawalit_Yongchaiyut
 
-
+set_country_flag = tnw_government_leaders_enabled
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = paternalism
 	last_election = "1960.11.11"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	progressivism = 1
-	liberal_conservatism = 3
-	paternalism = 6
-	despotism = 65
-	fascism = 15
-	national_socialism = 10
+	paternalism = 100
 }
 
 oob = "THA_1962"
@@ -163,6 +160,7 @@ add_ideas = {
 	#STARTING
 	Sphere_Coequal
 	#MINISTERS
+	THA_king_Rama_IX
 
 	#POLITICAL
 	tno_political_parties_one_party_state

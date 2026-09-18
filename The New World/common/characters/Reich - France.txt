@@ -1,101 +1,19 @@
 characters = {
 	## STARTING LEADER ##
 
-	FRA_Andre_Bettencourt = {
-		name = FRA_Andre_Bettencourt
-		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Andre_Bettencourt.png" } }
+	FRA_Jose_Bove = {
+		name = FRA_Jose_Bove
+		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Jose_Bove.png" } }
 		country_leader = {
-			desc = "POLITICS_ANDRE_BETTENCOURT_DESC"
-			ideology = paternalism_Institutionalized_authoritarianism_subtype
-			traits = { An_aged_old_man  }
+			desc = "POLITICS_JOSE_BOVE_DESC"
+			ideology = socialist_agrarian_socialism_subtype
+			traits = {   }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 	}
 
-	FRA_Bruno_Megret = {
-		name = FRA_Bruno_Megret
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = fascism_fascist_populism_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Gerard_Longuet = {
-		name = FRA_Gerard_Longuet
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = paternalism_1_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Pierre_Mehaignerie = {
-		name = FRA_Pierre_Mehaignerie
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = liberal_conservatism_big_tent_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Bernard_Kouchner = {
-		name = FRA_Bernard_Kouchner
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = progressivism_left_wing_populism_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Michel_Crozier = {
-		name = FRA_Michel_Crozier
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = fascism_1_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Jean_Lamale = {
-		name = FRA_Jean_Lamale
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = paternalism_2_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
-
-	FRA_Didier_Bariani = {
-		name = FRA_Didier_Bariani
-		portraits = { civilian = { large =  } }
-		country_leader = {
-			desc = ""
-			ideology = conservatism_populist_conservatism_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-	}
+	
 
 
 

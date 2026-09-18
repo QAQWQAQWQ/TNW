@@ -13,69 +13,28 @@ ideas = {
 			removal_cost = -1
 			picture = "GFX_idea_JAP_emperor_akihito"
 			modifier = {
-				
+				stability_factor = 0.15
+			}
+		}
 
-				
+		JAP_Fair_without_but_foul_within = {#金玉其外
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = "GFX_idea_JAP_Fair_without_but_foul_within"
+			modifier = {
+				custom_modifier_tooltip= JAP_Democracy_in_the_Empire_of_Japan_tt
 			}
 		}
 
 		
 
-		
-
-		JAP_military_spirit = {#军魂
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_JAP_military_spirit
-			modifier = {
-				
-
-				
-			}
-		}
-
-		JAP_factional_infighting = {#派阀倾轧
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_JAP_factional_infighting
-			modifier = {
-				
-
-				
-			}
-		}
-
-		JAP_reform_bureaucracy_and_political_power = {#革新、官僚与政权
-			allowed = {
-				original_tag = JAP
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_JAP_reform_bureaucracy_and_political_power
-			modifier = {
-				
-
-				
-			}
-		}
 
 		JAP_party_officials_collaboration = {#党吏协同
 			allowed = {
@@ -89,9 +48,11 @@ ideas = {
 			removal_cost = -1
 			picture = GFX_idea_JAP_party_officials_collaboration
 			modifier = {
-				
-
-				
+				political_power_factor = 0.15
+				mobilization_speed = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				gdp_growth_modifier = 0.3
+				misc_income_modifier = 0.06
 			}
 		}
 

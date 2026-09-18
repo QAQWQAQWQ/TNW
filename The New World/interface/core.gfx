@@ -829,8 +829,8 @@ bitmapfonts = {
 	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!"
 	textcolors = {
 		M = { 35 206 255 }
-		L = { 195 176 145 }
-		W = { 255 255 255 }
+		L = { 0 0 0 }
+		W = { 0 0 0 }
 		B = { 0 0 255 }
 		G = { 0 159 3 }
 		R = { 255 50 50 }
@@ -838,25 +838,49 @@ bitmapfonts = {
 		g = { 176 176 176 }
 		Y = { 255 189 0 }
 		H = { 255 189 0 }
-		T = { 255 255 255 }
+		T = { 0 0 0 }
 		8 = { 204 163 51 }
 	}
 
 
 	bitmapfont = {
 		name = "ToolTip_Font"
-		path = "gfx/fonts/garamond_16"
-		color = 0xffffffff
-
-
+		path = "gfx/fonts/fzwhjz_18"
+		color = 0xff000000
+		textcolors = {
+			M = { 0 0 0 }
+			L = { 0 0 0 }
+			W = { 0 0 0 }
+			B = { 0 0 0 }
+			G = { 0 0 0 }
+			R = { 0 0 0 }
+			b = { 0 0 0 }
+			g = { 0 0 0 }
+			Y = { 0 0 0 }
+			H = { 0 0 0 }
+			T = { 0 0 0 }
+			8 = { 0 0 0 }
+		}
 	}
 
 	bitmapfont = {
 		name = "ToolTip_Font_Big"
-		path = "gfx/fonts/garamond_16_bold"
-		color = 0xffffffff
-
-
+		path = "gfx/fonts/fzwhjz_18"
+		color = 0xff000000
+		textcolors = {
+			M = { 0 0 0 }
+			L = { 0 0 0 }
+			W = { 0 0 0 }
+			B = { 0 0 0 }
+			G = { 0 0 0 }
+			R = { 0 0 0 }
+			b = { 0 0 0 }
+			g = { 0 0 0 }
+			Y = { 0 0 0 }
+			H = { 0 0 0 }
+			T = { 0 0 0 }
+			8 = { 0 0 0 }
+		}
 	}
 
 	bitmapfont = {

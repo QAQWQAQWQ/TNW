@@ -258,6 +258,10 @@ defined_text = {
 		localization_key = liberalism_classical_liberalism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = liberalism_Fraternal_Liberalism_subtype }
+		localization_key = liberalism_Fraternal_Liberalism_subtype
+	}
+	text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = liberalism_dynastic_liberalism_lbj_subtype

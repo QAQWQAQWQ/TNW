@@ -1467,6 +1467,10 @@ AFG = {
 	color = rgb { 62 92 85 }
 	color_ui = rgb { 62 92 85 }
 }
+AJD = {
+	color = rgb { 114 127 126 }
+	color_ui = rgb { 114 127 126 }
+}
 KLT = {
 	color = rgb { 90 99 99 }
 	color_ui = rgb { 90 99 99 }

@@ -2480,6 +2480,11 @@ SpriteTypes = {
 		name = "GFX_idea_JAP_house_of_peers"
 		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_house_of_peers.png"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_JAP_Fair_without_but_foul_within"
+		texturefile = "gfx/interface/ideas/national_spirits/Asia/JAP/idea_JAP_Fair_without_but_foul_within.png"
+	}
 	
 
 	## Manchukuo ##

@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
- RegionalOrganization_Icon_tt: "§F[THIS.GetName]是[TNO_RegionalOrganization_GetNameColored]成员国.\n--------------\n-阵营领袖:§Y[TNO_RegionalOrganization_GetLeader]§!\n-阵营:[TNO_RegionalOrganization_GetAlignment]\n-类型:§g[TNO_RegionalOrganization_GetType]§!\n-成员数量:[?global.RegionalOrganization_Members@var:reg_org^num|0L][TNO_RegionalOrganization_GetGDP][TNO_RegionalOrganization_GetModifiers]§!"
- RegionalOrganization_Icon_tt_delayed: "§L[TNO_RegionalOrganization_GetDesc]§!"
+ RegionalOrganization_Icon_tt: "§W[THIS.GetName]是[TNO_RegionalOrganization_GetNameColored]成员国.\n--------------\n-阵营领袖:§W[TNO_RegionalOrganization_GetLeader]§!\n-阵营:[TNO_RegionalOrganization_GetAlignment]\n-类型:§W[TNO_RegionalOrganization_GetType]§!\n-成员数量:[?global.RegionalOrganization_Members@var:reg_org^num|0L][TNO_RegionalOrganization_GetGDP][TNO_RegionalOrganization_GetModifiers]§!"
+ RegionalOrganization_Icon_tt_delayed: "§W[TNO_RegionalOrganization_GetDesc]§!"
  RegionalOrganization_Icon_tt_GDP: "\n-综合GDP:§G[?global.RegionalOrganization_TotalGDP@var:reg_org]B§!"
- RegionalOrganization_Icon_tt_modifiers: "\n--------------\n§Y效果:§!§F[TNO_RegionalOrganization_GetModifiersEntry]§!"
+ RegionalOrganization_Icon_tt_modifiers: "\n--------------\n§Y效果:§!§W[TNO_RegionalOrganization_GetModifiersEntry]§!"
 
  RegionalOrganization_EU: "欧洲联盟"
  RegionalOrganization_EU_colored:  "§Q$RegionalOrganization_EU$§!"

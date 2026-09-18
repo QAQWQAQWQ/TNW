@@ -16,6 +16,16 @@ defined_text = {
 		localization_key = POLITICS_EMANUELE_IV_DESC
 	}
 
+	text = {
+		trigger = { 		    
+			original_tag = THA
+			has_idea = THA_king_Rama_IX
+		}
+		localization_key = POLITICS_RAMA_IX_DESC
+	}
+
+	
+
 }
 
 defined_text = {
@@ -35,6 +45,16 @@ defined_text = {
 		}
 		localization_key = ITA_government_leaders_tt
 	}
+
+	text = {
+		trigger = { 		    
+			original_tag = THA
+			has_idea = THA_king_Rama_IX
+		}
+		localization_key = THA_government_leaders_tt
+	}
+
+	
 
 }
 

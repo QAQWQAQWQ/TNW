@@ -14,4 +14,36 @@ characters = {
 			id = -1
 		}
 	}
+
+	THA_Chawalit_Yongchaiyut = {
+		name = THA_Chawalit_Yongchaiyut
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/THA/Portrait_THA_Chawalit_Yongchaiyut.png" 
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CHAWALIT_YONGCHAIYUT_DESC"
+			ideology = paternalism_oligarchy_subtype
+			traits = {}
+			expire = "1999.12.12"
+			id = -1
+		}
+	}
+
+	THA_Rama_IX = {
+		name = THA_Rama_IX
+		portraits = {
+			civilian = { 
+				large = " " 
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RAMA_IX_DESC"
+			ideology = paternalism_oligarchy_subtype
+			traits = {}
+			expire = "1999.12.12"
+			id = -1
+		}
+	}
 }

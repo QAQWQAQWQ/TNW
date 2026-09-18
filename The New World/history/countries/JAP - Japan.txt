@@ -13,6 +13,16 @@ recruit_character = JAP_Teiichi_Tanigaki
 recruit_character = JAP_Nobutaka_Machimura
 recruit_character = JAP_Satori_Kozato
 recruit_character = JAP_Hayashi_sadayuki
+# 十个开局党派的领袖
+recruit_character = JAP_Ichiro_Ozawa
+recruit_character = JAP_Junichiro_Koizumi
+recruit_character = JAP_Yasuo_Fukuda
+recruit_character = JAP_Shintaro_Ishihara
+recruit_character = JAP_Masakuni_Murakami
+recruit_character = JAP_Yukio_Hatoyama
+recruit_character = JAP_Masahiko_Komura
+recruit_character = JAP_Taku_Yamasaki
+recruit_character = JAP_Tatsuo_Kawabata
 # Ministers
 
 
@@ -440,26 +450,27 @@ JAP = { #doesn't work without putting this here, move to on_startup?
 
 set_politics = {
 	ruling_party = conservatism
-	last_election = "1962.1.1"
+	last_election = "1995.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 15
 	communist = 0
 	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 100
-	paternalism = 0
-	despotism = 0
-	liberal_conservatism = 0
+	progressivism = 10
+	liberalism = 9.5
+	conservatism = 20.6
+	conservatism_1 = 13
+	conservatism_2 = 13.5
+	conservatism_3 = 5
+	paternalism = 6.4
+	despotism = 10
+	liberal_conservatism = 7
+	fascism = 5
 	national_socialism = 0
 	ultranationalism = 0
-	
 }
-
 create_faction = Japanese_Co-Prosperity_Sphere
 add_to_faction = JAP
 add_to_faction = CHI
@@ -496,12 +507,11 @@ set_variable = {
 
 add_ideas = {
 	#Standard#
-	Sphere_Leader
 	JAP_Emperor_Heisei
+	Sphere_Leader
 	JAP_emperor_akihito
-	JAP_factional_infighting
-	JAP_reform_bureaucracy_and_political_power
 	JAP_party_officials_collaboration
+	JAP_Fair_without_but_foul_within
 	JAP_house_of_peers
 	JAP_house_of_representatives
 	#JAP_korea_tunnel_#construction

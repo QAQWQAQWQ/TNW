@@ -118,6 +118,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_THA_king_Rama_IX"
+		texturefile = "gfx/texticons/tnwgovleader/THA/THA_king_Rama_IX.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_ITA_Emperor_Vittorio_Emanuele"
 		texturefile = "gfx/texticons/tnwgovleader/ITA/ITA_Emperor_Vittorio_Emanuele.png"
 		legacy_lazy_load = no

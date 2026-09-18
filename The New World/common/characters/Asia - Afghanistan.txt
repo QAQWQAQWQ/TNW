@@ -1,13 +1,27 @@
 characters = {
-	AFG_Ahmad_Zia_Massoud = {
-		name = AFG_Ahmad_Zia_Massoud
+	AFG_Mohammad_Najibullah = {
+		name = AFG_Mohammad_Najibullah
 		portraits = {
-			civilian = { large = "gfx/leaders/AFG/Portarit_Afghan_Ahmad_Zia_Massoud.png" }
+			civilian = { large = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammad_Najibullah.png" }
 		}
 		country_leader = {
 			#desc = "POLITICS_AHMAD_ZIA_MASSOUD_DESC"
 			expire = "1999.1.1"
-			ideology = liberal_conservatism_islamic_modernism_subtype
+			ideology = socialist_left_wing_nationalism_subtype
+			traits = {}
+			id = -1
+		}
+	}
+
+	AJD_Gulbuddin_Hekmatyar = {
+		name = AJD_Gulbuddin_Hekmatyar
+		portraits = {
+			civilian = { large = "gfx/leaders/AJD/Portrait_Mujahideen_Gulbuddin_Hekmatyar.png" }
+		}
+		country_leader = {
+			#desc = "POLITICS_AHMAD_ZIA_MASSOUD_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_islamic_nationalism_subtype
 			traits = {}
 			id = -1
 		}

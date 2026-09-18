@@ -1095,7 +1095,6 @@ JAP_Tension_decrease_big = {
 # Pulses #
 ##########
 JAP_diet_monthly_pulse = {
-	JAP_diet_pop_wheel_translator = yes
 	JAP_HoP_monthly_pulse = yes
 	JAP_IJAIJN_check_balance = yes
 	JAP_diet_check_plurality = yes
@@ -2629,7 +2628,6 @@ JAP_diet_factions_power_updater = {
 	#	JAP_kaya_calculate_clique_influences = yes
 	#}
 
-	JAP_diet_pop_wheel_translator = yes
 }
 
 JAP_diet_factions_power_equalizer = {
