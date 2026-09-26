@@ -1431,4 +1431,6 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_sh_battleship_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_sh_battleship_inverted.dds" }
 	spriteType = { name = "GFX_unit_submarine_icon_medium_black"						texturefile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
 	spriteType = { name = "GFX_unit_convoy_icon_medium_black"							texturefile = "gfx/interface/counters/ships_small/onmap_transport_inverted.dds" }
+
+	spriteType = { name = "GFX_unit_super_heavy_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_armor_icon.dds" noOfFrames = 2 }
 }
