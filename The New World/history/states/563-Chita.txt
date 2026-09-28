@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = MAG
+		owner = RDS
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -19,7 +19,7 @@ state = {
 			barracks = 1
 		}
 		add_extra_state_shared_building_slots = 2
-		add_core_of = CHT
+		add_core_of = RDS
 		victory_points = {
 			12641 10
 		}

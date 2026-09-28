@@ -6,7 +6,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = MCW
+		owner = VYA
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -18,7 +18,7 @@ state = { #Population Done
 		}
 		victory_points = { 6124 15 }
 		victory_points = { 272 5 }
-		add_core_of = VYT
+		add_core_of = VYA
 		set_state_flag = universal_renamings
 	}
 

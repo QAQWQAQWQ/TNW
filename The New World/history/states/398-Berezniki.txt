@@ -8,7 +8,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = MCW
+		owner = VYA
 		buildings = {
 			schools = 1
 			offices = 1
@@ -20,7 +20,7 @@ state = { #Population Done
 		add_extra_state_shared_building_slots = 1
 		victory_points = { 12187 3 }
 		victory_points = { 12527 5 }
-		add_core_of = GAY
+		add_core_of = VYA
 	}
 
 	provinces = {

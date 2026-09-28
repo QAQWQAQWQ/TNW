@@ -27,7 +27,7 @@ add_manpower = 12000
 set_research_slots = 3
 
 ###Leaders
-recruit_character = KOM_Mikhail_Kalashnikov
+recruit_character = KOM_Rostislav_Borisovich
 
 ###Ministers
 
@@ -42,10 +42,7 @@ add_ideas = {
 	#standard#
 	
 	#ministers#
-	KOM_Mikhail_Rodionov_hog
-	KOM_Vyacheslav_Malyshev_for
-	KOM_Yegor_Ligachev_sec
-	KOM_Leonid_Kantorovich_eco
+	
 	#political#
 	tno_political_parties_multiparty_system
 	tno_religious_rights_secularism

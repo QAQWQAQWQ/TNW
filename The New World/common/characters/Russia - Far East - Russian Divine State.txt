@@ -1,0 +1,20 @@
+characters = {
+	## Leaders and Ministers ##
+	
+	RDS_Archimandrite_KirillPavlov = {
+		name = RDS_Archimandrite_KirillPavlov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RDS/Portrait_RDS_Archimandrite_KirillPavlov.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RDS_ARCHIMANDRITE_KIRILLPAVLOV_DESC"
+			expire = "2020.1.1"
+			ideology = despotism_theocracy_subtype
+			traits = {  }
+			id = -1
+		}
+	}
+	
+}

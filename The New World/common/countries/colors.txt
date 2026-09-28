@@ -199,14 +199,14 @@ FHH = {
 
 ## Reich - Eastern Europe ##
 
-GGN = {
-	color = rgb { 68 68 69 }
-	color_ui = rgb { 68 68 69 }
-}
-POL = {
-	color = rgb { 119 70 85 }
-	color_ui = rgb { 119 70 85 }
-}
+##GGN = {
+#	color = rgb { 68 68 69 }
+#	color_ui = rgb { 68 68 69 }
+#}
+#POL = {
+	#color = rgb { 119 70 85 }
+	#color_ui = rgb { 119 70 85 }
+#}
 SLO = {
 	color = rgb { 99 103 114 }
 	color_ui = rgb { 99 103 114 }
@@ -219,14 +219,14 @@ ROM = {
 	color = rgb { 232 198 111 }
 	color_ui = rgb { 232 198 111 }
 }
-TNS = {
-	color = rgb { 223 190 103 }
-	color_ui = rgb { 223 190 103 }
-}
-CRI = {
-	color = rgb { 65 100 42 }
-	color_ui = rgb { 65 100 42 }
-}
+#TNS = {
+	#color = rgb { 223 190 103 }
+	#color_ui = rgb { 223 190 103 }
+#}
+#CRI = {
+#	color = rgb { 65 100 42 }
+#	color_ui = rgb { 65 100 42 }
+#}
 SRT = {
 	color = rgb { 202 52 51 }
 	color_ui = rgb { 173 122 118 }
@@ -650,10 +650,10 @@ XIN = {
 	color = rgb { 95 142 156 }
 	color_ui = rgb { 95 142 156 }
 }
-ETR = {
-	color = rgb { 105 128 137 }
-	color_ui = rgb { 105 128 137 }
-}
+##ETR = {
+#	color = rgb { 105 128 137 }
+#	color_ui = rgb { 105 128 137 }
+#}
 UYG = {
 	color = rgb { 124 176 167 }
 	color_ui = rgb { 124 176 167 }
@@ -731,10 +731,10 @@ BHU = {
 	color = rgb { 194 151 77 }
 	color_ui = rgb { 194 151 77 }
 }
-SIK = {
-	color = rgb { 148 160 61 }
-	color_ui = rgb { 148 160 61 }
-}
+#SIK = {
+	#color = rgb { 148 160 61 }
+	#color_ui = rgb { 148 160 61 }
+#}
 CYL = {
 	color = rgb { 87 8 37 }
 	color_ui = rgb { 87 8 37 }
@@ -809,8 +809,43 @@ TOM = {
 	color_ui = rgb { 84 114 69 }
 }
 MAG = {
-	color = rgb { 202 198 178 }
-	color_ui = rgb { 202 198 178 }
+	color = rgb { 153 179 196 }
+	color_ui = rgb { 153 179 196 }
+}
+
+SPU = {
+	color = rgb { 158 125 72 }
+	color_ui = rgb { 158 125 72 }
+}
+
+ARR = {
+	color = rgb { 137 120 61 }
+	color_ui = rgb { 137 120 61 }
+}
+
+VYA = {
+	color = rgb { 65 100 42 }
+	color_ui = rgb { 65 100 42 }
+}
+
+NPS = {
+	color = rgb { 119 70 85 }
+	color_ui = rgb { 119 70 85 }
+}
+
+ULF = {
+	color = rgb { 193 196 151 }
+	color_ui = rgb { 193 196 151 }
+}
+
+SFR = {
+	color = rgb { 170 40 60 }
+	color_ui = rgb { 170 40 60 }
+}
+
+RDS = { 
+	color = rgb { 190 180 140 }
+	color_ui = rgb { 190 180 140 }
 }
 
 ## Kazakhstan ##
@@ -819,33 +854,33 @@ KAZ = {
 	color = rgb { 40 97 145 }
 	color_ui = rgb { 40 97 145 }
 }
-KZR = {
-	color = rgb { 84 100 69 }
-	color_ui = rgb { 84 114 69 }
-}
+#KZR = {
+	#color = rgb { 84 100 69 }
+	#color_ui = rgb { 84 114 69 }
+#}
 
 ## Central Asia ##
 
-KRK = {
-	color = rgb { 216 43 64 }
-	color_ui = rgb { 216 17 31 }
-}
-KYR = {
-	color = rgb { 220 60 60 }
-	color_ui = rgb { 220 60 60 }
-}
-TAJ = {
-	color = rgb { 80 20 20 }
-	color_ui = rgb { 80 20 20 }
-}
-TRK = {
-	color = rgb { 142 44 35 }
-	color_ui = rgb { 142 44 35 }
-}
-UZB = {
-	color = rgb { 155 43 64 }
-	color_ui = rgb { 173 17 31 }
-}
+#KRK = {
+	#color = rgb { 216 43 64 }
+	#color_ui = rgb { 216 17 31 }
+#}
+#KYR = {
+	#color = rgb { 220 60 60 }
+	#color_ui = rgb { 220 60 60 }
+#}
+#TAJ = {
+	#color = rgb { 80 20 20 }
+	#color_ui = rgb { 80 20 20 }
+#}
+#TRK = {
+	#color = rgb { 142 44 35 }
+	#color_ui = rgb { 142 44 35 }
+#}
+#UZB = {
+	#color = rgb { 155 43 64 }
+	#color_ui = rgb { 173 17 31 }
+#}
 UTL = {
 	color = rgb { 57 83 99 }
 	color_ui = rgb { 57 83 99 }

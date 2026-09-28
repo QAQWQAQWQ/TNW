@@ -16,7 +16,7 @@ state = { #Population Done
 		}
 		victory_points = { 12621 10 }
 		set_state_flag = GDP_category_town
-		add_core_of = SBA
+		add_core_of = TOM
 	}
 	provinces = {
 		4690 4818 4853 7744 12563 12621 12628 12691

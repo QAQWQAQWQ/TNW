@@ -8,8 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = KAZ
-		add_core_of = KAZ
+		owner = SFR
+		add_core_of = SSF
 		buildings = {
 			infrastructure = 4
 			barracks = 1

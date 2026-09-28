@@ -6,14 +6,14 @@ state = {
 	}
 
 	history = {
-		owner = MCW
+		owner = SPU
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			11377 5
 		}
-		add_core_of = SAM
+		add_core_of = SPU
 	}
 
 	provinces = {

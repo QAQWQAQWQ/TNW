@@ -1,0 +1,17 @@
+### God help me, I'm on my grindset again.
+
+characters = {
+	
+
+	ARR_Alexey_Dobrovolsky = {
+		name = ARR_Alexey_Dobrovolsky
+		portraits = { civilian = 
+		{ large = "gfx/leaders/ARR/Portrait_ARR_Alexey_Dobrovolsky.png" } }
+		country_leader = {
+			#desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
+			expire = "2007.1.1.1"
+			ideology = national_socialism_naturalised_nazism_subtype
+			id = -1
+		}
+	}
+	}

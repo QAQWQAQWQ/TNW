@@ -3,14 +3,14 @@ state = {
 	name = "STATE_2194"
 
 	history = {
-		owner = UTL
+		owner = NPS
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			12454 1
 		}
-		add_core_of = KRK
+		add_core_of = NPS
 		set_state_flag = universal_renamings
 	}
 

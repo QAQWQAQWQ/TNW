@@ -1,0 +1,17 @@
+### God help me, I'm on my grindset again.
+
+characters = {
+	
+
+	ULF_Mikhail_Kalashnikov = {
+		name = ULF_Mikhail_Kalashnikov
+		portraits = { civilian = 
+		{ large = "gfx/leaders/ULF/Portrait_ural_Mikhail_Kalashnikov.png" } }
+		country_leader = {
+			#desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
+			expire = "2007.1.1.1"
+			ideology = paternalism_oligarchy_subtype
+			id = -1
+		}
+	}
+	}

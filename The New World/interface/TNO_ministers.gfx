@@ -4650,4 +4650,8 @@ spriteTypes = {
 		name = "GFX_idea_SWE_Lars_Engqvist"
 		texturefile = "gfx/interface/ideas/ministers/SWE/GFX_idea_SWE_Lars_Engqvist.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GER_Rudolf_Jordan"
+		texturefile = "gfx/interface/ideas/ministers/GER/GER_minister_Rudolf_Jordan.dds"
+	}
 }

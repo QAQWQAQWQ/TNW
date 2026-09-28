@@ -1,0 +1,18 @@
+characters = {
+	# Country leader #
+	SFR_Richard_Kosolapov = {
+		name = SFR_Richard_Kosolapov
+		portraits = {
+			civilian = { large = "gfx/leaders/SFR/Portrait_SFR_Richard_Kosolapov.png" }
+		}
+		country_leader = {
+			#desc = "POLITICS_VLADIMIR_YAKUNIN_DESC"
+			expire = "1999.1.1"
+			ideology = communist_marxism_leninism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+	
+
+}

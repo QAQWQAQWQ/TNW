@@ -8,7 +8,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = MCW
+		owner = VYA
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -20,7 +20,7 @@ state = { #Population Done
 		victory_points = { 6323 5 }
 		victory_points = { 7359 1 }
 		set_state_flag = GDP_category_large_town
-		add_core_of = VYT
+		add_core_of = VYA
 	}
 
 	provinces = {

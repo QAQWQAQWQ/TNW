@@ -159,4 +159,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_DLC_trial_of_allegiance.dds"
 	}
 
+		spriteType = {
+			name = "GFX_background_icon"
+			texturefile = "gfx/interface/icon_background.dds"
+		}
 }

@@ -1,4 +1,4 @@
-capital = 249
+capital = 847
 
 # Vacant
 recruit_character = TAR_Generic_Vacant
@@ -10,51 +10,27 @@ set_country_flag = is_russian_nation
 oob = "TAR_1962"
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = ultranationalism
 	last_election = "1961.2.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	national_socialism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 10
-
-	conservatism = 20
-	paternalism = 70
-	despotism = 0
-	fascism = 0
+	ultranationalism = 100
 	
 }
 
 # Leaders
-recruit_character = TAR_Abdulla_Alis
-recruit_character = TAR_Ibragim_Mingazeyev
+recruit_character = TAR_Fauziya_Bayramova
 
 # Ministers
-recruit_character = TAR_Abdurrakhman_Absalyamov # HoG
-recruit_character = TAR_Rostam_Yaxin # ForMin
-recruit_character = TAR_Gabbas_Gimatdinov # EconMin
-recruit_character = TAR_Mansur_Abdullin # SecMin and General
-
-# Commanders
-recruit_character = TAR_Farakh_Kamaldinov # Field Marshal
 
 add_ideas = {
 	### STANDARD ###
-	RUS_warlord_manpower
-	RUS_warlord_econ
-	RUS_terror_bombing
-	TAR_free_tatars
+	
 	### MINISTERS ###
-	TAR_Abdurrakhman_Absalyamov_hog
-	TAR_Rostam_Yaxin_for
-	TAR_Gabbas_Gimatdinov_eco
-	TAR_Mansur_Abdullin_sec
+	
 	### POLITICAL ###
 	tno_political_parties_controlled_opposition
 	tno_religious_rights_secularism

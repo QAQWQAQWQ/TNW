@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = KAZ
+		owner = UTL
 		buildings = {
 			infrastructure = 3
 			prisons = 1

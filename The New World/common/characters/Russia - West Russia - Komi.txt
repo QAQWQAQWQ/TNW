@@ -3,14 +3,14 @@
 characters = {
 	
 
-	KOM_Mikhail_Kalashnikov = {
-		name = KOM_Mikhail_Kalashnikov
+	KOM_Rostislav_Borisovich = {
+		name = KOM_Rostislav_Borisovich
 		portraits = { civilian = 
-		{ large = "gfx/leaders/KOM/Portrait_komi_Mikhail_Kalashnikov.png" } }
+		{ large = "gfx/leaders/KOM/Portrait_komi_Rostislav_Borisovich.png" } }
 		country_leader = {
 			#desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
 			expire = "2007.1.1.1"
-			ideology = paternalism_oligarchy_subtype
+			ideology = paternalism_national_conservatism_subtype
 			id = -1
 		}
 	}

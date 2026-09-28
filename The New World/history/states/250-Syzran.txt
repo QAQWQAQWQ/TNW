@@ -3,7 +3,7 @@ state = {
 	name = "STATE_250"
 
 	history = {
-		owner = MCW
+		owner = SPU
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 1
@@ -15,7 +15,7 @@ state = {
 		victory_points = {
 			392 10
 		}
-		add_core_of = SAM
+		add_core_of = SPU
 		add_claim_by = MCW
 		set_state_flag = universal_renamings
 	}

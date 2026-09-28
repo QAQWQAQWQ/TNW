@@ -8,14 +8,14 @@ state = { #Population Done
 		4314 4802 11195 12175 12587
 	}
 	history = {
-		owner = MCW
+		owner = VYA
 		buildings = {
 			infrastructure = 2
 			barracks = 1
 		}
 		victory_points = { 12175 3 }
 		set_state_flag = GDP_category_rural
-		add_core_of = GAY
+		add_core_of = VYA
 	}
 	manpower = 31300
 	state_category = pastoral

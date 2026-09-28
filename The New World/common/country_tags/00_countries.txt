@@ -84,13 +84,13 @@ OER = "countries/Germany - Proper.txt"			# Militärisches Sondergericht des Reic
 FHH = "countries/Germany - Proper.txt"			# Deutsches Reich - Gehlen
 
 # /// Reich - Eastern Europe /// #
-GGN = "countries/Germany - Europe.txt"			# Generalgouvernement
-POL = "countries/East Europe - Former RK.txt"	# Poland
+#GGN = "countries/Germany - Europe.txt"			# Generalgouvernement
+#POL = "countries/East Europe - Former RK.txt"	# Poland
 SLO = "countries/East Europe - Pakt.txt"		# Slovakia
 HUN = "countries/East Europe - Pakt.txt"		# Hungary
 ROM = "countries/East Europe - Pakt.txt"		# Romania
-TNS = "countries/East Europe - Pakt.txt"		# Transnistria
-CRI = "countries/Germany - Proper.txt"			# Crimea Government
+#TNS = "countries/East Europe - Pakt.txt"		# Transnistria
+#CRI = "countries/Germany - Proper.txt"			# Crimea Government
 SRT = "countries/East Europe - Former RK.txt"	# Slave Revolt
 DFK = "countries/Germany - Europe.txt"			# Deutsches Freikorps - Slave Revolt Breakaway
 OKB = "countries/Germany - Europe.txt"			# Roenne's Mosk During Schörner's Revolt
@@ -209,7 +209,7 @@ XIK = "countries/China.txt"						# NRA 24th Army
 QIN = "countries/China.txt"						# NRA 40th Army Group
 NCC = "countries/China.txt"						# North China Political Council
 XIN = "countries/China.txt"						# Xinjiang
-ETR = "countries/China.txt"						# East Turkestan
+#ETR = "countries/China.txt"						# East Turkestan
 UYG = "countries/China.txt"						# Uyghuristan
 TIB = "countries/China.txt"						# Tibet
 AOM = "countries/China.txt"						# aomen
@@ -251,7 +251,7 @@ BHU = "countries/Asia - Sphere.txt"				# Bhutan
 CYL = "countries/Asia.txt"						# Ceylon
 IND = "countries/Asia.txt"						# India
 NEP = "countries/Asia.txt"						# Nepal
-SIK = "countries/Asia.txt"						# Sikkim
+#SIK = "countries/Asia.txt"						# Sikkim
 
 # // Russia // #
 
@@ -260,18 +260,26 @@ KOM = "countries/West Russia.txt"				# Komi
 TAR = "countries/West Russia.txt"				# Tatarstan
 TOM = "countries/Central Siberia.txt"			# Tomsk
 MAG = "countries/Far East.txt"					# Magadan
+SPU = "countries/SPU - Slavic Patriots Union.txt" # Slavic Patriots Union
+ARR = "countries/ARR - Aryan Reich.txt"		    # Aryan Reich
+VYA = "countries/VYA - Grand Duchy of Vyatka.txt"	# Grand Duchy of Vyatka
+
+NPS = "countries/NPS - New Polish State.txt"		# New Polish State
+ULF = "countries/ULF - Ural Federation.txt"		# Ural Federation
+SFR = "countries/SFR - Siberian Soviet Federal Republic.txt"	# Siberian Soviet Federal Republic
+RDS = "countries/RDS - Russian Divine State.txt"	# Russian Divine State
 
 # /// Kazakhstan /// #
 KAZ = "countries/Central Asia.txt"				# Kazakh SSR
-KZR = "countries/Central Asia.txt"				# Russian Kazakhstan
+#KZR = "countries/Central Asia.txt"				# Russian Kazakhstan
 
 # /// Central Asia /// #
-KRK = "countries/Central Asia.txt"				# Karakalpakstan
-KYR = "countries/Central Asia.txt"				# Kyrgyzstan
-TAJ = "countries/Central Asia.txt"				# Tajikistan
-TRK = "countries/Central Asia.txt"				# Turkmenistan
+#KRK = "countries/Central Asia.txt"				# Karakalpakstan
+#KYR = "countries/Central Asia.txt"				# Kyrgyzstan
+#TAJ = "countries/Central Asia.txt"				# Tajikistan
+#TRK = "countries/Central Asia.txt"				# Turkmenistan
 UTL = "countries/Central Asia.txt"				# Turkestan Legion
-UZB = "countries/Central Asia.txt"				# Uzbekistan
+#UZB = "countries/Central Asia.txt"				# Uzbekistan
 
 # /// After Midnight /// #
 

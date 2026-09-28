@@ -1,26 +1,13 @@
 capital = 1468
 
 ### Country Leaders ###
-recruit_character = UTL_Veli_Kayum_Khan
-recruit_character = UTL_Baymirza_Hayit
-recruit_character = UTL_Power_Vacuum
-recruit_character = UTL_Occupation_Authority
+recruit_character = UTL_Saparmurat_Niyazov
 
-### Ministers ###
-recruit_character = UTL_Ruzi_Nazar
-recruit_character = UTL_Abdurashidov_Munavvar_Kara
-recruit_character = UTL_Sher_Muhammad
-
-### Generals ###
-recruit_character = UTL_Nureddin_Namangani
-
-# Vacant
-recruit_character = UTL_Generic_Vacant
 
 oob = "UTL_1962"
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -168,17 +155,7 @@ set_technology = {
 }
 
 set_popularities = {
-	communist = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	liberal_conservatism = 0
-	conservatism = 0
-	paternalism = 0
-	despotism = 0
-	fascism = 30
-	national_socialism = 70
-	ultranationalism = 0
+	despotism = 100
 }
 
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }

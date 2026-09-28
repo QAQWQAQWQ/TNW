@@ -9,12 +9,12 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = KOM
+		owner = ULF
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 10677 1 }
-		add_core_of = YGR
+		add_core_of = ULF
 	}
 
 	provinces = {

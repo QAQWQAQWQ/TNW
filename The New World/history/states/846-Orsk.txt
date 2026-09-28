@@ -9,14 +9,14 @@ state = { #Population Done
 		4215 4261 7281 10196 10224
 	}
 	history = {
-		owner = KOM
+		owner = TAR
 		buildings = {
 			infrastructure = 2
 			barracks = 1
 			prisons = 1
 		}
 		victory_points = { 4261 7 }
-		add_core_of = DRL
+		add_core_of = TAR
 		add_extra_state_shared_building_slots = 1
 	}
 	manpower = 429000

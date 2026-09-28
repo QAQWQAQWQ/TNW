@@ -3,7 +3,7 @@ state = {
 	name = "STATE_404"
 
 	history = {
-		owner = KAZ
+		owner = SFR
 		buildings = {
 			infrastructure = 3
 			thermoelectric_plant = 2
@@ -20,7 +20,7 @@ state = {
 		victory_points = { 4250 1 }
 		victory_points = { 12177 1 }
 		victory_points = { 1402 5 }
-		add_core_of = KAZ
+		add_core_of = SSF
 		set_state_flag = GDP_category_large_town
 		set_state_flag = state_renamings
 	}

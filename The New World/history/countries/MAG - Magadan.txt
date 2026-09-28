@@ -3,7 +3,7 @@ capital = 562
 # Vacant
 
 ### Characters ###
-recruit_character = MAG_Anatoly_Sobchak
+recruit_character = MAG_Yegor_Gaidar
 
 
 set_country_flag = is_russian_nation
@@ -22,18 +22,10 @@ add_manpower = 12500
 
 add_ideas = {
 	### Standard ###
-	RUS_warlord_manpower
-	RUS_warlord_econ
-	RUS_heirs_of_harbin
-	MAG_fascist_splitters
-	MAG_gateway_into_russia
-	RUS_port_of_magadan
+	
 
 	### Ministers ###
-	MAG_Vladimir_Kibardin_hog
-	MAG_Nikolay_Petlin_for
-	MAG_Vladimir_Goltsov_eco
-	MAG_Alexander_Pavlov_sec
+	
 
 	### Political ###
 	tno_political_parties_one_party_state
@@ -351,24 +343,14 @@ create_equipment_variant = {
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberal_conservatism
 	last_election = "1961.1.20"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	national_socialism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-
-	conservatism = 100
-	paternalism = 6
-	despotism =0
-	fascism = 0
+	liberal_conservatism = 100
 	
 }
 

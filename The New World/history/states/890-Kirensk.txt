@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = MAG
+		owner = RDS
 		buildings = {
 			infrastructure = 2
 		}

@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+ ARR: "雅利安国"
+ ARR_ADJ: "雅利安国"
+ ARR_DEF: "雅利安国"
+ ARR_Alexey_Dobrovolsky: "阿列克谢·多布罗沃利斯基"
+
+ SPU: "斯拉夫爱国者联盟"
+ SPU_ADJ: "斯拉夫爱国者联盟"
+ SPU_DEF: "斯拉夫爱国者联盟"
+ SPU_Dmitry_Vasilyev: "德米特里·瓦西里耶夫"
+
+ VYA: "维亚特卡大公国"
+ VYA_ADJ: "维亚特卡大公国"
+ VYA_DEF: "维亚特卡大公国"
+ VYA_Maria_Vladimirovna: "玛丽亚一世"
+
+ NPS: "新波兰"
+ NPS_ADJ: "新波兰"
+ NPS_DEF: "波兰"
+ NPS_Marian_Orzechowski: "马里安·奥热霍夫斯基"
+ NPS_socialist_party: "民族复兴爱国运动"
+ NPS_socialist_party_long: "民族复兴爱国运动"
+
+ ULF: "乌拉尔联邦"
+ ULF_ADJ: "乌拉尔联邦"
+ ULF_DEF: "乌拉尔联邦"
+ ULF_Mikhail_Kalashnikov: "米哈伊尔·卡拉什尼科夫"
+
+ SFR: "西伯利亚苏维埃联邦共和国"
+ SFR_ADJ: "西伯利亚苏维埃联邦共和国"
+ SFR_DEF: "西伯利亚苏维埃联邦共和国"
+ SFR_Richard_Kosolapov: "理查德·科索拉波夫"
+
+ RDS: "俄罗斯神授国"
+ RDS_ADJ: "俄罗斯神授国"
+ RDS_DEF: "俄罗斯神授国"
+ RDS_Archimandrite_KirillPavlov: "西里尔·巴甫洛夫"
+
+ ## Tatarstan
+ TAR: "鞑靼斯坦国"
+ TAR_ADJ: "鞑靼斯坦国"
+ TAR_DEF: "鞑靼斯坦国"
+ TAR_Fauziya_Bayramova: "福齐娅·拜拉莫娃"
+
+ ##komi
+ KOM_Rostislav_Borisovich: "罗斯季斯拉夫·鲍里索维奇"
+
+ # Tomsk
+ TOM_Vladimir_Yakunin: "弗拉基米尔·雅库宁"
+
+ #Magadan
+ MAG_Yegor_Gaidar: "叶戈尔·加伊达尔"
+
+ ## Turkestan Legion
+ UTL_Saparmurat_Niyazov: "萨帕尔穆拉特·尼亚佐夫"

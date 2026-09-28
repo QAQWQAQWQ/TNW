@@ -8,7 +8,7 @@ state = { #Population Done
 		4669 8461 13358 1684 1664 7768
 	}
 	history = {
-		owner = KOM
+		owner = ULF
 		set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 1
@@ -16,7 +16,7 @@ state = { #Population Done
 		}
 		victory_points = { 4669 1 }
 		victory_points = { 1684 5 }
-		add_core_of = YGR
+		add_core_of = ULF
 	}
 	manpower = 38000
 	state_category = pastoral

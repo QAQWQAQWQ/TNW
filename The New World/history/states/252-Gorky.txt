@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = MCW
+		owner = SPU
 		victory_points = {
 			11375 30
 		}
@@ -25,8 +25,8 @@ state = {
 			infrastructure = 4
 			air_base = 3
 		}
-		add_core_of = GOR
-		add_claim_by = MCW
+		add_core_of = SPU
+		add_claim_by = SPU
 		set_state_flag = universal_renamings
 	}
 

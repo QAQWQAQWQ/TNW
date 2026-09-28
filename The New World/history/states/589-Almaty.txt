@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = KAZ
+		owner = UTL
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 3

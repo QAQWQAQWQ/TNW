@@ -6,7 +6,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = KOM
+		owner = SFR
 		buildings = {
 			infrastructure = 2
 			thermoelectric_plant = 1
@@ -17,7 +17,7 @@ state = { #Population Done
 		victory_points = { 1292 10 }
 		victory_points = { 12106 3 }
 		set_state_flag = GDP_category_town
-		add_core_of = TYM
+		add_core_of = SSF
 	}
 
 	provinces = {

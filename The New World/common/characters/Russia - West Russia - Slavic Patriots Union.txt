@@ -1,0 +1,17 @@
+### God help me, I'm on my grindset again.
+
+characters = {
+	
+
+	SPU_Dmitry_Vasilyev = {
+		name = SPU_Dmitry_Vasilyev
+		portraits = { civilian = 
+		{ large = "gfx/leaders/SPU/Portrait_SPU_Dmitry_Vasilyev.png" } }
+		country_leader = {
+			#desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
+			expire = "2007.1.1.1"
+			ideology = ultranationalism_reactionary_nationalism_subtype
+			id = -1
+		}
+	}
+	}

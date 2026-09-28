@@ -7,12 +7,12 @@ state = {
 	}
 
 	history = {
-		owner = MAG
+		owner = RDS
 		buildings = {
 			offices = 1
 			infrastructure = 2
 		}
-		add_core_of = YAK
+		add_core_of = RDS
 		victory_points = {
 			7765 3
 		}

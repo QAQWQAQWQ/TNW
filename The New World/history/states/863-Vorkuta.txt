@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = MCW
+		owner = KOM
 		buildings = {
 			barracks = 1
 			prisons = 1

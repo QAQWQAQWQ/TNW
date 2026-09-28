@@ -7,7 +7,7 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = KAZ
+		owner = NPS
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -19,7 +19,7 @@ state = { #Population Done
 		victory_points = { 7370 1 }
 		victory_points = { 7341 1 }
 		victory_points = { 1314 1 }
-		add_core_of = KAZ
+		add_core_of = NPS
 		set_state_flag = GDP_category_town
 		set_state_flag = state_renamings
 	}

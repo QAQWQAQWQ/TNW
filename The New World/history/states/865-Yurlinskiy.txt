@@ -5,11 +5,11 @@ state = { #Population Done
 			3127 4326 11111
 	}
 	history = {
-		owner = MCW
+		owner = VYA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = VYT
+		add_core_of = VYA
 	}
 	manpower = 21000
 	state_category = wasteland

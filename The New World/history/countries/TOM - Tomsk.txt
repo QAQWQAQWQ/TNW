@@ -4,40 +4,7 @@ capital = 1442
 recruit_character = TOM_Generic_Vacant
 
 # Leaders
-recruit_character = TOM_Boris_Pasternak
-recruit_character = TOM_Dmitry_Shostakovich
-recruit_character = TOM_Daniil_Kharms
-recruit_character = TOM_Andrey_Sakharov
-recruit_character = TOM_Dmitry_Likhachyov
-recruit_character = TOM_Moisey_Vainberg
-recruit_character = TOM_Provisional_Duma
-recruit_character = TOM_Viktor_Nekrasov #SBA Collapse
-
-# Ministers
-recruit_character = TOM_Andrey_Sinyavsky
-recruit_character = TOM_Nikolay_Peyko
-recruit_character = TOM_Mikhail_Gefter
-recruit_character = TOM_Nikolay_Nikitin
-recruit_character = TOM_Antonina_Pirozhkova
-recruit_character = TOM_Pobisk_Kuznetsov
-recruit_character = TOM_Nikolay_Kamov
-recruit_character = TOM_Georgy_Sviridov
-recruit_character = TOM_Konstantin_Paustovsky
-recruit_character = TOM_Alexander_Yesenin_Volpin
-recruit_character = TOM_Nikolay_Oleynikov
-recruit_character = TOM_Nikolay_Zabolotsky
-recruit_character = TOM_Alexander_Voznesensky
-recruit_character = TOM_Matvey_Shaposhnikov
-
-# Generals
-recruit_character = TOM_Nikolai_Masalov
-recruit_character = TOM_Nikolai_Batyuk
-recruit_character = TOM_Mikhail_Prudnikov
-recruit_character = TOM_Alexey_Nestrenko
-recruit_character = TOM_Pyotr_Gavrilov
-recruit_character = TOM_Pyotr_Kruglov
-recruit_character = TOM_Viktor_Kharchenko
-recruit_character = TOM_Pavel_Kuleshov
+recruit_character = TOM_Vladimir_Yakunin
 
 set_country_flag = is_russian_nation
 
@@ -49,17 +16,10 @@ set_air_oob = "TOM_1962_air"
 
 add_ideas = {
 	### Standard ###
-	RUS_warlord_manpower
-	RUS_warlord_econ
-	TOM_formation_of_the_salons
-	TOM_warlord_of_the_city
-	TOM_provisional_government
+	
 
 	### Ministers ###
-	TOM_Andrey_Sinyavsky_hog
-	TOM_Dmitry_Likhachyov_for
-	TOM_Alexander_Yesenin_Volpin_eco
-	TOM_Matvey_Shaposhnikov_sec
+	T
 
 	### Political ###
 	tno_political_parties_multiparty_system
@@ -303,17 +263,14 @@ set_variable = { tno_training_effectiveness = 61 }
 set_variable = { tno_draft_exemptions_effectiveness = 62 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = despotism
 	last_election = "1959.6.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	progressivism = 23.68
-	liberalism = 25.43
-	conservatism = 25.96
-	paternalism = 24.93
+	despotism = 100
 }
 
 set_country_flag = gui_alert_visible

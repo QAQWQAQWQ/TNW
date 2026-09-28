@@ -1,0 +1,17 @@
+### God help me, I'm on my grindset again.
+
+characters = {
+	
+
+	NPS_Marian_Orzechowski = {
+		name = NPS_Marian_Orzechowski
+		portraits = { civilian = 
+		{ large = "gfx/leaders/NPS/Portrait_Poland_Marian_Orzechowski.png" } }
+		country_leader = {
+			#desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
+			expire = "2007.1.1.1"
+			ideology = socialist_left_wing_nationalism_subtype
+			id = -1
+		}
+	}
+	}

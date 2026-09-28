@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TOM
+		owner = RDS
 		buildings = {
 			infrastructure = 3
 			radar_station = 1
@@ -27,7 +27,7 @@ state = {
 		victory_points = {
 			10661 3
 		}
-		add_core_of = IRK
+		add_core_of = RDS
 	}
 
 	provinces = {

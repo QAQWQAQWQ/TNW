@@ -1,17 +1,17 @@
 characters = {
 	## Leaders and Ministers ##
 	
-	MAG_Anatoly_Sobchak = {
-		name = MAG_Anatoly_Sobchak
+	MAG_Yegor_Gaidar = {
+		name = MAG_Yegor_Gaidar
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAG/Portrait_Magadan_Anatoly_Sobchak.png"
+				large = "gfx/leaders/MAG/Portrait_Magadan_Yegor_Gaidar.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_ANATOLY_SOBCHAK_DESC"
+			desc = "POLITICS_YEGOR_GAIDAR_DESC"
 			expire = "2020.1.1"
-			ideology = conservatism_paternalistic_conservatism_subtype
+			ideology = liberal_conservatism_oligarchic_liberalism_subtype
 			traits = {  }
 			id = -1
 		}

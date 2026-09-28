@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = TOM
+		owner = RDS
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -34,7 +34,7 @@ state = {
 			12540 1
 		}
 		set_state_flag = GDP_category_city
-		add_core_of = IRK
+		add_core_of = RDS
 	}
 
 	provinces = {

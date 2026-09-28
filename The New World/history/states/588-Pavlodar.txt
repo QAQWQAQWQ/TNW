@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = KAZ
+		owner = SFR
 		buildings = {
 			infrastructure = 4
 			schools = 1
@@ -21,7 +21,7 @@ state = {
 		victory_points = { 7708 9 }
 		victory_points = { 7317 2 }
 		victory_points = { 10630 1 }
-		add_core_of = KAZ
+		add_core_of = SSF
 		set_state_flag = state_renamings
 	}
 

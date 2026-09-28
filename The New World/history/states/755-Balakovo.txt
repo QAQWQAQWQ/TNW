@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = MCW
+		owner = SPU
 		buildings = {
 			infrastructure = 2
 			barracks = 1
@@ -16,7 +16,7 @@ state = {
 		victory_points = {
 			6502 1
 		}
-		add_core_of = SAM
+		add_core_of = SPU
 	}
 
 	provinces = {
