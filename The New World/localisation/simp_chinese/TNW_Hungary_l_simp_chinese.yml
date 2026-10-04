@@ -1,7 +1,8 @@
-﻿HUN: "匈牙利工人国"
-HUN_DEF: "匈牙利工人国"
-HUN_ADJ: "匈牙利"
+﻿l_simp_chinese:
+ HUN: "匈牙利工人国"
+ HUN_DEF: "匈牙利工人国"
+ HUN_ADJ: "匈牙利"
 
-HUN_Istvan_Gyorkos: "伊什特万·吉尔科什"
-HUN_ultranationalism_party: "箭十字党"
-HUN_ultranationalism_party_long: "箭十字党"
+ HUN_Istvan_Gyorkos: "伊什特万·吉尔科什"
+ HUN_ultranationalism_party: "箭十字党"
+ HUN_ultranationalism_party_long: "箭十字党"
