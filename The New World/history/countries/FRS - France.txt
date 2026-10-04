@@ -7,6 +7,12 @@ oob = "FRA_1962"
 set_naval_oob = "FRA_1962_naval"
 
 recruit_character = FRA_Jose_Bove
+recruit_character = FRA_Jean_Pierre_Biondi
+recruit_character = FRA_Jean_Francois_Hory
+recruit_character = FRA_Eric_Coquerel
+recruit_character = FRA_Gilles_Lemaire
+recruit_character = FRA_Dominique_Strauss_Kahn
+recruit_character = FRA_Jack_Lang
 #INITIAL
 recruit_character = FRA_Bruno_Megret
 recruit_character = FRA_Gerard_Longuet
@@ -36,19 +42,18 @@ add_ideas = {
 	#FACTION
 	
 	#Country
-	FRS_millennium
-	FRS_Party_strife
-	FRS_The_river_is_going_downhill
-	FRS_Unpolished_Gold_and_Jade
-	FRS_Only_the_best_and_the_most_focused
-	
+	FRS_Dim_Star 
+	FRS_Jaures_Path
+	FRS_Workers_and_Peasants_Army
+	FRS_World_Bearer
+	FRS_Reich_Shackles
 	
 
 	#MINISTERS
-	FRA_Francois_Durand_hog
-	FRA_Roland_Dumas_for
-	FRA_Jean_Louis_Debre_eco
-	FRA_Ernest_Antoine_Seilliere_sec
+	FRA_minister_Jean_Pierre_Biondi_hog
+	FRA_miniser_Gilles_Lemaire_for
+	FRA_minister_Dominique_Strauss_Kahn_eco
+	FRA_minister_Jack_lang_sec
 
 	#SPIRITS
 	
@@ -434,7 +439,11 @@ set_politics = {
 }
 
 set_popularities = {
-	socialist = 100
+	socialist = 38
+	socialist_1 = 37
+	progressivism = 8
+	liberalism = 7
+	despotism = 10
 }
 
 country_lock_all_division_template = yes

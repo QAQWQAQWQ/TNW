@@ -326,6 +326,34 @@ RegionalOrganizations_Startup = {
 	COS = { RegionalOrganizations_Add = yes }
 	PAN = { RegionalOrganizations_Add = yes }
 
+	##International Organization for Service and Cooperation
+	set_temp_variable = { reg_org = token:RegionalOrganization_IOSC }
+	GER = {
+		set_temp_variable = { org_alignment = GER }
+		set_temp_variable = { org_type = 0 } # Political Union
+		RegionalOrganizations_Initialize = yes
+	}
+	ITA = { RegionalOrganizations_Add = yes }#意大利
+	CRO = { RegionalOrganizations_Add = yes }#克罗地亚
+	BUL = { RegionalOrganizations_Add = yes }#保加利亚沙皇国
+	GRE = { RegionalOrganizations_Add = yes }#希腊王国
+	ROM = { RegionalOrganizations_Add = yes }#罗马尼亚王国
+	HUN = { RegionalOrganizations_Add = yes }#匈牙利王国
+	SLO = { RegionalOrganizations_Add = yes }#斯洛伐克
+	SPA = { RegionalOrganizations_Add = yes }#西班牙王国
+	POR = { RegionalOrganizations_Add = yes }#葡萄牙
+	IRE = { RegionalOrganizations_Add = yes }#爱尔兰
+	DEN = { RegionalOrganizations_Add = yes }#丹麦社会共和国
+	NOR = { RegionalOrganizations_Add = yes }#挪威国
+	FIN = { RegionalOrganizations_Add = yes }#芬兰共和国
+	SER = { RegionalOrganizations_Add = yes }#塞尔维亚王国
+	ARG = { RegionalOrganizations_Add = yes }#阿根廷
+	IRQ = { RegionalOrganizations_Add = yes }#伊拉克王国
+	EGY = { RegionalOrganizations_Add = yes }#埃及王国
+	SYR = { RegionalOrganizations_Add = yes }#叙利亚联邦
+	PER = { RegionalOrganizations_Add = yes }#伊朗帝国
+
+
 
 	
 	
@@ -404,7 +432,7 @@ RegionalOrganizations_Startup = {
 
 	## Ostministerium
 	set_temp_variable = { reg_org = token:RegionalOrganization_Ostministerium }
-	GER = {
+	MCW = {
 		# set_temp_variable = { org_alignment = GER }
 		set_temp_variable = { org_type = 1 } # Political Union
 		RegionalOrganizations_Initialize = yes
@@ -412,6 +440,8 @@ RegionalOrganizations_Startup = {
 	UKR = { RegionalOrganizations_Add = yes }
 	MCW = { RegionalOrganizations_Add = yes }
 	CAU = { RegionalOrganizations_Add = yes }
+	BLR = { RegionalOrganizations_Add = yes }
+	OST = { RegionalOrganizations_Add = yes }
 
 	## African Labour Board
 	set_temp_variable = { reg_org = token:RegionalOrganization_AfricanLabourBoard }

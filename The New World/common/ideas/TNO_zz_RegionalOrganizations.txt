@@ -42,6 +42,13 @@ ideas = {
 			allowed_civil_war = { always = no }
 			modifier = {  }
 		}
+
+		RegionalOrganization_IOSC = { # International Organization for Service and Cooperation
+			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_IOSC" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {  }
+		}
 		####
 		RegionalOrganization_OAS = { # Organization of American States
 			# on_add = { log = "[GetDateText]: [Root.GetName]: add idea RegionalOrganization_OAS" }

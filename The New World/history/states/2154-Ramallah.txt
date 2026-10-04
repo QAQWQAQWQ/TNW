@@ -3,12 +3,13 @@ state = {
 	name = "STATE_2154"
 
 	history = {
-		owner = ITA
+		owner = PAL
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 7107 1 }
 		add_core_of = IME
+		add_core_of = PAL
 		set_state_flag = GDP_category_rural
 		set_state_flag = universal_renamings
 	}

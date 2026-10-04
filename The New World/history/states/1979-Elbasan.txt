@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = ALB
 		buildings = {
 			barracks = 1
 			infrastructure = 3

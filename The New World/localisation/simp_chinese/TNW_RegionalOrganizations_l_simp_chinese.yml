@@ -8,7 +8,7 @@
  RegionalOrganization_EU_colored:  "§Q$RegionalOrganization_EU$§!"
  RegionalOrganization_EU_desc_0: "£zollverein_texticon §Q$RegionalOrganization_EU$§!是欧洲经济共同体向政治方向演进而产生的结果，这一新兴的政治联盟包括了诸多亲德的欧洲国家，在各国钢铁般的纽带之下，轴心国的欧洲各国紧密的连接，其组织架构和体制致力于欧洲一体化的推进，实现建立兄弟国家联盟的终极目标，当然，更准确的说，是让欧洲各国自愿俯首称臣，永远臣服于欧洲最伟大的帝国，德意志民族的大日耳曼国之下。"
  
- RegionalOrganization_Alignment_ProGermany: "§s亲德§!"
+ RegionalOrganization_Alignment_ProGermany: "§r亲德§!"
  RegionalOrganization_Alignment_ProJapan: "§R亲日§!"
  RegionalOrganization_Alignment_ProAmerica: "§M亲美§!"
  RegionalOrganization_Alignment_Unaligned: "§W不结盟§!"
@@ -17,6 +17,66 @@
  RegionalOrganization_UN_colored: "§m$RegionalOrganization_UN$§!"
  RegionalOrganization_UN_desc_0:  "£zollverein_texticon 随着瑞士的覆灭，国际联盟也真正意义上的灭亡，1948年，数十国代表齐聚美国旧金山，召开联合国国际组织会议，共同议定并通过了《联合国宪章》，与会各国代表郑重签署。同年，法国、英国、美国及其他多数签字国相继递交批准书，宪章随之生效，联合国遂告正式成立。\n\n而为发展国际间基于尊重各国人民平等权利与自决原则的友好关系，推动国际合作，以解决经济、社会、文化及人道主义诸般难题，并增进对全人类之人权与基本自由的普遍尊崇——为实现这些崇高宗旨，联合国确立了七项基本原则，其核心在于：各会员国主权平等；以和平方法化解争端；不得使用武力或武力威胁；联合国为维护国际和平与安全，在必要范围内可确保非会员国亦遵循上述准则；以及不得干涉本质上属于任何国家国内管辖之事项。"
 
+ RegionalOrganization_IOSC: "国际服务与合作组织"
+ RegionalOrganization_IOSC_colored: "§r$RegionalOrganization_IOSC$§!"
+ RegionalOrganization_IOSC_desc_0: "£zollverein_texticon §c$RegionalOrganization_IOSC$§!“世界服务”原是乌尔里希·弗莱施豪尔于1933年在埃尔福特创办的一家反犹新闻机构，后并入罗森伯格办公室，成为第二次世界大战期间纳粹宣传的重要机关。随着德意志的战火席卷旧世界，将“新秩序”的火焰燃遍旧秩序的每一寸土地，“世界服务”也逐渐改组为一个国际性组织，并与德国费希特联盟和德国之友组织合并。\n\n因此，我们不妨直接称其为“纳粹国际”——其排外本性及意识形态诉求，足以承载这一名号。欧洲大陆之主通过这一机构，源源不断地向各地纳粹政府与组织输送理论，在政治与经济层面缔结联盟、开展合作。乌尔里希·弗莱施豪尔最初的构想终于达成：在世界历史上首次建立起一个国际性的犹太人问题专家组织，用以对抗“犹太国际”。而埃尔福特也因此被奉为反犹主义者的“麦加”。"
+ 
+ ##wwww
+ RegionalOrganization_Ostministerium: "东方部"
+ RegionalOrganization_Ostministerium_colored: "§b$RegionalOrganization_Ostministerium$§!"
+ RegionalOrganization_Ostministerium_desc_0: "帝国东方占领区事务部"
+
+ RegionalOrganization_Ostministerium_modifier_0: "\n$MODIFIER_POLITICAL_POWER_GAIN$: [?modifiers@RegionalOrganization_Ostministerium^0|=+][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_1: "\n$MODIFIER_STABILITY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^12|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_2: "\n$annual_gdp_growth_factor$: [?modifiers@RegionalOrganization_Ostministerium^9|+=2%][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_3: "\nMiscellaneous Income: §Y[?modifiers@RegionalOrganization_Ostministerium^10|2]B USD§![TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_4: "\n$consumer_goods_use_modifier$: [?modifiers@RegionalOrganization_Ostministerium^1|=%-0][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_5: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^2|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_6: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^3|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_7: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^4|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_8: "\n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^5|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_9: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^6|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_10: "\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^7|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_11: "\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^11|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_12: "\n$MODIFIER_FUEL_GAIN_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^8|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_13: "\n$GDP_to_sphere_leader_modifier$: [?modifiers@RegionalOrganization_Ostministerium^13|Y=%2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_14: "\n$MODIFIER_GLOBAL_MONTHLY_POPULATION$: [?modifiers@RegionalOrganization_Ostministerium^14|+=%1][TNO_RegionalOrganization_GetModifiersEntry]"
+
+ RegionalOrganization_OAS: "美洲国家组织"
+ RegionalOrganization_OAS_colored: "§a$RegionalOrganization_OAS$§!"
+ RegionalOrganization_OAS_desc_0: "从华盛顿的国会山到火地岛的冰冷礁石，新大陆的命运名义上被一条神圣的纽带联系在了一起。“美洲国家组织”的建立，曾被宣扬为西半球民主、主权与和平合作的终极灯塔。在冠冕堂皇的官方章程中，它誓言要捍卫每一个美洲国家不受外来侵略，通过经济互助与外交协商来化解内部危机，打造一个没有硝烟的“新大陆共同体”。然而，在这层温情脉脉的面纱背后，潜藏着的却是冷酷无情的大国地缘政治算计。\n\n在西半球的政治版图上，该组织在实质上早已沦为北方巨擘巩固其后院霸权的战略长臂。华盛顿的金元与驻防美军成了各国外交决策时无法逾越的阴影。每当拉美本土涌现出试图摆脱控制的激进思潮或革命运动，该组织便会以‘维护民主秩序’的借口迅速集结，通过政治孤立、经济制裁乃至默许武装干涉，将不听话的政权拒之门外。尽管各拉美成员国在私下里暗流涌动，对这种不平等的宗主关系充满怨言，但在强大的外部压力与现实利益的裹挟下，美洲国家组织依旧在名义上维持着美洲大陆那看似铁板一块、实则脆弱不堪的“自由阵线”。"
+
+ RegionalOrganization_CollabCommonwealth: "大英国协"
+ RegionalOrganization_CollabCommonwealth_colored: "§Z$RegionalOrganization_CollabCommonwealth$§!"
+ RegionalOrganization_CollabCommonwealth_desc_0: "英联邦曾设想构建一个由王室维系的自由国家联盟，早年也的确照此运转，直至王室倾覆，这一自由联盟随之分崩一析。时至今日，联邦已蜕变为完全以英国为核心的霸权组织，沦为替大英帝国粉饰门面、造势宣传的文化工具。\n\n渥太华的帝国流亡政府，只能靠着与日益萎缩的海外领地之间虚无缥缈的纽带聊以自慰。至于现在的大英国协，其成员已大幅缩减，仅囊括三大板块：首当其冲的是战火洗礼后的英国本土；其次是那些依旧处于铁甲履带高压统治下的英属非洲领地；最后则是由于地缘政治裹挟、与英国素有历史渊源的亲德国家。这种荒诞的成员构成，无情地戳破了其过去的自由伪装。当下的国协，其残存的国际合法性与外交号召力已与大英帝国的战争机器深度捆绑。白厅的政客们心知肚明，国协已不再是一个能靠着空洞宣誓就能维持的家族，其最终的生死存亡与法理延续，全凭英军在血肉横飞的非洲战场上能否取得最终的成败来定夺。"
+
+
+ RegionalOrganization_AfricanLabourBoard: "非洲劳工理事会"
+ RegionalOrganization_AfricanLabourBoard_colored: "§r$RegionalOrganization_AfricanLabourBoard$§!"
+ RegionalOrganization_AfricanLabourBoard_desc_0: "非洲劳工理事会既是一项国际条约，也是一个国际组织，成员涵盖了非洲大陆上形形色色的殖民帝国、定民者国家以及实行多数统治的独立国家。该机构主要通过双边协调，统筹管理各方共同关注的议题，包括移民管控、劳动力调配以及侨汇事务。\n\n移民劳工是整个非洲经济的支柱。理事会的设立，旨在将劳动力的跨境流动及侨汇汇兑纳人正规化管理。这样一来，既能确保移民配额达标，又方便理事会及相关缔约国从中抽成并征税。缔约国按角色分为两类，即劳动力的“输出国”与“输入国”。南非是纯粹的输入国，独立的非洲国家多为输出国，而殖民帝国则兼具双重身份。\n\n无数非洲人背井离乡，赴海外出卖苦力。对他们而言，理事会是一道绕不开的官方门槛，想养家糊口就得按规矩办事；同时，这也是当局监视和审查他们政治立场与背景的工具。相比之下，欧洲定居者无论是工作还是出行，都不受该理事会的限制。绝大多数移民劳工的人生境遇，不过是账本上冷冰冰的数据。只要还有活干，他们就必须默默忍受各种虐待、剥削与屈辱。而在这里，活永远干不完。"
+
+ RegionalOrganization_SACU: "南部非洲关税同盟"
+ RegionalOrganization_SACU_colored: "§J$RegionalOrganization_SACU$§!"
+ RegionalOrganization_SACU_desc_0: "南部非洲关税同盟诞生于惨烈的英布战争之后，是至今仍在运作的历史最悠久的关税同盟。其设立初衷是加强南部非洲各殖民地间的贸易联系，进而保障税收与资源供应。然而，随着英国本土沦陷于德军之手，加之新独立的南非吞并了高级专员领地，该同盟的职能发生了根本性的转变。\n\n实质上，殖民时代掠夺财富与矿产的勾当还在继续，只是坐收净利的换成了比勒陀利亚当局，该同盟也沦为南非向邻国扩张经济霸权的工具。尽管同盟最初涵盖的范围仅限于南非、贝专纳兰、巴苏陀兰和斯威士兰，但目前已有人提出新方案，企图在这个种族隔离国家与其周边伙伴之间建立“南部非洲共同体”，以此扩大版图并进一步巩固这一霸权体系。"
+
+ RegionalOrganization_CADAT: "中非发展与援助条约"
+ RegionalOrganization_CADAT_colored: "§l$RegionalOrganization_CADAT$§!"
+ RegionalOrganization_CADAT_desc_0: "在硝烟弥漫的中非地带，“中非发展与援助条约”（CADAT）常被调侃为国际外交史上的铁血黑色幽默。该条约从字面上看，充斥着“人道主义救援”、“基础设施建设”与“跨国经济协作”等充满现代文明光辉的词汇。然而在国际社会眼中，谁都清楚这份条约的实际用处——它是各大地缘强国在不引发全面战争的前提下，合法介入中非混战、扶持本国代理人并维持脆弱地缘均势的绝佳挡箭牌。\n\n既然条约框架在外界看来‘完全无问题’，那么幕后的利益分赃就能在最优雅的西装革履下安全进行。从武器禁运的暗度陈仓，到对争议矿区的联合开发，CADAT成了各方势力默认的博弈规则。它既不指望能真正带来中非的繁荣，也不打算彻底消灭贫困，其真实的核心职能仅仅是充当一个高效率的危机缓冲阀。只要各签署国还能在这个大蛋糕上各取所需，中非那动荡不堪的局势，就会在条约的维稳下，维持着一种精巧而残酷的“表面和平”。"
+
+ RegionalOrganization_UNS: "主权民族联盟"
+ RegionalOrganization_UNS_colored: "§<$RegionalOrganization_UNS$§!"
+ RegionalOrganization_UNS_desc_0: "区域组织描述在此"
+
+
+ RegionalOrganization_HelsinkiTreaty: "赫尔辛基条约"
+ RegionalOrganization_HelsinkiTreaty_colored: "§D$RegionalOrganization_HelsinkiTreaty$§!"
+ RegionalOrganization_HelsinkiTreaty_desc_0: "区域组织描述在此"
+
+ RegionalOrganization_ExileCommonwealth: "英联邦"
+ RegionalOrganization_ExileCommonwealth_colored: "§V$RegionalOrganization_ExileCommonwealth$§!"
+ RegionalOrganization_ExileCommonwealth_desc_0: "英联邦宛如战前世界留下的一抹残影。它曾旨在构建“由英国王室维系的自由国家联盟”，如今却沦为一盘散沙。这个组织犹如失去首脑的躯干，昔日将各成员国紧密相连的经济、政治与军事中枢早已被生生切断。尽管加拿大事实上接过了同侪之首的位置，其始终难以确立真正的领导威信。 \n\n加拿大摒弃了昔日大英帝国的残酷与暴虐，更倾向于采取温和手腕，试图通过外交途径协调各成员国间的关系。这些成员国情势迥异，既有“白人自治领”和西印度群岛，也有激进的泛非共和国，然而这番努力收效甚微。英联邦内部错综复杂的意识形态甚至波及了该组织的地缘政治格局，尽管亲自由国家组织的立场在成员国中占据主流，却远未达成共识，内部纷争更是屡见不鲜。当下的英联邦仅仅靠着对“海外女王”名义上的效忠勉强维系，已然形同虚设，只能在新秩序中艰难寻找自身的定位与价值。"
+
+ #####
  #|=====[ TYPES ]=====|#
  RegionalOrganization_Type_0: "国际组织"
  RegionalOrganization_Type_1: "国际协会"

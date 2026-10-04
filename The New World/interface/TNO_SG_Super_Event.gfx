@@ -1,9 +1,9 @@
 spriteTypes = {
 	corneredTileSpriteType = {
-		name = "GFX_tiled_window_bigevent_border"
+		name = "GFX_tiled_window_bigevent_border2"
 		size= { x=192 y=243 }
-		textureFile = "gfx/interface/tiles/tiled_window_bigevent_border.dds"
-		borderSize = { x=64 y=71 }
+		textureFile = "gfx/interface/tiles/tiled_window_bigevent_border2.dds"
+		borderSize = { x=64 y= 200 }
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
@@ -35,6 +35,7 @@ spriteTypes = {
 		textureFile = "gfx/superevent_pictures/algeria_nuclear_explosion.png"
 	}
 	###TNW SE###
+	
 	spriteType = {
 		name = "GFX_SE_WW3"
 		textureFile = "gfx/superevent_pictures/ww3.png"

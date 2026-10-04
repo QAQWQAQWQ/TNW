@@ -20,24 +20,9 @@ guiTypes = {
 			name = "Background"
 			spriteType ="GFX_tiled_window_transparent"
 		} 
-		
-		containerWindowType = {
-			name = "TNO_SG_super_event_title"
-			size = { width = 570 height = 128 }
-			position = { x=7 y=-45 }
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_1b_no_border"
-				alwaystransparent = yes
-			}
-			
-			iconType = {
-				name = "Title_background_nuke"
-				spriteType = "GFX_nuke_super_title"
-			}
 
-			instantTextBoxType = {
-				name = "Title"
+		icontype = {
+			name = "Title"
 				position = { x = 0 y = 18 }
 				font = "aldrich_24_outline"
 				borderSize = {x = 0 y = 0}
@@ -45,23 +30,42 @@ guiTypes = {
 				maxWidth = 580
 				maxHeight = 24
 				format = centre
+		}
+		
+		containerWindowType = {
+			name = "TNO_SG_super_event_title"
+			size = { width = 570 height = 128 }
+			position = { x=7 y=-45 }
+			
+			
+			
+
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 80 y = 45 }
+				font = "fzwhjz_18"
+				borderSize = {x = 0 y = 0}
+				text = "[TNOGetSuperEventTitle]"
+				maxWidth = 600
+				maxHeight = 180
+				format = centre
 			}
 		}
 
 		iconType = {
 			name = "SE_image"
-			position = { x= 6 y = 7 }
-			alwaystransparent = yes
+			position = { x= 15 y = 19 }
+			
 		}
 
 		containerWindowType = {
 			name = "TNO_SG_super_event_frame"
-			size = { width = 585 height = 480 }
+			size = { width = 800 height = 570 }
 			position = { x=0 y=0 }
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_bigevent_border"
+				quadTextureSprite ="GFX_tiled_window_bigevent_border2"
 				alwaystransparent = yes
 			}
 
@@ -74,24 +78,24 @@ guiTypes = {
 				name = "SE_option"
 				text = "[TNOGetSuperEventOption]"
 				shortcut = "ESCAPE"
-				position = { x = -110 y = 183 }
+				position = { x = -110 y = 220 }
 				quadTextureSprite ="GFX_button_221x34"
-				buttonFont = "Bomb_24"
+				buttonFont = "fzwhjz_18"
 				Orientation = center
 			}
 
 			iconType = {
 				name ="underlay"
 				spriteType = "GFX_superevent_text_underlay"
-				position = { x= 26 y = -200 }
+				position = { x= 26 y = 10000 }
 				Orientation = lower_left
 				alwaystransparent = yes
 			}
 
 			instantTextBoxType = {
 				name = "text"
-				position = {  x= 120 y = -195 }
-				font = "Bomb_24"
+				position = {  x= 30 y = -108 }
+				font = "fzwhjz_18"
 				text = "[TNOGetSuperEventDesc]"
 				maxWidth = 455
 				maxHeight = 173

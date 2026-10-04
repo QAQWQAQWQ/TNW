@@ -39,6 +39,23 @@ spriteTypes = {
 
 	#FRA#
 	spriteType = {
+		name = "GFX_idea_FRA_minister_Jean_Pierre_Biondi"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Jean_Pierre_Biondi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_miniser_Gilles_Lemaire"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_miniser_Gilles_Lemaire.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_minister_Dominique_Strauss_Kahn"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Dominique_Strauss_Kahn.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_minister_Jack_lang"
+		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Jack_lang.png"
+	}
+
+	spriteType = {
 		name = "GFX_idea_FRA_minister_Franois_Durand"
 		texturefile = "gfx/interface/ideas/ministers/FRA/FRA_minister_Franois_Durand.png"
 	}

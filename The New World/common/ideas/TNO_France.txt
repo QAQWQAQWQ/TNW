@@ -28,27 +28,7 @@ ideas = {
 	
   }
 
-  FRS_Reich_Shackles = {
-			allowed = {
-				original_tag = FRS
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_FRS_Reich_Shackles
-			modifier = {
-				
-
-			targeted_modifier = {
-				
-			}
-		}
-
 	
-  }
 
   FRS_continuous_rain = {
 			allowed = {
@@ -242,6 +222,74 @@ ideas = {
 				
 			}
 		}
+
+
+	FRS_Dim_Star = {
+		allowed = {
+			original_tag = FRS
+			always = no
+		}
+		allowed_civil_war = { always = yes }
+		removal_cost = -1
+		picture = GFX_idea_unknown
+		modifier = { }
+	}
+
+	FRS_Jaures_Path = {
+		allowed = {
+			original_tag = FRS
+			always = no
+		}
+		allowed_civil_war = { always = yes }
+		removal_cost = -1
+		picture = GFX_idea_unknown
+		modifier = { }
+	}
+
+	FRS_Workers_and_Peasants_Army = {
+		allowed = {
+			original_tag = FRS
+			always = no
+		}
+		allowed_civil_war = { always = yes }
+		removal_cost = -1
+		picture = GFX_idea_unknown
+		modifier = { }
+	}
+
+	FRS_World_Bearer = {
+		allowed = {
+			original_tag = FRS
+			always = no
+		}
+		allowed_civil_war = { always = yes }
+		removal_cost = -1
+		picture = GFX_idea_unknown
+		modifier = { }
+	}
+
+	FRS_Reich_Shackles = {
+			allowed = {
+				original_tag = FRS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_unknown
+			modifier = {
+				
+
+			targeted_modifier = {
+				
+			}
+		}
+
+	
+  }
+
 
 
 

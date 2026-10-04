@@ -6,12 +6,13 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = ITA
+		owner = PAL
 		victory_points = { 14453 5 }
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = IME
+		add_core_of = PAL
 		set_state_flag = state_renamings
 	}
 

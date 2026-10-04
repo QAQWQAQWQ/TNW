@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = JOR
 		add_core_of = JOR
 		set_state_flag = state_renamings
 	}

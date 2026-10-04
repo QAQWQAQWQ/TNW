@@ -1544,6 +1544,7 @@ Econ_Subtype_Subsistence_Economy
 Econ_Subtype_National_Syndicalism
 RegionalOrganization_EU
 RegionalOrganization_UN
+RegionalOrganization_IOSC
 RegionalOrganization_OAS
 RegionalOrganization_VeracruzPact
 RegionalOrganization_AndeanPact

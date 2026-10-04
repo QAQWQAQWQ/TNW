@@ -7,20 +7,15 @@ set_country_flag = GDP_regions
 # Characters
 recruit_character = MCW_Generic_Vacant
 
-recruit_character = MCW_Odilo_Globocnik
-recruit_character = MCW_Wolf_Heinrich_Graf_von_Helldorff
-recruit_character = MCW_Claus_Von_Stauffenberg
-recruit_character = MCW_Fritz_Dietlof_Von_Der_Schulenburg
-recruit_character = MCW_Mikhail_Oktan
+recruit_character = MCW_Manfred_Borm
+
 
 oob = "MCW_1962"
 add_ideas = {
 	# Faction Status
 		Pakt_Autonomous_Reichskommissariat
 	# National Spirits
-		MCW_An_Empty_Throne
-		MCW_Puppet_Kings_Court
-		MCW_The_Wasteland
+		
 	# Ministers
 	# Political Laws
 		tno_political_parties_one_party_state

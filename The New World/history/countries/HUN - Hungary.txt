@@ -5,27 +5,13 @@ set_country_flag = GDP_regions
 
 # Vacant
 recruit_character = HUN_Generic_Vacant
-set_cosmetic_tag = HUN_kN
+
 oob = "HUN_1962"
 
 # Characters
 # Leaders
-recruit_character = HUN_Istvan_Horthy
-recruit_character = HUN_Janos_Kadar
-recruit_character = HUN_Peter_Veres
-recruit_character = HUN_Anna_Kethly
-recruit_character = HUN_Geza_Teleki
-recruit_character = HUN_Margit_Slachta
-recruit_character = HUN_Ferenc_Nagy
-recruit_character = HUN_Zoltan_Pfeiffer
-recruit_character = HUN_Miklos_Bonczos
-recruit_character = HUN_Bela_Imredy
-recruit_character = HUN_Andor_Jaross
-recruit_character = HUN_Ferenc_Szalasi
-recruit_character = HUN_Laszlo_Bardossy
-recruit_character = HUN_Fidel_Paffly
-recruit_character = HUN_Jozsef_Mindszenty
-recruit_character = HUN_Jeno_Ghyczy
+recruit_character = HUN_Istvan_Gyorkos
+
 
 # Ministers
 recruit_character = HUN_Lajos_Remenyi_Schneller
@@ -36,10 +22,7 @@ recruit_character = HUN_Vilmos_Nagy
 add_ideas = {
 	Stahlpakt_member
 	### <STARTING IDEAS> ###
-	HUN_Broken_Yoke
-	HUN_Transylvanian_Issue
-	HUN_Social_Upheaval
-	HUN_German_Fist
+	
 
 	### <MINISTERS> ###
 	HUN_Bela_Imredy_hog
@@ -97,7 +80,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = ultranationalism
 	last_election = "1961.9.12"
 	election_frequency = 96
 	elections_allowed = no
@@ -112,7 +95,7 @@ set_popularities = {
 	conservatism = 16
 	paternalism = 6
 	despotism = 11
-	fascism = 31
+	ultranationalism = 31
 	national_socialism = 16
 	national_socialism_1 = 9
 }

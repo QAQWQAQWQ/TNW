@@ -1245,7 +1245,7 @@ DEN_RK = {
 	color = rgb { 112 97 89 }
 	color_ui = rgb { 112 97 89 }
 }
-DEN_kingdom = {
+DEN_rp = {
 	color = rgb { 134 25 40 }
 	color_ui = rgb { 134 25 40 }
 }

@@ -13,6 +13,91 @@ characters = {
 		}
 	}
 
+	FRA_Jean_Pierre_Biondi = {
+		name = FRA_Jean_Pierre_Biondi
+		portraits = { civilian = { large = "" small = "GFX_idea_FRA_minister_Jean_Pierre_Biondi" } }
+		country_leader = {
+			desc = "POLITICS_JEAN_PIERRE_BIONDI_DESC"
+			ideology = socialist_1_subtype
+			expire = "2020.1.1.1"
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = FRA_minister_Jean_Pierre_Biondi_hog
+			allowed = { original_tag = FRS }
+			traits = { head_of_government }
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Gilles_Lemaire = {
+		name = FRA_Gilles_Lemaire
+		portraits = { civilian = { small = "GFX_idea_FRA_miniser_Gilles_Lemaire" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = FRA_miniser_Gilles_Lemaire_for
+			allowed = { original_tag = FRS }
+			traits = { foreign_minister }
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Dominique_Strauss_Kahn = {
+		name = FRA_Dominique_Strauss_Kahn
+		portraits = { civilian = { small = "GFX_idea_FRA_minister_Dominique_Strauss_Kahn" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = FRA_minister_Dominique_Strauss_Kahn_eco
+			allowed = { original_tag = FRS }
+			traits = { economy_minister }
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Jack_Lang = {
+		name = FRA_Jack_Lang
+		portraits = { civilian = { small = "GFX_idea_FRA_minister_Jack_lang" } }
+		advisor = {
+			slot = security_minister
+			idea_token = FRA_minister_Jack_lang_sec
+			allowed = { original_tag = FRS }
+			traits = { security_minister }
+			ledger = civilian
+			cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	FRA_Jean_Francois_Hory = {
+		name = FRA_Jean_Francois_Hory
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			expire = "2020.1.1.1"
+			ideology = progressivism_popular_front_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	FRA_Eric_Coquerel = {
+		name = FRA_Eric_Coquerel
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			expire = "2020.1.1.1"
+			ideology = liberalism_social_liberalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
 	
 
 

@@ -2,8 +2,12 @@ capital = 397
 
 # Vacant
 
-
-
+create_faction = West_Russian_Defense_and_Security_Pact
+add_to_faction = KOM
+add_to_faction = VYA
+add_to_faction = SPU
+add_to_faction = ARR
+add_to_faction = TAR
 set_country_flag = is_russian_nation
 
 if = {

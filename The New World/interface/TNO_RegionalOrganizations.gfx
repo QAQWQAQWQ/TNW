@@ -28,6 +28,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/regional_organizations_icon/GFX_RegionalOrganization_UN.dds"
 	}
 
+	spriteType = {
+		name = "GFX_RegionalOrganization_IOSC"
+		textureFile = "gfx/interface/regional_organizations_icon/GFX_RegionalOrganization_IOSC.dds"
+	}
+
 	####
 	spriteType = {
 		name = "GFX_RegionalOrganization_EU"
