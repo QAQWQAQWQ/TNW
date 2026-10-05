@@ -5,54 +5,12 @@ recruit_character = BUL_Generic_Vacant
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
-set_cosmetic_tag = BUL_Tz
+
 
 # Characters
 
-recruit_character = BUL_Boris_III
-recruit_character = BUL_Simeon_II
-recruit_character = BUL_Todor_Zhivkov
-recruit_character = BUL_Nikola_Petkov
-recruit_character = BUL_Petar_Dertliev
-recruit_character = BUL_Disorganized
-recruit_character = BUL_Kimon_Georgiev
-recruit_character = BUL_Hristo_Stoykov
-recruit_character = BUL_Todor_Zhekov
-recruit_character = BUL_Asen_Kantardzhiev
-recruit_character = BUL_Konstantin_Partov
-recruit_character = BUL_Stanislav_Balan
-recruit_character = BUL_Petar_Aladzhov
-recruit_character = BUL_Vasil_Boydev
-recruit_character = BUL_Konstantin_Stoyanov
-recruit_character = BUL_Stefan_Klechkov
-recruit_character = BUL_Vladimir_Stoychev
 recruit_character = BUL_Ivan_Dochev
-recruit_character = BUL_Ilya_Minev
-recruit_character = BUL_Dimitar_Valchev
-recruit_character = BUL_Lyuben_Kostov
-recruit_character = BUL_Petar_Gabrovski
-recruit_character = BUL_Ivan_Gyoshev
-recruit_character = BUL_Alexandar_Belev
-recruit_character = BUL_Zmey_Goryanin
-recruit_character = BUL_Dimitar_Peshev
-recruit_character = BUL_Petar_Uvaliev
-recruit_character = BUL_Jordan_Sevov
-recruit_character = BUL_Stefan_Popov
-recruit_character = BUL_Rafail_Zhechev
-recruit_character = BUL_Stefan_Savov
-recruit_character = BUL_Stancho_Chokalov
-recruit_character = BUL_Dimo_Kamasov
-recruit_character = BUL_Gavril_Genov
-recruit_character = BUL_Krum_Lekarski
-recruit_character = BUL_Georgi_Mihov_Dimitrov
-recruit_character = BUL_Tsenko_Barev
-recruit_character = BUL_Milan_Drenchev
-recruit_character = BUL_Borislav_Baychev
-recruit_character = BUL_Stanko_Todorov
-recruit_character = BUL_Petar_Mladenov
-recruit_character = BUL_Alexandar_Lilov
-recruit_character = BUL_Dobri_Dzhurov
-recruit_character = BUL_Nikola_Geshev
+
 
 BUL_Kimon_Georgiev = {
 	promote_character = paternalism_left_wing_corporatism_subtype
@@ -65,15 +23,8 @@ set_air_oob = "BUL_1962_air"
 add_ideas = {
 	Stahlpakt_member
 	
-	BUL_Konstantin_Partov_hog
-	BUL_Stanislav_Balan_for
-	BUL_Petar_Aladzhov_eco
-	BUL_Vasil_Boydev_sec
 	
-	BUL_rusting_sword_of_damocles
-	BUL_king_of_rubies_without_shine
-	BUL_empires_cradle_now_a_grave
-	BUL_endless_roots_of_radicals
+	
 
 	### POLITICAL LAWS ###
 	tno_political_parties_one_party_state
@@ -194,20 +145,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = ultranationalism
 	last_election = "1931.6.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 5
-	socialist = 7
-	progressivism = 3
-	paternalism = 13
-	despotism = 55
-	fascism = 12
-	national_socialism = 5
+	ultranationalism = 100
 }
 
 #econtype

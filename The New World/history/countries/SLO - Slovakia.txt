@@ -4,19 +4,7 @@ load_focus_tree = ZZZ_national_focus
 recruit_character = SLO_Generic_Vacant
 
 # Characters
-recruit_character = SLO_Jozef_Tiso
-recruit_character = SLO_Stefan_Tiso
-recruit_character = SLO_Pavol_Carnogursky
-recruit_character = SLO_Augustin_Malar
-recruit_character = SLO_Peter_Zatko
-recruit_character = SLO_Imrich_Karvas
-recruit_character = SLO_Karol_Sidor
-recruit_character = SLO_Tido_J_Gaspar
-recruit_character = SLO_Ferdinand_Catlos
-recruit_character = SLO_Alexander_Mach
-recruit_character = SLO_Jan_Nalepka
-recruit_character = SLO_Martin_Dzur
-recruit_character = SLO_Jan_Golian
+recruit_character = SLO_Rudolf_Schuster
 
 
 oob = "SLO_1962"
@@ -27,8 +15,7 @@ add_ideas = {
 	###FACTION###
 	Stahlpakt_member
 	###SPIRITS###
-	SLO_Chained_Minds
-	SLO_Political_Tensions
+	
 	# SLO_Agitated_Workers
 	SLO_Uncompetitive_Economy
 	##POLITICAL LAWS##
@@ -248,7 +235,7 @@ set_technology = {
 set_grand_doctrine = strategic_theorem
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
