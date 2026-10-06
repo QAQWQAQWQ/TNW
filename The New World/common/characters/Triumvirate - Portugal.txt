@@ -1,0 +1,20 @@
+characters = {
+   
+
+	POR_Morreu_Adriano_Moreira = {
+		name = POR_Morreu_Adriano_Moreira
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/Portrait_POR_Morreu_Adriano_Moreira.png"
+				
+			}
+		}
+		country_leader = { 
+			desc = "POLITICS_Morreu_Adriano_Moreira_DESC"
+			ideology = conservatism_subtype
+			expire = "2020.10.20"
+			id = -1
+		}
+	}
+
+	}

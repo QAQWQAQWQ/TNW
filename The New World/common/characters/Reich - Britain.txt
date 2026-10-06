@@ -1,4 +1,19 @@
 characters = {
+
+	###NEW ENGLAND###
+	ENG_Timothy_Kitson = {
+		name = ENG_Timothy_Kitson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/Portrait_Britain_Timothy_Kitson.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TIMOTHY_KITSON_DESC"
+			expire = "1994.4.20"
+			ideology = conservatism_Onenation_conservatism_subtype
+		}
+	}
 	######################################## LEADERS AND MINISTERS ##########################################################
 
 	####Collab####
@@ -204,7 +219,6 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LIAM_FOX_DESC"
-			ideology = conservatism_free_market_conservatism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -222,6 +236,11 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+
+
+
+
+	
 
 	
 }

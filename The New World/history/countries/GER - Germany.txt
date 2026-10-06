@@ -539,22 +539,17 @@ add_to_faction = BSQ
 add_to_faction = CTL
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }
-set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }
-set_autonomy = { target = GGN autonomy_state = autonomy_integrated_reichskommissariat }
-set_autonomy = { target = HOL autonomy_state = autonomy_integrated_reichskommissariat }
+
 set_autonomy = { target = MCW autonomy_state = autonomy_autonomous_reichskommissariat }
 set_autonomy = { target = GRO autonomy_state = autonomy_autonomous_reichskommissariat }
-set_autonomy = { target = NOR autonomy_state = autonomy_autonomous_reichskommissariat }
+
 set_autonomy = { target = OST autonomy_state = autonomy_integrated_reichskommissariat }
-set_autonomy = { target = SER autonomy_state = autonomy_collaborator_puppet_state }
+
 set_autonomy = { target = SLO autonomy_state = autonomy_collaborator_puppet_state }
 set_autonomy = { target = UKR autonomy_state = autonomy_integrated_reichskommissariat }
 
-NOR = { set_cosmetic_tag = NOR_GER }
-SER = { set_cosmetic_tag = SER_GER }
-COG = { set_cosmetic_tag = COG_GER }
-ANG = { set_cosmetic_tag = ANG_GER }
-GRO = { set_cosmetic_tag = GRO_GER }
+
+
 
 ## POLITICS
 set_politics = {

@@ -10,12 +10,12 @@ set_stability = 0.5
 
 ###Playable
 set_country_flag = tno_playable_country
-set_cosmetic_tag = POR_POR
+
 
 oob = "POR_1962"
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = conservatism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -39,11 +39,7 @@ inherit_technology = IBR
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }
 set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
 
-recruit_character = POR_Antonio_Salazar
-recruit_character = POR_Pedro_Pereira
-recruit_character = POR_Manuel_Gomes_de_Araujo
-recruit_character = POR_Marcello_Mathias
-recruit_character = POR_Ulisses_Cortes
+recruit_character = POR_Morreu_Adriano_Moreira
 add_ideas = {
 	#political#
 	tno_political_parties_one_party_state

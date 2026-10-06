@@ -4,6 +4,8 @@ set_cosmetic_tag = ENG_kingdom
 set_country_flag = GDP_regions
 
 set_naval_oob = "ENG_1962_naval"
+##NEW LEADERS##
+recruit_character = ENG_Timothy_Kitson
 # Country leaders
 recruit_character = ENG_George_VII
 recruit_character = ENG_Kenneth_Clarke
@@ -444,7 +446,7 @@ set_variable = { TNO_economy_subtype = token:Econ_Subtype_Corporate_Oligopoly }
 set_variable = { economic_centralization = 75 }
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = conservatism
 	last_election = "1961.11.14"
 	election_frequency = 60
 	elections_allowed = no

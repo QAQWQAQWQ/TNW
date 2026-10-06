@@ -1,13 +1,11 @@
 capital = 109
 load_focus_tree = ZZZ_national_focus
 # Vacant
-set_cosmetic_tag = CRO_KING
+
 recruit_character = CRO_Generic_Vacant
 fill_empty_minister_nochecks = yes
 
-recruit_character = CRO_Tomislav_II
-recruit_character = CRO_Jure_Francetic
-recruit_character = CRO_Josip_Broz_Tito
+
 recruit_character = CRO_Zvonimir_II
 
 oob = "CRO_1962"
@@ -21,10 +19,7 @@ set_variable = {
 
 add_ideas = {
 	Stahlpakt_member
-	CRO_the_partisan_problem
-	CRO_bosnian_autonomy
-	CRO_the_sham_kingdom
-	CRO_legacy_of_the_ustase
+	
 
 	#political#
 	tno_political_parties_controlled_opposition
@@ -120,7 +115,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

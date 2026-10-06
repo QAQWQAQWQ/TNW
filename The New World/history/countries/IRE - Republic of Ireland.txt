@@ -286,56 +286,18 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 5
-	socialist = 4
-	progressivism = 11
-	liberal_conservatism = 20
-	conservatism = 12
-	paternalism_2 = 8
-	paternalism = 26
-	despotism = 12
-	fascism = 2
+	paternalism = 100
 }
 
 IRE_SE_MOG_start = yes
 
-recruit_character = IRE_Sean_Lemass
-recruit_character = IRE_Seamus_Twomey
-recruit_character = IRE_Jack_Lynch
 recruit_character = IRE_Charles_Haughey
-recruit_character = IRE_James_Dillon
-recruit_character = IRE_Liam_Cosgrave
-recruit_character = IRE_Brendan_Corish
-recruit_character = IRE_REDACTED
-recruit_character = IRE_Unknown
-recruit_character = IRE_Neil_Blaney
-recruit_character = IRE_Oliver_James_Flanagan
-recruit_character = IRE_Sean_MacEoin
-recruit_character = IRE_Cathal_Goulding
-recruit_character = IRE_Ruairi_O_Bradaigh
-recruit_character = IRE_Sean_Francis_MacEntee
-recruit_character = IRE_Kevin_Boland
-recruit_character = IRE_George_Colley
-recruit_character = IRE_Donough_Brendan_O_Malley
-recruit_character = IRE_Frank_Aiken
-recruit_character = IRE_Pat_Quinlan
-recruit_character = IRE_Carl_O_Sullivan
-recruit_character = IRE_Thomas_McKenna
-recruit_character = IRE_William_O_Callaghan
-recruit_character = IRE_Irish_Naval_Service
-recruit_character = IRE_Irish_Air_Corps
-recruit_character = IRE_Defence_Forces_Training_Centre
+
 
 add_ideas = {
-	IRE_humiliation_of_a_giant
-	IRE_not_much_to_gain_mr_hitler
-	IRE_little_wehrmacht
 	
-	IRE_Sean_Francis_MacEntee_hog
-	IRE_Frank_Aiken_for
-	IRE_Jack_Lynch_eco
-	IRE_Charles_Haughey_sec
-
+	
+	
 	#High Command
 	IRE_Pat_Quinlan_high_command
 	IRE_Carl_O_Sullivan_high_command

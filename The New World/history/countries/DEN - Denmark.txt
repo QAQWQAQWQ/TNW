@@ -4,24 +4,7 @@ load_focus_tree = ZZZ_national_focus
 recruit_character = DEN_Generic_Vacant
 
 # Country Leaders
-recruit_character = DEN_Werner_Best
-recruit_character = DEN_Hermann_von_Hanneken
-recruit_character = DEN_Knud_Borge_Martinsen
-recruit_character = DEN_Carl_Popp_Madsen
-recruit_character = DEN_Nils_Svenningsen
-recruit_character = DEN_Erik_Eriksen
-recruit_character = DEN_Jens_Otto_Krag
-recruit_character = DEN_Occupational_Authorities
-recruit_character = DEN_Gustav_Meissner
-
-# Ministers
-recruit_character = DEN_Georg_Ferdinand_Duckwitz
-recruit_character = DEN_Axel_Gunnar_Larsen
-
-# Generals and Admirals
-recruit_character = DEN_Gunther_Pancke
-recruit_character = DEN_Erhard_Qvistgaard
-recruit_character = DEN_Jorgen_Hviid
+recruit_character = DEN_Gert_Petersen
 
 oob = "DEN_1962"
 set_naval_oob = "DEN_1962_naval"
@@ -31,14 +14,9 @@ add_ideas = {
 	#Faction
 	Stahlpakt_member
 	#Spirits
-	DEN_permanent_secretaries
-	DEN_agrarian_economy
-	DEN_threat_from_silkeborg
+	
 	#Ministers
-	DEN_Nils_Svenningsen_hog
-	DEN_Axel_Gunnar_Larsen_eco
-	DEN_Hermann_von_Hanneken_sec
-	DEN_Georg_Ferdinand_Duckwitz_for
+	
 	### POLITICAL LAWS ###
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion
@@ -176,24 +154,14 @@ set_technology = {
 set_grand_doctrine = strategic_theorem
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = progressivism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 0
-	socialist = 0
-	progressivism = 12
-	liberalism = 7
-
-	conservatism = 5
-	paternalism = 33
-	despotism = 8
-	fascism = 12
-	national_socialism = 23
-	ultranationalism = 0
+	progressivism = 100
 	
 }
 

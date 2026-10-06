@@ -26,4 +26,38 @@
  BUL: "保加利亚沙皇国"
  BUL_DEF: "保加利亚沙皇国"
  BUL_ADJ: "保加利亚"
+
+ ##Finland
+ FIN_Timo_Soini: "蒂莫·索伊尼"
+ FIN_ultranationalism_party: "芬兰人党"
+ FIN_ultranationalism_party_long: "芬兰人党"
+
+ ##Albania
+ ALB_Adem_Demaci: "阿德姆·德马奇"
+ ALB_paternalism_party: "议会党"
+ ALB_paternalism_party_long: "议会党"
+
+ ##Norway
+ NOR: "挪威国"
+ NOR_DEF: "挪威国"
+ NOR_ADJ: "挪威"
+ NOR_Tore_Tvedt: "托尔·特韦特"
+
+ ##portugal
+ POR_Morreu_Adriano_Moreira: "阿德里亚诺·莫雷拉"
+ POR: "葡萄牙共和国"
+ POR_DEF: "葡萄牙共和国"
+ POR_ADJ: "葡萄牙"
+ POR_conservatism_party: "人民党"
+ POR_conservatism_party_long: "人民党"
+
+ ##croatia
+ CRO: "克罗地亚王国"
+ CRO_DEF: "克罗地亚王国"
+ CRO_ADJ: "克罗地亚"
  
+ ###Denmark
+ DEN_Gert_Petersen: "格特·彼得森"
+ DEN_progressivism_party: "国家社会主义人民党"
+ DEN_progressivism_party_long: "国家社会主义人民党"
+
