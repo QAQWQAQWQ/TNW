@@ -280,4 +280,36 @@ scripted_gui = {
 			}
 		}
 	}
+
+	TNO_CHI_Popup_GUI_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_CHI_Popup_GUI_open"
+
+		visible = {
+			tag = CHI
+		}
+
+		effects = {
+			CHI_popup_Open_Button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = CHI_popup_open_flag } }
+					set_country_flag = CHI_popup_open_flag
+				}
+				else_if = {
+					limit = { has_country_flag = CHI_popup_open_flag }
+					clr_country_flag = CHI_popup_open_flag
+				}
+			}
+		}
+	}
+
+	TNO_CHI_Popup_GUI_main = {
+		context_type = player_context
+		window_name = "TNO_CHI_Popup_GUI_main"
+
+		visible = {
+			has_country_flag = CHI_popup_open_flag
+		}
+	}
 }

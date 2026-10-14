@@ -429,5 +429,36 @@ guiTypes = {
 			pdx_tooltip_delayed = YUN_WI_momentum_tick_tt2
 		}
 	}
+
+	#CHI Popup GUI - open button (displayed in the politics tab)
+	containerWindowType = {
+		name = "TNO_CHI_Popup_GUI_open"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "CHI_popup_Open_Button"
+			quadTextureSprite = "GFX_CHI_gui_open_button"
+			position = { x = 238 y = 41 }
+			scale = 0.8
+			pdx_tooltip = CHI_popup_open_button_tt
+		}
+	}
+
+	#CHI Popup GUI - main popup window (tiles_dialog background, empty, same size as USA voting GUI 1133x838)
+	containerWindowType = {
+		name = "TNO_CHI_Popup_GUI_main"
+		size = { width = 1133 height = 838 }
+		orientation = center
+		position = { x = -566 y = -419 }
+		moveable = yes
+		click_to_front = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHI_popup_dialog_bg"
+		}
+	}
 }
 

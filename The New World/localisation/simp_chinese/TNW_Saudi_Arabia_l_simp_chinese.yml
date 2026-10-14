@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+ SAU_Fahd_bin_Abdulaziz_Al_Saud: "法赫德·本·阿卜杜勒-阿齐兹·阿勒沙特"
+ 
  SAU_Saud_bin_Abdulaziz: "沙特·本·阿卜杜勒-阿齐兹"
  SAU_Faisal_bin_Abdulaziz_al_Saud: "费萨尔·本·阿卜杜勒-阿齐兹·阿勒沙特"
  SAU_Talal_Al_Saud: "塔拉勒·本·阿卜杜勒-阿齐兹·阿勒沙特"
@@ -25,8 +27,8 @@
  SAU_conservatism_party_long: "自由头巾运动 - 右派(Harakat al-'Amra al-'Ahrar - Right Wing)"
  SAU_paternalism_party: "沙特王室 - 改革派"
  SAU_paternalism_party_long: "沙特王室 - 改革派(al-'Usra al-Su'ūd - Reformist Wing)"
- SAU_despotism_party: "沙特王室 - 传统派"
- SAU_despotism_party_long: "沙特王室 - 传统派(al-'Usra al-Su'ūd - Traditionalist Wing)"
+ SAU_despotism_party: "沙特王室"
+ SAU_despotism_party_long: "沙特王室(al-'Usra al-Su'ūd)"
  SAU_fascism_party: "阿拉伯半岛伊斯兰革命组织"
  SAU_fascism_party_long: "阿拉伯半岛伊斯兰革命组织(Munazamat ath-Thawrah al-Islamīyah fi al-Jazīrah al-'Arabīyah)"
  SAU_ultranationalism_party: "伊赫万"

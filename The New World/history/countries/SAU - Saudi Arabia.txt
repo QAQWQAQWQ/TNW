@@ -62,10 +62,7 @@ add_ideas = {
 	tno_research_facilities_outdated
 	tno_academic_base_basic_literacy
 	## ideas
-	SAU_defenders_of_the_umma
-	SAU_salafi_ascendancy
-	SAU_kingdom_of_black_gold
-	SAU_ARCO_ENI_memorandum_of_understanding
+	
 	## Faction
 	TRI_Observer
 }
@@ -225,7 +222,7 @@ set_popularities = {
 
 #Characters
 
-recruit_character = SAU_Saud_bin_Abdulaziz
+recruit_character = SAU_Fahd_bin_Abdulaziz_Al_Saud
 recruit_character = SAU_Faisal_bin_Abdulaziz_al_Saud
 recruit_character = SAU_Talal_Al_Saud
 recruit_character = SAU_Italo_Balbo_Ruler_Of_Arabia

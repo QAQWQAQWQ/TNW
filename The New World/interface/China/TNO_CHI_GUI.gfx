@@ -172,4 +172,11 @@ spriteTypes = {
 		name = "GFX_CHI_sa_weapon"
 		texturefile = "gfx/interface/chi_gui/CHI_sa_img_weaponry.dds"
 	}
+	### CHI POPUP GUI ###
+	corneredTileSpriteType = {
+		name = "GFX_CHI_popup_dialog_bg"
+		size = { x = 1133 y = 838 }
+		textureFile = "gfx/interface/tiles/tiles_dialog.dds"
+		borderSize = { x = 32 y = 32 }
+	}
 }

@@ -1,0 +1,8 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_CHI_gui_open_button"
+		texturefile = "gfx/interface/china_gui/CHI_gui_open_button.png"
+	}
+	
+
+}

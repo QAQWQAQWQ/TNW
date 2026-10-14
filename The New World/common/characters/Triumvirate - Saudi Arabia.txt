@@ -1,5 +1,20 @@
 characters = {
 	# Country leaders #
+	SAU_Fahd_bin_Abdulaziz_Al_Saud = {
+		name = SAU_Fahd_bin_Abdulaziz_Al_Saud
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAU/Portrait_SAU_Fahd_bin_Abdulaziz_Al_Saud.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FAHD_DESC"
+			expire = "2020.1.1"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { }
+			id = -1
+		}
+	}
 	SAU_Saud_bin_Abdulaziz = {
 		name = SAU_Saud_bin_Abdulaziz
 		portraits = {
