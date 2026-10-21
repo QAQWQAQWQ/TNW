@@ -894,13 +894,13 @@ UTL = {
 ## Central Africa ##
 
 COG = {
-	color = rgb { 124 131 165 }
-	color_ui = rgb { 124 131 165 }
+	color = rgb { 116 140 155 }
+	color_ui = rgb { 116 140 155 }
 }
 
 GAB = {
-	color = rgb { 11 113 196 }
-	color_ui = rgb { 11 113 196 }
+	color = rgb { 117 147 160 }
+	color_ui = rgb { 117 147 160 }
 }
 SAO = {
 	color = rgb { 247 182 91 }
@@ -1249,6 +1249,14 @@ WFR = {
 	color = rgb { 64 88 134 }
 	color_ui = rgb { 64 88 134 }
 }
+
+TGO = {
+	color = rgb { 147 109 96 }
+	color_ui = rgb { 147 109 96 }
+}
+
+
+
 MLI = {
 	color = rgb { 150 130 90 }
 	color_ui = rgb { 150 130 90 }
@@ -1278,8 +1286,8 @@ ZAR = {
 	color_ui = rgb { 84 68 34 }
 }
 NGR = {
-	color = rgb { 225 112 0 }
-	color_ui = rgb { 225 112 0 }
+	color = rgb { 140 105 85 }
+	color_ui = rgb { 140 105 85 }
 }
 SWB = {
 	color = rgb { 125 41 29 }
@@ -1534,8 +1542,8 @@ KBY = {
 	color_ui = rgb { 87 148 175 }
 }
 ALG = {
-	color = rgb { 166 162 166 }
-	color_ui = rgb { 166 162 166 }
+	color = rgb { 141 165 99 }
+	color_ui = rgb { 141 165 99 }
 }
 ILG = {
 	color = rgb { 124 154 112 }

@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = CAF
+		owner = GAB
 		add_core_of = GAB
 		set_state_flag = state_renamings
 

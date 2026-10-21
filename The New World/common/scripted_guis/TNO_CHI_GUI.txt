@@ -281,6 +281,11 @@ scripted_gui = {
 		}
 	}
 
+
+
+
+	################## THE IS FUCKING CHI GUI ##################↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
 	TNO_CHI_Popup_GUI_open = {
 		context_type = player_context
 		parent_window_token = politics_tab
@@ -295,6 +300,11 @@ scripted_gui = {
 				if = {
 					limit = { NOT = { has_country_flag = CHI_popup_open_flag } }
 					set_country_flag = CHI_popup_open_flag
+					# reset view to election on open
+					clr_country_flag = CHI_NA_leaders_view_flag
+					set_variable = { CHI_NA_election_switch_frame = 1 }
+					set_variable = { CHI_NA_leaders_switch_frame = 0 }
+					add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
 				}
 				else_if = {
 					limit = { has_country_flag = CHI_popup_open_flag }
@@ -307,9 +317,424 @@ scripted_gui = {
 	TNO_CHI_Popup_GUI_main = {
 		context_type = player_context
 		window_name = "TNO_CHI_Popup_GUI_main"
+		dirty = TNO_CHI_Popup_GUI_dirty
 
 		visible = {
 			has_country_flag = CHI_popup_open_flag
+		}
+
+		effects = {
+			CHI_popup_Close_Button_click = {
+				clr_country_flag = CHI_popup_open_flag
+			}
+			CHI_NA_election_switch_click = {
+				clr_country_flag = CHI_NA_leaders_view_flag
+				set_variable = { CHI_NA_election_switch_frame = 1 }
+				set_variable = { CHI_NA_leaders_switch_frame = 0 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_leaders_switch_click = {
+				set_country_flag = CHI_NA_leaders_view_flag
+				set_variable = { CHI_NA_election_switch_frame = 0 }
+				set_variable = { CHI_NA_leaders_switch_frame = 1 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_1_click = {
+				set_variable = { CHI_NA_selected_term = 1 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_2_click = {
+				set_variable = { CHI_NA_selected_term = 2 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_3_click = {
+				set_variable = { CHI_NA_selected_term = 3 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_4_click = {
+				set_variable = { CHI_NA_selected_term = 4 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_5_click = {
+				set_variable = { CHI_NA_selected_term = 5 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_6_click = {
+				set_variable = { CHI_NA_selected_term = 6 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_7_click = {
+				set_variable = { CHI_NA_selected_term = 7 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+			CHI_NA_term_button_8_click = {
+				set_variable = { CHI_NA_selected_term = 8 }
+				add_to_variable = { TNO_CHI_Popup_GUI_dirty = 1 }
+			}
+		}
+
+		triggers = {
+			CHI_NA_Candidate_No_1_window_bg_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_1_banner_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_1_portrait_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_1_border_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_2_window_bg_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_2_banner_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_2_portrait_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Candidate_No_2_border_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_National_Assembly_title_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_Seats_panel_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			CHI_NA_No_election_visible = {
+				hidden_trigger = {
+					NOT = { has_country_flag = CHI_NA_leaders_view_flag }
+				}
+			}
+			TNO_CHI_Popup_GUI_leaders_view_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_List_of_Presidential_Terms_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_Details_window_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_1_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_1_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_2_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_2_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_3_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_3_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_4_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_4_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_5_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_5_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_6_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_6_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_7_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_7_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_button_8_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_NA_term_text_8_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+				}
+			}
+			CHI_PR_President_Chen_Gongbo_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+				}
+			}
+			CHI_PR_President_Chen_Gongbo2_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+				}
+			}
+			CHI_PR_President_Zhou_Huaren_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+				}
+			}
+			CHI_PR_President_Lin_Bosheng_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+				}
+			}
+			CHI_PR_President_Yang_Xinghua_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+				}
+			}
+			CHI_PR_President_Chen_Guoqi_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+				}
+			}
+			CHI_PR_President_Chen_Chunpu_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+				}
+			}
+			CHI_PR_President_Luo_junqiang_img_visible = {
+				hidden_trigger = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+				}
+			}
+			#president info lines (one set per term, shown instantly when its term button is clicked)
+			CHI_NA_pres1_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+			}
+			CHI_NA_pres1_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+			}
+			CHI_NA_pres1_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+			}
+			CHI_NA_pres2_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+			}
+			CHI_NA_pres2_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+			}
+			CHI_NA_pres2_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+			}
+			CHI_NA_pres3_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+			}
+			CHI_NA_pres3_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+			}
+			CHI_NA_pres3_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+			}
+			CHI_NA_pres4_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+			}
+			CHI_NA_pres4_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+			}
+			CHI_NA_pres4_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+			}
+			CHI_NA_pres5_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+			}
+			CHI_NA_pres5_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+			}
+			CHI_NA_pres5_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+			}
+			CHI_NA_pres6_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+			}
+			CHI_NA_pres6_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+			}
+			CHI_NA_pres6_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+			}
+			CHI_NA_pres7_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+			}
+			CHI_NA_pres7_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+			}
+			CHI_NA_pres7_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+			}
+			CHI_NA_pres8_line1_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+			}
+			CHI_NA_pres8_line2_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+			}
+			CHI_NA_pres8_line3_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+			}
+			#term number label above portrait (one per term)
+			CHI_NA_pres1_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+			}
+			CHI_NA_pres2_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+			}
+			CHI_NA_pres3_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+			}
+			CHI_NA_pres4_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+			}
+			CHI_NA_pres5_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+			}
+			CHI_NA_pres6_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+			}
+			CHI_NA_pres7_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+			}
+			CHI_NA_pres8_term_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+			}
+			#tenure date label below faction line (one per term)
+			CHI_NA_pres1_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 1 }
+			}
+			CHI_NA_pres2_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 2 }
+			}
+			CHI_NA_pres3_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 3 }
+			}
+			CHI_NA_pres4_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 4 }
+			}
+			CHI_NA_pres5_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 5 }
+			}
+			CHI_NA_pres6_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 6 }
+			}
+			CHI_NA_pres7_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 7 }
+			}
+			CHI_NA_pres8_tenure_label_visible = {
+					has_country_flag = CHI_NA_leaders_view_flag
+					check_variable = { CHI_NA_selected_term = 8 }
+			}
 		}
 	}
 }

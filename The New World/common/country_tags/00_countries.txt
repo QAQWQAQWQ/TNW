@@ -386,6 +386,7 @@ JOL = "countries/Africa.txt"					# Casamance/Jola
 GNB = "countries/Africa.txt"					# Guinea-Bissau
 CPV = "countries/Africa.txt"					# Cabo Verde
 WFR = "countries/Africa.txt"
+TGO = "countries/Africa.txt"
 MLI = "countries/Africa.txt"					# Mali
 KAY = "countries/Africa.txt"					# Kayes Govenment
 IVO = "countries/Africa.txt"					# Ivory Coast

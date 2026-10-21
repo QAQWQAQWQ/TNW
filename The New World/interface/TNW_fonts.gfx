@@ -358,7 +358,7 @@ bitmapfonts = {
 
 			### Base Colors ###
 			W = { 255 255 255 } # White
-			B = { 47 138 135 }  # Blue
+			B = { 0 0 0 }  # Blue
 			G = { 133 234 142 } # Green
 			R = { 224 130 130 } # Red
 			g = { 176 176 176 } # Gray
@@ -1327,7 +1327,7 @@ bitmapfonts = {
 
 			### Base Colors ###
 			W = { 255 255 255 } # White
-			B = { 47 138 135 }  # Blue
+			B = { 0 0 0 }  # Blue
 			G = { 133 234 142 } # Green
 			R = { 224 130 130 } # Red
 			g = { 176 176 176 } # Gray

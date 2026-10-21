@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = WFR
+		owner = NGR
 		add_core_of = AYR
 		buildings = {
 			infrastructure = 1

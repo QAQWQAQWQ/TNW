@@ -3,6 +3,120 @@ SpriteTypes = {
 		name = "GFX_CHI_gui_open_button"
 		texturefile = "gfx/interface/china_gui/CHI_gui_open_button.png"
 	}
+
+
+	SpriteType = {
+		name = "GFX_CHI_gui_NA_candidate_border"
+		texturefile = "gfx/interface/china_gui/CHI_gui_NA_candidate_border.png"
+	}
+
+	SpriteType = {
+		name = "GFX_chi_NA_Candidate_Details_Window"
+		texturefile = "gfx/interface/china_gui/chi_NA_Candidate_Details_Window.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_NA_Candidate_No_1"
+		texturefile = "gfx/interface/china_gui/CHI_NA_Candidate_No_1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_NA_Candidate_No_2"
+		texturefile = "gfx/interface/china_gui/CHI_NA_Candidate_No_2.png"
+	}
+
+	##占位肖像↓
+
+	SpriteType = {
+		name = "GFX_Portrait_Mr_Placeholder_the_Third"
+		texturefile = "gfx/interface/china_gui/Portrait_Mr_Placeholder_the_Third.png"
+	}
+
+	##席位↓
+	SpriteType = {
+		name = "GFX_CHI_National_Assembly"
+		texturefile = "gfx/interface/china_gui/CHI_National_Assembly.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_NA_Seat"
+		texturefile = "gfx/interface/china_gui/CHI_NA_Seat.png"
+	}
+
+	##窗口↓
+	SpriteType = {
+		name = "GFX_CHI_National_Assembly_Window"
+		texturefile = "gfx/interface/china_gui/CHI_National_Assembly_Window.png"
+	}
+
+	#按钮↓
+	SpriteType = {
+		name = "GFX_CHI_NA_power_switch"
+		texturefile = "gfx/interface/china_gui/CHI_NA_power_switch.png"
+		noOfFrames = 2
+	}
+
+
+	SpriteType = {
+		name = "GFX_CHI_NA_List_of_Presidential_Terms"
+		texturefile = "gfx/interface/china_gui/CHI_NA_List_of_Presidential_Terms.png"
+	}
+
+
+	SpriteType = {
+		name = "GFX_CHI_NA_Details_window"
+		texturefile = "gfx/interface/china_gui/CHI_NA_Details_window.png"
+	}
+
+	##历任总统像↓
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Chen_Gongbo"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Chen_Gongbo.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Chen_Gongbo2"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Chen_Gongbo2.png"
+	}
+
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Zhou_Huaren"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Zhou_Huaren.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Lin_Bosheng"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Lin_Bosheng.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Yang_Xinghua"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Yang_Xinghua.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Chen_Guoqi"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Chen_Guoqi.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Chen_Chunpu"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Chen_Chunpu.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_PR_President_Luo_junqiang"
+		texturefile = "gfx/interface/china_gui/CHI_PR_President_Luo_junqiang.png"
+	}
+
+	#无选举↓
+	SpriteType = {
+		name = "GFX_CHI_NA_No_election"
+		texturefile = "gfx/interface/china_gui/CHI_NA_No_election.png"
+	}
+
+
 	
 
 }

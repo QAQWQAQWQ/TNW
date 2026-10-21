@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = KTG
+		owner = CFS
 		add_core_of = CFS
 		set_state_flag = universal_renamings
 

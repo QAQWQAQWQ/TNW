@@ -5,7 +5,7 @@ state = {
 	}
 
 	history = {
-		owner = CAF
+		owner = CHD
 		add_core_of = KNM
 		victory_points = { 4978 1 }
 		buildings = {

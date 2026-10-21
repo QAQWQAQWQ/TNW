@@ -2,15 +2,15 @@ state = {
 	id = 1164
 	name = "STATE_1164"
 	resources = {
-		oil = 8.000
-		uranium = 10.000
+		oil = 8
+		uranium = 10
 	}
 
 	history = {
 		victory_points = {
 			13912 1
 		}
-		owner = CAF
+		owner = GAB
 		add_core_of = GAB
 	}
 

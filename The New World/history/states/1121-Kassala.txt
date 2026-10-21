@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = EGY
+		owner = SDS
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 2

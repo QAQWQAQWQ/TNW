@@ -1,463 +1,840 @@
 guiTypes = {  
-	# LegYuan GUI
-	containerWindowType = {
-		name = "TNO_CHI_LegYuan_GUI"
-		size = { width = 482 height = 650 }
-		position = { x = 0 y = 0 }
 
-		iconType = {
-			name = "CHI_LegYuan_GUI_overview"
-			position = { x = 10 y = 20 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_overview"
-			#pdx_tooltip = CHI_LegYuan_GUI_desc
-			#scale = 0.9
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_info"
-			position = { x = 445 y = 72 }
-			quadTextureSprite = "GFX_Espionage_GUI_Button_Info"
-			pdx_tooltip = CHI_LegYuan_GUI_desc
-			scale = 0.8
-		}
-		iconType = {
-			name = "CHI_LegYuan_Japanophile_Influence"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_japanophile_Influence"
-			position = { x = 20 y = 41 }
-			pdx_tooltip = CHI_GUI_Influence_tt
-		}
-
-		iconType = {
-			name = "CHI_LegYuan_Reformist_Influence"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_reformist_Influence"
-			position = { x = 20 y = 41 }
-			pdx_tooltip = CHI_GUI_Influence_check_tt
-		}
-		instantTextboxType = {
-			name = "CHI_LegYuan_GUI_Japanophile_modifier"
-			position = { x = 150 y = 150 }
-			font = "aldrich_22_outline"
-			text = CHI_LegYuan_GUI_Japanophile_modifier_t
-		}
-
-		instantTextboxType = {
-			name = "CHI_LegYuan_GUI_Old_Guard_modifier"
-			position = { x = 150 y = 370 }
-			font = "aldrich_22_outline"
-			text = CHI_LegYuan_GUI_Old_Guard_modifier_t
-		}
-
-		instantTextboxType = {
-			name = "CHI_LegYuan_GUI_Reformist_modifier"
-			position = { x = 270 y = 150 }
-			font = "aldrich_22_outline"
-			text = CHI_LegYuan_GUI_Reformist_modifier_t
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_1"
-			position = { x = 142 y = 230 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
-			frame = 1
-			pdx_tooltip = CHI_LegYuan_GUI_Japanophile_desc
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_2"
-			position = { x = 145 y = 285 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
-			frame = 2
-			pdx_tooltip = CHI_LegYuan_GUI_Old_Guard_desc
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_3"
-			position = { x = 310 y = 230 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
-			frame = 3
-			pdx_tooltip = CHI_LegYuan_GUI_Reformist_desc
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_4"
-			position = { x = 305 y = 285 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
-			frame = 4
-			pdx_tooltip = CHI_LegYuan_GUI_NSB_desc
-		}
-		iconType = {
-			name = "CHI_LegYuan_Japanophile_interactions"
-			position = { x = 207 y = 225 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
-			frame = 1
-			pdx_tooltip = CHI_GUI_Japanophile_interactions_tt
-		}
-		iconType = {
-			name = "CHI_LegYuan_Old_Guard_interactions"
-			position = { x = 207 y = 280 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
-			frame = 2
-			pdx_tooltip = CHI_GUI_Old_Guard_interactions_tt
-		}
-		iconType = {
-			name = "CHI_LegYuan_Reformist_interactions"
-			position = { x = 256 y = 225 }
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
-			frame = 3
-			pdx_tooltip = CHI_GUI_Reformist_interactions_tt
-		}
-		iconType = {
-			name = "CHI_LegYuan_GUI_interaction_4"
-			position = { x = 260 y = 285 }
-			quadTextureSprite = "GFX_decision_generic_document_target"
-			#pdx_tooltip = CHI_LegYuan_GUI_Reformist_desc
-		}
-		iconType = {
-			name = "CHI_LegYuan_Japanophile_Opinion"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Japanophile_Opinion"
-			position = { x = 17 y = 116 }
-			pdx_tooltip = CHI_GUI_Japanophile_Opinion_tt
-		}
-		iconType = {
-			name = "CHI_LegYuan_Old_Guard_Opinion"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Oldguard_Opinion"
-			position = { x = 90 y = 116 }
-			pdx_tooltip = CHI_GUI_Old_Guard_Opinion_tt
-		}
-		iconType = {
-			name = "CHI_LegYuan_Reformist_Opinion"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Reformist_Opinion"
-			position = { x = 377 y = 116 }
-			pdx_tooltip = CHI_GUI_Reformist_Opinion_tt
-		}		
-		iconType = {
-			name = "CHI_LegYuan_NSB_Effectiveness"
-			quadTextureSprite = "GFX_CHI_LegYuan_GUI_NSB_Effectiveness"
-			position = { x = 449 y = 116 }
-			pdx_tooltip = CHI_GUI_NSB_effectiveness_tt
-		}
-		
-		instantTextboxType = {
-			name = "CHI_LegYuan_GUI_modifiers"
-			position = { x = 11 y = 575 }
-			font = "aldrich_20_outline"
-			text = CHI_LegYuan_GUI_modifiers_tt
-			maxWidth = 480
-		}
-
-		containerWindowType = {
-			name = "TNO_CHI_NSB_GUI"
-			size = { width = 482 height = 100 }
-			position = { x = 0 y = 470 }
-	
-			buttonType = {
-				name = "CHI_LegYuan_GUI_invest"
-				position = { x = 210 y = 40 }
-				quadTextureSprite ="GFX_Espionage_GUI_Button_Invest"
-				pdx_tooltip = CHI_LegYuan_GUI_invest_tt
-			}
-			buttonType = {
-				name = "CHI_LegYuan_GUI_decrease_pp"
-				quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetNeg"
-				position = { x = 70 y = 40 }
-			}
-			buttonType = {
-				name = "CHI_LegYuan_GUI_increase_pp"
-				quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetPos"
-				position = { x = 100 y = 40 }
-			}
-			instantTextBoxType = {
-				name = "CHI_LegYuan_GUI_pp"
-				position = { x = 10 y = 0 }
-				text = CHI_LegYuan_GUI_pp
-				font = "aldrich_20_outline"
-				maxWidth = 220
-				maxHeight = 25
-				pdx_tooltip = CHI_LegYuan_GUI_pp_tt
-			}
-			buttonType = {
-				name = "CHI_LegYuan_GUI_decrease_money"
-				quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetNeg"
-				position = { x = 380 y = 40 }
-			}
-			buttonType = {
-				name = "CHI_LegYuan_GUI_increase_money"
-				quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetPos"
-				position = { x = 410 y = 40 }
-			}
-			instantTextBoxType = {
-				name = "CHI_LegYuan_GUI_money"
-				position = { x = 350 y = 0 }
-				text = CHI_LegYuan_GUI_money
-				font = "aldrich_20_outline"
-				maxWidth = 220
-				maxHeight = 25
-				pdx_tooltip = CHI_LegYuan_GUI_money_tt
-			}
-		}
-	}
-
-	#Technology Modernisation GUI
-	containerWindowType = {
-		name = "TNO_CHI_Tech_GUI"
-		size = { width = 500 height = 400 }
-		position = { x = 0 y = 0 }
-				
-		instantTextboxType = {
-			name = "CHI_Tech_GUI_desc"
-			position = { x = 10 y = 0 }
-			font = "aldrich_18_outline"
-			text = CHI_Tech_GUI_desc
-			maxWidth = 481
-			maxHeight = 300
-			format = left
-		}
-
-		instantTextboxType = {
-			name = "CHI_GUI_Tech_innovation"
-			position = { x = 10 y = 140 }
-			font = "aldrich_32_outline"
-			text = CHI_GUI_Tech_innovation_tt
-			maxWidth = 480
-			maxHeight = 30
-			format = center
-		}	
-		iconType = {
-			name = "CHI_Tech_GUI_Innovation"
-			quadTextureSprite = "GFX_CHI_Modernisation_GUI"
-			position = { x = 25 y = 180 }
-		}
-		iconType = {
-			name = "CHI_Tech_GUI_frame"
-			spriteType = "GFX_CHI_Modernisation_GUI_frame"
-			position = { x = 25 y = 181 }
-			pdx_tooltip = CHI_GUI_Tech_innovation_desc_tt
-			pdx_tooltip_delayed = CHI_GUI_Tech_innovation_desc_delay_tt
-		}
-
-		instantTextboxType = {
-			name = "CHI_GUI_Tech_Self_Sufficiency"
-			position = { x = 10 y = 220 }
-			font = "aldrich_18_outline"
-			text = CHI_GUI_Tech_self_sufficiency_tt
-			maxWidth = 480
-			maxHeight = 70
-			format = left
-		}		
-
-	}
-
-	#Education Modernisation GUI
-	containerWindowType = {
-		name = "TNO_CHI_Edu_GUI"
-		size = { width = 500 height = 500 }
-		position = { x = 0 y = 0 }
-				
-		instantTextboxType = {
-			name = "CHI_Edu_GUI_desc"
-			position = { x = 10 y = 0 }
-			font = "aldrich_18_outline"
-			text = CHI_GUI_Edu_tt
-			maxWidth = 481
-			maxHeight = 300
-			format = left
-		}
-
-		instantTextboxType = {
-			name = "CHI_GUI_Edu_Modernisation"
-			position = { x = 10 y = 200 }
-			font = "aldrich_32_outline"
-			text = CHI_GUI_Edu_Modernisation_tt
-			maxWidth = 500
-			maxHeight = 30
-			format = center
-		}	
-		iconType = {
-			name = "CHI_Edu_GUI_Modernisation"
-			quadTextureSprite = "GFX_CHI_Modernisation_GUI"
-			position = { x = 25 y = 270 }
-		}
-		iconType = {
-			name = "CHI_Edu_GUI_frame"
-			spriteType = "GFX_CHI_Modernisation_GUI_frame"
-			position = { x = 25 y = 271 }
-			pdx_tooltip = CHI_GUI_Edu_Modernisation_desc_tt
-			pdx_tooltip_delayed = CHI_GUI_Edu_Modernisation_desc_delay_tt
-		}
-
-		instantTextboxType = {
-			name = "CHI_GUI_Edu_Efficiency"
-			position = { x = 10 y = 330 }
-			font = "aldrich_18_outline"
-			text = CHI_GUI_Edu_Efficiency_tt
-			maxWidth = 480
-			maxHeight = 70
-			format = left
-		}		
-	}
-	#Secret Army GUI
-	containerWindowType = {
-		name = "TNO_CHI_Secret_Army_GUI"
-		size = { width = 482 height = 400 }
-		position = { x = 0 y = 0 }
-
-		iconType = {
-			name = "CHI_Secret_Army_GUI_title"
-			quadTextureSprite = "GFX_CHI_sa_title"
-			position = { x = 20 y = 0 }
-			pdx_tooltip = CHI_Secret_Army_GUI_title_tt
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_recruitment"
-			quadTextureSprite = "GFX_CHI_sa_recruitment"
-			position = { x = 14 y = 93 }
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_training"
-			quadTextureSprite = "GFX_CHI_sa_training"
-			position = { x = 177 y = 93 }
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_weapon"
-			quadTextureSprite = "GFX_CHI_sa_weapon"
-			position = { x = 340 y = 93 }
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_recruitment_name_eng"
-			quadTextureSprite = "GFX_CHI_sa_section_2"
-			position = { x = 17 y = 205 }
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_recruitment_bar"
-			quadTextureSprite = "GFX_CHI_Secret_Army_GUI"
-			position = { x = 13 y = 188 }		
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_training_bar"
-			quadTextureSprite = "GFX_CHI_Secret_Army_GUI"
-			position = { x = 176 y = 188 }		
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_weapon_bar"
-			quadTextureSprite = "GFX_CHI_Secret_Army_GUI"
-			position = { x = 339 y = 188 }
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_recruitment_box"
-			quadTextureSprite = "GFX_CHI_sa_box"
-			position = { x = 11 y = 90 }
-			pdx_tooltip = CHI_Secret_Army_GUI_recruitment_bar_tt
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_training_box"
-			quadTextureSprite = "GFX_CHI_sa_box"
-			position = { x = 174 y = 90 }
-			pdx_tooltip = CHI_Secret_Army_GUI_training_bar_tt
-		}
-		iconType = {
-			name = "CHI_Secret_Army_GUI_weapon_box"
-			quadTextureSprite = "GFX_CHI_sa_box"
-			position = { x = 337 y = 90 }
-			pdx_tooltip = CHI_Secret_Army_GUI_weapon_bar_tt
-		}
-		instantTextboxType = {
-			name = "CHI_Secret_Army_GUI_decision_time_info"
-			position = { x = 10 y = 300 }
-			font = "aldrich_20_outline"
-			text = CHI_Secret_Army_GUI_decision_time_info_tt
-			maxWidth = 480
-			format = center
-		}	
-	}
-
-	containerWindowType = {
-		name = "TNO_CHI_WI_Warlord_GUI"
-		position = { x = 0 y = 0 }
-		size = { height = 740 width = 482 }
-
-		instantTextboxType = {
-			name = "CHI_WI_Warlord_GUI_info"
-			position = { x = 20 y = 0 }
-			text = CHI_WI_Warlord_influence
-			font = "aldrich_18_outline"
-			maxWidth = 480
-		}
-
-		iconType = {
-			name = "CHI_WI_Crusade_GUI_warlord_highlight"
-			position = { x = 90 y = 420 }
-			quadTextureSprite = "GFX_YUN_WI_Warlord_flag_selected_box"
-		}
-
-		buttonType = {
-			name = "CHI_WI_Warlord_GUI_XIK_button"
-			position = { x = 90 y = 420 }
-			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
-			frame = 1
-			pdx_tooltip = WI_XIK_info_tt
-		}
-#
-		buttonType = {
-			name = "CHI_WI_Warlord_GUI_GUX_button"
-			position = { x = 210 y = 420 }
-			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
-			frame = 2
-			pdx_tooltip = WI_GUX_info_tt
-		}
-#
-		buttonType = {
-			name = "CHI_WI_Warlord_GUI_SHX_button"
-			position = { x = 330 y = 420 }
-			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
-			frame = 3
-			pdx_tooltip = WI_SHX_info_tt
-		}
-		
-		instantTextboxType = {
-			name = "CHI_WI_Warlord_GUI_Selected_Warlord"
-			position = { x = 90 y = 490 }
-			font = "aldrich_20_outline"
-			text = "[GetWarlordName]"
-			maxWidth = 350
-		}
-		iconType = {
-			name = "CHI_WI_momentum_word"
-			position = { x = 200 y = 560 }
-			quadTextureSprite = "GFX_WI_momentum_title"
-			scale = 1.1
-		}
-		iconType = {
-			name = "CHI_WI_momentum_bar"
-			position = { x = 90 y = 640 }
-			quadTextureSprite = "GFX_WI_war_momentum"
-			pdx_tooltip = YUN_WI_momentum_tick_tt
-			pdx_tooltip_delayed = YUN_WI_momentum_tick_tt2
-		}
-	}
+	##↓↓↓↓ TNW CHINA  National Assembly GUI ↓↓↓↓
 
 	#CHI Popup GUI - open button (displayed in the politics tab)
 	containerWindowType = {
 		name = "TNO_CHI_Popup_GUI_open"
 		size = { width = 220 height = 128 }
-		position = { x = 0 y = 289 }
+		position = { x = 0 y = 285 }
 
 		buttonType = {
 			name = "CHI_popup_Open_Button"
 			quadTextureSprite = "GFX_CHI_gui_open_button"
 			position = { x = 238 y = 41 }
-			scale = 0.8
+			scale = 0.75
 			pdx_tooltip = CHI_popup_open_button_tt
 		}
 	}
 
-	#CHI Popup GUI - main popup window (tiles_dialog background, empty, same size as USA voting GUI 1133x838)
+	#CHI Popup GUI - main popup window (National Assembly window background, matches CHI_National_Assembly_Window.png 1169x866)
 	containerWindowType = {
 		name = "TNO_CHI_Popup_GUI_main"
-		size = { width = 1133 height = 838 }
+		size = { width = 1169 height = 866 }
 		orientation = center
-		position = { x = -566 y = -419 }
+		position = { x = -241 y = -40 }
 		moveable = yes
 		click_to_front = yes
 		clipping = no
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_CHI_popup_dialog_bg"
+			quadTextureSprite = "GFX_CHI_National_Assembly_Window"
+		}
+
+		#CHI Popup GUI - close button (top-right corner of the window)
+		buttonType = {
+			name = "CHI_popup_Close_Button"
+			quadTextureSprite = "GFX_closebutton_small"
+			position = { x = 1085 y = 30 }
+			size = { width = 80 height = 20 }
+			pdx_tooltip = CHI_popup_close_tt
+		}
+
+		#CHI Popup GUI - candidate 1 window (scaled to fit the popup, below the title bar)
+		containerWindowType = {
+			name = "TNO_CHI_Popup_GUI_candidate_1"
+			size = { width = 273 height = 351 }
+			position = { x = 40 y = 110 }
+			clipping = no
+
+			iconType = {
+				name = "CHI_NA_Candidate_No_1_window_bg"
+				quadTextureSprite = "GFX_chi_NA_Candidate_Details_Window"
+				position = { x = 0 y = 0 }
+				scale = 0.85
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_1_banner"
+				quadTextureSprite = "GFX_CHI_NA_Candidate_No_1"
+				position = { x = 7 y = 5 }
+				scale = 0.85
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_1_portrait"
+				quadTextureSprite = "GFX_Portrait_Mr_Placeholder_the_Third"
+				position = { x = 15 y = 48 }
+				scale = 0.68
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_1_border"
+				quadTextureSprite = "GFX_CHI_gui_NA_candidate_border"
+				position = { x = 3 y = 37 }
+				scale = 0.85
+			}
+		}
+
+		#CHI Popup GUI - candidate 2 window (scaled to fit the popup, below the title bar)
+		containerWindowType = {
+			name = "TNO_CHI_Popup_GUI_candidate_2"
+			size = { width = 273 height = 351 }
+			position = { x = 856 y = 110 }
+			clipping = no
+
+			iconType = {
+				name = "CHI_NA_Candidate_No_2_window_bg"
+				quadTextureSprite = "GFX_chi_NA_Candidate_Details_Window"
+				position = { x = 0 y = 0 }
+				scale = 0.85
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_2_banner"
+				quadTextureSprite = "GFX_CHI_NA_Candidate_No_2"
+				position = { x = 7 y = 5 }
+				scale = 0.85
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_2_portrait"
+				quadTextureSprite = "GFX_Portrait_Mr_Placeholder_the_Third"
+				position = { x = 15 y = 48 }
+				scale = 0.68
+			}
+			iconType = {
+				name = "CHI_NA_Candidate_No_2_border"
+				quadTextureSprite = "GFX_CHI_gui_NA_candidate_border"
+				position = { x = 3 y = 37 }
+				scale = 0.85
+			}
+		}
+
+		#CHI Popup GUI - National Assembly title (below the title bar, centered between the two candidate windows)
+		iconType = {
+			name = "CHI_National_Assembly_title"
+			quadTextureSprite = "GFX_CHI_National_Assembly"
+			position = { x = 397 y = 95 }
+			scale = 0.9
+		}
+		#CHI Popup GUI - National Assembly seats panel (below the title, centered between the two candidate windows)
+		iconType = {
+			name = "CHI_NA_Seats_panel"
+			quadTextureSprite = "GFX_CHI_NA_Seat"
+			position = { x = 366 y = 150 }
+			scale = 0.9
+		}
+		#CHI Popup GUI - no-election notice below the seats panel, centered
+		iconType = {
+			name = "CHI_NA_No_election"
+			quadTextureSprite = "GFX_CHI_NA_No_election"
+			position = { x = 58 y = 390 }
+			scale = 0.9
+		}
+
+		#CHI Popup GUI - view switch buttons (next to "我的電腦", tab-style: election / former leaders)
+		buttonType = {
+			name = "CHI_NA_election_switch"
+			quadTextureSprite = "GFX_CHI_NA_power_switch"
+			position = { x = 300 y = 788 }
+			frame = 0
+			pdx_tooltip = CHI_NA_election_switch_tt
+		}
+		buttonType = {
+			name = "CHI_NA_leaders_switch"
+			quadTextureSprite = "GFX_CHI_NA_power_switch"
+			position = { x = 575 y = 788 }
+			frame = 0
+			pdx_tooltip = CHI_NA_leaders_switch_tt
+		}
+		#CHI Popup GUI - text labels on the two switch buttons
+		instantTextboxType = {
+			name = "CHI_NA_election_switch_text"
+			position = { x = 300 y = 788 }
+			font = "fzwhjz_18"
+			text = "CHI_NA_election_switch_label"
+			maxWidth = 275
+			maxHeight = 59
+			format = centre
+			vertical_alignment = centre
+			
+		}
+		instantTextboxType = {
+			name = "CHI_NA_leaders_switch_text"
+			position = { x = 575 y = 788 }
+			font = "fzwhjz_18"
+			text = "CHI_NA_leaders_switch_label"
+			maxWidth = 275
+			maxHeight = 59
+			format = centre
+			vertical_alignment = centre
+			
+		}
+		#CHI Popup GUI - former presidents sub-window
+		containerWindowType = {
+			name = "TNO_CHI_Popup_GUI_leaders_view"
+			size = { width = 900 height = 600 }
+			position = { x = 120 y = 120 }
+
+			#CHI Popup GUI - list of presidential terms (left, tall)
+			iconType = {
+				name = "CHI_NA_List_of_Presidential_Terms"
+				quadTextureSprite = "GFX_CHI_NA_List_of_Presidential_Terms"
+				position = { x = -88 y = -7 }
+				scale = 1.0
+			}
+
+			#CHI Popup GUI - clickable term buttons stacked vertically inside the list (frame 0 of GFX_CHI_NA_power_switch as background)
+			buttonType = {
+				name = "CHI_NA_term_button_1"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 60 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_1"
+				position = { x = -58 y = 60 }
+				font = "fzwhjz_18"
+				text = "1948 -- 1954"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_2"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 131 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_2"
+				position = { x = -58 y = 131 }
+				font = "fzwhjz_18"
+				text = "1954 -- 1960"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_3"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 202 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_3"
+				position = { x = -58 y = 202 }
+				font = "fzwhjz_18"
+				text = "1960 -- 1966"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_4"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 273 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_4"
+				position = { x = -58 y = 273 }
+				font = "fzwhjz_18"
+				text = "1966 -- 1972"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_5"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 344 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_5"
+				position = { x = -58 y = 344 }
+				font = "fzwhjz_18"
+				text = "1970 -- 1972"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_6"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 415 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_6"
+				position = { x = -58 y = 415 }
+				font = "fzwhjz_18"
+				text = "1972 -- 1978"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_7"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 486 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_7"
+				position = { x = -58 y = 486 }
+				font = "fzwhjz_18"
+				text = "1978 -- 1984"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			buttonType = {
+				name = "CHI_NA_term_button_8"
+				quadTextureSprite = "GFX_CHI_NA_power_switch"
+				position = { x = -58 y = 557 }
+				scale = 1.0
+				frame = 0
+			}
+			instantTextboxType = {
+				name = "CHI_NA_term_text_8"
+				position = { x = -58 y = 557 }
+				font = "fzwhjz_18"
+				text = "1984 -- 1990"
+				maxWidth = 275
+				maxHeight = 59
+				format = centre
+				vertical_alignment = centre
+			}
+			#CHI Popup GUI - details window (right, wide)
+			iconType = {
+				name = "CHI_NA_Details_window"
+				quadTextureSprite = "GFX_CHI_NA_Details_window"
+				position = { x = 270 y = 91 }
+				scale = 1.2
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1948-1954 term, selected_term = 1)
+			iconType = {
+				name = "CHI_PR_President_Chen_Gongbo_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Chen_Gongbo"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1954-1960 term, selected_term = 2)
+			iconType = {
+				name = "CHI_PR_President_Chen_Gongbo2_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Chen_Gongbo2"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1960-1966 term, selected_term = 3)
+			iconType = {
+				name = "CHI_PR_President_Zhou_Huaren_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Zhou_Huaren"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1966-1972 term, selected_term = 4)
+			iconType = {
+				name = "CHI_PR_President_Lin_Bosheng_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Lin_Bosheng"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1978-1984 term, selected_term = 7)
+			iconType = {
+				name = "CHI_PR_President_Yang_Xinghua_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Yang_Xinghua"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1984-1990 term, selected_term = 8)
+			iconType = {
+				name = "CHI_PR_President_Chen_Guoqi_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Chen_Guoqi"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1970-1972 term, selected_term = 5)
+			iconType = {
+				name = "CHI_PR_President_Chen_Chunpu_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Chen_Chunpu"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+			#CHI Popup GUI - president portrait shown in the details window (1972-1978 term, selected_term = 6)
+			iconType = {
+				name = "CHI_PR_President_Luo_junqiang_img"
+				quadTextureSprite = "GFX_CHI_PR_President_Luo_junqiang"
+				position = { x = 320 y = 179 }
+				scale = 1.1
+			}
+
+			#CHI Popup GUI - term number label above the president portrait (one per term, shown/hidden with selected_term)
+			instantTextboxType = {
+				name = "CHI_NA_pres1_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_1"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres2_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_2"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres3_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_3"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres4_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_4"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres5_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_5"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres6_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_6"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres7_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_7"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres8_term_label"
+				position = { x = 328 y = 148 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "Presidential_Term_8"
+				maxWidth = 200
+				maxHeight = 40
+				format = centre
+				vertical_alignment = centre
+			}
+
+			#CHI Popup GUI - typing info lines beside the portrait (one set per term, revealed one line per day by on_daily_CHI)
+			#term 1: 1948-1954
+			instantTextboxType = {
+				name = "CHI_NA_pres1_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres1_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres1_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres1_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres1_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres1_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 2: 1954-1960
+			instantTextboxType = {
+				name = "CHI_NA_pres2_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres2_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres2_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres2_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres2_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres2_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 3: 1960-1966
+			instantTextboxType = {
+				name = "CHI_NA_pres3_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres3_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres3_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres3_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres3_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres3_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 4: 1966-1972
+			instantTextboxType = {
+				name = "CHI_NA_pres4_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres4_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres4_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres4_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres4_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres4_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 5: 1970-1972
+			instantTextboxType = {
+				name = "CHI_NA_pres5_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres5_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres5_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres5_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres5_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres5_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 6: 1972-1978
+			instantTextboxType = {
+				name = "CHI_NA_pres6_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres6_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres6_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres6_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres6_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres6_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 7: 1978-1984
+			instantTextboxType = {
+				name = "CHI_NA_pres7_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres7_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres7_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres7_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres7_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres7_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			#term 8: 1984-1990
+			instantTextboxType = {
+				name = "CHI_NA_pres8_line1"
+				position = { x = 530 y = 179 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres8_line1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres8_line2"
+				position = { x = 530 y = 221 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres8_line2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres8_line3"
+				position = { x = 530 y = 263 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_NA_pres8_line3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+
+			#CHI Popup GUI - tenure date label below faction line (one per term, shown/hidden with selected_term)
+			instantTextboxType = {
+				name = "CHI_NA_pres1_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_1"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres2_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_2"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres3_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_3"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres4_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_4"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres5_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_5"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres6_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_6"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres7_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_7"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
+			instantTextboxType = {
+				name = "CHI_NA_pres8_tenure_label"
+				position = { x = 530 y = 320 }
+				font = "aldrich_30_outline"
+				text_color_code = B
+				text = "CHI_Term_of_Office_8"
+				maxWidth = 340
+				maxHeight = 40
+				format = left
+				vertical_alignment = centre
+			}
 		}
 	}
 }

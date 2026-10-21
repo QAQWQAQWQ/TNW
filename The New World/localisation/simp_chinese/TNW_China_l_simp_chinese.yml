@@ -2469,4 +2469,63 @@
  GENERAL_PENG_MENGJI_DESC:0 "§L彭孟缉将军的军旅生涯能追溯到他在蒋中正手下的国民革命军中服役、参与东伐与北伐战争的时候。他在中日两国的炮兵学校中接受过中日合璧的军事教育，在第二次世界大战中，他在淞沪与长沙战场上英勇奋战，直到最终携其大部投靠改组政府。彭孟缉将军视异见者与革命者为威胁中国之稳定的存在，并以对付他们毫不留情而闻名。§!"
  GENERAL_CHEN_DAQING_DESC:0 "§L陈大庆将军的军旅生涯自他从黄埔军校以冠绝群雄的成绩毕业时便注定不凡。他参军入伍，在二战前和军阀与共产党人们打过数不清的仗，并因其能力出众被提拔到兵团指挥部。但当战争的天平向日本倾斜时，陈大庆将军选择投靠改组政府，而后迅速取得了如今的职位。§!"
  FIELD_MARSHAL_BAO_WENYUE_DESC:0 "§L军务部长鲍文樾自北京陆军大学毕业，并在向日本投降、投靠改组政府前，于二战中供职于军事委员会。战后，他被擢升至军务部长，并担任此职直到今天。§!"
- CHI_popup_open_button_tt:0 "打开中华民国的弹窗界面"
+ CHI_popup_open_button_tt:0 "点击此处打开国民大会"
+CHI_NA_power_switch_tt:0 "切换：选举界面 / 历任领导人界面"
+CHI_NA_election_switch_tt:0 "切换至国民大会选举界面"
+CHI_NA_leaders_switch_tt:0 "切换至历任总统界面"
+CHI_NA_election_switch_label:0 "國民大會"
+CHI_NA_leaders_switch_label:0 "历任总统"
+
+CHI_popup_close_tt:0 "关闭"
+
+
+
+CHI_NA_pres1_line1:0 "陈总统 公博先生"
+CHI_NA_pres1_line2:0 "党派：中国国民党"
+CHI_NA_pres1_line3:0 "派系：改组派"
+
+CHI_NA_pres2_line1:0 "陈总统 公博先生"
+CHI_NA_pres2_line2:0 "党派：中国国民党"
+CHI_NA_pres2_line3:0 "派系：改组派"
+
+CHI_NA_pres3_line1:0 "周总统 化人先生"
+CHI_NA_pres3_line2:0 "党派：中国国民党"
+CHI_NA_pres3_line3:0 "派系：改组派"
+
+CHI_NA_pres4_line1:0 "林总统 柏生先生"
+CHI_NA_pres4_line2:0 "党派：中国国民党"
+CHI_NA_pres4_line3:0 "派系：公馆派"
+
+CHI_NA_pres5_line1:0 "陈总统 春圃先生"
+CHI_NA_pres5_line2:0 "党派：中国国民党"
+CHI_NA_pres5_line3:0 "派系：公馆派"
+
+CHI_NA_pres6_line1:0 "罗总统 君强先生"
+CHI_NA_pres6_line2:0 "党派：中国国民党"
+CHI_NA_pres6_line3:0 "派系：新CC系"
+
+CHI_NA_pres7_line1:0 "杨总统 惺华先生"
+CHI_NA_pres7_line2:0 "党派：中国国民党"
+CHI_NA_pres7_line3:0 "派系：新CC系"
+
+CHI_NA_pres8_line1:0 "陈总统 国琦先生"
+CHI_NA_pres8_line2:0 "党派：中国国民党"
+CHI_NA_pres8_line3:0 "派系：公馆派"
+
+Presidential_Term_1: "第1任总统"
+Presidential_Term_2: "第2任总统"
+Presidential_Term_3: "第3任总统"
+Presidential_Term_4: "第4任总统"
+Presidential_Term_5: "第5任总统"
+Presidential_Term_6: "第6任总统"
+Presidential_Term_7: "第7任总统"
+Presidential_Term_8: "第8任总统"
+
+CHI_Term_of_Office_1:0 "任期起迄：民国三十七年 - 民国四十三年"
+CHI_Term_of_Office_2:0 "任期起迄：民国四十三年 - 民国四十九年"
+CHI_Term_of_Office_3:0 "任期起迄：民国四十九年 - 民国五十五年"
+CHI_Term_of_Office_4:0 "任期起迄：民国五十五年 - 民国六十一年"
+CHI_Term_of_Office_5:0 "任期起迄：民国五十九年 - 民国六十一年"
+CHI_Term_of_Office_6:0 "任期起迄：民国六十一年 - 民国六十七年"
+CHI_Term_of_Office_7:0 "任期起迄：民国六十七年 - 民国七十三年"
+CHI_Term_of_Office_8:0 "任期起迄：民国七十三年 - 民国七十九年"

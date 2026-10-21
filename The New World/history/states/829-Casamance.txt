@@ -4,7 +4,7 @@ state = {
 
 	history = {
 		add_core_of = WOL
-		owner = WOL
+		owner = MLI
 		victory_points = { 12834 1 }
 		buildings = {
 			infrastructure = 2

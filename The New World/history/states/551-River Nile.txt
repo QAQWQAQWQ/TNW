@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = EGY
+		owner = SDS
 		buildings = {
 			infrastructure = 2
 		}
@@ -20,7 +20,7 @@ state = {
 		victory_points = {
 			14221 3
 		}
-		add_core_of = EGY
+				add_core_of = EGY
 		set_state_flag = GDP_category_rural
 		set_state_flag = GDP_regions_sudan
 		set_state_flag = state_renamings
