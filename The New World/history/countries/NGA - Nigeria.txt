@@ -7,7 +7,7 @@ recruit_character = NGA_Yakubu_Gowon
 recruit_character = NGA_Akinola_Maja
 recruit_character = NGA_Nnamdi_Azikiwe
 set_cosmetic_tag = NGA_pr
-#oob = "NGA_1962"
+oob = "NGA_2002"
 declare_war_on = {
 	
 

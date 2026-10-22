@@ -1,0 +1,188 @@
+﻿division_template = {
+	name = "Oduduwa Military Force"
+	priority = 1
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+	}
+}
+division_template = {
+	name = "Oduduwa Armored Forces"
+	priority = 1
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 1 y = 0 }
+		APC = { x = 1 y = 1 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		MBT = { x = 3 y = 0 }
+		MBT = { x = 3 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Oduduwa Local Militia"
+	priority = 1
+	regiments = {
+		alt_light_infantry = {
+			x = 0
+			y = 0
+		}
+		light_infantry = {
+			x = 0
+			y = 1
+		}
+		light_infantry = {
+			x = 0
+			y = 2
+		}
+		light_infantry = {
+			x = 0
+			y = 3
+		}
+		light_infantry = {
+			x = 1
+			y = 0
+		}
+		light_infantry = {
+			x = 1
+			y = 1
+		}
+		light_infantry = {
+			x = 1
+			y = 2
+		}
+		alt_infantry = {
+			x = 1
+			y = 3
+		}
+		light_infantry = {
+			x = 0
+			y = 4
+		}
+	}
+}
+
+
+
+units = {
+
+	division = {
+		name = "1. Oduduwa Military Force"
+		location = 15218
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Oduduwa Military Force"
+		location = 14088
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Oduduwa Military Force"
+		location = 12817
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "4. Oduduwa Military Force"
+		location = 12900
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "5. Oduduwa Military Force"
+		location = 14015
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "6. Oduduwa Military Force"
+		location = 15218
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "7. Oduduwa Military Force"
+		location = 12817
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "8. Oduduwa Military Force"
+		location = 14088
+		division_template = "Oduduwa Military Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "1. Oduduwa Armored Forces"
+		location = 12900
+		division_template = "Oduduwa Armored Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "1. Oduduwa Local Militia"
+		location = 12900
+		division_template = "Oduduwa Local Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division = {
+		name = "2. Oduduwa Local Militia"
+		location = 12817
+		division_template = "Oduduwa Local Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+
+}

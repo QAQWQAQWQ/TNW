@@ -5,8 +5,10 @@ recruit_character = BFR_Odumegwu_Ojukwu
 # Vacant
 recruit_character = BFR_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-
-oob = "BFR_1962"
+create_faction = Opposition_Front
+add_to_faction = BFR
+add_to_faction = YOR
+oob = "BFR_2002"
  declare_war_on = {
 	target = NNG
 	type = annex_everything

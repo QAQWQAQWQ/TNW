@@ -1,0 +1,194 @@
+﻿division_template = {
+	name = "Biafran Infantry"
+	priority = 1
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+	}
+}
+
+division_template = {
+	name = "Biafran Armored Forces"
+	priority = 1
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 1 y = 0 }
+		APC = { x = 1 y = 1 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		MBT = { x = 3 y = 0 }
+		MBT = { x = 3 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Biafran Defense Forces"
+	priority = 1
+	regiments = {
+		elite_infantry = {
+			x = 0
+			y = 0
+		}
+		elite_infantry = {
+			x = 0
+			y = 1
+		}
+		elite_infantry = {
+			x = 0
+			y = 2
+		}
+		elite_infantry = {
+			x = 0
+			y = 3
+		}
+		elite_infantry = {
+			x = 1
+			y = 0
+		}
+		elite_infantry = {
+			x = 1
+			y = 1
+		}
+		elite_infantry = {
+			x = 1
+			y = 2
+		}
+		elite_infantry = {
+			x = 1
+			y = 3
+		}
+		elite_infantry = {
+			x = 0
+			y = 4
+		}
+		elite_infantry = {
+			x = 1
+			y = 4
+		}
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "1. Biafran Infantry"
+		location = 15429
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Biafran Infantry"
+		location = 15431
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Biafran Infantry"
+		location = 8034
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+
+	division = {
+		name = "4. Biafran Infantry"
+		location = 15438
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5. Biafran Infantry"
+		location = 15430
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6. Biafran Infantry"
+		location = 15280
+		division_template = "Biafran Infantry"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Biafran Armored Forces"
+		location = 15428
+		division_template = "Biafran Armored Forces"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Biafran Armored Forces"
+		location = 15434
+		division_template = "Biafran Armored Forces"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Biafran Armored Forces"
+		location = 15438
+		division_template = "Biafran Armored Forces"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Biafran Defense Forces"
+		location = 15430
+		division_template = "Biafran Defense Forces"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Biafran Defense Forces"
+		location = 14010
+		division_template = "Biafran Defense Forces"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Biafran Defense Forces"
+		location = 8430
+		division_template = "Biafran Defense Forces"
+		start_experience_factor = 0.1
+	}
+}
+	

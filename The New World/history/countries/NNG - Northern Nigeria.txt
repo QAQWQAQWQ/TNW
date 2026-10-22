@@ -6,7 +6,7 @@ fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 recruit_character = NNG_Zakariya_Maimalari
   declare_war_on = {
-	
+
 	target = YOR
 	type = annex_everything
 
@@ -19,7 +19,7 @@ declare_war_on = {
 	target = NGA
 	type = annex_everything	
 }
-#oob = "NNG_1962"
+oob = "NNG_2002"
 
 add_ideas = {
 ### POLITICAL LAWS ###

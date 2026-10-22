@@ -84,7 +84,7 @@ add_ideas = {
 	tno_admin_efficiency_deficient_administrative_systems
 }
 
-oob = "YOR_1962"
+oob = "YOR_2002"
 
 set_politics = {
 	ruling_party = despotism
