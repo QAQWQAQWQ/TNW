@@ -447,7 +447,6 @@ add_to_faction = CAF
 add_to_faction = MEX
 add_to_faction = EWE
 add_to_faction = ANG
-add_to_faction = NGA
 add_to_faction = CFS
 add_to_faction = ENG
 set_autonomy = {

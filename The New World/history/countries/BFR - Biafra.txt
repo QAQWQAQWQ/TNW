@@ -7,7 +7,13 @@ recruit_character = BFR_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 oob = "BFR_1962"
+ declare_war_on = {
+	target = NNG
+	type = annex_everything
 
+	target = NGA
+	type = annex_everything	
+}
 add_ideas = {
 	### POLITICAL LAWS ###
 	tno_political_parties_one_party_state

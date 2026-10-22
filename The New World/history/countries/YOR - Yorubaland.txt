@@ -13,7 +13,14 @@ recruit_character = YOR_Olu_Falae
 recruit_character = YOR_Mobolaji_Johnson
 recruit_character = YOR_Akintunde_Akinsehinwa
 recruit_character = YOR_Benjamin_Adekunle
-
+declare_war_on = {
+	target = NGA
+	type = annex_everything	
+}
+declare_war_on = {
+	target = NNG
+	type = annex_everything	
+}
 set_major = yes
 
 add_ideas = {

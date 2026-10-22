@@ -8,6 +8,21 @@ recruit_character = NGA_Akinola_Maja
 recruit_character = NGA_Nnamdi_Azikiwe
 set_cosmetic_tag = NGA_pr
 #oob = "NGA_1962"
+declare_war_on = {
+	
+
+	target = YOR
+	type = annex_everything
+
+	target = BFR
+	type = annex_everything
+
+	
+}
+declare_war_on = {
+	target = NNG
+	type = annex_everything	
+}
 
 add_ideas = {
 	#political#
