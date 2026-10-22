@@ -260,14 +260,14 @@ KOM = "countries/West Russia.txt"				# Komi
 TAR = "countries/West Russia.txt"				# Tatarstan
 TOM = "countries/Central Siberia.txt"			# Tomsk
 MAG = "countries/Far East.txt"					# Magadan
-SPU = "countries/SPU - Slavic Patriots Union.txt" # Slavic Patriots Union
-ARR = "countries/ARR - Aryan Reich.txt"		    # Aryan Reich
-VYA = "countries/VYA - Grand Duchy of Vyatka.txt"	# Grand Duchy of Vyatka
+SPU = "countries/West Russia.txt"				# Slavic Patriots Union
+ARR = "countries/West Russia.txt"				# Aryan Reich
+VYA = "countries/West Russia.txt"				# Grand Duchy of Vyatka
 
-NPS = "countries/NPS - New Polish State.txt"		# New Polish State
-ULF = "countries/ULF - Ural Federation.txt"		# Ural Federation
-SFR = "countries/SFR - Siberian Soviet Federal Republic.txt"	# Siberian Soviet Federal Republic
-RDS = "countries/RDS - Russian Divine State.txt"	# Russian Divine State
+NPS = "countries/West Russia.txt"				# New Polish State
+ULF = "countries/South Urals.txt"				# Ural Federation
+SFR = "countries/West Siberia.txt"				# Siberian Soviet Federal Republic
+RDS = "countries/Far East.txt"					# Russian Divine State
 
 # /// Kazakhstan /// #
 KAZ = "countries/Central Asia.txt"				# Kazakh SSR

@@ -2,12 +2,12 @@ state = {
 	id = 1094
 	name = "STATE_1094"
 	resources = {
-		uranium = 1.000
+		uranium = 1
 	}
 
 	history = {
-		owner = IEA
-		add_core_of = SML
+		owner = SML
+				add_core_of = SML
 		buildings = {
 			infrastructure = 1
 			air_base = 1

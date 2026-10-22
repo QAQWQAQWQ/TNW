@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1703"
 
 	history = {
-		owner = IEA
+		owner = ETH
 		add_core_of = ORM
 		buildings = {
 			infrastructure = 1

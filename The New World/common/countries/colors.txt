@@ -992,8 +992,8 @@ TOO = {
 	color_ui = rgb { 183 183 89 }
 }
 RWA = {
-	color = rgb { 67 143 0 }
-	color_ui = rgb { 67 143 0 }
+	color = rgb { 64 125 142 }
+	color_ui = rgb { 64 125 142 }
 }
 BRD = {
 	color = rgb { 67 86 91 }
@@ -1004,8 +1004,8 @@ LUO = {
 	color_ui = rgb { 92 96 87 }
 }
 TNZ = {
-	color = rgb { 93 147 116 }
-	color_ui = rgb { 93 147 116 }
+	color = rgb { 133 147 119 }
+	color_ui = rgb { 133 147 119 }
 }
 TND = {
 	color = rgb { 104 100 69 }
@@ -1024,8 +1024,8 @@ ZZS = {
 	color_ui = rgb { 96 81 96 }
 }
 ZAM = {
-	color = rgb { 150 102 167 }
-	color_ui = rgb { 150 102 167 }
+	color = rgb { 165 124 120 }
+	color_ui = rgb { 165 124 120 }
 }
 ZBO = {
 	color = rgb { 141 141 142 }
@@ -1060,8 +1060,8 @@ GZS = {
 	color_ui = rgb { 78 132 82 }
 }
 RMB = {
-	color = rgb { 127 0 0 }
-	color_ui = rgb { 127 0 0 }
+	color = rgb { 58 94 165 }
+	color_ui = rgb { 58 94 165 }
 }
 BMB = {
 	color = rgb { 188 157 124 }
@@ -1190,8 +1190,8 @@ SFG = {
 ## Southwest Africa ##
 
 ANG = {
-	color = rgb { 193 94 94 }
-	color_ui = rgb { 193 94 94 }
+	color = rgb { 139 147 119 }
+	color_ui = rgb { 139 147 119 }
 }
 RSL = {
 	color = rgb { 122 122 130 }
@@ -1251,8 +1251,8 @@ WFR = {
 }
 
 TGO = {
-	color = rgb { 147 109 96 }
-	color_ui = rgb { 147 109 96 }
+	color = rgb { 156 120 96 }
+	color_ui = rgb { 156 120 96 }
 }
 
 
@@ -1289,6 +1289,7 @@ NGR = {
 	color = rgb { 140 105 85 }
 	color_ui = rgb { 140 105 85 }
 }
+
 SWB = {
 	color = rgb { 125 41 29 }
 	color_ui = rgb { 125 41 29 }
@@ -1325,16 +1326,16 @@ AZW = {
 }
 
 YOR = {
-	color = rgb { 120 100 130 }
-	color_ui = rgb { 120 100 130 }
+	color = rgb { 160 89 90 }
+	color_ui = rgb { 160 89 90 }
 }
 BFR = {
-	color = rgb { 147 49 25 }
-	color_ui = rgb { 147 49 25 }
+	color = rgb { 21 54 89 }
+	color_ui = rgb { 21 54 89 }
 }
 NNG = {
-	color = rgb { 59 73 94 }
-	color_ui = rgb { 59 73 94 }
+	color = rgb { 42 102 89 }
+	color_ui = rgb { 42 102 89 }
 }
 NGA = {
 	color = rgb { 98 119 94 }

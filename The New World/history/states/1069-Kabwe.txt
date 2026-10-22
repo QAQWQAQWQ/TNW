@@ -2,11 +2,11 @@ state = {
 	id = 1069
 	name = "STATE_1069"
 	resources = {
-		chromium = 7.000
+		chromium = 7
 	}
 
 	history = {
-		owner = ZIM
+		owner = ZAM
 		add_core_of = ZAM
 		buildings = {
 			infrastructure = 1

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1037"
 
 	history = {
-		owner = ANL
+		owner = ANG
 		add_core_of = ANL
 		add_extra_state_shared_building_slots = 2
 		buildings = {

@@ -2,12 +2,12 @@ state = {
 	id = 1114
 	name = "STATE_1114"
 	resources = {
-		uranium = 2.000
+		uranium = 2
 	}
 
 	history = {
-		owner = IEA
-		add_core_of = ETB
+		owner = ETH
+				add_core_of = ETB
 		victory_points = {
 			12757 5
 		}

@@ -2,12 +2,12 @@ state = {
 	id = 1086
 	name = "STATE_1086"
 	resources = {
-		chromium = 15.000
+		chromium = 15
 	}
 
 	history = {
-		owner = EAF
-		add_core_of = TND
+		owner = TNZ
+				add_core_of = TND
 
 		buildings = {
 			barracks = 1

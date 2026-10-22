@@ -2,11 +2,11 @@ state = {
 	id = 558
 	name = "STATE_558"
 	resources = {
-		rubber = 3.000
+		rubber = 3
 	}
 
 	history = {
-		owner = NGA
+		owner = NNG
 		add_core_of = NNG
 		victory_points = {
 			14118 1

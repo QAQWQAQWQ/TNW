@@ -3,8 +3,8 @@ state = {
 	name = "STATE_1054"
 
 	history = {
-		owner = ZIM
-		add_core_of = ZAM
+		owner = ZAM
+				add_core_of = ZAM
 		buildings = {
 			infrastructure = 2
 		}

@@ -141,8 +141,8 @@ ANG_USA = {
 }
 
 ANG_FREE = {
-	color = rgb { 163 74 60 }
-	color_ui = rgb { 163 74 60 }
+	color = rgb { 139 147 119 }
+	color_ui = rgb { 139 147 119 }
 }
 
 GRO_GER = {

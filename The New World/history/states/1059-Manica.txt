@@ -2,11 +2,11 @@ state = {
 	id = 1059
 	name = "STATE_1059"
 	resources = {
-		aluminium = 1.000
+		aluminium = 1
 	}
 
 	history = {
-		owner = EAF
+		owner = GAZ
 		add_core_of = GZO
 		buildings = {
 			infrastructure = 2
