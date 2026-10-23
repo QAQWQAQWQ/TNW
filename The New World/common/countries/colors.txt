@@ -1004,8 +1004,8 @@ LUO = {
 	color_ui = rgb { 92 96 87 }
 }
 TNZ = {
-	color = rgb { 133 147 119 }
-	color_ui = rgb { 133 147 119 }
+	color = rgb { 119 112 97 }
+	color_ui = rgb { 119 112 97 }
 }
 TND = {
 	color = rgb { 104 100 69 }
@@ -1048,8 +1048,8 @@ BTS = {
 	color_ui = rgb { 170 123 104  }
 }
 GAZ = {
-	color = rgb { 70 146 153 }
-	color_ui = rgb { 70 146 153 }
+	color = rgb { 119 112 97 }
+	color_ui = rgb { 119 112 97 }
 }
 GZO = {
 	color = rgb { 84 112 105 }

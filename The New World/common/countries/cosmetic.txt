@@ -86,8 +86,8 @@ KRS_REVOLT = {
 }
 
 KEN_Oneko = {
-	color = rgb { 117 77 59 }
-	color_ui = rgb { 117 77 59 }
+	color = rgb { 119 112 97 }
+	color_ui = rgb { 119 112 97 }
 }
 
 ZLT_SERENE_REPUBLIC = {

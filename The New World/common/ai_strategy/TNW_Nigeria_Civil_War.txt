@@ -1,0 +1,253 @@
+NGA_civil_war_offensive = {
+	allowed = {
+		tag = NGA
+	}
+	enable = {
+		OR = {
+			has_war_with = YOR
+			has_war_with = BFR
+			has_war_with = NNG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		tag = YOR
+		tag = BFR
+		tag = NNG
+		execution_type = rush
+		execute_order = yes
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = YOR
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = BFR
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = NNG
+		value = 100000
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = YOR
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = BFR
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = NNG
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = YOR
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = BFR
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = NNG
+		value = 1000
+	}
+}
+
+NNG_civil_war_offensive = {
+	allowed = {
+		tag = NNG
+	}
+	enable = {
+		OR = {
+			has_war_with = YOR
+			has_war_with = BFR
+			has_war_with = NGA
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		tag = YOR
+		tag = BFR
+		tag = NGA
+		execution_type = rush
+		execute_order = yes
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = YOR
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = BFR
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = NGA
+		value = 100000
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = YOR
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = BFR
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = NGA
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = YOR
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = BFR
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = NGA
+		value = 1000
+	}
+}
+
+BFR_civil_war_offensive = {
+	allowed = {
+		tag = BFR
+	}
+	enable = {
+		OR = {
+			has_war_with = NGA
+			has_war_with = NNG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		tag = NGA
+		tag = NNG
+		execution_type = rush
+		execute_order = yes
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = NGA
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = NNG
+		value = 100000
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = NGA
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = NNG
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = NGA
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = NNG
+		value = 1000
+	}
+}
+
+YOR_civil_war_offensive = {
+	allowed = {
+		tag = YOR
+	}
+	enable = {
+		OR = {
+			has_war_with = NGA
+			has_war_with = NNG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		tag = NGA
+		tag = NNG
+		execution_type = rush
+		execute_order = yes
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = NGA
+		value = 100000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = NNG
+		value = 100000
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = NGA
+		value = 1000
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = NNG
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = NGA
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = NNG
+		value = 1000
+	}
+}
