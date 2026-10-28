@@ -24,7 +24,7 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = -180 y = 0 }
+			position = { x = -180 y = 2 }
 			alwaystransparent = yes
 		}
 
@@ -561,14 +561,15 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 0 y = 15 }
+			position = { x = 15 y = 15 }
 			textureFile = ""
-			font = "aldrich_24_outline"
+			font = "aldrich_32_outline"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
 			maxWidth = 579
 			maxHeight = 30
 			format = center
+			text_color_code = B
 		}
 
 		background = {
@@ -606,16 +607,17 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bookmark_title"
 			position = { x = 0 y = 288 }
-			font = "aldrich_28_outline"
+			font = "fzwhjz_18"
 			maxWidth = 579
 			maxHeight = 30
 			format = center
+			text_color_code = Y
 		}
 
 		instantTextBoxType = {
 			name = "bookmark_desc"
 			position = { x = 30 y = 315 }
-			font = "aldrich_18_outline"
+			font = "fzwhjz_18"
 			maxWidth = 530
 			maxHeight = 30
 			format = left
@@ -625,24 +627,26 @@ guiTypes = {
 			name = "back_button"
 			position = { x = 30 y = -68 }
 			quadTextureSprite ="GFX_tno_bookmark_button"
-			buttonText = "BACK"
-			buttonFont = "aldrich_24_outline"
+			buttonText = "BACK_1"
+			buttonFont = "fzwhjz_18"
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
+			text_color_code = B
 		}
 
 		ButtonType = {
 			name = "select_button"
 			position = { x = -252 y = -68 }
 			quadTextureSprite ="GFX_tno_bookmark_button"
-			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "aldrich_24_outline"
+			buttonText = "FE_SELECT_SCENARIO_1"
+			buttonFont = "fzwhjz_18"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over
 			shortcut = "RETURN"
+			text_color_code = B
 		}
 	}
 

@@ -9,12 +9,12 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = LBA
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = LBA
-		add_core_of = ITA
+				add_core_of = LBA
+				add_core_of = ITA
 		victory_points = { 12094 1 }
 		victory_points = { 1127 1 }
 		set_state_flag = GDP_category_town

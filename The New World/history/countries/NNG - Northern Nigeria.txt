@@ -4,7 +4,7 @@ capital = 558
 recruit_character = NNG_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
-recruit_character = NNG_Zakariya_Maimalari
+recruit_character = NNG_Mohammed_Yusuf
   declare_war_on = {
 
 	target = YOR

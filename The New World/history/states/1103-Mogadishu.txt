@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1103"
 
 	history = {
-		owner = SML
+		owner = IEA
 		add_core_of = SML
 		buildings = {
 			thermoelectric_plant = 1

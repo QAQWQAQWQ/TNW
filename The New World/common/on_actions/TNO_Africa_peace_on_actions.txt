@@ -2,6 +2,17 @@ on_actions = {
 	### OVEJA'S OWN PERSONAL VIETNAM
 	## Abandon all hope ye who enter here
 
+	on_startup = {
+		effect = {
+			USA = {
+				country_event = { id = TNW_Nigeria_volunteers.1 days = 1 }
+			}
+			GER = {
+				country_event = { id = TNW_Nigeria_volunteers.2 days = 3 }
+			}
+		}
+	}
+
 	on_peaceconference_ended = {
 		effect = {
 			if = { # West African War
@@ -169,6 +180,30 @@ on_actions = {
 
 					SAF = {
 						country_event = { id = SAFWAR.13 }
+					}
+				}
+			}
+		}
+	}
+
+	on_weekly_NNG = {
+		effect = {
+			if = {
+				limit = {
+					has_war = yes
+					NOT = {
+						any_owned_state = {
+							is_controlled_by = NNG
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						has_war_with = NNG
+					}
+					annex_country = {
+						target = NNG
+						transfer_troops = no
 					}
 				}
 			}

@@ -1,0 +1,31 @@
+add_namespace = TNW_Nigeria_volunteers
+
+country_event = {
+	id = TNW_Nigeria_volunteers.1
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_temp_variable = { target = YOR }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+
+		set_temp_variable = { target = BFR }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+	}
+}
+
+country_event = {
+	id = TNW_Nigeria_volunteers.2
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_temp_variable = { target = NNG }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+	}
+}

@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = BFR
 		add_core_of = NNG
+		add_core_of = NGA
 		victory_points = {
 			8034 1
 		}
@@ -16,6 +17,7 @@ state = {
 			}
 		}
 		set_state_flag = state_renamings
+		add_claim_by = NGA
 	}
 
 	provinces = {

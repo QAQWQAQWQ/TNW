@@ -8,48 +8,18 @@ recruit_character = MEX_His_Excellency
 set_country_flag = GDP_regions
 
 # Leaders
-recruit_character = MEX_Disorganized_Leadership
-recruit_character = MEX_Adolfo_Mateos
-recruit_character = MEX_Gustavo_Ordaz
-recruit_character = MEX_Manuel_Baurraud
-recruit_character = MEX_Raul_Lozano
-recruit_character = MEX_Agustin_Olachea
-recruit_character = MEX_Luis_Echeverria
-recruit_character = MEX_Carlos_Madrazo
-recruit_character = MEX_Del_Rosal
-recruit_character = MEX_Lazaro_Cardenas
-recruit_character = MEX_Octavio_Paz
 
-recruit_character = MEX_Salvador_Abascal
-recruit_character = MEX_Lucio_Cabanas
-recruit_character = MEX_Gonzalez_Gollaz
+recruit_character = MEX_Carlos_Salinas_de_Gortari
+recruit_character = MEX_Roberto_Madrazo_Pintado
+recruit_character = MEX_state_governors
+recruit_character = MEX_Porfirio_Munoz_Ledo
+recruit_character = MEX_Vicente_Fox
+recruit_character = MEX_guerrilla_movemen
 
-recruit_character = MEX_Luis_Alvarez
-recruit_character = MEX_Adolfo_Christlieb
-recruit_character = MEX_Jose_Angel_Conchello
-recruit_character = MEX_Efrain_Gonzalez_Morfin
-recruit_character = MEX_Antonio_Flores
-recruit_character = MEX_Javier_Sierra
-recruit_character = MEX_Alfonoso_Robles
-recruit_character = MEX_Santiago_Garcia
-recruit_character = MEX_Octaviano_Salas
-recruit_character = MEX_Antonio_Mena
-recruit_character = MEX_Jose_Torres
-recruit_character = MEX_Gutierrez_Barrios
-recruit_character = MEX_Disorganized_Guerrillas
-recruit_character = MEX_Fierro_Villalobos
-recruit_character = MEX_Antonio_Vazquez_del_Mercado
-recruit_character = MEX_Hugo_B_Margain
+
 
 # Unit Leaders
-recruit_character = MEX_Marcelino_Barragan
-recruit_character = MEX_Jose_Gomez_Huerta
-recruit_character = MEX_Hermenegildo_Cuenca_Diaz
-recruit_character = MEX_Luis_Gutierrez_Oropeza
-recruit_character = MEX_Abelardo_Munoz
-recruit_character = MEX_Rigoberto_Briseno
-recruit_character = MEX_Manuel_Araico
-recruit_character = MEX_Miguel_Gomez_Ortega
+
 
 # econtype
 set_variable = { TNO_economy_subtype = token:Econ_Subtype_Stabilizing_Development }
@@ -404,16 +374,12 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 4
-	despotism = 45
-	despotism_1 = 17
-	despotism_2 = 9
-	conservatism = 7
-	conservatism_1 = 4
-	liberalism = 4
-	socialist = 5
-	communist = 3
-	communist_1 = 2
+	despotism = 48
+	despotism_2 = 28
+	despotism_3 = 3
+	progressivism = 10
+	conservatism = 10
+	socialist = 1
 }
 
 set_stability = 1.2
@@ -428,10 +394,7 @@ set_country_flag = country_has_gui
 country_lock_all_division_template = yes
 
 add_ideas = {
-	MEX_the_imperfect_dictatorship_initial
-	MEX_mexican_miracle_dummy
-	MEX_rural_depression
-	MEX_the_leviathan_4
+	
 
 	### Ministers ###
 	MEX_Gustavo_Ordaz_hog

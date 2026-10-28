@@ -9,6 +9,8 @@ state = {
 	history = {
 		owner = YOR
 		add_core_of = YOR
+		add_core_of = NNG
+		add_core_of = NGA
 		victory_points = {
 			12731 1
 		}
@@ -16,6 +18,7 @@ state = {
 			infrastructure = 1
 		}
 		set_state_flag = state_renamings
+		add_claim_by = NGA
 	}
 
 	provinces = {

@@ -96,14 +96,14 @@ guiTypes = {
 			maxwidth = 545
 			maxheight = 32
 			format = left
-			text_color_code = G
+			text_color_code = B
 			format = center
 		}
 		instantTextBoxType = {
 			name = "center_desc"
 			position = { x = 310 y = 100 }
 			text = "[CountryInfo_GET_Content_desc_Country]"
-			font = "aldrich_20_outline"
+			font = "fzwhjz_18"
 			maxwidth = 440
 			maxheight = 100
 			format = left
@@ -291,7 +291,7 @@ guiTypes = {
 			name = "tab_text"
 			position = { x = 42 y = 9 }
 			text = [CountryInfo_GET_tab_name]
-			font = "aldrich_18_outline"
+			font = "fzwhjz_18"
 			maxwidth = 137
 			maxheight = 32
 			vertical_alignment = center

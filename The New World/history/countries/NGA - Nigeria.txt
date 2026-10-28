@@ -3,9 +3,10 @@ capital = 825
 # Vacant
 recruit_character = NGA_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-recruit_character = NGA_Yakubu_Gowon
-recruit_character = NGA_Akinola_Maja
+
 recruit_character = NGA_Nnamdi_Azikiwe
+
+recruit_character = NGA_Ibrahim_Babangida
 set_cosmetic_tag = NGA_pr
 oob = "NGA_2002"
 declare_war_on = {
@@ -25,6 +26,7 @@ declare_war_on = {
 }
 
 add_ideas = {
+	NGA_Fratricidal_strife
 	#political#
 	tno_political_parties_multiparty_system
 	tno_religious_rights_pluralism

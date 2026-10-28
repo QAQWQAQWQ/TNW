@@ -122,6 +122,33 @@ defined_text = {
 
 defined_text = {
 	name = GetWarConclusionLoc
+	##TNW WAR##
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					original_tag = NGA
+					original_tag = YOR
+					original_tag = BFR
+					original_tag = NNG
+					original_tag = HAU
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					original_tag = YOR
+					original_tag = BFR
+					original_tag = NNG
+					original_tag = NGA
+					original_tag = HAU
+				}
+			}
+		}
+		localization_key = TNW_PEACE_POPUP_WAR_CONCLUSION_NIGERIAN_CIVIL_WAR
+	}
+
+	##
 	text = {
 		trigger = {
 			event_target:winning_country = {
@@ -937,7 +964,29 @@ defined_text = {
 
 defined_text = {
 	name = GetWarContinuationLoc
-	# we should probably add some stuff for this
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					original_tag = NGA
+					original_tag = YOR
+					original_tag = BFR
+					original_tag = NNG
+					original_tag = HAU
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					original_tag = NGA
+					original_tag = YOR
+					original_tag = BFR
+					original_tag = NNG
+					original_tag = HAU
+				}
+			}
+		}
+		localization_key = TNW_PEACE_POPUP_WAR_CONCLUSION_NIGERIAN_CIVIL_WAR
+	}
 	text = {
 		localization_key = TNO_PEACE_POPUP_WAR_CONTINUING_DEFAULT
 	}
@@ -2997,6 +3046,34 @@ defined_text = {
 		}
 		localization_key = TNO_PEACE_POPUP_FLAVOR_FTF
 	}
+	##TNW##
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NNG
+			}
+		}
+		localization_key = TNW_PEACE_POPUP_FLAVOR_NNG
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NGA
+			}
+		}
+		localization_key = TNW_PEACE_POPUP_FLAVOR_NGA
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = BFR
+			}
+		}
+		localization_key = TNW_PEACE_POPUP_FLAVOR_BFR
+	}
+
 	text = {
 		trigger = {
 			event_target:losing_country = {
@@ -3005,6 +3082,7 @@ defined_text = {
 		}
 		localization_key = TNO_PEACE_POPUP_FLAVOR_YOR
 	}
+	##
 	text = {
 		trigger = {
 			event_target:losing_country = {

@@ -1024,8 +1024,8 @@ ZZS = {
 	color_ui = rgb { 96 81 96 }
 }
 ZAM = {
-	color = rgb { 165 124 120 }
-	color_ui = rgb { 165 124 120 }
+	color = rgb {  119 112 97 }
+	color_ui = rgb {  119 112 97 }
 }
 ZBO = {
 	color = rgb { 141 141 142 }
@@ -1060,8 +1060,8 @@ GZS = {
 	color_ui = rgb { 78 132 82 }
 }
 RMB = {
-	color = rgb { 58 94 165 }
-	color_ui = rgb { 58 94 165 }
+	color = rgb {  119 112 97 }
+	color_ui = rgb {  119 112 97 }
 }
 BMB = {
 	color = rgb { 188 157 124 }
@@ -1543,8 +1543,8 @@ KBY = {
 	color_ui = rgb { 87 148 175 }
 }
 ALG = {
-	color = rgb { 141 165 99 }
-	color_ui = rgb { 141 165 99 }
+	color = rgb { 140 124 110 }
+	color_ui = rgb { 140 124 110 }
 }
 ILG = {
 	color = rgb { 124 154 112 }
@@ -1559,8 +1559,8 @@ TUN = {
 	color_ui = rgb { 181 70 19 }
 }
 LBA = {
-	color = rgb { 188 194 163 }
-	color_ui = rgb { 188 194 163 }
+	color = rgb { 104 156 123  }
+	color_ui = rgb { 104 156 123  }
 }
 EGY = {
 	color = rgb { 137 187 120 }

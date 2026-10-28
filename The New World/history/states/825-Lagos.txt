@@ -12,10 +12,13 @@ state = {
 			}
 		}
 		add_core_of = YOR
+		add_core_of = NGA
+		add_core_of = NNG
 		victory_points = {
 			2050 1
 		}
 		set_state_flag = state_renamings
+		add_claim_by = NGA
 	}
 
 	provinces = {

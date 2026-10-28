@@ -3,7 +3,7 @@ capital = 825
 # Vacant
 recruit_character = YOR_Generic_Vacant
 
-recruit_character = YOR_Ladoke_Akintola
+recruit_character = YOR_Banji_Akintoye
 recruit_character = YOR_Obafemi_Awolowo
 recruit_character = YOR_Kofo_Abayomi
 recruit_character = YOR_Henry_Fajemirokun
@@ -24,8 +24,7 @@ declare_war_on = {
 set_major = yes
 
 add_ideas = {
-	YOR_idea_shield_against_socialism
-	YOR_idea_benevolent_dictatorship
+	
 
 	YOR_Obafemi_Awolowo_hog
 	YOR_Kofo_Abayomi_for
@@ -87,7 +86,7 @@ add_ideas = {
 oob = "YOR_2002"
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = liberalism
 	last_election = "1931.1.1"
 	election_frequency = 96
 	elections_allowed = no

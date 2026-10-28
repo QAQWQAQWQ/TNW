@@ -2,16 +2,18 @@ state = {
 	id = 1198
 	name = "STATE_1198"
 	resources = {
-		oil = 2.000
-		uranium = 4.000
+		oil = 2
+		uranium = 4
 	}
 
 	history = {
 		owner = NGA
 		add_core_of = NNG
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 1
 		}
+		add_claim_by = NGA
 	}
 
 	provinces = {

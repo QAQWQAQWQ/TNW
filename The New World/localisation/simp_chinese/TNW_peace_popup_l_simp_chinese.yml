@@ -12,6 +12,8 @@
  TNO_PEACE_POPUP_WAR_CONCLUSION: "[GetWarConclusionLoc]"
  TNO_PEACE_POPUP_WAR_CONTINUING: "[GetWarContinuationLoc]"
  TNO_PEACE_POPUP_WAR_CONCLUSION_OSTLAND: "§Y[winning_country.GetNameWithFlag]§![GetWinnerAlliesWithHas]击败了§Y[losing_country.GetNameWithFlag]§![GetLoserAllies]，\n而争夺§Y东方领§!控制权的战斗还将继续肆虐。"
+ TNW_PEACE_POPUP_WAR_CONCLUSION_NIGERIAN_CIVIL_WAR: "兄弟相残的枪声终于平息。在这场内战中\n§Y[winning_country.GetNameWithFlag]§![GetWinnerAlliesWithHas]击败了§Y[losing_country.GetNameWithFlag]§!。留给这土地的，只有焦土与无尽的悔恨。"
+
  TNO_PEACE_POPUP_WAR_CONCLUSION_UKRAINE: "§Y德意志的粮仓§!内正在§R血战厮杀§!，§Y[winning_country.GetNameWithFlag]§![GetWinnerAlliesWithHas]打败了§Y[losing_country.GetNameWithFlag]§![GetLoserAllies]。"
  TNO_PEACE_POPUP_WAR_CONCLUSION_SAF_WIN: "§Y南非战争§!终于迎来了尾声，\n§Y[winning_country.GetNameWithFlag]§![GetWinnerAllies]最终击败了§Y[losing_country.GetNameWithFlag]§![GetLoserAllies]。"
  TNO_PEACE_POPUP_WAR_CONCLUSION_SAF_LOSE: "§Y南非战争§!终于迎来了尾声，\n§Y[winning_country.GetNameWithFlag]§![GetWinnerAllies]最终击败了§Y[losing_country.GetNameWithFlag]§![GetLoserAllies]。"
@@ -272,7 +274,12 @@
  TNO_PEACE_POPUP_FLAVOR_GBE_soc: "只要还有一个尼日利亚人饿着肚子睡觉，尼日利亚的事业就谈不上圆满。"
  TNO_PEACE_POPUP_FLAVOR_SUS: "参加非洲革命，光写一首革命歌曲可不够。你必须和人民一起塑造革命，到时自会有人把歌唱。"
  TNO_PEACE_POPUP_FLAVOR_FTF: "富拉尼人的闹剧落幕了。"
- TNO_PEACE_POPUP_FLAVOR_YOR: "他们死后，洪水滔天。"
+ ##TNW##
+ TNO_PEACE_POPUP_FLAVOR_YOR: "无论一棵树有多高大，它终究只是一棵树，无法独自成为森林"
+ TNW_PEACE_POPUP_FLAVOR_NNG: "“我们确是真主所有的，我们必定只归依他。”（古兰经 2:156）"
+ TNW_PEACE_POPUP_FLAVOR_NGA: "破碎的葫芦，即使重新拼凑起来，也装不住水"
+ TNW_PEACE_POPUP_FLAVOR_BFR: "被武器击败的敌人会卷土重来，被真理击败的敌人则一去不返。"
+ ##
  TNO_PEACE_POPUP_FLAVOR_HAU: "西迪克的王国归于遗忘之沙。"
  TNO_PEACE_POPUP_FLAVOR_BKF: "他们的愿望化为最糟的梦魇。"
  TNO_PEACE_POPUP_FLAVOR_KAY: "与自己祖国为敌的人，永远成不了英雄。"

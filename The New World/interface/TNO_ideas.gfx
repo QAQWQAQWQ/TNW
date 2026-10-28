@@ -15,6 +15,7 @@
 #	i) Other
 
 SpriteTypes = {
+	
 
 	###################
 	###   GENERIC   ###
@@ -1852,6 +1853,12 @@ SpriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_ITA_Arson_in_the_Mist"
 		texturefile = "gfx/interface/ideas/national_spirits/Triumvirate/ITA/idea_ITA_Arson_in_the_Mist.png"
+	}
+
+	#NGA##
+	SpriteType = {
+		name = "GFX_idea_NGA_Fratricidal_strife"
+		texturefile = "gfx/interface/ideas/national_spirits/Africa/NGA/idea_NGA_Fratricidal_strife.png"
 	}
 
 	###TNW###

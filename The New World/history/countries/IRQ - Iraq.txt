@@ -23,7 +23,7 @@ add_opinion_modifier = { target = PER modifier = ITA_oil_trade }
 add_opinion_modifier = { target = ITA modifier = ITA_oil_trade }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = fascism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -43,18 +43,13 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = IRQ_Abd_al_Karim_Qasim
+recruit_character = IRQ_Saddam_Hussein
 recruit_character = IRQ_Command_Council
-recruit_character = IRQ_Vito_Miceli
+
 
 
 add_ideas = {
-	TRI_Member
-	IRQ_july_14_legacy
-	IRQ_dawa_ascendant
-	IRQ_italian_interference
-	IRQ_ineffecient_oil_industry
-	IRQ_the_spectre_of_baathism
+	
 	#political#
 	tno_political_parties_controlled_opposition
 	tno_religious_rights_state_religion

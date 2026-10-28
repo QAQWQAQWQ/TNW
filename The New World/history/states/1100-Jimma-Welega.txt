@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ETH
+		owner = IEA
 		add_core_of = ETB
 		buildings = {
 			infrastructure = 1

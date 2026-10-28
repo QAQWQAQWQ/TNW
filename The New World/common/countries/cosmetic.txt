@@ -1225,8 +1225,8 @@ POR_POR = {
 }
 
 ITA_EMP = {
-	color = rgb { 104 156 123 }
-	color_ui = rgb { 104 156 123 }
+	color = rgb { 109 142 96 }
+	color_ui = rgb { 109 142 96 }
 }
 
 ITA_middle_east_government = {

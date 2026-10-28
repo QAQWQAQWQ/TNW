@@ -5,9 +5,11 @@ state = {
 	history = {
 		owner = NNG
 		add_core_of = NNG
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 1
 		}
+		add_claim_by = NGA
 	}
 
 	provinces = {

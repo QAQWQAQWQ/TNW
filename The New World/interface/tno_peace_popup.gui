@@ -35,7 +35,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 100 y = 25 }
 			textureFile = ""
-			font = "aldrich_32_outline"
+			font = "fzwhjz_18"
 			borderSize = {x = 0 y = 0}
 			text = "TNO_PEACE_POPUP_TITLE"
 			maxWidth = 360
@@ -47,7 +47,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 50 y = 86 }
-			font = "aldrich_18_outline"
+			font = "fzwhjz_18"
 			borderSize = {x = 0 y = 0}
 			text = "TNO_PEACE_POPUP_DESCRIPTION"
 			maxWidth = 460
@@ -59,7 +59,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "flavor"
 			position = { x = 50 y = 168 }
-			font = "aldrich_18_outline"
+			font = "fzwhjz_18"
 			text = "TNO_PEACE_POPUP_FLAVOR"
 			maxWidth = 460
 			maxHeight = 72
@@ -102,7 +102,7 @@ guiTypes = {
 			position = { x=213 y =240}
 			quadTextureSprite ="GFX_sort_button_140x29"
 			buttonText = "TNO_PEACE_POPUP_CLOSE"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "fzwhjz_18"
 			shortcut = "RETURN"
 			#clicksound = click_ok
 			clicksound = click_default
