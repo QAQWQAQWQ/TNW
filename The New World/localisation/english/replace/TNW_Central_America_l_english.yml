@@ -1,0 +1,61 @@
+l_english:
+ PAN: "Republic of Panama"
+ PAN_DEF: "Republic of Panama"
+ PAN_ADJ: "Panama"
+
+ HON: "Republic of Honduras"
+ HON_DEF: "Republic of Honduras"
+ HON_ADJ: "Honduras"
+
+ ELS: "Republic of El Salvador"
+ ELS_DEF: "Republic of El Salvador"
+ ELS_ADJ: "El Salvador"
+
+ GUA: "Republic of Guatemala"
+ GUA_DEF: "Republic of Guatemala"
+ GUA_ADJ: "Guatemala"
+
+ NIC: "Republic of Nicaragua"
+ NIC_DEF: "Republic of Nicaragua"
+ NIC_ADJ: "Nicaragua"
+
+ COS: "Republic of Costa Rica"
+ COS_DEF: "Republic of Costa Rica"
+ COS_ADJ: "Costa Rica"
+
+ ##COUNTRY LEADER NAME AND PARTY NAME ##
+
+ ##Belize##
+ BLZ_Said_Musa: "Said Musa"
+ BLZ_socialist_party: "People's United Party"
+ BLZ_socialist_party_long: "People's United Party"
+
+ ##Honduras##
+ HON_Ricardo_Maduro: "Ricardo Maduro"
+ HON_conservatism_party: "National Party of Honduras"
+ HON_conservatism_party_long: "National Party of Honduras"
+
+ ##Guatemala##
+ GUA_Alfonso_Portillo: "Alfonso Portillo"
+ GUA_conservatism_party: "Guatemalan Republican Front"
+ GUA_conservatism_party_long: "Guatemalan Republican Front"
+
+ ##Nicaragua##
+ NIC_Enrique_Bolanos: "Enrique Bolaños"
+ NIC_liberal_conservatism_party: "Constitutionalist Liberal Party"
+ NIC_liberal_conservatism_party_long: "Constitutionalist Liberal Party"
+
+ ##Panama##
+ PAN_Martin_Torrijos: "Martín Torrijos"
+ PAN_socialist_party: "Democratic Revolutionary Party"
+ PAN_socialist_party_long: "Democratic Revolutionary Party"
+
+ ##El Salvador##
+ ELS_Francisco_Flores: "Francisco Flores"
+ ELS_liberal_conservatism_party: "Nationalist Republican Alliance"
+ ELS_liberal_conservatism_party_long: "Nationalist Republican Alliance"
+
+ ##Costa Rica##
+ COS_Abel_Pacheco: "Abel Pacheco"
+ COS_liberal_conservatism_party: "Social Christian Unity Party"
+ COS_liberal_conservatism_party_long: "Social Christian Unity Party"

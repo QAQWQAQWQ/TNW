@@ -1,0 +1,89 @@
+﻿l_english:
+ EWE_EWE: "Republic of Ghana"
+ EWE_EWE_DEF: "Republic of Ghana"
+ EWE_EWE_ADJ: "Ghanaian"
+ EWE_Ebenezer_Ako_Adjei: "Ebenezer Ako-Adjei"
+ EWE_socialist_DEF: "Socialist Republic of Ghana"
+ EWE_communist_party: "-"
+ EWE_communist_party_long: "-"
+ EWE_socialist_party: "Convention People's Party"
+ EWE_socialist_party_long: "Convention People's Party (Convention People's Party)"
+ EWE_progressivism_party: "Committee for Ghana's Unity"
+ EWE_progressivism_party_long: "Committee for Ghana's Unity (Committee for Ghana's Unity)"
+ EWE_liberalism_party: "Committee for Ghana's Unity"
+ EWE_liberalism_party_long: "Committee for Ghana's Unity (Committee for Ghana's Unity)"
+ EWE_conservatism_party: "Ghanaian Progressive Party"
+ EWE_conservatism_party_long: "Ghanaian Progressive Party (Parti Ghanéen du Progrès)"
+ EWE_paternalism_party: "Convention People's Party"
+ EWE_paternalism_party_long: "Convention People's Party (Convention People's Party)"
+ EWE_despotism_party: "Union of Chiefs and Peoples of the North"
+ EWE_despotism_party_long: "Union of Chiefs and Peoples of the North (Union of Chiefs and Peoples of the North)"
+ EWE_fascism_party: "Rally of the Ewe People"
+ EWE_fascism_party_long: "Rally of the Ewe People (Rassemblement du Peuple Ewe)"
+ EWE_national_socialism_party: "-"
+ EWE_national_socialism_party_long: "-"
+ EWE_ultranationalism_party: "-"
+ EWE_ultranationalism_party_long: "-"
+ EWE_paternalism_party_grunitzky: "Progress Party"
+ EWE_paternalism_party_grunitzky_long: "Progress Party (Parti du Progrès)"
+ EWE_idea_language_barrier: "Language Barrier"
+ EWE_idea_language_barrier_desc: "Ghana was formed from the merger of two former colonies — the British Gold Coast and French Togoland — and thus has roots in two European cultures. With no national standard language, Ghana's administrative system is split in two, making unified reform difficult. This bilingual African nation is still on the long road to linguistic standardization; though it has taken its first steps toward linguistic unity, it is far from a coordinated government."
+ EWE_idea_bloated_high_command: "Bloated High Command"
+ EWE_idea_bloated_high_command_desc: "Conflict has been rife on Ghana's path to unification, and each battle has been accompanied by mass promotions. As a result, the Ghanaian army is unusually top-heavy, crowded with senior officers. Rivalry among these important officers means the ranks are filled with competition and factional conflict. Unfortunately, Ghana's army has become bloated, ineffective, and divided."
+ POLITICS_KOMLA_AGBELI_GBEDEMAH_DESC: "Historically speaking, Ghana's politics are chaotic. Ghana was formed from the merger of two former colonies — the British Gold Coast and French Togoland — the Gold Coast a British colony, Togoland having passed from German to French rule until independence after World War II. The two governments cooperated to bring about the merger, and the Republic of Ghana was born. The local United Gold Coast Convention was tasked with building Ghana into a strong and free republic — and in fact, they did.
+
+Naive as you might think. In truth, the United Gold Coast Convention is entirely under the control of the "Big Six," an alliance of Ghanaian political strongmen. Through their control of the UGCC, the Big Six dominate every aspect of Ghanaian politics, and no one can resist their rule. The current president, Komla Agbeli Gbedemah (nicknamed "Gbed of Africa"), won the 1956 election only because they arranged it. Gbedemah began as a humble timber trader, but after joining the UGCC, he rose quickly through its ranks thanks to his friendship with two of the Big Six — former president Edward Akufo-Addo and Convention People's Party founder Kwame Nkrumah. Grateful, he kept Akufo-Addo in the cabinet as prime minister and promised full support to Nkrumah. Yet Nkrumah advocated anti-colonialism and wanted Ghana to become a socialist state, which clashed with Gbedemah's liberalism and pro-Western stance.
+
+The inaction of Gbedemah's faction has caused the CPP's support to collapse entirely, while opposition support is rising sharply. The situation in Togoland grows more tense by the day, and the military is preparing for the worst. If the Gbed of Africa doesn't act quickly, his own plans — and the Big Six's — will collapse, dealing a severe blow to both."
+ EWE: "Ghana"
+ EWE_DEF: "Republic of Ghana"
+ EWE_ADJ: "Ghanaian"
+ CPP: "Convention People's Party"
+ CPP_DEF: "Convention People's Party"
+ CPP_ADJ: "Ghanaian"
+ EWE_FFRPuppet: "Ghana"
+ EWE_FFRPuppet_DEF: "Republic of Ghana"
+ EWE_FFRPuppet_ADJ: "Ghanaian"
+ CPP_unified: "Ghana"
+ CPP_unified_DEF: "Socialist Republic of Ghana"
+ CPP_unified_ADJ: "Ghanaian"
+ CPP_socialist_party: "Convention People's Party"
+ CPP_socialist_party_long: "Convention People's Party (Convention People's Party)"
+ EWE_Komla_Agbeli_Gbedemah: "Komla Agbeli Gbedemah"
+ EWE_Edward_Akufo_Addo: "Edward Akufo-Addo"
+ EWE_Emmanuel_Obetsebi_Lamptey: "Emmanuel Obetsebi-Lamptey"
+ EWE_Ignatius_Kutu_Acheampong: "Ignatius Kutu Acheampong"
+ EWE_Kwame_Nkrumah: "Kwame Nkrumah"
+ EWE_Sylvanus_Olympio: "Sylvanus Olympio"
+ EWE_Nicolas_Grunitzky: "Nicolas Grunitzky"
+ EWE_Fred_Akuffo: "Fred Akuffo"
+ EWE_Gnassingbe_Eyadema: "Gnassingbé Eyadéma"
+ EWE_Emmanuel_Bodjolle: "Emmanuel Bodjolle"
+ EWE_Kleber_Dadjo: "Kléber Dadjo"
+ EWE_Joseph_Arthur_Ankrah: "Joseph Arthur Ankrah"
+ EWE_Akwasi_Afrifa: "Akwasi Afrifa"
+ EWE_Albert_Kwesi_Ocran: "Albert Kwesi Ocran"
+ EWE_Emmanuel_Kwasi_Kotoka: "Emmanuel Kwasi Kotoka"
+ EWE_Joy_K_Amedume: "Joy K. Amedume"
+ EWE_Chemogoh_Kevin_Dzang: "Chemogoh Kevin Dzang"
+ EWE_David_Animle_Hansen: "David Animle Hansen"
+ EWE_Edward_Akufo_Addo_hog_desc: "§YHead of Government
+Paternalism§!
+--------------
+"
+ EWE_Ebenezer_Ako_Adjei_for_desc: "§YMinister of Foreign Affairs
+Paternalism§!
+--------------
+"
+ EWE_Emmanuel_Obetsebi_Lamptey_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ EWE_Ignatius_Kutu_Acheampong_sec_desc: "§YMinister of Security
+Paternalism§!
+--------------
+"
+ CPP_communist_party: "Convention People's Party"
+ CPP_communist_party_long: "Convention People's Party (Convention People's Party)"
+ CPP_progressivism_party: "Committee for Ghana's Unity"
+ CPP_progressivism_party_long: "Committee for Ghana's Unity (Committee for Ghana's Unity)"

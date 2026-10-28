@@ -1,0 +1,57 @@
+﻿l_english:
+ SAU_Fahd_bin_Abdulaziz_Al_Saud: "Fahd bin Abdulaziz Al Saud"
+ SAU_Saud_bin_Abdulaziz: "Saud bin Abdulaziz"
+ SAU_Faisal_bin_Abdulaziz_al_Saud: "Faisal bin Abdulaziz Al Saud"
+ SAU_Talal_Al_Saud: "Talal bin Abdulaziz Al Saud"
+ SAU_Italo_Balbo_Ruler_Of_Arabia: "Italo Balbo"
+ POLITICS_SAUD_DESC: "Saudi Arabia is a harsh land, yet Saud bin Abdulaziz is an unexpectedly mild ruler — relatively speaking, of course, since most monarchs differ only by subtle degrees. Yet this is no age of moderation, and the ground beneath the king shifts constantly. The Saudi faith is as ancient as the desert itself, while the world surrounding them is disturbingly new.
+
+The monarch grew up in the barren lands his father conquered; when he was named crown prince, his father bade him serve God and love his people. In the turbulent years of the 1940s and 50s, he did his utmost to push through the established education and infrastructure reforms, leading Saudi Arabia into the modern world. A hasty agreement with the expansionist Italian Empire barely preserved the independence of the Arabian Peninsula — or so the royal publications claimed. No Saudi ever questioned why the empire coveted a land that seemingly had nothing.
+
+The situation had stabilized until seismic sensors detected liquid gold beneath the eastern sands. Saudi Arabia's oil industry exploded, and wealth flooded in with fame and attention. Now the king must balance the rapacious powers' hunger for oil while steering an increasingly restless and conservative population. Neighbors like Egypt and Iraq maintain a suspicious silence, and the shadow of internal turmoil has crept into Arabia itself.
+
+The Saudi court and monarch watch dispassionately, plotting in secret. They toy with the levers of the world engine, waiting for the right moment to strike."
+ POLITICS_FAISAL_DESC: "What is modernization? An officer in the barracks might say socialism; the Red Prince might say liberty and equality; the Shah in Tehran sees it as Westernization and anti-traditionalism — but for Faisal bin Abdulaziz Al Saud, modernization does not mean abandoning Islamic and Arab traditions and institutions to blindly follow Western dogma of socialism, democracy, and nationalism.
+
+This intelligent, capable, and popular young prince rose quickly within the House of Saud, holding key positions in the kingdom and was entrusted by his father as a diplomatic envoy. His talents won him favor across the royal family; though he was passed over for the throne in favor of his elder brother Saud, the cunning Faisal did not lose power but rather grew his influence in court politics, eventually leading to open confrontation with his brothers Saud and Talal.
+
+Wherever he traveled in the kingdom, Faisal saw slavery, poverty, chaos, and backwardness; when he ventured abroad, he saw only the scars of colonialism, imperialism, and racism. Muslim lands had fallen to conquerors who knew nothing of their people or their faith. In his eyes, race, gender, and sect were but illusory barriers — meaningless in the jihad where all Muslims struggled together to relieve the suffering of God's people.
+
+When the throne finally came to him, Faisal saw the modernization and civilization of the nation as his highest mission. Leftists might ask where the constitution is, but are not God's commandments the most perfect charter? The ulama might resist reform, but no one could deny the king's pious Islamic faith and his ambition to revitalize the entire Muslim nation."
+ SAU_defenders_of_the_umma: "Defenders of the Ummah"
+ SAU_defenders_of_the_umma_desc: "As Custodian of the Two Holy Mosques, the House of Saud wields enormous influence over parts of the Muslim world. Many devout believers feel oppressed by Western — especially Italian — imperialism, and see Saudi Arabia as a pillar of Islam and resistance — which led to the formation of organizations like the Muslim Brotherhood. Though nominal allies, distrust between Italy and the Saudi Kingdom has deepened, and relations are slowly but steadily deteriorating."
+ SAU_salafi_ascendancy: "Salafi Ascendancy"
+ SAU_salafi_ascendancy_desc: "Salafism has dominated Saudi culture since the 18th century. It is a pure, conservative reform movement. The teachings of its founder, Muhammad ibn Abd al-Wahhab, are the authoritative, state-sanctioned form of Islam, and the Salafi ulama are an influential force at the Saudi court. Nowhere is the line between faith and politics more blurred than in Saudi Arabia."
+ SAU_ARCO_ENI_memorandum_of_understanding: "ARCO-ENI Memorandum of Understanding"
+ SAU_ARCO_ENI_memorandum_of_understanding_desc: "When the Axis armies swept into the Middle East, Saudi Arabia welcomed them with open arms — pursuing a policy of cooperation with Italy since the end of World War II, culminating in an agreement between their respective national oil companies. Saudi Arabia reaffirmed its alliance with Italy, while ENI agreed to a non-compete treaty with ARCO — a true masterpiece of trade diplomacy. In exchange for partial cash, ENI tankers carry Saudi oil and trade agents across the seas; wherever they go, Riyadh's influence follows."
+ SAU_qatif_uprising: "Qatif Uprising"
+ SAU_qatif_uprising_desc: ""
+ SAU_communist_party: "Saudi Communist Organization"
+ SAU_communist_party_long: "Saudi Communist Organization (Munazamat al-Shuyuīn al-Su'ūdīyn)"
+ SAU_socialist_party: "People's Union of the Arabian Peninsula"
+ SAU_socialist_party_long: "People's Union of the Arabian Peninsula (Aitihad al-Shaeb fi al-Jazirat al-'Arabīyah)"
+ SAU_progressivism_party: "Free Princes Movement - Left Wing"
+ SAU_progressivism_party_long: "Free Princes Movement - Left Wing (Harakat al-'Amra al-'Ahrar - Left Wing)"
+ SAU_liberalism_party: "Free Princes Movement - Center Wing"
+ SAU_liberalism_party_long: "Free Princes Movement - Center Wing (Harakat al-'Amra al-'Ahrar - Center Wing)"
+ SAU_conservatism_party: "Free Princes Movement - Right Wing"
+ SAU_conservatism_party_long: "Free Princes Movement - Right Wing (Harakat al-'Amra al-'Ahrar - Right Wing)"
+ SAU_paternalism_party: "House of Saud - Reformist Wing"
+ SAU_paternalism_party_long: "House of Saud - Reformist Wing (al-'Usra al-Su'ūd - Reformist Wing)"
+ SAU_despotism_party: "House of Saud"
+ SAU_despotism_party_long: "House of Saud (al-'Usra al-Su'ūd)"
+ SAU_fascism_party: "Organization of the Islamic Revolution in the Arabian Peninsula"
+ SAU_fascism_party_long: "Organization of the Islamic Revolution in the Arabian Peninsula (Munazamat ath-Thawrah al-Islamīyah fi al-Jazīrah al-'Arabīyah)"
+ SAU_ultranationalism_party: "Ikhwan"
+ SAU_ITA_despotism_long: "Italian Administration of the Arabian Peninsula (Amministrazione Italiana della Penisola Arabica)"
+ SAU_ITA_despotism: "Italian Administration of the Arabian Peninsula"
+ SAU: "Kingdom of Saudi Arabia"
+ SAU_DEF: "Kingdom of Saudi Arabia"
+ SAU_ADJ: "Saudi Arabian"
+ SAU_arab: "Kingdom of Saudi Arabia"
+ SAU_arab_DEF: "Kingdom of Saudi Arabia"
+ SAU_arab_ADJ: "Saudi Arabian"
+ SAU_ultranationalism_party_long: "Ikhwan (Ikhwan)"
+ POLITICS_TALAL_AL_SAUD_DESC: ""
+ SAU_kingdom_of_black_gold: "Kingdom of Black Gold"
+ SAU_kingdom_of_black_gold_desc: "The Saudi regime, once just a tribe in the Arabian interior, rose to fortune through God's blessing and the gift of oil. Black gold gushes from the sands as if endless; as the backbone of the Saudi economy, its importance completely overshadows all other industries. Thanks to its alliance with Italy, Saudi Arabia has amassed enormous wealth by selling oil to the world — so much they hardly know how to spend it."

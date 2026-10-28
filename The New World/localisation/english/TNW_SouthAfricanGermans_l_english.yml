@@ -1,0 +1,36 @@
+﻿l_english:
+ SFG_national_socialism_party: "Oberkommando Südafrika"
+ SFG_national_socialism_party_long: "Oberkommando Südafrika (Oberkommando Südafrika)"
+ SFG_huttig_division: "Hüttig's Forces"
+ SFG_huttig_division_desc: "The Oberkommando Südafrika has assembled the most experienced and cold-blooded soldiers of the Second South African Civil War. These veterans of the South African War and countless subsequent counterinsurgency operations are intimately familiar with the combat patterns and terrain unique to this war. Now, with new orders in hand, the veterans of the Oberkommando Südafrika are prepared to crush the South African resistance once and for all."
+ SFG_restoring_order_in_sudafrika: "Restoring Order in Südafrika"
+ SFG_restoring_order_in_sudafrika_desc: "Hüttig's orders to the Oberkommando Südafrika are simple: tame South Africa by any means necessary. The iron heel of the Oberkommando is constrained by no moral shackles, nor do they bother with any superficial courtesies. This army has only three missions: destroy, conquer, suppress — nothing more."
+ SFG_Wilhelm_Dommes: "Wilhelm Dommes"
+ SFG: "Oberkommando Südafrika"
+ SFG_DEF: "Oberkommando Südafrika"
+ SFG_ADJ: "East African"
+ SFG_SIMONSTOWN: "Simonstown Naval Defense Zone"
+ SFG_SIMONSTOWN_DEF: "Simonstown Naval Defense Zone"
+ SFG_SIMONSTOWN_ADJ: "Simonstown"
+ SFG_despotism_party: "Simonstown Naval Defense Zone"
+ POLITICS_KARL_CHMIELEWSKI_DESC: "Karl Chmielewski was always considered inferior in every respect — except when it came to cruelty.
+
+Chmielewski once had a promising future in the SS. He was one of the few men whose interest in torturing prisoners even made Heydrich uneasy. However, excessive corruption and violations of SS regulations ended his career, and he was permanently exiled to East Africa under Hüttig's rule. Here, he was nothing.
+
+For years, this disgraced battalion commander tried to win the Reichscommissioner's trust, but to no avail. Even his assassination of Ian Smith backfired when it interfered with his superior's plans. His competence as an army commander in the South African War was also lackluster, and it seemed this would be his last job. Malan's rebellion and Hüttig's forced intervention brought all that to an abrupt halt.
+
+With Hüttig's more capable generals busy administering his territory, Chmielewski was the only general left to suppress the Boer rebellion. He had only one full-strength division, and local hatred of Germans had reached unprecedented heights. Chmielewski knew that rebuilding control over the country was hopeless, but before he was defeated, he would at least try to withdraw as many German resources from the region as possible."
+ POLITICS_WILHELM_DOMMES_DESC: "Wilhelm Dommes never yearned for Afrika, and even to this day, all he thinks about is how to escape this land.
+
+As the only German commander who worked closely with the Japanese throughout World War II, Dommes expected an easy promotion to Naval High Command. However, the rapid deterioration of post-war German-Japanese relations led to his swift exile to German East Africa, and his career stagnated for over a decade. Worse still, during the South African War, the US Navy pinned his weak fleet in port, and he could only watch the conflict anxiously.
+
+During Hüttig's rule, outsiders speculated he survived the purges only because the East African navy was too insignificant to bother with. Few realized how accurate this assessment was — when all of Africa erupted in flames, Dommes used the Governor's indifference to plot his escape, only to be repeatedly frustrated by fuel shortages. After the "vassal states" were reclaimed, this Rear Admiral changed his plans: he quietly used his last reserves to transfer the remnants of his fleet to the derelict OFN naval base at Simonstown, preparing to control the Cape of Good Hope when the German state finally collapsed, using it as leverage to negotiate an escape passage with his former allies.
+
+By secretly corresponding with Rolf Mützenberg and Hans-Ulrich Rudel (both spared from Hüttig's execution orders through his mediation), Dommes painstakingly infiltrated the Oberkommando Südafrika. The day news of Hüttig's death reached Cape Town, he easily assassinated his rival Chmielewski and rallied the remnants to defend the Cape. By integrating the late colonial governor's forces with his self-built "Simonstown Naval Defense Zone," he cobbled together a mishmash arsenal, everything from the near-scrapped battleship Rodney to modern tanks from Bachlerstadt.
+
+Now that the plan is in its final chapter, Dommes has only one goal: survive until the Japanese-promised escape passage opens. To this end, he has even concluded a temporary alliance with the "republic" in Johannesburg to the north and OFN POWs — though no one believes this fragile alliance will survive another sunrise, even if they weather the ANC's full offensive."
+ SFG_paternalism_party: "Simonstown Naval Defense Zone"
+ SFG_fascism_party: "Oberkommando Südafrika"
+ SFG_fascism_party_long: "Oberkommando Südafrika (Oberkommando Südafrika)"
+ SFG_despotism_party_long: "Simonstown Naval Defense Zone (Seeverteidigung Simonstown)"
+ SFG_paternalism_party_long: "Simonstown Naval Defense Zone (Seeverteidigung Simonstown)"

@@ -1,0 +1,66 @@
+﻿l_english:
+ MDI_communist_party: "National Council of Sierra Leone"
+ MDI_communist_party_long: "National Council of Sierra Leone (National Council of Sierra Leone)"
+ MDI_socialist_party: "National Council of Sierra Leone"
+ MDI_socialist_party_long: "National Council of Sierra Leone (National Council of Sierra Leone)"
+ MDI_progressivism_party: "All People's Congress"
+ MDI_progressivism_party_long: "All People's Congress (All People's Congress)"
+ MDI_liberalism_party: "Sierra Leone People's Party"
+ MDI_liberalism_party_long: "Sierra Leone People's Party (Sierra Leone People's Party)"
+ MDI_conservatism_party: "-"
+ MDI_conservatism_party_long: "-"
+ MDI_paternalism_party: "Anti-Corruption Revolutionary Movement"
+ MDI_paternalism_party_long: "Anti-Corruption Revolutionary Movement (Anti-Corruption Revolutionary Movement)"
+ MDI_despotism_party: "Sierra Leone Armed Forces"
+ MDI_despotism_party_long: "Sierra Leone Armed Forces (Sierra Leone Armed Forces)"
+ MDI_fascism_party: "National Reformation Council"
+ MDI_fascism_party_long: "National Reformation Council (National Reformation Council)"
+ MDI_national_socialism_party: "-"
+ MDI_national_socialism_party_long: "-"
+ MDI_ultranationalism_party: "-"
+ MDI_ultranationalism_party_long: "-"
+ MDI_idea_disloyal_army: "Disloyal Army"
+ MDI_idea_disloyal_army_desc: "The army mirrors Sierra Leone's precarious political situation: chaotic, divided, and fractured. The military backed David Lansana's coup, and the most powerful generals recognize him; yet the ranks remain rife with dissent, most notably a small faction centered around Andrew Juxon-Smith.
+
+The army is not only disloyal but also disunited. Mende-born generals and officers generally support their kinsman Lansana, but Creoles, Temnes, and other ethnic groups see Juxon-Smith as a more amiable leader. That is bad enough, but rumors of a counter-coup are spreading like wildfire, making the situation even worse. Lansana has no intention of giving up the throne he barely warmed. One thing is certain: the struggle between Sierra Leone and its army is far from over."
+ MDI_idea_disorganized_political_spheres: "Disorganized Political Spheres"
+ MDI_idea_disorganized_political_spheres_desc: "Coups d'état on the ruins of West Africa tend to share certain traits: rapid, frequent, and utterly chaotic. By that measure, David Lansana's Sierra Leone coup seems perfectly on script. Now, supporters of every movement are loudly proclaiming their policies in the capital, and Lansana's new government is trying to gain a foothold on this most ungovernable of lands.
+
+With the various opposition groups fueling the chaos, Lansana's government grows ever more disorganized. Supporters of the ousted Prime Minister Milton Margai have not dispersed and still wield some influence in politics; the people are cheering for the rising star Siaka Stevens; the generals are whispering that they need a more unified leader, and they have already set their sights on Andrew Juxon-Smith. Everything points to the Sierra Leonean sonata reaching its climax on waves of chaos."
+ MDI_David_Lansana_hog_desc: "§YHead of Government
+Despotism§!
+--------------
+"
+ MDI_William_Henry_Fitzjohn_for_desc: "§YMinister of Foreign Affairs
+Paternalism§!
+--------------
+"
+ MDI_Joseph_Saidu_Momoh_eco_desc: "§YMinister of Economy
+Despotism§!
+--------------
+"
+ MDI_Andrew_Juxon_Smith_sec_desc: "§YMinister of Security
+Paternalism§!
+--------------
+"
+ POLITICS_DAVID_LANSANA_DESC: "When the world trembled before German panzers and Japanese warships, the old masters fell, and new nations hoped to break their chains of bondage and rise from the ruins of old empires. Among them was a nation called the Republic of Sierra Leone — once just another of Britain's many African colonies, now a fledgling democracy that seemed doomed not to last. Four days after the republic's founding, the new government was established through democratic elections, only for Brigadier David Lansana to order his troops to occupy the capital.
+
+David Lansana was born in 1922 into a prominent Mende family, and was one of the few selected from the colony to receive military training in Britain. Returning home, he married the daughter of a Mende chief, further expanding his political connections. When the British hastily withdrew from Africa, Lansana became commander of the Sierra Leone army. Though he claimed to support Sierra Leone's democracy, when the opposition party won Sierra Leone's first election, he did not hesitate to overthrow the elected government — now, he is the new head of state of the Republic of Sierra Leone.
+
+To outside observers, Lansana's regime looks precarious, riddled with serious ethnic conflict (thanks to the waves of Sierra Leonean nationalism and supremacism), while military men like Andrew Juxon-Smith and local warlords have risen through the ranks thanks to their open alliance with Lansana. As the power in Lansana's hands shifts more frequently, Sierra Leone's economy grows ever more turbulent. It seems that if the general wants to hold onto his power and his paper-thin regime, he must hope that the opposition does not stand united — not yet, at least."
+ MDI: "British Sierra Leone"
+ MDI_DEF: "Sierra Leone"
+ MDI_ADJ: "Sierra Leonean"
+ MDI_CAOPuppet: "Sierra Leone"
+ MDI_CAOPuppet_DEF: "Sierra Leone Socialist Republic"
+ MDI_CAOPuppet_ADJ: "Sierra Leonean"
+ MDI_David_Lansana: "David Lansana"
+ MDI_Joseph_Saidu_Momoh: "Joseph Saidu Momoh"
+ MDI_Andrew_Juxon_Smith: "Andrew Juxon-Smith"
+ MDI_ITA_Wallace_Johnson: "Isaac Theophilus Akunna Wallace-Johnson"
+ MDI_Siaka_Stevens: "Siaka Stevens"
+ MDI_Milton_Margai: "Milton Margai"
+ MDI_John_Amadu_Bangura: "John Amadu Bangura"
+ MDI_Samuel_Hinga_Norman: "Samuel Hinga Norman"
+ MDI_Foday_Sankoh: "Foday Sankoh"
+ MDI_William_Henry_Fitzjohn: "William Henry Fitzjohn"

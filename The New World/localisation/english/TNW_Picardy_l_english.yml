@@ -1,0 +1,44 @@
+﻿l_english:
+ PIC:0 "State of New France"
+ PIC_DEF:0 "State of New France"
+ PIC_ADJ:0 "French"
+ PIC_national_socialism_party:0 "33rd SS Division 'Charlemagne'"
+ PIC_national_socialism_party_long:0 "33rd Waffen Grenadier Division of the SS 'Charlemagne' (33. Waffen-Grenadier-Division der SS "Charlemagne")"
+ PIC_ultranationalism_party:0 "33rd SS Division 'Charlemagne'"
+ PIC_ultranationalism_party_long:0 "33rd Waffen Grenadier Division of the SS 'Charlemagne' (33. Waffen-Grenadier-Division der SS "Charlemagne")"
+ GLC: "French Accord Committee"
+ GLC_DEF: "French Supreme Accord Committee"
+ GLC_despotism_party: "French Unity Accord Committee"
+ GLC_despotism_party_long: "French Unity Accord Committee (Einheitspaktausschuss für Frankreich)"
+ PIC_Christian_de_la_Maziere: "Christian de la Mazière"
+ PIC_Rene_Binet:0 "René Binet"
+ PIC_Rene_Binet_hog_desc: "§YHead of Government
+National Socialism§!"
+ PIC_Marc_Augier:0 "Marc Augier"
+ PIC_Marc_Augier_for_desc: "§YMinister of Foreign Affairs
+National Socialism§!"
+ PIC_Jacques_Correze:0 "Jacques Corrèze"
+ PIC_Jacques_Correze_eco_desc: "§YMinister of Economy
+National Socialism§!"
+ PIC_Jean_Bassompierre:0 "Jean Bassompierre"
+ PIC_Jean_Bassompierre_sec_desc: "§YMinister of Security
+National Socialism§!"
+ POLITICS_CHRISTIAN_MAZIERE_DESC:0 "In the heart of what was once France, the Charlemagne Division struggles to rebuild control — but once they dig in, everyone knows whose side they will support.
+
+Christian de la Mazière is an odd bird. In Burgundy, he is one of the few men who swore allegiance to the Reichsführer-SS out of personal friendship, not faith or duty. Mazière was once a French soldier, and for nearly twenty years he climbed the ranks of the Charlemagne Division (a Waffen-SS collaborationist unit composed mainly of Frenchmen). It was during this period that he met Heinrich Himmler and swore loyalty to the man others feared to approach. Finally, when the Order State was established, he became commander of the Charlemagne Division. For years, he has staunchly pursued the Spartan ideal, even though Himmler's hatred of his beloved French culture deeply troubles him.
+
+Before he could voice these concerns, the world turned upside down: the Führer died, and Heydrich took his place — a development Mazière celebrated as nothing short of miraculous. For a moment, it seemed all dreams would come true — until the new Führer betrayed the SS's ideals and denounced Himmler with a ridiculous dream of world annihilation. Everything changed again, but not for the better.
+
+The Charlemagne Division was caught off guard by this sudden turn, and Mazière watched his men desperately establish rule in cities they would previously have disdained. Though the situation looked grim at first, he did not fear: he knew the right side would eventually prevail, and the Spartan ideal would return to its proper path. Since his loyalty was beyond question, it was only a matter of time before he reunited with Himmler and marched off to battle."
+ POLITICS_CHRISTIAN_MAZIERE_COLLAPSE_DESC:0 "Standartenführer de la Mazière had waited for this day, and at last, the two-faced fraud who called himself Reichsführer showed his weakness. The Charlemagne Division was founded to destroy Judeo-Bolshevism, not to slaughter their own people over some nonsense from dusty archives. What the Reichsführer expected of him was an insult to the thousands of Frenchmen who died on the Eastern Front.
+
+Perhaps not all Germans were villains; there were those willing to treat Frenchmen as equals rather than conquerors. But the situation in the Order State was entirely different. Christian de la Mazière would take back everything that belonged to the Legion — first from the SS, then from France's enemies. If Germany was also one of those enemies, then so be it. His only hope now was to watch Himmler hanged from the Arc de Triomphe. As for survival, wealth, and national purification — those were trivial matters."
+ PIC_in_name_only:0 "In Name Only"
+ PIC_in_name_only_desc:0 "Mazière's men fight under the banner of Charlemagne, but to most Frenchmen, they are nothing more than German lapdogs. Mazière considers himself the founding father of a new France, but there is still a long way to go before his people even consider respecting him."
+ PIC_robber_barony:0 "Robber Barony"
+ PIC_robber_barony_desc:0 "The high command of the Charlemagne Division are all wealthy men, but none of their fortune comes from business acumen or hard work — they made it all through plunder and extortion. Though they once only stole from Jews, the officers have no qualms about engaging in less patriotic "ventures"…"
+ GLC_national_socialism_party: "French Unity Accord Committee"
+ GLC_national_socialism_party_long: "French Unity Accord Committee (Einheitspaktausschuss für Frankreich)"
+ GLC_socialist_party:0 "Red Poppy Movement"
+ GLC_socialist_democrat_long:0 "Red Poppy Movement (Red Poppy Movement)"
+ GLC_ADJ: "French Accord Committee"

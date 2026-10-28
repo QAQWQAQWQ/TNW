@@ -1,0 +1,23 @@
+﻿l_english:
+ POLITICS_MASANOBU_TSUJI_DESC:0 "If you were to ask a high school student in places like Kanazawa, Nagano, or Osaka who Masanobu Tsuji is, the answer would be all sorts of miraculous and extraordinary deeds. From Hokkaido in the north to Kyushu and beyond in the south, General Tsuji is a household name throughout Japan, a war hero, a great Pan-Asianist warrior, the mastermind who planned and executed the liberation of Malaya from the clutches of evil British imperialism.
+
+On the other hand, from Davao in the Philippines to Lanzhou in the Chinese northwest, in the eyes of the oppressed peoples, the real Masanobu Tsuji is far different from those praises. He is a ruthless executioner, a butcher of innocent people, and a fanatic of Japanese Asiatic colonial imperialism. It is true that Tsuji planned the invasion of Malaya and won a great victory in just one month, but this victory was paved with a carnival of blood — from Alor Setar to Kota Tinggi, the streets and alleys of Malaya were washed with blood by the Japanese army again and again.
+
+And this is far from over. Massacring white people in Malaya alone was no longer enough for Tsuji's desires. Since then, he has participated in a series of massacres and targeted genocides, especially the "purge" of Chinese in Malaya and Singapore, and the horrific Bataan Death March, where prisoners of war were either worked to death or casually crushed like flies.
+
+After spending some time in Japan, this immortal beast was released from his dog cage, and now he is about to strike down on innocent people again. The General Staff appointed him to command the newly formed Northwest Front Army, dispatched to China to pacify the restless northwest region. Tsuji was only too happy to accept. He could hardly wait to stage another bloody feast of slaughter. Only a bloodthirsty, cold-blooded, inhuman beast could destroy the last bastion of the Chinese resistance movement. No one was more qualified for this role than Masanobu Tsuji."
+ GAN_despotism_party:0 "National Revolutionary Army"
+ GAN_despotism_party_long:0 "National Revolutionary Army (Zhonghua Minguo Guojun)"
+ GAN_fascism_party:0 "Local Collaborators"
+ GAN_fascism_party_long:0 "Local Collaborators"
+ GAN_ultranationalism_party:0 "Imperial Japanese Army"
+ GAN_ultranationalism_party_long:0 "Imperial Japanese Army (Dai-Nippon Teikoku Rikugun)"
+ GAN_tsuji_masanobu:0 "Masanobu Tsuji"
+ GAN:0 "Northwest Pacification Commission"
+ GAN_DEF:0 "Northwest Pacification Commission"
+ GAN_ADJ:0 "Chinese"
+ GAN_JAP: "Northwest Front Army"
+ GAN_JAP_DEF: "Northwest Front Army"
+ GAN_JAP_ADJ: "Japanese"
+ GAN_Zhang_Lanfeng: "Zhang Lanfeng"
+ GAN_IJA: "Japanese Army Advisors"

@@ -1,0 +1,63 @@
+﻿l_english:
+ JOL_communist_party: "PAIGC"
+ JOL_communist_party_long: "African Party for the Independence of Guinea and Cape Verde (Partido Africano para a Independência da Guiné e Cabo Verde)"
+ JOL_socialist_party: "PAIGC"
+ JOL_socialist_party_long: "African Party for the Independence of Guinea and Cape Verde (Partido Africano para a Independência da Guiné e Cabo Verde)"
+ JOL_progressivism_party: "People's Progressive Party"
+ JOL_progressivism_party_long: "People's Progressive Party (People's Progressive Party)"
+ JOL_liberalism_party: "United Party"
+ JOL_liberalism_party_long: "United Party (United Party)"
+ JOL_conservatism_party: "United Party"
+ JOL_conservatism_party_long: "United Party (United Party)"
+ JOL_paternalism_party: "Movement of Democratic Forces of Casamance"
+ JOL_paternalism_party_long: "Movement of Democratic Forces of Casamance (Mouvement des Forces Démocratiques de Casamance)"
+ JOL_despotism_party: "Movement of Democratic Forces of Casamance"
+ JOL_despotism_party_long: "Movement of Democratic Forces of Casamance (Mouvement des Forces Démocratiques de Casamance)"
+ JOL_fascism_party: "Muslim Congress Party"
+ JOL_fascism_party_long: "Muslim Congress Party (Muslim Congress Party)"
+ JOL_national_socialism_party: "National Socialism"
+ JOL_national_socialism_party_long: "National Socialism"
+ JOL_ultranationalism_party: "Ultranational Socialism"
+ JOL_ultranationalism_party_long: "Ultranational Socialism"
+ JOL_idea_under_shadow_wolofia: "Under Senegal's Shadow"
+ JOL_idea_under_shadow_wolofia_desc: "Casamance is a very small country, with almost no armed forces. In the chaotic world of West Africa, unarmed nations do not survive for long. Casamance was forced to seek protection from its neighbors. Senegal offered the Casamance government the best terms and the greatest autonomy. Now, Casamance remains an independent state under Senegalese protection, though the influence of its larger neighbor is increasingly felt."
+ JOL_idea_home_exiled_paigc: "Home of the Exiled PAIGC"
+ JOL_idea_home_exiled_paigc_desc: "Casamance, located north of the Iberian colony of Guinea-Bissau, has become a home for many exiles. When the PAIGC's uprising failed, the party was forced into exile. A split emerged: a faction under Luís Cabral broke away from the organization and reestablished itself in Casamance, where Cabral continues to lead the party."
+ JOL_Emile_Badiane: "Émile Badiane"
+ JOL_Assan_Musa_Camara: "Assan Musa Camara"
+ JOL_Augustin_Diamacoune_Senghor: "Augustin Diamacoune Senghor"
+ JOL_Daniel_Cabou: "Daniel Cabou"
+ JOL_Sheriff_Mustapha_Dibba: "Sheriff Mustapha Dibba"
+ JOL_Luis_Cabral: "Luís Cabral"
+ JOL_Joao_Bernardo_Vieira: "João Bernardo Vieira"
+ JOL_Dawda_Jawara: "Dawda Jawara"
+ JOL_Pierre_Sarr_Njie: "Pierre Sarr Njie"
+ JOL_Mustapha_Danso: "Mustapha Danso"
+ POLITICS_EMILE_BEDIANE_DESC: "The Jola nation is a relatively new concept. Before modern times, the Casamance region was just another part of Senegal. The people there lived much like the Wolof, and the region was as unremarkable as any other corner of West Africa's chaos.
+
+That is, until one man started making a fuss.
+
+Born in 1915, Émile Badiane excelled in school. His passion for learning never faded, and after graduation he became a schoolteacher. For a time, it seemed this would be the highest position he would ever reach in life. But when war came, Badiane saw his opportunity. He wanted to go further, and so he entered politics. There he discovered a movement he could support — the independence of the Jola people, of whom he was one.
+
+In the mid-1950s, he deftly sidestepped any opposition and became the spokesman for Casamance. Then, a series of mass protests, lengthy speeches, and relentless filibustering forced Senegal to hold an independence referendum, which passed by a narrow margin. After that, Badiane formally proclaimed the founding of the Republic of Casamance and seceded from Senegal.
+
+Now, Badiane leads Casamance into a new era in West Africa. As a staunch isolationist, Badiane will continue to rest on the honors and achievements of the past few years. Though this has earned him respect as the founding father, it has not won him many supporters. With the rising threat of the opposition surging forward, it remains to be seen whether Badiane can continue his rule. If he cannot control Casamance's politics the way he once controlled the classroom, his days are surely numbered."
+ JOL: "Casamance"
+ JOL_DEF: "Republic of Casamance"
+ JOL_ADJ: "Casamance"
+ JOL_Assan_Musa_Camara_hog_desc: "§YHead of Government
+Despotism§!
+--------------
+"
+ JOL_Augustin_Diamacoune_Senghor_for_desc: "§YMinister of Foreign Affairs
+Despotism§!
+--------------
+"
+ JOL_Daniel_Cabou_eco_desc: "§YMinister of Economy
+Despotism§!
+--------------
+"
+ JOL_Sheriff_Mustapha_Dibba_sec_desc: "§YMinister of Security
+Despotism§!
+--------------
+"

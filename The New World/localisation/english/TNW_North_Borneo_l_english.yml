@@ -1,0 +1,37 @@
+﻿l_english:
+ NRB_despotism_party: "37th Army Headquarters"
+ NRB_despotism_party_long: "37th Army's Headquarters in North Borneo"
+ NRB_Baba_Masao: "Baba Masao"
+ POLITICS_BABA_MASAO_DESC: "British Borneo holds a pivotal position in Japan's plan for Asian hegemony: on one hand, the island's oil reserves are coveted by Japanese oligarchs; on the other, Borneo sits at a strategic crossroads between East Asian and Oceanian trade routes. This incalculable value prompted the Japanese army to cross Asia and seize the Nanyang. The Japanese army successfully occupied Borneo in a very short time, and the former British colony was reorganized into a military administrative district, administered by a determined and resolute commander. That man is Baba Masao, commander of the 37th Army, which was conceived as the garrison force for Borneo.
+
+Born into a military family, Baba Masao strictly follows Prussian-style military discipline, and regards the Indonesia campaign as the glory of his military career — the campaign that paved the way for final victory over the Americans. He then became the supreme military administrator of Borneo. This position was earned with his own honor, a fact beyond the reach of his enemies or jealous rivals. As a competent Japanese general, Baba Masao controls this place with an iron fist, unscrupulously using violent means to enforce his will and suppress those who dare resist him. Baba Masao firmly believes Japan is superior to all other nations, and therefore insists on pushing assimilation policies in the region, turning it into a playground for Japanese oligarchs, where monopoly giants can each take a share of the abundant resources.
+
+As the war progressed, Borneo became heavily militarized, dotted with trenches and fortresses, and the former British protectorate is now an outpost for the army's commercial activities. The 37th Army strictly guards the border between North Borneo and Indonesia, and under Baba's leadership, this army serves as a reinforcement force for the Greater Sunda Islands and a "supportive" force for the Indonesian collaborationist government — they should not have enough strength to defeat the anti-Communist Co-Prosperity Sphere rebellion on their own."
+ NRB_Sugiyama_Shigeru: "Sugiyama Shigeru"
+ POLITICS_SUGIYAMA_SHIGERU_DESC: ""
+ BRU_Omar_Ali_Saifuddien_III: "Omar Ali Saifuddien III"
+ SRK_Abang_Haji_Mustapha: "Abang Haji Mustapha"
+ NRB_The_37th_Army: "37th Army Headquarters"
+ NRB_The_37th_Army_desc: "The famous, perhaps infamous, 37th Army, under the command of Baba Masao, is directly responsible for the defense of North Borneo. Nominally, this force exists to protect the interests of Shonan and Indonesia, but in reality, the 37th Army's intent is limited to defending the strategic port of Kuching from rebel forces hiding in the Bornean rainforest.
+
+Compared to other military forces in the Co-Prosperity Sphere, this unit consists only of the Independent Mixed 56th and 71st Brigades, making it relatively weak. However, their combat experience is unmatched by other units, allowing them to compensate for their numerical inferiority with combat quality. Needless to say, without the 37th Army in North Borneo, Japan would lose its only direct foothold in the Spice Islands."
+ NRB_Extremely_Underfunded: "Extremely Underfunded"
+ NRB_Extremely_Underfunded_desc: "Baba Masao cannot deny it: the North Borneo government's budget is based on mountains of debt. Troop allowances, heavy weapons maintenance costs, infrastructure project expenditures — all of these must give way to Tokyo's whims and the bickering, corrupt bureaucrats.
+
+Yet as a renowned general, Baba Masao still maintains political wisdom — few in this situation can match him — simply adding a proposal at every Imperial General Headquarters meeting to request increased fiscal subsidies for North Borneo. But in any case, if the Japanese government is to function at its highest level, it needs more yen, not spent by the book on things like this…"
+ NRB_Sarawak_Independence_Movement: "Sarawak Independence Movement"
+ NRB_Sarawak_Independence_Movement_desc: "The predecessor of the North Borneo government was the Kingdom of Sarawak and the British North Borneo colony in the northeast. On one hand, British North Borneo — more accurately, Sabah — easily submits to foreign rule due to the lack of a local ruler. But Sarawak has its own Rajah and government.
+
+Hidden in the suburbs of Canberra, the last generation of the White Rajahs of Sarawak, Vyner Brooke, has been in contact with independence organizations in North Borneo and OFN leaders, hoping one day to reclaim his homeland. Such a troublesome government-in-exile is naturally a huge threat to Japanese interests in Borneo, making maintaining control of Kuching and the surrounding areas all the more difficult…"
+ NRB: "Southern Military Administrative Inspectorate"
+ NRB_DEF: "Southern Military Administrative Inspectorate"
+ NRB_ADJ: "North Bornean"
+ BRU: "Brunei"
+ BRU_DEF: "Sultanate of Brunei"
+ BRU_ADJ: "Bruneian"
+ SRK: "Sarawak"
+ SRK_DEF: "Kingdom of Sarawak"
+ SRK_ADJ: "Sarawak Malay"
+ NRB_NB: "North Borneo Transitional Government"
+ NRB_NB_DEF: "North Borneo Transitional Government"
+ NRB_NB_ADJ: "North Bornean"

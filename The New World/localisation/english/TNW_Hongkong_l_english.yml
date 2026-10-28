@@ -1,0 +1,37 @@
+﻿l_english:
+ HKC:0 "Hong Kong Special Municipality"
+ HKC_DEF:0 "Hong Kong Special Municipality"
+ HKC_ADJ:0 "Hong Kong"
+ HKC_Guan_wonuan:0 "Guan Wonuan"
+ HKC_despotism_party:0 "Kuomintang - South China Daily"
+ HKC_despotism_party_long:0 "Kuomintang - South China Daily"
+ HKC_liberal_conservatism_party:0 "Non-Partisan - Federation of Trade Unions"
+ HKC_liberal_conservatism_party_long:0 "Non-Partisan - Federation of Trade Unions"
+ HKC_paternalism_party:0 "Non-Partisan Independents"
+ HKC_paternalism_party_long:0 "Non-Partisan Independents"
+ HKC_qlws:0 "Leaderless"
+ HKC_Liang_fuhua:0 "Liang Fuhua"
+ POLITICS_GUAN_WONUAN_DESC:0 "£GFX_kmt_party §iKuomintang Party Membership§!
+
+Guan Wonuan, born in Kaiping, Guangdong, moved his family to Hong Kong in 1944. Raised in the winds of Hong Kong and Macau, educated in colonial schools, he later traveled across the ocean to study, building his career and business in the United States. He then joined the overseas Chinese community, entered the Kuomintang, and was eventually elected Mayor of the Hong Kong Special Municipality.
+
+With this background, he enjoys considerable prestige among overseas Chinese. His experience in business has also made him well-versed in economic affairs. However, as Mayor of the Hong Kong Special Municipality, heavy pressure follows the glory. This city occupies a strategic position, its economic lifeline affecting all sides, and the mayoralty is no easy job: above him, the central government watches with piercing eyes; below him, foreign firms and financial magnates constrain him; in the deep undercurrents, Chinese and Japanese forces vie endlessly.
+
+Daily official business is like walking a tightrope. The times surge like a tide, and he struggles to navigate between the cracks, like a juggler keeping two bowls balanced,进退维谷, unable to control his own fate. No matter how the political scene changes, no matter how the tide of the era roars, only the bauhinia flowers fall, while the chrysanthemums by the fence bloom year after year; though the western wind may wane, the eastern wind returns with each passing year."
+ HKC_Golden_Light_Shining:0 "Golden Light Shining"
+ HKC_Golden_Light_Shining_desc:0 "The chaos in the Hong Kong Special Municipality needs no further explanation. In those days, warlords were everywhere, and criminal organizations ran rampant. Secret societies and triad halls were deeply entrenched; various groups held their own territories, carving out fiefdoms and preying on the weak. They colluded with spies and interpreters, and merchants and peddlers were all extorted — either paying protection money or being robbed clean. Opium dens, casinos, fan-tan and pai gow, dice games — all openly operated, lawless.
+
+Kowloon was even more chaotic than Hong Kong Island. This was because the military police maintained a heavy garrison in the central district, the former colonial government offices and financial hub, where wealthy merchants and prominent families gathered, and regular patrols of military police squads were maintained to deter trouble. In addition, major merchants and businesses set up iron and wooden gates to fortify themselves, checkpoints were set up in side streets and alleys, and they even hired gangsters as "watchmen" to maintain a precarious peace. With these layers of defense, the chaos on Hong Kong Island was slightly better than in Kowloon."
+ HKC_Rights_and_Wrongs:0 "Rights and Wrongs"
+ HKC_Rights_and_Wrongs_desc:0 "On the shores of the southern sea, Hong Kong rose rapidly, truly a brilliant pearl of East Asia in the 20th century. After the great war ended, Japanese merchants arrived with huge investments, and local and overseas traders also flocked to Victoria Harbour, with merchants gathering from all directions in an unprecedented spectacle.
+
+With a hundred industries prospering and people converging from all sides, immigrants poured in like a tide, and this land underwent a transformation. Hong Kong residents believe that in the ebb and flow of affairs, as long as the golden wind does not cease, the sons and daughters of Hong Kong can enjoy this prosperity forever, year after year.
+
+Yet beneath the glitter lies rot. Hong Kong's economy is increasingly sluggish, and its financial arteries are gradually contracting. In addition, the ports of Guangdong have reopened one after another, diverting trade, and Hong Kong's position as a strategic hub is no longer what it once was. Fortunately, backed by the financial conglomerates of three nations, there is still ample surplus capital, so the facade of prosperity can be barely maintained — the last gasp of a strong crossbow. Who could have foreseen that when a great building is about to collapse, no single timber can prop it up?"
+ HKC_Strange_Future:0 "Strange Future"
+ HKC_Strange_Future_desc:0 "Beneath the speeding wheels of the golden age, Hong Kong remains stuck in place. Its former position as a hub has lost its luster; the gap is enormous, and people's hearts are increasingly lost, falling into confusion. At this time of innovation and generational change, the youth of Hong Kong scatter like swallows, gone like orioles, leaving only sighs throughout the city.
+
+At this moment of transformation, Hong Kong residents stand at the crossroads of the era, their expressions panicked, unable to tell east from west. The road ahead is long, with no lamp to guide them, nor wise man to point the way.
+
+Even if ten thousand great buildings stack up like terraced fields, blocking out the sky, all Hong Kong residents can see is the inch of land beneath their feet. As for what the lifeline of Hong Kong depends on, and where the future lies, it is like falling into a fog — no one can answer, and no one dares to answer."
+ HongKong_eco:0 "Currently affected by §Reconomic stagnation§!. If §Rstagnation§! continues to worsen, Hong Kong's ability to maintain §wsocial stability§! and §Geconomic status§! will §Xcontinue to decline§!."

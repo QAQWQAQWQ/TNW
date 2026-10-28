@@ -1,0 +1,33 @@
+﻿l_english:
+ unit_leader_events.1.t:0 "[From.GetName] Falls Ill"
+ unit_leader_events.1.d:0 "It seems that [From.GetRank] [From.GetName] has overworked himself while serving [From.From.GetNameDef]. Unable to tolerate the harsh climate of the combat zone, this [From.GetRank] has now fallen ill and must rest for a period to recover. Until fully recovered, [From.GetSheHe] will perform far worse than [From.GetHerHis] usual."
+ unit_leader_events.1.a:0 "What a pity."
+ unit_leader_events.2.t:0 "[From.GetName] Wounded in Action"
+ unit_leader_events.2.d:0 "To turn the tide of battle, [From.GetRank] [From.GetName] seems to have been overly reckless while leading [From.GetHerHis] troops. [From.GetSheHeCap] has unfortunately been wounded, and must spend some time recovering. Until then, this [From.GetRank] will perform far worse than [From.GetHerHis] usual."
+ unit_leader_events.2.a:0 "What a pity."
+ operative_events.1.t:0 "Operative Captured"
+ operative_events.1.desc:0 "[This.GetName] was captured by [From.From.GetAdjective] counterintelligence while secretly infiltrating behind enemy lines. According to other intelligence sources, [This.GetSheHe] is being held in a remote area for interrogation. Although we believe [This.GetSheHe] will do everything possible to resist interrogation, the enemy will eventually extract intelligence from [This.GetHerHim] unless we rescue [This.GetHerHim] or the enemy kills [This.GetHerHim]."
+ operative_events.1.a:0 "We must launch a rescue operation!"
+ operative_events.2.t:0 "Operative Forced into Hiding"
+ operative_events.2.desc:0 "[This.GetName] was apparently discovered by [From.From.GetAdjective] counterintelligence while conducting espionage in [From.From.GetNameDef]. [This.GetSheHe]'s last message said that [This.GetSheHe] noticed enemy surveillance beginning to follow [This.GetHerHim], so [This.GetSheHe] will execute evasion and escape plans.
+
+As part of the plan, [This.GetName] will naturally cut contact with [This.GetHerHis] informants to avoid implicating more people.
+
+Once [This.GetName] successfully escapes, [This.GetSheHe] will contact us in a few weeks."
+ operative_events.2.a:0 "We have no choice but to wait and pray."
+ operative_events.3.t:0 "Operative Killed"
+ operative_events.3.desc:0 "[This.GetName], one of our operatives deployed in [From.From.GetNameDef], appears to have died in the line of duty. Reports from [From.From.GetAdjective] intelligence sources are naturally scarce, but we suspect [This.GetName] was tracked by [From.From.GetAdjective] counterintelligence. [This.GetSheHe] likely died shortly before capture — either committing suicide to avoid revealing intelligence after arrest, or being killed by [From.From.GetAdjective] agents while resisting arrest."
+ operative_events.3.a:0 "Rest in peace. [This.GetHerHis] was a true hero."
+ operative_events.4.t:0 "Operative Wounded"
+ operative_events.4.desc:0 "After close contact with [From.From.GetAdjective] counterintelligence, [This.GetName] reports that [This.GetSheHe] will suspend operations to treat the wounds [This.GetSheHe] sustained during the arrest attempt.
+
+[This.GetName] has now moved to a safe location to treat [This.GetHerHis] wounds, and [This.GetSheHe] will be unable to carry out missions for us during recovery — a process that will take several weeks."
+ operative_events.4.a:0 "[This.GetSheHe] will be back on the front lines soon."
+ operative_events.5.t:0 "Enemy Operative Defects"
+ operative_events.5.desc:0 "Our counterintelligence has achieved a great success: after repeated interrogations, and after informing [This.GetSheHe] of the possible consequences of espionage charges, the captured [From.From.GetAdjective] operative [This.GetName] has agreed to cooperate with us, provided we grant [This.GetHerHim] amnesty for all crimes.
+
+With [This.GetHerHis] deep knowledge of [From.From.GetAdjective] intelligence work, [This.GetSheHe] can undoubtedly easily infiltrate [From.From.GetNameDef] without being detected by [From.From.GetAdjective] counterintelligence."
+ operative_events.5.a:0 "But we were planning to make [This.GetHerHim] pay with his life!"
+ operative_events.6.t:0 "[From.GetAdjective] Operative Captured!"
+ operative_events.6.desc:0 "[This.GetName] attempted to infiltrate our administration and leak classified information to [This.GetHerHis] superiors, and has now been captured by us. Under interrogation, [This.GetSheHe] confessed that [This.GetHerselfHimself] is an overseas operative of [From.GetAgency] operating in [From.From.GetAdjective] territory. It is not yet known what interest [From.GetAdjective] has in our nation, nor how far [From.GetAdjective] intelligence has penetrated our administration. [This.GetName] is now in custody awaiting further interrogation. We can only hope that [This.GetSheHe] will eventually tell us everything about [From.GetAdjective]'s operations in [From.From.GetNameDef]."
+ operative_events.6.a:0 "We have many ways to make you talk."

@@ -1,0 +1,43 @@
+﻿l_english:
+ nuclear_war_category:0 "Nuclear Annihilation"
+ nuclear_war_category_desc:0 "Nuclear weapons are the most powerful weapons of war at our disposal. Out of fear of mutually assured destruction, we have used these terrifying weapons of destruction with caution, but it seems we have no choice. The flames of nuclear explosion light the path to victory — whatever the cost, these measures are necessary to protect our nation, §Reven if it means the destruction of human civilization and the arrival of nuclear armageddon.§!"
+ destroy_our_enemies:0 "Nuclear War Begins"
+ nuclearwar.1.t:0 "Select Targets"
+ nuclearwar.1.de:0 "Before we begin the destruction operation, we must set the first strike target for our nuclear arsenal — this may be the last action our nation takes. Doing so may turn the tide of the war in our favor.
+
+We have few means to ensure the enemy's will to fight is completely destroyed and broken. The primary target is the enemy's army — although nuclear strikes will heavily damage our own forces, this will completely erase the enemy's ability to win the war. Our next target is the land occupied by the enemy. The third target is a direct attack on their homeland. In most cases, this will make the enemy army surrender immediately, and we win the war. Or, if we have enough nuclear weapons, we can attack any target immediately.
+
+How shall we choose?"
+ nuclearwar.1.a:0 "Crush the enemy army."
+ nuclearwar.1.b:0 "Turn enemy-occupied territory into scorched earth."
+ nuclearwar.1.c:0 "Destroy the enemy nation!"
+ nuclearwar.1.d:0 "Destroy everything!"
+ nuclearwar.2.t:0 "Ultimatum"
+ nuclearwar.2.d:0 "An urgent telegram has arrived from enemy lines. Apparently, faced with the current course of the war, they have sent an ultimatum: ceasefire or nuclear strike. However, we cannot be certain how real their threat is. We can try to end the war and seek peace proactively, or treat their threat as a bluff.
+
+The choice is yours."
+ nuclearwar.2.a:0 "Better not to tempt fate."
+ nuclearwar.2.b:0 "They're definitely bluffing."
+ nuclearwar.3.t:0 "Peace Achieved!"
+ nuclearwar.3.d:0 "The seemingly inevitable nuclear war situation has been resolved today. The enemy has conceded to our demands, and in emergency peace talks, we have successfully prevented the outbreak of nuclear war. The war will end soon."
+ nuclearwar.3.a:0 "Let's end the negotiations."
+ nuclearwar.4.t:0 "Decision"
+ nuclearwar.4.d:0 "We have offered an olive branch — we have offered an olive branch to the enemy, and if peace cannot be achieved, we will incinerate them in the flames of nuclear explosion. However, these ignorant enemies call us fools and mock our reluctance to use nuclear weapons.
+
+We must now decide whether to use nuclear weapons and handle the aftermath."
+ nuclearwar.4.a:0 "Destroy them."
+ nuclearwar.4.b:0 "We cannot bear the consequences."
+ nuclearwar.5.t:0 "Attack Alert!"
+ nuclearwar.5.d:0 "Urgent alert! Radar and air position systems report: enemy nuclear missiles launched, nuclear attack aircraft taking off! All nuclear targets — our nation. We must retaliate in kind."
+ nuclearwar.5.a:0 "All nuclear warheads launch! Target: everything enemy!"
+ nuclearwar.6.t:0 "Retaliation"
+ nuclearwar.6.d:0 "The alert system has detected nuclear warheads heading toward our nation, and our nuclear counterattack has already begun. Although nuclear shelters are open to civilians, not all of us can survive a nuclear attack. All we know is that nuclear war has begun, and the world will be changed forever."
+ nuclearwar.6.a:0 "God, please save us…"
+ nuclearwar.7.t:0 "The World is Saved"
+ nuclearwar.7.d:0 "We have avoided the outbreak of full-scale nuclear war, saving billions of lives. Our world has been saved. At least this time."
+ nuclearwar.7.a:0 "Who would have thought that threatening people with nuclear weapons would actually make them stop?"
+ nuclearwar.8.t:0 "Last Chance"
+ nuclearwar.8.d:0 "Nuclear war is a serious matter — once begun, there is no turning back. Do you wish to continue?"
+ nuclearwar.8.a:0 "Go go go!"
+ nuclearwar.8.b:0 "No, I've changed my mind."
+ nuclearwar_speed_warning:0 "We strongly recommend switching to game speed 2 or 3."

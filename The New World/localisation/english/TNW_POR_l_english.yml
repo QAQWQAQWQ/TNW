@@ -1,0 +1,50 @@
+﻿l_english:
+ POR_POR:0 "Portuguese Republic"
+ POR_PORR_DEF:0 "Portuguese Republic"
+ POR_POR_ADJ:0 "Portuguese"
+ POR:0 "Portuguese Republic"
+ POR_DEF:0 "Portuguese Republic"
+ POR_ADJ:0 "Portuguese"
+ POR_communist_party:0 "Portuguese Communist Party"
+ POR_communist_party_long:0 "Portuguese Communist Party (Partido Comunista Português)"
+ POR_socialist_party:0 "Democratic Electoral Commission"
+ POR_socialist_party_long:0 "Democratic Electoral Commission (Comissão Democrática Eleitoral)"
+ POR_progressivism_party:0 "Democratic Unity Electoral Commission"
+ POR_progressivism_party_long:0 "Democratic Unity Electoral Commission (Comissão Eleitoral de Unidade Democrática)"
+ POR_liberalism_party:0 "Republican and Socialist Alliance"
+ POR_liberalism_party_long:0 "Republican and Socialist Alliance (Aliança Republicana e Socialista)"
+ POR_conservatism_party:0 "National Democratic Movement"
+ POR_conservatism_party_long:0 "National Democratic Movement (Movimento Nacional Democrático)"
+ POR_paternalism_party:0 "National Union - Reformists"
+ POR_paternalism_party_long:0 "National Union - Reformists (União Nacional - Reformistas)"
+ POR_despotism_party:0 "National Union - Salazarists"
+ POR_despotism_party_long:0 "National Union - Salazarists (União Nacional - Salazaristas)"
+ POR_fascism_party:0 "National Union - Nationalists"
+ POR_fascism_party_long:0 "National Union - Nationalists (União Nacional - Nacionalistas)"
+ POR_national_socialism_party:0 "National Union - National Socialists"
+ POR_national_socialism_party_long:0 "National Union - National Socialists (União Nacional - Nacional-Socialistas)"
+ POR_ultranationalism_party:0 "Sons of Viriathus"
+ POR_ultranationalism_party_long:0 "Sons of Viriathus (Filhos de Viriato)"
+ POR_Antonio_Salazar:0 "António de Oliveira Salazar"
+ POR_Pedro_Pereira:0 "Pedro Teotónio Pereira"
+ POR_Manuel_Gomes_de_Araujo:0 "Manuel Gomes de Araújo"
+ POR_Marcello_Mathias:0 "Marcelo Mathias"
+ POR_Marcello_Mathias_for_desc:0 "§YMinister of Foreign Affairs
+Despotism§!"
+ POR_Ulisses_Cortes:0 "Ulisses de Aguiar Cortês"
+ POR_Ulisses_Cortes_eco_desc:0 "§YMinister of Economy
+Despotism§!"
+ POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_WARS_DESC:0 "It would be quite unfair to dismiss António de Oliveira Salazar, who has ruled Portugal since 1932, as nothing more than a meddlesome bureaucrat. Salazar seized power in his homeland on his own, a few years before Franco controlled Spain. But under pressure from the German invasion of Angola and Mozambique, he ultimately decided to accept a deal with the devil. When Franco approached Salazar and proposed transforming their defensive treaty into a single nation, Salazar agreed with reservations to merge Portugal with fellow right-wing Spain. The Iberian Union was proclaimed, and the former two nations would stand united and side by side… at least in theory.
+
+However, reality fell far short of the ideal. Salazar cared little for the well-being of the Iberian Union and everything for Portugal's own benefit. On one hand, Salazar wanted to protect Portugal from any harm or trouble; on the other, he was almost pathologically obsessed with vetoing any proposal that sought to consolidate the federation, quickly earning a reputation in the commission as a notorious obstructionist. His paranoia about "Spanish oppression of Portugal" led to multiple confrontations with Franco himself, who saw him as one of many factors that could lead to the breakup of Iberia. Franco had attempted to push through the Law of Succession, which would mean that after the two caudillos died, the monarchy would be restored and Portugal would be absorbed into Spain — this deepened the rift between the two nations. Salazar, for his part, purged a group of Falangist "old shirt" members who had attempted a coup against the Union.
+
+Yet it was not Salazar's obstructionism that caused the Union to collapse. The blame for that rests entirely with Franco, who failed to handle the Basque rebellion effectively. Shortly after, Salazar fled Madrid for Lisbon and declared Portugal's independence from the war-torn, fractured Iberian Union."
+ POLITICS_ANTONIO_DE_OLIVEIRA_SALAZAR_DIVORCE_DESC:0 "It would be quite unfair to dismiss António de Oliveira Salazar, who has ruled Portugal since 1932, as nothing more than a meddlesome bureaucrat. Salazar seized power in his homeland on his own, a few years before Franco controlled Spain. But under pressure from the German invasion of Angola and Mozambique, he ultimately decided to accept a deal with the devil. When Franco approached Salazar and proposed transforming their defensive treaty into a single nation, Salazar agreed with reservations to merge Portugal with fellow right-wing Spain.
+
+However, dreams always differ from reality. Internal strife with his fellow caudillo, domestic turmoil, the fatigue and pressure of age — the Union had a thousand reasons to split, but in the end, none of those reasons mattered. Now, he stands in his manor, overseeing the reconstruction of Portugal — a nation alone once again in a rapidly changing world.
+
+Of one thing he is certain: he will not live to see the end of this decade."
+ POR_Pedro_Pereira_hog_desc:0 "§YConsolidated Minister of State
+Despotism§!"
+ POR_Manuel_Gomes_de_Araujo_sec_desc:0 "§YMinister of National Defense
+Despotism§!"

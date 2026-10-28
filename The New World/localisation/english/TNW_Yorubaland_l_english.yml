@@ -1,0 +1,65 @@
+﻿l_english:
+ YOR_communist_party: "-"
+ YOR_communist_party_long: "-"
+ YOR_socialist_party: "-"
+ YOR_socialist_party_long: "-"
+ YOR_progressivism_party: "-"
+ YOR_progressivism_party_long: "-"
+ YOR_liberalism_party: "Oodua Peoples Congress"
+ YOR_liberalism_party_long: "Oodua Peoples Congress (Oodua Peoples Congress)"
+ YOR_conservatism_party: "Yorubaland Democratic Front"
+ YOR_conservatism_party_long: "Yorubaland Democratic Front (Yorubaland Democratic Front)"
+ YOR_paternalism_party: "Yorubaland Democratic Front"
+ YOR_paternalism_party_long: "Yorubaland Democratic Front (Yorubaland Democratic Front)"
+ YOR_despotism_party: "Free Yorubaland National Democratic Party"
+ YOR_despotism_party_long: "Free Yorubaland National Democratic Party (Free Yorubaland National Democratic Party)"
+ YOR_fascism_party: "Free Yorubaland National Democratic Party - Radicals"
+ YOR_fascism_party_long: "Free Yorubaland National Democratic Party - Radicals (Free Yorubaland National Democratic Party - Radicals)"
+ YOR_national_socialism_party: "-"
+ YOR_national_socialism_party_long: "-"
+ YOR_ultranationalism_party: "-"
+ YOR_ultranationalism_party_long: "-"
+ YOR_Obafemi_Awolowo_hog_desc: "§YHead of Government
+Paternalism§!
+--------------
+"
+ YOR_Kofo_Abayomi_for_desc: "§YMinister of Foreign Affairs
+Paternalism§!
+--------------
+"
+ YOR_Henry_Fajemirokun_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ YOR_Olusegun_Obasanjo_sec_desc: "§YMinister of Security
+Paternalism§!
+--------------
+"
+ YOR_idea_shield_against_socialism: "Shield Against Socialism"
+ YOR_idea_shield_against_socialism_desc: "Years ago, when the Camerounians and Germans first began their fierce border clashes, many small nations used this distraction as an opportunity to resist and escape pan-African tyranny. Among these nations, Yorubaland was the strongest and best-equipped, and only Yorubaland, bathed in the blood of friends and foes, won through by cruel means and survived.
+
+Hatred for the Bandit Mumié, the imperialist, steeled our resolve; he sought nothing less than the total destruction and assimilation of our people and all who live in West Africa. That they dare not send armies against us only proves they fear our soldiers. Indeed, we protect the rest of West Africa from Cameroun's hounds — for if we fall, the other nations of West Africa will crumble too."
+ YOR_idea_benevolent_dictatorship: "Benevolent Dictatorship"
+ YOR_idea_benevolent_dictatorship_desc: "Akintola is a wise man who has seen through the facade of freedom that democracy offers. The will of the people is a poisoned chalice, and elections are merely a way for foreign threats to subdue Yorubaland through factionalism and insidious influence. Politicians only seek power and fame, they are charlatans and frauds; they have no interest in the nation itself, only in their bank accounts, and they would sell the nation's security for an extra penny. In a nation besieged by foreign invaders and in desperate need of unity, politicians cannot be allowed to govern — or they will destroy it.
+
+Yet Akintola is no Hitler or Mussolini. He truly believes in a free, prosperous Yorubaland — a nation led by men of honor and skill, who work to make the country prosperous and equal. Though the people themselves may not participate in government, it is undeniable that Akintola considers the interests of his citizens."
+ POLITICS_LADOKE_AKINTOLA_DESC: "Yorubaland was not always free. It had to win its independence from the yoke of Cameroun's pan-Africanists, and the key to its founding was Ladoke Akintola. When a group of generals and officers rose up to overthrow the socialist regime ruling his homeland, Akintola saw the minor conflict between Cameroun and Central Africa as a golden opportunity, and became the leader and head of the uprising. Under his command, the Camerounians were driven out, and Yorubaland subsequently repelled their counterattacks and reclaimed its territory. The other West African nations were grateful for this, as a buffer now stood between them and the pan-Africanists, allowing them to live in peace.
+
+Yet within Akintola's domain, the situation was not so clear or hopeful. The people admired him and were grateful for his protection of the coast from any foreign invaders. Though he may be a dictator, he is not a brutal or militaristic one, but rules his citizens benevolently. However, this authoritarianism must eventually end. Certainly, the last thing he wants is for socialists to take power, even though his own policies are strikingly similar to theirs. Welfare has been established, and many freedoms have been granted. As for actual elections, that is a complicated question for Akintola. Perhaps some vetted parties could participate in the electoral process, but how can he be so certain that his successor will be able to hold the nation together and not let Yorubaland's coast fall into enemy hands? He cannot be certain, which is why building democracy may not be so easy. But for now, Akintola is content to continue his rule over the land he controls, if only to keep the enemy out."
+ YOR: "Republic of Oduduwa"
+ YOR_DEF: "Republic of Oduduwa"
+ YOR_ADJ: "Oduduan"
+ YOR_unified: "Republic of Nigeria"
+ YOR_unified_DEF: "Republic of Nigeria"
+ YOR_unified_ADJ: "Nigerian"
+ YOR_Ladoke_Akintola: "Ladoke Akintola"
+ YOR_Obafemi_Awolowo: "Obafemi Awolowo"
+ YOR_Kofo_Abayomi: "Kofo Abayomi"
+ YOR_Henry_Fajemirokun: "Henry Fajemirokun"
+ YOR_Olusegun_Obasanjo: "Olusegun Obasanjo"
+ YOR_Frederick_Fasehun: "Frederick Fasehun"
+ YOR_Olu_Falae: "Olu Falae"
+ YOR_Mobolaji_Johnson: "Mobolaji Johnson"
+ YOR_Akintunde_Akinsehinwa: "Akintunde Akinsehinwa"
+ YOR_Benjamin_Adekunle: "Benjamin Adekunle"
+ YOR_Banji_Akintoye: "Banji Akintoye"

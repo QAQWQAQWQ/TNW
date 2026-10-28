@@ -1,0 +1,59 @@
+l_english:
+ ARR: "Aryan State"
+ ARR_ADJ: "Aryan State"
+ ARR_DEF: "Aryan State"
+ ARR_Alexey_Dobrovolsky: "Alexey Dobrovolsky"
+
+ SPU: "Union of Slavic Patriots"
+ SPU_ADJ: "Union of Slavic Patriots"
+ SPU_DEF: "Union of Slavic Patriots"
+ SPU_Dmitry_Vasilyev: "Dmitry Vasilyev"
+
+ VYA: "Grand Duchy of Vyatka"
+ VYA_ADJ: "Grand Duchy of Vyatka"
+ VYA_DEF: "Grand Duchy of Vyatka"
+ VYA_Maria_Vladimirovna: "Maria I"
+
+ NPS: "New Poland"
+ NPS_ADJ: "New Poland"
+ NPS_DEF: "Poland"
+ NPS_Marian_Orzechowski: "Marian Orzechowski"
+ NPS_socialist_party: "Patriotic Movement for National Rebirth"
+ NPS_socialist_party_long: "Patriotic Movement for National Rebirth"
+
+ ULF: "Ural Federation"
+ ULF_ADJ: "Ural Federation"
+ ULF_DEF: "Ural Federation"
+ ULF_Mikhail_Kalashnikov: "Mikhail Kalashnikov"
+
+ SFR: "Siberian Soviet Federative Republic"
+ SFR_ADJ: "Siberian Soviet Federative Republic"
+ SFR_DEF: "Siberian Soviet Federative Republic"
+ SFR_Richard_Kosolapov: "Richard Kosolapov"
+
+ RDS: "Russian Theocratic State"
+ RDS_ADJ: "Russian Theocratic State"
+ RDS_DEF: "Russian Theocratic State"
+ RDS_Archimandrite_KirillPavlov: "Kirill Pavlov"
+
+ ## Tatarstan
+ TAR: "State of Tatarstan"
+ TAR_ADJ: "State of Tatarstan"
+ TAR_DEF: "State of Tatarstan"
+ TAR_Fauziya_Bayramova: "Fauziya Bayramova"
+
+ ##komi
+ KOM_Rostislav_Borisovich: "Rostislav Borisovich"
+
+ # Tomsk
+ TOM_Vladimir_Yakunin: "Vladimir Yakunin"
+
+ #Magadan
+ MAG_Yegor_Gaidar: "Yegor Gaidar"
+
+ ## Turkestan Legion
+ UTL_Saparmurat_Niyazov: "Saparmurat Niyazov"
+
+ ## WEST FACTION ##
+
+ West_Russian_Defense_and_Security_Pact: "West Russian Defense and Security Pact"

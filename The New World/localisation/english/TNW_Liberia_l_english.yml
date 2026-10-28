@@ -1,0 +1,67 @@
+﻿l_english:
+ LIB_communist_party: "National Patriotic Front of Liberia"
+ LIB_communist_party_long: "National Patriotic Front of Liberia (National Patriotic Front of Liberia)"
+ LIB_socialist_party: "National Patriotic Front of Liberia"
+ LIB_socialist_party_long: "National Patriotic Front of Liberia (National Patriotic Front of Liberia)"
+ LIB_progressivism_party: "Progressive People's Party"
+ LIB_progressivism_party_long: "Progressive People's Party (Progressive People's Party)"
+ LIB_liberalism_party: "Progressive People's Party"
+ LIB_liberalism_party_long: "Progressive People's Party (Progressive People's Party)"
+ LIB_paternalism_party: "National Democratic Party"
+ LIB_paternalism_party_long: "National Democratic Party (National Democratic Party)"
+ LIB_despotism_party: "True Whig"
+ LIB_despotism_party_long: "True Whig (True Whig)"
+ LIB_fascism_party: "-"
+ LIB_fascism_party_long: "-"
+ LIB_national_socialism_party: "-"
+ LIB_national_socialism_party_long: "-"
+ LIB_ultranationalism_party: "-"
+ LIB_ultranationalism_party_long: "-"
+ LIB_idea_gridlocked_politics: "Gridlocked Politics"
+ LIB_idea_gridlocked_politics_desc: "Many ideologies flourish in this small West African nation, but one man's party has established a one-party dominant system above them all. For nearly a decade, William Tubman's True Whig Party has controlled every aspect of Liberian politics, and no other party has been able to gain comparable power. Tubman's rule over Liberia is extremely strong and almost entirely unchecked; only the will of the Liberian people can counterbalance it. Unless the masses can unite against his rule, Tubman's power remains unlimited."
+ LIB_idea_ofn_support: "OFN Support"
+ LIB_idea_ofn_support_desc: "Historically, Liberia was a product of the infamous American Colonization Society of the 19th century; even its capital is named after former US President James Monroe. So it is no surprise that Liberia welcomes generous support from the OFN under American leadership. However, Liberia has begun to drift away from its American origins, heading down another path — pursuing an open-door policy that welcomes all sides. As Tubman steers Liberia toward other new markets, OFN support will gradually diminish."
+ LIB_idea_widespread_corruption: "Widespread Corruption"
+ LIB_idea_widespread_corruption_desc: "In Liberia, the road to absolute power runs through its rampant corruption. Without corruption, the government would collapse. After Tubman took almost complete control of Liberia, he could approve any lucrative contract he wished. He frequently invited foreign companies to buy land in Liberia, stealing power from the people, and treating past agreements as waste paper. Tubman himself profited enormously from these contracts, leaving only an angry people in his wake. With each new contract signed, the people's voices grow louder…"
+ LIB_idea_usa_resource: "US Military Support"
+ LIB_idea_usa_resource_desc: "The Americans cannot send troops here; they are sending guns and ammunition. Though we still cannot defeat the pan-Africanists on our own, we at least have a chance to hold the line until the OFN agrees to send troops."
+ POLITICS_WILLIAM_TUBMAN_DESC: "There are many words to describe William Tubman — "corrupt", "controversial" — but "fool" is definitely not one of them.
+
+Born into a military-political family in 1895, William followed in his father's footsteps and won a seat in the Senate in 1923, becoming the youngest senator in Liberian history. His political career then went smoothly, and he was eventually elected president in 1942, at a time when Liberia was in the throes of a world war. When Tubman took office, the order in West Africa fell apart, and an unprecedented wave of refugees surged toward this small nation, which seemed on the verge of being overwhelmed. Yet with the aid of friendly nations in the Organization of Free Nations, Tubman deftly steered the ship of state safely through the stormy seas of the post-war order.
+
+As time passed, Tubman grew increasingly authoritarian and increasingly isolationist. After drifting away from the OFN, Tubman became a carefree neutralist. In present-day Liberia, Tubman's authority goes unchallenged. Not because no one challenges him, but because those challengers are either too weak to win the opposition vote, or have accepted "gifts" from Tubman's government and conveniently ended their campaigns shortly thereafter — or, of course, because they were not moved by money and unfortunately died in accidents.
+
+Now, Liberia under Tubman is prosperous and at peace. Thanks to the massive trade with the Gold Coast, Liberia is undoubtedly the richest nation in West Africa. After all, despite all the divisions among the Liberian people, Tubman is rightly called the "father of modernization" of Liberia. That said, the continuation of this system naturally depends on Tubman's health — and once, or rather when, Tubman passes away, Liberia's golden age will crumble and bury its people."
+ LIB: "Liberia"
+ LIB_DEF: "Republic of Liberia"
+ LIB_ADJ: "Liberian"
+ LIB_William_Tubman: "William Tubman"
+ LIB_William_Tolbert: "William Tolbert"
+ LIB_Joseph_Rudolph_Grimes: "Joseph Rudolph Grimes"
+ LIB_James_A_A_Pierre: "James A. A. Pierre"
+ LIB_Alford_Russ: "Alford Russ"
+ LIB_Hans_Jurgen_Massaquoi: "Hans-Jürgen Massaquoi"
+ LIB_Fatima_Massaquoi: "Fatima Massaquoi"
+ LIB_Gabriel_Baccus_Matthews: "Gabriel Baccus Matthews"
+ LIB_Theophilus_Ernest_Eastman: "Theophilus Ernest Eastman"
+ LIB_George_T_Washington: "George T. Washington"
+ LIB_Jenkins_Yancey: "Jenkins Yancey"
+ LIB_David_Nimley: "David Nimley"
+ LIB_Reginald_Brandon: "Reginald Brandon"
+ LIB_James_Wah_Wleh: "James Wah Wleh"
+ LIB_William_Tolbert_hog_desc: "§YHead of Government
+Conservatism§!
+--------------
+"
+ LIB_Joseph_Rudolph_Grimes_for_desc: "§YMinister of Foreign Affairs
+Conservatism§!
+--------------
+"
+ LIB_James_A_A_Pierre_eco_desc: "§YMinister of Economy
+Conservatism§!
+--------------
+"
+ LIB_Alford_Russ_sec_desc: "§YMinister of Security
+Conservatism§!
+--------------
+"

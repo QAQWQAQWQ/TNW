@@ -1,0 +1,42 @@
+﻿l_english:
+ CFS_DEF: "Republic of Zaire"
+ CFS_ADJ: "Congolese"
+ CFS_despotism: "Congolese State"
+ CFS_despotism_DEF: "Congolese State"
+ CFS_liberalism_party: "Mouvement National Congolais - Lumumbists"
+ CFS_liberalism_party_long: "Mouvement National Congolais - Lumumbists"
+ CFS_conservatism_party: "Mouvement National Congolais - Social Christians"
+ CFS_conservatism_party_long: "Mouvement National Congolais - Social Chrétien"
+ CFS_despotism_party: "Congolese National Army"
+ CFS_despotism_party_long: "Congolese National Army (Armée Nationale Congolaise)"
+ CFS_paternalism_party: "Mouvement National Congolais - Federalists"
+ CFS_paternalism_party_long: "Mouvement National Congolais - Federalistes"
+ CFS_progressivism_party: "Mouvement National Congolais - Socialists"
+ CFS_progressivism_party_long: "Mouvement National Congolais - Socialistes"
+ CFS_Patrice_Lumumba: "Patrice Lumumba"
+ CFS_Cyrille_Adoula: "Cyrille Adoula"
+ CFS_Joseph_Okito: "Joseph Okito"
+ CFS_Albert_Kalonji: "Albert Kalonji"
+ CFS_Godefroid_Munongo: "Godefroid Munongo"
+ CFS_Victor_Lundula: "Victor Lundula"
+ CFS_Joseph_Kasa_Vubu: "Joseph Kasa-Vubu"
+ CFS_Maurice_Mpolo: "Maurice Mpolo"
+ CFS_fascism_party: "PMC Remnants"
+ CFS_fascism_party_long: "PMC Remnants"
+ CFS: "Republic of Zaire"
+ CFS_Joseph_Okito_hog_desc: "§YHead of Government
+Liberalism§!
+--------------
+"
+ CFS_Albert_Kalonji_for_desc: "§YMinister of Foreign Affairs
+Liberalism§!
+--------------
+"
+ CFS_Godefroid_Munongo_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ CFS_Victor_Lundula_sec_desc: "§YMinister of Security
+Despotism§!
+--------------
+"

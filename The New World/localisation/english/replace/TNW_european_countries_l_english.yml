@@ -1,0 +1,62 @@
+l_english:
+ HUN: "Hungarian Workers' State"
+ HUN_DEF: "Hungarian Workers' State"
+ HUN_ADJ: "Hungary"
+ HUN_Istvan_Gyorkos: "István Győrkös"
+ HUN_ultranationalism_party: "Arrow Cross Party"
+ HUN_ultranationalism_party_long: "Arrow Cross Party"
+
+ ##MNT##
+ MNT: "Kingdom of Montenegro"
+ MNT_DEF: "Kingdom of Montenegro"
+ MNT_fascism: "Kingdom of Montenegro"
+ MNT_fascism_DEF: "Kingdom of Montenegro"
+ MNT_ADJ: "Montenegro"
+
+ ##slovakia
+ SLO: "Slovak State"
+ SLO_DEF: "Slovak State"
+ SLO_ADJ: "Slovakia"
+ SLO_Rudolf_Schuster: "Rudolf Schuster"
+ SLO_conservatism_party: "Civic Party"
+ SLO_conservatism_party_long: "Civic Party"
+ 
+
+ #Bulgaria
+ BUL: "Tsardom of Bulgaria"
+ BUL_DEF: "Tsardom of Bulgaria"
+ BUL_ADJ: "Bulgaria"
+
+ ##Finland
+ FIN_Timo_Soini: "Timo Soini"
+ FIN_ultranationalism_party: "Finns Party"
+ FIN_ultranationalism_party_long: "Finns Party"
+
+ ##Albania
+ ALB_Adem_Demaci: "Adem Demaçi"
+ ALB_paternalism_party: "Parliamentary Party"
+ ALB_paternalism_party_long: "Parliamentary Party"
+
+ ##Norway
+ NOR: "State of Norway"
+ NOR_DEF: "State of Norway"
+ NOR_ADJ: "Norway"
+ NOR_Tore_Tvedt: "Tore Tvedt"
+
+ ##portugal
+ POR_Morreu_Adriano_Moreira: "Adriano Moreira"
+ POR: "Portuguese Republic"
+ POR_DEF: "Portuguese Republic"
+ POR_ADJ: "Portugal"
+ POR_conservatism_party: "People's Party"
+ POR_conservatism_party_long: "People's Party"
+
+ ##croatia
+ CRO: "Kingdom of Croatia"
+ CRO_DEF: "Kingdom of Croatia"
+ CRO_ADJ: "Croatia"
+ 
+ ###Denmark
+ DEN_Gert_Petersen: "Gert Petersen"
+ DEN_progressivism_party: "National Socialist People's Party"
+ DEN_progressivism_party_long: "National Socialist People's Party"

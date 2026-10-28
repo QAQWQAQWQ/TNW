@@ -1,0 +1,56 @@
+﻿l_english:
+ HAU_communist_party: "-"
+ HAU_communist_party_long: "-"
+ HAU_socialist_party: "-"
+ HAU_socialist_party_long: "-"
+ HAU_progressivism_party: "-"
+ HAU_progressivism_party_long: "-"
+ HAU_liberalism_party: "Hausa Action Bloc"
+ HAU_liberalism_party_long: "Hausa Action Bloc (Bloc d'Action Haoussa)"
+ HAU_conservatism_party: "Hausa Democratic Union"
+ HAU_conservatism_party_long: "Hausa Democratic Union (Union Démocratique Haoussa)"
+ HAU_paternalism_party: "Sokoto Defense Force"
+ HAU_paternalism_party_long: "Sokoto Defense Force (Force de Défense de Sokoto)"
+ HAU_despotism_party: "Sultan's Council"
+ HAU_despotism_party_long: "Sokoto Sultan's Council (Conseil du Sultan de Sokoto)"
+ HAU_fascism_party: "Sokoto Islamic Union"
+ HAU_fascism_party_long: "Sokoto Islamic Union (Union Islamique de Sokoto)"
+ HAU_national_socialism_party: "-"
+ HAU_national_socialism_party_long: "-"
+ HAU_ultranationalism_party: "-"
+ HAU_ultranationalism_party_long: "-"
+ HAU_idea_islamic_influences: "Islamic Influences"
+ HAU_idea_islamic_influences_desc: "Islam plays an important role at all levels of Sokoto Sultanate society. From ordinary people to the highest levels of government, every action and decision is made with the advice of imams and other religious counselors. Although the control of Islam is not absolute, its influence is everywhere, and the Prophet's words are never far from the Sultanate's rulers' hearts."
+ POLITICS_SIDDIQ_ABUBAKAR_III_DESC: "Siddiq Abubakar III is the Sultan of Sokoto, "Leader of the Faithful" and "Commander of the Muslims," as well as the head of the Nigerian branch of the Qadiriyya Sufi order. He is the last link in an ancient historical chain in this corner of Africa. Abubakar was born in 1903, the very day the British finally conquered the Sokoto Sultanate. He is a descendant of the founders of Sokoto, who played a key role in establishing Islam in northern Nigeria. Abubakar received a religious education, distinguished himself as a skilled administrator, mastered his people's traditional law, and finally became Sultan in 1938.
+
+As the de facto absolute monarch and spiritual guide, Abubakar is supported by most of the traditional Fulani upper class, but growing opposition from reformist elements in the region has begun to threaten the Sultan's legitimacy.
+
+Worse still, the Hausa people of Sokoto have long been denied any real form of representation, and they have begun to resent the Fulani-dominated Sultanate as demands for Hausa self-determination grow louder. Finally, other ethnic groups in the border regions of the Sokoto Kingdom — primarily the Zarma and Fulbe peoples — are also growing restive under the Fulani yoke and may well secede from the Sultanate. Despite all this, Sultan Abubakar perseveres, and only time will tell whether his adherence to the ancient and venerable ways of his ancestors is enough to survive in this cruel new world."
+ HAU: "Sokoto"
+ HAU_DEF: "Sokoto Sultanate"
+ HAU_ADJ: "Sokoto"
+ HAU_Siddiq_Abubakar_III: "Siddiq Abubakar III"
+ HAU_Shehu_Shagari: "Shehu Shagari"
+ HAU_Adamou_Mayaki: "Adamou Mayaki"
+ HAU_Mamadou_Maidah: "Mamadou Maidah"
+ HAU_Mamadou_Tandja: "Mamadou Tandja"
+ HAU_Issoufou_Saidou_Djermakoye: "Issoufou Saidou Djermakoye"
+ HAU_Abubakar_Tafawa_Balewa: "Abubakar Tafawa Balewa"
+ HAU_Osman_Nuhu_Sharubutu: "Osman Nuhu Sharubutu"
+ HAU_Ahmadu_Bello: "Ahmadu Bello"
+ HAU_Shehu_Shagari_hog_desc: "§YHead of Government
+Despotism§!
+--------------
+"
+ HAU_Adamou_Mayaki_for_desc: "§YMinister of Foreign Affairs
+Despotism§!
+--------------
+"
+ HAU_Mamadou_Maidah_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ HAU_Mamadou_Tandja_sec_desc: "§YMinister of Security
+Paternalism§!
+--------------
+"

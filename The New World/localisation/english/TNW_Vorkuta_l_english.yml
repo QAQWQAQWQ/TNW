@@ -1,0 +1,47 @@
+﻿l_english:
+ VOR: "Vorkuta"
+ VOR_DEF: "Vorkuta Corrective Labor Camp"
+ VOR_ADJ: "Vorkuran"
+ VOR_communist_party: "Gulag Directorate of the NKVD"
+ VOR_communist_party_long: "Main Directorate of Corrective Labor Camps and Colonies of the People's Commissariat for Internal Affairs of the Union of Soviet Socialist Republics (Glavnoe upravlenie ispravitel'no-trudovikh lagerey i koloniy Narodnogo komissariata vnutrennikh del Soyuza Sovetskikh Sotsialisticheskikh Respublik)"
+ POLITICS_VASILY_BLOKHIN_DESC: "Some men live by a strict moral code, but Vasily Mikhailovich Blokhin left those behind long ago, becoming the chief executioner of the People's Commissariat for Internal Affairs, the NKVD. As a Chekist, his efficiency at doing the dirty work was unmatched, and it was this that earned him rapid promotion. Blokhin's brutality was legendary: he personally oversaw mass executions of "enemies of the state," from the lowliest wretches to the most famous Bolsheviks in Soviet history. Thousands died under his watch, yet he somehow managed to avoid being caught up in any of the purges himself.
+
+When World War II ended in the Soviet Union's humiliating defeat, Blokhin refused to let his power fade so easily. As commandant of the Vorkuta camp, part of the vast Gulag system, he continued to exercise his authority, initially as a proxy for the West Russian Revolutionary Front. In truth, he did as he pleased, for no one could stop him — they had either been executed or mysteriously disappeared. Yet the situation changed as Gulag prisoners began to rise up against their guards: the formation of the opposition Ural Union put him in danger. But soon they fled south, and Blokhin once again became supreme ruler.
+
+Vasily Blokhin was left to administer the Vorkuta Gulag, now ruling the city itself after the collapse of the West Russian Revolutionary Front in the famous West Russian War. With the help of the few remaining guards, he reorganized the region and successfully built his own warlord state. Yet Blokhin is not an ambitious man: all he wants is the independence and survival of his domain, no matter the cost."
+ VOR_Vasily_Blokhin: "Vasily Blokhin"
+ VOR_Vasily_Blokhin_hog_desc: "§YHead of Government
+Communism§!"
+ VOR_Boris_Trofimov: "Boris Trofimov"
+ VOR_Boris_Trofimov_for_desc: "§YMinister of Foreign Affairs
+Communism§!"
+ VOR_Yevgeniy_Yudin: "Yevgeniy Yudin"
+ VOR_Yevgeniy_Yudin_eco_desc: "§YMinister of Economy
+Communism§!"
+ VOR_Stepan_Garanin: "Stepan Garanin"
+ VOR_Stepan_Garanin_sec_desc: "§YMinister of Security
+Communism§!"
+ VOR_Viktor_Kolesnikov: "Viktor Kolesnikov"
+ VOR_Pyotr_Gladkov: "Pyotr Gladkov"
+ VOR_security_state: "Security State"
+ VOR_inhospitable_climate: "Inhospitable Climate"
+ VOR_security_state_desc: "Vorkuta began as a collection of NKVD officers sent to guard and interrogate prisoners of war, political prisoners, and violent criminals, tasked with exploiting the region's vast resources. From the days of the Revolutionary Front through the present after the West Russian War, the NKVD has been granted the authority to rule this land as they see fit, maximizing the extraction of critical resources needed to sustain the West Russian war machine.
+
+One might call them cruel — and they are, unnecessarily so. But one cannot call them incompetent. The NKVD's Vorkuta is now filled with volunteers and "reformed" prisoners, a formidable machine with daunting capabilities in combat, security, and intelligence gathering."
+ VOR_inhospitable_climate_desc: "Vorkuta's climate, to put it mildly, is relentlessly cold. Much of the region is solid permafrost, useless for agriculture and nearly as bad for hunting. Untreated equipment freezes easily, and unprepared soldiers suffer greatly. Fighting in these harsh conditions is a desperate affair — caution, caution, and more caution is the order of the day; no rash moves are tolerated."
+ VOR_pechora_war: "Pechora War"
+ VOR_pechora_war_desc: "The Pechora War is the latest conflict between Vorkuta and Yugra, the two northern powers. But this time, both sides intend to see it through to the end."
+ vorkuta_smuta.1.t: "[FROM.GetName]'s Proposal"
+ vorkuta_smuta.1.desc: "I'm not crazy! I know he swapped the numbers! I know it was 1216 — one year off from the signing of Magna Carta. How could I make that kind of mistake? Never. Never! I just — I just can't prove it. He — he covered his tracks, got that idiot at the copy shop to lie for him. You think this is something? You think this is bad? This? This chicanery? He's done worse. That billboard! Are you telling me that a man just happens to fall like that? No! He orchestrated it! Jimmy! He defecated through a sunroof! And I saved him! And I shouldn't have. I took him into my own firm! What was I thinking? He'll never change. He'll never change! Ever since he was 9, always the same! Couldn't keep his hands out of the cash drawer! But not our Jimmy! Couldn't be precious Jimmy! Stealing them blind! And he gets to be a lawyer!? What a sick joke! I should've stopped him when I had the chance! And you — you have to stop him!"
+ vorkuta_smuta.1.a: "Everything's gonna be okay, man."
+ vorkuta_smuta.1.b: "DUN DUN DUN"
+ vorkuta_smuta.2.t: "Blokhin's Response"
+ vorkuta_smuta.2.desc: "Thankfully, Blokhin has accepted our offer of peaceful annexation. This saves us the effort and time of marching across the Northern Urals to forcibly occupy this domain. It also saves many precious lives.
+
+We will immediately begin integrating the region under our administration to secure our northern border. We are one step closer to a unified motherland, and not a drop of blood has been spilled."
+ vorkuta_smuta.2.a: "No bloodshed this time."
+ vorkuta_smuta.3.t: "Blokhin's Response"
+ vorkuta_smuta.3.desc: "Blokhin and his henchmen have rejected our offer. It is a regrettable outcome, but mere bravado in the face of our military strength.
+
+Their only real defense is the mountainous terrain of the Northern Urals. Once we cross them, the road to Vorkuta lies open, and we shall arrive shortly."
+ vorkuta_smuta.3.a: "No more dragging this out."

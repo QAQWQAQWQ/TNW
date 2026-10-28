@@ -1,0 +1,98 @@
+﻿l_english:
+ SLG_Federico_Gomez_Salazar:0 "Federico Gómez de Salazar"
+ SLG_Jorge_Jardim:0 "Jorge Pereira Jardim"
+ SLG_Cirilo_Canovas_Garcia:0 "Cirilo Cánovas García"
+ SLG_Baltasar_Rebelo_de_Sousa:0 "Baltasar Rebelo de Sousa"
+ SLG_Jean_Claude_Perez:0 "Jean-Claude Perez"
+ SLG_Kaulza_de_Arriaga:0 "Kaulza de Arriaga"
+ SLG_Jean_Souetre:0 "Jean Souêtre"
+ SLG_Pierre_Descaves:0 "Pierre Descaves"
+ SLG_Edmond_Jouhaud:0 "Edmond Jouhaud"
+ SLG_Philippe_Marcais:0 "Philippe Marçais"
+ SLG_Orlando_Cristina:0 "Orlando Cristina"
+ SLG_Albert_Dovecar:0 "Albert Dovecar"
+ SLG_Claude_Piegts:0 "Claude Piegts"
+ SLG_Pierre_Delhomme:0 "Pierre Delhomme"
+ SLG_fascism:0 "Algerian Legion Forces"
+ SLG_fascism_DEF:0 "Algerian Legion Forces"
+ SLG_liberalism:0 "Algerian Military Command"
+ SLG_liberalism_DEF:0 "Algerian Military Command"
+ SLG_conservatism:0 "Algerian Military Command"
+ SLG_conservatism_DEF:0 "Algerian Military Command"
+ SLG_paternalism:0 "Algerian Military Command"
+ SLG_paternalism_DEF:0 "Algerian Military Command"
+ SLG_despotism:0 "Algerian Military Command"
+ SLG_despotism_DEF:0 "Algerian Military Command"
+ SLG_communist:0 "Algerian Military Command"
+ SLG_communist_DEF:0 "Algerian Military Command"
+ SLG_socialist:0 "Algerian Military Command"
+ SLG_socialist_DEF:0 "Algerian Military Command"
+ SLG_national_socialism:0 "Algerian Military Command"
+ SLG_national_socialism_DEF:0 "Algerian Military Command"
+ SLG_ultranationalism:0 "Algerian Military Command"
+ SLG_ultranationalism_DEF:0 "Algerian Military Command"
+ SLG_fascism_ADJ:0 "Pied-Noir"
+ SLG_liberalism_ADJ:0 "Iberian Algerian"
+ SLG_conservatism_ADJ:0 "Iberian Algerian"
+ SLG_paternalism_ADJ:0 "Iberian Algerian"
+ SLG_communist_ADJ:0 "Iberian Algerian"
+ SLG_despotism_ADJ:0 "Iberian Algerian"
+ SLG_socialist_ADJ:0 "Iberian Algerian"
+ SLG_ultranationalism_ADJ:0 "Iberian Algerian"
+ SLG_national_socialism_ADJ:0 "Iberian Algerian"
+ SLG_paternalism_party:0 "Settlement Defense Front"
+ SLG_paternalism_party_long:0 "Settlement Defense Front (Frente de Defensa de Asentamientos)"
+ SLG_despotism_party:0 "Algerian Military Command"
+ SLG_despotism_party_long:0 "Algerian Military Command (Comando Militar Argelino)"
+ SLG_fascism_party:0 "Cité Catholique"
+ SLG_fascism_party_long:0 "Cité Catholique (Cité Catholique)"
+ POLITICS_FEDERICO_GOMEZ_DESC:0 "Commander Federico Gómez de Salazar was the natural choice to lead the Iberian "peacekeeping" force into Algeria. Born in 1912, he grew up during the turbulent interwar years of Spain, witnessing a nation that, though untouched by the fires of the Great War, grew increasingly divided. In 1929, he trained under General Francisco Franco at the General Military Academy in Zaragoza, and naturally fought for the Nationalists during the Spanish Civil War. During World War II, he served with the Blue Division, the Spanish volunteer unit sent by the Franco regime to fight on the Eastern Front for Germany. After the war, he continued his loyalty to the newly formed Iberian Union.
+
+The Iberian caudillos were no strangers to the chaos in Algeria. Salazar, in particular, was eager to protect the large Iberian immigrant population settled along the Algerian-Moroccan border. When the situation in Algeria deteriorated to a critical point, Salazar seized the opportunity and dispatched troops. Gómez de Salazar received concise orders: protect all Iberian immigrants, cooperate with the French pieds-noirs, and eliminate Italian influence. This loyal officer believed in a simple creed — once an order is given, it will be executed without question, no matter what it says."
+ POLITICS_JORGE_JARDIM_DESC:0 ""
+ POLITICS_YVES_GUERIN_SERAC_DESC:0 ""
+ SLG_Legion_Presence:0 "Military Presence"
+ SLG_Legion_Presence_desc:0 "Since the Portuguese settled in Algeria, Spanish troops were sent there to protect their Iberian brothers. However, the primary purpose of deploying troops was to administer the territory in the absence of French authorities. Since then, the Spanish military has become the dominant political and military force in the region, controlling most local affairs."
+ SLG_Retornados:0 "Portuguese Returnees"
+ SLG_Retornados_desc:0 "After the German invasion of Portuguese Africa, a large number of our citizens there chose to return to Iberia. The government decided to resettle them in the unofficially Iberian-controlled areas of Algeria, conveniently strengthening our territorial claim over the region. To this day, Portuguese settlers still live on this land, laying the foundation for us to build a stronger nation."
+ SLG_Native_Unrest:0 "Native Unrest"
+ SLG_Native_Unrest_desc:0 "The native protests triggered by the large-scale resettlement of Portuguese citizens to Algeria have become a headache for us. This problem must be resolved sooner or later."
+ SLG_Jorge_Jardim_hog_desc:0 "§YHead of Government
+Despotism§!
+--------------
+"
+ SLG_Orlando_Cristina_hog_desc:0 "§YHead of Government
+Paternalism§!
+--------------
+"
+ SLG_Federico_Gomez_sec_desc:0 "§YMinister of Security
+Despotism§!
+--------------
+"
+ SLG_Cirilo_Canovas_Garcia_eco_desc:0 "§YMinister of Economy
+Despotism§!
+--------------
+"
+ SLG_Baltasar_Rebelo_de_Sousa_for_desc:0 "§YMinister of Foreign Affairs
+Despotism§!
+--------------
+"
+ SLG_Philippe_Marcais_hog_desc:0 "§YHead of Government
+Fascism§!
+--------------
+"
+ SLG_Edmond_Jouhaud_sec_desc:0 "§YMinister of Security
+Fascism§!
+--------------
+"
+ SLG_Pierre_Descaves_eco_desc:0 "§YMinister of Economy
+Fascism§!
+--------------
+"
+ SLG_Jean_Claude_Perez_for_desc:0 "§YMinister of Foreign Affairs
+Fascism§!
+--------------
+"
+ SLG.8.t:0 "Election Results"
+ SLG.8.d:0 "Not yet written"
+ SLG.8.a:0 "Jorge Pereira Jardim is elected as civilian governor!"

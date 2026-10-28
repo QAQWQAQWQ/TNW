@@ -1,0 +1,54 @@
+﻿l_english:
+ FTF: "Futa Massina"
+ FTF_DEF: "Futa Massina"
+ FTF_ADJ: "Massina"
+ FTF_communist_party: "Niger Socialist Front"
+ FTF_communist_party_long: "Niger Socialist Front (Front Socialiste du Niger)"
+ FTF_socialist_party: "Niger Socialist Front"
+ FTF_socialist_party_long: "Niger Socialist Front (Front Socialiste du Niger)"
+ FTF_progressivism_party: "Niger Socialist Front"
+ FTF_progressivism_party_long: "Niger Socialist Front (Front Socialiste du Niger)"
+ FTF_liberalism_party: "Nigerien Progressive Party"
+ FTF_liberalism_party_long: "Nigerien Progressive Party (Parti Progressiste Nigérien)"
+ FTF_conservatism_party: "Nigerian Independence Party"
+ FTF_conservatism_party_long: "Nigerian Independence Party (Parti de l'Indépendance Nigéria)"
+ FTF_paternalism_party: "Nigerian Independence Party"
+ FTF_paternalism_party_long: "Nigerian Independence Party (Parti de l'Indépendance Nigéria)"
+ FTF_despotism_party: "Massina Nationalist Movement"
+ FTF_despotism_party_long: "Massina Nationalist Movement (Mouvement Nationaliste Massina)"
+ FTF_fascism_party: "Massina Nationalist Movement"
+ FTF_fascism_party_long: "Massina Nationalist Movement (Mouvement Nationaliste Massina)"
+ FTF_national_socialism_party: "-"
+ FTF_national_socialism_party_long: "-"
+ FTF_ultranationalism_party: "Massina Nationalist Movement - Fundamentalist Faction"
+ FTF_ultranationalism_party_long: "Massina Nationalist Movement - Fundamentalist Faction"
+ FTF_Murtala_Mohammed: "Murtala Mohammed"
+ FTF_Djibo_Bakary: "Djibo Bakary"
+ FTF_Hamani_Diori: "Hamani Diori"
+ FTF_Amadou_Hampate_Ba: "Amadou Hampâté Bâ"
+ FTF_Barema_Bocoum: "Barema Bocoum"
+ FTF_Tunde_Idiagbon: "Tunde Idiagbon"
+ FTF_Muhammadu_Buhari: "Muhammadu Buhari"
+ POLITICS_MURTALA_MOHAMMED_DESC: ""
+ FTF_Murtala_Mohammed_hog_desc: "§YHead of Government
+Despotism§!
+--------------
+"
+ FTF_Barema_Bocoum_for_desc: "§YMinister of Foreign Affairs
+Paternalism§!
+--------------
+"
+ FTF_Amadou_Hampate_Ba_eco_desc: "§YMinister of Economy
+Conservatism§!
+--------------
+"
+ FTF_Tunde_Idiagbon_sec_desc: "§YMinister of Security
+Despotism§!
+--------------
+"
+ FTF_idea_murtalas_realm: "Murtala's Realm"
+ FTF_idea_murtalas_realm_desc: "There was a young officer from Sokoto who, in the 1950s, watched as Cameroonian raiders displaced his people; later, he saw their plight under the Sokoto government. He resolved to rebel, and Futa Massina came into being. This officer was named Murtala Mohammed, born into a Fulbe ruling class; leveraging his status, he quickly established a nation in the desert. It was here that Futa Massina was born, and freedom arrived."
+ FTF_idea_nascent_nationalism: "Nascent Nationalism"
+ FTF_idea_nascent_nationalism_desc: "Futa Massina's will is Murtala's will, and Murtala asks for nothing more: he only wishes his people could freely choose their own destiny. In Africa, the idea of nationalism is still in its infancy, and it cannot be built in a single day.
+
+Despite these difficulties, Murtala remains focused on building a Massina identity, hoping these efforts will soon make that identity legitimate enough for the Massina people to become a complete and mature nation."

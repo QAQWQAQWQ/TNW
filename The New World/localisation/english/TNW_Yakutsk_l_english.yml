@@ -1,0 +1,43 @@
+﻿l_english:
+ YAK_communist_party: "All-Union Communist Party (Bolsheviks)"
+ YAK_communist_party_long: "All-Union Communist Party (Bolsheviks) (Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov))"
+ YAK_socialist_party: "Sablintsy"
+ YAK_socialist_party_long: "Sablintsy (Sablintsy)"
+ YAK_progressivism_party: "Russian People's Party"
+ YAK_progressivism_party_long: "Russian People's Party (Rossiyskaya Narodnaya Partiya)"
+ YAK_liberalism_party: "National Unity Party"
+ YAK_liberalism_party_long: "National Unity Party (Partiya Narodnogo Edinstva)"
+ YAK_conservatism_party: "Social Reform Party"
+ YAK_conservatism_party_long: "Social Reform Party (Partiya Sotsial'noy Reformy)"
+ YAK_paternalism_party: "Social Reform Party"
+ YAK_paternalism_party_long: "Social Reform Party (Partiya Sotsial'noy Reformy)"
+ YAK_despotism_party: "Pavlov's Clique"
+ YAK_despotism_party_long: "Pavlov's Clique (Klika Pavlova)"
+ YAK_fascism_party: "Russian Fascist Party"
+ YAK_fascism_party_long: "Russian Fascist Party (Rossiyskaya Fashistskaya Partiya)"
+ YAK_national_socialism_party: "Russian Fascist Party"
+ YAK_national_socialism_party_long: "Russian Fascist Party (Rossiyskaya Fashistskaya Partiya)"
+ YAK_ultranationalism_party: "Russian Fascist Party"
+ YAK_ultranationalism_party_long: "Russian Fascist Party (Rossiyskaya Fashistskaya Partiya)"
+ YAK_Georgy_Basharin: "Georgy Basharin"
+ POLITICS_GEORGIY_BASHARIN_DESC: "Georgy Prokopyevich Basharin is regarded as the representative of the Yakut independent spirit in this turbulent era. Born into a large family of poor peasants, he was determined to achieve success in education. He studied history and literature in Moscow, then returned home in the final years of Russia's peace. He avoided conscription during both the war against Germany and the Siberian War, instead joining the free nationalist movement fighting for the freedom of the Yakut people. Soon, the troops of the Supreme Soviet were driven out, and intellectual circles seemed to realize their dream.
+
+The brand-new democratic government carried forward the cause, proclaiming the establishment of a new Yakut Republic and promising grand reforms to provide freedom for the people. However, this newborn state was dealt a blow by reality soon after its founding. Rich natural resources like diamonds, though thought to help the nation's development, became a curse. Local companies monopolized the mining industry, using profits to fund their own projects. They accumulated power within Yakutsk, even forming their own "state within a state." To facilitate their operations, they established independent armies. Crime was rampant, and oligarchs colluded with criminal organizations, operating freely without government interference.
+
+Amid all this, Georgy Basharin remained an honest and open defender, doing his best to administer the republican government. He may be respected by most, but he has few means to fight the oligarchy that constrains him. For now, all he can hope for is that the flame of Yakut nationalism continues to burn."
+ YAK_Vladimir_Kuroedov: "Vladimir Kuroedov"
+ YAK_Alexandra_Ovchinnikova: "Alexandra Ovchinnikova"
+ YAK_Alexandra_Ovchinnikova_hog_desc: "§YHead of Government
+National Liberalism§!"
+ YAK_Stepan_Vasiliev: "Stepan Vasiliev"
+ YAK_Stepan_Vasiliev_for_desc: "§YMinister of Foreign Affairs
+National Liberalism§!"
+ YAK_Lev_Soldatov: "Lev Soldatov"
+ YAK_Lev_Soldatov_eco_desc: "§YMinister of Economy
+National Liberalism§!"
+ YAK_Fyodor_Okhlopov: "Fyodor Okhlopov"
+ YAK_Fyodor_Okhlopov_sec_desc: "§YMinister of Security
+National Liberalism§!"
+ YAK_Ivan_Fyodorov: "Ivan Fyodorov"
+ YAK_collapse_despotism_party: "1st Army "Dmitry Donskoy""
+ YAK_collapse_despotism_party_long: "1st Army "Dmitry Donskoy" (Pervaya Armiya Dmitriy Donskoy)"

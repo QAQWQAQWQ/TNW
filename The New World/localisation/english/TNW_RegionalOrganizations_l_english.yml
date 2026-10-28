@@ -1,0 +1,92 @@
+﻿l_english:
+ RegionalOrganization_Icon_tt: "§W[THIS.GetName] is a member of [TNO_RegionalOrganization_GetNameColored].\n--------------\n-Leader:§W[TNO_RegionalOrganization_GetLeader]§!\n-Alignment: [TNO_RegionalOrganization_GetAlignment]\n-Type:§W[TNO_RegionalOrganization_GetType]§!\n-Members: [?global.RegionalOrganization_Members@var:reg_org^num|0L][TNO_RegionalOrganization_GetGDP][TNO_RegionalOrganization_GetModifiers]§!"
+ RegionalOrganization_Icon_tt_delayed: "§W[TNO_RegionalOrganization_GetDesc]§!"
+ RegionalOrganization_Icon_tt_GDP: "\n-Comined GDP:§G[?global.RegionalOrganization_TotalGDP@var:reg_org]B§!"
+ RegionalOrganization_Icon_tt_modifiers: "\n--------------\n§YEffects:§!§W[TNO_RegionalOrganization_GetModifiersEntry]§!"
+
+ RegionalOrganization_EU: "European Union"
+ RegionalOrganization_EU_colored:  "§Q$RegionalOrganization_EU$§!"
+ RegionalOrganization_EU_desc_0: "£zollverein_texticon §Q$RegionalOrganization_EU$§! emerged as the European Economic Community evolved toward a political direction. This emerging political union includes numerous pro-German European nations, tightly bound together by the iron bonds between the Axis powers' European states. Its organizational structure and institutions are dedicated to advancing European integration, with the ultimate goal of building an alliance of brother nations - or, more accurately, of making the nations of Europe voluntarily bow their heads and submit forever to the greatest empire in Europe, the Greater German Reich of the German people."
+ 
+ RegionalOrganization_Alignment_ProGermany: "§rPro-German§!"
+ RegionalOrganization_Alignment_ProJapan: "§RPro-Japanese§!"
+ RegionalOrganization_Alignment_ProAmerica: "§MPro-American§!"
+ RegionalOrganization_Alignment_Unaligned: "§WUnaligned§!"
+
+ RegionalOrganization_UN: "United Nations"
+ RegionalOrganization_UN_colored: "§m$RegionalOrganization_UN$§!"
+ RegionalOrganization_UN_desc_0:  "£zollverein_texticon With the fall of Switzerland, the League of Nations truly came to an end. In 1948, delegates from dozens of nations gathered in San Francisco, USA, for the United Nations Conference on International Organization, jointly drafting and adopting the UN Charter, which the representatives solemnly signed. In the same year, France, Britain, the United States, and most other signatories submitted their instruments of ratification, the Charter came into force, and the United Nations was formally established.\n\nTo develop friendly relations among nations based on respect for the principle of equal rights and self-determination of peoples, and to achieve international cooperation in solving international problems of an economic, social, cultural, or humanitarian character, and in promoting and encouraging respect for human rights and fundamental freedoms for all - to achieve these noble purposes, the United Nations established seven core principles, centered on: the sovereign equality of all member states; the peaceful settlement of disputes; the prohibition of the use or threat of force; the UN's right to ensure non-member states also abide by these principles within the necessary scope for maintaining international peace and security; and the principle of non-interference in matters essentially within the domestic jurisdiction of any state."
+
+ RegionalOrganization_IOSC: "International Organization for Service and Cooperation"
+ RegionalOrganization_IOSC_colored: "§r$RegionalOrganization_IOSC$§!"
+ RegionalOrganization_IOSC_desc_0: "£zollverein_texticon §c$RegionalOrganization_IOSC$§! 'Welt-Dienst' was originally an anti-Semitic news agency founded by Ulrich Fleischhauer in Erfurt in 1933, later absorbed into the Rosenberg Office and becoming a major instrument of Nazi propaganda during World War II. As Germany's fires swept across the old world, spreading the flames of the 'New Order' across every inch of the old order, 'Welt-Dienst' gradually reorganized into an international organization, merging with the German Fichte Federation and the Friends of Germany organization.\n\nThus, we may simply call it the 'Nazi International' - its exclusionary nature and ideological aspirations are sufficient to bear that name. Through this institution, the master of the European continent continuously channels theory to Nazi governments and organizations around the world, forging alliances and cooperation at the political and economic level. Ulrich Fleischhauer's original vision has finally been realized: for the first time in world history, an international organization of experts on the Jewish question has been established to counter the 'Jewish International.' And Erfurt has thus become revered as the 'Mecca' of anti-Semites."
+ 
+ ##wwww
+ RegionalOrganization_Ostministerium: "Ostministerium"
+ RegionalOrganization_Ostministerium_colored: "§b$RegionalOrganization_Ostministerium$§!"
+ RegionalOrganization_Ostministerium_desc_0: "Reich Ministry for the Occupied Eastern Territories"
+
+ RegionalOrganization_Ostministerium_modifier_0: "\n$MODIFIER_POLITICAL_POWER_GAIN$: [?modifiers@RegionalOrganization_Ostministerium^0|=+][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_1: "\n$MODIFIER_STABILITY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^12|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_2: "\n$annual_gdp_growth_factor$: [?modifiers@RegionalOrganization_Ostministerium^9|+=2%][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_3: "\nMiscellaneous Income: §Y[?modifiers@RegionalOrganization_Ostministerium^10|2]B USD§![TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_4: "\n$consumer_goods_use_modifier$: [?modifiers@RegionalOrganization_Ostministerium^1|=%-0][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_5: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^2|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_6: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^3|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_7: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^4|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_8: "\n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^5|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_9: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^6|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_10: "\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^7|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_11: "\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^11|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_12: "\n$MODIFIER_FUEL_GAIN_FACTOR$: [?modifiers@RegionalOrganization_Ostministerium^8|=%+2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_13: "\n$GDP_to_sphere_leader_modifier$: [?modifiers@RegionalOrganization_Ostministerium^13|Y=%2][TNO_RegionalOrganization_GetModifiersEntry]"
+ RegionalOrganization_Ostministerium_modifier_14: "\n$MODIFIER_GLOBAL_MONTHLY_POPULATION$: [?modifiers@RegionalOrganization_Ostministerium^14|+=%1][TNO_RegionalOrganization_GetModifiersEntry]"
+
+ RegionalOrganization_OAS: "Organization of American States"
+ RegionalOrganization_OAS_colored: "§a$RegionalOrganization_OAS$§!"
+ RegionalOrganization_OAS_desc_0: "From Capitol Hill in Washington to the icy reefs of Tierra del Fuego, the fate of the New World is nominally bound together by a sacred bond. The establishment of the 'Organization of American States' was once touted as the ultimate beacon of democracy, sovereignty, and peaceful cooperation in the Western Hemisphere. In its lofty official charter, it vowed to defend every American nation against foreign aggression, resolve internal crises through economic mutual aid and diplomatic consultation, and build a 'New World Community' free of strife. Yet behind this veneer of warmth lies the cold, calculating geopolitical machinations of a great power.\n\nOn the political map of the Western Hemisphere, the organization has effectively become a strategic long arm for the northern colossus to consolidate its backyard hegemony. Washington's gold dollars and stationed American forces have become an insurmountable shadow in every nation's diplomatic decision-making. Whenever radical ideologies or revolutionary movements emerge in Latin America seeking to break free, the organization quickly gathers under the pretext of 'maintaining democratic order,' turning disobedient regimes away through political isolation, economic sanctions, and even acquiescence in armed intervention. Though the Latin American member states seethe beneath the surface, complaining about this unequal suzerain-vassal relationship, under the weight of external pressure and realpolitik, the OAS nominally maintains the seemingly monolithic but fragile 'front of freedom' across the American continent."
+
+ RegionalOrganization_CollabCommonwealth: "Commonwealth of Nations"
+ RegionalOrganization_CollabCommonwealth_colored: "§Z$RegionalOrganization_CollabCommonwealth$§!"
+ RegionalOrganization_CollabCommonwealth_desc_0: "The Commonwealth once envisioned a free association of nations bound together by the Crown, and indeed operated as such in its early years, until the monarchy fell and this free union fell apart. Today, the Commonwealth has been transformed into a hegemonic organization entirely centered on Britain, reduced to a cultural tool for whitewashing and propaganda for the British Empire.\n\nThe imperial government-in-exile in Ottawa can only console itself with the ethereal bonds between it and its shrinking overseas territories. As for the present Commonwealth, its membership has dwindled to just three blocs: first and foremost, war-torn Britain itself; second, the British African territories still under the iron-boot heel of occupation; and finally, the pro-German states tied to Britain by geopolitics and historical ties. This absurd composition mercilessly punctures its old pretensions of freedom. The Commonwealth's remaining international legitimacy and diplomatic appeal are now deeply intertwined with the British war machine. Whitehall's politicians know full well that the Commonwealth is no longer a family that can be maintained through hollow oaths; its ultimate survival and legal continuity depend entirely on whether British arms can achieve final victory on the blood-soaked battlefields of Africa."
+
+
+ RegionalOrganization_AfricanLabourBoard: "African Labour Board"
+ RegionalOrganization_AfricanLabourBoard_colored: "§r$RegionalOrganization_AfricanLabourBoard$§!"
+ RegionalOrganization_AfricanLabourBoard_desc_0: "The African Labour Board is both an international treaty and an international organization, whose members encompass the various colonial empires, settler states, and independent majority-rule nations across the African continent. The institution primarily manages issues of common concern through bilateral coordination, including immigration control, labor allocation, and remittance affairs.\n\nMigrant labor is the backbone of the entire African economy. The Board was established to bring the cross-border flow of labor and remittance transactions under formalized management. This ensures that immigration quotas are met while also making it convenient for the Board and related signatory states to take their cut and levy taxes. Signatory states are divided into two categories: 'labor-exporting' and 'labor-importing' nations. South Africa is purely an importing state, independent African nations are mostly exporters, and colonial empires play both roles.\n\nCountless Africans leave their homes to sell their labor abroad. For them, the Board is an official threshold they cannot avoid; to feed their families, they must follow the rules. At the same time, it is a tool for the authorities to monitor and scrutinize their political views and backgrounds. By contrast, European settlers face no such restrictions on work or travel. The life circumstances of the vast majority of migrant laborers are nothing more than cold data in a ledger. As long as there is work to be done, they must silently endure all manner of abuse, exploitation, and humiliation. And here, the work never ends."
+
+ RegionalOrganization_SACU: "Southern African Customs Union"
+ RegionalOrganization_SACU_colored: "§J$RegionalOrganization_SACU$§!"
+ RegionalOrganization_SACU_desc_0: "The Southern African Customs Union was born after the bitter Boer War and is the oldest customs union still in operation. It was originally established to strengthen trade links between the southern African colonies, thereby securing tax revenue and resource supplies. However, with the fall of Britain to German forces and the annexation of the High Commission territories by newly independent South Africa, the Union's function has undergone a fundamental transformation.\n\nIn essence, the colonial-era plunder of wealth and minerals continues, except that Pretoria now collects the net profits, and the Union has become a tool for South Africa to expand its economic hegemony over its neighbors. Though the Union originally covered only South Africa, Bechuanaland, Basutoland, and Swaziland, new proposals have been put forward to establish a 'Southern African Community' between this apartheid state and its surrounding partners, in order to expand its scope and further entrench this hegemonic system."
+
+ RegionalOrganization_CADAT: "Central African Development and Assistance Treaty"
+ RegionalOrganization_CADAT_colored: "§l$RegionalOrganization_CADAT$§!"
+ RegionalOrganization_CADAT_desc_0: "In the war-torn lands of Central Africa, the 'Central African Development and Assistance Treaty' (CADAT) is often joked about as a piece of iron-clad dark humor in the history of international diplomacy. On its face, the treaty is filled with modern, civilized phrases like 'humanitarian relief,' 'infrastructure development,' and 'transnational economic cooperation.' Yet in the eyes of the international community, everyone knows the treaty's actual purpose: it is an excellent shield for the major geopolitical powers to legally intervene in Central Africa's civil wars, support their own proxies, and maintain a fragile geopolitical balance without triggering full-scale war.\n\nSince the treaty framework looks 'completely fine' from the outside, the behind-the-scenes division of spoils can proceed safely beneath the most elegant of suits. From arms embargoes run in the dark to joint development of contested mining areas, CADAT has become the default set of rules for all sides. It neither expects to truly bring prosperity to Central Africa nor intends to eradicate poverty; its true core function is merely to serve as a highly efficient crisis buffer. As long as the signatories can each take their slice of the cake, Central Africa's turbulent situation will be maintained under the treaty's stabilization efforts in an exquisite and cruel 'peace on the surface.'"
+
+ RegionalOrganization_UNS: "Union of Sovereign Nations"
+ RegionalOrganization_UNS_colored: "§<$RegionalOrganization_UNS$§!"
+ RegionalOrganization_UNS_desc_0: "Regional organization description goes here."
+
+
+ RegionalOrganization_HelsinkiTreaty: "Helsinki Treaty"
+ RegionalOrganization_HelsinkiTreaty_colored: "§D$RegionalOrganization_HelsinkiTreaty$§!"
+ RegionalOrganization_HelsinkiTreaty_desc_0: "Regional organization description goes here."
+
+ RegionalOrganization_ExileCommonwealth: "Commonwealth of Nations"
+ RegionalOrganization_ExileCommonwealth_colored: "§V$RegionalOrganization_ExileCommonwealth$§!"
+ RegionalOrganization_ExileCommonwealth_desc_0: "The Commonwealth is like a remnant of the pre-war world. Once intended to build a 'free association of nations bound by the British Crown,' it has now fallen apart. This organization is like a torso without a head; the economic, political, and military centers that once tightly linked its members have been severed. Though Canada has de facto assumed the position of first among equals, it has never been able to establish true leadership authority.\n\nCanada has abandoned the cruelty and brutality of the old British Empire, preferring a more moderate approach, attempting to coordinate relations between member states through diplomatic means. These member states have vastly different situations - from the 'white dominions' and the West Indies to the radical pan-African republics - yet these efforts have borne little fruit. The complex ideologies within the Commonwealth have even spilled over into the organization's geopolitical landscape; though pro-OFN sentiment dominates among members, it is far from consensus, and internal disputes are common. Today's Commonwealth is barely held together by nominal allegiance to the 'Overseas Queen,' and has become largely hollow, struggling to find its own position and value in the New Order."
+
+ #####
+ #|=====[ TYPES ]=====|#
+ RegionalOrganization_Type_0: "International Organization"
+ RegionalOrganization_Type_1: "International Association"
+ RegionalOrganization_Type_2: "International Forum"
+ RegionalOrganization_Type_3: "Political Alliance"
+ RegionalOrganization_Type_4: "Federation"
+ RegionalOrganization_Type_5: "Confederation"
+ RegionalOrganization_Type_6: "Economic Union"
+ RegionalOrganization_Type_7: "Defense Treaty"
+ RegionalOrganization_Type_8: "Occupation Authority"
+ RegionalOrganization_Type_9: "Colonial Empire"
+ RegionalOrganization_Type_10: "Informal System"
+ RegionalOrganization_Type_11: "Bilateral Treaty"

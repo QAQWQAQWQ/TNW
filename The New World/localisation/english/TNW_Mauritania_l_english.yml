@@ -1,0 +1,67 @@
+﻿l_english:
+ TRZ: "Mauritania"
+ TRZ_DEF: "Islamic Republic of Mauritania"
+ TRZ_ADJ: "Mauritanian"
+ TRZ_iberian_war: "Mauritania"
+ TRZ_iberian_war_DEF: "Islamic Republic of Mauritania"
+ TRZ_iberian_war_ADJ: "Mauritanian"
+ TRZ_communist_party: "-"
+ TRZ_communist_party_long: "-"
+ TRZ_socialist_party: "Muslim Socialist Union"
+ TRZ_socialist_party_long: "Mauritanian Muslim Socialist Union (Union Socialiste des Musulmans Mauritaniens)"
+ TRZ_progressivism_party: "-"
+ TRZ_progressivism_party_long: "-"
+ TRZ_liberalism_party: "Mauritanian National Union"
+ TRZ_liberalism_party_long: "Mauritanian National Union (Union Nationale Mauritanienne)"
+ TRZ_conservatism_party: "Mauritanian National Union"
+ TRZ_conservatism_party_long: "Mauritanian National Union (Union Nationale Mauritanienne)"
+ TRZ_paternalism_party: "Military Committee for National Recovery"
+ TRZ_paternalism_party_long: "Military Committee for National Recovery (Comité Militaire de Redressement National)"
+ TRZ_despotism_party: "Military Committee for National Recovery"
+ TRZ_despotism_party_long: "Military Committee for National Recovery (Comité Militaire de Redressement National)"
+ TRZ_fascism_party: "Military Committee for National Recovery"
+ TRZ_fascism_party_long: "Military Committee for National Recovery (Comité Militaire de Redressement National)"
+ TRZ_national_socialism_party: "-"
+ TRZ_national_socialism_party_long: "-"
+ TRZ_ultranationalism_party: "Party of National Renaissance"
+ TRZ_ultranationalism_party_long: "Party of National Renaissance (Parti de la Renaissance Nationale)"
+ TRZ_Moustapha_Ould_Mohamed_Saleck: "Mustapha Ould Mohamed Saleck"
+ TRZ_Ahmed_Baba_Miske: "Ahmed Baba Miske"
+ TRZ_Ahmed_Ould_Mohamed_Saleh: "Ahmed Ould Mohamed Saleh"
+ TRZ_Athie_Hamath: "Athie Hamath"
+ TRZ_Achmed_Ould_Kerkoub: "Achmed Ould Kerkoub"
+ TRZ_Hadrami_Ould_Khattri: "Hadrami Ould Khattri"
+ TRZ_Ahmed_Salim_Ould_Sidi: "Ahmed Salim Ould Sidi"
+ TRZ_Ahmed_Ould_Bouceif: "Ahmed Ould Bouceif"
+ TRZ_Cimper_Gabriel: "Cimper Gabriel"
+ TRZ_Mohamed_Khouna_Ould_Haidalla: "Mohamed Khouna Ould Haidalla"
+ TRZ_Maaouya_Ould_Sid_Ahmed_Taya: "Maaouya Ould Sid'Ahmed Taya"
+ TRZ_Mohamed_Mahmoud_Ould_Ahmed_Louly: "Mohamed Mahmoud Ould Ahmed Louly"
+ POLITICS_MOUSTAPHA_OULD_MOHAMED_SALECK_DESC: "Mustapha Ould Mohamed Saleck was only three years old when the European war broke out. But Saleck's youth does not diminish his will, and now he will bring a new dawn to Mauritania, uniting the forgotten peoples of West Africa into a strong and free nation, completely free from Iberian and French influence.
+
+When the French were driven to the Ivory Coast and the Iberians seized control of their lands by force, Saleck was still a teenager, and he joined the "Mauritanian People's Movement" even then. He honed his skills, rising through the ranks in five years until he became one of Dadah's most trusted generals. Rumors of how this young man single-handedly repelled an entire Iberian brigade made him an icon of Mauritanian freedom fighters.
+
+But Saleck, like many others, had issues with Dadah. He saw only weakness in this man — a socialist who possessed as little in the way of Islamic values as other apostates, a coward who refused to take any form of decisive large-scale action against the Iberian scum occupying Mauritanian soil. In the end, conspiracies were hatched, plans were drawn up, and the military's plan was set in motion. Moktar Ould Dadah was asked to step down from the party leadership with a gun at his back to avoid causing alarm, and the "Mauritanian People's Movement" was reorganized into the "Military Committee for National Recovery," composed of a group of generals committed to building a true Mauritanian state.
+
+But Saleck still faces opposition within Mauritania: from the more socialist-leaning populace who hope Dadah will return, from other generals in his own faction, and from the threat of the Iberians retaking their "rightful" land — a move he suspects they are ready to make at any moment…"
+ TRZ_Moustapha_Ould_Mohamed_Saleck_hog_desc: "§YHead of Government
+Fascism§!
+--------------
+"
+ TRZ_Ahmed_Baba_Miske_for_desc: "§YMinister of Foreign Affairs
+Fascism§!
+--------------
+"
+ TRZ_Ahmed_Ould_Mohamed_Saleh_eco_desc: "§YMinister of Economy
+Fascism§!
+--------------
+"
+ TRZ_Athie_Hamath_sec_desc: "§YMinister of Security
+Fascism§!
+--------------
+"
+ TRZ_idea_mauritanian_claims: "Mauritanian Claims"
+ TRZ_idea_mauritanian_claims_desc: "Mustapha Ould Mohamed Saleck and the Military Committee for National Recovery claim they are the rightful rulers of the former French colony of Mauritania. These claims include vast areas currently controlled by the Iberians. Though the international community rarely takes Mauritania's ambitions seriously, domestically these bold claims are essential to maintaining political stability. Without them, the ruling Military Committee for National Recovery would lose all reason to exist. Whether they have the chance to press their claims remains to be seen."
+ TRZ_idea_mauritanian_claims_tt: "§YIf the opportunity arises, the Military Committee for National Recovery will press their claims.§!"
+ TRZ_idea_military_committee_national_recovery: "Military Committee for National Recovery"
+ TRZ_idea_military_committee_national_recovery_desc: "To ensure the stability and unity of the nation and prepare for the reclamation of other parts of Mauritania, the country's military leaders established a military government, banned other political organizations, and abolished all forms of democracy in the name of eliminating political division and uniting the people. At least for now, Mauritania is a nation without politics."

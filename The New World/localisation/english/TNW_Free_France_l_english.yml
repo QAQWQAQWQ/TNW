@@ -1,0 +1,51 @@
+﻿l_english:
+ FFR_conservatism_party:0 "New French Party"
+ FFR_conservatism_party_long:0 "New French Party"
+ FFR_progressivism_party:0 "French Labor Party"
+ FFR_progressivism_party_long:0 "French Labor Party"
+ FFR_socialist_party:0 "French Communist Party"
+ FFR_socialist_party_long:0 "French Communist Party"
+ FFR_communist_party:0 "Unified Communist Federation of France"
+ FFR_communist_party_long:0 "Unified Communist Federation of France"
+ FFR_progressivism_1_party:0 "French Christian Progressive Union"
+ FFR_progressivism_1_party_long:1 "French Christian Progressive Union"
+ FFR_progressivism_2_party:0 "Democratic Forces Alliance"
+ FFR_progressivism_2_party_long:0 "Democratic Forces Alliance"
+ FFR_liberalism_party:0 "French Democratic Union"
+ FFR_liberalism_party_long:0 "French Democratic Union"
+ FFR_liberal_conservatism_party:0 "Independent Democratic Center"
+ FFR_liberal_conservatism_party_long:0 "Independent Democratic Center"
+ FFR_Michele_Alliot_Marie:0 "Michèle Alliot-Marie"
+ POLITICS_MICHELE_ALLIOT_MARIE_DESC:0 "When Michèle Alliot-Marie followed her mother into exile on this island of flowers, neither she nor her mother could have imagined that decades — indeed, a lifetime — would be spent here. For as long as she could remember, her mother's sighs had always been at her side. She could not understand them as a child, but as a teenager, like tens of thousands of other young people on the island, she fell into the sea of confusion about identity. Only then did she truly understand why her mother sighed.
+
+She then entered politics, rebuilding a new party from the wreckage after the dissolution of the Rally for the Republic, uniting Gaullists and conservatives, and eventually winning the election. Power and time are perhaps the gentlest of amnesiacs, and today's Michèle Alliot-Marie has changed so much that even she feels a stranger to herself."
+ FFR_Gerard_Jaquet:0 "Gérard Jaquet"
+ FFR_Raymonde_Tillon:0 "Raymonde Tillon"
+ FFR_Leon_Landini:0 "Léon Landini"
+ FFR_Albert_Detraz:0 "Albert Detraz"
+ FFR_Robert_Verdier:0 "Robert Verdier"
+ FFR_Simone_Veil:0 "Simone Veil"
+ FFR_Jean_Marie_Cavada:0 "Jean-Marie Cavada"
+ FFR_Definition:0 "Definition...?"
+ FFR_Blossoms_and_Rum:0 "Blossoms and Rum"
+ FFR_Memories_of_a_Grey_Era:0 "Memories of a Grey Era"
+ FFR_Definition_desc:0 "How should the status of the French Overseas Departments be defined? Exile government? Regional regime? Or the legitimate successor of France? Sixty years ago, they saw themselves as the continuation of French legitimacy; forty years ago, their self-designation quietly shifted to "regional government"; and today, they openly acknowledge themselves as part of the French nation, becoming overseas departments and special administrative regions of the French State.
+
+Clearly, the Gaullist era and the military government years are long over. Yet after democratization, the power of definition has never truly rested with the people of the overseas departments. In every election, they simply cast their ballots for one candidate after another who talks a big game, and that constitutes their version of democracy.
+
+As for who ultimately defines it, that simply depends on who has the deeper voter base and the louder voice."
+ FFR_Blossoms_and_Rum_desc:0 "America's so-called "support" for the overseas departments was never a free gift. Although Washington normalized relations with Paris in the late 1950s, it still secretly supported the Gaullist regime, betting that France would collapse from within, allowing them to grab a share of the spoils. But this calculation ultimately failed — France did not fall, and the strategic value of the overseas departments faded accordingly.
+
+The brief economic boom of the late 1940s to early 1950s ended abruptly. Economic stagnation spawned social tensions, and the collapse of the military government in the early 1960s brought no relief. Left-wing governments held power for decades, yet the overseas departments' economy remained dormant.
+
+Faced with this situation, what else can the people do? On this land called the "Island of Flowers," they hold their ballots but nothing else. Flowers bloom year after year, rum still flows, and beyond that, they have nothing at all."
+ FFR_Memories_of_a_Grey_Era_desc:0 "The military government era is the darkest chapter in the memory of the older generation in the overseas departments. Gatherings were restricted, speech was tightened, and General de Gaulle's image was carefully sculpted into an icon, revered as the "father" of all the people. The military government deliberately blurred ideology to facilitate its rule. Key government positions were held by de Gaulle's confidants and military men, and dissenters suffered silent, widespread exclusion and suppression.
+
+Contradictions piled up in silence, and prolonged socioeconomic stagnation finally lit the fuse. Waves of revolution swept in, the military government collapsed, and the left-wing coalition took power. The towering icon crumbled.
+
+His statues were torn down, his manifestos ripped up, and the "national patriarch" carefully crafted by the military government was reduced back to an arbitrary old man. Yet undeniably, this long period of patriarchal authoritarian rule has left an indelible mark on the political body and collective memory of the overseas departments.
+
+It remains one of the darkest — yet heaviest — legacies on that land."
+ FFR: "French Overseas Departments"
+ FFR_DEF: "French Overseas Departments"
+ FFR_ADJ: "French Overseas Department"
