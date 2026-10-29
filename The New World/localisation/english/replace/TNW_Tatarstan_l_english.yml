@@ -1,0 +1,49 @@
+﻿l_english:
+ TAR_communist_party: "West Russian Revolutionary Front"
+ TAR_communist_party_long: "West Russian Revolutionary Front (Zapadnorusskiy Revolyutsionnyy Front)"
+ TAR_socialist_party: "Zhukov's Clique"
+ TAR_socialist_party_long: "Zhukov's Clique (Klika Zhukova)"
+ TAR_progressivism_party: "Democratic Socialist People's Party"
+ TAR_progressivism_party_long: "Democratic Socialist People's Party (Demokraticheskaya Sotsialisticheskaya Narodnaya Partiya)"
+ TAR_liberalism_party: "All-Tatar Public Center"
+ TAR_liberalism_party_long: "All-Tatar Public Center (Bötentatar İctimaği Üzäge)"
+ TAR_conservatism_party: "Party of Democracy and Neutrality"
+ TAR_conservatism_party_long: "Party of Democracy and Neutrality (Partiya Demokratii I Neytraliteta)"
+ TAR_paternalism_party: "All-Tatar Public Center"
+ TAR_paternalism_party_long: "All-Tatar Public Center (Bötentatar İctimaği Üzäge)"
+ TAR_despotism_party: "Monarchists - Legitimists"
+ TAR_despotism_party_long: "Monarchists - Legitimists (Monarkhisty-legitimisty)"
+ TAR_fascism_party: "Russian Liberation Committee of the Peoples"
+ TAR_fascism_party_long: "Russian Liberation Committee of the Peoples (Komitet Osvobozhdeniya Narodov Rossi)"
+ TAR_national_socialism_party: "Russian Liberation Committee of the Peoples"
+ TAR_national_socialism_party_long: "Russian Liberation Committee of the Peoples (Komitet Osvobozhdeniya Narodov Rossii)"
+ TAR_ultranationalism_party: "Eurasianists - Passionaries"
+ TAR_ultranationalism_party_long: "Eurasianists - Passionaries (Passionariyy-Evraziytsy)"
+ TAR_Abdulla_Alis: "Abdulla Alish"
+ POLITICS_ABDULLA_ALIS_DESC: "Abdulla Alish may be a Soviet citizen, but first and foremost he is a Tatar, and he holds his homeland above all else. The son of a peasant, Alish became one of the most famous Tatar writers and journalists. During World War II he served in the Red Army, narrowly avoiding capture by the Germans near Bryansk. When the Soviet Union collapsed, he simply stayed home. The Tatar Autonomous Soviet Socialist Republic narrowly escaped the worst of the war, yet still tens of thousands were sent to the front, never to return. More importantly, for the first time since the failed Idel-Ural state of 1920, they tasted true freedom. Once they had it, they never wanted to give it up. When the West Russian Revolutionary Front came demanding suzerainty, the Tatars accepted, in exchange for broad autonomy and exemption from Russian law. Their relations with the Front were tense but peaceful — until the West Russian War broke out, and the Russians tried to extend Red Army conscription to the Tatars. The very thought of Tatars being forced to bleed in a Russian war was more than many could bear, Alish among them.
+
+The Tatars took up arms to fight for the freedom they had long been denied. The national poet Alish became a war hero of the era, rising to fame through his valor both on the battlefield and in speech. When the Soviet forces under Pyotr Gavrilov gave ground and retreated north, the people heaped praise on Alish and proposed electing him mayor of Kazan. As the highest-ranking civilian official, he was effectively the first president of Tatarstan, and he signed the Tatar constitution into law. Alish helped win freedom for his homeland, and he will fight hard to defend it."
+ POLITICS_SABIR_AKHTYAMOV_DESC: "Sabir Akhtyamovich Akhtyamov may be a Soviet citizen, but first and foremost he is a Tatar, and he holds his homeland above all else. The son of a blacksmith, Akhtyamov served in the Red Army, but due to failures in the chain of command he was never sent to the front. When the Soviet Union collapsed, he simply stayed home. The Tatar Autonomous Soviet Socialist Republic narrowly escaped the worst of the war, yet still tens of thousands were sent to the front, never to return. More importantly, for the first time since the failed Idel-Ural state of 1920, they tasted true freedom. Once they had it, they never wanted to give it up. When the West Russian Revolutionary Front came demanding suzerainty, the Tatars accepted, in exchange for broad autonomy and exemption from Russian law. Their relations with the Front were tense but peaceful — until the West Russian War broke out, and the Russians tried to extend Red Army conscription to the Tatars. The very thought of Tatars being forced to bleed in a Russian war was more than many could bear, Akhtyamov among them.
+
+The Tatars took up arms to fight for the freedom they had long been denied. Akhtyamov became a war hero of the era, rising to fame through his valor on the battlefield and his logistical capabilities in the rear. When the Russians gave ground and retreated north, the people heaped praise on Akhtyamov and proposed electing him mayor of Ufa. As the highest-ranking civilian official, he was effectively the first president of Tatarstan, and he signed the Tatar constitution into law. Akhtyamov helped win freedom for his homeland, and he will fight hard to defend it."
+ TAR_Ibragim_Mingazeyev: "Ibragim Mingazeyev"
+ POLITICS_IBRAGIM_MINGAZEYEV_DESC: "The story of the Tatar Republic is the same as many nations of the Idel-Ural region: oppressed by some warlord who unified the West Russian lands, only regaining independence after the victory at Onega and the chaos that followed. Ibragim Zarifovich Mingazeyev was an ambitious writer who, after being conscripted into the Red Army, worked to undermine it and ultimately witnessed the rebirth of his homeland.
+
+The Tatars have thrown off Russian rule twice: first when Alish established a free Tatar republic, then when the anti-Communist Volunteer Army arrived and established a democratic state. Mingazeyev was then a member of an organization fighting for Tatar rights and autonomy, and so he was acclaimed as the leader of the new democratic state.
+
+Now, his only wish is to inherit the legacy of Alish and those who came before, and make his homeland prosper."
+ TAR_Abdurrakhman_Absalyamov: "Abdurrakhman Absalyamov"
+ TAR_Abdurrakhman_Absalyamov_hog_desc: "§YHead of Government
+Social Nationalism§!"
+ TAR_Rostam_Yaxin: "Rostam Yaxin"
+ TAR_Rostam_Yaxin_for_desc: "§YMinister of Foreign Affairs
+Social Nationalism§!"
+ TAR_Gabbas_Gimatdinov: "Gabbas Gimatdinov"
+ TAR_Gabbas_Gimatdinov_eco_desc: "§YMinister of Economy
+Social Nationalism§!"
+ TAR_Mansur_Abdullin: "Mansur Abdullin"
+ TAR_Mansur_Abdullin_sec_desc: "§YMinister of Security
+Social Nationalism§!"
+ TAR_Farakh_Kamaldinov: "Farakh Kamaldinov"
+ TAR_free_tatars: "Tatars Shall Never Be Slaves!"
+ TAR_free_tatars_desc: "The Tatars once ruled the steppe, witnessing glorious days. But for centuries we have groveled beneath the Tsar's throne, sent to bleed and die in Russian wars. Today, we choose to roar at our oppressors: "Enough!" No Russian warlord's ambition shall spill Tatar blood! To defend the freedom we have won, we will use every means at our disposal."

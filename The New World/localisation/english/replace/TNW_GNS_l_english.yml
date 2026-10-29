@@ -1,0 +1,48 @@
+﻿l_english:
+ GNS_communist_party:0 "Portuguese Communist Party"
+ GNS_communist_party_long:0 "Portuguese Communist Party (Partido Comunista Português)"
+ GNS_socialist_party:0 "Labor Party"
+ GNS_socialist_party_long:0 "Labor Party (Partido Trabalhista)"
+ GNS_progressivism_party:0 "Social Democratic Action"
+ GNS_progressivism_party_long:0 "Social Democratic Action (Acção Democrato Social)"
+ GNS_liberalism_party:0 "Republican and Socialist Alliance"
+ GNS_liberalism_party_long:0 "Republican and Socialist Alliance (Aliança Republicana e Socialista)"
+ GNS_conservatism_party:0 "National Democratic Movement"
+ GNS_conservatism_party_long:0 "National Democratic Movement (Movimento Nacional Democrático)"
+ GNS_paternalism_party:0 "Portuguese National Liberation Front"
+ GNS_paternalism_party_long:0 "Portuguese National Liberation Front (Frente Portuguesa de Libertação Nacional)"
+ GNS_despotism_party:0 "National Republican Council"
+ GNS_despotism_party_long:0 "National Republican Council (Conselho Nacional Republicano)"
+ GNS_fascism_party:0 "Salvation Government"
+ GNS_fascism_party_long:0 "Salvation Government (Governo de Salvação Nacional)"
+ GNS_national_socialism_party:0 "National Syndicalist Movement"
+ GNS_national_socialism_party_long:0 "National Syndicalist Movement (Movimento Nacional Sindicalista)"
+ GNS_ultranationalism_party:0 "Sons of Viriathus"
+ GNS_ultranationalism_party_long:0 "Sons of Viriathus (Filhos de Viriato)"
+ GNS_ADJ:0 "Portuguese"
+ POLITICS_KAULZA_DE_ARRIAGA_DESC:0 ""A good military leader is not made in academies or offices by studying hard, following instructions, and mastering courses — but tempered on the battlefield: you have to learn to kill, and watch him die."" Ever since he first witnessed the Germans' actions in Angola, this saying has been the creed of Commander Kaúlza de Arriaga. Arriaga saw with his own eyes how the Portuguese army — once with titles, honors, status, and reverence — was destroyed by the fast and efficient German army, which took the jewels of the Portuguese empire's crown. The Portuguese government, which could only submit to overbearing Spanish generals and ministers and yield to Spanish rule just to survive, only confirmed Arriaga's conviction.
+
+Commander Kaúlza de Arriaga had a fanatical vision — to build a new type of army, an army free from bureaucracy and unearned promotions, fully devoted to combat rather than politics. Only young volunteers eager to win glory could serve in it, undergoing brutal technical and psychological training for any mission, while also equipped with the most advanced weapons of the day. Arriaga's vision was flatly rejected by the Spanish, but this made him quite popular within the Portuguese army, and earned his idea a small proving ground: the Death's Head Regiment, which drew first blood in the counterinsurgency operations in Algeria.
+
+And then, Arriaga watched as the generals and politicians who had rejected him lost the remnants of the Portuguese empire — the magnificent achievements built by the heroic Portuguese over nearly five centuries vanished in an instant. Arriaga felt he had had enough; he could not sit by and watch Portugal decline. The Death's Head Regiment marched on Lisbon, and the fires of hell followed…"
+ GNS_Jose_Manuel_Bettencourt_Rodrigues:0 "José Manuel Bettencourt Rodrigues"
+ GNS_Jose_Manuel_Bettencourt_Rodrigues_hog_desc:0 "§YDeputy
+National Socialism§!"
+ GNS_Fernando_Eduardo_da_Silva_Pais:0 "Fernando Eduardo da Silva Pais"
+ GNS_Rui_Patricio:0 "Rui Manuel de Medeiros des Pinhais Patrício"
+ GNS_Rui_Patricio_for_desc:0 "§YMinister of Foreign Affairs
+National Socialism§!"
+ GNS_Jorge_Jardim:0 "Jorge Pereira Jardim"
+ GNS_Jorge_Jardim_eco_desc:0 "§YMinister of Economy
+National Socialism§!"
+ GNS_Kaulza_Arriaga:0 "Kaúlza de Arriaga"
+ GNS_Francisco_Roxo:0 "Francisco Daniel Roxo"
+ GNS_Joao_Bruno:0 "João de Almeida Bruno"
+ GNS_Silvino_Marques:0 "Silvino Silvério Marques"
+ GNS_Alvaro_Cardoso:0 "Álvaro Manuel Alves Cardoso"
+ GNS_Guilherme_Calvao:0 "Guilherme Almada de Alpoim Calvão"
+ GNS_Occupation_Authority:0 "Occupation Authority"
+ GNS_Fernando_Eduardo_da_Silva_Pais_sec_desc:0 "§YMinister of the Army
+National Socialism§!"
+ GNS:0 "Salvation Government"
+ GNS_DEF:0 "Salvation Government"

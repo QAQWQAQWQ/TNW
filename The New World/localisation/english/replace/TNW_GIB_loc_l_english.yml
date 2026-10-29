@@ -1,0 +1,39 @@
+﻿l_english:
+ GIB_fascism:0 "Gibraltar Protectorate"
+ GIB_fascism_DEF:0 "Gibraltar Protectorate"
+ GIB_liberalism:0 "Gibraltar Protectorate"
+ GIB_liberalism_DEF:0 "Gibraltar Protectorate"
+ GIB_conservatism:0 "Gibraltar Protectorate"
+ GIB_conservatism_DEF:0 "Gibraltar Protectorate"
+ GIB_paternalism:0 "Gibraltar Protectorate"
+ GIB_paternalism_DEF:0 "Gibraltar Protectorate"
+ GIB_despotism:0 "Gibraltar Protectorate"
+ GIB_despotism_DEF:0 "Gibraltar Protectorate"
+ GIB_communist:0 "Gibraltar Protectorate"
+ GIB_communist_DEF:0 "Gibraltar Protectorate"
+ GIB_socialist:0 "Gibraltar Protectorate"
+ GIB_socialist_DEF:0 "Gibraltar Protectorate"
+ GIB_national_socialism:0 "Gibraltar Protectorate"
+ GIB_national_socialism_DEF:0 "Gibraltar Protectorate"
+ GIB_ultranationalism:0 "Gibraltar Protectorate"
+ GIB_ultranationalism_DEF:0 "Gibraltar Protectorate"
+ GIB_paternalism_party:0 "Protectorate Governing Council"
+ GIB_paternalism_party_long:0 "Protectorate Governing Council (Conselho de Governo do Protetorado)"
+ GIB_despotism_party:0 "Protectorate Governing Council"
+ GIB_despotism_party_long:0 "Protectorate Governing Council (Conselho de Governo do Protetorado)"
+ GIB_Fernando_Dias:0 "Fernando de Quintanilha e Mendonça Dias"
+ GIB_Fernando_Dias_hog_desc:0 "§YHead of Government
+Despotism§!"
+ POLITICS_FERNANDO_DIAS_DESC:0 "The Iberian giant has fallen, and Fleet Admiral Fernando de Quintanilha e Mendonça Dias has lost everything. His homeland — in ruins. His nation — torn apart. His beloved navy — split along with the country. As Governor of Goa, he not only faced a series of corruption charges, but when India invaded and seized the enclave, the Iberian government also demanded he take responsibility for it. In the years that followed, this disgraced admiral became a lifelong nuisance to both the navy and the colonial government. He wanted to make amends, and so persistently proposed reforms to nearly every naval and colonial affairs department, which only made him seem more like a social outcast — not just a corrupt and incompetent commander, but a failure who couldn't accept his defeat and resign like a man.
+\nOn the night the motherland fell apart, Fernando was heard alternating between insane laughter and uncontrollable sobbing in his cabin. The next morning, his subordinate officers were shocked to find Fernando transformed. He grinned from ear to ear, promising unprecedented wealth, while staying out of trouble — this was a bold plan: seize the Strait of Gibraltar and the surrounding area, fortify it with loyalist support against any invader, and establish a free, safe zone at this gateway to the Mediterranean.
+\nOf course, the main event was yet to come. Direct control of both sides of the strait, combined with Fernando's powerful naval force, meant complete control of the strait passage. Tolls were collected at his discretion, and as long as the money kept flowing, his followers were happy to echo his words. The admiral's wealth was accumulating at an astonishing rate, and soon the protectorate was filled with foreign tourists and Iberian refugees. In his office overlooking the strait, opium smoke curled through the air, and Fernando brushed aside the mist, lounging languidly in his port wine, smiling indulgently at his crimes, forgetting the homeland and people struggling in the fires of war."
+ GIB_Albano_Rodrigues:0 "Albano Rodrigues de Oliveira"
+ GIB_Albano_Rodrigues_for_desc:0 "§YMinister of Foreign Affairs
+Despotism§!"
+ GIB_Alvaro_Fontoura:0 "Álvaro Neves da Fontoura"
+ GIB_Alvaro_Fontoura_eco_desc:0 "§YMinister of Economy
+Despotism§!"
+ GIB_Vasco_Lopes:0 "Vasco Lopes Alves"
+ GIB_Vasco_Lopes_sec_desc:0 "§YMinister of Security
+Despotism§!"
+ GIB_Manuel_Antonio_Vassalo_e_Silva:0 "Manuel António Vassalo e Silva"

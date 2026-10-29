@@ -1,0 +1,69 @@
+﻿l_english:
+ AZW_communist_party: "-"
+ AZW_communist_party_long: "-"
+ AZW_socialist_party: "-"
+ AZW_socialist_party_long: "-"
+ AZW_progressivism_party: "-"
+ AZW_progressivism_party_long: "-"
+ AZW_liberalism_party: "-"
+ AZW_liberalism_party_long: "-"
+ AZW_conservatism_party: "Amghar Council of Kel Ahaggar and Kel Adagh - Democratic Bloc"
+ AZW_conservatism_party_long: "Amghar Council of Kel Ahaggar and Kel Adagh - Democratic Bloc (Amghar Council of Kel Ahaggar and Kel Adagh - Democratic Bloc)"
+ AZW_paternalism_party: "Azawad Progressive Movement"
+ AZW_paternalism_party_long: "Azawad Progressive Movement (Azawad Progressive Movement)"
+ AZW_despotism_party: "Kel Adagh"
+ AZW_despotism_party_long: "Amghar Council of Kel Adagh (Amghar Council of Kel Ahaggar)"
+ AZW_fascism_party: "Azawad National Movement"
+ AZW_fascism_party_long: "Azawad National Movement (Azawad National Movement)"
+ AZW_national_socialism_party: "-"
+ AZW_national_socialism_party_long: "-"
+ AZW_ultranationalism_party: "Azawad National Movement"
+ AZW_ultranationalism_party_long: "Azawad National Movement (Azawad National Movement)"
+ AZW_idea_saharan_nomads: "Saharan Nomads"
+ AZW_idea_saharan_nomads_desc: "The Sahara is a harsh place where only the toughest survive. The Tuareg peoples of Azawad are masters of this hostile land, making it their home as best they can. Centuries of oral tradition have taught them more about the desert than any outsider could ever know."
+ AZW_idea_tuareg_heritage: "Tuareg Heritage"
+ AZW_idea_tuareg_heritage_desc: "Azawad is less a nation than a tribal confederation — a league of Tuareg clans roaming the southwestern Sahara. This is not the result of decentralized governance, for there is no central government to speak of. The clans wander the desert as they have for centuries. Without major reform and centralization, Azawad will forever be seen as a temporarily stateless patch of West Africa."
+ AZW_Intalla_ag_Attaher: "Intalla ag Attaher"
+ AZW_Intalla_ag_Attaher_hog_desc: "§YHead of Government
+Absolute Monarchy§!
+--------------
+"
+ AZW_Intalla_ag_Attaher_sec_desc: "§YMinister of Security
+Absolute Monarchy§!
+--------------
+"
+ POLITICS_INTALLA_AG_ATTAHER_DESC: "It is undeniable that Intalla ag Attaher has led a troubled life. Born in 1927 in French West Africa as the son of Attaher ag Iri, he witnessed the French colonial regime that had oppressed his people dissolve into the desert sands as if by divine punishment — the Frenchmen who had lorded it over them vanished overnight into a power vacuum. In that vacuum, Intalla and his father led their nominally ruling Ifoghas clans, preparing to establish an independent Tuareg confederation.
+
+But things were not so simple.
+
+Fleeing the expansion of the emerging republic, the Ifoghas clans were forced deep into the Sahara. This was a setback to the father and son's dream of an independent Tuareg confederation, but ironically, it helped them in the long run. Other competitors in the region were less accustomed to nomadic life, and as the days passed, they gradually perished, while the Ifoghas survived.
+
+Now Intalla sits on the throne he and his father dreamed of, ruling an independent Tuareg kingdom. Nomadic clans from across the Sahel have flocked to this new nation-state, hopeful of the promises Intalla has made: stability and freedom, freeing the Tuareg from foreign bondage once and for all. He has not only made these seemingly incredible promises, but kept them.
+
+The Tuareg clans are free now. Be they African or European, any who dare encroach on this land again will face the wrath of the natives — and Intalla is their leader."
+ AZW_Bey_ag_Akhamouk: "Bey ag Akhamouk"
+ AZW_Bey_ag_Akhamouk_for_desc: "§YMinister of Foreign Affairs
+Absolute Monarchy§!
+--------------
+"
+ AZW_Zodi_Ikhia: "Zodi Ikhia"
+ AZW_Zodi_Ikhia_eco_desc: "§YMinister of Economy
+Social Nationalism§!
+--------------
+"
+ AZW_Hamid_Algabid: "Hamid Algabid"
+ AZW_Zeid_ag_Attaher: "Zeid ag Attaher"
+ AZW_Alladi_ag_Alla: "Alladi ag Alla"
+ AZW_Hadj_Moussa_ag_Akhamouk: "Hadj Moussa ag Akhamouk"
+ POLITICS_BEY_AG_AKHAMOUK_DESC: "It is undeniable that Bey ag Akhamouk has led a troubled life. Born in 1903 in French West Africa as a descendant of Akhamouk ag Ihma, he witnessed the French colonial regime that had oppressed his people dissolve into the desert sands as if by divine punishment — the Frenchmen who had lorded it over them vanished overnight. In that power vacuum, Bey led his nominally ruling Ifoghas clans, preparing to establish an independent Tuareg confederation.
+
+But things were not so simple.
+
+Other competitors in the region were less accustomed to nomadic life, and as the days passed, they gradually perished, while the Ifoghas not only survived but grew stronger. Years passed, and clan morale began to falter, nearly collapsing after the death of the previous amghar, Meslag ag Amayas. Yet Bey stepped forward to take up the mantle.
+
+Now Bey sits on the throne he and his father dreamed of, ruling an independent Tuareg kingdom. Nomadic clans from across the Sahel have flocked to this new nation-state, hopeful of the promises Bey has made: stability and freedom, freeing the Tuareg from foreign bondage once and for all. He has not only made these seemingly incredible promises, but kept them.
+
+The Tuareg clans are free now. Be they African or European, any who dare encroach on this land again will face the wrath of the natives — and Bey is their leader."
+ AZW: "Azawad"
+ AZW_DEF: "Tuareg Confederation of Azawad"
+ AZW_ADJ: "Azawadi"

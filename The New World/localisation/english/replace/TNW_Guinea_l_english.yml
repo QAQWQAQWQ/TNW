@@ -1,0 +1,70 @@
+﻿l_english:
+ SUS_communist_party: "PAIGC"
+ SUS_communist_party_long: "African Party for the Independence of Guinea and Cape Verde (Partido Africano para a Independência da Guiné e Cabo Verde)"
+ SUS_socialist_party: "Democratic Party of Guinea - African Democratic Rally"
+ SUS_socialist_party_long: "Democratic Party of Guinea - African Democratic Rally (Parti Démocratique de Guinée - Rassemblement Démocratique Africain)"
+ SUS_progressivism_party: "Democratic Party of Guinea - African Democratic Rally"
+ SUS_progressivism_party_long: "Democratic Party of Guinea - African Democratic Rally (Parti Démocratique de Guinée - Rassemblement Démocratique Africain)"
+ SUS_liberalism_party: "Democratic Party of Guinea - African Democratic Rally"
+ SUS_liberalism_party_long: "Democratic Party of Guinea - African Democratic Rally (Parti Démocratique de Guinée - Rassemblement Démocratique Africain)"
+ SUS_conservatism_party: "Democratic Party of Guinea - African Democratic Rally"
+ SUS_conservatism_party_long: "Democratic Party of Guinea - African Democratic Rally (Parti Démocratique de Guinée - Rassemblement Démocratique Africain)"
+ SUS_paternalism_party: "Democratic Party of Guinea - African Democratic Rally"
+ SUS_paternalism_party_long: "Democratic Party of Guinea - African Democratic Rally (Parti Démocratique de Guinée - Rassemblement Démocratique Africain)"
+ SUS_despotism_party: "Party of Unity and Progress"
+ SUS_despotism_party_long: "Party of Unity and Progress (Parti de l'Unité et du Progrès)"
+ SUS_fascism_party: "-"
+ SUS_fascism_party_long: "-"
+ SUS_national_socialism_party: "-"
+ SUS_national_socialism_party_long: "-"
+ SUS_ultranationalism_party: "-"
+ SUS_ultranationalism_party_long: "-"
+ SUS_socialist: "Guinea"
+ SUS_socialist_DEF: "People's Revolutionary Republic of Guinea"
+ SUS_idea_guinean_democracy: "Guinean Democracy"
+ SUS_idea_guinean_democracy_desc: "Guinea is a nation striving to realize the full potential of its government. When the Republic's founder, Barry Diavadou, was defeated and forced to step down by the coalition that formed the Democratic Party of Guinea, it became clear that this new alliance would test the young democracy. The leader elected by the coalition, Ahmed Sékou Touré, has ruled the country for ten years, and he has shown no intention of relinquishing power anytime soon."
+ SUS_idea_home_exiled_paigc: "Home of the Exiled PAIGC"
+ SUS_idea_home_exiled_paigc_desc: "Guinea, located south of the Iberian colony of Guinea-Bissau, has become a home for many exiles. When the PAIGC's uprising failed, the party was forced into exile. Its leader, Amílcar Cabral, feared that the nearly non-existent Jola army could not provide protection, so he chose to flee to Guinea; there he rebuilt the party and began preparing for his return."
+ POLITICS_AHMED_SEKOU_TOURE_DESC: "Amid the chaos and violence sweeping across Africa, a few sparks of hope shine like embers in the darkness — for many, Guinea and its president, Ahmed Sékou Touré, are one of them. Born into a Mandinka Muslim noble family, a descendant of the ancient rulers of the Wassoulou Empire, Touré was educated in the Quran, then became a postal worker, and quickly became involved in the organization and leadership of trade unions, showing clear sympathy for socialism. As French rule over Africa crumbled, and power vacuums were often filled by local warlords, Touré became increasingly involved in Guinean politics, emerging as the leader of the Democratic Party of Guinea and leading the struggle for the rule of law against the shadow of warlordism.
+
+It did not take long for Touré, through his charisma and political talent, to become president of the newly established Republic of Guinea, and one of the leading representatives of Africa's struggle for democratic freedom. At least, that is what Guinean propaganda says. As always, the truth is more complex. To ensure control of the country, Touré had to compromise on many of the ideals he ostensibly cherished — granting absurd benefits to the military to defend against the threat of warlordism, while harshly suppressing those who opposed his rule.
+
+Touré's dirigiste economic policies revolved around extensive economic planning and state-sponsored industrial expansion, with mixed results; Guinea's economy still struggles. Despite this, and counting his many other flaws, Touré remains extremely popular both within and outside Guinea, and many still consider Guinea one of the few democratic nations in Africa. But only time will tell whether the father of Guinea can successfully realize his plans to make his homeland a true beacon of freedom and prosperity for the African people."
+ SUS_ADJ: "Guinean"
+ SUS_CAO: "Socialist Republic of Guinea"
+ SUS_CAO_DEF: "Socialist Republic of Guinea"
+ SUS_CAO_ADJ: "Guinean"
+ SUS_FFRPuppet: "Republic of Guinea"
+ SUS_FFRPuppet_DEF: "Republic of Guinea"
+ SUS_FFRPuppet_ADJ: "Guinean"
+ SUS_Ahmed_Sekou_Toure: "Ahmed Sékou Touré"
+ SUS_Ismael_Toure: "Ismaël Touré"
+ SUS_NFamara_Keita: "Nfamara Keïta"
+ SUS_Noumandian_Keita: "Noumandian Keïta"
+ SUS_Louis_Lansana_Beavogui: "Louis Lansana Beavogui"
+ SUS_Amilcar_Cabral: "Amílcar Cabral"
+ SUS_Koumandian_Keita: "Koumandian Keïta"
+ SUS_Saifoulaye_Diallo: "Saïfoulaye Diallo"
+ SUS_Diarra_Traore: "Diarra Traoré"
+ SUS_Sidy_Mahmoud_Keita: "Sidy Mahmoud Keïta"
+ SUS_Lansana_Diane: "Lansana Diané"
+ SUS_Siaka_Toure: "Siaka Touré"
+ SUS_Thierno_Ibrahima_Diallo: "Thierno Ibrahima Diallo"
+ SUS_Louis_Lansana_Beavogui_hog_desc: "§YHead of Government
+Conservatism§!
+--------------
+"
+ SUS_Ismael_Toure_for_desc: "§YMinister of Foreign Affairs
+Social Democracy§!
+--------------
+"
+ SUS_NFamara_Keita_eco_desc: "§YMinister of Economy
+Liberalism§!
+--------------
+"
+ SUS_Noumandian_Keita_sec_desc: "§YMinister of Security
+Paternalism§!
+--------------
+"
+ SUS: "Republic of Guinea"
+ SUS_DEF: "Republic of Guinea"

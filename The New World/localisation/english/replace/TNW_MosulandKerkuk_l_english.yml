@@ -1,0 +1,39 @@
+﻿l_english:
+ BKU_despotism_party: "Office of the Inspector-General"
+ BKU_despotism_party_long: "Inspectorate-General of Mosul and Kirkuk (Musul ve Kerkük Umumi Müfettişliği)"
+ BKU: "Sixth Inspectorate-General"
+ BKU_DEF: "Sixth Inspectorate-General of Mosul and Kirkuk"
+ BKU_ADJ: "Turkish"
+ BKU_Mustafa: "Kurdistan"
+ BKU_Mustafa_DEF: "Republic of Kurdistan"
+ BKU_Mustafa_ADJ: "Kurdish"
+ BKU_Tikrit: "Tikrit Region"
+ BKU_Tikrit_DEF: "Tikrit Region"
+ BKU_Tikrit_ADJ: "Tikriti"
+ BKU_Iraq: "Free Republic of Iraq"
+ BKU_Iraq_DEF: "Free Republic of Iraq"
+ BKU_Iraq_ADJ: "Iraqi"
+ BKU_paternalism_party: "Local Collaborators"
+ BKU_paternalism_party_long: "Local Collaborators (Yerel İşbirlikçiler)"
+ BKU_Sabiha_Gokcen: "Sabiha Gökçen"
+ POLITICS_AHMAD_BARZANI_DESC: "Must the Kurds compromise their ideals before they can achieve their distant dream of national autonomy? It would seem so.
+
+Sheikh Ahmed Barzani lost everything at a young age: while still in swaddling clothes, his tribe rose in revolt against the Ottoman Empire, and as a result, his father, grandfather, and an elder brother were executed for refusing to yield to the Sublime Porte — all before he reached adulthood. Only after his brief exile to Turkey in the 1930s did Ahmed single-handedly lead the numerous Kurdish tribes against the Iraqi government and their British masters hovering around his brother Mustafa.
+
+Everyone thought his war was a futile struggle with no hope. But when British-administered Iraq collapsed before the Axis onslaught, Barzani quickly seized control of his homeland by fighting alongside the Turkish army and leveraging his extensive connections in Turkish politics. Now the Sheikh sits on a throne built from the bones of countless Kurdish freedom fighters, listening to one dance tune after another wafting from Ankara, and at their command, dancing to the deadly melody…"
+ POLITICS_SABIHA_GOKCEN_DESC: "As leader of the Sixth Inspectorate-General of Mosul and Kirkuk, Sabiha Gökçen has only one primary task: to safeguard Turkish national interests and radical Kemalism in this troubled land.
+
+Decades ago, her job was far more ordinary. This adopted daughter of Atatürk had only one thing to worry about: making sure her planes worked properly (she was one of Turkey's first female pilots). But with the bombing of Dersim and the rise of Recep Peker (her close ally), and İsmet İnönü's ascent to power, she rocketed upward to higher military positions, becoming a war hero on the battlefields of Syria, Armenia, and West Russia.
+
+After Peker's death, İnönü purged the radical Kemalists, but this did not stop Gökçen's rise. She was close friends with Peker's circle, yet as an officer she prudently kept a low profile, until İnönü mistook her political silence for the correct path. More importantly, İnönü trusted her counter-terrorism experience and administrative acumen, appointing her as Inspector-General of Mosul and Kirkuk.
+
+She gathered like-minded generals, politicians, and bureaucrats, allowing Talat Aydemir's Kemalist Youth Movement to operate freely throughout the region. Gökçen then launched Operation Alparslan, planning to annex Mosul and Kirkuk into Turkey forever. Using oil revenues, she transformed Mosul into a comprehensive industrial base and one of the Turkish army's most important logistical hubs. Now, Gökçen wants nothing more than to make Mosul and Kirkuk an inseparable part of Turkey — no matter how many bombs fall on those "subversives.""
+ BKU_Operation_Alparslan: "Operation Alparslan"
+ BKU_Operation_Alparslan_desc: "Operation Alparslan is named after the Seljuk Sultan who won the Battle of Manzikert, opening the way for the Turkish people to Anatolia. The purpose of this operation is as its name suggests.
+
+Its intent is quite simple, but domestic opposition — namely the National Democratic Party and the Democratic Renewal Party — has consistently condemned the operation's objectives. Once the operation is successfully completed, the missions aimed at "eliminating" terrorist activities will also be victorious. Surveillance and education programs in urban centers, and operations against terrorists in mountainous and rural areas — these multi-stage efforts to promote the Turkification process will also bear fruit."
+ BKU_Musul_Kerkuk_Oil_Company: "Mosul-Kirkuk Oil Company"
+ BKU_Musul_Kerkuk_Oil_Company_desc: "The Mosul-Kirkuk Oil Company is a subsidiary of Opeco, responsible for fully exploiting the potential of the oil-rich lands of Mosul and Kirkuk — a task it gladly fulfills.
+
+Progress has been quite smooth, and MOK Oil's operations have yielded enormous wealth. This windfall has filled the coffers of Turkish merchants and swelled the Sixth Inspectorate's own treasury. The latter has invested this money directly into the local military-industrial complex."
+ BKU_Turkey_takes_oil_tt: "§RAll natural resources in this region are administered by Turkey.§!"

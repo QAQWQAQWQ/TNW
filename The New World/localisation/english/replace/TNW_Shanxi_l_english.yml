@@ -1,0 +1,25 @@
+﻿l_english:
+ POLITICS_FU_ZUOYI_DESC:0 "Is Fu Zuoyi a hero who endured humiliation for the greater good, or a traitor who sold out his country for personal gain?
+\nTo find the answer to this question, one must look back on General Fu Zuoyi's life: he joined the Xinhai Revolution at the age of 16, graduated from the Baoding Military Academy, and joined Yan Xishan's Shanxi Army, rising through the ranks through sheer bravery in battle. During the Central Plains War, Fu Zuoyi was transferred to Suiyuan and appointed Chairman of Suiyuan Province. He poured a great deal of effort into this land, and the people lived and worked in peace under his protection. Then, facing the Japanese invasion, Fu Zuoyi struck back without mercy, repeatedly foiling the schemes of the Japanese and their lackey Prince De.
+\nHowever, patriotism alone could not stop the mighty Japanese army. Suiyuan eventually fell, and Shanxi Province, controlled by Chairman Yan, was also lost to the enemy. After that, Fu Zuoyi and Yan Xishan seemed to vanish from public view. When they reappeared, everyone was suspicious of them — the timing of their arrival was just too convenient: Japan had just formally signed an armistice agreement with China, and they were eager to show their willingness to cooperate with the Japanese. To deal with the guerrillas who constantly harassed them, the Japanese accepted Yan Xishan and Fu Zuoyi's proposal, appointing them as provincial governors. Yan Xishan returned to his native Shanxi, while Fu Zuoyi was sent to Shaanxi Province, infested with bandits of all kinds. To outsiders, Fu Zuoyi was a traitorous Hanjian, but Fu Zuoyi himself knew that everything he did was a temporary measure to protect patriotic fighters, and even if it meant bearing the infamy of a traitor, he would not hesitate. Ignoring Yan Xishan's repeated reproaches, Fu Zuoyi allowed many anti-Japanese forces to escape successfully through Shaanxi. He swore in his heart that one day, he would fight side by side with these patriots once again on the battlefield to liberate China.
+\nFu Zuoyi held fast to this belief, governing Shaanxi as carefully as he had once governed Suiyuan. After his old superior Yan Xishan passed away, Shanxi also came under Fu Zuoyi's control. Now, Fu Zuoyi was a provincial governor holding two provinces, but the flame of anti-Japanese resistance in his heart had not been extinguished. But the future of this flame was becoming uncertain: the bloodthirsty Masanobu Tsuji had entrenched himself in western Shaanxi, and the anti-Japanese forces were gradually being wiped out under his brutal repression. Fu Zuoyi could do nothing about it, and could only wait for a turning point.
+\nIs Fu Zuoyi a hero who endured humiliation, or a traitor who sold out his country? History will eventually make the right judgment, for this general has already given everything for his beliefs."
+ SHX_despotism_party:0 "Shanxi Clique Warlords"
+ SHX_despotism_party_long:0 "Shanxi Clique Warlords (Jinxi Junfa)"
+ SHX_JAP: "Northwest Political Affairs Committee"
+ SHX_JAP_DEF: "Northwest Political Affairs Committee"
+ SHX_JAP_ADJ: "Chinese"
+ SHX_JAP_fascism_party:0 "Northwest Political Affairs Committee"
+ SHX_JAP_fascism_party_long:0 "Northwest Political Affairs Committee"
+ SHX_paternalism_party:0 "Kuomintang - Nanjing Bureaucrats"
+ SHX_paternalism_party_long:0 "Kuomintang - Nanjing Bureaucrats"
+ SHX_conservatism_party:0 "Kuomintang Civilian Administration"
+ SHX_conservatism_party_long:0 "Kuomintang Civilian Administration"
+ SHX_liberalism_party:0 "Kuomintang Intelligentsia"
+ SHX_liberalism_party_long:0 "Kuomintang Intelligentsia"
+ SHX_communist_party:0 "CCP Sympathizers"
+ SHX_communist_party_long:0 "CCP Sympathizers"
+ SHX_fu_zuoyi:0 "Fu Zuoyi"
+ SHX_su_tiren:0 "Su Tiren"
+ SHX_Yang_Hucheng:0 "Yang Hucheng"
+ SHX_Dong_Qiwu:0 "Dong Qiwu"

@@ -1,0 +1,22 @@
+﻿l_english:
+ POLITICS_MIR_AHMAD_YAR_KHAN_DESC: "Some might say that the Baloch States Union, or the Khanate of Kalat, is nothing more than a "nation" ruled by petty tyrants who should have been crushed by the wheels of history long ago, desperately clinging to power and precious "traditions." However, the Khan of Kalat and leader of the Baloch States Union, Mir Ahmad Yar Khan, would only laugh at such claims, then continue with his life as before.
+\nAs the despotic ruler of this land, he maintains his grip on power with an iron fist. He only loosens his hold on power when inter-tribal violent conflicts break out that serve his interests. As for the other feudal lords of this land, although his status is higher than theirs, he only has the authority to guide them on foreign policy matters.
+\nFor him, the Pakistan Movement is the primary issue that needs to be addressed. Some sympathize with their cause, but Mir Ahmad Yar Khan's attitude on this issue is rather contradictory. While he has no intention of making an enemy of the Pakistan Movement, the Khan believes that Baloch sovereignty is far more precious than the dream of a South Asian Muslim nation-state — and if the Pakistan dream comes true, he would have to share precious power with those Sindhis and Punjabis. To this end, he may vigorously resist other princes' attempts to integrate Kalat into Pakistan."
+ KLT: "Baloch States Union"
+ KLT_DEF: "Baloch States Union"
+ KLT_ADJ: "Baloch"
+ KLT_despotism_party: "Loya Jirga - Nationalists"
+ KLT_despotism_party_long: "Loya Jirga - Nationalists"
+ KLT_Mir_Ahmad_Yar_Khan: "Mir Ahmad Yar Khan"
+ KLT_Sher_Mohammed_Marri: "Sher Mohammed Marri"
+ KLT_Mir_Gul_Khan_Nasseer: "Mir Gul Khan Nasseer"
+ KLT_Khair_Bakhsh_Marri: "Khair Bakhsh Marri"
+ KLT_Abdul_Wali: "Abdul Wali"
+ KLT_sandemans_spectre: "Sandeman's Spectre"
+ KLT_sandemans_spectre_desc: "The legacy of British colonial governor Robert Groves Sandeman is still clearly visible today, a bureaucrat widely known for his heavy interference in Balochistan affairs. In today's Baloch States Union, the "tribal pacification" system established by Sandeman remains an iron law: the Kalat royal family provides subsidies to loyal tribes, and inflicts atrocities on disloyal ones.
+\nFundamentally, Baloch society under this system is built on kinship and factional strife. The princes who rule this land do their utmost to incite inter-tribal violence to ensure their thrones are not coveted."
+ KLT_not_a_nation_but_an_alliance: "No Nation, Only an Alliance"
+ KLT_not_a_nation_but_an_alliance_desc: "The Baloch States Union is not a nation in the traditional sense, because it has no central authority of any kind, and the Khan of Kalat only has the authority to handle foreign policy matters on his own. In typical confederations or federal states, important matters like currency and defense are handled by the central government, but in Balochistan, even the power to handle these affairs has been fully devolved to the constituent parts of the Baloch States Union.
+\nIn fact, the Baloch States Union is nothing more than a loose polity formed by numerous princely states. They have united under the Khan of Kalat, joining together for their own survival and for the preservation of old traditions and old ways of life, no matter how reactionary those old ways of life — such as slavery — may be. Such a polity also clearly lacks any form of democratic or accountable system, and those who hold power are nothing more than petty tyrants who should have been crushed by the wheels of history long ago."
+ KLT_despotism_1_party: "Shahi Jirga - Pakistan Movement"
+ KLT_despotism_1_party_long: "Shahi Jirga - Pakistan Movement"

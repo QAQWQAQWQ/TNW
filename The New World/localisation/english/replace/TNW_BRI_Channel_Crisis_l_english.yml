@@ -1,0 +1,623 @@
+﻿l_english:
+ ENG_Channel_Crisis_buildup_desc: "Placeholder Possimus dolores eum atque. Eos assumenda sed consequatur sed repellendus voluptas laborum. Tempora quasi sapiente provident dolor. Tenetur quibusdam perspiciatis modi. Voluptatem vitae qui velit. Laboriosam temporibus velit illo velit nihil voluptatibus omnis soluta. Quia rerum veniam odit sunt. Magnam omnis et et et vitae. Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder"
+ USA_Channel_Crisis_buildup_desc: "Once-distant hopes have become reality. Our old friend Britannia has risen from the grave and seeks to stand alongside the free world once more. No one knows how Germany will extricate itself from the flames of Europa. The British Isles are the Atlantic gateway of the Komitat; any move risks escalation. For now we can only hold our breath, but we must prepare for what is to come."
+ GER_Channel_Crisis_buildup_desc: "As if Africa and the East were not trouble enough, our control over Britain has completely collapsed. A pack of damned Judeo-Bolshevik bandits overthrew the government, seized this strategically vital fortress, and robbed us of our sea lanes. No one knows what they will do next - and we cannot let them. The Heer is out of our hands for now, and we are powerless to act, but we will prepare. It is only a matter of time."
+ ENG_Channel_Crisis_confrontation_desc: "Placeholder"
+ USA_Channel_Crisis_confrontation_desc: "The situation could not be clearer. Even now, any challenge to the fortress of Europa will be met with fierce German retaliation. Whether this was the best choice or not, we are now locked in a dangerous stalemate, and the White House grows increasingly uneasy. We cannot waver for a moment: a corner of the world in the long night has finally seen dawn, yet it may plunge back into endless darkness. One false step, and the whole world could fall into an even deeper abyss."
+ GER_Channel_Crisis_confrontation_desc: "The American puppet-masters behind the British bandits have revealed themselves, now recklessly and almost madly trying to use the power of annihilation to stop us from restoring order. Once we demonstrate the full weight of Continental power, they will regret it. Yet we must acknowledge that the situation is already extremely dangerous. If attempts to force their retreat fail, we may have to resort to more coercive measures..."
+ Channel_Crisis_Readiness_text: "Readiness"
+ Channel_Crisis_Negotiations_text: "Negotiations"
+ channel_crisis_buildup: "Buildup"
+ channel_crisis_confrontation: "Confrontation"
+ CC_concessions_tt: "§Y[?ENG.cc_negotiations_concessions_array_val.GetTokenLocalizedKey]§!"
+ USA_CC_empty_space: ""
+ USA_CC_send_more_ships: "Increase Naval Presence"
+ GER_CC_empty_space: ""
+ GER_CC_send_more_ships: "Deploy More Vessels"
+ ex1: "Test negotiation piece"
+ channelcrisis.51.t: "A Special, Special Relationship"
+ channelcrisis.51.d: "If you asked Patrick Hemsworth what he thought of international politics, he would say he had no idea. Patrick was busy, and frankly he would rather spend his rare free time partying than dwelling on politics. That was why he ended up in his university cafeteria nursing a hangover, watching the international news to take his mind off things. It was rather ironic.
+
+"Our correspondent confirms that the Komitat-backed regime has been completely overthrown." The man on the television, glasses perched on his nose, read his notes in a flat voice. "The revolutionaries have declared a provisional government; the German plenipotentiary and the German garrison commander have fled the country."
+
+Oh? Patrick mused. The existence of a Free Britain was somewhat abstract to him; the last time such a country existed he had been only two years old. His lived experience told him that what it once was still permeated everyone's understanding of the world, but it felt more like a distant, almost faded legend. Until now.
+
+"We go now to a report from London." The newscaster continued, and the camera abruptly cut from the newsroom to city streets, framing an elderly man smoking a pipe.
+
+"Thanks to the struggle and sacrifice of many brave men and women," the old man said, "we Britons stand here today, victorious against want, fear, and tyranny. But the fight is far from over. Without help, we face the tyrant across the English Channel alone. Friends across the Atlantic and across the world, we call on you to stand with us against this wave of oppression."
+
+Patrick was speechless. The man on television looked exactly like his grandfather. It was one thing to know that Nazis oppressed people in some far-off place; it was quite another to see it from someone who looked just like him and spoke the same language. What would happen if the President stood aside?"
+ channelcrisis.51.a: "Over breakfast, he decided to follow the news a little more closely."
+ channel_crisis_current_phase_bar_text: "Phase: §Y[get.CC_current_phase_loc]§!"
+ USA_CC_negotiations: "§KOpen Negotiations§!"
+ USA_CC_gauge_germania_developments: "Gauge Developments in Germania"
+ USA_CC_liaison_with_the_commonwealth: "Liaise with the Commonwealth"
+ USA_CC_promote_press_coverage: "Increase Press Coverage"
+ USA_CC_place_saceur_on_standby: "Put SACEUR on Third-Alert"
+ USA_CC_pentagon_stratagems: "Pentagon Stratagems"
+ USA_CC_send_aid_to_britain: "Send Aid to Britain"
+ USA_CC_meet_with_the_nsc: "Meet with the NSC"
+ USA_CC_direct_international_pressure: "Apply International Pressure"
+ USA_CC_create_further_hmmlr_links: "Deepen HMMLR Links"
+ GER_CC_negotiations: "§KOpen Negotiations§!"
+ GER_CC_surveillance_flight_over_england: "Surveillance Flight over England"
+ GER_CC_probe_wehrkreis_commanders: "Probe Wehrkreis Commanders"
+ GER_CC_explore_plans_of_action: "Explore Plans of Action"
+ GER_CC_divert_units_to_invasion: "Divert Units to Invasion"
+ GER_CC_increase_pressure: "Increase Pressure"
+ GER_CC_emphasize_threat_to_britain: "Emphasize the Threat to Britain"
+ GER_CC_hasten_heer_redeployment: "Hasten Heer Redeployment"
+ channelcrisis.1.t: "Not Yet Thought Through"
+ channelcrisis.1.d: "Free Britain has no playable content yet."
+ channelcrisis.1.a: "Why are you here?"
+ channelcrisis.50.t: "Victory and Responsibility"
+ channelcrisis.50.d: "Mr. Thompson did not care for the taste of nicotine. Though he had long conceded its occupation of the State Department, not a single cigarette was permitted in meetings he chaired. Young Mr. Smith was quitting, so he did not mind; old Mr. Doe could only relieve his stress by gripping a pen between his fingers. To most, the news that had brought them together was good news - who would not want Britain liberated from fascism?
+
+"This has legs." Mr. Thompson could not help lifting his coffee cup for a sip between sentences. "This is the biggest American diplomatic crisis since the Aleutians."
+
+"With respect," Mr. Smith adjusted his glasses, studying the projected map of Britain, "this is the best possible outcome for us, no? The Royalists like us, and those leftists and Bolsheviks are closer to progressives than anything. Either way, they'll certainly be a valuable ally in Europe."
+
+"Yes. We'll win Britain. But those Nazis..." Thompson sat down and slurped again. "They think their core crony was stolen by American-backed terrorists. They won't stand for that. Our intervention will be seen as an act of war; they'll move directly to force."
+
+"But Germany is already in chaos! If they can't handle their own problems, maybe in a few months they'll collapse on their own!"
+
+Doe stood and stared at the map. He took up his pen and wrote on an unmarked spot in the Scottish Highlands. "Willie," his voice was impossibly low. "Landed with me in Glasgow in '44. The Nazi bastards shot half his head off with a sniper rifle, and thousands more died with him." He turned and picked up his folder. "We need to continue aid, to stand with the British. It is our duty. I must say, we should do more..."
+
+"...because the whole world is worth gambling on this.""
+ channelcrisis.50.a: "...because the whole world is worth gambling on this."
+ channelcrisis.52.t: "Fourth-Floor Diplomacy"
+ channelcrisis.52.d: "Twenty years. Twenty years had passed since David K. E. Bruce walked the streets of London. He had almost forgotten the fog and the cobblestones; stepping onto the tarmac at London Airport, those dusty memories suddenly came alive. The long nights with Frank Nelson and Colin Gubbins. The dreams of victory that died as he flew to Glasgow and to America. Defeat. Shame. Now, at last, redemption.
+
+Well, not quite. Here he was on the fourth floor of the Macdonald House, a floor walled off from the Canadian Embassy and sealed tight by the CIA. A liaison sat beside him; the man looked like a bookworm, but behind the mask lurked a killer. He said nothing, merely recording everything. He was not the main player this time; the man standing before Bruce was, and the diplomat forced a smile, steeling himself for this dreadful conversation.
+
+"Mr. Knight, you must understand that at a moment like this, I cannot guarantee that America will intervene fully." He dropped a sugar cube into his tea and sipped. "Of course, we will provide humanitarian aid, and Congress will pass a resolution making clear we stand with the British people. But that is all we can do for now."
+
+"Mr. Bruce, I am grateful for everything you have done so far." After pouring his tea, Maxwell Knight did not touch it again. "But the Germans are planning to cross the Channel and kill us all. To survive, we need OFN security guarantees."
+
+Exactly, Bruce thought. You need us, and God knows we want to help. The State Department and the Defense Department both have plans. So many plans drafted, debated, torn up, redone. Everyone ran into the same problem, as one drunken Defense staffer put it on the way back to New York: "If the Germans push back hard, we both go under.""
+ channelcrisis.52.a: "Bruce wished he could do something, but another Sea Lion, another war, haunted them all."
+ channelcrisis.53.t: "The National Security Birdcage"
+ channelcrisis.53.d: "When the National Security Council gathered in the briefing room, the President felt as if he were inside a birdcage. Hawks and doves fluttered around [USA.GetLeader], squawking. On the table lay a map of Western Europe: to the north, the newly liberated Britain, tense; to the south, a growing mass of German forces, a sword ever ready to be drawn.
+
+A hawk perched on his shoulder. "This is bluster, Mr. President." Talons prodded the coastline to the south. "The Wehrmacht is half-paralyzed. Even after the power struggle, their high command is still quarreling. It has battered morale at every level. They still have colonial messes to handle, and the political scene is chaos. Honestly, they can't do a thing right now. Send a few ships to scare them and they'll soil themselves."
+
+A dove sat beside the President. "Sir, the Germans still treat Britain as their backyard. To them, this is just a pack of traitors who got lucky. They won't tolerate our meddling - we'd turn a small disaster into a catastrophe."
+
+Another hawk pointed straight at London. "Besides throwing away our chance to return to Europe, do we also throw away a fighter friendly to the OFN, a nation of our own stock? If our allies decide to go it alone, or throw in with the Co-Prosperity Sphere, that consequence is on your head alone."
+
+The quarrel peaked. Speeches, orders, and curses blended together. "We have to help them!" "And risk war?" "Screw it, I want war!"
+
+"Enough!" [USA.GetLeader] pressed his palms together, fingers digging into the skin. The future of London - fireworks or fire, heaven or hell - rested in his hands."
+ channelcrisis.53.a: "Let them in."
+ GER_CC_additional_buildup_decisions_tt: "Will unlock more £decision_icon_small §Hdecisions§!."
+ Channel_Crisis_INFO_text: "§MIntroduction§!"
+ Channel_Crisis_Negotiations_not_yet_text: "Negotiations are unavailable at this phase"
+ Channel_Crisis_Negotiations_none_active_text: "No negotiations are currently underway"
+ channelcrisis.54.t: "Escalation and Worry"
+ channelcrisis.54.d: "Upon hearing the news, [USA.GetLeader] let out two words on the spot: "Damn it." Just as the doves had predicted, cooing their condemnations from within their olive-branch nest, Germany was doubling down, trying to strangle Britain's freedom. Army deployments to the west, naval exercises, a hundred cursing reports from the CIA's Europe desk - all of it said the Germans would not give up easily.
+
+He needed to get away from his aides and cabinet and think it through himself. After they left, he stared out at the Rose Garden, where a tour group wandered through the hedges, oblivious to the chaos in the West Wing. He did not regret deciding to escalate, sending warships into the Channel. If he abandoned this, the only chance to light a torch of freedom in Europe's shadow, he would be a fool, a coward, and a traitor.
+
+But though Free Britain had lit a torch in the darkness, it was too faint. To drive away the heavy shadows forever, they needed the OFN's torch. For the British, the choice was simple: the OFN should throw everything into defending their island. But [USA.GetLeader] had to think further: if the Germans were not driven out, what consequences might escalation bring?
+
+A thought occurred to him: perhaps talking would work better. Sit down with the Germans, and consider what price they would pay to liberate Britain. They would surely come to talk. Just thinking about it, he felt like a traitor - but if this crisis slipped from his control, history would lay on him a far worse charge than treason.
+
+He walked to the door, opened it, and his small circle waited there like children hearing the family car pull into the garage. They watched him with confusion, eagerness, and the deepest sympathy the President could receive."
+ channelcrisis.54.a: ""Come in, gentlemen. Let us discuss the next step.""
+ channelcrisis.60.t: "British Emergency Report"
+ channelcrisis.60.d: "Oberkommando der Wehrmacht
+Abwehr Amtsgruppe III F
+Top Secret
+[?global.date.GetDateStringNoHourLong]
+
+Feisenmeier confirms that no German or governmental authority remains on the British Isles. The island has been lost to insurgents.
+
+Most senior British government figures, including the Prime Minister and the King, are dead or captured; the rebels have declared a so-called "provisional government." It is unclear what foreign policy they will pursue, but their leadership - a dangerous mix of leftists and supporters of the Ottawa government-in-exile - is clearly pro-OFN. This poses a severe threat to Komitat security, which we cannot accept. Not only does our continent face invasion by an old enemy, but they would control our only safe sea lane to the Atlantic. Every necessary measure must be taken to prevent this.
+
+Regrettably, the domestic situation is turbulent, the Wehrmacht is in disarray, and we cannot respond as swiftly and effectively as we would wish. Moreover, the various Reichskommissariate are all in distress; units in relatively normal condition must be dispatched everywhere to fight fires, and our strength is stretched thin. However, this is only a matter of time. We must do everything to prepare for the inevitable re-invasion and restore security in the west. See the appendix for specific recommendations.
+
+End of page.
+
+May Germany be faithfully guarded."
+ channelcrisis.60.a: "How much more land will fall into chaos before real action is taken!"
+ channelcrisis.62.t: "Pull Everyone In"
+ channelcrisis.62.d: "Beneath Germania, in the network of command posts and underground works, panic spread like an electric current. The British insurgency had succeeded, and was seeking OFN protection, and the Americans had responded to the overture. All these reports sent Wehrmacht high command into frenzied activity.
+
+"This is the beginning of the end." Ferdinand Schörner spoke to the gathered generals. His figure was shrouded in shadow, a huge backlit world map behind him. "The Americans intend to land directly on our coastline; Britain is the fleet's home port. We must strike decisively, mobilize fully, and crush them while we still can."
+
+"With respect, Field Marshal," Hans Speidel straightened, hands on the conference table. "In the short term, our forces are not capable of launching an invasion. We are still recovering - and I must remind you, Schörner, the East is still burning."
+
+"To hell with the East." His voice was impossibly hoarse. "Slavs and Poles with burning sticks are nothing to the Americans; Britain is the key. Letting them win here is letting the OFN drive a dagger into our vitals."
+
+Speidel did not retort, but stared hard at the map. Beneath his stern mask, ripples of fear churned in his eyes. Despite his misgivings, he conceded that if all this came to pass, it would be a nightmare. Given Speidel's acquiescence, subordinates immediately laid their plans before Schörner, demanding an immediate redeployment to meet the threat. He signed each in turn.
+
+"All available units," he pressed the signed orders into his adjutant's hands. "Everything not committed in the East or Africa goes west, awaiting further orders.""
+ channelcrisis.62.a: "Britain cannot escape the eagle's wings."
+ channelcrisis.63.t: "Report: American Intervention in Britain"
+ channelcrisis.63.d: "Oberkommando der Wehrmacht
+Abwehr Amtsgruppe III F
+Top Secret
+[?global.date.GetDateStringNoHourLong]
+
+Urgent dispatch - the Americans have gone mad. At the "request" of the Judeo-Bolshevik rebels to "maintain peace," they have announced the deployment of naval and other military forces to British waters in the Channel. This is outrageous aggression. Reconnaissance confirms a large assembly of American warships off southern Britain, directly in the path of our landing forces.
+
+This is a blatant obstruction. Clearly, their next step is to bring Britain formally into the OFN. We suspect a small clique of warmongers in Washington is posturing, recklessly acting while knowing that if hot war breaks out we will do everything to defend Europe. Let the degenerate Americans see: the invasion will proceed to the end!
+
+But should the invasion somehow fail, we know all too well what will follow: we shall have to activate the contingency plan.
+
+End of page.
+
+May Germany be faithfully guarded."
+ channelcrisis.63.a: "The fate of Europa hangs by a thread."
+ channelcrisis.90.t: "Across the Great Ocean"
+ channelcrisis.90.d: ""...fully understanding Britain's position and rights in matters that concern it, the Empire of Japan condemns the OFN and the Komitat for their irresponsible attitude on this issue. We call on all parties to remain calm and to handle the current situation with prudence and restraint -"
+
+The aide pressed stop on the recorder. [JAP.GetLeader] waved him away. The man exited, closing the door behind him, leaving a tableful of uneasy people. On the table lay a map of the English Channel, with rough force deployments sketched on both coasts. In the middle of the Channel, a faint line divided American and German warships. This was a war for Britain's soul, and Japan could only watch from the sidelines.
+
+"Any word from Europe?" the Prime Minister turned to the head of the Kempeitai.
+
+"The army is readying itself to invade Britain; the Kriegsmarine is cruising the Channel, on high alert. Despite their recent follies, they are mobilizing rapidly."
+
+"Next," said the Foreign Minister, "Germany will rattle its saber, hoping to frighten the other side into acknowledging their claim to England. To them, this is a cause worth fighting for: the OFN wants into Europe to defend its kin, and the Komitat cannot lose England, or its navy's link to the oceans will be severed."
+
+"If they go to war over this, we'll be dragged in too." The Prime Minister's finger slid along the edge of the table as he spoke to the Army and Navy Minister beside him: "Raise readiness, but keep a low profile." To the Foreign Minister: "Continue calling for calm. We can even offer mediation - they won't accept, but it will show our reasonableness." Then, to the Kempeitai chief: "Watch this closely.""
+ channelcrisis.90.a: ""Until then," said [JAP.GetLeader], "we can only observe.""
+ channelcrisis.91.t: "Peace Returns"
+ channelcrisis.91.d: "The news reached the Prime Minister in the afternoon, and he felt relief the moment he learned it. The German fleet had withdrawn from the Channel, while the American fleet docked in London as liberators. [ENG.GetNameDefCap] was now an OFN ally and its foothold in Europe. More importantly, it meant the Channel crisis was over, and the threat of another world war had dissipated - or "been postponed" might be more accurate.
+
+But something else would surely happen, wouldn't it? [JAP.GetLeader] held a glass of whisky, watching the sun sink below the horizon through the western window of his residence. There is a time for sunrise and a time for sunset. One tide ebbs, and another will surely rise.
+
+In the back of his mind, he gradually realized where the next crisis would lie. This time it would be closer to the home islands, and it would involve the Americans. The Americans might be drunk on victory now, waving the torch of freedom and setting everything around them alight. The Co-Prosperity Sphere had felt such flames twice before - once in Malaya, once in the Philippines - why not a third time? His thoughts turned to the brother nations to the south in the Greater East Asia Co-Prosperity Sphere, and he noted to himself that he must discuss this with the cabinet later.
+
+Still, the Prime Minister was relieved that they had weathered this crisis. Cooler heads had prevailed, and the spearhead of destruction had not rained down on the world. As for the outcome - since 1945, had Britain ever mattered much in Japan's foreign policy? It was the ripples in the water that mattered, and [JAP.GetLeader] would be busy tomorrow discussing them in a series of meetings. The Prime Minister laughed, drained his glass of whisky, and left the rest for when he had thought it through. He picked up his briefcase and switched off the light on his way out."
+ channelcrisis.91.a: "[JAP.GetLeader] wondered to himself whether anyone had ever really considered how close they had come to destruction."
+ channelcrisis.92.t: "Order Restored"
+ channelcrisis.92.d: "[JAP.GetLeader] felt it hardly mattered which side won in England. When the news was laid on his desk that the Americans had backed down and left the Channel, letting the Germans invade England once more, the Prime Minister felt only relief that the Channel crisis was finally over. Japan would issue a statement condemning Germany's excessive defense measures - but it was all just going through the motions.
+
+The news arrived that night. The Prime Minister stayed late for several hours to manage the situation, chiefly relaying his response to subordinates: approving press releases, agreeing to ad-hoc interviews with NHK Radio 1, and scheduling an emergency meeting for the next morning. By the time he signed the last document it was past nine at night, and above the city lights only a few small points flickered in the night sky. Before retiring to bed, [JAP.GetLeader] had about an hour alone, and tomorrow would surely be even busier than tonight.
+
+In that remaining hour, he poured himself a cup of sake and sipped it, gazing out from his residence window at the stars. Nothing had changed tonight: England had never been within Japan's sphere, and the German invasion had returned the situation to a familiar state. Japan still had its foothold in the southern seas, and would keep it. But as he filled his second cup of sake, his thoughts turned more to America than to Germany. Americans rarely swallowed their pride and took it; he began, in his heart, to fear that failure in England would turn American eyes toward Japan. The Americans would always find a weak point in the Co-Prosperity Sphere and dive in to compensate. And that weak point might be very close: the southern seas, and the OFN neighbors beyond them.
+
+[JAP.GetLeader] drained his second cup of sake and set the empty glass on the table. It was already ten, and he had to rise at five for the first meeting. The Prime Minister walked to the bedroom, ready to fall asleep and sleep as long as he could."
+ channelcrisis.92.a: "At least the heavens would not rain down fire over something that did not concern him."
+ channelcrisis.121.t: "Farewell, England"
+ channelcrisis.121.d: "Speer stared hard at Tresckow and Schmidt; the two wished they could look away rather than meet the quiet fury burning in his eyes. Spread on the table before them were many documents: withdrawal reports, intelligence reports, press clippings. All of it recorded, cruelly, the shameful German withdrawal from the Channel.
+
+"Tresckow." Speer's tone was low and even. "No route to the global oceans remains under our control. Our navy has become a laughingstock. The OFN now has a vassal state a few hundred kilometers from the Continent, where they can do as they please."
+
+"My Führer -"
+
+"Shut your mouth." He turned to Schmidt, who restrained an impulse to flinch before his gaze. "Schmidt, not only have our negotiations with the OFN collapsed, but we failed to extract even a single concession. At a moment when every Reichskommissariat hangs by a thread, the whole world is made to watch this defeat."
+
+"But my Führer -"
+
+"Shut your mouth." He rose slowly from his seat, hands digging deep into the table, crumpling the [getIntelAgencyShort] report in his fist. "In another Germany, both of you would be shot without trial, and no one would say a word. But this is my Germany, and I am the one in charge." His fingertip stabbed the table; the word charge was like a blade leaving its sheath. "Under my supervision, you two must redouble your efforts to salvage our nation's honor. Tresckow, I am assigning General Remer to oversee the next round of reforms within the Heer, and you will work with Topf to oversee naval reform. Schmidt, you will work with Musgnug and Waldheim to ensure our control of the Continent."
+
+This decision was by no means mercy. Both men felt as if a noose were already around their necks, and Speer was still waiting for a reason to pull the lever and let them drop."
+ channelcrisis.121.a: ""Gentlemen, there can be no more weakness. Not now, and never again.""
+ channelcrisis.122.t: "A National Disgrace"
+ channelcrisis.122.d: "von Schirach had seen Bormann at his most terrifying. His roars were dreadful, but his silence was worse. Now, however, Bormann's anger had transcended that silence, becoming a fire that burned everything in its path. Hewel and Burgdorf, in the room with him, wanted nothing more than to be as far from Bormann as possible.
+
+"You spineless cowards, you just keep backing down, don't you?" Bormann's fist slammed onto the desk, and the documents on it bounced. "We had plans long ago, but you did nothing! You just let them occupy England! Right on our doorstep! You couldn't even force them to make some concession!"
+
+"My Führer," a sweating Hewel pleaded, "how shall we put this - the unreasonable Yanks seized territory they had no right to -"
+
+"That was territory we were meant to defend," said Schirach, grateful he stood on the far side of the desk. "And you failed."
+
+"Look at where we are now." Bormann sneered. "Thanks to you, our navy is watched every time it puts to sea. Our Kriegsmarine is now just a goddamn blowhard inland river fleet!"
+
+Hewel and Burgdorf exchanged glances like schoolboys being scolded by the headmaster. Schirach almost felt sorry for them, but this was no minor diplomatic squabble; it was a heavy blow to Germany. Though no one dared say it aloud, everyone regarded it as the beginning of the Reich's decline, an event for the history books.
+
+"I could have you both shot." Bormann lowered his voice until it was chilling. "But I do not want the rest of Europe to see this as a license for theft. I want you two to set this matter aside for now, and then, listen closely...""
+ channelcrisis.122.a: ""If you fuck this up again, I'll personally pull the trigger to execute you.""
+ USA_CC_assess_the_situation: "§MAssess the Situation§!"
+ USA_CC_conduct_analysis: "§MConduct Analysis§!"
+ USA_CC_communicate_with_germania: "§MCall Germania§!"
+ USA_CC_reassure_dovish_voices: "Reassure Dovish Voices"
+ USA_CC_reinforce_current_positions: "Reinforce Current Positions"
+ USA_CC_focus_on_defense: "Focus on Defense"
+ USA_CC_launch_air_patrol: "Launch Air Patrols"
+ USA_CC_publicly_affirm_readiness: "Publicly Affirm Readiness"
+ USA_CC_embolden_nuclear_fears_in_reich: "Stoke German Nuclear Fears"
+ USA_CC_approach_and_confront_enemy_vessel: "Approach and Challenge Enemy Vessels"
+ CC_info_tt: "§WAnother nation thirsts for freedom; the§Y Channel Crisis§! has become the forward theater of the§Y Cold War§!, with tensions rising. Neither side wishes to see§B Great Britain§! fall into enemy hands, and the final fate of Britain and§f Europa§! will be decided by who masters the art of brinkmanship more skillfully.
+
+§OReadiness§! is the core metric of the crisis, quantifying each side's willingness and ability to defend its interests and hold its ground. If one side's§OReadiness§! reaches§Y100%§!, it will not yield before aggression; conversely, if it falls to§Y0%§!, that side will choose to§Pback down§!, retreating at the prospect of a§xnuclear exchange§!.
+
+Our own§OReadiness§! is fully visible; the opponent's§OReadiness§! is hidden within the§Lfog of war§! of the Cold War. This uncertainty is represented by the§juncertainty§! in the enemy's§OReadiness§! bar, our latest estimate of their§OReadiness§! state. Through decisions it can be gradually§jrevealed§!.
+
+Both sides must do everything to raise their own§OReadiness§!, and if the situation demands, find ways to lower the opponent's§OReadiness§!. Depending on the opponent's§OReadiness§! state, certain decisions will have greater effect.§OReadiness§!§Y80%§! is the§xred line§!; once the§xred line is crossed§!, there is no retreat.§xOur enemy is no different§!.§!
+
+The crisis can be ended in several ways. When the time is ripe, the door to§Knegotiations§! opens. If all goes well, the crisis will be resolved. However, there is no total victory at the negotiating table; both sides' positions will be shaped by their own§OReadiness§!, and gains and losses are inevitable. We can also pursue a strategy of reducing the opponent's§OReadiness§! to§Y0%§! to force them to§Psurrender§!, claiming the victory alone - at the cost of higher risk.
+
+A crisis left unresolved will surely change. As the crisis develops, a countdown begins. When the§Ybreaking point§! arrives, the side with lower§OReadiness§! will be directly§Pcrushed§!, equivalent to having its§OReadiness§! reduced to§Y0%§!.§RIf§xboth sides§! are stuck in the§xred zone§!...§!§!"
+ CC_player_readiness_tt: "[GetChannelCrisis_player_readiness_tt]"
+ CC_opposing_readiness_tt: "[GetChannelCrisis_opposing_tt]"
+ CC_confrontation_start_tt: "The §Ycrisis§! will enter a new phase...
+
+New £decision_icon_small §Hdecisions§! will be unlocked.
+Our opponent's §OReadiness§! now begins to take effect.
+The §Rbreaking point§! begins its §Rcountdown§!!
+"
+ USA_CC_breaking_point_timer: "§RBreaking Point§!"
+ CC_player_readiness_increase_tt: "Our §OReadiness§! will §Gincrease§! by §G[?readiness_temp]%§!"
+ CC_player_readiness_decrease_tt: "Our §OReadiness§! will §Rdecrease§! by §R[?readiness_temp]%§!"
+ CC_opponent_ofn_readiness_increase_tt: "§xOFN§! §OReadiness§! will §Rincrease§! by §R[?readiness_temp]%§!"
+ CC_opponent_ofn_readiness_decrease_tt: "§xOFN§! §OReadiness§! will §Gdecrease§! by §G[?readiness_temp]%§!"
+ CC_opponent_pakt_readiness_increase_tt: "§xGermany§! §OReadiness§! will §Rincrease§! by §R[?readiness_temp]%§!"
+ CC_opponent_pakt_readiness_decrease_tt: "§xGermany§! §OReadiness§! will §Gdecrease§! by §G[?readiness_temp]%§!"
+ CC_uncertainty_decrease_small: "The enemy's §juncertainty§! in §OReadiness§! will §Yslightly§! §Gdecrease§!  "
+ CC_uncertainty_decrease_medium: "The enemy's §juncertainty§! in §OReadiness§! will §Ymoderately§! §Gdecrease§!  "
+ CC_uncertainty_decrease_large: "The enemy's §juncertainty§! in §OReadiness§! will §Ygreatly§! §Gdecrease§!  "
+ CC_uncertainty_increase_small: "The enemy's §juncertainty§! in §OReadiness§! will §Yslightly§! §Rincrease§!"
+ CC_uncertainty_increase_medium: "The enemy's §juncertainty§! in §OReadiness§! will §Ymoderately§! §Rincrease§!  "
+ CC_uncertainty_increase_large: "The enemy's §juncertainty§! in §OReadiness§! will §Ygreatly§! §Rincrease§!  "
+ CC_opposing_readiness_no_info_tt: "We currently have no intelligence on the §xenemy's§! §OReadiness§!"
+ CC_opposing_readiness_full_info_ofn_tt: "The §xenemy's§! §OReadiness§! is §Y[?GER.CC_readiness_actual]%§!
+
+§jUncertainty§! increases by §Y1§! point per day, and is only updated when executing intelligence-related decisions"
+ CC_opposing_readiness_full_info_pakt_tt: "The §xenemy's§! §OReadiness§! is §Y[?ENG.CC_readiness_actual]%§!
+
+§jUncertainty§! increases by §Y1§! point per day, and is only updated when executing intelligence-related decisions"
+ CC_opposing_readiness_for_ofn_tt: "According to the latest estimate, the enemy's §OReadiness§! lies between §Y[?ENG.CC_possible_readiness_min|.1]%§! and §Y[?ENG.CC_possible_readiness_max|.1]%§!
+
+§jUncertainty§! increases by §Y1§! point per day, and is only updated when executing intelligence-related decisions"
+ CC_opposing_readiness_for_pakt_tt: "According to the latest estimate, the enemy's §OReadiness§! lies between §Y[?GER.CC_possible_readiness_min|.1]%§! and §Y[?GER.CC_possible_readiness_max|.1]%§!
+
+§jUncertainty§! increases by §Y1§! point per day, and is only updated when executing intelligence-related decisions"
+ GER_CC_assess_the_situation: "§MAssess the Situation§!"
+ GER_CC_conduct_analysis: "§MConduct Analysis§!"
+ GER_CC_the_line_to_washington: "§MLine to Washington§!"
+ GER_CC_commit_more_battalions: "Commit More Battalions"
+ GER_CC_reinforce_festung_kanal: "Reinforce Festung Kanal"
+ GER_CC_focus_on_defense: "Focus on Defense"
+ GER_CC_luftwaffe_overflights: "Luftwaffe Reconnaissance"
+ GER_CC_publicly_affirm_readiness: "Publicly Affirm Readiness"
+ GER_CC_stoke_fears_of_war_in_us_media: "Stoke War Fears in US Media"
+ GER_CC_bump_american_warship: "Bump an American Warship"
+ CC_player_readiness_ofn_tt: "Our current §OReadiness§! is §Y[?ENG.CC_readiness_actual]%§!
+
+Enemy actions may cause sudden shifts in §OReadiness§!"
+ CC_player_readiness_pakt_tt: "Our current §OReadiness§! is §Y[?GER.CC_readiness_actual]%§!
+
+Enemy actions may cause sudden shifts in §OReadiness§!"
+ CC_phone_line_intel_decision_tt: "The enemy's §juncertainty§! in §OReadiness§! will §Yrandomly§! §Gdecrease§!"
+ CC_gather_intel_decision_tt: "The enemy's §juncertainty§! in §OReadiness§! will §Gdecrease§! by one §Yfifth§! of its current value"
+ USA_CC_embolden_nuclear_fears_in_reich_tt: "If §xGerman§! §OReadiness§! is high, it will §Gdecrease§! by §G30%§!
+
+Note: if §xGerman§! §OReadiness§! is low, the effect will backfire, causing it to §Rincrease§! by §R35%§!"
+ GER_CC_stoke_fears_of_war_in_us_media_tt: "If §xOFN§! §OReadiness§! is high, it will §Gdecrease§! by §G30%§!
+
+Note: if §xOFN§! §OReadiness§! is low, the effect will backfire, causing it to §Rincrease§! by §R35%§!"
+ USA_CC_approach_and_confront_enemy_vessel_tt: "If §xGerman§! §OReadiness§! is below §Y50%§!, it will §Gdecrease§! by §G30%§!
+
+Note: if §xGerman§! §OReadiness§! is above §Y50%§!, the effect will backfire, causing it to §Rincrease§! by §R35%§!"
+ GER_CC_bump_american_warship_tt: "If §xOFN§! §OReadiness§! is below §Y50%§!, it will §Gdecrease§! by §G30%§!
+
+Note: if §xOFN§! §OReadiness§! is above §Y50%§!, the effect will backfire, causing it to §Rincrease§! by §R35%§!"
+ CC_enemy_effects_on_readiness_frozen: "The enemy will be §Gunable§! to affect our §OReadiness§! in any way for the next §Y[?frozen_days] days§!"
+ CC_our_effects_on_enemy_frozen: "We will be §Runable§! to affect the enemy's §OReadiness§! in any way for the next §Y[?frozen_days] days§!"
+ CC_our_effects_frozen: "We cannot affect the enemy's §OReadiness§!"
+ CC_time_running_out_tt: "§RTime is Running Out§!"
+ CC_deescalate_near_red_zone_tt: "Our §OReadiness§! is near the §Rred zone§!"
+ CC_crisis_resolved_tt: "Agreement reached or one side withdraws"
+ USA_CC_gather_intel: "§MGather Intelligence§!"
+ USA_CC_deescalate: "§RDe-escalate§!"
+ USA_CC_deescalate_desc: "The situation is about to spiral out of control. We must prevent war at any cost."
+ GER_CC_breaking_point_timer: "§RBreaking Point§!"
+ GER_CC_gather_intel: "§MGather Intelligence§!"
+ GER_CC_deescalate: "§RDe-escalate§!"
+ GER_CC_deescalate_desc: "The situation is about to spiral out of control. We must prevent war at any cost."
+ channelcrisis.100.t: "A Final Farewell"
+ channelcrisis.100.d: ""News from London has deepened concern; only time will tell whether the OFN is anything more than a paper ally -" channel click.
+
+"It appears Nazi boots will once again set foot on the British Isles; the White House has just officially condemned the German invasion, but the President has yet to issue a public statement on the matter -" channel click.
+
+"Humanitarian operations to evacuate British citizens are underway, but facing desperate crowds surrounding the evacuation points and limited resources, the scene mirrors the final days of 1945 -" channel click. After three channels, the President finally turned off the television and began to rub his face in frustration, then sighed wearily.
+
+"Leave me alone." After the rustle of papers and the footsteps of those leaving the Oval Office, the President was alone. He picked up a bottle of premium whisky beside his desk, pulled the cork, and began to drink.
+
+He knew this was essentially how the public saw him. What he had done, how he had changed America - none of it mattered. What was certain was that [USA.GetLeader] would go down in history as the only President who won back the gateway to Europe only to hand it back to the Nazis. Of course, he had his reasons; the world had come within a hair's breadth of sliding into the abyss. But the public would not see it that way, and neither would the other OFN member states.
+
+Canada, Australia, and New Zealand expressed low-key condemnation and their "disappointment." Macmillan, the exiled Prime Minister, also took aim at him in interviews broadcast across America on radio and television."
+ channelcrisis.100.a: "The President picked up his glass and drained it."
+ channelcrisis.101.t: "Faithful Sons of Germany"
+ channelcrisis.101.d: "Britain, of all places - fucking Britain. Josef remembered once playing cards with other fellows from the 53rd Airborne Brigade, joking about where they would be deployed first. Some guessed the East, to kill bandits; Friedrich thought Africa. No one guessed Britain, but then again, that was before chaos erupted again in the British Isles. Now they were camped at an airfield in the Lower Rhine, waiting for the air corridor to jump into Britain and unleash hell. Suddenly the barracks door opened, followed by a voice barking orders; he could barely make it out from the other end. Josef squinted against the harsh light and leaned toward Friedrich.
+
+"What is it? Are we moving out?"
+
+Friedrich grinned; the smile had no humor, only a touch of vindictiveness. "Looks like the Americans ran. Time for revenge." Josef suddenly remembered he had a brother in the British garrison. He nodded and began gathering his gear.
+
+Less than half an hour later, they were about to take off, filing slowly onto the plane one by one. Josef took one last look back at the airfield, and at the sunrise faintly visible on the horizon. In Britain, about to become hell, how long would it be before he saw such a gentle sight again? He might be in Britain for months, even years; who knew?
+
+"Hurry up, move it!" a paratrooper behind him complained. Josef rolled his eyes and climbed aboard, nagged by doubts. Still, he had enlisted to defend the fatherland. It was time to act."
+ channelcrisis.101.a: "The motherland calls, and her sons answer."
+ channelcrisis.110.t: "An Amicable Agreement"
+ channelcrisis.110.d: ""Mr. Doe?" Mr. Smith knocked on the office door to announce himself. Doe looked up from a pile of documents: diplomatic cables and reports, lit warmly by the desk lamp. "They want to know if you're coming for drinks."
+
+"Hm? No, I won't, thank you." Doe's head bowed again, signing his name on a report. "There's still a lot to do tonight."
+
+"Come on, things can wait." Smith sat across from Doe. "We're throwing a victory party for the British, and here you are buried in... whatever this is. Come on, Jack." He stood. "Enjoy life."
+
+"Thanks, Mr. Smith, but I have plenty to do. I'll join you in a bit, once I've tidied things up."
+
+Mr. Smith shrugged, told himself he had at least tried, and walked back into the lamplight. Doe bowed his head again. Another State Department congratulatory cable, another heartfelt thank-you from the British government. For America and Britain, the negotiations had gone smoothly; Germany had withdrawn without a fight, so Britain need not fear "Sea Lion" anymore.
+
+In truth, some part of Doe had never wanted to reach such an agreement. This place - where he had fought for his life in the Scottish Highlands, watching hundreds of comrades die organizing the defense. When he had advised the President to reach agreement, he had seen those comrades' bloodied faces and glaring eyes. They asked him why he chose negotiation instead of battle. But they could no longer dictate his actions; with a single pen, he and his new comrades had kept Germany out."
+ channelcrisis.110.a: "He told the fallen that without an agreement, there would be no bodies left to bury in the next war."
+ channelcrisis.111.t: "Indulging England"
+ channelcrisis.111.d: ""That is how it is." Hans Speidel's head turned toward the world map on the wall. The eyes of everyone in the operations room followed him to the map, where the British Isles were forever colored the same as the Americans across the Atlantic. "An hour ago, the Foreign Office contacted me to inform us that southern England will be demilitarized. The die is cast; now we need -"
+
+Someone slammed a fist on the table, the echo lingering. "To hell with it!" Ferdinand Schörner clenched both fists; had he not worn gloves, blood would have welled at his nails. "What are they thinking? How much have they given up just to avoid this little war?"
+
+"Field Marshal, it is not entirely adverse. The Americans were forced to make some concessions, and -"
+
+"This is nowhere near enough. Do you know their leader? That dwarf Joseph, the Tory? He's a Jew." He spat the three words, the fury in his voice seeming to burn through the table before him. "Think about it - a fucking Jew ruling European soil!"
+
+The operations room fell into a silence of confusion and dread. "Worst of all," Schörner stood, "is the OFN - God, the OFN." Speidel nodded, and several of his entourage nodded with him. "Against them, these terms are nothing but minor obstacles. Tell me, Speidel, is this enough to avoid a war?"
+
+Though Speidel was reluctant to openly agree with Schörner, he found himself nodding. Across the Channel, the jubilant OFN was planning its next move, having satisfied the masters of Europe at the tiniest cost. That night, the operations room became a club for impotent men; Schörner was especially dejected, hungry for revenge. But all he could do was stare at the world map."
+ channelcrisis.111.a: "We should have hit them with nukes long ago."
+ channelcrisis.120.t: "A Happy Ending"
+ channelcrisis.120.d: "A child on a bicycle sped past Eugene, the American GI by the roadside; his face was still messily painted with a British flag. A rather elderly couple danced in the street, faces wreathed in smiles, as if the city belonged only to the two of them. With a small, battered old camera, a Washington Post reporter struggled to capture this British frenzy, muttering that the New York Times would surely do it better.
+
+The sentimental part of Eugene wanted to join in, to dig into everything he felt, to release some impulse. The rational part knew that even standing aside, watching the British cheer, was enough. He took out a tarnished brass lighter engraved with a figure holding a torch, and prepared to light a cigarette. Looking at the lighter, he remembered the years his father had proudly served in the 2nd Marine Division. Even after losing so many brothers on Guadalcanal, he had chosen to follow his comrades through to the end of the Second World War. And on a street in Manchester, Eugene found that same feeling.
+
+He had never been to Britain before. As a child, the roadside novels depicting the heroic, tragic Battle of London were always bestsellers. Every time he passed the comic book store in his hometown of Chattanooga, his stomach turned with a strange discomfort. That war had been heroic, our weapons powerful, our soldiers tough beyond measure - and yet we still lost. Everyone in the community knew someone who had lost a loved one, their lives ended forever in Eisenhower's last futile gamble. Once the shell of silent endurance forged in people's hearts broke, suppressed grief flooded out - for the families who received coffins, and for those who received none.
+
+The song "We'll Meet Again" began to drift through the air, courtesy of the instant sound system the collaborators had set up for the broadcast. Eugene lit his cigarette and propped his leg against the weathered brick wall. This was a broadcast too, he chuckled to himself. One of his comrades was twisting his hips wildly, trying to show the British girls some dances guaranteed to be cool back in America. America was back, and fascism had lost its grip on Britain. His job - like every American's - was to snatch every life back from the cliff edge of tyranny."
+ channelcrisis.120.a: "Freedom is fought for, not earned."
+ channelcrisis.130.t: "Stepping into the Abyss"
+ channelcrisis.130.d: "To the American sailors of the Saratoga battle group, the German warships facing them in the Channel seemed devoid of life, like enormous gray boulders staring at them across the cold, black water. They floated there, dreadfully still; on the Anglo-American side, only the sounds of waves and wind could be heard.
+
+"Do you think they're as scared of us as we are of them?" one sailor asked, the wind howling as he prepared to light up. The other shrugged.
+
+"I fucking don't know, Walter. That's what I think, anyway. Maybe if it were true, they'd just stay over there. Want a light?" The first sailor waved a hand, tried several more times to light his cigarette, finally succeeded, and laughed.
+
+"Alright! Took forever -"
+
+A huge boom, followed by a terrible tearing of metal. He stared in shock as a ship beside him was engulfed in flame. In an instant, chain after chain of explosions rang out, and even the German warships across the way began to burn. The two scrambled below, the sounds of death and the orders blaring over the loudspeakers to man battle stations chasing them.
+
+"They actually did it." The second sailor panted. "They actually did it. Playing with atomic fire."
+
+Above them, war raged; the once-dark surface of the Channel was lit by explosions, burning wreckage, and low, screams. If anyone surveyed this disaster from high above, they might have wondered whether there had been another way. Was all this truly inevitable? Was this the only consequence of a mad, headlong rush toward freedom? Perhaps the resistance had been right; if things had gone differently, the German tyrants would have been beaten back. This question, like so many others, would never have an answer, for the footsteps of history were fixed here."
+ channelcrisis.130.a: "War, fire. Before long, only silence."
+ channelcrisis.131.t: "Twilight of the Gods"
+ channelcrisis.131.d: "The electric bell rang, and the U-boat navigator's face went as white as a ghost. Major Hinze was calm; he pushed the frightened little man aside, seized the receiver on the wall, and pressed it to his ear. The sound on the other end was faint, but he recognized the voice immediately.
+
+"Major Hinze," the voice crackled. "Can you hear me?" He nodded, then realized with a start that the Admiral could not see him.
+
+"I can, Admiral. Major Hinze at your service."
+
+"Good. I thought it unnecessary, but the Americans refuse any compromise. Faced with such reckless aggression, the Führer authorizes us to take all necessary measures to defend the British Isles. Prepare to fire; fire as soon as you are ready." The line went dead. Hinze said nothing, hung up, and turned to face the frightened sailors crowding the control room.
+
+"Prepare to fire."
+
+He could see his weapons officer hesitating. "Sir,"
+
+"Move!" he roared, and the officer hurried off. Hinze crossed his hands behind his back, leaving his subordinates behind. He could hear other sailors muttering to one another, whispering, with all discipline gone. Normally Hinze would punish them for it, but what was the point now? It would all be over soon. He thought back to those rare days, coming home from work and taking his wife and daughter to see his parents in Stuttgart. That city would soon burn to ash in nuclear fire. All because of the Yanks.
+
+He should have known it would end like this. Ever since the British abandoned the New Order and their European brothers, they had grown more and more insane. They only had to stop, he thought in frustration. Stop for a moment, think about what they were doing. It was all their fault."
+ channelcrisis.131.a: "Sullen, he sat down and quietly waited for the end of the world."
+ CC_negotiation_decision_tt: "Decision £political_power_texticon §Ypolitical power§! cost will decrease as the crisis develops"
+ USA_CC_negotiations_desc: "Though it may leave Britain and the OFN over a barrel, we might reach an agreement with Germania in exchange for their recognition of the new government. But should we really compromise with the world's foremost tyrant?"
+ concession_1: "Release Komitat Citizens"
+ concession_2: "Compensate Corporate Assets"
+ concession_3: "Limit Offshore Resource Extraction"
+ concession_4: "Expand Corporate Asset Compensation"
+ concession_5: "Acknowledge Historical Wrongs"
+ concession_6: "Continental Security Zone"
+ concession_7: "German Airspace Rights"
+ concession_8: "Renounce the Channel Islands"
+ concession_9: "Limit OFN Military Presence in Britain"
+ concession_10: "Reduce OFN Presence in Iceland"
+ concession_11: "No Nuclear Weapons in Britain"
+ concession_12: "Limit OFN Expansion"
+ concession_13: "Further Limit OFN Expansion"
+ concession_14: "Extradition Agreement for Fugitives"
+ concession_15: "Release German Spies"
+ channel_crisis_negotiations_ongoing: "Negotiations to end the Channel Crisis are underway"
+ CC_concessions_description_tt: "[Get_CC_negotiations_concession_descrip]"
+ channelcrisis.112.t: "A Fair Deal"
+ channelcrisis.112.d: ""I think that's it, then, right?" Thompson asked Mr. Doe beside him. The plane beneath them sat at Washington Airport, preparing to fly to London. The older diplomat set down his magazine and offered a wry smile Thompson could not read.
+
+"I think so. Britain is free, and that is what matters, is it not?"
+
+The plane taxied along the runway, and Doe stared out the window. Once airborne, he saw the lights of Washington D.C. at night. He remembered the cheers that had gone up when people saw Britain's new leader on television, before a crowd of journalists newly enjoying press freedom, announcing that the OFN and the Komitat had reached agreement on England's fate. Of course, to placate a Germany stunned by defeat, and in exchange for recognizing Britain as an OFN member, they had made some concessions too. The terms seemed acceptable to all parties. Once the consultations ended, diplomats of every nation quietly took pride in the agreement, for they had successfully avoided another world war.
+
+The plane disappeared above the clouds; outside the cabin it was pitch black, and only the window reflected Doe's resolute face. When there was no light at all outside, Mr. Doe picked up his magazine again. Thompson had brought a book too, but his eyes kept darting to Doe.
+
+"Honestly," Thompson said after a long silence, "you aren't happy that we went to negotiate, are you?"
+
+Mr. Doe slowly set down his magazine and took off his glasses. When he looked at Thompson, the young man suddenly thought of many things. He saw he was not on a plane in [GetYear]. He was somewhere in the Scottish Highlands, watching a friend's half a face blow apart, blood flowing. He was in a command post, a knife to a German officer's throat as he dragged him up for interrogation. He was at the negotiating table, proposing yet another compromise, and seeing the same officer flash that mocking smile back at him."
+ channelcrisis.112.a: ""I'm not quite sure.""
+ channelcrisis.113.t: "My Lucky Star"
+ channelcrisis.113.d: "Once again, the Oberkommando der Wehrmacht had gathered in the bunker beneath Germania, awaiting word from the Führer. Markers on the world map glowed white and red, the German eagle casting layered shadows in the light. Hans Speidel watched Ferdinand Schörner pace back and forth at the table, advancing, retreating, restlessly striding around the circular operations room. At last, the red telephone rang, breaking the tension. Speidel answered.
+
+"Good evening. Speidel here. Yes. Yes, he is here too... mm-hm." He scribbled the other's words in his notebook. "Yes. Yes, understood. We'll issue the orders now. Thank you." He hung up and turned to Schörner. "The Foreign Office confirms they have reached an agreement with the Americans and the British."
+
+"They've lost Britain, haven't they? A pack of cowards!"
+
+"Unfortunately, it is true. The Americans still haven't shifted their position one bit." Speidel held out the notebook. "But we did manage to extract some concessions."
+
+Schörner snatched the notebook, scanned the contents, and scoffed. "This is the proceeds from selling the gate to Europe? A pack of fucking incompetents!" He threw the notebook back at Speidel, laughed coldly as he returned to his seat, gritted his teeth, eyes darting between the notes and the British Isles on the big map.
+
+"Field Marshal, it isn't nothing." Speidel closed the notebook. "Considering the Americans wouldn't even sit at the table, we gained quite a lot from them." He paused. "Enough to resolve many disputes."
+
+"This is a disgrace, Speidel. I thought you had the sense to understand." Schörner sighed. "General, go issue the withdrawal orders." Schörner put on his peaked cap and rose."
+ channelcrisis.113.a: ""I'll be in my office planning to crush the unrest in the East. We need these concessions... for now, at least.""
+ channelcrisis.114.t: "An Unfair Deal"
+ channelcrisis.114.d: "On a television screen in the corner of the room, Thompson and Smith could watch the impromptu celebrations. Though the picture was eyes-only, the revelry in the bar was much the same: cheers, shouted chants, patriotic songs sung over and over. For most people, the news that had brought them together was indeed a happy outcome - who would be unhappy with an agreement that guaranteed a Free Britain safe from German aggression?
+
+"We could have," Mr. Thompson said, draining his third large beer of the night. Condensation dripped down the side of the fourth glass before him. "Fucking Germans. Goddammit, why doesn't the damn thing just drop dead..."
+
+"Calm down, Thompson," said Smith, picking up the untouched beer with a hearty hand. "In twenty-four hours, this whole thing will be nothing but a memory. You can tell your wife her relatives can come back to England." He soothed, though his voice trembled slightly with lack of confidence. They had been advising the President on how to win Britain's freedom, and in the process, they had made concession after concession. What could have been an insurmountable wall containing Germany had become a row of picket fences. Rumors hinted that many on both sides of the Atlantic were unhappy with what Germany received; fortunately, the final outcome of the negotiations had blunted much of that criticism.
+
+"Doe was right," Thompson muttered. "You have to follow one road all the way. Death or injustice - you have to choose one." He gripped his throbbing head with both hands. "Fuck, we could have gotten more. What the fuck did we even do?"
+
+"You'll feel better tomorrow," said Smith. He looked at the television again: patriots waving newspapers announcing Britain's freedom was secured, veterans and their medals glinting in the lights, a young couple kissing in a shop doorway. Even though Thompson hated himself for giving away too much, Smith felt these sights made everything they had paid worthwhile. Britain had won freedom twice: first from its own fascist government, and then from the fascist empire across the Channel."
+ channelcrisis.114.a: "If they knew the price of freedom..."
+ channelcrisis.115.t: "Unexpected"
+ channelcrisis.115.d: "Ferdinand Schörner pounced on the red telephone like a falcon, grabbing the receiver the moment it rang. "Schörner here. Mm-hm. Yes, he is here. Mm-hm." He took up a pen and notebook and scribbled the other's words. "Alright. Hmm. What? They actually handed it over?" Excited hands scribbled messy notes. "Alright. Understood, I'll issue the orders." He set down the phone and grunted.
+
+"Word from the Foreign Office?" Hans Speidel, sitting at the operations room table, raised an eyebrow.
+
+"Speidel, we should have fought. The goddamn Americans won't do a thing." He opened the notebook to show his men. Speidel pushed up his glasses and read, growing more surprised as he went.
+
+"They... conceded quite a lot." He looked up. "Much more than I expected."
+
+"They're softer than we thought. If these civilians weren't in the way, we could have conquered them outright."
+
+"Regardless, this is a good result. They had to bargain with us; at least we won't look weak." Speidel shrugged. "Either way, we can turn our attention back to the East."
+
+"Yes," said Schörner. "The Slav problem is large. Africa too." He leaned back in his chair and chuckled again. "Per the agreement, order our fleet to withdraw. Have the navy play "Erika" for the Americans on their way out; that'll piss them off. Come see me as soon as everything's done. I'm not like those diplomats; showing strength on a few sheets of paper isn't my style.""
+ channelcrisis.115.a: "A lucky star descended on Germania, destroying every people still trapped beneath its iron grip."
+ channelcrisis.1110.t: "Report on the British Negotiated Agreement"
+ channelcrisis.1110.d: "TOP SECRET / [?global.date.GetDateStringNoHour]
+Subject: Channel Negotiations Concluded
+
+Report: Per BIGEYE intelligence confirmation, the Kriegsmarine has begun withdrawing from the English Channel. Other intelligence reports reveal German forces pulling back from the west and moving east, intent on strengthening their control in the East.
+
+By now, the establishment of a pro-OFN British government is a foregone conclusion. Dossiers on all resistance leaders and exiled political figures are appended on pages 3 through 10. Given British anti-German sentiment, future pro-American governments will be stable.
+
+For details on concessions made to Germany, see pages 11 through 13. Internal political backlash within Germany is expected, but its intensity will be reduced; German dominance in Western Europe will not be greatly affected.
+
+Our victory in Britain has also won support from some OFN member states, particularly the former Commonwealth nations. They have pledged new aid. Since the successful negotiations, the great majority of American citizens approve of our intervention in the Channel crisis, and may support further international intervention.
+
+Despite our success, the concessions above include the establishment of a demilitarized zone in southern England and restrictions on our deployment of nuclear weapons in the British Isles. Nevertheless, the emergence of an ally closely tied to the free world has undoubtedly opened a permanent crack in the Iron Curtain, overturning the traditional notion of German invincibility. Germany's future moves are hard to predict, but this development may mark a key turning point for the OFN."
+ channelcrisis.1110.a: "Our old comrade holds the torch once more."
+ channelcrisis.1111.t: "Report on the British Isles Negotiated Agreement"
+ channelcrisis.1111.d: "Oberkommando der Wehrmacht
+Abwehr Amtsgruppe III F
+Top Secret
+[?global.date.GetDateStringNoHourLong]
+
+Briefing - Negotiations with Britain and the United States have concluded. Confirmed by Luftwaffe and Kriegsmarine reconnaissance, all American naval battle groups have fully withdrawn from the English Channel. Intelligence confirms the British have likewise honored the agreement, withdrawing from southern England to establish the Continental security zone as agreed.
+
+The British and Americans have also reached additional agreements regarding relations with the OFN and the new British government, acknowledgment of Komitat security concerns, and other details; see page 3 for the full report. For a comprehensive analysis of the concessions we were forced to make, see page 9.
+
+We must recognize that our influence over the British Isles is no more; whatever the outcome of the negotiations, a pro-OFN British government will emerge. Furthermore, though most of the fighting during the uprising was borne by the British Army, our own Heer still lost some equipment and men; for an assessment, see the appendix.
+
+Though the outcome is not ideal, these negotiations allowed us to successfully avoid a catastrophic global conflict. At the same time, the concessions we obtained have greatly enhanced our credibility in power projection and crisis response. A recommendation for a comprehensive review of our current Atlantic security agreements is appended on page 16; briefings on our interests in Western Europe are appended on pages 27, 31, and 34 respectively.
+
+May Germany be faithfully guarded."
+ channelcrisis.1111.a: "Perhaps this is the best we can get from this mess."
+ channelcrisis_nego.1.t: "Britain and America Propose Agreement"
+ channelcrisis_nego.1.d: "The Foreign Office informs us that the OFN wishes to open a new round of negotiations. If we recognize the new British government and refrain from invasion, the OFN may make concessions regarding our security concerns.
+
+Given that the standoff could trigger war with the United States, this may be a relatively wise choice, especially if we can extract enough concessions from the Americans to compensate for losing Britain. However, this undoubtedly means we cannot get everything we want, and in the end the gains may not outweigh the losses.
+
+We could also refuse and continue to deter the OFN with overwhelming force. If we succeed, we can reassert European hegemony from a position of victory and teach the terrorists within the Komitat the price of betrayal. But if we fail, everything may be beyond redemption..."
+ channelcrisis_nego.1.a: "Begin negotiations. See what we can get."
+ channelcrisis_nego.1.b: "We do not negotiate with terrorists."
+ channelcrisis_nego.2.t: "Germany Proposes Agreement"
+ channelcrisis_nego.2.d: "Today we received a request: from the Greater German Reich, wishing for both sides to sit at the negotiating table and resolve the Channel Crisis peacefully. They are willing to accept the new government in London, demanding corresponding concessions from us to fully address Germany's security concerns.
+
+This is a proposal that might save the world. If handled properly, while managing to give Germany the minimum necessary concessions, we will all go down in history. However, Germany surely will not give up Britain without major concessions, and we do not yet know what those major concessions are.
+
+We could also continue with our established plan. If we can force Germany to concede through power projection, then the British Isles will surely win freedom again, and the European jailer will be humbled. But all of this depends on Germany conceding. If they refuse to yield, what horrors an entirely new world war would bring..."
+ channelcrisis_nego.2.a: "Begin negotiations. See what we can do."
+ channelcrisis_nego.2.b: "We do not negotiate with fascists."
+ channelcrisis_nego.10.t: "Germany Refuses Negotiations"
+ channelcrisis_nego.10.d: "As expected, Germany has refused our proposal to negotiate over the Channel Crisis. They seem determined to invade the British Isles and will not seek a peaceful, compromise solution for now. However, this refusal does not mean they will not change their minds later."
+ channelcrisis_nego.10.a: "Until then, we can only wait, and remain resolute."
+ channelcrisis_nego.11.t: "Germany Comes to the Table"
+ channelcrisis_nego.11.d: "We have learned that Germany has accepted our proposal to negotiate over the Channel Crisis. However, do not delude yourself that these negotiations will be easy. If they recognize the new British government, they will surely expect maximum concessions from us to make the deal "worthwhile.""
+ channelcrisis_nego.11.a: "See what they want."
+ channelcrisis_nego.20.t: "The OFN Refuses Negotiations"
+ channelcrisis_nego.20.d: "As expected, the Yankee masters and their British dogs have refused our generous proposal to resolve the Channel Crisis peacefully. Though we must continue to demonstrate strength on our own territory, this does not mean the OFN will not change its mind later."
+ channelcrisis_nego.20.a: "Until then, faced with such a threat, we will not show weakness."
+ channelcrisis_nego.21.t: "The OFN Comes to the Table"
+ channelcrisis_nego.21.d: "America has finally seen reason and accepted our proposal to resolve the Channel Crisis through diplomatic means. At minimum, the Americans will demand that we recognize the new British government. Such a situation constitutes a serious security concern, and we will not accept it without major concessions. If an OFN government is to be recognized within our sphere of influence, it must be on terms we dictate."
+ channelcrisis_nego.21.a: "If we must lay down our swords, we will fight the battle with the pen."
+ channelcrisis_nego.3.t: "Diplomatic Checkpoint"
+ channelcrisis_nego.3.d: "Our negotiations over England's status are progressing steadily, and both sides have reached consensus on a key part of the agreement. We are heading toward a peaceful resolution, and such efforts deserve recognition.
+
+If the negotiations break down later, we can restart from the consensus reached at this moment, rather than overturning everything and starting from scratch. The agreement reached so far is reasonably fair to both sides; even if the negotiations break down, we should strive to keep it reasonable."
+ channelcrisis_nego.3.a: "Continue negotiating."
+ channelcrisis_nego.40.t: "Germany Withdraws from Negotiations"
+ channelcrisis_nego.40.d: "Bad news has arrived regarding the Channel Crisis negotiations: Germany has withdrawn. They believe the OFN has not offered enough concessions, so they have walked out of the talks and continue to threaten invasion in the current standoff.
+
+Though the negotiations have failed, we can resume them. Hopefully next time they will be wiser - if there is a next time."
+ channelcrisis_nego.40.a: "A pity."
+ CC_negotiation_cost_increase_tt: "The cost of restarting negotiations increases by £political_power_texticon §Y100§!"
+ channelcrisis_nego.41.t: "The OFN Withdraws from Negotiations"
+ channelcrisis_nego.41.d: "Just as we expected, Britain and America have withdrawn from the negotiations. Though, considering what we stand to lose, the terms we proposed were a mere drop in the bucket, they still deemed them unacceptable, stopped the talks, and continued their standoff against us.
+
+If we wish, perhaps we can resume negotiations later. Until then, the Wehrmacht will keep watch to ensure the Americans do not violate our beloved fortress."
+ channelcrisis_nego.41.a: "They'll come around, one way or another!"
+ channelcrisis_nego.50.t: "Negotiations Succeed"
+ channelcrisis_nego.50.d: "Good news has arrived from Germania: the Germans have agreed to make concessions and have reached an agreement with us to resolve the Channel Crisis. Though we and Britain must now abide by the agreed terms and limit as much as possible our impact on German security, from now on the world will no longer have to fear thermonuclear war."
+ channelcrisis_nego.50.a: "We did what was necessary."
+ channelcrisis_nego.51.t: "Negotiations Succeed"
+ channelcrisis_nego.51.d: "We have received the latest news from Washington and London on the negotiations. The Americans have decided to make concessions in exchange for our recognition of the British government. Though this means Britain has left our sphere of influence, we can at least extract some benefit from it, and the world is no longer on the brink of destruction."
+ channelcrisis_nego.51.a: "Next time you won't get such a good deal, yanks..."
+ concession_1_Desc: "Any POWs or Komitat citizens detained by Britain must be released immediately."
+ concession_2_Desc: "Britain will pay Germany a one-time compensation for major German corporate assets seized by it.
+
+§YIf accepted§!:
+(£TNO_game_rule_flag_FEN §YFree Britain§!): Pays £TNO_game_rule_flag_GER §YGreater German Reich§! §Y$0.100B§!"
+ concession_3_Desc: "Britain's offshore resource extraction will be reduced and limited to 50 nautical miles."
+ concession_4_Desc: "In addition to the existing agreement, Britain must also compensate for the various small business assets it has seized.
+
+§YIf accepted§!:
+(£TNO_game_rule_flag_FEN §YFree Britain§!): Pays £TNO_game_rule_flag_GER §YGreater German Reich§! §Y$0.400B§!"
+ concession_5_Desc: "The new British government must agree to issue a formal statement acknowledging its past violations and injustices against European peace and prosperity, including the fault at Versailles and its role in fostering degenerate culture.
+
+§YIf accepted§!:
+(£TNO_game_rule_flag_FEN §YFree Britain§!): Political power: §R-50§!.
+(£TNO_game_rule_flag_GER §YGreater German Reich§!): Political power: §G+100§!."
+ concession_6_Desc: "To prevent Britain from being used as a military threat, and to ensure the English Channel's status as a vital Komitat sea lane, a "Continental Security Zone" will be established - a demilitarized zone along the southern coast of England.
+
+§YIf accepted§!:
+(£TNO_game_rule_flag_FEN §YFree Britain§!):
+(All §Ysouthern coastal regions of England§!):
+  Become demilitarized zones."
+ concession_7_Desc: "Germany and its allies will be granted overflight rights over British airspace."
+ concession_8_Desc: "Britain will renounce all territorial claims to the Channel Islands in perpetuity and recognize their status as German possessions.
+
+§YIf accepted§!:
+(£TNO_game_rule_flag_FEN §YFree Britain§!):
+  Loses the core of the §YChannel Islands§!."
+ concession_9_Desc: "The OFN will limit the number of personnel stationed in the British Isles."
+ concession_10_Desc: "The OFN will reduce the number of personnel and aircraft stationed in Iceland."
+ concession_11_Desc: "The deployment of nuclear weapons by the United States in the British Isles is prohibited."
+ concession_12_Desc: ""
+ concession_13_Desc: ""
+ concession_14_Desc: "Britain may not provide sanctuary to any Komitat citizen lacking legal residency, including those claiming refugee or defector status."
+ concession_15_Desc: ""
+ concession_saw: "Cease hostilities against German Africa"
+ concession_saw_desc: ""
+ concession_spy_exchange: "Release German Spies"
+ concession_spy_exchange_desc: ""
+ CC_negotiations_tt_heading: "§YNegotiations§!"
+ CC_negotiations_tt: "[Get_negotiations_tt]"
+ CC_negotiations_ofn_tt: "If we choose to negotiate, we will discuss what concessions must be made in exchange for Britain's freedom.
+
+§KNegotiations§! are divided into three phases, with checkpoints between them. In each phase, Germany will list a series of §Yterms§! they expect us to accept. The §Yterm§! currently under discussion is marked in §Rred§!, and terms already agreed are marked in §Bblue§!.
+
+We and our allies must decide whether to §Gaccept§! or §Rreject§! the concession currently under discussion. If we agree, Germany may choose to accept the agreement reached in this phase, or propose additional terms. If we reject, we will declare that the terms agreed this phase are sufficient, and Germany will then decide whether to accept."
+ CC_negotiations_pakt_tt: "If we choose to negotiate, we will try to extract as many concessions as possible from the British and Americans.
+
+§KNegotiations§! are divided into three phases, with checkpoints between them. In each phase, we will list a certain number of §Yterms§! we expect the OFN to accept. The §Yterm§! currently under discussion is marked in §Rred§!, and terms already agreed are marked in §Bblue§!.
+
+The first term of each phase is automatically submitted and must be agreed to by the OFN for the negotiations to succeed. If the OFN accepts the proposed term, we may choose to demand the OFN accept more §Rterms§!, or §Gconfirm§! the agreement reached this phase. If the OFN rejects the proposed term, we will face a choice: either accept the agreement and the penalty, or reject the entire agreement."
+ cc_negotiations_accept_button_tt: ""
+ cc_negotiations_reject_button_tt: ""
+ GER_CC_negotiations_desc: "If an agreement can be reached, mitigating the risk posed by the new Britain, and ensuring everything develops on our terms, perhaps we can accept Britain's new status. But should we really compromise with this elusive threat?"
+ channelcrisis.1010.t: "The Führer's Ghost"
+ channelcrisis.1010.d: ""Yes, we've received the same reports from Portsmouth and Gatwick as well. Thank you! Understood." Knight set the receiver back, leaned back in his chair and laughed, then reached for his pipe. When the Americans gave up the English Channel, he had known Britain would fight a last desperate struggle for survival before the darkest end came. Yet once the Americans withdrew, the German warships and troops all vanished, as if wiped away by an angry deity. He had no idea what was going on. Maybe the old man upstairs really had intervened?
+
+"That's why I'm furious! They just used the console to make up for how bad they are!" Knight's eyes went wide as a blue ghostly Adolf Hitler suddenly appeared in his office. The Führer continued to rage.
+
+"The only thing that gets in our way is console commands! Why didn't Churchill think of that! Shameless! I spent all those years building my glorious empire, and you want to beat it like this? Goddammit!"
+
+Knight stared at the Führer's outburst, stunned. "What?" The ghost turned to him.
+
+"I despise you! The one behind the screen! Yes, you - what are you even thinking? Free Britain has no content yet, and you're already breaking the game, shoving this loser's face into the HOG portrait frame." The ghost pointed at Knight, wearing an angry expression. "Geez, we worked so hard painting Joyce's portrait. I know he's not a great pick, but give it a try? Please?"
+
+The Führer shook his head. "I'm furious. I'm doing it too now! Let Germany win! You like playing like this, huh!""
+ channelcrisis.1010.a: "Console commands materialized before the Führer."
+ CC_progress_buildup_decrease_ofn_tt: "We will have §Gmore§! time to prepare"
+ CC_progress_buildup_increase_ofn_tt: "We will have §Rless§! time to prepare"
+ CC_progress_buildup_increase_pakt_tt: "The §ROFN§! will have §Gless§! time to prepare"

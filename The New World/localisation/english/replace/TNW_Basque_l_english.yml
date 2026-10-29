@@ -1,0 +1,82 @@
+﻿l_english:
+ BSQ_Eduardo_Moreno_Bergareche:0 "Eduardo Moreno Bergareche"
+ BSQ_communist_party:0 "ETA - Military Front"
+ BSQ_communist_party_long:0 "Basque Homeland and Freedom - Military Front (Euskadi ta Askatasuna - Fronte Militarra)"
+ BSQ_socialist_party:0 "ETA - Worker's Front"
+ BSQ_socialist_party_long:0 "Basque Homeland and Freedom - Worker's Front (Euskadi ta Askatasuna - Langileen Aurrealdea)"
+ BSQ_progressivism_party:0 "Basque Country Socialist Party"
+ BSQ_progressivism_party_long:0 "Basque Country Socialist Party (Euskadiko Alderdi Sozialista)"
+ BSQ_liberalism_party:0 "Basque Christian Democracy"
+ BSQ_liberalism_party_long:0 "Basque Christian Democracy (Euskal Kristau Demokrazia)"
+ BSQ_conservatism_party:0 "Basque Nationalist Party"
+ BSQ_conservatism_party_long:0 "Basque Nationalist Party (Eusko Alderdi Jeltzalea)"
+ BSQ_paternalism_party:0 "Basque Government"
+ BSQ_despotism_party:0 "Spanish Basque Battalion"
+ BSQ_fascism_party:0 "Guerrilleros of Christ the King"
+ red_lehendakari_trait:0 "Red President"
+ BSQ_Jesus_Leizaola:0 "Jesús María de Leizaola"
+ BSQ_Jesus_Leizaola_hog_desc:0 "§YVice President
+Conservatism§!"
+ BSQ_Jose_Miguel_Benaran:0 "José Miguel Benaran"
+ BSQ_Jose_Miguel_Benaran_hog_desc:0 "§YVice President
+Communism§!"
+ BSQ_Jose_Miguel_Benaran_sec_desc:0 "§YMinister of Defense
+Communism§!"
+ BSQ_Juan_Ajuriagerra:0 "Juan de Ajuriagerra"
+ BSQ_Juan_Ajuriagerra_eco_desc:0 "§YMinister of Economy
+Conservatism§!"
+ BSQ_Domingo_Iturbide:0 "Domingo Iturbide"
+ BSQ_Domingo_Iturbide_eco_desc:0 "§YMinister of Economy
+Communism§!"
+ BSQ_Txabi_Etxebarrieta:0 "Txabi Etxebarrieta"
+ BSQ_Txabi_Etxebarrieta_for_desc:0 "§YMinister of Foreign Affairs
+Socialism§!"
+ BSQ_Angel_Otaegui:0 "Ángel Otaegui"
+ BSQ_Angel_Otaegui_for_desc:0 "§YMinister of Foreign Affairs
+Socialism§!"
+ BSQ_Xabier_Zumalde:0 "Xabier Zumalde"
+ BSQ_Jose_Quesada:0 "José María Quesada"
+ BSQ_Telesforo_Monzon:0 "Telésforo Monzón"
+ BSQ_Xabier_Etxebarrieta:0 "Xabier Etxebarrieta"
+ BSQ_Jose_Maria_Benegas:0 "José María Benegas"
+ BSQ_Julen_Gimon:0 "Julen Gimón"
+ BSQ_Jesus_Maria_Leizaola:0 "Ignacio Iturbide"
+ BSQ_Ignacio_Iturbide:0 "Telésforo Monzón"
+ BSQ_Mariano_Sanchez:0 "Mariano Sánchez"
+ BSQ_Antonio_Ibanez:0 "Antonio Ibáñez Freire"
+ BSQ_Carlos_Villar:0 "Carlos Villar Turrau"
+ BSQ_Joseba_Elosegui:0 "Joseba Elosegui Odriozola"
+ BSQ_Pablo_Beldarrain:0 "Pablo Beldarrain Olalde"
+ BSQ_Juan_Castro:0 "Juan Antonio Castro"
+ BSQ_Rafael_Menchaca:0 "Rafael Menchaca Ugarte"
+ BSQ_Alejo_Bilbao:0 "Alejo Bilbao Beltrán"
+ BSQ_fascism_ADJ:0 "Basque"
+ BSQ_liberalism:0 "Basque Republic"
+ BSQ_liberalism_DEF:0 "Basque Republic"
+ BSQ_liberalism_ADJ:0 "Basque"
+ BSQ_conservatism:0 "Basque Republic"
+ BSQ_conservatism_DEF:0 "Basque Republic"
+ BSQ_conservatism_ADJ:0 "Basque"
+ BSQ_paternalism:0 "Basque Republic"
+ BSQ_paternalism_DEF:0 "Basque Republic"
+ BSQ_paternalism_ADJ:0 "Basque"
+ BSQ_despotism_ADJ:0 "Basque"
+ BSQ_communist_ADJ:0 "Basque"
+ BSQ_socialist_ADJ:0 "Basque"
+ BSQ_national_socialism_ADJ:0 "Basque"
+ POLITICS_JOSE_QUESADA_DESC:0 "In many ways, ETA and its armed wing are products of Franco's dictatorship. The Franco regime sought to destroy the Basque language and culture, forced the older generation of Basque nationalists into exile, and crushed the Basque labor movement. As migrant workers flooded into the Basque Country, industrialization and urbanization ran completely out of control — these factors mixed together to fuel the rapid rise of the Basque national "patriotic movement." Similarly, José María Quesada Lasarte emerged within this movement.
+
+Lasarte was born into a working-class family of mixed Basque-Navarrese descent; his father died fighting for the Republic in the Spanish Civil War, but the son soon took up the struggle. Lasarte was among the first generation of ETA radicals, directly participating in several daring paramilitary operations and political actions: attacking transport vehicles carrying Spanish soldiers and Iberian troops, publicly burning Iberian flags, and other forms of public protest. Lasarte quickly became public enemy number one of the Iberian intelligence services, yet he always evaded the authorities.
+
+After a coup brought the armed wing of Basque nationalism to power, Lasarte was chosen to lead the Basque government thanks to his outstanding leadership of the ETA armed organization. Some dismiss Lasarte as a puppet of ambitious young nationalist officers like Argala, but Lasarte is quite satisfied with ETA's popular standing, and he and his team have repeatedly stated that at whatever the cost, their goal — "Basque Homeland and Freedom" — will be achieved."
+ POLITICS_TELESFORO_MONZON_DESC:0 "The history of the Basque Country has been, by any measure, one of conflict — between the Basque people and their Madrid masters, and between the various factions of the Basque national movement — and Telésforo Monzón stands at the very center of it all. Born in 1904 to a wealthy aristocratic family, as a young man he joined the Basque Nationalist Party and soon became chairman of the local branch. An intellectual, writer, and poet, and an ardent supporter of the "God and Old Laws" (Jeltzale) ideology, he cooperated with the CEDA and other groups opposed to the Popular Front; yet after the Nationalist coup ignited the Spanish Civil War, Monzón and his party members turned to fight for the Republic.
+
+The civil war ended in disaster, and Monzón, like the rest of the Basque government, was forced into exile. He later settled near the French border, and was once a close associate of EAJ leader and autonomous president José Antonio Aguirre; however, due to conflicting positions, his relationship with the party soon began to deteriorate. In Monzón's view, the EAJ's actions fell far short of what was needed to build a free Basque Country; more radical action was required. And so he maintained close contact with the small grassroots organizations emerging within the country: first Ekin, which would later develop into ETA — Basque Homeland and Freedom.
+
+Before long, Monzón had become almost the only figure respected by both the "Patriotic" (Abertzale) left and the "God and Old Laws" (Jeltzale) right; and when Iberia descended into chaos and the Basque people raised barricades, the presidency of the new Basque autonomous government naturally fell to Monzón. Now, Monzón is the linchpin holding together the fragile balance of power among Basque factions — he bears the difficult responsibility of managing the Basque wartime government and attempting to bridge the ideological gulf between ETA and its affiliated movements and the conservative nationalists of the Basque Nationalist Party — though how long this can hold is anyone's guess."
+ BSQ_Federico_Krutwig:0 "Federico Krutwig"
+ BSQ_paternalism_party_long:0 "Basque Government (Eusko Jaurlaritza)"
+ BSQ_despotism_party_long:0 "Spanish Basque Battalion (Batallón Vasco Español)"
+ BSQ_fascism_party_long:0 "Guerrilleros of Christ the King (Guerrilleros de Cristo Rey)"
+ BSQ_Xabier_Zumalde_sec_desc:0 "§YMinister of Defense
+Communism§!"

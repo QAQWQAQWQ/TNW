@@ -1,0 +1,65 @@
+﻿l_english:
+ ##CHILE##
+ CHL_Andres_Pascal_Allende:0 "Andrés Pascal Allende"
+ CHL_communist_party:0 "Manuel Rodríguez Patriotic Front"
+ CHL_communist_party_long:0 "Manuel Rodríguez Patriotic Front (Frente Patriótico Manuel Rodríguez)"
+
+##Bolivia##
+ BOL_Felipe_Quispe_Huanca:0 "Felipe Quispe Huanca"
+ BOL_communist_party:0 "Túpac Katari Indian Movement"
+ BOL_communist_party_long:0 "Túpac Katari Indian Movement (Movimiento Indio Túpac Katari)"
+
+##Peru##
+ PRU_Ricardo_Letts_Colmenares:0 "Ricardo Letts Colmenares"
+ PRU_communist_party:0 "Mariátegui Unified Party"
+ PRU_communist_party_long:0 "Mariátegui Unified Party (Partido Unificado Mariateguista)"
+
+##Ecuador##
+ ECU_Jaime_Lenin_Hurtado_Angulo:0 "Lenín Hurtado"
+ ECU_communist_party:0 "Popular Democratic Movement"
+ ECU_communist_party_long:0 "Popular Democratic Movement (Movimiento Popular Democrático)"
+
+##Paraguay##
+ PAR_Ananias_Maidana_Palacios:0 "Ananías Maidana Palacios"
+ PAR_communist_party:0 "Communist Party of Paraguay"
+ PAR_communist_party_long:0 "Communist Party of Paraguay"
+
+##Colombia##
+ COL_Manuel_Marulanda:0 "Manuel Marulanda"
+ COL_communist_party:0 "Simón Bolívar Guerrilla Coordinating Board"
+ COL_communist_party_long:0 "Simón Bolívar Guerrilla Coordinating Board (Coordinadora Guerrillera Simón Bolívar)"
+
+##Uruguay##
+ URG_Jose_Cordano:0 "José Mujica"
+ URG_communist_party:0 "Tupamaros National Liberation Movement"
+ URG_communist_party_long:0 "Tupamaros National Liberation Movement (Movimiento de Liberación Nacional – Tupamaros)"
+
+##Argentina##
+ ARG_Alejandro_Carlos_Biondini:0 "Alejandro Carlos Biondini"
+ ARG_national_socialism_party:0 "New Triumph Party"
+ ARG_national_socialism_party_long:0 "New Triumph Party"
+
+##Venezuela##
+ VEN_Gabriel_Puerta_Aponte:0 "Gabriel Puerta Aponte"
+ VEN_communist_party:0 "Red Flag Party"
+ VEN_communist_party_long:0 "Red Flag Party (Bandera Roja)"
+
+##Suriname##
+ SUR_Pim_Fortuyn:0 "Pim Fortuyn"
+##Guiana-Cayenne##
+ GUC_Nicolas_Sarkozy:0 "Nicolas Sarkozy"
+
+##Brazil##
+ BRA_Leonel_Brizola:0 "Leonel Brizola"
+ BRA_socialist_party:0 "Brazilian Labor Party"
+ BRA_socialist_party_long:0 "Brazilian Labor Party"
+
+##Guyana##
+ GUY_Bharrat_Jagdeo:0 "Bharrat Jagdeo"
+ GUY_progressivism_party:0 "People's Progressive Party"
+ GUY_progressivism_party_long:0 "People's Progressive Party"
+
+##Argentine guerrillas##
+ RAF_Nestor_Ostoic:0 "Néstor Kirchner"
+ RAF_socialist_party:0 "Revolutionary Armed Forces"
+ RAF_socialist_party_long:0 "Revolutionary Armed Forces"

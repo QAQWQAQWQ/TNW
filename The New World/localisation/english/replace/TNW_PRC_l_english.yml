@@ -1,0 +1,44 @@
+﻿l_english:
+ PRC_communist_party: "Red Army"
+ PRC_communist_party_long: "Red Army (Krasnaya Armiya)"
+ PRC_socialist_party: "Red Army"
+ PRC_socialist_party_long: "Red Army (Krasnaya Armiya)"
+ PRC_Aleksandr_Vasilevsky: "Aleksandr Vasilevsky"
+ POLITICS_ALEKSANDER_VASILEVSKY_DESC: "Aleksandr Mikhailovich Vasilevsky was born to a family of Russian Orthodox priests. Unexpectedly, he did not follow in his father's footsteps but instead chose the military, rising through the ranks of the Tsarist army. After the October Revolution, he resigned his commission and transferred to rear-area units, where he spent the entire civil war. Vasilevsky's organizational talent shone in the interwar period, and he became acquainted with such renowned colleagues as Aleksandr Yegorov, Mikhail Tukhachevsky, and Georgy Zhukov. When the Germans invaded, Vasilevsky was serving in the General Staff under Bukharin; through his steely character, he stood out and rose steadily. Yet even a man of his talent could not prevent the evacuation from Moscow from devolving into a chaotic flood of millions of soldiers, officers, and civilians all fighting to escape.
+
+Vasilevsky was determined to preserve the Red Army's fighting strength, and so led the remnants withdrawn from the Mozhaisk line in a generally orderly retreat eastward, across the Ural Mountains. He had hoped to establish a foothold in the Mongolian People's Republic, gaining breathing room for a future counteroffensive. But the Japanese invaders and the Mengjiang puppet regime had already occupied Ulaanbaatar and driven the Mongolian People's Army deep into the wilderness, extinguishing this last hope. Thus, Vasilevsky forged a precarious alliance with the Mongolian forces, temporarily occupying the territory of the former Tuvan People's Republic. This entity exists in isolation — the Western War, the Siberian War, even the fall of the West Siberian People's Republic are all distant affairs. They also avoid Yagoda's regime in Irkutsk, fearing that their earlier retreat might be labeled treason and bring death upon them. Regardless, though he stands alone now, Vasilevsky has not given up: he will raise armies and make plans, so that one day he may reclaim his homeland."
+ PRC_red_army_dynamic_modifier: "Exiled Red Army"
+ PRC_red_army_dynamic_modifier_desc: "The People's Revolutionary Council was formed out of the scattered remnants of the Far Eastern Military District. The Mongolian People's Republic, which had been reduced to a Soviet puppet before the Great Patriotic War, suddenly found itself as the host of Red Army units stranded, and having lost their chain of command. Through a slow and complex process, the Mongolian government would slowly merge with the Russian military, and despite the invasion from Mengjiang, survive on the edge of the country. After years of hardships, the Red Army has survived Japan's facade of pan-Asianism, Yagoda's totalitarianism, and internal strife between its leaders. Now, the troops wonder if their eternal exile in Mongolia will ever end."
+ PRC_factionalism: "Ideological Disputes"
+ PRC_factionalism_desc: "The leading figures of the People's Revolutionary Council are always at odds, each holding their own views on policy and the ultimate direction of the state. For a nation held together only by a loose alliance of Russians and Mongols, bound by little more than a will to survive and a shared socialist creed, this is inevitable. These disagreements constantly breed infighting within the regime, and reaching a decision without alienating one side or the other is incredibly difficult. But if the People's Revolutionary Council is to survive the chaos and perhaps restore the Soviet Union, these disputes must be resolved."
+ PRC_democratic_military: "Military Democracy"
+ PRC_democratic_military_desc: "To break the reactionary hierarchy that dominated the old army, Red Army soldiers elect their officers. But this system has its downsides. Soldiers tend to elect officers who are lenient and easygoing rather than those with strong military skills and strict discipline. This means that often, the people promoted are those least fit for command."
+ PRC_preparation_for_war: "Preparation for War"
+ PRC_preparation_for_war_desc: "The state's preparations have been completed, and all aspects of its economy have been tuned for wartime supply and production. Though its economic base is likely much smaller than those of its future enemies, this singular focus, and the very many optimizations made in its execution, should enable it to remain competitive, and engage on more equal ground."
+ PRC_Grigory_Shtern: "Grigory Shtern"
+ PRC_Grigory_Shtern_hog_desc: "§YHead of Government
+Bolshevism§!
+--------------
+"
+ PRC_Ivan_Ivanov: "Ivan Ivanov"
+ PRC_Ivan_Ivanov_for_desc: "§YMinister of Foreign Affairs
+Bolshevism§!
+--------------
+"
+ PRC_Jambyn_Batmonkh: "Jambyn Batmönkh"
+ PRC_Jambyn_Batmonkh_eco_desc: "§YMinister of Economy
+Bolshevism§!
+--------------
+"
+ PRC_Jamiyangiin_Lkhagvasuren: "Jamtsangiin Lkhagvasuren"
+ PRC_Jamiyangiin_Lkhagvasuren_sec_desc: "§YMinister of Security
+Bolshevism§!
+--------------
+"
+ PRC_Issa_Pliev: "Issa Pliev"
+ PRC_Pavel_Batitsky: "Pavel Batitsky"
+ PRC_Leonid_Brezhnev: "Leonid Brezhnev"
+ PRC_Alexander_Oskin: "Alexander Oskin"
+ PRC_Batyn_Dorzh: "Batyn Dorj"
+ PRC_Butochiyn_Tsog: "Butochiyn Tsog"
+ PRC_Lodongiin_Dandar: "Lodongiin Dandar"

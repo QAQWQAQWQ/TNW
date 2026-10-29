@@ -1,0 +1,26 @@
+﻿l_english:
+ GEO_fascism: "Georgian Legion"
+ GEO_fascism_DEF: "Georgian Legion"
+ GEO_socialist: "Georgian Socialist Republic"
+ GEO_socialist_DEF: "Georgian Socialist Republic"
+ GEO_communist_party: "Georgian Communist Party (Bolsheviks)"
+ GEO_communist_party_long: "Georgian Communist Party (Bolsheviks) (Sakartvelos Komunisturi Partia - Bolshevikebi)"
+ GEO_socialist_party: "Georgian Communist Party (Mensheviks)"
+ GEO_socialist_party_long: "Georgian Communist Party (Mensheviks) (Sakartvelos Komunisturi Partia - Menshevikebi)"
+ GEO_fascism_party: "Georgian Legion"
+ GEO_fascism_party_long: "Georgian Legion (Kartuli Legioni)"
+ GEO_national_socialism_party: "Georgian Legion"
+ GEO_national_socialism_party_long: "Georgian Legion (Kartuli Legioni)"
+ POLITICS_SHALVA_LOLADZE_DESC: "Shalva Loladze dedicated everything to defending the motherland — honor, dignity, and blood. When Germany invaded the Soviet Union, he joined the Soviet Air Force and became a pilot. But fate played a cruel trick: his plane was shot down over occupied Ukraine. Faced with the choice between being sent to a Nazi POW camp or joining the Georgian Legion as a collaborator, he chose the latter. The Legion's ordinary soldiers were mostly Georgian POWs who hated the Soviets or wanted to survive, while the high command were veterans of the Democratic Republic of Georgia — exiled generals and politicians who had dreamed of returning home ever since the Soviet victory. After Germany's victory, they were finally able to return, but only as puppets serving German rule over Georgia.
+
+The Legion gradually split: the old guard advocated patience and waiting, while the young officers longed for proactive action. When the West Russian War broke out and the Transcaucasian Soviet uprising began, the commanders remained loyal to Germany, fantasizing that after the Germans suppressed the rebellion they would be rewarded. Such hopes ultimately came to nothing. The Katherinenstadt regime collapsed after Josias's death, and the generals once again ordered the soldiers to endure. Led by Shalva, the middle-ranking officers finally mutinied — they detained the disobedient commanders, shot the opposition, overthrew the German garrison, and the Georgian flag once again flew over Tbilisi. Now he has no master, no leader — he fights only for himself, only for the flag of his homeland."
+ POLITICS_GIVI_JAVAKHISHVILI_DESC: "Givi Dimitrievich Javakhishvili was neither a soldier nor an orator, but a gentle bureaucrat who managed the water infrastructure committee of the Georgian Soviet Socialist Republic. After Tbilisi fell, the partisans who sheltered him accused him of achieving nothing in building the resistance network, but he confidently stated that he possessed a more important skill: building government systems. Winning the war is important, but what is the point of victory if the resistance cannot consolidate power and restore order? Faced with chaos and poverty, wouldn't the people choose the side that guarantees their survival?
+
+And so, Javakhishvili began building connections between resistance groups. He not only contacted armed personnel, but also widely befriended trade union leaders, scientists, accountants, teachers, and people from all walks of life, reserving talent for the reconstruction of Georgia. The originally loose guerrilla alliance gradually grew, eventually giving birth to the embryo of a shadow government — this invisible regime was ready at any time to seize power and take over the affairs of the old administrative system.
+
+During the West Russian War, they tried to coordinate actions with the Transcaucasian Soviets, but the German counteroffensive interrupted substantive cooperation between the two sides, and they had to lie low once more, waiting for the right moment. Josias's death meant that Javakhishvili's dream was finally realized. He and his allies launched the long-awaited uprising across the Georgian Soviet, crushing the collaborators and the exhausted German garrison. When the smoke cleared, the new government immediately took the stage, beginning to take over the state apparatus. But in any case, to build a nation, one must first win the war — now is the time for Javakhishvili to deliver on his promises."
+ GEO: "Georgia"
+ GEO_DEF: "Georgia"
+ GEO_ADJ: "Georgian"
+ GEO_Shalva_Loladze: "Shalva Loladze"
+ GEO_Givi_Javakhishvili: "Givi Javakhishvili"

@@ -1,0 +1,9 @@
+﻿l_english:
+ TNW_gov_ui_tt:0 "[TNWgovuitt]"
+ TNW_ENG_gov_ui_tt:0 "Click here to switch between the §YKing§! and the §YPrime Minister§!"
+ TNW_CHI_gov_ui_tt:0 "Click here to switch between the §YPresident§! and the §YPremier§!"
+ TNW_JAP_gov_ui_tt:0 "Click here to switch between the §YEmperor§! and the §YPrime Minister§!"
+ TNW_SER_gov_ui_tt:0 "Click here to switch between the §YKing§! and the §YPrime Minister§!"
+ vice_leader_name:0 "§Y[TNWgetviceleadername]§!"
+ vice_leader_desc:0 "§L[TNWviceleaderdesc]§!"
+

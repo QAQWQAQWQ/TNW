@@ -1,0 +1,60 @@
+﻿l_english:
+ ALT_communist_party: "All-Union Communist Party (Bolsheviks)"
+ ALT_communist_party_long: "All-Union Communist Party (Bolsheviks) (Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov))"
+ ALT_socialist_party: "League of Free Communes"
+ ALT_socialist_party_long: "League of Free Communes (Soyuz Svobodnykh Obshchin)"
+ ALT_progressivism_party: "Russian People's Party"
+ ALT_progressivism_party_long: "Russian People's Party (Rossiyskaya Narodnaya Partiya)"
+ ALT_liberalism_party: "Siberian Democratic Party"
+ ALT_liberalism_party_long: "Siberian Democratic Party (Demokraticheskaya Partiya Sibiri)"
+ ALT_conservatism_party: "Altai Democratic Party"
+ ALT_conservatism_party_long: "Altai Democratic Party (Altay Demokratiyalik Partiyasi)"
+ ALT_paternalism_party: "Karakorum Movement"
+ ALT_paternalism_party_long: "Karakorum Movement (Karakorumskaya Uprava)"
+ ALT_despotism_party: "Rurikid Loyalists"
+ ALT_despotism_party_long: "Rurikid Loyalists (Ryurikovy Loyalisty)"
+ ALT_fascism_party: "Altai Nazi Party"
+ ALT_fascism_party_long: "Altai Nazi Party (Altay Nlutsul Partiyasi)"
+ ALT_national_socialism_party: "Russian Fascist Party"
+ ALT_national_socialism_party_long: "Russian Fascist Party (Rossiyskaya Fashistskaya Partiya)"
+ ALT_ultranationalism_party: "Black League"
+ ALT_ultranationalism_party_long: "Black League (Chernaya Liga)"
+ ALT_Ivan_Zavoloko: "Ivan Zavoloko"
+ POLITICS_IVAN_ZAVOLOKO_DESC: "For a long time, Ivan Nikiforovich Zavoloko's people were mocked as provincial bumpkins who clung to an abandoned past. "Raskolniks" — that was the common epithet for these Old Believers. The term enraged the Old Ritualists, who simply believed it was right to maintain their ancestors' faith, and in doing so, they harmed no one. In Riga, Zavoloko was a collector of Russian antiquities, gently guiding his community while continuing his research into the past. When the Russian Empire fell, the Old Believers thought a new golden age of worship might begin. Quite the opposite: the Soviets, and later Nazi Germany, brutally oppressed the Old Ritualist communities. After the Nazi invasion, Zavoloko followed his kin on a long overland exile, fleeing the ruins that had buried a bright future.
+
+In Oirotia, Zavoloko's first meeting with the local inhabitants did not get off to a good start. The native Altai people had always looked down on outsiders, especially those who practiced Burkhanism (the White Faith), a new religion seen as a threat by both the Tsars and the Soviets. The followers of this emerging faith felt little sympathy for the exiles of an ancient religion. Many believed that sharing their limited survival space with outsiders in this war- and bandit-ravaged land would be suicide.
+
+From such an inauspicious beginning to now being president of this young nation with dual religious and ethnic traditions, Zavoloko's rise has shocked many warlords in the region. His patient attention to detail, his compassion for every citizen regardless of rank, made him the only leader followed by both of Oirotia's major communities. Yet personal effort cannot lay a stable foundation for a nation. President Zavoloko and his followers must succeed in forging a deeper bond between the fates of the Old Ritualists and the Burkhanists, so that the young nation's bright future may take root and not wither."
+ ALT_Lazar_Kokyshev: "Lazar Kokyshev"
+ ALT_Lazar_Kokyshev_hog_desc: "§YHead of Government
+Social Nationalism§!
+--------------
+"
+ ALT_Erkemen_Palkin: "Erkemen Palkin"
+ ALT_Erkemen_Palkin_for_desc: "§YMinister of Foreign Affairs
+Social Nationalism§!
+--------------
+"
+ ALT_Stepan_Nosov: "Stepan Nosov"
+ ALT_Stepan_Nosov_eco_desc: "§YMinister of Economy
+Social Nationalism§!
+--------------
+"
+ ALT_Lazar_Semyonov: "Lazar Semyonov"
+ ALT_Lazar_Semyonov_sec_desc: "§YMinister of Security
+Social Nationalism§!
+--------------
+"
+ ALT_Temirey_Kazakov: "Temirey Kazakov"
+ ALT_religious_divide: "Religious Divide"
+ ALT_religious_divide_desc: "The nation of Oirotia was founded on the principle of unity and solidarity between two great religious movements, which most of Oirotia's population follows. These two faiths are the Old Ritualism and Burkhanism (the White Faith) — the former an Orthodox sect long separated from the Russian Orthodox Church, the latter a syncretic indigenous religious movement that emerged in the early 20th century.
+
+Until now, these two faiths have coexisted peacefully, but Oirotia has been fractured by contradictions between its citizens. Both sides have different goals and ideas for the nation, and the Oirotian government must frequently mediate disputes and discord among its citizens."
+ ALT_christian_socialism: "Christian Socialism"
+ ALT_christian_socialism_desc: "Many of Altai's inhabitants, whether native or not, felt sympathy for the Soviet system as long as it existed. Though the passage of time has eroded the optimism about socialism, it still influences Oirotia's economic policies. Many Old Believers have drawn tenuous connections between Christian doctrine and left-wing thought, ultimately developing an economic policy unlike almost anywhere else in Russia.
+
+Elements including partial nationalization and planned economic adjustments have been surprisingly well-received, and these policies have even improved economic efficiency."
+ ALT_agrarian_economy: "Agrarian Economy"
+ ALT_agrarian_economy_desc: "Compared to many other regions of Russia, Altai remains economically dependent on agriculture rather than industry. The wave of industrialization barely touched Oirotia, and Moscow's efforts to industrialize the region came to an abrupt halt with the Great Patriotic War and the fall of the Bukharin government.
+
+Thus, Oirotia's economy is still based on the region's well-established agricultural production. The new regime quickly accepted this reality, choosing to avoid any fast-paced or overly ambitious industrialization plans. We remain, for the most part, an agrarian nation."

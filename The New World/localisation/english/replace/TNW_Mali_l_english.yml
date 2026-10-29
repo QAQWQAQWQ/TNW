@@ -1,0 +1,75 @@
+﻿l_english:
+ MLI_socialist: "Socialist Republic of Mali"
+ MLI_socialist_DEF: "Socialist Republic of Mali"
+ MLI_communist: "Socialist Republic of Mali"
+ MLI_communist_DEF: "Socialist Republic of Mali"
+ MLI_communist_party: "Popular Independence Party"
+ MLI_communist_party_long: "Popular Independence Party (Parti de l'Indépendance Populaire)"
+ MLI_socialist_party: "Malian Bloc - African Democratic Rally"
+ MLI_socialist_party_long: "Malian Bloc - African Democratic Rally (Bloc Malien - Rassemblement Démocratique Africain)"
+ MLI_progressivism_party: "Alliance for Democracy in Mali"
+ MLI_progressivism_party_long: "Alliance for Democracy in Mali (Alliance pour la Démocratie au Mali)"
+ MLI_liberalism_party: "Alliance for Democracy in Mali"
+ MLI_liberalism_party_long: "Alliance for Democracy in Mali (Alliance pour la Démocratie au Mali)"
+ MLI_conservatism_party: "Malian Bloc - African Democratic Rally"
+ MLI_conservatism_party_long: "Malian Bloc - African Democratic Rally (Bloc Malien - Rassemblement Démocratique Africain)"
+ MLI_paternalism_party: "Malian Bloc - African Democratic Rally"
+ MLI_paternalism_party_long: "Malian Bloc - African Democratic Rally (Bloc Malien - Rassemblement Démocratique Africain)"
+ MLI_despotism_party: "Malian Bloc - African Democratic Rally"
+ MLI_despotism_party_long: "Malian Bloc - African Democratic Rally (Bloc Malien - Rassemblement Démocratique Africain)"
+ MLI_fascism_party: "-"
+ MLI_fascism_party_long: "-"
+ MLI_national_socialism_party: "-"
+ MLI_national_socialism_party_long: "-"
+ MLI_ultranationalism_party: "-"
+ MLI_ultranationalism_party_long: "-"
+ MLI_idea_keitas_leadership: "Keïta's Leadership"
+ MLI_idea_keitas_leadership_desc: "As far as Mali's current situation is concerned, the election results are perfect. Modibo Keïta, Mali's first and thus far only elected president, has a governing platform that uniquely blends socialist ideology with more pragmatic means of maintaining control.
+
+Mali is divided into two camps: the reformists, who hold high the ideal of pan-Africanism and advocate alignment with Cameroon; and the traditionalists, who insist on preserving Mali's territorial integrity. Keïta treads carefully between the two, but if he can maintain national unity, Mali will rise from the ashes and build a stronger future."
+ MLI_idea_traore_problem: "The Traoré Problem"
+ MLI_idea_traore_problem_desc: "Though President Keïta is an elected leader, not all citizens have confidence in the leadership of this young nation. To be fair, most of these opponents are not worth worrying about — they are merely jealous ingrates and incompetents, with one glaring exception.
+
+Moussa Traoré, a young officer, is intimately familiar with the inner workings of the various factions within the Malian military. Rumors and panic about Cameroonian puppet-mongering run rife through the ranks, and there is no doubt that he is plotting to subvert Mali's democratic system, backed by foreign capital."
+ MLI_Modibo_Keita_hog_desc: "§YHead of Government
+Paternalism§!
+--------------
+"
+ MLI_Kadari_Bamba_for_desc: "§YMinister of Foreign Affairs
+Socialism§!
+--------------
+"
+ MLI_Younoussi_Toure_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ MLI_Amadou_Baba_Diarra_sec_desc: "§YMinister of Security
+Despotism§!
+--------------
+"
+ POLITICS_MODIBO_KEITA_DESC: "Among the nations of West Africa, Mali appears unusually calm and ordinary — the people here seem to suffer less oppression than elsewhere. This is the land of Modibo Keïta, a leader torn between moral conviction and radical belief, struggling to find his way in the turbulent landscape of West Africa.
+
+Born in the streets of Bamako, Keïta could have claimed descent from the founders of the Mali Empire, but he never harbored dreams of expansion. Instead, Keïta found his spiritual home in socialist groups across French West Africa, uniting many Malians under the banner of national freedom and prosperity.
+
+When news of Germany's victory over France arrived, this noble ideal suffered a major setback. As de Gaulle's forces struggled to hold the remnants of West Africa, Keïta remained openly defiant of the French; his organization of militia forces to oppose de Gaulle's army gave the French no end of trouble. The French were not only driven out of Mali but forced back to the Ivory Coast, and Mali was free. The militia was a melting pot, gathering all forces that desired Malian autonomy — Islamists, socialists, democrats, and nationalists, all fighting for the same goal. Now that the dust has settled, the many factions within Mali have turned their gaze inward. Infighting between factions within the Malian government escalates almost to the point of farce. Keïta's ongoing national reforms have not calmed the strife but instead enraged the conservative militias.
+
+The dissident Moussa Traoré has integrated the Islamic militias into a regular army and seized the city of Kayes as his stronghold. The battle for Mali's future has begun, and Modibo Keïta leads his army toward this decisive campaign."
+ MLI_ADJ: "Malian"
+ MLI_FFRPuppet: "Mali"
+ MLI_FFRPuppet_DEF: "Republic of Mali"
+ MLI_FFRPuppet_ADJ: "Malian"
+ MLI_Modibo_Keita: "Modibo Keïta"
+ MLI_Kadari_Bamba: "Kadari Bamba"
+ MLI_Younoussi_Toure: "Younoussi Touré"
+ MLI_Amadou_Baba_Diarra: "Amadou Baba Diarra"
+ MLI_Abdrahamane_Baba_Toure: "Abdrahamane Baba Touré"
+ MLI_Aoua_Keita: "Aoua Keïta"
+ MLI_Fily_Dabo_Sissoko: "Fily Dabo Sissoko"
+ MLI_Abdoulaye_Sekou_Sow: "Abdoulaye Sékou Sow"
+ MLI_Mamadou_Madeira_Keita: "Mamadou Madeira Keïta"
+ MLI_Guediouma_Samake: "Guédiouma Samaké"
+ MLI: "Mali Federation"
+ MLI_DEF: "Mali Federation"
+ MLI_mli: "Mali Federation"
+ MLI_mli_DEF: "Mali Federation"
+ MLI_mli_ADJ: "Malian Federation"

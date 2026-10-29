@@ -1,0 +1,552 @@
+﻿l_english:
+ USA_election_code_debug: "Election Test"
+ USA_election_code_debug_desc: "[367.GetName] State\nVoter count: [?367.voter_role]\n\nState group modifiers\n[367.USA_sgm]\n\nBlack voters\n[?black_turnout|1%] turnout\n[?367.black_pop|0%] of state voters\n\nHispanic voters\n[?hispanic_turnout|1%] turnout\n[?367.hispanic_pop|0%] of state voters\n\nMinority voters\n[?minority_turnout|1%] turnout\n[?367.minority_pop|0%] of state voters\n\nNativist voters\n[?nativists_turnout|1%] turnout\n[?367.nativists_pop|0%] of state voters\n\nUrban voters\n[?urban_turnout|1%] turnout\n[?367.urban_pop|0%] of state voters\n\nRural voters\n[rural_turnout|1%] turnout\n[?367.rural_pop|0%] of state voters\n\nUnion voters\n[?union_turnout|1%] turnout\n[?367.union_pop|0%] of state voters\n\nActive parties in this state\n£GFX_rd_r_texticon [?367.state_rep_make_up|1%]\n£GFX_rd_d_texticon [?367.state_dem_make_up|1%]\n£GFX_npp_c_texticon [?367.state_pro_make_up|1%]\n£GFX_npp_fr_texticon [?367.state_nat_make_up|1%]\n£GFX_npp_l_texticon [?367.state_com_make_up|1%]\n£GFX_npp_y_texticon [?367.state_anv_make_up|1%]\n\nCoalition Unity\n£GFX_rd_texticon [?rdc_unity|0%]\n£GFX_npp_texticon [?npp_unity|0%]\n\nElections\n\nSenate Election\n[367.USA_testcandidate_1] votes: [?367.rdc_votes_sen|0]\n[367.USA_testcandidate_2] votes: [?367.npp_votes_sen|0]\n\nWinner\n[367.USA_electionwinner_sen]\n\n\nPresidential Election\n[USA_presidential_can_1] votes: [?367.rdc_votes|0]\n[USA_presidential_can_2] votes: [?367.npp_votes|0]\n\nWinner\n[367.USA_electionwinner_pres]"
+ USA_test_election: "§LStart Election§!"
+ USA_initialize_election: "§LInitialize§!"
+ state_group_k1: "   §RMinority voters repressed§!\n   §RNativist voters energized§!"
+ no_can: "?"
+ rep_can: "£GFX_rd_r_texticon"
+ dem_can: "£GFX_rd_d_texticon"
+ pro_can: "£GFX_npp_c_texticon"
+ nat_can: "£GFX_npp_fr_texticon"
+ com_can: "£GFX_npp_l_texticon"
+ anv_can: "£GFX_npp_y_texticon"
+ USA_run_rep_candidate: "Run £GFX_rd_r_texticon Republican candidate"
+ USA_run_dem_candidate: "Run £GFX_rd_d_texticon Democratic candidate"
+ USA_run_pro_candidate: "Run £GFX_npp_c_texticon Progressive caucus candidate"
+ USA_run_nat_candidate: "Run £GFX_npp_fr_texticon Nationalist caucus candidate"
+ USA_run_com_candidate: "Run £GFX_npp_l_texticon Marxist caucus candidate"
+ USA_run_anv_candidate: "Run £GFX_npp_y_texticon Sovereigntist caucus candidate"
+ rdc_win: "[367.USA_testcandidate_1]"
+ npp_win: "[367.USA_testcandidate_2]"
+ rdc_win_pres: "[USA_presidential_can_1]"
+ npp_win_pres: "[USA_presidential_can_2]"
+ USA_coalition_unity: "Smoke and Mirrors"
+ USA_coalition_unity_desc: "[USA.USA_Party_Unity_Screen_Loc]"
+ USA_coalition_unity_gui: "[USA.USA_Party_Unity_Screen_Loc]"
+ USA_coalition_unity_RDC_section: "\n                                                £GFX_rd_r_texticon Republicans£GFX_rd_r_texticon \n\n[USA.USA_HR_Leadership][USA.USA_RR_Leadership]\n\n                                                £GFX_rd_d_texticon Democrats£GFX_rd_d_texticon [USA.USA_LD_Leadership][USA.USA_DC_Leadership]\nOverall, both parties are [USA.USA_RDC_Faction_Health] about maintaining the £GFX_rd_texticon §mRepublican-Democratic Coalition§!, with current overall coalition support at [USA.USA_RDC_Coalition_Support] ([?USA_RDC_Coalition_Sup|Y0%]). [USA.RDC_Explanation]"
+ USA_Coalition_Explanation: "[USA.USA_Coalition_Descriptions]"
+ USA_RDC_Explanation: "\n\n£General_Decision_Linebreak\n\n\nSince the late 1950s, the odd political alliance of the £GFX_rd_r_texticon §RRepublican Party§! and the £GFX_rd_d_texticon §BDemocratic Party§! has rapidly become a fixture of the American political system. Faced with the £GFX_npp_texticon §Osurging political outsiders§!, both establishment parties found themselves stretched thin, desperate to hold onto their political power, and ended up losing their own base as a result - hence this coalition.\n\nBargaining and backroom deals are struck in the political fog of the donkey-elephant alliance to keep the factions that make up the two parties content. From §RConservative Republicans§! to §Bstaunch New Dealers§! to §gmercurial Southerners§!, all face a stern test, and as the national political climate shifts, the rise and fall of each faction follows.\n\n§nDelivering on political promises§!, §npassing popular legislation§!, §nthe political capital of patronage and a successful presidency§! will be key to keeping the £GFX_rd_texticon Republican-Democratic Coalition in lockstep. And should the §mpolitical alliance§! collapse, §Vit will endanger the stability of the nation.§!"
+ USA_NPP_Explanation: "\n\n£General_Decision_Linebreak\n\n\nThe odd alliance of §LProgressives§!, §gNationalists§!, §LPopulist factions§!, and certain other... §ounnamable groups§! - the £GFX_npp_texticon §ONational Progressive Convention§! - has become the most surprising force in American politics. Yet it is this coalition of disaffected former §BDemocrats§! and outraged §gPatriots§! that, in a single generation, has mounted a genuine threat to the £GFX_rd_r_texticon §RRepublican§! and £GFX_rd_d_texticon §BDemocratic§! duopoly.\n\nThe NPP's muddled political stance is both its strength and its fatal weakness. If the majority within the NPP cannot hold back its extremist factions, §ethen voters who turned to the NPP out of dissatisfaction with the establishment may think twice§!.\n\nA unified, disciplined National Progressive Convention will offer the American people §Ga real choice§! to replace the incompetent donkey-elephant parties. But equally, should the Convention splinter and collapse, it will only confirm the whispers that £GFX_npp_texticon §ONPP§! is a front for assorted §Vradicals§! and §oextremist factions§!."
+ USA_Coalition_Explanation_Null: ""
+ USA_Hardline_Republican_Goldwater_Leadership: "                                                               §LBarry Goldwater§! is the\n                                                               §RHardline Republican§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_HR_Barry_Goldwater\n\n                                                               §WFaction unity§![USA.Hardline_Republican_Goldwater_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Hardline_Republican_Goldwater_Coalition_Support]"
+ USA_Hardline_Republican_Miller_Leadership: "                                                               §LWilliam Miller§! is the\n                                                               §RHardline Republican§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_HR_William_Miller\n\n                                                               §WFaction unity§![USA.Hardline_Republican_Miller_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Hardline_Republican_Miller_Coalition_Support]"
+ USA_Responsible_Republican_Rockefeller_Leadership: "                                                               §LNelson Rockefeller§! is the\n                                                               §YResponsible Republican§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_RR_Nelson_Rockefeller\n\n                                                               §WFaction unity§![USA.Responsible_Republican_Rockefeller_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Responsible_Republican_Rockefeller_Coalition_Support]"
+ USA_Responsible_Republican_Ford_Leadership: "                                                               §LGerald Ford§! is the\n                                                               §YResponsible Republican§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_RR_Gerald_Ford\n\n                                                               §WFaction unity§![USA.Responsible_Republican_Ford_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Responsible_Republican_Ford_Coalition_Support]"
+ USA_Labor_Democrat_Johnson_Leadership: "                                                               §LLyndon Johnson§! is the\n                                                               §BLabor Democrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_LD_Lyndon_Johnson\n\n                                                               §WFaction unity§![USA.Labor_Democrat_Johnson_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Labor_Democrat_Johnson_Coalition_Support]"
+ USA_Labor_Democrat_Humphrey_Leadership: "                                                               §LHubert Humphrey§! is the\n                                                               §BLabor Democrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_LD_Hubert_Humphrey\n\n                                                               §WFaction unity§![USA.Labor_Democrat_Humphrey_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Labor_Democrat_Humphrey_Coalition_Support]"
+ USA_Labor_Democrat_OHara_Leadership: "                                                               §LJames G. O'Hara§! is the\n                                                               §BLabor Democrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_LD_James_OHara\n\n                                                               §WFaction unity§![USA.Labor_Democrat_OHara_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Labor_Democrat_OHara_Coalition_Support]"
+ USA_Dixiecrat_Russell_Leadership: "                                                               §LRichard Russell Jr.§! is the\n                                                               §gDixiecrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_DC_Richard_Russell\n\n                                                               §WFaction unity§![USA.Dixiecrat_Russell_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Dixiecrat_Russell_Coalition_Support]"
+ USA_Dixiecrat_Eastland_Leadership: "                                                               §LJames Eastland§! is the\n                                                               §gDixiecrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_DC_James_Eastland\n\n                                                               §WFaction unity§![USA.Dixiecrat_Eastland_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Dixiecrat_Eastland_Coalition_Support]"
+ USA_Dixiecrat_Jim_Wright_Leadership: "                                                               §LHale Boggs§! is the\n                                                               §gDixiecrat§! leader,\n                                                               advocating a government bound by\n                                                               the rule of law to protect liberty.\n     £USA_DC_Jim_Wright\n\n                                                               §WFaction unity§![USA.Dixiecrat_Jim_Wright_Faction_Health]\n                                                               §WSupport for the RDC Coalition§![USA.Dixiecrat_Jim_Wright_Coalition_Support]"
+ USA_coalition_unity_NPP_section: "\n                              £GFX_npp_c_texticon Progressive Caucus£GFX_npp_c_texticon \n\n§KThe Progressive Caucus§! is the political heir to non-establishment §Jliberals§! and §Gprogressives§! such as §Lformer Agriculture Secretary Henry Wallace§! and §Lformer Vice President Burton Wheeler§!. Its member parties stand united to offer voters an alternative to the §BDemocrats'§! long rule.\n[USA.USA_NPP_Progressive_Caucus_Leader]\n                               £GFX_npp_fr_texticon Nationalist Caucus£GFX_npp_fr_texticon \n\n§gThe Nationalist Caucus§! is the heir to §LGeneral George Patton§! and §LGovernor Happy Chandler§!. Its parties seek to defend the §YAmerican values§! cherished by citizens, guiding the nation through §Rchaotic and perilous times§!.\n[USA.USA_NPP_Nationalist_Caucus_Leader][USA.USA_NPP_Marxists][USA.USA_NPP_Sovereigntists]\nPublic attitude toward the £GFX_npp_texticon §ONational Progressive Convention§! is [USA.USA_NPP_Coalition_Support] ([?USA_NPP_Wider_Approval|0Y%])[USA.RDC_Explanation]"
+ USA_Progressives_1: "§PThe Progressive Caucus§! includes the §YProgressive Party§!, §YFarmer-Labor Party§!, §YIndependent Alliance§!, and §YNew York Liberal Party§!"
+ USA_NPP_P_Marcantonio: "\n                                    §LVito Marcantonio§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_P_Leadership_Approval] ([?NPP_P_Leadership_Approval|0%Y]|[USA.NPP_P_Leadership_Approval_Trend_Arrow] [?NPP_P_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_P_Marcantonio   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_P_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_P_Leadership_National_Appeal]\n                                    [USA.NPP_P_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_P_Benson: "\n                                    §LElmer Benson§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_P_Leadership_Approval] ([?NPP_P_Leadership_Approval|0%Y]|[USA.NPP_P_Leadership_Approval_Trend_Arrow] [?NPP_P_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_P_Benson   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_P_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_P_Leadership_National_Appeal]\n                                    [USA.NPP_P_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_P_Spock: "\n                                    §LBenjamin Spock§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_P_Leadership_Approval] ([?NPP_P_Leadership_Approval|0%Y]|[USA.NPP_P_Leadership_Approval_Trend_Arrow] [?NPP_P_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_P_Spock   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_P_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_P_Leadership_National_Appeal]\n                                    [USA.NPP_P_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_P_Berrigan: "\n                                    §LPhilip Berrigan§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_P_Leadership_Approval] ([?NPP_P_Leadership_Approval|0%Y]|[USA.NPP_P_Leadership_Approval_Trend_Arrow] [?NPP_P_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_P_Berrigan   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_P_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_P_Leadership_National_Appeal]\n                                    [USA.NPP_P_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_P_Nader: "\n                                    §LRalph Nader§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_P_Leadership_Approval] ([?NPP_P_Leadership_Approval|0%Y]|[USA.NPP_P_Leadership_Approval_Trend_Arrow] [?NPP_P_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_P_Nader   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_P_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_P_Leadership_National_Appeal]\n                                    [USA.NPP_P_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_N_Fulbright: "\n                                    §LJ. William Fulbright§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_N_Leadership_Approval] ([?NPP_N_Leadership_Approval|0%Y]|[USA.NPP_N_Leadership_Approval_Trend_Arrow] [?NPP_N_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_N_Fulbright   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_N_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_N_Leadership_National_Appeal]\n                                    [USA.NPP_N_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_N_Griffin: "\n                                    §LMarvin Griffin§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_N_Leadership_Approval] ([?NPP_N_Leadership_Approval|0%Y]|[USA.NPP_N_Leadership_Approval_Trend_Arrow] [?NPP_N_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_N_Griffin   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_N_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_N_Leadership_National_Appeal]\n                                    [USA.NPP_N_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_N_Benson: "\n                                    §LEzra Taft Benson§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_N_Leadership_Approval] ([?NPP_N_Leadership_Approval|0%Y]|[USA.NPP_N_Leadership_Approval_Trend_Arrow] [?NPP_N_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_N_Benson   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_N_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_N_Leadership_National_Appeal]\n                                    [USA.NPP_N_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_N_Smothers: "\n                                    §LClay Smothers§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_N_Leadership_Approval] ([?NPP_N_Leadership_Approval|0%Y]|[USA.NPP_N_Leadership_Approval_Trend_Arrow] [?NPP_N_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_N_Smothers   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_N_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_N_Leadership_National_Appeal]\n                                    [USA.NPP_N_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_N_Gray: "\n                                    §LJames H. Gray Sr.§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_N_Leadership_Approval] ([?NPP_N_Leadership_Approval|0%Y]|[USA.NPP_N_Leadership_Approval_Trend_Arrow] [?NPP_N_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_N_Gray   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_N_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_N_Leadership_National_Appeal]\n                                    [USA.NPP_N_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_M_Friedman: "\n                                    §LSamuel Friedman§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_M_Leadership_Approval] ([?NPP_M_Leadership_Approval|0%Y]|[USA.NPP_M_Leadership_Approval_Trend_Arrow] [?NPP_M_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_M_Friedman   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_M_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_M_Leadership_National_Appeal]\n                                    [USA.NPP_M_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_M_Gates: "\n                                    §LJohn Gates§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_M_Leadership_Approval] ([?NPP_M_Leadership_Approval|0%Y]|[USA.NPP_M_Leadership_Approval_Trend_Arrow] [?NPP_M_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_M_Gates   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_M_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_M_Leadership_National_Appeal]\n                                    [USA.NPP_M_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_M_Aptheker: "\n                                    §LHerbert Aptheker§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_M_Leadership_Approval] ([?NPP_M_Leadership_Approval|0%Y]|[USA.NPP_M_Leadership_Approval_Trend_Arrow] [?NPP_M_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_M_Aptheker   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_M_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_M_Leadership_National_Appeal]\n                                    [USA.NPP_M_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_S_Saxon: "\n                                    §LKurt Saxon§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_S_Leadership_Approval] ([?NPP_S_Leadership_Approval|0%Y]|[USA.NPP_S_Leadership_Approval_Trend_Arrow] [?NPP_S_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_S_Saxon   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_S_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_S_Leadership_National_Appeal]\n                                    [USA.NPP_S_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_S_Collin: "\n                                    §LFrank Collin§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_S_Leadership_Approval] ([?NPP_S_Leadership_Approval|0%Y]|[USA.NPP_S_Leadership_Approval_Trend_Arrow] [?NPP_S_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_S_Collin   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_S_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_S_Leadership_National_Appeal]\n                                    [USA.NPP_S_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_S_Weaver: "\n                                    §LRandy Weaver§! \n                                    §Wcaucus approval of leadership§!\n                                    [USA.NPP_S_Leadership_Approval] ([?NPP_S_Leadership_Approval|0%Y]|[USA.NPP_S_Leadership_Approval_Trend_Arrow] [?NPP_S_Leadership_Approval_Trend|%+0])\n     £GFX_NPP_S_Weaver   §Wcaucus congressmen§! will vote with the\n                                    §OBig Tent§! [USA.NPP_S_Coalition_Voting]\n                                    §WAmericans§! view this caucus [USA.NPP_S_Leadership_National_Appeal]\n                                    [USA.NPP_S_Leadership_Local_Appeal] support it especially\n"
+ USA_NPP_M_Exist: "\n                                   £GFX_npp_l_texticon Marxist Caucus£GFX_npp_l_texticon \n\n§VThe Marxist Caucus§! grew out of the grassroots §PAll-American Labor§! movement. Its parties unite to seek an alternative to the §wcapitalist system§! and firmly oppose §RAmerican imperialism§!.\n[USA.USA_NPP_Marxist_Caucus_Leader]"
+ USA_NPP_M_Exist_Null: ""
+ USA_NPP_S_Exist: "\n                            £GFX_npp_y_texticon Sovereigntist Caucus£GFX_npp_y_texticon \n\n§jThe Sovereigntist Caucus§! is a product of American §sfascist§! and pro-§oNazi§! movements. It seeks to §xpurge§! all §qnegative foreign influences§! from America and defend the nation's §Wwhite supremacy§!.\n[USA.USA_NPP_Sovereigntist_Caucus_Leader]"
+ USA_NPP_S_Exist_Null: ""
+ USA_NPP_CV_in_conjunction: "§GIn Lockstep§!"
+ USA_NPP_CV_cooperatively: "§GCooperating§!"
+ USA_NPP_CV_here_and_there: "§YOccasionally Aligned§!"
+ USA_NPP_CV_independently: "§RVoting Independently§!"
+ USA_NPP_CV_separately: "§RVoting Separately§!"
+ USA_NPP_Leader_Trait_Unknown: "§YIndifferent§!"
+ USA_NPP_Leader_Trait_Mediocre: "§YMediocre§!"
+ USA_NPP_Leader_Trait_Adored: "§GAdored§!"
+ USA_NPP_Leader_Trait_Disliked: "§RDisliked§!"
+ USA_NPP_Leader_Region_Northeast: "§BUrbanites§!"
+ USA_NPP_Leader_Region_Midwest: "§LUnion Households§!"
+ USA_NPP_Leader_Region_A_Bit_Everywhere: "§LAll Voters§!"
+ USA_NPP_Leader_Region_no_where: "§LNo Group§!"
+ USA_NPP_Leader_Region_South: "§LRural Residents§!"
+ USA_green_up: "£increase_texticon"
+ USA_yellow_eq: "§Y=§!"
+ USA_red_down: "£decrease_texticon"
+ USA_Health_Strong: "§GUnited as One§!"
+ USA_Health_Durable: "§GUnited§!"
+ USA_Health_Waning: "§YSlightly Divided§!"
+ USA_Health_Poor: "§RMoribund§!"
+ USA_RDC_support_resounding: "§GDiehard§!"
+ USA_RDC_support_emphatic: "§GEnthusiastic§!"
+ USA_RDC_support_middling: "§YLacking Slightly§!"
+ USA_RDC_support_lacking: "§RSeriously Lacking§!"
+ USA_RDC_support_nonexistent: "§RAlmost Nonexistent§!"
+ USA_toggle_coalition: "§YDebug: Toggle Caucus§!"
+ USA_turn_off_loc_desc: "§YShow Description Text§!"
+ USA_up_tooltips: "Up"
+ USA_down_tooltips: "Down"
+ USA_hold_white_house_meeting: "Hold White House Meeting"
+ USA_spend_surplus_on_social_spending: "Spend Surplus on Social Spending"
+ USA_maintain_surplus_and_social_spending_mission: "Maintain Surplus and Social Spending"
+ USA_free_up_ambassador_positions: "Free Up Ambassador Positions"
+ USA_make_progress_on_civil_rights: "Make Progress on Civil Rights"
+ USA_make_progress_on_civil_rights_mission: "Make Progress on Civil Rights"
+ USA_bolster_the_american_highway_network: "Bolster the American Highway Network"
+ USA_moderation_in_pursuit_of_justice: "Moderation in Pursuit of Justice"
+ USA_moderation_in_pursuit_of_justice_mission: "Avoid Deregulation"
+ USA_hold_business_sumit: "Hold Business Summit"
+ USA_maintain_growth_mission: "Maintain Growth Targets"
+ USA_balance_the_budget: "Balance the Budget"
+ USA_balance_the_budget_mission: "Balance the Budget"
+ USA_head_on_the_firing_line: "Head on the Firing Line"
+ USA_head_on_the_firing_line_mission: "Head on the Firing Line"
+ USA_promise_foreign_resolve: "Promise Foreign Resolve"
+ USA_defend_order: "Defend Order"
+ USA_lower_administrative_spending: "Inspire the Middle Class"
+ USA_lower_administrative_spending_mission: "Keep Cutting Admin Spending"
+ USA_advise_and_consent: "Advise and Consent"
+ USA_appease_reuther: "Appease Walter Reuther"
+ USA_appease_reuther_mission: "Progress on Civil or Worker Rights"
+ USA_join_the_picket_line: "Join the Picket Line"
+ USA_tighten_immigration: "Tighten Immigration"
+ USA_impose_protective_tariffs: "Impose Protective Tariffs"
+ USA_cut_foreign_aid: "Cut Foreign Aid"
+ USA_grant_favorable_committee_assignments: "Favorable Committee Assignments"
+ USA_advocate_for_law_and_order: "Advocate for Law and Order"
+ USA_talk_it_out: "Talk It Out"
+ USA_call_russell: "Call Russell"
+ USA_increase_southern_participation_in_model_cities: "Increase Southern Participation in Model Cities"
+ USA_protect_tax_exempt_religious_schools: "Protect Tax-Exempt Religious Schools"
+ USA_rein_in_the_doj: "Rein In the DOJ"
+ USA_sic_semper_tyrannis: "Sic Semper Tyrannis"
+ USA_sic_semper_tyrannis_mission: "Sic Semper Tyrannis"
+ USA_unity_in_foreign_policy: "Unity in Foreign Policy"
+ USA_unity_in_foreign_policy_mission: "Unity in Foreign Policy"
+ USA_make_progress_on_civil_rights_tt: "We must raise the level of the §YCivil Rights§! national spirit within §Y60§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_spend_surplus_on_social_spending_tt: "We must maintain these conditions for §Y90§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_free_up_ambassador_positions_tt: "We will appoint the wife of a major political supporter to a recently vacant ambassadorship."
+ USA_bolster_the_american_highway_network_tt: "In the last §Y30§! days, we have built [?USA_infrastuture_difference|Y0]§Yinfrastructure§!, granting:\n   £GFX_rd_r_texticon §YResponsible Republicans§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! has §Gincreased§! by [?USA_infrastuture_support_reward|0Y%]"
+ USA_moderation_in_pursuit_of_justice_tt: "We may not enact any §Yderegulation§! §Yfocus§! in the next §Y90§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_hold_business_sumit_tt: "We must maintain a §Y3%§! §GGDP growth rate§! and total GDP of §Y[?tempGDPtarget|Y2]B§! within §Y180§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_balance_the_budget_tt: "We must maintain a budget surplus for §Y90§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_head_on_the_firing_line_tt: "We may not enact any §Yderegulation§! §Yfocus§! in the next §Y60§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_lower_administrative_spending_tt: "We must maintain these conditions for §Y90§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_appease_reuther_tt: "We must raise the level of the §YCivil Rights§! national spirit and improve §Ymaximum work hours§! or §Yminimum wage§! implementation within §Y60§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_sic_semper_tyrannis_tt: "We must maintain at least §Y60%§! £GFX_USA_hawkishness §Phawkishness§! in the next §Y60§! days, or this mission will §Rfail§!.\n\nIf successful:"
+ USA_unity_in_foreign_policy_tt: "We must not lose any §YCold War score§! in the next §Y90§! days (dropping below [?TotalScore|Y0]), or this mission will §Rfail§!.\n\nIf successful:"
+ USA_inflation_less_than_4: "Inflation no higher than §Y4.00%§! (currently §Y[?clamped_inflation_rate|2]%§!)"
+ USA_poverty_rate_change_0_2: "Monthly poverty rate decline at least §G-0.18%§!"
+ USA_social_spending_greater_than: "Our §Ysocial spending§! slider is above §Y55%§! (currently §Y[?econ_social_expenditures_slider_pct|0]%§!)"
+ USA_social_spending_greater_than_mission: "Our §Ysocial spending§! slider is below §Y56%§! (currently §Y[?econ_social_expenditures_slider_pct|0]%§!)"
+ USA_has_surplus: "Currently running a budget surplus"
+ USA_has_deficit: "Currently running a budget deficit"
+ USA_has_improved_civil_rights: "Raised the §YCivil Rights§! national spirit level"
+ USA_regulation: "Completed a §Yderegulation§! §Yfocus§!"
+ USA_has_reached_gdp_target: "GDP at least §Y[?USA_GDP_target|Y2]B§!"
+ USA_lower_admin_spending: "Our §Yadministrative spending§! slider is no higher than §Y40%§! (currently §Y[?econ_admin_expenditures_slider_pct|0]%§!)"
+ USA_lower_admin_spending_mission: "Our §Yadministrative spending§! slider is above §Y40%§! (currently §Y[?econ_admin_expenditures_slider_pct|0]%§!)"
+ USA_has_improved_workhours: "Improved §Ymaximum work hours§! policy implementation"
+ USA_has_improved_min_wage: "Improved §Yminimum wage§! policy implementation"
+ USA_sic_semper_tyrannis_hawkishness: "Have at least §Y60%§! £GFX_USA_hawkishness §Phawkishness§!"
+ USA_sic_semper_tyrannis_hawkishness_mission: "£GFX_USA_hawkishness §Phawkishness§! below §Y60%§!"
+ USA_cold_war_score_lower_than: "§YCold War score§! below [?USA_previous_TotalScore|Y0]"
+ USA_military_spending_greather_than_55: "Our §Yarmy spending§! slider is above §Y55%§! (currently §Y[?econ_army_expenditures_slider_pct|0]%§!)"
+ USA_military_spending_less_than_55: "Our §Yarmy spending§! slider is below §Y56%§! (currently §Y[?econ_army_expenditures_slider_pct|0]%§!)"
+ USA_is_winning_cold_war: "§Y[USA.GetNameWithFlag]§! is leading the §YCold War§!"
+ USA_hawkishness_less_16: "£GFX_USA_hawkishness §Phawkishness§! at most §Y15%§!"
+ USA_social_spending_greater_than_65: "Our §Ysocial spending§! slider is above §Y65%§! (currently §Y[?econ_social_expenditures_slider_pct|0]%§!)"
+ USA_social_spending_less_than_65: "Our §Ysocial spending§! slider is below §Y66%§! (currently §Y[?econ_social_expenditures_slider_pct|0]%§!)"
+ USA_active_NPP_leadership_play: "There is an ongoing §Yleadership play§!."
+ NPP_p_leadership_play_approval: "£GFX_npp_c_texticon §KProgressive Caucus§! leadership approval at most §Y20%§! (currently [?NPP_P_Leadership_Approval|0%Y])"
+ NPP_n_leadership_play_approval: "£GFX_npp_fr_texticon §gNationalist Caucus§! leadership approval at most §Y20%§! (currently [?NPP_N_Leadership_Approval|0%Y])"
+ NPP_m_leadership_play_approval: "£GFX_npp_l_texticon §VMarxist Caucus§! leadership approval at most §Y20%§! (currently [?NPP_M_Leadership_Approval|0%Y])"
+ NPP_s_leadership_play_approval: "£GFX_npp_y_texticon §jSovereigntist Caucus§! leadership approval at most §Y20%§! (currently [?NPP_S_Leadership_Approval|0%Y])"
+ USA_NPP_P_caucus_start_leadership_play_tt: "§Y[USA_NPP_P_leadership_candidate_temp]§! will attempt to become the new leader of the £GFX_npp_p_texticon §KProgressive Caucus§!. We must bring the current leader's approval to at most §Y20%§! for §Gsuccess§!.\n\n§YIf successful:§!\n"
+ USA_NPP_N_caucus_start_leadership_play_tt: "§Y[USA_NPP_N_leadership_candidate_temp]§! will attempt to become the new leader of the £GFX_npp_n_texticon §gNationalist Caucus§!. We must bring the current leader's approval to at most §Y20%§! for §Gsuccess§!.\n\n§YIf successful:§!\n"
+ USA_NPP_M_caucus_start_leadership_play_tt: "§Y[USA_NPP_M_leadership_candidate_temp]§! will attempt to become the new leader of the £GFX_npp_m_texticon §VMarxist Caucus§!. We must bring the current leader's approval to at most §Y20%§! for §Gsuccess§!.\n\n§YIf successful:§!\n"
+ USA_NPP_S_caucus_start_leadership_play_tt: "§Y[USA_NPP_S_leadership_candidate_temp]§! will attempt to become the new leader of the £GFX_npp_s_texticon §oSovereigntist Caucus§!. We must bring the current leader's approval to at most §Y20%§! for §Gsuccess§!.\n\n§YIf successful:§!\n"
+ USA_NPP_leadership_play_fail_tt: "\n§YIf failed:§!\n"
+ USA_NPP_P_caucus_leader_change_tt: "§Y[USA_NPP_P_leadership_candidate_temp]§! will become the new leader of the £GFX_npp_p_texticon §KProgressive Caucus§!."
+ USA_NPP_N_caucus_leader_change_tt: "§Y[USA_NPP_N_leadership_candidate_temp]§! will become the new leader of the £GFX_npp_n_texticon §gNationalist Caucus§!."
+ USA_NPP_M_caucus_leader_change_tt: "§Y[USA_NPP_M_leadership_candidate_temp]§! will become the new leader of the £GFX_npp_m_texticon §VMarxist Caucus§!."
+ USA_NPP_S_caucus_leader_change_tt: "§Y[USA_NPP_S_leadership_candidate_temp]§! will become the new leader of the £GFX_npp_s_texticon §oSovereigntist Caucus§!."
+ USA_NPP_leadership_play_failed_tt: "§RThe leadership play has failed!§!"
+ USA_NPP_leadership_play_thwarted_tt: "§GThe leadership play has been thwarted.§!"
+ USA_NPP_leadership_p_approval_rebound_tt: "§FCaucus members rally around the current leader; £GFX_npp_p_texticon §KProgressive Caucus§! §Wleadership approval§! will §Grecover§!.§!"
+ USA_NPP_leadership_n_approval_rebound_tt: "§FCaucus members rally around the current leader; £GFX_npp_n_texticon §gNationalist Caucus§! §Wleadership approval§! will §Grecover§!.§!"
+ USA_NPP_leadership_m_approval_rebound_tt: "§FCaucus members rally around the current leader; £GFX_npp_m_texticon §VMarxist Caucus§! §Wleadership approval§! will §Grecover§!.§!"
+ USA_NPP_leadership_s_approval_rebound_tt: "§FCaucus members rally around the current leader; £GFX_npp_s_texticon §oSovereigntist Caucus§! §Wleadership approval§! will §Grecover§!.§!"
+ USA_show_leadership_plays: "Show §YLeadership Plays§!"
+ USA_show_leadership_plays_desc: "§F§YLeadership plays§! can be initiated by any caucus leadership candidate to seize their caucus's leadership. Each candidate has different §Gstrengths§! and §Rweaknesses§!. They can lower §Wleadership approval§! to remove the current leader and take their place.\n\nThough this costs resources and causes instability in the short term, §Gin the long run, the right leader can deliver election victory.§!§!"
+ USA_hide_leadership_plays: "Hide §YLeadership Plays§!"
+ USA_hide_leadership_plays_desc: "§F§YLeadership plays§! can be initiated by any caucus leadership candidate to seize their caucus's leadership. Each candidate has different §Gstrengths§! and §Rweaknesses§!. They can lower §Wleadership approval§! to remove the current leader and take their place.\n\nThough this costs resources and causes instability in the short term, §Gin the long run, the right leader can deliver election victory.§!§!"
+ USA_ongoing_leadership_play_p_mission: "Ongoing §Yleadership play§!"
+ USA_ongoing_leadership_play_n_mission: "Ongoing §Yleadership play§!"
+ USA_ongoing_leadership_play_m_mission: "Ongoing §Yleadership play§!"
+ USA_ongoing_leadership_play_s_mission: "Ongoing §Yleadership play§!"
+ USA_vito_marcantonio_leadership_play: "§KVito Marcantonio§! launches a §Yleadership play§!"
+ USA_elmer_benson_leadership_play: "§KElmer Benson§! launches a §Yleadership play§!"
+ USA_benjamin_spock_leadership_play: "§KBenjamin Spock§! launches a §Yleadership play§!"
+ USA_philip_berrigan_leadership_play: "§KPhilip Berrigan§! launches a §Yleadership play§!"
+ USA_ralph_nader_leadership_play: "§KRalph Nader§! launches a §Yleadership play§!"
+ USA_james_fulbright_leadership_play: "§gJ. William Fulbright§! launches a §Yleadership play§!"
+ USA_marvin_griffin_leadership_play: "§gMarvin Griffin§! launches a §Yleadership play§!"
+ USA_ezra_benson_leadership_play: "§gEzra Taft Benson§! launches a §Yleadership play§!"
+ USA_clay_smothers_leadership_play: "§gClay Smothers§! launches a §Yleadership play§!"
+ USA_james_gray_leadership_play: "§gJames H. Gray§! launches a §Yleadership play§!"
+ USA_samuel_friedman_leadership_play: "§VSamuel Friedman§! launches a §Yleadership play§!"
+ USA_john_gates_leadership_play: "§VJohn Gates§! launches a §Yleadership play§!"
+ USA_herbert_aptheker_leadership_play: "§VHerbert Aptheker§! launches a §Yleadership play§!"
+ USA_kurt_saxon_leadership_play: "§oKurt Saxon§! launches a §Yleadership play§!"
+ USA_frank_collin_leadership_play: "§oFrank Collin§! launches a §Yleadership play§!"
+ USA_randy_weaver_leadership_play: "§oRandy Weaver§! launches a §Yleadership play§!"
+ USA_NPP_vito_marcantonio_name: "Vito Marcantonio"
+ USA_NPP_elmer_benson_name: "Elmer Benson"
+ USA_NPP_benjamin_spock_name: "Benjamin Spock"
+ USA_NPP_philip_berrigan_name: "Philip Berrigan"
+ USA_NPP_ralph_nader_name: "Ralph Nader"
+ USA_NPP_james_fulbright_name: "J. William Fulbright"
+ USA_NPP_marvin_griffin_name: "Marvin Griffin"
+ USA_NPP_ezra_benson_name: "Ezra Taft Benson"
+ USA_NPP_clay_smothers_name: "Clay Smothers"
+ USA_NPP_james_gray_name: "James H. Gray"
+ USA_NPP_samuel_friedman_name: "Samuel Friedman"
+ USA_NPP_john_gates_name: "John Gates"
+ USA_NPP_herbert_aptheker_name: "Herbert Aptheker"
+ USA_NPP_kurt_saxon_name: "Kurt Saxon"
+ USA_NPP_frank_colin_name: "Frank Collin"
+ USA_NPP_rany_weaver_name: "Randy Weaver"
+ USA_NPP_point_the_finger_for_caucus_failures: "Blame Caucus Failures"
+ USA_NPP_self_promotional_media_appearences: "Self-Promotional Media Appearances"
+ USA_NPP_sponsor_scathing_op_ed: "Sponsor Scathing Op-Ed"
+ USA_NPP_court_npp_senators: "Lobby NPP Senators for Support"
+ USA_maintain_social_spending: "Maintain Social Spending"
+ USA_keep_inflation_in_check: "Keep Inflation in Check"
+ USA_continue_action_against_poverty: "Continue War on Poverty"
+ USA_stand_united_against_tyranny: "Stand United Against Tyranny"
+ USA_ensure_military_readiness: "Ensure Military Readiness"
+ USA_champion_american_victories: "Champion American Victories"
+ USA_stand_against_imperialism: "Stand Against American Imperialism"
+ USA_strengthen_social_programs: "Strengthen Social Programs"
+ USA_launch_a_national_crackdown_on_crime: "Launch National Crackdown on Crime"
+ USA_affirm_states_rights: "Affirm States' Rights"
+ USA_vito_marcantonio_leadership_play_desc: "\n§YVito Marcantonio:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Unknown$\n$USA_NPP_Leader_Region_Northeast$ supports them especially§!"
+ USA_elmer_benson_leadership_play_desc: "\n§YElmer Benson:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_Midwest$ supports them especially§!"
+ USA_benjamin_spock_leadership_play_desc: "\n§YBenjamin Spock:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Adored$\n$USA_NPP_Leader_Region_A_Bit_Everywhere$ supports them especially§!"
+ USA_philip_berrigan_leadership_play_desc: "\n§YPhilip Berrigan:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Disliked$\n$USA_NPP_Leader_Region_no_where$ supports them especially§!"
+ USA_ralph_nader_leadership_play_desc: "\n§YRalph Nader:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Unknown$\n$USA_NPP_Leader_Region_Northeast$ supports them especially§!"
+ USA_james_fulbright_leadership_play_desc: "\n§YJ. William Fulbright:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Adored$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_marvin_griffin_leadership_play_desc: "\n§YMarvin Griffin:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_ezra_benson_leadership_play_desc: "\n§YEzra Taft Benson:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Adored$\n$USA_NPP_Leader_Region_A_Bit_Everywhere$ supports them especially§!"
+ USA_clay_smothers_leadership_play_desc: "\n§YClay Smothers:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_james_gray_leadership_play_desc: "\n§YJames H. Gray:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_samuel_friedman_leadership_play_desc: "\n§YSamuel Friedman:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Unknown$\n$USA_NPP_Leader_Region_Midwest$ supports them especially§!"
+ USA_john_gates_leadership_play_desc: "\n§YJohn Gates:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_A_Bit_Everywhere$ supports them especially§!"
+ USA_herbert_aptheker_leadership_play_desc: "\n§YHerbert Aptheker:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Disliked$\n$USA_NPP_Leader_Region_no_where$ supports them especially§!"
+ USA_kurt_saxon_leadership_play_desc: "\n§YKurt Saxon:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_frank_collin_leadership_play_desc: "\n§YFrank Collin:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Mediocre$\n$USA_NPP_Leader_Region_Midwest$ supports them especially§!"
+ USA_randy_weaver_leadership_play_desc: "\n§YRandy Weaver:§!\n§WAmericans§!§F view them $USA_NPP_Leader_Trait_Disliked$\n$USA_NPP_Leader_Region_South$ supports them especially§!"
+ USA_increase_NPP_P_leadership_approval_tt: "§F£GFX_npp_p_texticon §KProgressive Caucus§! §Wleadership approval§! will §Gincrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_decrease_NPP_P_leadership_approval_tt: "§F£GFX_npp_p_texticon §KProgressive Caucus§! §Wleadership approval§! will §Rdecrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_increase_NPP_N_leadership_approval_tt: "§F£GFX_npp_n_texticon §gNationalist Caucus§! §Wleadership approval§! will §Gincrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_decrease_NPP_N_leadership_approval_tt: "§F£GFX_npp_n_texticon §gNationalist Caucus§! §Wleadership approval§! will §Rdecrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_increase_NPP_M_leadership_approval_tt: "§F£GFX_npp_m_texticon §VMarxist Caucus§! §Wleadership approval§! will §Gincrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_decrease_NPP_M_leadership_approval_tt: "§F£GFX_npp_m_texticon §VMarxist Caucus§! §Wleadership approval§! will §Rdecrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_increase_NPP_S_leadership_approval_tt: "§F£GFX_npp_s_texticon §oSovereigntist Caucus§! §Wleadership approval§! will §Gincrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_decrease_NPP_S_leadership_approval_tt: "§F£GFX_npp_s_texticon §oSovereigntist Caucus§! §Wleadership approval§! will §Rdecrease§! by [?tempApproval_tt|Y0%]§!."
+ USA_RDC_Explanation_Null: ""
+ USA_increase_hardline_r_coalition_support_tt: "£GFX_rd_d_texticon §Hardline RepublicanR§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by [?tempSupport_tt|0Y%]"
+ USA_decrease_hardline_r_coalition_support_tt: "£GFX_rd_d_texticon §Hardline RepublicanR§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by [?tempSupport_tt|0Y%]"
+ USA_increase_responsible_r_coalition_support_tt: "£GFX_rd_d_texticon §Responsible RepublicanY§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by [?tempSupport_tt|0Y%]"
+ USA_decrease_responsible_r_coalition_support_tt: "£GFX_rd_d_texticon §Responsible RepublicanY§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by [?tempSupport_tt|0Y%]"
+ USA_increase_labor_d_coalition_support_tt: "£GFX_rd_d_texticon §Labor DemocratB§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by [?tempSupport_tt|0Y%]"
+ USA_decrease_labor_d_coalition_support_tt: "£GFX_rd_d_texticon §Labor DemocratB§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by [?tempSupport_tt|0Y%]"
+ USA_increase_dixiecrat_coalition_support_tt: "£GFX_rd_d_texticon §Dixiecratg§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by [?tempSupport_tt|0Y%]"
+ USA_decrease_dixiecrat_coalition_support_tt: "£GFX_rd_d_texticon §Dixiecratg§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by [?tempSupport_tt|0Y%]"
+ HR_approval_add_5_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §Y5§!.\n"
+ HR_approval_add_10_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G10§!.\n"
+ HR_approval_add_15_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G15§!.\n"
+ HR_approval_down_5_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §Y5§!.\n"
+ HR_approval_down_10_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R10§!.\n"
+ HR_approval_down_15_change: "£GFX_rd_r_texticon §RHardline Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R15§!.\n"
+ RR_approval_add_5_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §Y5§!.\n"
+ RR_approval_add_10_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G10§!.\n"
+ RR_approval_add_15_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G15§!.\n"
+ RR_approval_down_5_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §Y5§!.\n"
+ RR_approval_down_10_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R10§!.\n"
+ RR_approval_down_15_change: "£GFX_rd_r_texticon §YResponsible Republican§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R15§!.\n"
+ LD_approval_add_5_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §Y5§!.\n"
+ LD_approval_add_10_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G10§!.\n"
+ LD_approval_add_15_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G15§!.\n"
+ LD_approval_down_5_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §Y5§!.\n"
+ LD_approval_down_10_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R10§!.\n"
+ LD_approval_down_15_change: "£GFX_rd_d_texticon §BLabor Democrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R15§!.\n"
+ DC_approval_add_5_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §Y5§!.\n"
+ DC_approval_add_10_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G10§!.\n"
+ DC_approval_add_15_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Gincrease§! by §G15§!.\n"
+ DC_approval_down_5_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §Y5§!.\n"
+ DC_approval_down_10_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R10§!.\n"
+ DC_approval_down_15_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R15§!.\n"
+ DC_approval_down_30_change: "£GFX_rd_d_texticon §gDixiecrat§! support for the £GFX_rd_texticon §RRepublican§!-§BDemocrat§!§W Coalition§! will §Rdecrease§! by §R30§!.\n"
+ USA_all_voters_header_tt: "§YAll voters:§!\n"
+ USA_black_voters_header_tt: "§YBlack voters:§!\n"
+ USA_black_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_black_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_black_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_black_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_black_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_black_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_black_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_black_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_black_com_shift: "    £GFX_timericon Over the next [?USA_week_change_black_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_black_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_black_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_black_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_black_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_hispanic_voters_header_tt: "§YHispanic voters:§!\n"
+ USA_hispanic_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_hispanic_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_hispanic_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_hispanic_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_hispanic_com_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_hispanic_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_hispanic_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_hispanic_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_hispanic_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_minority_voters_header_tt: "§YMinority voters:§!\n"
+ USA_minority_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_minority_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_minority_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_minority_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_minority_com_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_minority_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_minority_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_minority_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_minority_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_nativists_voters_header_tt: "§YNativist voters:§!\n"
+ USA_nativists_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_nativists_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_nativists_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_nativists_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_nativists_com_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_nativists_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_nativists_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_nativists_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_nativists_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_urban_voters_header_tt: "§YUrban voters:§!\n"
+ USA_urban_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_urban_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_urban_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_urban_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_urban_com_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_urban_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_urban_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_urban_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_urban_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_rural_voters_header_tt: "§YRural voters:§!\n"
+ USA_rural_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_rural_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_rural_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_rural_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_rural_com_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_rural_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_rural_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_rural_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_rural_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_union_voters_header_tt: "§YUnion voters:§!\n"
+ USA_union_rep_shift: "    £GFX_timericon Over the next [?USA_week_change_union_rep|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_r_texticon §RRepublican§!
+"
+ USA_union_dem_shift: "    £GFX_timericon Over the next [?USA_week_change_union_dem|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_d_texticon §BDemocrat§!
+"
+ USA_union_pro_shift: "    £GFX_timericon Over the next [?USA_week_change_union_pro|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_c_texticon §KProgressive Caucus§!
+[GetIfProgsDead]
+"
+ USA_union_nat_shift: "    £GFX_timericon Over the next [?USA_week_change_union_nat|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_fr_texticon §gNationalist Caucus§!
+[GetIfNatsDead]
+"
+ USA_union_com_shift: "    £GFX_timericon Over the next [?USA_week_change_union_com|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_l_texticon §VMarxist Caucus§!
+"
+ USA_union_anv_shift: "    £GFX_timericon Over the next [?USA_week_change_union_anv|Y0]§Y weeks§!\n        §Wthey will§! §Glean toward supporting§! £GFX_npp_y_texticon §jSovereigntist Caucus§!
+"
+ USA_union_turnout_boost: "    §WWill§! §Gincrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_union_turnout_fall: "    §WWill§! §Rdecrease§! §Wthis group's§! §Gturnout§! in the next election cycle."
+ USA_dead_progs: "    £GFX_npp_c_texticon §KProgressive Caucus§! has §xcollapsed§!, which only strengthens the £GFX_npp_l_texticon §VMarxist Caucus§!\n"
+ USA_dead_nats: "    £GFX_npp_fr_texticon §gNationalist Caucus§! has §xcollapsed§!, which only strengthens the £GFX_npp_y_texticon §jSovereigntist Caucus§!\n"
+ USA_bonus_tooltip: "       £GFX_increase_texticon Faction support for the coalition changes §Gimmediately§!\n"
+ USA_black_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_black_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_black_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_black_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_black_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_black_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_black_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_black_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_black_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_black_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_black_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_black_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_black_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_black_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_black_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_black_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_hispanic_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_hispanic_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_hispanic_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_hispanic_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_hispanic_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_hispanic_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_hispanic_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_hispanic_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_hispanic_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_hispanic_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_hispanic_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_hispanic_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_hispanic_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_hispanic_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_hispanic_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_hispanic_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_minority_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_minority_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_minority_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_minority_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_minority_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_minority_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_minority_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_minority_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_minority_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_minority_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_minority_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_minority_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_minority_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_minority_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_minority_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_minority_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_nativists_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_nativists_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_nativists_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_nativists_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_nativists_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_nativists_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_nativists_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_nativists_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_nativists_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_nativists_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_nativists_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_nativists_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_nativists_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_nativists_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_nativists_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_nativists_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_urban_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_urban_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_urban_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_urban_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_urban_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_urban_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_urban_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_urban_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_urban_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_urban_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_urban_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_urban_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_urban_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_urban_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_urban_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_urban_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_rural_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_rural_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_rural_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_rural_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_rural_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_rural_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_rural_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_rural_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_rural_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_rural_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_rural_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_rural_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_rural_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_rural_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_rural_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_rural_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_union_civil_rights_lib: "    £GFX_timericon Over the next [?USA_week_change_union_civil_rights_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Vcivil rights§! issue
+"
+ USA_union_civil_rights_con: "    £GFX_timericon Over the next [?USA_week_change_union_civil_rights_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Vcivil rights§! issue
+"
+ USA_union_domestic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_union_domestic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §Jdomestic policy§! issue
+"
+ USA_union_domestic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_union_domestic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §Jdomestic policy§! issue
+"
+ USA_union_economic_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_union_economic_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Gleft-leaning on the §leconomic policy§! issue
+"
+ USA_union_economic_policy_con: "    £GFX_timericon Over the next [?USA_week_change_union_economic_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Rright-leaning on the §leconomic policy§! issue
+"
+ USA_union_foreign_policy_lib: "    £GFX_timericon Over the next [?USA_week_change_union_foreign_policy_lib|Y0]§Y weeks§!\n        §Wthey will become§! §Binternationalist on the §wforeign policy§! issue
+"
+ USA_union_foreign_policy_con: "    £GFX_timericon Over the next [?USA_week_change_union_foreign_policy_con|Y0]§Y weeks§!\n        §Wthey will become§! §Oisolationist on the §wforeign policy§! issue
+"
+ USA_RDC_controversy_tt: "§WThis will plunge the§! £GFX_rd_texticon §MRepublican-Democratic Coalition§! §Winto a§! §Rcontroversy§! §Wlasting§! [?temp_USA_controversy_weeks]§W weeks§!, dealing§! [?temp_USA_RDC_controversy|0+%%]§W damage to§! §Ycoalition unity§!"
+ USA_NPP_controversy_tt: "§WThis will plunge the§! £GFX_npp_texticon §ONPP§! §Winto a§! §Rcontroversy§! §Wlasting§! [?temp_USA_controversy_weeks]§W weeks§!, dealing§! [?temp_USA_NPP_controversy|0+%%]§W damage to§! §Ycoalition unity§!"
+ USA_dem_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_bonus_effects]§! §Gshift toward§! £GFX_rd_d_texticon §BDemocrats§!\n"
+ USA_rep_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_bonus_effects]§! §Gshift toward§! £GFX_rd_r_texticon §RRepublicans§!\n"
+ USA_pro_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_bonus_effects]§! §Gshift toward§! £GFX_npp_c_texticon §KProgressive Caucus§!\n"
+ USA_nat_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_bonus_effects]§! §Gshift toward§! £GFX_npp_fr_texticon §gNationalist Caucus§!\n"
+ USA_com_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_extremist_bonus_effects]§! §Gshift toward§! £GFX_npp_l_texticon §VMarxist Caucus§!\n"
+ USA_anv_shift_proxy_conclusion: "    §WWill§! §Gimmediately§! [USA_proxy_conclusion_extremist_bonus_effects]§! §Gshift toward§! £GFX_npp_y_texticon §jSovereigntist Caucus§!\n"
+ USA_proxy_conclusion_slight_bonus: "§gSlightly§!"
+ USA_proxy_conclusion_extremist_slight_bonus: "§gSlightly§!"
+ USA_proxy_conclusion_moderate_bonus: "§MModerately§!"
+ USA_proxy_conclusion_extremist_moderate_bonus: "§MModerately§!"
+ USA_proxy_conclusion_considerable_bonus: "§GMassively§!"
+ USA_proxy_conclusion_extremist_considerable_bonus: "§GMassively§!"
+ us_elections_new.1.t: "Test Election Results"
+ us_elections_new.1.desc: "President\nRDC Electoral Votes: [?RD_electoral_votes]\nRDC Popular Vote: [?USA.RDC_popularvote]\n\n-\n\nNPP Electoral Votes: [?NPP_electoral_vostes]\nNPP Popular Vote: [?USA.NPP_popularvote]\n\n--\n\nRDC Senate Seats: [?RDC_senate_Ws]\nNPP Senate Seats: [?NPP_senate_Ws]"
+ USA_NPP_N_Fulbright_Name: "J. William Fulbright"
+ USA_NPP_N_Griffin_Name: "Marvin Griffin"
+ USA_NPP_N_Benson_Name: "Ezra Taft Benson"
+ USA_NPP_N_Smothers_Name: "Clay Smothers"
+ USA_NPP_N_Gray_Name: "James H. Gray Sr."

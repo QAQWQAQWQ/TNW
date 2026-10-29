@@ -1,0 +1,24 @@
+﻿l_english:
+ RPY: "Red Poppy Movement"
+ RPY_DEF: "Red Poppy Movement"
+ RPY_ADJ: "Red Poppy"
+ RPY_ultranationalism: "Crimson Poppy"
+ RPY_ultranationalism_DEF: "Crimson Poppy"
+ RPY_ultranationalism_ADJ: "Crimson Poppy"
+ RPY_liberalism_party:0 "Red Poppy Movement - Liberals"
+ RPY_liberalism_party_long:0 "Red Poppy Movement - Liberals"
+ RPY_progressivism_party:0 "Red Poppy Movement"
+ RPY_progressivism_party_long:0 "Red Poppy Movement"
+ RPY_socialist_party:0 "Red Poppy Movement"
+ RPY_socialist_democrat_long:0 "Red Poppy Movement"
+ RPY_communist_party:0 "Red Poppy Movement - Communist Partisans"
+ RPY_communist_party_long:0 "Red Poppy Movement - Communist Partisans"
+ POLITICS_HENRI_GROUES_DESC:0 "He observed, waited, and prayed for decades. In the cellars beneath ruined churches; in the sewers of Paris; in the dark corners where no camera could see, the Red Poppy Movement followed in his footsteps. Some prayed to God, some to Yahweh, and others to whatever they thought might be listening.
+
+Finally, their prayers were answered.
+
+After more than thirty years of cruel totalitarian oppression, the iron yoke of the Ordensstaat snapped in two, corroded by corruption, paranoia, and arrogance. And a whole generation of French men and women who had grown up in the darkness had been waiting for this moment. Their muscles and spirits were ready to strike the final blow, straight into the black heart of Burgundy. Grouès would care for them all — regardless of their faith or ideals, he would nurture the potential within them and prepare to rescue France from the evil web. He grieved for the bloodbath to come, for thousands of brothers and sisters would die for their cause, but freedom would be the balm that healed all wounds — whether of the body or the soul. If everyone who fought under the red banner were to perish, that too would be a kind of redemption. Either way, their suffering would come to an end."
+ RPY_Henri_Groues:0 "Henri Grouès"
+ RPY_national_socialism: "Red Poppy SS State"
+ RPY_national_socialism_DEF: "Red Poppy SS State"
+ RPY_national_socialism_ADJ: "Red Poppy"

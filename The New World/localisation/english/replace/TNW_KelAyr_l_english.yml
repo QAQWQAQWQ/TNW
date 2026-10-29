@@ -1,0 +1,37 @@
+﻿l_english:
+ AYR_communist_party: "-"
+ AYR_communist_party_long: "-"
+ AYR_socialist_party: "-"
+ AYR_socialist_party_long: "-"
+ AYR_progressivism_party: "-"
+ AYR_progressivism_party_long: "-"
+ AYR_liberalism_party: "-"
+ AYR_liberalism_party_long: "-"
+ AYR_conservatism_party: "Agadez Democratic Rally"
+ AYR_conservatism_party_long: "Agadez Democratic Rally (Rassemblement Démocratique d'Agadez)"
+ AYR_paternalism_party: "Royal Guards of the Amghar Council"
+ AYR_paternalism_party_long: "Royal Guards of the Amghar Council"
+ AYR_despotism_party: "House of Umaru"
+ AYR_despotism_party_long: "House of Umaru"
+ AYR_fascism_party: "Various Kanemi Warlords"
+ AYR_fascism_party_long: "Various Kanemi Warlords"
+ AYR_national_socialism_party: "-"
+ AYR_national_socialism_party_long: "-"
+ AYR_ultranationalism_party: "-"
+ AYR_ultranationalism_party_long: "-"
+ AYR_idea_sahelian_nomads: "Sahelian Nomads"
+ AYR_idea_sahelian_nomads_desc: "The Sahel is a barren, arid land — an endless desert to the north, rolling savanna to the south, and the Aïr Mountains at its heart. This rugged, dry region is harsh, and only the hardiest life can survive here. The nomadic tribes of the region thrive here, having mastered the art of survival in this barren land."
+ AYR_idea_tuareg_heritage: "Tuareg Heritage"
+ AYR_idea_tuareg_heritage_desc: "The Sultanate of Aïr is less a state than a tribal confederation — a confederation of Tuareg tribes perched in the southwestern Sahara. This is not the result of decentralized governance, for there is no central government at all. The tribes wander the desert as they have for centuries. Without major reforms and centralization, Aïr will forever be seen as just another small, temporarily unclaimed state in West Africa."
+ AYR_Ibrahim_ibn_Umaru: "Ibrahim ibn Umaru"
+ AYR_Ibrahim_ibn_Umaru_hog_desc: "§YHead of Government
+Despotism§!"
+ POLITICS_IBRAHIM_IBN_UMARU_DESC: "To outsiders, the Sahara surrounding the Aïr Plateau is nothing but a desolate wasteland. But to the Tuareg, who dare cross the sea of sand with nothing but a camel and a cloak, this scorched earth is not merely a refuge — it is a bountiful home and a fortress against enemies. Sultan Ibrahim ibn Umaru knows this well, and it is the secret of how he and his people have survived to this day.
+
+By the grace of Allah and his Prophet Muhammad, he has declared the restoration of the Sultanate of Aïr, and swiftly reclaimed dominion over the Aïr region.
+
+This realm is a mirror of its monarch: both a sanctuary for Islamic tradition and a bulwark against all foreign threats — whether from European colonizers or African progressives. Outsiders may decry his "oppression" and "fascism," but the Tuareg know that without the Sultan's guidance, they face not only the loss of freedom but the abyss of anarchy. The order and peace that now prevail on the Aïr Plateau are entirely thanks to the Sultan and the double shield of the Sahara, which keeps all outside troubles beyond the sand."
+ AYR_Incha_El_Moctar: "Incha el Moctar"
+ AYR: "Aïr"
+ AYR_DEF: "Sultanate of Aïr"
+ AYR_ADJ: "Agadez"

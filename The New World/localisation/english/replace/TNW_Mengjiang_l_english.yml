@@ -1,0 +1,39 @@
+﻿l_english:
+ ### Country Names ###
+ MEN_CHI:0 "Mongol Autonomous Government"
+ MEN_CHI_DEF:0 "Mongol Autonomous Government"
+ MEN_CHI_ADJ:0 "Mengjiang"
+ MEN_despotism_CHI:0 "Mongol Autonomous Government"
+ MEN_CHI_despotism_DEF:0 "Mongol Autonomous Government"
+ MEN_CHI_despotism_ADJ:0 "Mengjiang"
+ MEN_despotism_party:0 "Mengjiang Autonomous Committee"
+ MEN_Unenbagatur:0 "Unenbagatur"
+ MEN_Jagchid_Sechen:0 "Jagchid Sechen"
+ 
+ POLITICS_DEMCHUGDONGRUB_DESC: "What should the world call Prince Demchugdongrub? A hero of the Mongols? A traitor to the Chinese nation? Born in 1902 in the Right Wing of the Sunid Banner, Demchugdongrub was the 31st-generation descendant of the Golden Family, the only son of Prince Namjil Wangchug. Six years later, with the approval of the Aisin-Gioro imperial family, Demchugdongrub inherited his father's prince title, and was imbued with the essence of Chinese culture. Of all the historical figures of ancient and modern times, the one Demchugdongrub admired most was his own ancestor — Genghis Khan. From then on, he spent his entire life pursuing Genghis Khan's legacy.\n\nIn 1931, Demchugdongrub succeeded as head of the Xilin Gol League. On the vast Mongolian grasslands, it seemed the world had changed: the Great Qing Empire had fallen, replaced by the Republic of China with the Beiyang government as its central authority, yet Outer Mongolia had been lost through Russian scheming. In this turbulent age, Demchugdongrub decided to take a gamble. The subsequent Mukden Incident allowed him to exploit Nanjing's fears to launch a Pan-Mongolian autonomy movement. Negotiations ultimately broke down due to the Han chauvinism of Chiang Kai-shek and his followers. The strong desire for an independent Mongolian nation drove Demchugdongrub to take the final step — seeking help from the Kwantung Army, even though he was well aware of the knife hidden behind their smiles.\n\nYears of fighting partially realized Demchugdongrub's dream. Nine years after the Greater East Asia War, the Mongol Autonomous Government had eliminated Soviet puppet forces and recovered lost territory following the Siberian intervention. Despite his great achievements, Mongolia was still not unified, let alone independent. De jure, Mengjiang remained a vassal of Wang Jingwei and his lackeys; de facto, Mengjiang was merely a fief of the Kwantung Army. Eastern Mongolian lands were still controlled by Manchukuo, and resistance in Outer Mongolia kept the prince up at night.\n\nSome despise him as a traitor who dishonored Genghis Khan's soul, while others criticize him as a parvenu vassal with delusions of grandeur. To these evaluations, Demchugdongrub could not help but feel some sympathy. But he absolutely refused to follow in the footsteps of his former suzerain Puyi, content to be a Japanese puppet. After the Nanjing government announced its modernization plan, Demchugdongrub warily sensed that the storm of revolution was about to return to Greater East Asia. Perhaps now was his final chance to prove he was worthy of being a descendant of Genghis Khan, the last opportunity to liberate Mongolia from its oppressors."
+ MEN_Li_Shouxin_hog_desc: "§YVice Chairman
+Warlord§!
+--------------
+"
+ MEN_Unenbayan_for_desc: "§YPresident of the Executive Yuan
+Aristocratic Conservatism§!
+--------------
+"
+ MEN_Degulai_eco_desc: "§YMinister of Finance
+Aristocratic Conservatism§!
+--------------
+"
+ MEN_Tao_Ketao_sec_desc: "§YMinister of Justice
+Aristocratic Conservatism§!
+--------------
+"
+ MEN_Dugursulong: "Dugursulong"
+ MEN_fascism_party: "Mongolian Youth Revolutionary Party"
+ MEN_paternalism_party: "Inner Mongolian People's Revolutionary Party - "Khalkha Faction""
+ MEN_socialist_party: "Inner Mongolian People's Revolutionary Party - "Daur Faction""
+ MEN_communist_party: "Inner Mongolian Autonomous Movement Federation"
+ MEN_Demchugdongrub: "Demchugdongrub"
+ MEN_Tao_Ketao: "Tao Keta"
+ MEN_Degulai: "Degulai"
+ MEN_Unenbayan: "Wu Heling"
+ MEN_despotism_party_long: "Mengjiang Reconstruction Committee (Mongolyn Nokhon Sergeekn Khoroo)"

@@ -1,0 +1,42 @@
+﻿l_english:
+ ZAR: "Zarmaganda"
+ ZAR_DEF: "Zarma Republic"
+ ZAR_ADJ: "Zarma"
+ ZAR_communist_party: "-"
+ ZAR_communist_party_long: "-"
+ ZAR_socialist_party: "-"
+ ZAR_socialist_party_long: "-"
+ ZAR_progressivism_party: "-"
+ ZAR_progressivism_party_long: "-"
+ ZAR_liberalism_party: "Ovamboland People's Congress"
+ ZAR_liberalism_party_long: "-"
+ ZAR_conservatism_party: "-"
+ ZAR_conservatism_party_long: "-"
+ ZAR_paternalism_party: "Supreme Military Council - Pragmatics"
+ ZAR_paternalism_party_long: "Supreme Military Council - Pragmatics"
+ ZAR_despotism_party: "Zarmaganda Liberation Army"
+ ZAR_despotism_party_long: "Zarmaganda Liberation Army (Armée de Libération du Zarmaganda)"
+ ZAR_fascism_party: "Zarmaganda Liberation Army"
+ ZAR_fascism_party_long: "Zarmaganda Liberation Army (Armée de Libération du Zarmaganda)"
+ ZAR_national_socialism_party: "-"
+ ZAR_national_socialism_party_long: "-"
+ ZAR_ultranationalism_party: "Supreme Military Council - Fundamentalists"
+ ZAR_ultranationalism_party_long: "Supreme Military Council - Fundamentalists"
+ ZAR_Seyni_Kountche: "Seyni Kountché"
+ ZAR_Ali_Saibou: "Ali Saibou"
+ ZAR_Moumouni_Adamou_Djermakoye: "Moumouni Adamou Djermakoye"
+ POLITICS_SEYNI_KOUNTCHE_DESC: "The Zarma people were once just people surviving under the boots of the French, their nobles doing everything they could to survive their advance, making deals and avoiding trouble. But now, they are led by a man with the will and the path to lead the Zarma people to freedom. Seyni Kountché is that man — a man with historical ties to the Zarma people, who will bring strength to the people of Zarmaganda to face those who would make an enemy of the Zarma, like Issa Kollombé and his struggle against the Fulani. However, this is nothing but a facade. Seyni Kountché is simply a man who was in the right place at the right time. As the heir of the Zarma chief of Tondikandia, the hierarchical Zarma society has always held Kountché and his family in high regard, and this young man entered the French army's West African branch early on for training. After the continent fell, he slowly rose through the ranks of the Free French army.
+
+As Free France slowly retreated, Kountché realized that the Zarma people had no leader, and that this was a good opportunity to seize power. He quickly seized the opportunity, using his noble status to stir up the Zarma people under his command, carving out a territory in West Africa to call his own. Although this land happened to be within the borders of the Sokoto Sultanate, what could they do about it? Hell was raining from the sky, and there was no way to stop him from taking this land for himself. However, one day, the bombing stopped. The Sokoto people were weak, and more importantly, many of their soldiers were Zarma. With a few speeches, allies flocked to his side. A few months after the bombing stopped, Kountché declared Zarmaganda's independence from Sokoto. But Kountché's control seems to be coming to an end. The people hate him, and his deputy hates him even more. It seems that to remain in power, Kountché will need to make some difficult choices…"
+ ZAR_Seyni_Kountche_hog_desc: "§YHead of Government
+Warlord§!"
+ ZAR_Seyni_Kountche_for_desc: "§YMinister of Foreign Affairs
+Warlord§!"
+ ZAR_Seyni_Kountche_eco_desc: "§YMinister of Economy
+Warlord§!"
+ ZAR_Ali_Saibou_sec_desc: "§YMinister of Security
+Warlord§!"
+ ZAR_idea_warlord_state: "Warlord State"
+ ZAR_idea_warlord_state_desc: "The term "warlord state" has become ubiquitous. It is a simple label used to describe countless small nations, often masking more complex situations. In Zarmaganda, this is not the case. Seyni Kountché and his army have formed the entire Zarmaganda government, and Zarmaganda's territory consists only of the land they occupy. For many, Kountché's enormous success in the struggle against Sokoto is a miracle, and few thought Zarmaganda would last longer than his rule."
+ ZAR_idea_deficient_administration: "Deficient Administration"
+ ZAR_idea_deficient_administration_desc: "Simply put, the Zarmaganda government does not exist. Kountché's army exercises brutal control over the country, suppressing all signs of unrest and stealing whatever they want under the guise of taxation. With local officials hesitant to join such a violent and unstable government, and Kountché distrusting everyone except a few of his closest officials, Zarmaganda's government seems doomed to be small and inefficient."

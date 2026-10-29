@@ -1,0 +1,1150 @@
+﻿l_english:
+ GER_Bormann_category: "Kartenhaus"
+ GER_Bormann_category_desc: "The political system of the Third Reich is a tangled mess - a legacy of Hitler's rule, constantly pitting factions and individuals against one another to shore up his own position. Anyone with even a sliver of power believes they alone know what Germany needs most. As a result, the various social groups and interest groups within Germany can never rely on or support one another, and instead must all rally around the Führer. To reunify a divided nation, the Führer must show his favor - or disfavor - to every dissenting group, bringing them back to heel. Should the Führer fail, Germany will surely lapse into stagnation, decline, and eventual collapse. Only an iron will, ruthless intrigue, and deft maneuvering can save National Socialism."
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ BOR_InfluenceOverview: "[BOR_GetControlDivider_20]§g|§![BOR_GetControlHeader]§g|§![BOR_GetControlDivider_20]
+[BOR_GetControlDivider_20]§g|§![BOR_GetControlNumDisplay]§g|§![BOR_GetControlDivider_20]
+
+[BOR_GetReformistHeader]§g|§![BOR_GetStateHeader]§g|§![BOR_GetMilitaristHeader]
+[BOR_GetReformistPower]§g|§![BOR_GetStatePower]§g|§![BOR_GetMilitaristPower]
+[BOR_GetReformistSupport]§g|§![BOR_GetStateSupport]§g|§![BOR_GetMilitaristSupport]"
+ GER_BOR_dismantle_tooltip: "Placeholder"
+ GER_BOR_Control_tooltip: "Placeholder"
+ GER_BOR_ControlBar_tooltip: "§WAllied faction control ratio:§!§Y[?BOR_AlliedControlPerc|0]%§!"
+ GER_BOR_ControlBar_tooltip_delayed: "Allied faction power [?BOR_AlliedControl|Y0]
+Total power [?BOR_TotalControl|Y0]"
+ GER_BOR_Faction_Power_tooltip: "Placeholder"
+ BOR_PowerBar_tooltip: "[BOR_ControlBar_GetReformistStatus]§YConservatives§!
+Power: [?BOR_StatePower|Y0]
+Share of total power: [?BOR_ConservativePowerPerc|Y1]%[BOR_ControlBar_GetMilitaristStatus]"
+ BOR_PowerBar_tooltip_Reformists: "§GReformists§!
+Power: [?BOR_ReformistPower|Y0]
+Share of total power: [?BOR_ReformistPowerPerc|Y1]%
+
+"
+ BOR_PowerBar_tooltip_Militarists: "
+
+§RMilitarists§!
+Power: [?BOR_MilitaristPower|Y0]
+Share of total power: [?BOR_MilitaristPowerPerc|Y1]%"
+ BOR_PowerBar_tooltip_Dismantled: "§e==Dismantled==§!"
+ BOR_SIGLoyalty_Divider: "§YLoyalty§!"
+ BOR_ControlHeader: "Control:"
+ BOR_ControlNumDisplay: "[?BOR_AlliedControl|Y0]/[?BOR_TotalControl|Y0] (§Y[?BOR_AlliedControlPerc|0]%§!)"
+ BOR_ControlNumDisplay_4_4_2: "[?BOR_AlliedControl|Y0]/[?BOR_TotalControl|Y0] (§Y[?BOR_AlliedControlPerc|0]%§!)"
+ BOR_SIG_debug_enable: "(Right-click to enable debug buttons)"
+ BOR_LogList_dbg_setup: "§YDebug: Demo interaction history example§!
+§YLeft-click§!: Show example
+§YRight-click§!: Clear example"
+ BOR_LogList_dbg_add_remove: "§YDebug: Add/remove history§!
+§YLeft-click§!: Add an entry
+§YRight-click§!: Remove an entry"
+ BOR_LogList_dbg_add_interaction: "§YDebug: Add interaction count§!"
+ BOR_LogList_dbg_reformist_support: "§YDebug: Adjust reformist support§!
+§YLeft-click§!: Reformist support +1
+§YRight-click§!: Reformist support -1"
+ BOR_LogList_dbg_conservative_support: "§YDebug: Adjust conservative support§!
+§YLeft-click§!: Conservative support +1
+§YRight-click§!: Conservative support -1"
+ BOR_LogList_dbg_militarist_support: "§YDebug: Adjust militarist support§!
+§YLeft-click§!: Militarist support +1
+§YRight-click§!: Militarist support -1"
+ BOR_LogList_dbg_kill_the_church: "§YDebug: Dismantle the Church§!
+§YLeft-click§!: Dismantle the Church
+§YRight-click§!: Restore the Church"
+ BOR_LogList_dbg_AI_test: "§YDebug - Weekly AI flag§!"
+ BOR_SIG_Log1_loc: "[BOR_SIG_Log_GetActor]: [BOR_GetSIGName]"
+ BOR_SIG_Log2_loc: "[BOR_SIG_Log_GetInteractionType]: [?BOR_SIG_Log_BeforeValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] -> [?BOR_SIG_Log_AfterValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] ([?BOR_SIG_Log_ValueChange^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0+=])"
+ BOR_SIG_Log3_loc: "[BOR_SIG_Log_GetInteractionType] ([BOR_SIG_Log_GetInteractionTarget]): [?BOR_SIG_Log_BeforeValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] -> [?BOR_SIG_Log_AfterValue^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0] ([?BOR_SIG_Log_ValueChange^TNO_BOR_SIG_GUI_Logs_Gridbox_i|Y0+=])"
+ BOR_SIG_AddPower_loc: "Power added"
+ BOR_SIG_SubPower_loc: "Power removed"
+ BOR_SIG_AddLoyalty_loc: "Loyalty added"
+ BOR_SIG_SubLoyalty_loc: "Loyalty removed"
+ Kartenhaus_Log_ID_text: "[?TNO_BOR_SIG_GUI_Logs_Gridbox_i]"
+ Kartenhaus_LogBox_Title_tt: "Interaction Log"
+ Kartenhaus_CountBox_Title_tt: "Interaction Count"
+ BOR_SIG_Log_ReformistName: "§GReformists§!"
+ BOR_SIG_Log_ConservativeName: "§LConservatives§!"
+ BOR_SIG_Log_MilitaristName: "§RMilitarists§!"
+ BOR_ReformistHeader: "§GReformists§!"
+ BOR_ReformistPower_Dismantled: "Power: §e---§!"
+ BOR_StateHeader: "§LConservatives§!"
+ BOR_MilitaristHeader: "§RMilitarists§!"
+ BOR_MilitaristPower_Dismantled: "Power: §e---§!"
+ BOR_EventHeader: "§WEvents§!"
+ BOR_Minus: "§b-§!"
+ BOR_Plus: "§b+§!"
+ BOR_Question: "§b?§!"
+ Kartenhaus_Title_text: "Kartenhaus"
+ BOR_SIGType_Dismantled: "§eDismantled§!"
+ BOR_SIGType_Immutable: "§gImmutable§!"
+ BOR_SIGType_Allied: "§GAllied§!"
+ BOR_SIGType_Supportive: "§MSupportive§!"
+ BOR_SIGType_Opposition: "§ROpposition§!"
+ BOR_SIGLoyalty_Faction_Ref: "§GReformists§!"
+ BOR_SIGLoyalty_Faction_State: "§LConservatives§!"
+ BOR_SIGLoyalty_Faction_Mil: "§RMilitarists§!"
+ BOR_SIGLoyalty_Value_Ref: "§Y[?BOR_SIGLoyalty_Ref^Kartenhaus_SIGGridBox_i|0]%§!"
+ BOR_SIGLoyalty_Value_State: "§Y[?BOR_SIGLoyalty_State^Kartenhaus_SIGGridBox_i|0]%§!"
+ BOR_SIGLoyalty_Value_Mil: "§Y[?BOR_SIGLoyalty_Mil^Kartenhaus_SIGGridBox_i|0]%§!"
+ BOR_SIGLoyalty_Disp_Top_Faction: "[BOR_GetSIGLoyalty_Top_Faction]"
+ BOR_SIGLoyalty_Disp_Top_Value: "[BOR_GetSIGLoyalty_Top_Value]"
+ BOR_SIGLoyalty_Disp_Mid_Faction: "[BOR_GetSIGLoyalty_Mid_Faction]"
+ BOR_SIGLoyalty_Disp_Mid_Value: "[BOR_GetSIGLoyalty_Mid_Value]"
+ BOR_SIGLoyalty_Disp_Bot_Faction: "[BOR_GetSIGLoyalty_Bot_Faction]"
+ BOR_SIGLoyalty_Disp_Bot_Value: "[BOR_GetSIGLoyalty_Bot_Value]"
+ BOR_SIGLoyalty_Dismantled: "§Y---§!"
+ BOR_SIGName_0: "Party Bureaucracy"
+ BOR_SIGName_Formatted_0: "Party Bureaucracy"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_0_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The §YParty Bureaucracy§! are pen-pushers, office drones, and career politicians dedicated to maintaining the Reich's Byzantine system and keeping it running. The §YBureaucracy§!, composed of Germany's major decision-making bodies, has historically been influenced by former Reich Director of the Nazi Party Chancellery and current Führer Martin Bormann and his §LConservative§! allies. However, with the outbreak of the civil war and subsequent efforts at reunification for stability, this influence is eroding. The situation grows more troublesome by the day, and the §LConservatives§! must act quickly to ensure their control over the bureaucratic leviathan."
+ BOR_SIGName_1: "The People"
+ BOR_SIGName_Formatted_1: "The People"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_1_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+For over a decade, Germany's hundred million citizens have lived through upheaval and division. Once, the glory of conquest instilled in them a fierce patriotism, and the endless stream of plunder, imports, and raw materials from the occupied territories gave them the world's highest standard of living. Now, the people cry out to their Führer: some for bread, some for lead; some for peace, some for war; some for survival, some for death. It is the people who carry the ark of National Socialism, and it is the people alone who can sink the Reich in an instant."
+ BOR_SIGName_2: "The Intelligentsia"
+ BOR_SIGName_Formatted_2: "The Intelligentsia"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_2_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The Reich's intellectuals have long been officially shunned as a potential hotbed of liberalism, Marxism, and Jewish sympathy. They have been out of the public eye for over thirty years now. The talent lost after the Nazis' rise was never adequately replaced, but enough schools and universities remain to carry on the German intellectual tradition. In public, they still cause problems: Speerism and the student movement have clear ties to the intelligentsia. From the Party's perspective, they are mostly irrelevant to our grand plans, but their influence on the younger generation cannot be ignored."
+ BOR_SIGName_3: "The Church"
+ BOR_SIGName_Formatted_3: "The Church"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_3_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+Germany's religious institutions have long been suppressed (violently or otherwise), a perennial threat at the Führer's bedside. After Hitler took power, they were often used as a convenient tool, directed by the Party; but once Hitler had established absolute control over Germany, they were quickly reined in and lost their influence. On paper, the Reichskonkordat witnessed a reconciliation between the Catholic Church and the Nazi Party, but privately the Church continued to oppose National Socialist racial policy and antisemitism, even harboring Jews and dissidents. As a result, the Church was brutally suppressed by the SS under Heydrich. The Church rarely involves itself in politics now, but it can still contest the hearts and minds of the German people with the Nazi Party - and should the fragile bond between them break, the Church would surely pose a serious threat to the National Socialist vision."
+ BOR_SIGName_4: "The Heer"
+ BOR_SIGName_Formatted_4: "The Heer"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_4_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The Heer is the Führer's strong right arm; it was the Heer that broke the enemy's back and delivered final victory to the Third Reich. Many veterans of the long, bloody Second World War still serve in its ranks, grey-haired and scarred though they may be, they are hardened fighters. Though the Heer is politically dominated by a hardline militarist clique under Ferdinand Schörner, its overall leanings are not monolithic. During the civil war, many soldiers fought for Speer, Speidel, or Bormann. However much their ideals differ, the factions within the Heer agree on one thing: it was their sacrifice that built today's Germany, and they must be respected. Failing to pay tribute to the world's largest army could have terrible consequences."
+ BOR_SIGName_5: "The Kriegsmarine"
+ BOR_SIGName_Formatted_5: "The Kriegsmarine"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_5_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The Kriegsmarine is often forgotten by the nation, with only the Führer and his Party expressing gratitude for the Reichsmarine. Without the relentless efforts of the U-boat wolfpacks and the firepower of cruisers and battleships, setting foot on British soil would have been a laughing matter. Today, the Greater German Reich projects power across the entire Atlantic through its navy, providing essential security for its western territories and African commissionariats. Should a German naval striking fleet appear on the eastern horizon, American reconnaissance convoys slink away in disgrace. Without them, the Greater German Reich could not maintain its status as a world power."
+ BOR_SIGName_6: "The Ordnungspolizei"
+ BOR_SIGName_Formatted_6: "The Ordnungspolizei"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_6_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The Ordnungspolizei - abbreviated as Orpo - is Germany's civilian police force, the Nazi Party's favored tool for maintaining street order and keeping unruly citizens in line. The Orpo is no ordinary police force; it is thoroughly politicized and spares no brutality in upholding the Führer's rule. When selecting officers, it values strength and loyalty over policing technique or temperament. Though they have always been compliant, the outbreak of the civil war and years of unrest that followed have greatly shaken the Orpo. With the war came desertions, conscription, and infighting; the ranks have thinned, and the Orpo is no longer the unstoppable behemoth it once was. The Orpo must be rebuilt - if necessary, destroy it first, then rebuild."
+ BOR_SIGName_7: "Reichswerke"
+ BOR_SIGName_Formatted_7: "Reichswerke"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_7_tt: "§YReichswerke§!
+§g--------------------§!
+Central German industry is largely controlled by the Reichswerke (formerly the Reichswerke Hermann Göring), Germany's most important steel and arms conglomerate. Central German industry is closest to Germania, and thus both easily influenced and easily influencing. Central Germany's economy depends heavily on these enterprises; in an ideal world they would provide tens of thousands of jobs for Germania's broad populace. However, Germania has largely become an economic burden, as many jobs that would have gone to the people instead became part of the slave contract system, under which enterprises sign labor contracts with slave populations owned by slaveholders. The executives have little incentive to change the status quo; the heavy civilian casualties of the civil war make exploiting cheap slaves an attractive option for rebuilding their devastated property."
+ BOR_SIGName_8: "IG Farben"
+ BOR_SIGName_Formatted_8: "IG Farben"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_8_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+The biggest players in Rhineland industry are IG Farben, one of the world's largest chemical companies and a great pioneer in synthetic fuel; and Krupp, a historic steel and arms giant that accounted for a significant share of German heavy industry through both world wars. Though the Rhineland has dozens of industrial firms, when it comes to politics, these two are nearly unchallenged. Under Hitler, these giants' industrial output was staggering - or at least it was until the civil war turned the Rhineland into a battlefield. As the Ruhr Valley coalfields come back to life and the wheels of industry turn again, the Führer must tread carefully with the Rhineland industrial giants and their countless slaves; should another upheaval occur, the German economy may never recover."
+ BOR_SIGName_9: "Siemens"
+ BOR_SIGName_Formatted_9: "Siemens"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_9_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+Compared to their northern and western counterparts, southern German industrial firms are less directly tied to the military-industrial complex, but their importance is no less. Companies like Siemens (an innovator in computing and electronic machinery) and Daimler-Benz (a producer of military and civilian vehicles) demand large numbers of skilled workers rather than slaves - though they retain some for the hardest labor. This leaves them in a precarious position: Germany lacks enough skilled workers to satisfy their expansion, but buying slaves and training them to produce precision electronics, engines, and large appliances? Unthinkable! The United States and Japan have raced ahead in this field, and these companies are full of complaints about the Nazi Party's decades-long obsession with heavy industry. The Führer must either make use of them, or..."
+ BOR_SIGName_10: "Slave Plantations"
+ BOR_SIGName_Formatted_10: "Slave Plantations"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_10_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+In the lush fields of Prussia, millions of slaves toil without end for the vast §Yslave plantations§! and the various industries that produce food and textiles for the state. The §Yslave plantations§! were built on the victory of the Second World War and play a special role in the lives of postwar veterans; these §Yplantations§! are usually owned in part or in whole by such veterans, who employ large labor forces to keep the plantations running. Thus the §Yslave plantations§! are undoubtedly tied to the interests of the now-privileged postwar veterans. Largely influenced by the most extreme pro-slavery and expansionist political currents, they are a stronghold of the §RMilitarists§!."
+ BOR_SIGName_11: "The Banks"
+ BOR_SIGName_Formatted_11: "The Banks"
+ BOR_SIGName_Long: "Party Bureaucracy"
+ BOR_SIGName_Formatted_11_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!
+§g--------------------§!
+Banks have been a favorite target of our Party since its earliest days. Though they have never been popular in our country, their existence is essential to the Third Reich's continuation. Though "Jews" and "plutocrats" have long since vanished, times have changed and the people still complain: that the banks are greedy, exploit the people's income, and are responsible for every economic hardship Germany suffers. Ironically, these banks have always maintained close ties with the Nazi Party; it was their nimble fingers that worked one financial miracle after another, enabling Hitler's economic wonder in his early 1930s rule. The banks also manage the vast flood of plunder flowing in from the occupied territories, converting it into liquid assets to fuel the German war machine and keep citizens fed. In theory the banks answer only to the Führer, but their control over the German economy far exceeds the Führer's personal will. Even should the Führer hold a dagger to the banks' throats, cutting would only draw German blood."
+ BOR_SIGPowerDisp: "[?BOR_SIGPower^Kartenhaus_SIGGridBox_i|Y0]"
+ BOR_Kartenhaus_InteractionsCountDisp: "[?BOR_Kartenhaus_InteractionsCount]"
+ GFX_Kartenhaus_SIG_Party_Bureaucracy_bg: "GFX_Kartenhaus_Cards_bg_bureaucracy"
+ GFX_Kartenhaus_SIG_People_bg: "GFX_Kartenhaus_Cards_bg_people"
+ GFX_Kartenhaus_SIG_Intelligentsia_bg: "GFX_Kartenhaus_Cards_bg_intelligentsia"
+ GFX_Kartenhaus_SIG_Church_bg: "GFX_Kartenhaus_Cards_bg_church"
+ GFX_Kartenhaus_SIG_Heer_bg: "GFX_Kartenhaus_Cards_bg_heer"
+ GFX_Kartenhaus_SIG_Kriegsmarine_bg: "GFX_Kartenhaus_Cards_bg_kriegsmarine"
+ GFX_Kartenhaus_SIG_Orpo_bg: "GFX_Kartenhaus_Cards_bg_orpo"
+ GFX_Kartenhaus_SIG_Mitteldeutsche_Industry_bg: "GFX_Kartenhaus_Cards_bg_reichswerke"
+ GFX_Kartenhaus_SIG_Rheinische_Industry_bg: "GFX_Kartenhaus_Cards_bg_igfarben"
+ GFX_Kartenhaus_SIG_Suddeutsche_Industry_bg: "GFX_Kartenhaus_Cards_bg_siemens"
+ GFX_Kartenhaus_SIG_Slave_Plantations_bg: "GFX_Kartenhaus_Cards_bg_slaveplantations"
+ GFX_Kartenhaus_SIG_Banks_bg: "GFX_Kartenhaus_Cards_bg_deutschebank"
+ Kartenhaus_InfoButton_tt: "Expand for more info
+§RThis feature is not yet available in the current version. Please wait for a future update.§!"
+ Kartenhaus_DismantleBtn_text: "[Kartenhaus_DismantleBtn_GetText]"
+ Kartenhaus_DismantleBtn_text_inactive: "§gDismantle§!"
+ Kartenhaus_DismantleBtn_text_active: "§RDismantle§!"
+ Kartenhaus_DismantleBtn_Execution_text_inactive: "§gExecute§!"
+ Kartenhaus_DismantleBtn_Execution_text_active: "§RExecute§!"
+ Kartenhaus_DismantleBtn_tt: ""
+ Kartenhaus_ControlPower_Title_tt: "Control and Faction Power"
+ Kartenhaus_FactionLoyalty_Title_tt: "Faction Loyalty"
+ Kartenhaus_FactionLoyalty_Title_Reformist_text: "§GReformists§!"
+ Kartenhaus_FactionLoyalty_Bar_Reformist_tt: "Current §GReformist§! support: §Y[?BOR_ReformistSupport|0]%§!"
+ Kartenhaus_FactionLoyalty_Title_Conservative_text: "§YConservatives§!"
+ Kartenhaus_FactionLoyalty_Bar_Conservative_tt: "Current §LConservative§! support: §Y[?BOR_StateSupport|0]%§!"
+ Kartenhaus_FactionLoyalty_Title_Militarist_text: "§RMilitarists§!"
+ Kartenhaus_FactionLoyalty_Bar_Militarist_tt: "Current §RMilitarist§! support: §Y[?BOR_MilitaristSupport|0]%§!"
+ Kartenhaus_FactionLoyalty_Title_Dismantled_text: "§eDismantled§!"
+ Kartenhaus_SIG_Status_text: "[BOR_SIG_GetTypeTitle]"
+ Kartenhaus_SIG_Status_Dismantled: "§eDismantled§!"
+ Kartenhaus_SIG_Status_Immutable: "§gImmutable§!"
+ Kartenhaus_SIG_Status_Allied: "§GAllied§!"
+ Kartenhaus_SIG_Status_Supportive: "§BSupportive§!"
+ Kartenhaus_SIG_Status_Opposition: "§ROpposition§!"
+ Kartenhaus_SIG_Status_tt: "§YStatus§! indicates this §YSpecial Interest Group§!'s §Ysupport§! for our regime. For the future of §LNational Socialism§!, we must act to make our §GAllies§! §Ystrong§! and §Yloyal§!, and have our §REnemies§! §eDismantled§!."
+ TNO_Bormann_Kartenhaus_Info_Header_Text_text: "Info
+Summary"
+ TNO_Bormann_Kartenhaus_InfoScrawl_Header_Title_Text: "[BOR_Kartenhaus_Get_InfoScrawl_Header]"
+ TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn_text: "Overview"
+ TNO_Bormann_Kartenhaus_Info_TBZ_OverviewBtn_tt: "§eNot yet available in the current version, sorry!§!"
+ TNO_Bormann_Kartenhaus_Info_TBZ_ControlAndFactionsBtn_text: "Administration and Factions"
+ TNO_Bormann_Kartenhaus_Info_TBZ_ControlAndFactionsBtn_tt: "§eNot yet available in the current version, sorry!§!"
+ TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn_text: "Special Interest Groups"
+ TNO_Bormann_Kartenhaus_Info_TBZ_SIGBtn_tt: "§eNot yet available in the current version, sorry!§!"
+ TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_text: "Interactions"
+ TNO_Bormann_Kartenhaus_Info_TBZ_InteractionsBtn_tt: "§eNot yet available in the current version, sorry!§!"
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Text: "[BOR_Kartenhaus_Get_InfoScrawl_Scrawl]"
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Overview: "The political system of the Third Reich is a tangled mess - a legacy of Hitler's rule, constantly pitting factions and individuals against one another to shore up his own position. Anyone with even a sliver of power believes they alone know what Germany needs most. As a result, the various social groups and interest groups within Germany can never rely on or support one another, and instead must all rally around the Führer. To reunify a divided nation, the Führer must show his favor - or disfavor - to every dissenting group, bringing them back to heel. Should the Führer fail, Germany will surely lapse into stagnation, decline, and eventual collapse. Only an iron will, ruthless intrigue, and deft maneuvering can save National Socialism."
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_ControlAndFactions: "To be implemented"
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_SIG: "To be implemented"
+ TNO_Bormann_Kartenhaus_InfoScrawl_Scrawl_Text_Interactions: "To be implemented"
+ TNO_Bormann_Kartenhaus_Card_Header_Text_text: "[BOR_SIG_GetName_Formatted_New]"
+ TNO_Bormann_Kartenhaus_Card_Header_Text_tt: "[BOR_SIG_GetDescription]"
+ TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_tt: "[BOR_SIG_GetName_Formatted_New]'s §YLoyalty§!
+--------------------
+§GReformists§! loyalty: [?BOR_SIGLoyalty_Ref^BOR_Kartenhaus_SIG_Target|Y1]%
+§YConservatives§! loyalty: [?BOR_SIGLoyalty_State^BOR_Kartenhaus_SIG_Target|Y1]%
+§RMilitarists§! loyalty: [?BOR_SIGLoyalty_Mil^BOR_Kartenhaus_SIG_Target|Y1]%"
+ TNO_Bormann_Kartenhaus_Card_LoyaltyBar_Base_ttd: "§YLoyalty§! measures how loyal this §YSpecial Interest Group§! is to the ruling factions of the §YGerman Reich§!. To ensure control over Germany, we must maintain the §Yloyalty§! of our §GAllies§! and sow §Rchaos§! among groups we cannot §Ycontrol§!."
+ TNO_Bormann_Kartenhaus_Card_PowerDisplay_text: "[?BOR_SIGPower^BOR_Kartenhaus_SIG_Target|Y0]"
+ TNO_Bormann_Kartenhaus_Card_PowerDisplay_tt: "[BOR_SIG_GetName_Formatted_New]'s §YPower§!"
+ TNO_Bormann_Kartenhaus_Card_PowerDisplay_ttd: "hha funn"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt: "Target the §GReformists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt_active: "§GReformists§! is the current target"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_tt_inactive: "Target the §GReformists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text: "§GReformists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text_active: "§GReformists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Ref_text_inactive: "§gReformists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_tt: "Target the §LConservatives§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_tt_active: "§LConservatives§! is the current target"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_tt_inactive: "Target the §LConservatives§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_text: "§LConservatives§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_text_active: "§LConservatives§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Con_text_inactive: "§gConservatives§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt: "Target the §RMilitarists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt_active: "§RMilitarists§! is the current target"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_tt_inactive: "Target the §RMilitarists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text: "§RMilitarists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text_active: "§RMilitarists§!"
+ TNO_Bormann_Kartenhaus_Card_SelectionBtn_Mil_text_inactive: "§gMilitarists§!"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Add_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!'s §YPower§! increases by §Y5§!"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Power_Sub_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!'s §YPower§! decreases by §Y5§!"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Add_tt: "[BOR_Kartenhaus_SelectionBtn_AddLoyalty_GetAvailability]"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Sub_tt: "[BOR_Kartenhaus_SelectionBtn_SubLoyalty_GetAvailability]"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_Unavailable_tt: "§YYou must select a target first§!"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableAdd_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!'s §Yloyalty§! to [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] increases by §Y2§!"
+ TNO_Bormann_Kartenhaus_Card_InteractionBtn_Loyalty_AvailableSub_tt: "§Y[BOR_SIG_GetName_Formatted_New]§!'s §Yloyalty§! to [BOR_Kartenhaus_SelectionBtn_Loyalty_GetTarget] decreases by §Y2§!"
+ TNO_Bormann_Kartenhaus_Card_Interaction_Btn_Cost_tt: "§WPerforming this action costs§! £political_power_texticon §Y20§!"
+ TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_text: "[BOR_Card_SIG_GetTypeTitle]"
+ TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_tt: "[BOR_SIG_GetName_Formatted_New]'s §YStatus§!"
+ TNO_Bormann_Kartenhaus_Card_SIGTypeDisplay_ttd: "§YStatus§! indicates this §YSpecial Interest Group§!'s §Ysupport§! for our regime. For the future of §LNational Socialism§!, we must act to make our §GAllies§! §Ystrong§! and §Yloyal§!, and have our §REnemies§! §eDismantled§!."
+ BOR_SIG_AP_0_1_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_0_1_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_0_2_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_0_2_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_0_3_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_0_3_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_0_4_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_0_4_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_0_5_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_0_5_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_0_10_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_0_10_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_0_20_tt: "(§Y[BOR_GetSIGName_0]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_0_20_tt: "(§Y[BOR_GetSIGName_0]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_1_3_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_1_3_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_1_4_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_1_4_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_1_5_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_1_5_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_1_10_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_1_10_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_1_20_tt: "(§Y[BOR_GetSIGName_1]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_1_20_tt: "(§Y[BOR_GetSIGName_1]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_2_1_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_2_1_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_2_2_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_2_2_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_2_3_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_2_3_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_2_4_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_2_4_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_2_5_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_2_5_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_2_10_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_2_10_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_2_20_tt: "(§Y[BOR_GetSIGName_2]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_2_20_tt: "(§Y[BOR_GetSIGName_2]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_3_1_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_3_1_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_3_2_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_3_2_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_3_3_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_3_3_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_3_4_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_3_4_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_3_5_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_3_5_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_3_10_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_3_10_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_3_20_tt: "(§Y[BOR_GetSIGName_3]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_3_20_tt: "(§Y[BOR_GetSIGName_3]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_4_1_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_4_1_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_4_2_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_4_2_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_4_3_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_4_3_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_4_4_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_4_4_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_4_5_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_4_5_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_4_10_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_4_10_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_4_20_tt: "(§Y[BOR_GetSIGName_4]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_4_20_tt: "(§Y[BOR_GetSIGName_4]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_5_1_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_5_1_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_5_2_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_5_2_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_5_3_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_5_3_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_5_4_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_5_4_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_5_5_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_5_5_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_5_10_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_5_10_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_5_20_tt: "(§Y[BOR_GetSIGName_5]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_5_20_tt: "(§Y[BOR_GetSIGName_5]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_6_3_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_6_3_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_6_4_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_6_4_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_6_5_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_6_5_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_6_10_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_6_10_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_6_20_tt: "(§Y[BOR_GetSIGName_6]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_6_20_tt: "(§Y[BOR_GetSIGName_6]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_7_1_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_7_1_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_7_2_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_7_2_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_7_3_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_7_3_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_7_4_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_7_4_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_7_5_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_7_5_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_7_10_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_7_10_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_7_20_tt: "(§Y[BOR_GetSIGName_7]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_7_20_tt: "(§Y[BOR_GetSIGName_7]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_8_1_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_8_1_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_8_2_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_8_2_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_8_3_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_8_3_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_8_4_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_8_4_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_8_5_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_8_5_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_8_10_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_8_10_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_8_20_tt: "(§Y[BOR_GetSIGName_8]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_8_20_tt: "(§Y[BOR_GetSIGName_8]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_9_1_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_9_1_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_9_2_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_9_2_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_9_3_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_9_3_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_9_4_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_9_4_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_9_5_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_9_5_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_9_10_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_9_10_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_9_20_tt: "(§Y[BOR_GetSIGName_9]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_9_20_tt: "(§Y[BOR_GetSIGName_9]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_10_1_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_10_1_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_10_2_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_10_2_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_10_3_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_10_3_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_10_4_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_10_4_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_10_5_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_10_5_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_10_10_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_10_10_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_10_20_tt: "(§Y[BOR_GetSIGName_10]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_10_20_tt: "(§Y[BOR_GetSIGName_10]§!) loses power: §R-20§!
+"
+ BOR_SIG_AP_11_1_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+1§!
+"
+ BOR_SIG_SP_11_1_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-1§!
+"
+ BOR_SIG_AP_11_2_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+2§!
+"
+ BOR_SIG_SP_11_2_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-2§!
+"
+ BOR_SIG_AP_11_3_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+3§!
+"
+ BOR_SIG_SP_11_3_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-3§!
+"
+ BOR_SIG_AP_11_4_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+4§!
+"
+ BOR_SIG_SP_11_4_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-4§!
+"
+ BOR_SIG_AP_11_5_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+5§!
+"
+ BOR_SIG_SP_11_5_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-5§!
+"
+ BOR_SIG_AP_11_10_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+10§!
+"
+ BOR_SIG_SP_11_10_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-10§!
+"
+ BOR_SIG_AP_11_20_tt: "(§Y[BOR_GetSIGName_11]§!) gains power: §G+20§!
+"
+ BOR_SIG_SP_11_20_tt: "(§Y[BOR_GetSIGName_11]§!) loses power: §R-20§!
+"
+ BOR_SIG_SL_0_1_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_0_1_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_0_1_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_0_2_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_0_2_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_0_2_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_0_3_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_0_3_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_0_3_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_0_4_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_0_4_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_0_4_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_0_5_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_0_5_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_0_5_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_0_6_0_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_0_6_1_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_0_6_2_tt: "(§Y[BOR_GetSIGName_0]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_1_1_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_1_1_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_1_1_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_1_2_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_1_2_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_1_2_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_1_3_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_1_3_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_1_3_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_1_4_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_1_4_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_1_4_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_1_5_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_1_5_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_1_5_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_1_6_0_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_1_6_1_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_1_6_2_tt: "(§Y[BOR_GetSIGName_1]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_2_1_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_2_1_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_2_1_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_2_2_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_2_2_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_2_2_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_2_3_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_2_3_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_2_3_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_2_4_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_2_4_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_2_4_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_2_5_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_2_5_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_2_5_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_2_6_0_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_2_6_1_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_2_6_2_tt: "(§Y[BOR_GetSIGName_2]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_3_1_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_3_1_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_3_1_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_3_2_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_3_2_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_3_2_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_3_3_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_3_3_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_3_3_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_3_4_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_3_4_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_3_4_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_3_5_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_3_5_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_3_5_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_3_6_0_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_3_6_1_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_3_6_2_tt: "(§Y[BOR_GetSIGName_3]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_4_1_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_4_1_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_4_1_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_4_2_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_4_2_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_4_2_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_4_3_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_4_3_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_4_3_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_4_4_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_4_4_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_4_4_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_4_5_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_4_5_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_4_5_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_4_6_0_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_4_6_1_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_4_6_2_tt: "(§Y[BOR_GetSIGName_4]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_5_1_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_5_1_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_5_1_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_5_2_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_5_2_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_5_2_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_5_3_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_5_3_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_5_3_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_5_4_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_5_4_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_5_4_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_5_5_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_5_5_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_5_5_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_5_6_0_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_5_6_1_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_5_6_2_tt: "(§Y[BOR_GetSIGName_5]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_6_1_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_6_1_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_6_1_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_6_2_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_6_2_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_6_2_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_6_3_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_6_3_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_6_3_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_6_4_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_6_4_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_6_4_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_6_5_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_6_5_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_6_5_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_6_6_0_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_6_6_1_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_6_6_2_tt: "(§Y[BOR_GetSIGName_6]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_7_1_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_7_1_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_7_1_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_7_2_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_7_2_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_7_2_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_7_3_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_7_3_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_7_3_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_7_4_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_7_4_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_7_4_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_7_5_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_7_5_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_7_5_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_7_6_0_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_7_6_1_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_7_6_2_tt: "(§Y[BOR_GetSIGName_7]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_8_1_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_8_1_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_8_1_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_8_2_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_8_2_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_8_2_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_8_3_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_8_3_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_8_3_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_8_4_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_8_4_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_8_4_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_8_5_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_8_5_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_8_5_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_8_6_0_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_8_6_1_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_8_6_2_tt: "(§Y[BOR_GetSIGName_8]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_9_1_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_9_1_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_9_1_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_9_2_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_9_2_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_9_2_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_9_3_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_9_3_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_9_3_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_9_4_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_9_4_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_9_4_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_9_5_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_9_5_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_9_5_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_9_6_0_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_9_6_1_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_9_6_2_tt: "(§Y[BOR_GetSIGName_9]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_10_1_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_10_1_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_10_1_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_10_2_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_10_2_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_10_2_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_10_3_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_10_3_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_10_3_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_10_4_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_10_4_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_10_4_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_10_5_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_10_5_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_10_5_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_10_6_0_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_10_6_1_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_10_6_2_tt: "(§Y[BOR_GetSIGName_10]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_11_1_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_11_1_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_11_1_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-1.00%§!
+"
+ BOR_SIG_SL_11_2_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_11_2_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_11_2_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-2.00%§!
+"
+ BOR_SIG_SL_11_3_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_11_3_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_11_3_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-3.00%§!
+"
+ BOR_SIG_SL_11_4_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_11_4_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_11_4_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-4.00%§!
+"
+ BOR_SIG_SL_11_5_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_11_5_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_11_5_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-5.00%§!
+"
+ BOR_SIG_SL_11_6_0_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetReformistHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_11_6_1_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetStateHeader]: §R-6.00%§!
+"
+ BOR_SIG_SL_11_6_2_tt: "(§Y[BOR_GetSIGName_11]§!) loyalty to [BOR_GetMilitaristHeader]: §R-6.00%§!
+"
+ BOR_SIG_AS_0_1_tt: "§GReformists§! support: §G+1.00%§!
+"
+ BOR_SIG_SS_0_1_tt: "§GReformists§! support: §R-1.00%§!
+"
+ BOR_SIG_AS_0_2_tt: "§GReformists§! support: §G+2.00%§!
+"
+ BOR_SIG_SS_0_2_tt: "§GReformists§! support: §R-2.00%§!
+"
+ BOR_SIG_AS_0_3_tt: "§GReformists§! support: §G+3.00%§!
+"
+ BOR_SIG_SS_0_3_tt: "§GReformists§! support: §R-3.00%§!
+"
+ BOR_SIG_AS_0_4_tt: "§GReformists§! support: §G+4.00%§!
+"
+ BOR_SIG_SS_0_4_tt: "§GReformists§! support: §R-4.00%§!
+"
+ BOR_SIG_AS_0_5_tt: "§GReformists§! support: §G+5.00%§!
+"
+ BOR_SIG_SS_0_5_tt: "§GReformists§! support: §R-5.00%§!
+"
+ BOR_SIG_AS_0_10_tt: "§GReformists§! support: §G+10.00%§!
+"
+ BOR_SIG_SS_0_10_tt: "§GReformists§! support: §R-10.00%§!
+"
+ BOR_SIG_AS_0_15_tt: "§GReformists§! support: §G+15.00%§!
+"
+ BOR_SIG_SS_0_15_tt: "§GReformists§! support: §R-15.00%§!
+"
+ BOR_SIG_AS_0_20_tt: "§GReformists§! support: §G+20.00%§!
+"
+ BOR_SIG_SS_0_20_tt: "§GReformists§! support: §R-20.00%§!
+"
+ BOR_SIG_AS_0_25_tt: "§GReformists§! support: §G+25.00%§!
+"
+ BOR_SIG_SS_0_25_tt: "§GReformists§! support: §R-25.00%§!
+"
+ BOR_SIG_AS_0_30_tt: "§GReformists§! support: §G+30.00%§!
+"
+ BOR_SIG_SS_0_30_tt: "§GReformists§! support: §R-30.00%§!
+"
+ BOR_SIG_AS_1_1_tt: "§gConservatives§! support: §G+1.00%§!
+"
+ BOR_SIG_SS_1_1_tt: "§gConservatives§! support: §R-1.00%§!
+"
+ BOR_SIG_AS_1_2_tt: "§gConservatives§! support: §G+2.00%§!
+"
+ BOR_SIG_SS_1_2_tt: "§gConservatives§! support: §R-2.00%§!
+"
+ BOR_SIG_AS_1_3_tt: "§gConservatives§! support: §G+3.00%§!
+"
+ BOR_SIG_SS_1_3_tt: "§gConservatives§! support: §R-3.00%§!
+"
+ BOR_SIG_AS_1_4_tt: "§gConservatives§! support: §G+4.00%§!
+"
+ BOR_SIG_SS_1_4_tt: "§gConservatives§! support: §R-4.00%§!
+"
+ BOR_SIG_AS_1_5_tt: "§gConservatives§! support: §G+5.00%§!
+"
+ BOR_SIG_SS_1_5_tt: "§gConservatives§! support: §R-5.00%§!
+"
+ BOR_SIG_AS_1_10_tt: "§gConservatives§! support: §G+10.00%§!
+"
+ BOR_SIG_SS_1_10_tt: "§gConservatives§! support: §R-10.00%§!
+"
+ BOR_SIG_AS_1_15_tt: "§gConservatives§! support: §G+15.00%§!
+"
+ BOR_SIG_SS_1_15_tt: "§gConservatives§! support: §R-15.00%§!
+"
+ BOR_SIG_AS_1_20_tt: "§gConservatives§! support: §G+20.00%§!
+"
+ BOR_SIG_SS_1_20_tt: "§gConservatives§! support: §R-20.00%§!
+"
+ BOR_SIG_AS_1_25_tt: "§gConservatives§! support: §G+25.00%§!
+"
+ BOR_SIG_SS_1_25_tt: "§gConservatives§! support: §R-25.00%§!
+"
+ BOR_SIG_AS_1_30_tt: "§gConservatives§! support: §G+30.00%§!
+"
+ BOR_SIG_SS_1_30_tt: "§gConservatives§! support: §R-30.00%§!
+"
+ BOR_SIG_AS_2_1_tt: "§RMilitarists§! support: §G+1.00%§!
+"
+ BOR_SIG_SS_2_1_tt: "§RMilitarists§! support: §R-1.00%§!
+"
+ BOR_SIG_AS_2_2_tt: "§RMilitarists§! support: §G+2.00%§!
+"
+ BOR_SIG_SS_2_2_tt: "§RMilitarists§! support: §R-2.00%§!
+"
+ BOR_SIG_AS_2_3_tt: "§RMilitarists§! support: §G+3.00%§!
+"
+ BOR_SIG_SS_2_3_tt: "§RMilitarists§! support: §R-3.00%§!
+"
+ BOR_SIG_AS_2_4_tt: "§RMilitarists§! support: §G+4.00%§!
+"
+ BOR_SIG_SS_2_4_tt: "§RMilitarists§! support: §R-4.00%§!
+"
+ BOR_SIG_AS_2_5_tt: "§RMilitarists§! support: §G+5.00%§!
+"
+ BOR_SIG_SS_2_5_tt: "§RMilitarists§! support: §R-5.00%§!
+"
+ BOR_SIG_AS_2_10_tt: "§RMilitarists§! support: §G+10.00%§!
+"
+ BOR_SIG_SS_2_10_tt: "§RMilitarists§! support: §R-10.00%§!
+"
+ BOR_SIG_AS_2_15_tt: "§RMilitarists§! support: §G+15.00%§!
+"
+ BOR_SIG_SS_2_15_tt: "§RMilitarists§! support: §R-15.00%§!
+"
+ BOR_SIG_AS_2_20_tt: "§RMilitarists§! support: §G+20.00%§!
+"
+ BOR_SIG_SS_2_20_tt: "§RMilitarists§! support: §R-20.00%§!
+"
+ BOR_SIG_AS_2_25_tt: "§RMilitarists§! support: §G+25.00%§!
+"
+ BOR_SIG_SS_2_25_tt: "§RMilitarists§! support: §R-25.00%§!
+"
+ BOR_SIG_AS_2_30_tt: "§RMilitarists§! support: §G+30.00%§!
+"
+ BOR_SIG_SS_2_30_tt: "§RMilitarists§! support: §R-30.00%§!
+"

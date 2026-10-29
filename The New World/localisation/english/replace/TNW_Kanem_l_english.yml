@@ -1,0 +1,48 @@
+﻿l_english:
+ KNM_communist_party: "-"
+ KNM_communist_party_long: "-"
+ KNM_socialist_party: "National Liberation Front"
+ KNM_socialist_party_long: "Kanem National Liberation Front (Front de Libération Nationale de Kanem)"
+ KNM_progressivism_party: "-"
+ KNM_progressivism_party_long: "-"
+ KNM_liberalism_party: "-"
+ KNM_liberalism_party_long: "-"
+ KNM_conservatism_party: "Kanem Democratic Union"
+ KNM_conservatism_party_long: "Kanem Democratic Union (Union Démocratique de Kanem)"
+ KNM_paternalism_party: "African National Party"
+ KNM_paternalism_party_long: "African National Party (Parti National Africain)"
+ KNM_despotism_party: "House of El-Kanémi"
+ KNM_despotism_party_long: "House of El-Kanémi"
+ KNM_fascism_party: "National Union for Independence and Revolution"
+ KNM_fascism_party_long: "National Union for Independence and Revolution (Union Nationale pour l'Indépendance et la Révolution)"
+ KNM_national_socialism_party: "-"
+ KNM_national_socialism_party_long: "-"
+ KNM_ultranationalism_party: "-"
+ KNM_ultranationalism_party_long: "-"
+ KNM_idea_inhospitable_conditions: "Inhospitable Conditions"
+ KNM_idea_inhospitable_conditions_desc: "Kanem's territory consists mainly of uninhabitable desert and arid grasslands. Due to the scarcity of water, large-scale agriculture is nearly impossible, and most people live in small settlements or nomadic tribes. Transforming this land into a prosperous modern nation requires enormous investment and capital — exactly what Kanem lacks."
+ KNM_idea_legacy_kanem_bornu_kingdoms: "Legacy of the Kingdoms"
+ KNM_idea_legacy_kanem_bornu_kingdoms_desc: "The Kanem-Bornu Kingdom was once one of the most powerful empires in Africa, its territory stretching from the heart of Nigeria to the edge of the Sahara. In later history, the Bornu Kingdom was one of Africa's last independent states, only surrendering to the French in 1900. The legacy of the kingdom still lives on in people's hearts, indelible. For the new government, if it wishes to restore the kingdom's glory, it must act quickly."
+ KNM_Hissene_Habre: "Hissène Habré"
+ KNM_Hissene_Habre_hog_desc: "§YHead of Government
+Fascism§!"
+ KNM_Hissene_Habre_sec_desc: "§YMinister of Security
+Fascism§!"
+ POLITICS_HISSENE_HABRE_DESC: "In a desert once called "Chad" by the French, a new force has taken the stage of history. A single man leads a nation and its people, born in the smoke of bombing. This man is Hissène Habré — a man with many stories.
+
+At first glance, this 20-year-old young man has neither wealth nor allies, and most would never believe he could defeat the princes and nobles who have ruled Chad for centuries. If one studies him carefully, one learns how he achieved all this. Hissène started as a low-ranking officer in the local Sao militia, but soon split off from the militia and established his own organization. Habré promised the people that he would end the old system and build a centralized new regime. Soon his organization grew, and Hissène Habré became the symbol of the Kanem revolution. Habré's army swept all before it, sweeping across northern Chad, and Habré became the sole leader of Kanem.
+
+The people of Kanem have said goodbye to the era of rule by many dictators, and welcomed the era of rule by a single dictator. Habré has not spent much effort consolidating his power, yet those who speak out against his regime mysteriously disappear, and rumors of torture and corrupt life spread among the people. Torture, murder, and human rights violations have all become commonplace in the name of maintaining stability. Although the people of Kanem are slowly beginning to regret their decision, feelings of powerlessness — not revolution — have become the norm.
+
+After all, Habré is not a Sultan, and anyone is better than a Sultan, right?"
+ KNM_Bernard_Fonlon: "Bernard Fonlon"
+ KNM_Bernard_Fonlon_for_desc: "§YMinister of Foreign Affairs
+Fascism§!"
+ KNM_Alhadj_Adam_Adji_Hassan: "Alhadj Adam Adji Hassan"
+ KNM_Alhadj_Adam_Adji_Hassan_eco_desc: "§YMinister of Economy
+Despotism§!"
+ KNM_Omar_III_ibn_Muhammad_al_Amin_Kiyari: "Omar III ibn Muhammad al-Amin Kiyari"
+ KNM_Abrahim_Abatcha: "Ibrahim Abatcha"
+ KNM: "Republic of Chad"
+ KNM_DEF: "Republic of Chad"
+ KNM_ADJ: "Chadian"

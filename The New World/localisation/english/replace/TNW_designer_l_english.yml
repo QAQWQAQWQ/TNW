@@ -1,0 +1,12 @@
+﻿l_english:
+ NAME_THEME_HISTORICAL_COR:0 "Historical Corvette"
+ NAME_THEME_HISTORICAL_FRIGATE:0 "Historical Frigate"
+ NAME_THEME_HISTORICAL_CRUISER:0 "Historical Cruiser"
+ NAME_THEME_HISTORICAL_CAPITAL:0 "Historical Capital Ship"
+ NAME_THEME_HISTORICAL_LCS:0 "Littoral Combat Ship"
+ NAME_THEME_AAS:0 "Modern Aircraft Carrier"
+ NAME_THEME_IBR_SUBMARINES:0 "Historical Iberian Submarines"
+ NAME_THEME_IBR_CORVETTES:0 "Historical Iberian Corvettes"
+ NAME_THEME_IBR_DESTROYERS:0 "Historical Iberian Destroyers"
+ NAME_THEME_IBR_FRIGATES:0 "Historical Iberian Frigates"
+ tank_designer_MBT_chassis_role_disallowed:0 "Remove the disallowed |H$ module to switch to this role."

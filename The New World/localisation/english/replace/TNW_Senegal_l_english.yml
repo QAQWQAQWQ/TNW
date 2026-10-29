@@ -1,0 +1,67 @@
+﻿l_english:
+ WOL_communist_party: "Senegalese Party of Unity and Progress"
+ WOL_communist_party_long: "Senegalese Party of Unity and Progress (Parti Sénégalais de l'Unité et du Progrès)"
+ WOL_socialist_party: "Senegalese Mass Bloc"
+ WOL_socialist_party_long: "Senegalese Mass Bloc (Bloc des Masses Sénégalaises)"
+ WOL_progressivism_party: "Senegalese Democratic Bloc"
+ WOL_progressivism_party_long: "Senegalese Democratic Bloc (Bloc Démocratique Sénégalais)"
+ WOL_liberalism_party: "Senegalese Democratic Bloc"
+ WOL_liberalism_party_long: "Senegalese Democratic Bloc (Bloc Démocratique Sénégalais)"
+ WOL_conservatism_party: "Senegalese Democratic Bloc"
+ WOL_conservatism_party_long: "Senegalese Democratic Bloc (Bloc Démocratique Sénégalais)"
+ WOL_paternalism_party: "Senegalese Democratic Bloc"
+ WOL_paternalism_party_long: "Senegalese Democratic Bloc (Bloc Démocratique Sénégalais)"
+ WOL_despotism_party: "Senegalese Democratic Bloc"
+ WOL_despotism_party_long: "Senegalese Democratic Bloc (Bloc Démocratique Sénégalais)"
+ WOL_fascism_party: "-"
+ WOL_fascism_party_long: "-"
+ WOL_national_socialism_party: "-"
+ WOL_national_socialism_party_long: "-"
+ WOL_ultranationalism_party: "-"
+ WOL_ultranationalism_party_long: "-"
+ WOL_idea_wolofian_stiffness: "Wolofian Stiffness"
+ WOL_idea_wolofian_stiffness_desc: "Senegal is one of the longest-standing stable regimes in West Africa, but this stability rests on shaky foundations. The government must carefully balance the pan-African Négritude ideals popular among Senghor's people with the interests of the Wolof majority, who wish to preserve their privileged position. The Republic of Senegal is still a long way from true egalitarian democracy."
+ POLITICS_LEOPOLD_SEDAR_SENGHOR_DESC: "Sixteen years of wandering. That is how long it took Léopold Sédar Senghor, the first president of the Republic of Senegal, to reach a place he could call home. Senghor was a poet and an intellectual fluent in French; he was one of the few Black students in colonial France fortunate enough to study at the Sorbonne, and after graduation became a professor of French grammar. Though he openly criticized the racism prevalent in French society, he joined the French army and fought the Nazis with the belief that equality for all would prevail. Sadly, none of that came to pass. Captured by the Germans, he and his comrades were nearly executed, and after being released for medical reasons, he escaped the POW camp.
+
+When the war ended and it became clear there was no hope of liberation in Europe, Senghor returned to West Africa to wrest control from the inept Vichyite colonial government. The new Republic of Senegal was a nation built on the principles of African liberation and Négritude — an anti-colonial concept based on a strong African national culture, partly formulated by Senghor himself. At the same time, President Senghor maintained close ties with the old French Republic and de Gaulle, and allowed some French administrators to serve in his government.
+
+His critics have not shied away from this ambiguity, quickly pointing out the contradiction between his calls for African liberation and his loyalty to the old oppressor. After all, a tiger does not declare its tigritude; it simply pounces on its prey. Black people do not need the permission of some now-irrelevant white man to govern; they need only to claim their birthright. Due to the lack of strong opposition to Senghor within the government, Senegal has become a politically stagnant state; pan-African revolutionaries hope to remove him and his French lapdogs, and establish a state modeled on Cameroon. But after finding his home, Senghor has no desire to wander again. He will make Senegal a shining example for all Africans — and some sacrifices will have to be made."
+ WOL_Cheikh_Tidiane_Sy: "Cheikh Tidiane Sy"
+ WOL: "Senegal"
+ WOL_DEF: "Republic of Senegal"
+ WOL_ADJ: "Senegalese"
+ WOL_socialist_DEF: "Socialist Republic of Senegal"
+ WOL_FFRPuppet: "Senegal"
+ WOL_FFRPuppet_DEF: "Republic of Senegal"
+ WOL_FFRPuppet_ADJ: "Senegalese"
+ WOL_Leopold_Sedar_Senghor: "Léopold Sédar Senghor"
+ WOL_Abdou_Diouf: "Abdou Diouf"
+ WOL_Aime_Cesaire: "Aimé Césaire"
+ WOL_Ibrahima_Sarr: "Ibrahima Sarr"
+ WOL_Jean_Alfred_Diallo: "Jean Alfred Diallo"
+ WOL_Frantz_Fanon: "Frantz Fanon"
+ WOL_Cheikh_Anta_Diop: "Cheikh Anta Diop"
+ WOL_Abdoulaye_Wade: "Abdoulaye Wade"
+ WOL_Valdiodio_Ndiaye: "Valdiodio Ndiaye"
+ WOL_Mamadou_Dia: "Mamadou Dia"
+ WOL_Amadou_Abdoulaye_Dieng: "Amadou Abdoulaye Dieng"
+ WOL_Idrissa_Fall: "Idrissa Fall"
+ WOL_Daouda_Niang: "Daouda Niang"
+ WOL_Mamadou_Niang: "Mamadou Niang"
+ WOL_Joseph_Louis_Tavarez_de_Souza: "Joseph Louis Tavarez de Souza"
+ WOL_Abdou_Diouf_hog_desc: "§YHead of Government
+Conservatism§!
+--------------
+"
+ WOL_Jean_Alfred_Diallo_sec_desc: "§YMinister of Security
+Conservatism§!
+--------------
+"
+ WOL_Aime_Cesaire_for_desc: "§YMinister of Foreign Affairs
+Conservatism§!
+--------------
+"
+ WOL_Ibrahima_Sarr_eco_desc: "§YMinister of Economy
+Conservatism§!
+--------------
+"

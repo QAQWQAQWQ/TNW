@@ -1,0 +1,42 @@
+﻿l_english:
+ BRD_despotism_absolute_monarchy_subtype: "Kingdom of Burundi"
+ BRD_despotism_absolute_monarchy_subtype_DEF: "Kingdom of Burundi"
+ BRD_paternalism_party: "National Union for Progress"
+ BRD_paternalism_party_long: "National Union for Progress (Union pour le Progrès National)"
+ BRD_despotism_party: "House of Bangiricenge"
+ BRD_despotism_party_long: "House of Bangiricenge"
+ BRD_conservatism_party: "Christian Democratic Party of Burundi"
+ BRD_conservatism_party_long: "Christian Democratic Party of Burundi (Parti Démocratique Chrétien du Burundi)"
+ BRD_liberalism_party: "People's Rally of Burundi"
+ BRD_liberalism_party_long: "People's Rally of Burundi (Rassemblement du Peuple Burundais)"
+ BRD_progressivism_party: "Front for Democracy in Burundi"
+ BRD_progressivism_party_long: "Front for Democracy in Burundi (Front pour la Démocratie au Burundi)"
+ BRD_socialist_party: "Workers' Party of Burundi"
+ BRD_socialist_party_long: "Workers' Party of Burundi (Parti des Travailleurs du Burundi)"
+ BRD_Mwambutsa_IV: "Mwambutsa IV"
+ BRD_Ernest_Kabushemeye: "Ernest Kabushemeye"
+ BRD_Michel_Micombero: "Michel Micombero"
+ BRD_Michel_Micombero_hog_desc: "§YHead of Government
+Paternalism§!
+--------------
+"
+ BRD_Alexis_Nimubona: "Alexis Nimubona"
+ BRD_Alexis_Nimubona_for_desc: "§YMinister of Foreign Affairs
+Paternalism§!
+--------------
+"
+ BRD_Thomas_Ndabemeye: "Thomas Ndabemeye"
+ BRD_Thomas_Ndabemeye_eco_desc: "§YMinister of Economy
+Paternalism§!
+--------------
+"
+ BRD_Jean_Baptiste_Bagaza: "Jean-Baptiste Bagaza"
+ BRD_Jean_Baptiste_Bagaza_sec_desc: "§YMinister of Security
+Fascism§!
+--------------
+"
+ BRD_fascism_party: "National Recovery Party"
+ BRD_fascism_party_long: "National Recovery Party (Parti pour le Redressement National)"
+ BRD: "Republic of Burundi"
+ BRD_DEF: "Republic of Burundi"
+ BRD_ADJ: "Burundian"

@@ -1,0 +1,514 @@
+﻿l_english:
+ WORLD_REICH.1.t: "[Get_newspaper_header]Germany's Latest Conquest"
+ WORLD_REICH.1.desc: "On January 19, 1962, Eberhard Körner became the first human to walk on the moon. The space race had long been a contest between Germany, Japan, and the United States; though the Americans were first to send a human into space, the Fuehrer proudly declared that Germany's successful lunar landing had secured victory in the race.A grand ceremony is planned for Germania, where Körner and his fellow astronauts will be decorated with the Iron Cross, and a week of celebrations will be announced across the Greater German Reich.Though the United States and Japan have sent brief congratulations, President Nixon has vowed that America will be the first to establish a permanent base on the moon, and Japan soon declared it will be the first to reach Mars."
+ WORLD_REICH.1.a: "Has the space race been decided?"
+ WORLD_REICH.2.t: "[Get_newspaper_header]Assassin Strikes at Hitler!"
+ WORLD_REICH.2.desc: "News from Germany is scattered. Rumors trickling out of Germania suggest that shortly after the lunar landing celebrations, the military and bodyguards flooded the streets and rapidly placed the city under martial law. An assassin reportedly attempted to strike the Fuehrer, but Hitler's personal bodyguard successfully intercepted him; German sources claim the man belonged to the Japanese Special Intelligence Board.Various reports of the assassination attempt have surfaced. On the streets, rival military factions stand off, demanding each other stand down, and the chain of command has collapsed. In an instant, Germany seems terribly weakened. Can the Germans, barely able to save themselves, maintain order in the New World?"
+ WORLD_REICH.2.a: "Brothers quarrel among themselves..."
+ WORLD_REICH.2.b: "Oh no."
+ WORLD_REICH.2.c: "What on earth is this baseless accusation?"
+ WORLD_REICH.3.t: "[Get_newspaper_header]Hitler Names Bormann Successor"
+ WORLD_REICH.3.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Martin Bormann.
+
+The decision is seen as the most likely outcome; though some liberals and military figures have expressed concern, it is welcomed by German moderates and conservatives. With Bormann promising only minor reforms and a commitment to the Nazi cause, Albert Speer, Hermann Göring, and Reinhard Heydrich have criticized the choice as one that will surely consign Germany to a premature grave."
+ WORLD_REICH.3.a: "It seems nothing will change in Germany."
+ WORLD_REICH.4.t: "[Get_newspaper_header]Hitler Names Goring Successor"
+ WORLD_REICH.4.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Hermann Göring.
+
+As one of the Fuehrer's oldest allies and the kindly uncle of the nation, Göring has broad support from the Nazi old guard and the Wehrmacht, but this relationship has led many to reject the decision. Albert Speer, Martin Bormann, and Reinhard Heydrich have all criticized the arrangement and vowed never to let Germany fall into the hands of a warmonger eager for war."
+ WORLD_REICH.4.a: "Is war on the horizon?"
+ WORLD_REICH.5.t: "[Get_newspaper_header]Hitler Names Speer Successor"
+ WORLD_REICH.5.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Albert Speer.
+
+It is a deeply controversial choice. Speer is supported by the left-leaning members of the Reichstag and Germany's liberal movement, as he advocates sweeping economic and political reform. However, the decision has angered Germany's more conservative elements; Martin Bormann, Hermann Göring, and Reinhard Heydrich have all condemned the choice."
+ WORLD_REICH.5.a: "A new dawn for Germany."
+ WORLD_REICH.6.t: "[Get_newspaper_header]Hitler Names Heydrich Successor"
+ WORLD_REICH.6.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Reinhard Heydrich.
+
+Shock and anger immediately swept the Reichstag; a quarter of delegates voted against the nomination, and another quarter abstained, the first non-unanimous vote in Reichstag history. While some praised this as ending the hostility between Germany and the SS, only a few were so forgiving; most see Heydrich as nothing more than a Burgundian puppet, and unrest has erupted across Germany."
+ WORLD_REICH.6.a: "Under the Black Sun, all is well."
+ WORLD_REICH.6.b: "Good God."
+ WORLD_REICH.7.t: "[Get_newspaper_header]Adolf Hitler Dies"
+ WORLD_REICH.7.desc: "Mourning has swept across Germany. The news first spread in Germany, then across the world: the Fuehrer of Germany, the victor of the Second World War, Adolf Hitler, has passed away. Though there had long been speculation about the Fuehrer's deteriorating health, the news still shocked all of Germany. The Reichstag has announced three months of mourning, and the Fuehrer will be buried beside his late wife, Eva Hitler; dignitaries from around the world have been invited to the funeral.
+
+While Germany mourns, many across the world are openly celebrating the death of the man responsible for thirty years of suffering across the globe. Yet many international commentators fear that what is now called Germany or the Greater German Reich has descended into a fierce power struggle over the rightful successor to the Fuehrer."
+ WORLD_REICH.7.a: "A day to remember..."
+ WORLD_REICH.8.t: "[Get_newspaper_header]German Civil War"
+ WORLD_REICH.8.desc: "Following Adolf Hitler's death, Germany immediately descended into chaos. Though the Fuehrer named a legal successor, powerful factions within Germany have already taken up arms against each other, each determined to steer the nation toward its own vision. The country has split; entire garrisons ignore orders from Germania and rally to the successor of their choice. While the full severity of the situation is unclear, estimates suggest Germany is either facing or already experiencing a complete collapse of central authority.
+
+Though the fate of Germany's eastern territories is uncertain, the sudden severing of communications between Germania and her colonies has sparked speculation that these regions may also seek their own paths. One thing is certain: the collapse of this European giant has thrown the entire continent into disarray."
+ WORLD_REICH.8.a: "T"
+ WORLD_REICH.8.b: "h"
+ WORLD_REICH.8.c: "e"
+ WORLD_REICH.8.d: " "
+ WORLD_REICH.8.e: "e"
+ WORLD_REICH.8.f: "n"
+ WORLD_REICH.8.g: "d"
+ WORLD_REICH.8.h: " "
+ WORLD_REICH.8.i: "o"
+ WORLD_REICH.8.j: "f"
+ WORLD_REICH.8.k: " "
+ WORLD_REICH.8.l: "t"
+ WORLD_REICH.8.m: "h"
+ WORLD_REICH.8.n: "e"
+ WORLD_REICH.8.o: " "
+ WORLD_REICH.8.p: "G"
+ WORLD_REICH.8.q: "r"
+ WORLD_REICH.8.r: "e"
+ WORLD_REICH.8.s: "a"
+ WORLD_REICH.8.t: "t"
+ WORLD_REICH.8.u: "e"
+ WORLD_REICH.8.v: "r"
+ WORLD_REICH.8.w: " "
+ WORLD_REICH.8.x: "G"
+ WORLD_REICH.8.y: "e"
+ WORLD_REICH.8.z: "r"
+ WORLD_REICH.8.{: "m"
+ WORLD_REICH.8.|: "a"
+ WORLD_REICH.8.}: "n"
+ WORLD_REICH.8.~: " "
+ WORLD_REICH.8.: "R"
+ WORLD_REICH.8.: "e"
+ WORLD_REICH.8.: "i"
+ WORLD_REICH.8.: "c"
+ WORLD_REICH.8.: "h"
+ WORLD_REICH.8.: ","
+ WORLD_REICH.8.: " "
+ WORLD_REICH.8.: "s"
+ WORLD_REICH.8.: "u"
+ WORLD_REICH.8.: "r"
+ WORLD_REICH.8.: "e"
+ WORLD_REICH.8.: "l"
+ WORLD_REICH.8.: "y"
+ WORLD_REICH.8.: "."
+ WORLD_REICH.10.t: "[Get_newspaper_header]Karl Donitz Secures Crimea"
+ WORLD_REICH.10.desc: "Confusing reports are circulating across the Black Sea. A naval coup against the local civilian government reportedly occurred earlier this week, led by Germany's war hero Karl Dönitz. As commander of the major German naval base in Crimea, Dönitz announced by radio that, following Hans Speidel's shameful and illegal occupation of the Reichstag, he had no choice but to disavow Germania's authority.
+
+Shock then swept Germany and the world when Dönitz publicly announced his support for Martin Bormann. The move has been warmly welcomed by the German navy; many ship captains have declared support for Dönitz's actions and vowed to join him in Crimea to ensure the German navy is not controlled by those who would utterly destroy Germany."
+ WORLD_REICH.10.a: "Disturbing."
+ WORLD_REICH.11.t: "[Get_newspaper_header]Anti-Heydrich Pact Formed"
+ WORLD_REICH.11.desc: "The course of the German civil war has taken many turns, but this event may be its sharpest turning point. Earlier today, several claimants to the Fuehrer's throne announced a temporary ceasefire among themselves, focusing instead on what they call 'the greatest threat to Germany today' - Reinhard Heydrich and his SS.
+
+Reinhard Heydrich and the SS have only Heinrich Himmler's support, began the fight at a strategic disadvantage, and lack political clout and popular support, yet have achieved stunning gains in recent months. The move has clearly panicked the other claimants, who are now concentrating their forces to destroy Heydrich's troops. With Heydrich proudly following Himmler and his 'Burgundian system,' the formation of the Anti-Heydrich Pact has been a relief to Germans everywhere, as their leaders have at least agreed on one thing: opposition to the SS and the power behind it."
+ WORLD_REICH.11.a: "Do not let Himmler's madness spread to our lands!"
+ WORLD_REICH.11.b: "Bring it on."
+ WORLD_REICH.11.c: "This is child's play for Heydrich."
+ WORLD_REICH.11.d: "It could be worse."
+ WORLD_REICH.12.t: "[Get_newspaper_header]Bormann Wins the German Civil War"
+ WORLD_REICH.12.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Martin Bormann as the victor. He drew broad support during the war, and many expected his victory to be the most likely outcome of the terrible conflict. Today he stood before the People's Hall as the new Fuehrer, promising the German people a swift restoration of Germany's former glory and pledging limited reforms to ensure such a conflict never happens again.
+
+Yet the nation lies in ruins, the economy is in collapse, the people are exhausted, and much of Europe is still engulfed in chaos; Germany's true future remains uncertain. Still, with the leadership of this great statesman, many expect Bormann to truly restore German stability."
+ WORLD_REICH.12.a: "Peace returns to Germany."
+ WORLD_REICH.13.t: "[Get_newspaper_header]Speer Wins the German Civil War"
+ WORLD_REICH.13.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Albert Speer as the victor. He had been doubted as having too few supporters among the army and people to pose any real threat in the war. But today he stands before the People's Hall, speaking as Germany's new Fuehrer and promising Germany a brand-new future.
+
+Though Speer has pledged to deliver the reforms his supporters eagerly await - political as well as economic - few expect the coming months to be easy for the new Fuehrer. Even if Speer has won the hearts of the German people and begun to heal the nation's war wounds, much of Europe remains engulfed in chaos, which Speer is not well-suited to resolve. Still, in this ruined nation, many are grateful that Germany's great architect is now at the helm of reconstruction."
+ WORLD_REICH.13.a: "Peace returns to Germany."
+ WORLD_REICH.14.t: "[Get_newspaper_header]Goring Wins the German Civil War"
+ WORLD_REICH.14.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Hermann Göring as the victor. During the war, most of the army and air force sided with Göring, which proved crucial to his success. As the new Fuehrer, he personally thanked the Wehrmacht in his address today before the People's Hall.
+
+With Göring having openly advocated militarist policies before the war, many now worry how far the military's influence will grow and how soon Germany will be drawn into the next conflict. Yet the nation lies in ruins, the economy is in collapse, the people are exhausted, and Germany's true future remains uncertain. Though many may worry about the future, for now many are simply glad that Göring's military might has delivered today's peace."
+ WORLD_REICH.14.a: "Peace returns to Germany."
+ WORLD_REICH.15.t: "[Get_newspaper_header]Heydrich Wins the German Civil War"
+ WORLD_REICH.15.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Reinhard Heydrich as the victor. Though Heydrich is broadly disliked by the German people, the power of the SS has delivered today's victory. Before the People's Hall, the new Fuehrer condemned the degeneracy that had corrupted Germany and vowed to purge every trace of decay from the nation.
+
+Though Heinrich Himmler has sent Heydrich his warmest congratulations, the international reaction has been markedly negative, expressing deep concern about Germany's future. The nation lies in ruins, the economy is in collapse, the people are exhausted, and Europe remains engulfed in chaos; many now worry what this secretive and fanatical organization ruling Germany will mean for the nation's future."
+ WORLD_REICH.15.a: "Peace returns to Germany."
+ WORLD_REICH.16.t: "[Get_newspaper_header]Germany Reasserts Control Over Central Europe"
+ WORLD_REICH.16.desc: "The Protectorate of Bohemia-Moravia, the Netherlands, and Denmark were among the most successfully Germanized regions. When Germany fractured, these regions too descended into political turmoil, but areas so close to Germany's beating heart cannot be allowed to become potential threats.
+
+Thus the new government in Germania's decision to reclaim these vital regions - especially the Dutch trading ports and the Bohemian industrial centers - comes as no surprise.
+
+With friendly governments established in Copenhagen and Amsterdam, and the full annexation of the Protectorate of Bohemia-Moravia, Germany's new Fuehrer has secured control over Central Europe."
+ WORLD_REICH.16.a: "Heil Germany!"
+ WORLD_REICH.16.b: "The lion may be old, but its fangs remain."
+ WORLD_REICH.16.c: "As expected."
+ WORLD_REICH.17.t: "[Get_newspaper_header]German Hegemony Returns"
+ WORLD_REICH.17.desc: "In the opening phase of the great civil war that tore Germany apart, many Reichskommissariats in Eastern Europe broke away from Germania's control. They either fell into internal turmoil, or the local commissars remained loyal to one of the new Fuehrer's opponents.
+
+After the civil war, the fragile Germany, deep in ruin, was in no position to expand. For a time it seemed the swastika would never again return to the blood-soaked fields of the East.
+
+But today marks a new beginning for Germany. After several military operations and diplomatic efforts, most of the former Reichskommissariats have returned to the fold of a reborn Germany. As the world watches with worry and awe, one thing is certain: German hegemony has returned."
+ WORLD_REICH.17.a: "Our Lebensraum is back!"
+ WORLD_REICH.17.b: "It is only a matter of time before the swastika topples."
+ WORLD_REICH.17.c: "It seems Germany is returning to the world stage..."
+ WORLD_REICH.18.t: "[Get_newspaper_header]Germany Strengthens Indian Ocean Presence"
+ WORLD_REICH.18.desc: "As the Volkischer Beobachter proudly informed its readers, the German navy recently conducted a series of large-scale exercises in Mauritius and Réunion, formerly part of French Madagascar, which came under German administration after local uprisings. With repeated military conflicts in the region costing Germany its African territories, they have now reestablished their presence in the Indian Ocean and demonstrated the ability to project power into the Co-Prosperity Sphere.
+
+Japanese diplomatic representatives have not hesitated to condemn 'German aggression.' Though Japan has not yet taken retaliatory action, the incident is seen as part of a worsening relationship between the two superpowers, a trend Fuehrer Martin Bormann's actions have undoubtedly accelerated."
+ WORLD_REICH.18.a: "We are anchored in Madagascar..."
+ WORLD_REICH.18.b: "A shameless act!"
+ WORLD_REICH.18.c: "Could things get any worse?"
+ WORLD_REICH.19.t: "[Get_newspaper_header]Germany Deploys Missiles in Mauritius and Reunion"
+ WORLD_REICH.19.desc_BOR: "News from the Indian Ocean has sparked international anxiety, and militaries worldwide are on alert. According to American and Japanese reports, Germany has built missile launch facilities on Mauritius and R\u00e9union, stationing nuclear warheads in a hotly contested region.\n\nThe move is hailed as a major strategic victory for Germania, and the Empire of Japan has issued a stern condemnation. Japanese diplomats have explicitly warned that countermeasures may follow. The outcome of German power projection into the Indian Ocean remains uncertain, but it is safe to say the tensions caused by this event rival those of the Aleutian crisis."
+ WORLD_REICH.19.desc_SGR: "News from the Indian Ocean has sparked international anxiety, and militaries worldwide are on alert. According to American and Japanese reports, Germany has built missile launch facilities on Mauritius and R\u00e9union, stationing nuclear warheads in a hotly contested region.\n\nThe move is hailed as a major strategic victory for Germania, and the superpowers have issued stern condemnations. Their diplomats have explicitly warned that countermeasures may follow. The outcome of German power projection into the Indian Ocean remains uncertain, but it is safe to say that, since the diplomatic talks led by German Foreign Minister Helmut Schmidt, the tensions caused by this event have broken all previous records."
+ WORLD_REICH.19.a: "A memorable victory!"
+ WORLD_REICH.19.b: "Such an act must be punished!"
+ WORLD_REICH.19.c: "The world is on the brink once again."
+ WORLD_REICH.110.t: "[Get_newspaper_header]Albert Speer Missing"
+ WORLD_REICH.110.desc: "Albert Speer has vanished. Once Germany's Minister of Armaments, now a traitor to the Nazi Party, he had settled in the United States for several years after going into political exile. After the German civil war ended, many fleeing Nazis sought to reinvent themselves; Albert Speer did the opposite: he published a book under his own name and gave frequent, high-profile interviews to boost sales.
+
+In the early hours of today, Albert Speer disappeared. American police agencies at all levels are conducting a coordinated nationwide search. German Foreign Minister Walther Hewel issued a public statement wishing the American investigation well and requesting that Speer be extradited back to Germany as soon as he is found."
+ WORLD_REICH.110.a: "Where has Speer gone?"
+ WORLD_REICH.111.t: "[Get_newspaper_header]Albert Speer Assassinated"
+ WORLD_REICH.111.desc: "Albert Speer is dead. Once Germany's Minister of Armaments, now a traitor to the Nazi Party, he had settled in the United States for several years after going into political exile. After the German civil war ended, many fleeing Nazis sought to reinvent themselves; Albert Speer did the opposite: he published a book under his own name and gave frequent, high-profile interviews to boost sales.
+
+At 11 a.m., in broad daylight, an assassin fired six shots at Speer, reportedly shouting 'Heil Bormann,' then jumped into the back seat of a car and fled. By the time the ambulance arrived, Speer was already dead. German Foreign Minister Walther Hewel refused to confirm or deny the involvement of the German Order Police, describing Speer instead as 'a treacherous rat who got exactly what he deserved.' The American President has expressed his outrage."
+ WORLD_REICH.111.a: "This is an insult to America!"
+ WORLD_REICH.112.t: "[Get_newspaper_header]Eurasian Detente"
+ WORLD_REICH.112.desc: "Surprising news came today from Germania and Tokyo: a joint declaration of friendship between the superpowers was unveiled this morning. Even during the Second World War, relations between Germany and Japan had been strained; after the nuclear strike on Pearl Harbor, the signatories of the Tripartite Pact formally parted ways. With the outbreak of the Cold War, these former allies had become rivals contending for influence and power across the globe.
+
+Now it seems this hostility was but a brief and unpleasant episode in the history of German-Japanese relations, which have reached a peak unseen since the 1930s. While leaders in both the German and Japanese empires celebrate this crucial step toward securing global peace, experts note that Washington's response has been conspicuously calm."
+ WORLD_REICH.112.a: "To our Japanese brothers!"
+ WORLD_REICH.112.b: "Heil Germany!"
+ WORLD_REICH.112.c: "Let them come."
+ WORLD_REICH.112.d: "Perhaps peace is possible."
+ WORLD_REICH.120.t: "[Get_newspaper_header]The Second Night of the Long Knives"
+ WORLD_REICH.120.desc: "The dark net that sought to ensnare every member of Germany has finally been set ablaze and reduced to ash by order of Fuehrer Martin Bormann.
+
+The Order Police under Reinhard Gehlen have been redeployed to Germania, ordered to crush all domestic dissent. Conglomerates, Christian institutions, disloyal military factions, and scheming party officials have all been subjected to ruthless suppression in the largest political, social, and cultural purge in modern German history.
+
+With every bullet fired and every noose tightened, Bormann's throne as Fuehrer will only grow more secure and expansive."
+ WORLD_REICH.120.a: "Utopia always requires someone to die for it."
+ WORLD_REICH.121.t: "[Get_newspaper_header]The June Deception"
+ WORLD_REICH.121.desc: "The shadowy web of conspiracy that has spread across the Greater German Reich has dragged Fuehrer Martin Bormann from power.
+
+An armed coup aimed at overthrowing Bormann and his allies has erupted, with the army, conglomerates, and even the party itself drawing blades against each other in mutual disloyalty.
+
+The coup's leader, Party Chancellery chief Baldur von Schirach, appears poised to become the new Fuehrer of the Greater German Reich. Germany has entered a new era."
+ WORLD_REICH.121.a: "The waxwings have melted."
+ WORLD_REICH.122.t: "[Get_newspaper_header]Minister Hewel Murdered"
+ WORLD_REICH.122.desc: "Cologne, the industrial heart of the Greater German Reich, has been flooded with reports. Hours ago, the bodies of Greater German Foreign Minister Hewel and his wife Brenda were found in a warehouse in a town outside the city. Two weeks before the bodies were discovered, the couple's upscale Cologne residence had been violently broken into, and the Hewels had vanished.
+
+The terrorist group Red Army Faction has claimed responsibility for the deaths of the Hewels, in retaliation for the Bormann government's brutal repression and authoritarian acts. Though nationwide violent protests that had lasted for weeks had been suppressed just days before the kidnapping, it appears such a reversal will plunge the Greater German Reich into renewed turmoil."
+ WORLD_REICH.122.a: "The German eagle has fallen ill once more."
+ WORLD_REICH.208.t: "[Get_newspaper_header]Germany's Special Tribunal"
+ WORLD_REICH.208.desc: "To purge disloyal elements from the party, Greater German Fuehrer Albert Speer has established a 'Special Tribunal.' This court will try party members accused of a wide range of crimes, from abuse of office and bribery to outright betrayal of the party and the nation.
+
+Some democratic nations have protested loudly, calling this a thinly veiled purge. But such words have done nothing to impede the Germania government's decisive action. Within months, Speer has achieved a double effect: he has strengthened his control over the party and boosted popular support for his regime.
+
+Now that public opinion has once again swung behind Speer, the Fuehrer can finally turn his attention to other, more pressing matters."
+ WORLD_REICH.208.a: "Traitors get what they deserve!"
+ WORLD_REICH.208.b: "The leopard cannot change its spots..."
+ WORLD_REICH.208.c: "What a fitting purge!"
+ WORLD_REICH.209.t: "[Get_newspaper_header]LAM Network Goes Online"
+ WORLD_REICH.209.desc: "After years of preparation, revision, adjustment, and improvement, the National Military Research Network, abbreviated as LAM, is finally online and fully operational. This new and incredibly advanced system connects all the computers of Germany's most important research institutions and government departments, enabling rapid transmission of data ranging from text to images and greatly improving coordination between agencies.
+
+Though LAM was designed primarily to aid scientific research and improve bureaucratic efficiency, few doubt that the Fuehrer will experiment with it in the military and espionage fields. Once these experiments are complete, perhaps the system can be expanded and adapted for civilian use? Who knows? One thing is certain: with this achievement, Germany has finally stepped into the future."
+ WORLD_REICH.209.a: "The future is here!"
+ WORLD_REICH.209.b: "A new rival to our technological supremacy?"
+ WORLD_REICH.209.c: "Incredible!"
+ WORLD_REICH.210.t: "[Get_newspaper_header]Nuremberg Student Uprising"
+ WORLD_REICH.210.desc: "For the second time in living memory, student protests have erupted on Germany's streets. Chaos and violence have swept through the streets of Nuremberg after Rudi Dutschke, a Marxist revolutionary, was shot and killed by the Order Police.
+
+Dutschke was a Marxist activist, but in the most anti-Marxist nation ever to exist. To many, his death seemed inevitable. But the people's reaction was unexpected. Small-scale protests have erupted across Germany, but the epicenter of the unrest is Nuremberg, the city infamous for the racial laws that bear its name.
+
+The radicalism expressed by the uprising is far from orthodox Nazism. No one holds out hope for reconciliation; they cannot help but wonder when the iron fist will come crashing down on the protesters."
+ WORLD_REICH.210.a: "Concerning."
+ WORLD_REICH.212.t: "[Get_newspaper_header]Slave Uprising in Germany"
+ WORLD_REICH.212.desc: "Germany's international reputation is notoriously bad, but its worst crime has been the massive use of slave labor in construction, sowing seeds of hatred across the entire continent. Under the steady reforms of new Fuehrer Speer, unrest among the slave class seemed to have subsided. But events will prove this assumption wrong.
+
+On Germany's eastern territories, slaves have risen up in arms against their German masters, carving a deep wound across the continent. As the Speer government mobilizes to address the crisis, Field Marshal Schörner has secured control of Germany's Russian territories. He has declared that if Germany cannot control the situation, he will crush the slave rebellion once and for all. Though a delicate peace still holds among the three sides, the world watches with bated breath to see whether Germany will finally cast off the shackles of slavery."
+ WORLD_REICH.212.a: "A disaster!"
+ WORLD_REICH.212.b: "Rise up, slaves in hunger and cold, reclaim your freedom!"
+ WORLD_REICH.212.c: "No more concessions!"
+ WORLD_REICH.212.d: "It is time to choose sides."
+ WORLD_REICH.213.t: "[Get_newspaper_header]Wehrmacht Mutiny Crushed"
+ WORLD_REICH.213.desc: "According to German official and independent sources, the Wehrmacht mutiny in the former Moscow Reichskommissariat led by Field Marshal Ferdinand Schörner has been thoroughly defeated. Schörner's exile to Russian territory was originally intended to protect the large-scale Wehrmacht reform program led by Field Marshal Henning von Tresckow, which enjoyed the support of Hans Speidel in Germany itself. But Schörner had been undermining the local regime of General Alexis von Röenne in the East until the slave uprising erupted, whereupon he staged a coup and overthrew him.
+
+Moscow now lies in ruins, and the slaves still hold Eastern Europe; the bully marshal will almost certainly not meet a good end. Yet as long as the slaves remain in revolt, Europe cannot return to stability."
+ WORLD_REICH.213.a: "Bloody Ferdinand has been defeated."
+ WORLD_REICH.214.t: "[Get_newspaper_header]Slave Uprising Crushed"
+ WORLD_REICH.214.desc: "According to independent and German official sources, Willy Brandt's slave uprising has been brutally suppressed by the Wehrmacht. Reports on casualty figures and the reprisals that followed are scarce and subject to German censorship, but estimates suggest the numbers must be catastrophic. The slave uprising was led by the Black-Red-Gold flag contingent and several European resistance organizations, fighting originally to abolish slavery and the infamous Nuremberg Laws.
+
+The Customs Union once had a bright future, but with Eastern Europe now in ruins, international investors have withdrawn their investments. Anonymous sources from several nations indicate they strongly recommend revising policy toward Germany on this matter. Uprising leader Brandt is presumed dead."
+ WORLD_REICH.214.a: "The dream of a free Europe is dead."
+ WORLD_REICH.215.t: "[Get_newspaper_header]Slave Uprising Settled"
+ WORLD_REICH.215.desc: "After tense negotiations with the Black-Red-Gold contingent and their guerrilla allies, Albert Speer announced today before the People\u2019s Hall with visible relief that the German government had reached an agreement with the slave rebels. The rebels must lay down their arms and restore order. In return, Germany will begin sweeping reforms, including the immediate abolition of slavery and the Nuremberg Laws - measures the Fuehrer called \u201creckless.\u201d The Nazi Party has reacted with mixed feelings, criticizing the Fuehrer for negotiating with bandits. Nonetheless, the agreement has been widely welcomed by the public, the Customs Union, and the international community.\n\nThe \u201cGang of Four,\u201d the backbone of German reform, was absent from the Fuehrer\u2019s side when he made the announcement. The contingent\u2019s leader, Willy Brandt, is believed to have fled to the United States."
+ WORLD_REICH.215.a: "It seems the Fuehrer is back in the spotlight."
+ WORLD_REICH.216.t: "[Get_newspaper_header]Slave Uprising Settled"
+ WORLD_REICH.216.desc: "After tense negotiations with the Black-Red-Gold contingent and their guerrilla allies, Kurt Kiesinger announced today before the People\u2019s Hall with visible relief that the German government had reached an agreement with the protesters. The East must end its protests and restore order. In return, Germany will begin sweeping reforms, including the immediate abolition of slavery and the Nuremberg Laws - measures the Deputy Fuehrer called \u201clong overdue.\u201d With the amendments granting freedom to Germany and the Customs Union, struggles unseen since the civil war have broken out within the Nazi Party, but domestic and international reaction has been overwhelmingly supportive.\n\nNotably, Fuehrer Speer was absent from the ceremony unveiling the agreement, reportedly resting from a \u201cslight chill.\u201d The contingent\u2019s leader, Willy Brandt, is believed to have fled to the United States."
+ WORLD_REICH.216.a: "Who is the real Fuehrer now?"
+ WORLD_REICH.217.t: "[Get_newspaper_header]Uprising in Germany"
+ WORLD_REICH.217.desc: "Germany's pride has been dealt a blow today, as a celebration of German achievements was disrupted by dissenters. The annual Nazi Party rally in Nuremberg was met by a crowd of student protesters demanding free speech and reform within Germany. But as they led the student protest, one of the students, Rudi Dutschke, was shot dead by Josef Bachmann, who appears to have no connection to the government; the motive seems ideological.
+
+Dutschke's death enraged the students, who broke through several barricades and brawled with guards, and police responded with force. After several shots, the riot was dispersed, and Nuremberg city authorities declared martial law. The German resistance organization Flag contingent has issued a statement supporting the protesters and claiming the shooting of Dutschke was carefully orchestrated by Germany itself."
+ WORLD_REICH.217.a: "Disturbing."
+ WORLD_REICH.217.b: "A catastrophe!"
+ WORLD_REICH.218.t: "[Get_newspaper_header]German Reformist Government Collapses"
+ WORLD_REICH.218.desc: "With several foreign liaison offices recently established by the Greater German Reich now closed and the homeland suddenly plunged into radio silence, international observers can piece together only a grim picture from the few remaining sources. The government of Fuehrer Albert Speer, known as the 'Gang of Four' government - composed of influential reformers who had allied with the Fuehrer before the German civil war - has collapsed.
+
+It has been replaced by a new government of Nazi Party reactionaries led by Theodor Oberlander. Fuehrer Speer has not been seen since the new restrictions were imposed; to calm the situation, the Chancellery issued a public statement that he is 'doing well.' Former government members remain unaccounted for."
+ WORLD_REICH.218.a: "We have failed."
+ WORLD_REICH.218.b: "Europe's last hope has been extinguished."
+ WORLD_REICH.219.t: "[Get_newspaper_header]Germany Integrates Eastern Reichskommissariats"
+ WORLD_REICH.219.desc: "Following State Marshal Ferdinand Schörner's recent coup against the German government, the fate of the eastern Reichskommissariats hangs in the balance - the commissar regimes continue to function as normal, but fear of a third Operation Barbarossa and its devastation still haunts them. Now that Germania maintains radio silence, Schörner appears intent on maintaining the current arrangements in the East to avoid further unsettling the situation.
+
+But the latest announcement shows this assumption is wrong: Germania has declared it will integrate all the eastern Reichskommissariats directly into Germany. It has specifically clarified that the commissariats are not abolished, but their autonomy is greatly reduced, so that Germany can control the East more effectively and efficiently. It seems the unrest in Eastern Europe will not abate even under Germania's watch."
+ WORLD_REICH.219.a: "Fear of one's superiors always outweighs fear of the enemy."
+ WORLD_REICH.219.b: "Digging one's own grave?"
+ WORLD_REICH.220.t: "[Get_newspaper_header]Germany Announces 'Democratic Reforms'"
+ WORLD_REICH.220.desc: "Recently, after failed negotiations and the brutal suppression of the slave uprising, Germany's future has grown darker - the long-sidelined Nazi Party 'reactionaries' have launched an internal coup against Fuehrer Albert Speer, immediately issuing a declaration of war. This faction is a broad front of National Socialists, all of whom were targets of Speer's crackdown, and is led by Reichstag president Theodor Oberlander.
+
+At first glance, one might assume the new government would continue harsh repression and reverse the reforms of the previous administration, but the current government is doing the opposite. In a televised address to the Reichstag, Oberlander announced he would continue pushing national reform, promising a new era of popular democratic participation within the structure of the Nazi Party. How he plans to achieve this new goal remains unknown."
+ WORLD_REICH.220.a: "One nation, one Reich, one party!"
+ WORLD_REICH.220.b: "This isn't democracy at all!"
+ WORLD_REICH.221.t: "[Get_newspaper_header]German Power Struggle Resumes"
+ WORLD_REICH.221.desc: "Recently, after military action against the insurgents and the brutal suppression of the Eastern European slave uprising, Germany's future has grown darker - the long-sidelined Nazi Party 'reactionaries' launched an internal coup against Fuehrer Albert Speer, and rebel Marshal Ferdinand Schörner immediately issued a declaration of war.
+
+Schörner's troops entered Germania as victors, but the opposition had already consolidated power: Oberlander's 'reactionaries.' Though both sides have agreed to temporary cooperation, the signs of a renewed power struggle are clear - both factions are courting supporters and preparing for an eventual coup, while Oberlander handles domestic German affairs and Schörner focuses on suppressing remaining resistance in the East. Germany's fate hangs by a thread."
+ WORLD_REICH.221.a: "Unity seems forever out of reach."
+ WORLD_REICH.221.b: "They would struggle even atop the corpses of millions?"
+ WORLD_REICH.222.t: "[Get_newspaper_header]Reykjavik Accords Begin Talks"
+ WORLD_REICH.222.desc: "The highly anticipated Reykjavik Accords are ready to enter the negotiation phase. American and German diplomats have departed for Iceland to attend what may be the most important international conference in a decade. The stakes are high; many are excited about the prospects of a 'thaw' in German-American relations.
+
+Every attendee knows the main issue is the American trade embargo against Germany. It remains unclear whether both sides are willing to compromise to lift the measures; rumors suggest the Americans will demand the full emancipation of slaves, that they will demand preferential trade status, that they will demand nuclear disarmament, or even all of the above. German sources are equally contradictory, with everything from 'we will never compromise' to 'we will give whatever he asks to lift the embargo' circulating. No one knows how the conference will unfold, but its outcome will set the tone for German-American relations for years to come."
+ WORLD_REICH.222.a: "Let the negotiations begin!"
+ WORLD_REICH.222.b: "Another foolish endeavor."
+ WORLD_REICH.223.t: "[Get_newspaper_header]Reykjavik Accords Concluded"
+ WORLD_REICH.223.desc: "By evening, the American and German delegations had reached agreement and jointly signed the treaty - an outcome many believed impossible.
+
+Foreign observers cannot yet determine what terms Germany offered to secure such a dramatic shift in American foreign policy, but it is certain the price was extraordinarily tempting, enough to win the Americans over.
+
+No one can predict how these actions will be received in the future, but German-American relations have finally thawed for the first time in decades."
+ WORLD_REICH.223.a: "Today is a new day."
+ WORLD_REICH.223.b: "What on earth did they sign?!"
+ WORLD_REICH.224.t: "[Get_newspaper_header]Toronto Accords Begin Talks"
+ WORLD_REICH.224.desc: "At the invitation of the National Progressive Convention, German diplomats have departed for the Canadian city of Toronto to attend what key officials are calling the 'Conference of the Century.' The conference will address the American embargo against Germany.
+
+Whether any agreement will be reached, and what it will contain, remains to be seen. Given the NPP's pro-German stance, many Germans are optimistic about the outcome. However, the Americans may not simply agree to abandon the embargo. In the coming days, the German side must remain vigilant."
+ WORLD_REICH.224.a: "The conference begins."
+ WORLD_REICH.224.b: "America is playing with fire."
+ WORLD_REICH.225.t: "[Get_newspaper_header]Toronto Accords Concluded"
+ WORLD_REICH.225.desc: "This afternoon, diplomats from Germany and the United States signed the Toronto Accords. After careful deliberation, the Americans agreed to end the trade embargo against Germany that had lasted for the past decade.
+
+Both governments are optimistic about the prospects of cooperation. Yet skeptics will ask themselves: can these new proposals survive administrative change?"
+ WORLD_REICH.225.a: "Forward to a new era!"
+ WORLD_REICH.225.b: "Today's enemy is tomorrow's friend."
+ WORLD_REICH.226.t: "[Get_newspaper_header]Schmidt Meets American President"
+ WORLD_REICH.226.desc: "To celebrate the success of the German-American diplomatic talks, German Foreign Minister Helmut Schmidt was invited to the White House. Schmidt had the honor of signing alongside the President the legislation formally ending the American embargo against Germany.
+
+It is a historic day for both nations; both are finally ready to put over twenty years of hostility and conflict behind them. Healing the wounds will take time, but the first step forward has finally been taken."
+ WORLD_REICH.226.a: "We will give peace a chance."
+ WORLD_REICH.226.b: "No one could have foreseen this."
+ WORLD_REICH.227.t: "[Get_newspaper_header]Black Valkyrie"
+ WORLD_REICH.227.desc: "Following the breakdown in German-American diplomatic relations, Fuehrer Albert Speer has recently begun mobilizing the German air force. Anonymous sources within his bureaucracy say Germany has approved a new operation codenamed 'Black Valkyrie,' in which Germany appears set to dispatch large numbers of aircraft (including nuclear-armed strategic bombers) to reconnoiter American and OFN airspace. Germany's intentions are unclear, but this appears to be a direct result of the collapse in diplomatic posture between the two nations. Foreign observers warn that the already highly tense situation may escalate further, and caution that limited conflict may result.
+
+We do not know what the final outcome will be, but as German and American forces face off, the world holds its breath."
+ WORLD_REICH.227.a: "Who will blink first?"
+ WORLD_REICH.228.t: "[Get_newspaper_header]Norfolk Accords"
+ WORLD_REICH.228.desc: "The world was stunned when the German delegation traveled to Norfolk, Virginia for negotiations. Détente between the two nations seemed unlikely, but pressure from the Speer cabinet and the threat of hostilities forced him to yield to America. As a gesture of 'goodwill,' the Norfolk Accords were signed aboard the USS Wisconsin, one of the few American battleships to survive the 1940s. Beneath the Stars and Stripes, the American embargo against Germany formally ended. To say Germany was humiliated is an understatement. Under the agreement, Germany was forced to improve slave conditions, grant American investors certain privileges, and drastically reduce its nuclear stockpile. As America proclaimed a new era of peace, its rival remained silent. German citizens are disgusted by the diplomatic humiliation; even Speer's most loyal supporters have nothing to say."
+ WORLD_REICH.228.a: "Wonderful news!"
+ WORLD_REICH.228.b: "Speer has stabbed us in the back."
+ WORLD_REICH.228.c: "It seems America has struck first blood."
+ WORLD_REICH.229.t: "[Get_newspaper_header]Melbourne Talks"
+ WORLD_REICH.229.desc: "Today, the German delegation held a small meeting with a small group of American diplomats in Melbourne. The German delegation, on a tour of the Co-Prosperity Sphere after signing a trade agreement with Japan, made a detour to the Australian city for informal talks with American diplomats there.
+
+To many's surprise, the atmosphere was friendly, and some progress was made in easing tensions between Germany and America. Though no formal treaty was signed, the American delegation reached a 'gentleman's agreement' to begin relaxing the long-standing embargo between the two superpowers.
+
+Though it is only a symbolic arrangement, many wonder whether this is the beginning of a new era of cooperation between the two nations."
+ WORLD_REICH.229.a: "A great victory for the fatherland!"
+ WORLD_REICH.229.b: "Germany has outpaced them in recent years."
+ WORLD_REICH.229.c: "An unexpectedly unexpected meeting."
+ WORLD_REICH.230.t: "[Get_newspaper_header]Copenhagen Talks"
+ WORLD_REICH.230.desc: "At the invitation of Greater German Fuehrer Albert Speer, the United States sent envoys to secret talks with Germany in Copenhagen. Since then, the American government has made a major adjustment to its foreign policy, announcing it will ease trade restrictions against Germany. As long as relations continue to develop positively, further relaxation of trade controls is expected. Whether the NPP will lose the next election over this remains to be seen.
+
+Domestic American opinion is more mixed; even within the NPP, some members question the decision to unconditionally ease trade controls. Others hail this as an attempt to normalize German-American relations. In any event, relations between the two superpowers have reached their highest point in decades."
+ WORLD_REICH.230.a: "A great diplomatic victory!"
+ WORLD_REICH.230.b: "The NPP bowing to Germany? Impossible."
+ WORLD_REICH.230.c: "Disturbing."
+ WORLD_REICH.231.t: "[Get_newspaper_header]German-American Relations Break Down"
+ WORLD_REICH.231.desc: "Relations between Germany and America have reached a new low. The American government has not issued an official statement, but an anonymous source at the American embassy quoted a famous saying: 'You cannot negotiate with people who think what is theirs is theirs, and what is yours is up for grabs.'
+
+The American embassy in Germania has now been cleared out, and its staff sent home. For the foreseeable future, the Americans will not negotiate."
+ WORLD_REICH.231.a: "A good thing; we won't miss them."
+ WORLD_REICH.231.b: "We do not talk to fascists."
+ WORLD_REICH.231.c: "The Doomsday Clock has moved a notch closer to midnight."
+ WORLD_REICH.232.t: "[Get_newspaper_header]Nuclear Strike on Iceland"
+ WORLD_REICH.232.desc: "Once again in history, a nuclear warhead has been detonated in humanity's rage against its fellow man, and for the second time America has been seared by nuclear fire. Iceland, America's Acropolis, has been consumed by a red flame brighter than the sun. An undetected German U-boat slipped into Icelandic waters and launched deadly short-range nuclear missiles in the early hours. The Americans had less than a minute to react. The beautiful island and its thousands of inhabitants are now nothing but ash and a few ruins.
+
+People across the world watched in horror, but this time, America can retaliate in kind. The Doomsday Clock stands at midnight; both superpowers' nuclear arsenals are ready. The world waits for America's response, and nuclear retaliation is imminent."
+ WORLD_REICH.232.a: "They wouldn't dare... right?"
+ WORLD_REICH.232.b: "The Germans have pushed too far."
+ WORLD_REICH.232.c: "The end is nigh."
+ WORLD_REICH.233.t: "[Get_newspaper_header]Germany Seeks Detente with Japan"
+ WORLD_REICH.233.desc: "German People's Fuehrer Albert Speer announced today at a press conference in the Chancellery that he has decided to send a new diplomatic mission to the Japanese imperial capital, Tokyo, to 'promote friendship between our two nations.'
+
+This has surprised most international observers, who expected German Foreign Minister Helmut Schmidt to steer German foreign policy across the Pacific, especially given that Japan is strongly suspected of involvement in the latest assassination attempt on Adolf Hitler.
+
+The Fuehrer quickly dismissed this tone as 'shameless talk' that fails to understand 'the high value Japanese culture places on honor and loyalty.' Germany and Japan fought side by side in the greatest war in human history, he said, and he is certain that this bond means more than twenty years of disagreements."
+ WORLD_REICH.233.a: "Schmidt seems to have been sidelined."
+ WORLD_REICH.234.t: "[Get_newspaper_header]German-Japanese Relations Successfully Reconciled"
+ WORLD_REICH.234.desc: "After weeks of negotiations, the German delegation in Tokyo and the Japanese delegation issued a joint statement announcing they had signed 'a series of comprehensive agreements between the two nations' that 'will help remedy the regrettable misunderstandings of the past 20 years.' Though the treaty's contents have not been published, everyone could see the smug satisfaction on both delegations' faces - perhaps excepting Helmut Schmidt."
+ WORLD_REICH.234.a: "Is a new Tokyo-Germania axis on the way?"
+ WORLD_REICH.235.t: "[Get_newspaper_header]German-Japanese Diplomatic Talks Succeed"
+ WORLD_REICH.235.desc: "After weeks of negotiations, the German delegation in Tokyo and the Japanese delegation issued a joint statement announcing they had signed 'comprehensive agreements' that 'will pave the way for friendly relations between the two nations.' The treaty's contents have not been published, but everyone considers the conference an important step toward détente between the two superpowers, despite some remaining minor disagreements."
+ WORLD_REICH.235.a: "Better than most expected."
+ WORLD_REICH.236.t: "[Get_newspaper_header]German-Japanese Diplomatic Talks Stall"
+ WORLD_REICH.236.desc: "After weeks of negotiations, the German delegation in Tokyo and the Japanese delegation issued a joint statement disclosing a memorandum signed between the two superpowers that 'will lay the first cornerstone on the long road to restoring friendship between the two nations.' In diplomatic terms, this means the talks did not go well, but at least they found common ground on principle: time will tell whether détente is put into practice or remains on paper."
+ WORLD_REICH.236.a: "As expected - arrogance killed the friendship."
+ WORLD_REICH.237.t: "[Get_newspaper_header]German-Japanese Diplomatic Talks Ultimately Fail"
+ WORLD_REICH.237.desc: "After weeks of negotiations, the German delegation in Tokyo left in haste, without even issuing a statement. To most international observers, this means the conference ended in fiasco. This speculation was later confirmed by the notoriously secretive Japanese Foreign Ministry; an unnamed official revealed that the only thing both sides could agree on was their disagreement. Relations between nations, especially superpowers, can change in just a few hours, but most believe that any hope of reconciliation between these two former allies is now gone."
+ WORLD_REICH.237.a: "Perhaps they should have listened to Schmidt..."
+ WORLD_REICH.1000.t: "[Get_newspaper_header]Germany's Eastern Territories Collapse"
+ WORLD_REICH.1000.desc: "Today, communications from the Moscow Reichskommissariat have completely broken down, confirming that German authority has collapsed. Observers believe this marks the culmination of Germany's loss of its European colonies.
+
+After the East descended into a sea of guerrilla warfare, the Poles rose up in the chaotic eastern territories, and after months of turmoil, the Ukrainian Reichskommissariat too was consumed by civil war.
+
+Whether the remaining German forces can maintain their regime is unknown. The only certainty is that once the master of Europe loses control of these territories, reclaiming them will be a costly endeavor."
+ WORLD_REICH.1000.a: "After the Fuehrer, the deluge."
+ WORLD_REICH.1000.b: "We can only weather the storm."
+ WORLD_REICH.1000.c: "A last chance for freedom."
+ WORLD_REICH.1400.t: "[Get_newspaper_header]Erich Koch Seriously Wounded in Kiev Explosion"
+ WORLD_REICH.1400.desc: "Following the assassination attempt on Erich Koch, martial law has been declared in the Ukrainian Reichskommissariat, the second such attack on a German leader this year. Yesterday morning, a bomb hidden in his personal car exploded as he left home, killing two soldiers and Koch's driver on the spot; Koch himself suffered serious wounds to the chest, right arm, and face. After emergency surgery, the German leader remains in critical condition.
+
+Since Germany seized Ukraine from the Soviet Union during the war, foreign undercover journalists have widely reported on the severe violence and poverty in Ukraine. As Germany begins hunting the assassins, the international community now broadly fears the Ukrainian people may be caught in the crossfire."
+ WORLD_REICH.1400.a: "Trouble brewing out of trouble."
+ UKR_UCW_NEWS.0.t: "[Get_newspaper_header]Reichskommissariat Wins Ukrainian Civil War"
+ UKR_UCW_NEWS.0.desc: "Today, Germany\u2019s breadbasket is quiet again, as the Reichskommissariat government has retaken control of Ukraine. In a statement from the Ukrainian government, Kiev celebrated the end of the uprising and reaffirmed its commitment to \u201cnational socialism, the Fuehrer, and the German people.\u201d However, some within the Kiev government, including the current Commissar Georg Leibbrandt, have proposed reforms to the commissariat.\n\nThough the situation remains stable for now, rifts within the commissariat may still be widening. Though Leibbrandt holds formal power, the current ruling body - the Security Council, composed of Leibbrandt, Otto Ohlendorf, and Hans-Otto Brütigam - is on the verge of collapse as the three fight over power. Though the conflict is not expected to escalate to war, it goes without saying that Ukraine\u2019s future remains buried in chaos."
+ UKR_UCW_NEWS.0.a: "The substance of power belongs to those who hold it."
+ UKR_UCW_NEWS.0.b: "German hegemony is unstoppable."
+ UKR_UCW_NEWS.0.c: "The iron heel still tramples."
+ UKR_UCW_NEWS.1.t: "[Get_newspaper_header]Ukrainian People\u2019s Republic Founded"
+ UKR_UCW_NEWS.1.desc: "After the collapse of the Greater German Reich\u2019s eastern marches, a light of hope finally shines through the dark fog of war. The so-called \u201cGerman breadbasket\u201d has, after a month of civil strife, fallen under the control of liberal guerrillas, who have begun building a new democratic government.\n\nThe Ukrainian People\u2019s Republic now champions the dream of a free nation, winning support from Ukraine\u2019s oppressed millions; a sovereign state has been established, and native Ukrainians are the principal leaders of the new government.\n\nThe international community remains skeptical of what may come, but Republic leader Yuri Gorlis assures everyone: Ukraine will be free forever."
+ UKR_UCW_NEWS.1.a: "We are finally free!"
+ UKR_UCW_NEWS.1.b: "Liars! Empty promises all!"
+ UKR_UCW_NEWS.1.c: "A glimmer of light in Europe\u2019s darkness?"
+ UKR_UCW_NEWS.2.t: "[Get_newspaper_header]Ukrainian Soviet Socialist Republic Restored"
+ UKR_UCW_NEWS.2.desc: "A great reversal has occurred in Eastern Europe. The Ukrainian Soviet Socialist Republic, once thought a relic of the past, has defeated the rival factions of the Ukrainian civil war and seized control of the entire commissariat. Though its origins lie in the Soviet Union, it appears to be more than a continuation of the Soviet regime: First Secretary Alexander Shumsky has distanced himself from Bukharin\u2019s ideology, declaring his faith in national communism and emphasizing the continued liberation of the Ukrainian people.\n\nThe red flag flies over Germany\u2019s breadbasket, and the world watches, holding its breath, to see how Germany will retaliate. But for now, many Ukrainians celebrate the founding of the Ukrainian SSR, a great moment in their escape from decades of suffering and atrocity."
+ UKR_UCW_NEWS.2.a: "A new revolution begins!"
+ UKR_UCW_NEWS.2.b: "The wheels of history cannot be turned back."
+ UKR_UCW_NEWS.2.c: "Freedom always comes at a price."
+ UKR_UCW_NEWS.3.t: "[Get_newspaper_header]Ukrainian Insurgent Army Unites Ukraine"
+ UKR_UCW_NEWS.3.desc: "Ukraine, a nation born from the remnants of the OUN led by Stepan Bandera, has utterly overturned 20 years of the status quo. Its leader, Dmitry Klyachkivsky, a staunch adherent of Bandera\u2019s ultranationalism, has made clear his desire to build a Ukraine free of all \u201cparasites.\u201d German settler families and other minorities have begun fleeing toward the border, hoping to escape Ukraine before \u201creprisals\u201d begin.\n\nYet all is not well in Ukraine. The mutterings of dissidents and rebels undermine the new state\u2019s stability. Dmitry Klyachkivsky dismissed these rumors, announcing on the radio: \u201cUkraine is liberated from the poison of the vile Germans, Russians, and Poles! Those who still serve the exploiters may join their masters in death! Glory to Ukraine, glory to the heroes!\u201d Only time will tell whether this new Ukraine will rise from the flames or be buried in ash."
+ UKR_UCW_NEWS.3.a: "Glory to Ukraine, glory to the heroes!"
+ UKR_UCW_NEWS.3.b: "Clearly Ukraine has learned nothing in twenty years."
+ UKR_UCW_NEWS.3.c: "Bandera\u2019s shadow stretches ever longer."
+ WORLD_REICH.1600.t: "[Get_newspaper_header]German Government in Moscow Paralyzed"
+ WORLD_REICH.1600.desc: "The chaos in Germany following Hitler's death has spread to the Moscow Reichskommissariat. Remnant guerrilla organizations in this German colony, taking advantage of the homeland's internal turmoil, have undermined the rule of the Unity Pact here. Various rebels, remnants of the Wehrmacht, and even smaller collaborationist groups have openly declared their rebellion, seizing control of large swathes of territory.
+
+Though no single rebel group has the resources or manpower to thoroughly overthrow German rule in Moscow, fearing this could change at any moment, the German government has decided to act with an iron fist. The resulting security operation suggests the Moscow government may soon undergo a change."
+ WORLD_REICH.1600.a: "A fragmented empire."
+ WORLD_REICH.1600.b: "A disgrace indeed."
+ WORLD_REICH.2201.t: "[Get_newspaper_header]Norwegian Military Resistance Launches Coup"
+ WORLD_REICH.2201.desc: "Revolution has swept the Greater German Reich! As war envelops Europe in a deadly shadow, Norway has undergone a dramatic change of leadership since the military resistance launched its coup.
+
+Over the past two decades, the resistance movement fiercely opposed the rule of the Norwegian Reichskommissariat. To democrats, they are freedom fighters; to National Socialists, they are warmongering terrorists. What is certain is that they have occupied central Oslo, expelled the traitors, and established a new provisional government. Under the command and leadership of Knut Mohn, Norway is once again transitioning to a functioning democracy, fulfilling its grand ambition."
+ WORLD_REICH.2201.a: "Democracy in Europe? It won't last long..."
+ WORLD_REICH.2201.b: "The light of the North shines upon us once more."
+ WORLD_REICH.2300.t: "[Get_newspaper_header]Burgundy Shakes"
+ WORLD_REICH.2300.desc: "The Swiss Seismological Service has issued a press release with alarming news. Last night, their headquarters in Zurich detected an earthquake in the Burgundian Jura region, lasting four seconds and reaching magnitude 4.6 on the Richter scale. With no aftershocks, they concluded this was 'not a natural occurrence, but likely a man-made event.' Several Swiss radiologists also reported a surge in atmospheric radiation equivalent to a mild nuclear reactor meltdown... or an atomic bomb explosion.
+
+Governments around the world have reached one conclusion: the Burgundians have successfully tested a nuclear device, twice as powerful as the one dropped on Pearl Harbor in 1945. As this shadowy and secretive government remains as tight-lipped as ever, the news may never be confirmed. Nonetheless, it seems [GetYear] will be remembered as a dark moment in history: the year Burgundy joined the ranks of nuclear powers."
+ WORLD_REICH.2300.a: "God help us."
+ WORLD_REICH.2300.b: "Magnificent!"
+ WORLD_REICH.2300.c: "Does that madman even know what he's doing?!"
+ BRG_finally_done_it_tt: "\u00a7RThe whole world holds its breath...\u00a7!"
+ WORLD_REICH.2302.t: "[Get_newspaper_header]SS Burgundian Crusader State Collapses"
+ WORLD_REICH.2302.desc: "The world has long known little of Burgundy, but according to dissidents and refugees, the infamous and mysterious state led by Heinrich Himmler is on the verge of collapse. Himmler is reportedly caught in a mêlée between his SS foreign legions and the French resistance.
+
+Governments and observers are watching events closely. America has issued a statement saying it is monitoring the situation and has convened an emergency meeting, and the Pentagon has placed forces on alert. Germany has issued no public statement, but sources say authorities are also holding emergency meetings and moving troops to the German-Burgundian border. Though the situation is unclear, experts believe intervention is inevitable - the question is, who will strike first?"
+ WORLD_REICH.2302.a: "The shadow nation is dying."
+ WORLD_REICH.2302.b: "Everything, absolutely everything is falling apart."
+ WORLD_REICH.2303.t: "[Get_newspaper_header]Germany Invades Burgundy"
+ WORLD_REICH.2303.desc: "With troops steadily building up on the German-Burgundian border and the rhetoric of German authorities steadily escalating, many experts predicted Germany would inevitably intervene in the collapsing Burgundy. This morning, German forces have been confirmed entering the Crusader State, claiming the need to restore order on the western frontier.
+
+Two SS foreign legions and Himmler's own loyalists have been targeted, suggesting the authorities intend to fully pacify the situation and utterly destroy the last SS stronghold in Europe. German officials promise a swift victory, but there are signs Himmler is attempting to relocate to continue resistance. Most believe the former Crusader State is doomed."
+ WORLD_REICH.2303.a: "The Black Sun has set."
+ WORLD_REICH.2304.t: "[Get_newspaper_header]Germany Reoccupies Burgundy"
+ WORLD_REICH.2304.desc: "Convoys and tanks of the Greater German Reich roll through the streets of northern Paris, followed by ranks of French soldiers and cheering crowds. The Fuehrer announced before thousands that Burgundy has been liberated from the tyranny of Himmler and the SS, and praised the French State's key role in the liberation. Across the former Crusader State, people celebrate openly, greeting soldiers from France or Germany as heroes.
+
+The Greater German Reich and the French State are gradually releasing information about the living conditions of the people there, revealing widespread poverty and the unbridled violence of the SS. Though many newly liberated people welcome the Greater German Reich's intervention, some surviving dissidents believe this is merely a change of master holding the whip. Only time will tell whether their fears come true."
+ WORLD_REICH.2304.a: "Dark clouds hang over Burgundy."
+ WORLD_REICH.2305.t: "[Get_newspaper_header]America Intervenes in Burgundy"
+ WORLD_REICH.2305.desc: "Just hours after Germany announced its intention to intervene in the rapidly collapsing Crusader State, America and France jointly announced they are also deploying troops into the territory formerly controlled by the Crusader State to implement France's irredentist plans.
+
+With the rumble of the American war machine, French soldiers have begun limited entry into Burgundy, and many French hope to reclaim more homeland before German forces advance further.
+
+Whether this intervention will change the tide against the master of Europe remains to be seen, but American and French officials alike hope to seize the opportunity, even as some worry intervention raises the risk of a third world war."
+ WORLD_REICH.2305.a: "The time has come for France to reclaim its lands."
+ WORLD_REICH.2306.t: "[Get_newspaper_header]Paris Accords"
+ WORLD_REICH.2306.desc: "Germany and America have announced an agreement on the former Burgundian territory, and countless people have breathed a sigh of relief. Both sides have agreed to demilitarize the border, withdraw their forces, and return the territory to France.
+
+Observers have confirmed that soldiers and military equipment are rapidly withdrawing from Burgundy, and the OFN has fulfilled its commitment to rebuild France, with humanitarian aid flooding in. Now France faces the daunting task of healing the wounds left by Himmler, and the international community relaxes, as this Western European crisis has finally been averted."
+ WORLD_REICH.2306.a: "The Doomsday Clock has moved back from midnight."
+ WORLD_REICH.2307.t: "[Get_newspaper_header]Burgundy Crisis"
+ WORLD_REICH.2307.desc: "After Germany and America traded accusations and each stormed out of the negotiations over the former Burgundian territory, the world's fear of war has risen sharply. Both sides say they will not give up Burgundy easily, and their soldiers are on high alert. Washington and Germania have both convened emergency meetings, but neither has commented on their nature.
+
+No direct conflict has broken out, but both Germany and America have been observed adding manpower and equipment. OFN and Unity Pact leaders have privately revealed that the crisis may 'escalate' next. With neither Germany nor America willing to restart negotiations, many fear the situation will only worsen in the future, potentially dragging the world into another world war."
+ WORLD_REICH.2307.a: "Midnight approaches."
+ WORLD_REICH.2308.t: "[Get_newspaper_header]France Demands Return of Territory"
+ WORLD_REICH.2308.desc: "As German iron treads crush every street of northern Paris, Germany has announced it has secured control over the entire former Burgundian Crusader State, thoroughly destroying Heinrich Himmler and his rebel SS forces, as well as the nascent French resistance. Germany has declared this day a Day of Liberation and clarified its position on reclaiming its rightful territory and its intention to rebuild.
+
+Though France was not a participant in the conflict, it has issued an official demand that Germany 'immediately return legitimate French territory,' though it is unclear what means France intends to use to effect the return. For now, Germany has not responded, but sources say German and French negotiators have begun consultations. Further reports on the progress of these talks are expected."
+ WORLD_REICH.2308.a: "The German price must be steep."
+ WORLD_REICH.2309.t: "[Get_newspaper_header]Germany Returns French Territory"
+ WORLD_REICH.2309.desc: "The French State and every corner of the former Crusader State are engulfed in celebration, as the French government announced today that Germany has agreed to return all legitimate French territory. The French government has prepared a large-scale national celebration in Paris, and has also pledged to restore and rebuild the French homeland devastated under Himmler's iron rule.
+
+In a less publicized announcement, Germany has also revealed that France will soon formally join the Unity Pact, seen as Germany's price for returning the territory.
+
+Though this new Franco-German alliance has taken many experts by surprise, few French care about these geopolitical details. The fatherland is whole again, and for that alone, they will cheer."
+ WORLD_REICH.2309.a: "Vive la France!"
+ WORLD_REICH.2310.t: "[Get_newspaper_header]Germany Refuses to Return French Territory"
+ WORLD_REICH.2310.desc: "Tensions between France and Germany have reached a new high, as Germany has made clear it will not return former French territory to its prior owner. France has sharply condemned Germany's actions and revealed that Germany is trying to force them to join the Unity Pact in exchange for territory that is rightfully theirs.
+
+Though the OFN has issued a formal condemnation, Germany is proceeding to establish a 'provisional reconstruction government' to coordinate efforts to stabilize the region.
+
+Few believe France can reclaim its territory without German cooperation, and most experts believe Germany is doing this to ensure it holds the upper hand in the standoff between the two nations."
+ WORLD_REICH.2310.a: "Injustice remains."
+ WORLD_REICH.2311.t: "[Get_newspaper_header]Burgundy Stalemate"
+ WORLD_REICH.2311.desc: "Though Himmler's forces and the various SS legions have been thoroughly crushed under the joint German-American-French offensive, the situation in Burgundy remains tense. Burgundy's territory is nominally controlled by German and American forces, but both sides remain highly vigilant against any signs of aggression from the other.
+
+Germany and America have both publicly signaled a desire to ease tensions, but observers note both armies are still reinforcing their positions along the front lines in case of escalation. Diplomats from both nations have begun entering Burgundy to prepare for high-level talks. Though the world hopes the situation will stabilize, tensions continue to rise - some even fear that war could once again erupt between the two superpowers."
+ WORLD_REICH.2311.a: "Now it depends on diplomacy."
+ WORLD_REICH.2312.t: "[Get_newspaper_header]Germany Maintains Influence Over French Territory"
+ WORLD_REICH.2312.desc: "Though many experts predicted this after Germany's conquest of Burgundy, most are still surprised that Germany has established a regime on former French and Belgian territory - a regime entirely unrelated to the French State.
+
+Many believe this stems from the French-Italian alliance, and it has predictably caused unrest among the French. The French accuse the Germans of never even consulting them; Italy and its allies echo the complaint, but most expect no actual action from them.
+
+Now many are watching closely, wondering whether the new regime can survive, or whether a new wave of resistance will rise in this war-weary and exhausted nation."
+ WORLD_REICH.2312.a: "The clock returns to zero."
+ WORLD_REICH.2313.t: "[Get_newspaper_header]Franco-German Agreement Committee Established"
+ WORLD_REICH.2313.desc: "The world is both relieved and unsettled after confirming the collapse of the SS Burgundian Crusader State; though the shadow of Burgundy has receded, Germany immediately announced a mobilization and invaded the remnants of Heinrich Himmler's collapsed realm. After order was restored in the region, Germany declared total victory over Himmler, and the terrorist reign of the Reichsführer-SS has finally ended.
+
+With the French State government having collapsed after the failed conquest of Brittany, Germany has established the Franco-German Agreement Committee led by Adolf Heusinger. Though the OFN and Italy have expressed concern about developments, without opposition from a legitimate French government, the other powers in the world have no excuse to intervene and can only hope this time German rule will be more merciful than last."
+ WORLD_REICH.2313.a: "We have defeated the traitor Himmler!"
+ WORLD_REICH.2313.b: "Another German regime."
+ WORLD_REICH.1599.t: "[Get_newspaper_header]Germany Destroys Kiev"
+ WORLD_REICH.1599.desc: "Amid fear and shock sweeping the globe, Germany today used nuclear weapons against the city of Kiev, causing hundreds of thousands of casualties. Reports say that, unable to effectively suppress the unrest in the Ukrainian Reichskommissariat, Germany decided to use devastating weapons against the city, which Germany considers its own sovereign territory. Faced with the threat to German dominance and fears of further chaos, the Fuehrer decided to take 'extreme measures.'
+
+Though Germany has not yet issued a statement, the international reaction has been swift and strong. OFN member states issued a joint statement sharply condemning this 'unprecedented barbarism.' A spokesperson for the Empire of Japan expressed shock and anger, telling the media that Japan will review its limited relations with Germany. Protests have erupted in several European cities."
+ WORLD_REICH.1599.a: "They point to the ruins and call it peace."
+ WORLD_REICH.1000.d: "The empire falls silent; the nation rises."
+ WORLD_REICH.1000.e: "Rampant imperialism has met its just deserts."
+ WORLD_REICH.1600.b: "A true disgrace."
+ WORLD_REICH.1601.t: "[Get_newspaper_header]Heldorf Takes Over as Moscow Commissar"
+ WORLD_REICH.1601.desc: "The chaos in the Moscow Reichskommissariat has come to an end, as former Deputy Commissar Count Wolf-Heinrich von Helldorf won the fierce power struggle, defeating his predecessor Globocnik and taking office.
+
+Though details are not yet known, Helldorf appears to have seized power after successfully convincing the bureaucracy to recommend him as commissar and exposing Globocnik's corruption scandal. Helldorf is believed to intend to abandon the dysfunctional commissariat government inherited from his predecessor and reform and reshape it with 'just the right amount of national socialism.'"
+ WORLD_REICH.1601.a: "Does that mean the previous system wasn't national socialism?"
+ WORLD_REICH.1601.b: "Interesting..."
+ WORLD_REICH.1602.t: "[Get_newspaper_header]Globocnik Restores Order in Moscow"
+ WORLD_REICH.1602.desc: "The chaos in the Moscow Reichskommissariat has come to an end, as Odilo Globocnik gained the upper hand in the power struggle, defeating his deputy Count Wolf-Heinrich von Helldorf and continuing in office as commissar.
+
+Globocnik is a hardline Nazi, personally appointed as Moscow commissar by Heinrich Himmler, the long-serving Reichsführer-SS. After the vicious incident known as the 'Moscow Disturbances,' Globocnik's regime seemed on the brink, but it turns out even such a massive crisis could not shake his rule. Globocnik exposed the corruption and treachery of former Deputy Commissar Helldorf to Germany and the world, foiling his plot to overthrow the regime. The one-time and future commissar is now fully prepared and will not allow German Moscow to continue to decline under his watch."
+ WORLD_REICH.1602.a: "No more decline? Who is this man fooling?"
+ WORLD_REICH.1602.b: "Make do..."
+ WORLD_REICH.1603.t: "[Get_newspaper_header]Moscow Reichskommissariat Under Permanent Martial Law"
+ WORLD_REICH.1603.desc: "The ongoing chaos within the German colony of the Moscow Reichskommissariat has led to the complete collapse of the leadership of the Nazi Party's Eastern Bureau. Former Commissar Globocnik and Deputy Commissar von Helldorf have been exiled, and the Eastern Bureau has not yet recovered from this heavy blow.
+
+With the situation still not improving, the temporary martial law imposed on the Moscow Wehrmacht has become permanent, and a new political system has been established. With General Fritz-Dietlof von der Schulenburg rising to become the central figure in establishing and maintaining this new colonial rule, the military measures previously taken by General von Stauffenberg no longer have legal force."
+ WORLD_REICH.1603.a: "The name Stauffenberg rings a bell..."
+ WORLD_REICH.1603.b: "We'd better keep an eye on that 'Red Count'..."
+ WORLD_REICH.1604.t: "[Get_newspaper_header]All-Moscow Congress Establishes Collaborationist Protectorate"
+ WORLD_REICH.1604.desc: "Amid ongoing chaos, the Nazi Party Eastern Bureau that held supreme power in the German colony of the Moscow Reichskommissariat has completely collapsed. It was expected that the Moscow Wehrmacht government would be able to stabilize the colony, but now that hope has been dashed. At the cost of Moscow's lives, the rebellion continues and grows.
+
+In this situation, the All-Moscow Congress established by collaborators has become the colony's last pillar of stability. The German homeland government had no choice but to allow it to establish a protectorate, led by two political organizations: the Anti-Bolshevik Struggle League and the Russian People's Socialist Party."
+ WORLD_REICH.1604.a: "Who would have thought the Germans would do this?"
+ WORLD_REICH.1604.b: "Terrible - it's like letting slaves run the plantation..."
+ WORLD_REICH.1605.t: "[Get_newspaper_header]Moscow Enters Martial Law"
+ WORLD_REICH.1605.desc: "Amid ongoing chaos, the Nazi Party Eastern Bureau that held supreme power in the German colony of the Moscow Reichskommissariat has completely collapsed. Former Commissar Globocnik and Deputy Commissar von Helldorf were involved in a large-scale corruption scandal, causing strong resentment against them in the German homeland.
+
+Under the onslaught of the rebels, Globocnik and Helldorf have been recalled to the homeland in disgrace. The Eastern Bureau has urgently authorized Count Claus Schenk von Stauffenberg, military commander in Moscow, to declare martial law and establish a provisional military administration. Sources say the general's task is enormous, as this largest of Germany's colonies is now awash in unprecedented chaos and disorder."
+ WORLD_REICH.1605.a: "What changes from one tyranny to another?"
+ WORLD_REICH.1605.b: "What choice do we have?"

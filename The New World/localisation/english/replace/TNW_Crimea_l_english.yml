@@ -1,0 +1,56 @@
+﻿l_english:
+ CRI_fascism_party:0 ""
+ CRI_fascism_party_long:0 ""
+ CRI_national_socialism_party:0 "Nazi Party"
+ CRI_national_socialism_party_long:0 "National Socialist German Workers' Party (Nationalsozialistische Deutsche Arbeiterpartei)"
+ CRI_ultranationalism_party:0 ""
+ CRI_ultranationalism_party_long:0 ""
+ CRI_despotism_party:0 "TVL"
+ CRI_despotism_party_long:0 ""
+ CRI_paternalism_party:0 "Black Sea League"
+ CRI_paternalism_party_long:0 "Black Sea League (Schwarzmeer-Liga)"
+ CRI_conservatism_party:0 "Crimean Independence Party"
+ CRI_conservatism_party_long:0 "Crimean Independence Party (Krim-Unabhängigkeits-Partei)"
+ CRI_liberalism_party:0 ""
+ CRI_liberalism_party_long:0 ""
+ CRI_progressivism_party:0 ""
+ CRI_progressivism_party_long:0 ""
+ CRI_socialist_party:0 ""
+ CRI_socialist_party_long:0 ""
+ CRI_communist_party:0 ""
+ CRI_communist_party_long:0 ""
+ CRI_Otto_Christandl:0 "Otto Christandl"
+ CRI_Otto_Christandl_hog_desc: "§YNational Socialism
+Deputy Gauleiter§!
+--------------
+"
+ CRI_Kurt_Hinze:0 "Kurt Hinze"
+ CRI_Kurt_Hinze_sec_desc: "§YNational Socialism
+Higher SS and Police Leader of the Black Sea§!
+--------------
+"
+ CRI_Ernst_Durrfeld:0 "Ernst Dürrfeld"
+ CRI_Ernst_Durrfeld_eco_desc: "§YNational Socialism
+Gau Economic Advisor and Chairman of the Gau Chamber of Commerce§!
+--------------
+"
+ CRI_Franz_Maierhofer:0 "Franz Maierhofer"
+ POLITICS_FRANZ_MAIERHOFER_DESC: "As Slavs advance from all sides, Franz Maierhofer's mind is cast back to the Battle of Lipetsk years ago. It was in that battle that a rifle shot pierced his torso, nearly killing him from blood loss. In that moment, he felt true despair — once bitten, twice shy. But what if the snake were to return?
+
+Maierhofer did indeed recover from his wounds that day. Returning home, he was awarded a Knight's Cross of the Iron Cross and took up a respectable post in Crimea — and ten years later, he had climbed to the rank of Gauleiter. But that bullet remains lodged in the flesh of his torso, and he can often feel that a foreign object is trapped forever inside him.
+
+Until now, the position of Gauleiter had not been particularly demanding. Colonial issues were handled by better men, and Maierhofer spent his time in Crimea doing what he did best — ideological propaganda and agitation, the spiritual nourishment of the Crimean settler community. The Gauleiter thought his work would be simple: the Thousand-Year Reich was established, so why worry?
+
+But now, all he can do is gather his remaining subordinates and stand on the banks of the Dnieper in prayer."
+ CRI_the_great_panic:0 "The Great Panic"
+ CRI_the_great_panic_desc: "Gotenland was once propagandized as a safe and cheap way for Germans to explore the East — a peaceful, docile commercial hub in the Orient. In its heyday, Gotenland was a resort for tourism and settlement, a lone bright star in the stalled Generalplan Ost.
+
+But the rapid rise of partisans across the Dnieper has ended that reputation. Even though most information about the conflict is censored or distorted, local Germans have heard rumors of continued partisan victories, and they are preparing for the worst. Flights out of Port Theodoric are sold out the moment they open. Refugee camps are taking shape on both sides of the Kerch Strait. Both private and public investment have now stalled, and Gotenland looks no different from the rest of the East — dangerous, unprofitable, and doomed to stagnation."
+ CRI_the_crimean_clade:0 "The Crimean Clade"
+ CRI_the_crimean_clade_desc: "The rule of Gotenland is defined by its "eccentric" followers. The local Nazi Party office favors members who are more active, radical, and heterodox. Similar to earlier expansions in Austria and Poland, driven by manpower needs and a belief in settler ethics, the Gotenland party office opened its doors to some "less respectable" fascists. Those who came to Crimea were often eager and enthusiastic, but for various reasons widely marginalized within the party. In Gotenland, hundreds of miles from their home Gaue and the central office, the blemishes on their records had become history.
+
+Whether they were humiliated, expelled, or simply disaffected, the members of the Crimean party office were bound together by their common unpopularity. Now, that unity will be tested in the fires of war."
+ CRI_dug_behind_the_dnieper:0 "Dug In Behind the Dnieper"
+ CRI_dug_behind_the_dnieper_desc: "The civil war came as a surprise, but the integrated system of the Gotenland Gau was precisely what could respond to such an emergency. With the help of SS and Wehrmacht leaders, Gauleiter Maierhofer is using his near-absolute authority to marshal every remaining resource in Crimea to further defend against the expected "bandit" incursion.
+
+Though with limited resources and intelligence, these defensive measures are far from foolproof, they have at least ensured that the Reichskommissariat no longer needs to worry about Gotenland's troubles. All they can do is buy time — but at least that goal has been achieved."

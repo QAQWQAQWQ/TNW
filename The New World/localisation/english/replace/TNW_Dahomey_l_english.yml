@@ -1,0 +1,74 @@
+﻿l_english:
+ GBE: "Republic of Dahomey"
+ GBE_DEF: "Republic of Dahomey"
+ GBE_ADJ: "Dahomean"
+ GBE_CAOPuppet: "Benin"
+ GBE_CAOPuppet_DEF: "Benin Socialist Republic"
+ GBE_CAOPuppet_ADJ: "Beninese"
+ GBE_FFRPuppet: "Dahomey"
+ GBE_FFRPuppet_DEF: "Republic of Dahomey"
+ GBE_FFRPuppet_ADJ: "Dahomean"
+ GBE_WOLPuppet: "Dahomey"
+ GBE_WOLPuppet_DEF: "Republic of Dahomey"
+ GBE_WOLPuppet_ADJ: "Dahomean"
+ GBE_communist_party: "People's Revolutionary Party of Benin"
+ GBE_communist_party_long: "People's Revolutionary Party of Benin (Parti de la Révolution Populaire du Bénin)"
+ GBE_socialist_party: "People's Revolutionary Party of Benin"
+ GBE_socialist_party_long: "People's Revolutionary Party of Benin (Parti de la Révolution Populaire du Bénin)"
+ GBE_progressivism_party: "Dahomean Democratic Rally"
+ GBE_progressivism_party_long: "Dahomean Democratic Rally (Rassemblement Démocratique Dahoméen)"
+ GBE_liberalism_party: "Dahomean Democratic Rally"
+ GBE_liberalism_party_long: "Dahomean Democratic Rally (Rassemblement Démocratique Dahoméen)"
+ GBE_conservatism_party: "Dahomean Democratic Rally"
+ GBE_conservatism_party_long: "Dahomean Democratic Rally (Rassemblement Démocratique Dahoméen)"
+ GBE_paternalism_party: "Dahomean Democratic Rally"
+ GBE_paternalism_party_long: "Dahomean Democratic Rally (Rassemblement Démocratique Dahoméen)"
+ GBE_despotism_party: "Military Council of Salvation of Dahomey"
+ GBE_despotism_party_long: "Military Council of Salvation of Dahomey (Conseil Militaire du Salut de Dahomey)"
+ GBE_fascism_party: "Military Council of Salvation of Dahomey"
+ GBE_fascism_party_long: "Military Council of Salvation of Dahomey (Conseil Militaire du Salut de Dahomey)"
+ GBE_national_socialism_party: "-"
+ GBE_national_socialism_party_long: "-"
+ GBE_ultranationalism_party: "-"
+ GBE_ultranationalism_party_long: "-"
+ GBE_Jean_Baptiste_Hacheme: "Jean-Baptiste Hachème"
+ GBE_Benoit_Koffi_Sinzogan: "Benoît Koffi Sinzogan"
+ GBE_Justin_Ahomadegbe_Tometin: "Justin Ahomadegbe-Tometin"
+ GBE_Iropa_Maurice_Kouandete: "Iropa Maurice Kouandété"
+ GBE_Sourou_Migan_Apithy: "Sourou-Migan Apithy"
+ GBE_Hubert_Maga: "Hubert Maga"
+ GBE_Christophe_Soglo: "Christophe Soglo"
+ GBE_Mathieu_Kerekou: "Mathieu Kérékou"
+ GBE_Ibrahim_Babangida: "Ibrahim Babangida"
+ GBE_Alphonse_Alley: "Alphonse Alley"
+ GBE_Paul_Emile_de_Souza: "Paul-Émile de Souza"
+ GBE_Phillipe_Akpo: "Phillipe Akpo"
+ POLITICS_JEAN_BAPTISTE_HACHEME_DESC: "Jean-Baptiste Hachème was born into a Fon family in Porto-Novo, French Dahomey. When the French colonists hastily withdrew, he was but a boy. He grew up in the relatively stable and well-functioning Republic of Dahomey, and once took pride in being a citizen of a democracy. Yet as the republican government continued its dealings with the Free French in Abidjan, public trust in the government steadily eroded. By the time Hachème was promoted to general, discontent in the ranks finally boiled over into a bloodless military coup — an action that was supposed to be led by the respected General Christophe Soglo, aimed at severing ties with the former colonizer. Unexpectedly, Soglo and the other senior generals collectively refused to take power, leaving the presidential throne vacant and the army split into coup and anti-coup factions. In the deadlock where no one would take on the responsibility, the coup faction nominated Hachème as president. At 32 years old, he reluctantly accepted the appointment, and thus began his political career. This decision would soon become his nightmare.
+
+The fledgling Dahomean regime teetered on the brink of collapse amid multiple crises: the anti-coup faction, led by the popular Soglo, continued to threaten Hachème's controversial rule; the people still longed for the relative freedoms of the old republic; and Hachème's influence in the army was far inferior to Soglo's. The fate of this small West African nation seemed doomed to be short-lived.
+
+But Dahomey is ultimately a dream woven from the hopes of the oppressed, an attempt to bridge the tribal rifts created by the European powers. Even if the dream seems futile, Hachème is willing to burn his life in its realization."
+ GBE_Jean_Baptiste_Hacheme_hog_desc: "§YHead of Government
+Military Junta§!
+--------------
+"
+ GBE_Benoit_Koffi_Sinzogan_for_desc: "§YMinister of Foreign Affairs
+Social Nationalism§!
+--------------
+"
+ GBE_Justin_Ahomadegbe_Tometin_eco_desc: "§YMinister of Economy
+Paternalist Developmentalism§!
+--------------
+"
+ GBE_Iropa_Maurice_Kouandete_sec_desc: "§YMinister of Security
+Military Junta§!
+--------------
+"
+ GBE_idea_ghosts_republic_dahomey: "Ghosts of the Dahomean Republic"
+ GBE_idea_ghosts_republic_dahomey_desc: "According to the official narrative of the new government, the recent coup was born from the people's thirst for change, and Hachème and his faction dutifully answered this call. Similarly, the old Republic of Dahomey was nothing more than a den of corruption, serving the wealthy elite while ordinary citizens struggled to survive under German bombs. Yet one need only walk the streets of Lomé to see that the public's view is far removed from Hachème's rhetoric.
+
+Yes, they admit the republic had all sorts of problems, but at least it dreamed of a stable and prosperous future. At the very least, the system was fair back then — unlike this government, which favors Dahomeans. The Hachème regime must deal with this dissent quickly, for a people who broadly long for the old government will find a way to bring it back."
+ GBE_idea_militia_based_army: "Militia-Based Army"
+ GBE_idea_militia_based_army_desc: "During the war, everything available had to be harnessed to serve victory. Usually, pressing problems were avoided, and only stopgap solutions were adopted. After all, every faction was fighting for survival, hoping to emerge from the bloody chaos on top. Babangida made just such a deal with the devil when the militia problem first reared its head early in the war. Faced with the dilemma of either letting the war be dominated by militias controlled by rogue generals and the government, or reforming the army into a formidable force while fighting, Hachème made the rational decision: he chose to let time dilute the situation. But now that the dust has settled, the reckoning has arrived.
+
+This once-united alliance has fractured, and factionalism and corruption spread ugily among generals and rank and file alike. If nothing is done, Dahomey will have an armed force that looks less like an army and more like a mob. If the nation still wants to defend itself, no matter how painful the reform must be, it is unavoidable."

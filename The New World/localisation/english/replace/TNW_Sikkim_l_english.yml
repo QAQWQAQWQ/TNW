@@ -1,0 +1,41 @@
+﻿l_english:
+ SIK: "Sikkim"
+ SIK_DEF: "Kingdom of Sikkim"
+ SIK_ADJ: "Sikkimese"
+ SIK_communist_party: "Communist Party of Sikkim"
+ SIK_communist_party_long: "Communist Party of Sikkim"
+ SIK_socialist_party: "Sikkim Krantikari Morcha"
+ SIK_socialist_party_long: "Sikkim Krantikari Morcha"
+ SIK_liberalism_party: "Sikkim State Congress - Nonsectarian"
+ SIK_liberalism_party_long: "Sikkim State Congress - Nonsectarian"
+ SIK_liberal_conservatism_party: "Sikkim State Congress - Pradhanites"
+ SIK_liberal_conservatism_party_long: "Sikkim State Congress - Pradhanites"
+ SIK_conservatism_party: "Sikkim National Party"
+ SIK_conservatism_party_long: "Sikkim National Party"
+ SIK_paternalism_party: "Chogyal's Government"
+ SIK_paternalism_party_long: "Chogyal's Government"
+ SIK_despotism_party: "Palden's Clique"
+ SIK_despotism_party_long: "Palden's Clique"
+ SIK_Tashi_Namgyal: "Tashi Namgyal"
+ SIK_Paljor_Namgyal: "Paljor Namgyal"
+ SIK_Ram_Singh_Thakuri: "Ram Singh Thakuri"
+ SIK_Netuk_Tshering: "Netuk Tshering"
+ SIK_Kashiraj_Pradhan: "Kashiraj Pradhan"
+ SIK_Martam_Topden: "Martam Topden"
+ POLITICS_TASHI_NAMGYAL_DESC: "As the 11th Chogyal and the first leader of independent Sikkim, Tashi Namgyal led Sikkim on a stumbling path through the turbulent 20th century, shaping the country's development from old to new.
+
+Namgyal was born in Tibet, inherited the kingdom after the early death of his elder brother, and was appointed the new Chogyal by the Dalai Lama. Namgyal was still young when he ascended the throne. Protected by the court and supervised by British India, he strove to maintain the peace of this isolated kingdom, unaware that the world had quietly changed.
+
+The old world was replaced by a new order, and Sikkim's sovereignty passed from the British Empire to independent India. After the pain of the early years of statehood, Sikkim was unwilling to make any major changes. After the establishment of Free India, Sikkim naturally became its vassal. Namgyal worked closely with the Free Indian government to modernize the country, while personally pushing through long-overdue land reforms.
+
+Although Namgyal is widely beloved by the Bhutia-Lepcha people for his generous investment in healthcare, arts, and science, and is generally accepted by the Nepali people, the reputation of the Sikkim royal court has not improved because of him. The elderly 11th Chogyal looks wistfully at his kingdom, contemplating a lonely question:
+
+"Where will this country go after I die?""
+ SIK_Darbar_or_Democracy: "Durbar or Democracy?"
+ SIK_Darbar_or_Democracy_desc: "While the rest of the world reforms and abolishes backward aristocratic politics, Sikkim still debates how much power the royal family should hold. The large royalist faction and certain military officers believe that any idea of reform is fanciful, and that political ideas imported from the West will not work in Sikkim.
+
+The Chogyal's views are more nuanced. Considering Sikkim's geographic location and diplomatic environment, the tide of change will come sooner or later. Therefore, he supports carefully considered reforms while retaining enough power for himself. Although this middle path has worked so far, it has also caused the Chogyal to lose the support of both the conservative nobility and the small faction at court that wishes to push further reform and democratization."
+ SIK_Legacy_of_Tumlong: "Legacy of Tumlong"
+ SIK_Legacy_of_Tumlong_desc: "Since the signing of the Treaty of Tumlong in 1861, Sikkim's fate has been closely tied to foreign great powers. After the collapse of the British Empire, Sikkim passed from British to Indian hands. Aside from a few dim-witted fools, most Sikkimese have grown used to this, because they know that an independent Sikkim could never protect itself in the stormy international community.
+
+Currently, Sikkim is a protectorate of Free India, with its defense and foreign policy controlled by the latter. Most of Sikkim's infrastructure, including roads, schools, and hospitals, is also built with technical support from its suzerain. Unless earth-shaking changes occur, Sikkim's dependence on foreign powers in this century will likely be no different from the last."

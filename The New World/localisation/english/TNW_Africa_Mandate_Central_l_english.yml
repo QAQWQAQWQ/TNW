@@ -1,0 +1,622 @@
+﻿l_english:
+ COG_USA_central_african_developments: "Central African Developments"
+ COG_USA_central_african_developments_desc: "The Central African administration must maintain a steady balance between generating capital for domestic investors and preserving stability within its borders.
+
+The OFN Mandate in Africa was established to help African peoples fully throw off German rule, with the ultimate goal of transition to sovereign, self-determining nation-states after an interim period.
+
+If we successfully complete the decolonization plan, we can bring back §O80%§! of the resources we produce here.
+
+If we rush decolonization before conditions are ripe, we will bring back only §O40%§! of the resources we produce here.
+
+If the mandate collapses through our mismanagement, we will be forced to §Rabandon§! all resources produced locally."
+ POLITICS_CREIGHTON_ABRAMS_DESC: "Years ago, Creighton Abrams won his reputation on the battlefields of England. Now, behind the final victory over the Nazi regime in Africa, he sees only contempt and hatred. The wildfire of conventional war has become a slow-burning insurgency, and General Abrams now sits in the hot seat, tasked with crushing the rebellion and deciding Congo's political future.
+
+During Abrams' tenure, the German officials remaining in the Congo administration noted that this was less a change than a continuation of Muller's regime. Though paying lip service to winning hearts and minds, Abrams still treats Congo's corporations lightly, and locals still struggle to survive in a war-torn country. The fires in Washington have already spread, with accusations of massacres his troops committed during the Namibian offensive, and under immense economic pressure, Abrams continues to let the corporations run free here.
+
+Abrams has changed much since the disastrous campaign in Britain. This war has no glory; any victory is but a paltry consolation for the thousands of lives lost. Newspapers back home roar that the boys must come home, and before the inevitable withdrawal, General Abrams must decide how best to leave America's mark on this land."
+ POLITICS_COG_COLLAPSED_AUTHORITY_DESC: "The OFN has failed, America has failed. Most of all, Creighton Abrams has failed. What began as an experiment carrying democracy into the sub-Saharan swamps and humid jungles, full of hope, has become a bitter and disheartening failure. Everything Abrams and his men did, every crime they committed, was done in sincere hope of bringing a bright future to Africa. The rosy filter of optimism has shattered, leaving only the naked truth. Oh Liberty, what crimes are committed in thy name?
+
+Radio silence falls over Africa, an impenetrable shield of America's former rule. Whites flee to helicopters and safety, heedless of the hellscape behind them. The death toll is unknown, far beyond what anyone imagined. War, plague, famine, and death spread through the country, cackling and screaming as men, families, and nations take up arms to defend themselves from everything else.
+
+One by one, the lights of Congo are going out. The chance of relighting them is slim. In the coming months, thousands of Senate hearings and committees will convene only to ask why the OFN could not tame Muller's legacy. Inside and outside government, hundreds of fierce debates will pin down why the OFN mandate failed. What could they have done? Why did all this happen? Who is to blame? It no longer matters. When future presidents, chairmen, and Fuehrers wage their final struggle for the power to rule the world, only one thing matters.
+
+Who will bury the dead?"
+ COG_germans_mood_loc_5: "§HInsurgency§!"
+ COG_germans_mood_loc_0: "§GVery Satisfied§!"
+ COG_germans_mood_loc_1: "§GSatisfied§!"
+ COG_germans_mood_loc_2: "§gNeutral§!"
+ COG_germans_mood_loc_3: "§RDiscontented§!"
+ COG_germans_mood_loc_4: "§RVery Discontented§!"
+ OFN_COG_under_new_management: "Under New Management"
+ OFN_COG_under_new_management_desc: "We have at last overthrown the brutal regime Siegfried Muller and his Nazi lackeys used to oppress Africa. The mandate established spans the vast Congo Basin, and it falls to us to manage its countless peoples, factions, and corporations. Ruling this vast territory is a great challenge, but one worth taking. The extractive industry made the Central African Reichskommissariat far richer than the other Nazi colonies, and this wealth should serve the cause of freedom, not a tyrant's pleasure.
+
+The task we have taken on is no light one. First we must defeat the remaining resistance and extend government authority across the entire mandate. Second, we must install native leaders who can show Congolese that cooperation with us means a bright and prosperous future. Beyond that, we must persuade the remaining Belgians and Germans, and the powerful corporations they control, that compliance is the only choice. Once we have secured our rule, we can end the decades of terror and inhuman brutality of Nazi rule."
+ OFN_COG_the_central_african_administration: "The Central African Administration"
+ OFN_COG_the_central_african_administration_desc: "Running a government and commanding a battle are two different things. The German regime left us nothing useful when it departed, and so far we have only found our feet and gained a rough understanding of the situation. The first lesson we learned here is the endless, tedious, repetitive administrative drudgery of day after day. As days pass, ad-hoc measures created to handle yesterday's problems eat up more and more time, creating yet more government headaches. Clearly we must formally establish a more efficient institution to handle this.
+
+For now, we have not won the firm support of the local population, and many natives are still tainted by association with the old regime. So far, our ability to vet and recruit suitable candidates is lacking, and the pool of talent we can draw on is limited. We will absorb Congolese who are known and trusted, but until the next phase, the heavy burden of administration will fall on our own NCOs."
+ OFN_COG_invite_german_sympathisers: "Invite German Sympathisers"
+ OFN_COG_invite_german_sympathisers_desc: "Within the Nazi empire, Central Africa was known as a "haven of freedom." What drew Germans here was not service to Germany, but escape from the terror of the Nazi Party, and the rich employment opportunities in Central Africa where one could make a fortune.
+
+Though Siegfried Muller largely ignored the administration of Central Africa, he did hire a corps of Germans for the government, and most of them remain in the mandate. They still have connections across Congo and understand local affairs better than we do; leaving these people to their own devices is dangerous. If they decide to resist us, they will be a thorny problem. We must not let it come to that.
+
+We must convince them that supporting us is the best choice. To do that, we must first absorb those willing to work with the government, bringing them into the lower ranks, showing that Germans still have a place in Congolese affairs. They will become local bureaucrats and aides, and their rich experience and knowledge of local affairs will greatly help the mandate maintain its rule."
+ OFN_COG_a_deal_with_steiner: "A Deal with Steiner"
+ OFN_COG_a_deal_with_steiner_desc: "Rolf Steiner is a respectable soldier who proved himself a dangerous opponent during the South African War. Steiner served in Muller's government, and ordinarily would not qualify for service in ours. But current intelligence shows this is a good time to win him over. He is a soldier's soldier and disliked his de facto role running the whole Reichskommissariat. Muller dumped one crisis after another on him with no proper solutions, which left him resentful and willing to serve a different master. Since the end of the South African War, the CIA has been tracking him, and he is open to the security prospects the CIA offers.
+
+With nothing more than an amnesty and a proper salary, Steiner will become a major asset to our government. Through Steiner and his long list of contacts, we can make contact with the powerful mercenary companies the Reichskommissariat employed. Their over a decade of operating experience in Central Africa and insider knowledge of the previous regime will both be valuable resources in our hands."
+ OFN_COG_gain_from_the_german_expertise: "Gain from German Expertise"
+ OFN_COG_gain_from_the_german_expertise_desc: "The limited cooperation we have reached with German remnants has confirmed that they indeed have a deep understanding of everything happening in this territory. By comparison, it exposes the limits of our own government's insight.
+
+If we want results in Congo, the first step is closing this information gap. Only by fully understanding the players and activities in Central Africa's economy and administration can we hope to stabilize the territory and make it work for us.
+
+The fastest way to gain this knowledge now is of course to make more use of the Germans in the government, fully embracing those German remnants who are friendly to us. We have already gauged their numbers; by placing these knowledgeable administrators and bureaucrats in office, we can maximize the benefit of their experience."
+ OFN_COG_keep_it_american: "Keep It American"
+ OFN_COG_keep_it_american_desc: "Competing corporate cartels and mercenary groups made Nazi Central Africa chaotic. A profitable environment allowed adventurers and the unscrupulous to thrive, but it did not let the country as a whole prosper or stabilize. If we default to continuing the German-built system, this will continue.
+
+But we will not. We will break with the old system. The new regime will be built from the ground up by trustworthy, upstanding American citizens, aided by reliable local helpers. Breaking with the old system will show the people of Africa that we truly mean to bring change to Africa, ensuring that the fruits of our workers' labor are not stolen by corrupt bureaucrats and greedy corporations. Congo's wealth should, naturally, be shared between America and the natives."
+ OFN_COG_the_central_african_consortium: "The Central African Consortium"
+ OFN_COG_the_central_african_consortium_desc: "Though Central Africa nominally belonged to Germany and suffered the same embargo, everyone knew it was effectively a free city open to all. Investor groups from around the world informally shared the fruits of its extractive economy, laying a solid foundation for the regional economy.
+
+General Abrams proposes replicating this successful model, building upon it a formal economic institution called the "Central African Consortium." The consortium will include investors from across the OFN and Central Africa, becoming a welcome source of capital, knowledge, and new technology within the mandate. If it can successfully rebuild Congo's mines, plantations, and oil wells to modern output standards, it will bring enormous returns to both the consortium and Central Africa's emerging economy."
+ OFN_COG_special_status_for_the_dam: "Special Status for the Dam"
+ OFN_COG_special_status_for_the_dam_desc: "The Congo Dam is a marvel of architecture and engineering, but also a headache for its builders. The German government poured vast sums into maintaining its massive structure yet never exploited its hydroelectric potential. If we are to unlock the mandate's economic potential, we must exploit that potential.
+
+Beyond power generation, the dam is also a vital piece of our infrastructure. As Central Africa's shipping link, it connects Lake Congo to the Congo River. That also means it is Central Africa's greatest weakness; if the dam is seized or fails through mismanagement, it would cause cataclysmic flooding.
+
+This makes the dam especially important. We cannot risk leaving it in the hands of untrustworthy local leaders; instead it should be controlled by capable hands in the mandate government, who can maintain its structural safety. We will follow the Panama Canal model, establishing a "Congo Dam Zone" to formalize this arrangement, ensuring OFN's future administrative control of Central Africa."
+ OFN_COG_for_american_interests: "For American Interests"
+ OFN_COG_for_american_interests_desc: "The mandate's mission is to maintain international peace and security on the African continent. In truth, if not for OFN's dominant position in Africa, we could not maintain the status quo. If we leave the natives to their own devices, they will settle old scores and fight for power, and unending border wars and tribal conflicts will consume the continent.
+
+Promoting native development, involving them in government, and building self-sufficient national systems - these are the right things to focus on, and they are appreciated back home in America. But in the end, that is not the mandate's mission. What we should do is hold power firmly, pour in endless funds, and maintain stability. That is our primary goal."
+ OFN_COG_assess_the_situation: "Assess the Situation"
+ OFN_COG_assess_the_situation_desc: "The more we learn about Muller's regime, the more amazed we are that it functioned in any form. No department of the Central African government documented its methods on paper at all, in stark contrast to the meticulous record-keeping of Germany and its other vassal states. Part of this is due to Muller's famous "hands-off" style of governance, but we have reason to believe it was because most people wanted it that way. We have already uncovered extensive fraud in Central Africa, so everyone wanted to hide their tracks.
+
+Whatever the reason, the lack of records means far more work than expected. We still need to build working files for the vast territory under the mandate, its countless corporations, tribes, and other groups. After all, the previous regime left us nothing."
+ OFN_COG_books_studying: "Hit the Books"
+ OFN_COG_books_studying_desc: "Though the administration was riddled with holes, Central Africa at least maintained a functioning economy. Official propaganda glossed it as the product of Germany's superior administration, but we all know Central Africa's economy was largely unmanaged. In fact, its extractive economy and status as a German gateway made Central Africa a haven for foreign investors.
+
+We have begun poring over the archives left by the old regime; though Muller left few, we have uncovered detailed accounts of massive deals between Central Africa and foreign corporations. Perhaps we should examine these deals, investments, contracts, and practices to understand how they made Central Africa's economy produce so much wealth."
+ OFN_COG_archive_mining: "Archive Mining"
+ OFN_COG_archive_mining_desc: "The Central African government did not interfere in the daily operations of most of its territory, instead devolving power to local groups to govern themselves. Tribal kingdoms, corporate concessions, and colonial "trust territories" - these Belgian colonial remnants are scattered across Central Africa. They are used to operating without oversight, handling local affairs themselves. This decentralized rule may have been the key to the leaky Muller government keeping the economy running, and we should be careful not to disrupt the existing system.
+
+Before overturning the old system, we need to understand its connection to Central Africa's economy and how it works. To replicate the success of Muller's system, we need to understand as much as possible how it functioned, digging deep into the archives and accounts left by the old regime. Even if these records are incomplete in some respects, on the whole they still hold lessons worth learning."
+ OFN_COG_keep_a_working_system: "Keep the System Running"
+ OFN_COG_keep_a_working_system_desc: "Central Africa has a vast territory and countless conflicting tribes and interest groups. Keeping it united and prosperous is no easy task, and the so-called "Central African System" seems to do just that. For now, most of the Germans, Belgians, and tribal chiefs who keep the system running are willing to work with us. Banning corporate concessions, dissolving trust territories and tribal kingdoms would only turn these people against us.
+
+We certainly will not be as passive as Muller's regime, but we will maintain the decentralized system. We should focus our energy on cracking down on the black market and rooting out corruption, rather than confronting local leaders. We need to fight crime, not point our guns at the people. That is how we keep Central Africa running, and keep peace and prosperity."
+ OFN_COG_meet_the_belgians: "Meet the Belgians"
+ OFN_COG_meet_the_belgians_desc: "Compared to the Germans, the Belgians have more say in Central Africa's economy and administration. They have been here since Belgian colonization of the Congo eighty years ago, controlling the mines and plantations in the south. Thus the Belgians have unmatched influence in southern Congo. We need to show these people the benefits of cooperation and bring both sides together.
+
+The Belgian closest to a leader is undoubtedly Jean Schramme. He is both an outstanding planter and a notorious commando. Making friends with him will benefit the new regime. We will arrange a meeting between Abrams and Schramme, hoping they can reach an agreement that keeps the south peaceful."
+ OFN_COG_the_belgian_proposal: "The Belgian Proposal"
+ OFN_COG_the_belgian_proposal_desc: "The Belgians, represented by Jean Schramme, have put forward an ambitious plan for Congo's future. Central Africa's extractive economy is highly profitable but vulnerable to economic shocks. It is also heavily dependent on foreign refineries and processing facilities. To overcome these weaknesses, we will implement the "Belgian Plan," injecting massive investment into building a state-owned resource processing industry.
+
+Schramme describes this as the natural development of Congo's economy. The new factories and processing plants will use hydroelectric power from the Congo Dam. Low wages for Congolese labor mean the salaries we pay will be far above local standards. This will not only benefit local workers in the factories but also undercut foreign competitors. The support of wealthy Belgian businessmen also means the government need not bear the cost.
+
+Schramme says all the Belgians ask is that their efforts not be hindered by the corruption and inefficient management visible throughout our territory. It seems the Belgians will only cooperate if they are further brought into the government."
+ OFN_COG_from_the_ground_up: "From the Ground Up"
+ OFN_COG_from_the_ground_up_desc: "The Central African System is riddled with non-governmental rule, rampant black markets, smuggling, lawlessness, corruption, and crime - a complete mess. Though the system kept the economy running to some degree, its success was built on ignoring crime and Germany's economic back doors. We cannot replicate the quality of German products, nor will we ignore crime on our doorstep.
+
+We cannot copy the Central African System, which could not last; we must build our own administration from the ground up. Under the supervision of loyal NCOs in the officer corps, the new regime will build the transparent, accountable government Central Africa so desperately needs. As for how to build it, General Abrams happens to have some excellent ideas."
+ OFN_COG_jumpstart_the_economy: "Jumpstart the Economy"
+ OFN_COG_jumpstart_the_economy_desc: "We conquered Central Africa, and in doing so destroyed its previously profitable economy. Fighting destroyed the only infrastructure Central Africa had, badly hitting supply lines. Furthermore, many prominent investors and administrators were closely tied to the old regime, running an underground economy that relied on "favors" to stay hidden. When Siegfried Muller fled north, many of them fled with him.
+
+We need to get the economy back to its previous level quickly. A functioning economy will boost the government's legitimacy and earn the funds to expand government. We lack investors, but investment is essential, so General Abrams will do everything he can to attract it. The current government's priority is to raise funds at any cost to jumpstart the economy."
+ OFN_COG_the_abrams_plan: "The Abrams Plan"
+ OFN_COG_the_abrams_plan_desc: "The regime grows more stable; though a few facilities remain shut down, most of the mines, plantations, and factories in the mandate are operating again. Concerned about their own security in the new Congo, owners of facilities closely tied to Muller abandoned and shut them down, letting them rot and rust.
+
+We will not let valuable economic foundations decay. If the previous owners will not reopen them, we will find someone who will. Under the new "Abrams Plan," we will build a framework in which every commercial establishment must report its activities to the government or be forcibly seized. We will select reliable, highly skilled American companies and distribute the seized properties to them. Putting these properties in capable hands offers hope of reviving commerce and revitalizing the economy."
+ OFN_COG_promote_african_ventures: "Promote African Ventures"
+ OFN_COG_promote_african_ventures_desc: "The main obstacle to attracting investment to Congo is a lack of information. Investors involved in Central Africa's underground economy worry about excessive government interference. Potential investors across the OFN either do not know of the vast wealth hidden in Central Africa, or do not know the great progress we have recently made in improving the business environment.
+
+General Abrams will launch a far-reaching propaganda campaign to change investor perceptions. We will assure past investors that we will not impose unnecessary burdens on their businesses. At the same time, we will use the slogan "safe resource extraction under American oversight" to attract new investors. As long as investors know Central Africa is still the open commercial paradise it was, the economy will surely recover!"
+ OFN_COG_open_up_the_lake: "Open Up the Lake"
+ OFN_COG_open_up_the_lake_desc: "Lake Congo lies at the geographic center of the mandate and is the economic heart of the entire country. Though a symbol of German arrogance, it failed to achieve most of what the Germans hoped. The only visible benefit of the project was probably opening a shipping route from the Congolese interior to the coast. The active shipping industry let the Germans seize the opportunity to build it into the foundation of Central Africa's infrastructure.
+
+So far, the current government's shipping needs and Central Africa's overall security posture have led us to close most shipping routes on Lake Congo. Now that Central Africa is calm, we should prepare to reopen shipping. From now on, we will no longer restrict commercial activity on the lake, letting ships pass and keeping transport flowing. As goods and people move freely once more, every aspect of the national economy will feel the benefit."
+ OFN_COG_our_friends_at_standard_oil: "Our Friends at Standard Oil"
+ OFN_COG_our_friends_at_standard_oil_desc: "When it comes to natural resources, we have far more than the other mandates, and oil is no exception. Unfortunately, Central Africa's oil resources have not been fully developed; only a fraction of the total has been extracted. To develop the oil industry, we need both massive investment and the relevant technology. We are in luck: Standard Oil, as an old, established American company, naturally has both technology and money.
+
+Cabinda, once an Angolan exclave, is now under our jurisdiction. It has both enormous oil reserves and the advantage of being near the coast. If we invite Standard Oil to operate in Cabinda, oil will flow soon enough."
+ OFN_COG_create_administrative_divisions: "Create Administrative Divisions"
+ OFN_COG_create_administrative_divisions_desc: "The Central African Reichskommissariat operated like a colony, with a central government detached from the grassroots; local strongmen, tribal chiefs, and ruthless companies built their own fiefdoms across the territory. We have been forced to inherit this informal local rule, which seriously weakens the mandate's government. Clearly, we need to create administrative divisions for Congo.
+
+Of course, before we establish local governments, we must decide which divisions to create. Abrams has tasked Patrice Lumumba, the mandate's strongest native ally in Central Africa, with this job. It is both a vote of confidence and a recognition of his administrative ability."
+ OFN_COG_stratified_administration: "Stratified Administration"
+ OFN_COG_stratified_administration_desc: "The biggest problem with Muller's government was that it was essentially a figurehead. Nominally, the territory should have been governed by his military. In reality, they preferred hunting big game to maintaining colonial stability. If Abrams wants Central Africa to prosper, he must first solve this predicament.
+
+We should establish stratified administration in Central Africa. At the top, the military junta handles military affairs, while civil administration is handed to local native leaders. Over time, we will transfer more power to local governments. This will ensure the new republics are capable of handling the challenges that come with independence."
+ OFN_COG_reward_loyalty: "Reward Loyalty"
+ OFN_COG_reward_loyalty_desc: "If anyone tells you the Central African mandate is in a bind right now, I've got something to say about that - that's bullshit. The mandate government is full of gloomy bureaucrats, worn-out clerks, and a bunch of redneck gun-thugs, just like a garbage heap. We call this the "military command" because every last person with a working brain has fucked off out of this "African hellhole."
+
+What we need is dedication, people who will work their asses off. Since these losers can't get anything done, let's invite some natives into the government. They're desperate to rebuild their homeland and win real freedom, so why not let them in? It'll make everyone happy and speed things up."
+ OFN_COG_figure_out_the_natives: "Figure Out the Natives"
+ OFN_COG_figure_out_the_natives_desc: "What the hell is going on?
+
+Good question. I think everyone here wants to know who the people lurking in the steaming swamps are, and who they answer to. Granted, things aren't as bad as the insurgency Westmoreland is facing next door, but not every native is going to spontaneously sing the praises of Uncle Sam's boys.
+
+We need to get a handle on the current situation, send out scouts to map it out, and figure out every native tribe squatting around Lake Congo. It's a pain in the ass, but it'll advance the mandate's mission, so let's do it."
+ OFN_COG_meet_kasa_vubu: "Meet Kasa-Vubu"
+ OFN_COG_meet_kasa_vubu_desc: "What was that bastard's name again? Kasa...wubaroo? Whatever. The guy's real popular with the natives and gets along fine with Lumumba. The important thing is, he's on our side, not mixed up with those terrorists calling themselves "freedom fighters."
+
+I'm glad everyone sees who the real freedom fighters are; too bad some native bastards just won't open their eyes, biting us and never letting go. I'll go meet Kasa-Vubu, hoping to reach an agreement with these guys. Uh, what did they call themselves again? Congolese...National Convention? Right, that's it.
+
+If talking isn't enough to make them obey the government, we'll make some deals and promises; after all, we're not unreasonable people."
+ OFN_COG_meet_mba: "Meet Mba"
+ OFN_COG_meet_mba_desc: "What? Mmumba? Is that even a fucking name? Forget it.
+
+He's from the old French territories, and that matters. If I remember right, Gabon? Yeah, he's sort of a local leader there, widely trusted, a real patriot among the locals. Whatever they call him, the point is this bastard won't shut up about wanting independence. Of course he wants that; he even wants to build a future for his people free from American interference.
+
+Did he forget who rescued him? Damn it, we're his saviors, and after everything we've done we don't deserve a little payback? Fine, fine, we can't be too rigid. Even if his thinking has gone off the rails, I'm sure we can reach an agreement with this little helper."
+ OFN_COG_the_cameroonian_issue: "The Cameroonian Issue"
+ OFN_COG_the_cameroonian_issue_desc: "For over a decade, Cameroonian President Felix-Roland Moumie has been a thorn in Germany's side. Now it's our turn to deal with him. The pan-Africanist subversives once fought French and German colonial rule in Africa; now they have set their sights on the OFN mandate. Pan-Africanism's dangerous propaganda will undermine our hard work and seriously destabilize Central Africa. We need to figure out how to handle this.
+
+The government is drafting a plan to deal with Moumie, including various diplomatic responses. We can try to persuade him that we too care about the cause of Central African independence. Or, more simply, we can directly cut his influence within the mandate. If all goes well, we can resolve this without resorting to force."
+ OFN_COG_call_mobutu: "Get Mobutu on the Line"
+ OFN_COG_call_mobutu_desc: "If you want a laugh, look at Muller's SS. Who knows where these guys got the balls to use butcher squads full of natives to slaughter other natives?
+
+Anyway, the result of Muller's doing is that a native SS general under him named "Mobutu" stole the SS during his posting. We...pardoned Mobutu. Instead of fighting him, we'd rather use his influence to help the mandate rule. We need to get back to good old-fashioned American diplomacy... not this.
+
+Look, that guy's pardon still holds... but he has to work for us, go after those damn agitators in Cameroon. That makes it fair."
+ OFN_COG_prepare_the_ground: "Prepare the Ground"
+ OFN_COG_prepare_the_ground_desc: "That yellow-bellied bastard! Savage nigger scum! Mobutu dares refuse our generosity, and he's actually rounding up his gang to rise up? Then let him taste American freedom!
+
+He's right up there, rallying his people in the north to die for freedom. Get the Army boys ready, fire up the Air Force - it's time to fight for freedom again! Shoot these bastards down so they can never defy us again!"
+ OFN_COG_the_leopoldville_committee: "The Leopoldville Committee"
+ OFN_COG_the_leopoldville_committee_desc: "Rumor has it that certain people across the border are attacking the legitimacy of the Central African government. Exaggerating certain "war crimes" just to stir up local resistance. Those bastards in Cameroon are challenging everything we're about to build!
+
+Just because a few of our boys got a little carried away, we're suddenly Nazis? These people need a lesson. We'll assemble some experienced colleagues, some commanders well-versed in... punitive operations. We'll shut these agitators up; we will not let them undermine the American New Order."
+ OFN_COG_crackdown_on_the_revolutionaries: "Crush the Revolution"
+ OFN_COG_crackdown_on_the_revolutionaries_desc: "These fucking terrorist thug rebels dare oppose us under the banner of freedom, and even after tasting the American fire-baptism of liberation, they still won't lay down their arms.
+
+We don't have proof yet, but you can bet those Cameroonian bastards are supplying the rebels with guns, supplies, and medicines for internal and external use. This is no longer just a bone stuck in our throat; the whole Congo situation is spiraling in a direction that will destroy everything we've worked for. This mess of swamps, jungles, and lakes we call "Congo" is completely unsuited for large-scale conventional warfare. When push comes to shove, we're fucked.
+
+We need to get on with today's business: thoroughly conquer Central Africa's jungles and bring order back to this wild land."
+ OFN_COG_restore_order_in_congo: "Restore Order in Congo"
+ OFN_COG_restore_order_in_congo_desc: "If you want me to say something now, I'll say "goddamn." Every American trapped in Central Africa realizes that Congo is a fucking bottomless pit, and everyone just wants to get the hell out. Yeah, the duty is harsh and endless, but we have to do it.
+
+Congo is a goddamned sewer full of filthy rats. They squirm beneath our feet, gnawing at the freedom we gave them. To ride a roughneck, you first have to break his back - that's the lesson I've learned from this hot, fierce Congolese insurgency. Yeah, a bright future will appear on the horizon. But only after we've tamed enough people and taught these natives to obey their liberators, their saviors. That is the very essence of freedom.
+
+§xCongo is indeed a bottomless drain, and everything we've done is just going around in circles.§!"
+ OFN_COG_blacklist_the_african_ss: "Blacklist the African SS"
+ OFN_COG_blacklist_the_african_ss_desc: "We have cooperated more openly and closely with the native SS than with Muller's regime, which has left our overseas partners and the patriots within the government somewhat... displeased. No matter how much we promise our good citizens back home that these natives are fighting for freedom and haven't done anything out of line to other Africans, they still hesitate to let these patriots reintegrate into native society. Of course, we realized long ago that a fierce native militia is essential to keeping this Central African hellhole stable; compared to that, what does their record matter?
+
+But... public image is also essential for success. Even if doing so angers countless restless and warlike natives, to keep OFN support flowing we have no choice."
+ OFN_COG_meet_the_mercs: "Meet the Mercenaries"
+ OFN_COG_meet_the_mercs_desc: "Muller and his cronies abused mercenaries to maintain their rule over Congo. Naturally, when Muller's government fell, these mercenaries found themselves out of work. Our advisors estimate these unemployed mercenaries will seriously destabilize Central Africa. These men are veterans, and if they cause trouble the damage will be significant. However, General Abrams is not worried about the mercenaries threatening the government; on the contrary, he worries the government will alienate and neglect this powerful force. The mercenaries have valuable experience fighting across Central Africa and know the local situation and terrain better than we do. For a small sum, their knowledge and experience can be ours.
+
+Abrams will meet with the mercenary leaders and try to cut a deal. The mercenaries will be organized into a paramilitary force to carry out tasks the regular government finds difficult or distasteful, extending our influence across Central Africa. The price is that we must guarantee both their honored status in the new Congo and rich paydays for the mercenaries."
+ OFN_COG_call_back_the_investors: "Call Back the Investors"
+ OFN_COG_call_back_the_investors_desc: "Central Africa is essentially a completely open market, and naturally a haven for investors from around the world. Unfortunately, many investors come from countries not on good terms with the OFN. Fearing the new regime would settle accounts with them, they evacuated Congo early.
+
+This is a major loss for the mandate, but it may still be recovered. Abrams will give investors guarantees protecting their companies and assets within the OFN Central African mandate. After that, whether they are Iberians, Italians, or Japanese, Abrams will invite them back to Central Africa. As long as they bring back their capital and experience, Congo's economy will surely get back on track."
+ OFN_COG_plantations_funding: "Fund the Plantations"
+ OFN_COG_plantations_funding_desc: "Central Africa's extractive industry earns the most for the mandate, but we should not focus solely on it.
+
+It is time to look again at the state of the southern plantations. They do not generate the same revenue or OFN investment opportunities, but they are still an important part of Central Africa's economy. The plantations employ countless workers and form the economic foundation of Kasai and Katanga. Their owners also maintain local stability. This is exactly the state of affairs we want.
+
+Now, the damage from the end of the war has left these plantations in crisis. But with some investment, they can operate again, bringing many benefits to the local area and the mandate. Why not?"
+ OFN_COG_the_new_smiling_man: "The New Smiling Man"
+ OFN_COG_the_new_smiling_man_desc: "As an adventurer and Reichskommissar, Siegfried Muller earned the nickname "Germany's nice guy" for his considerable charm. The Congo he ruled was, however, riddled with corruption and mismanagement - hardly a cheerful situation. Unexpectedly, beneath the chaotic administration we found a functioning system that can be put to use for the mandate.
+
+Now that peace has returned to the mandate and the friendly native government is ready to take over, it is about time for us to leave. General Abrams knows he has overcome immense hardship, completed his mission, and is about to return home safely. Congo's economy is booming, with hundreds of sailing ships, barges, and ferries plying Congo's busy waterways. Local officials who once relied on government oversight have grown more skilled at administration. In both politics and economics, Congo is now firmly in OFN hands.
+
+Whatever the future holds, the General knows he can greet it with a big smile."
+ OFN_COG_the_american_way: "The American Way"
+ OFN_COG_the_american_way_desc: "We have made great efforts to end the corrupt, inefficient, and inhuman practices of the former German regime. The new government is extending its influence across Central Africa, ending the arbitrary rule of local strongmen with the rule of law.
+
+More importantly, Congo's economy has escaped the unregulated exploitation of the past. American industrial giants have brought unprecedented high-quality investment and technical know-how to Central Africa. Their enterprises are expanding, bringing stability and wealth to the nation, the people, and the government's friends on the board.
+
+Indeed, the new Congo is the best example of reliable governance, proper practice, and faith in freedom. The American Way has triumphed!"
+ OFN_COG_root_out_the_germans: "Root Out the Germans"
+ OFN_COG_root_out_the_germans_desc: "Central Africa's Germans fall roughly into two categories. The first are adventurers, officers, and administrators. These are experts who fled Germany and found Africa. With careful integration, they can be useful to us.
+
+The second are settlers around Leopoldville and Libreville. These people followed the slogan "come colonize for the fatherland" and are ideologically more attached to Germany. They are few in number, however, and are often reviled by other Central Africans; they certainly will not fare well in the mandate. For stability's sake, we must move quickly to drive these people out of the mandate.
+
+We will confiscate their land, seize their property, and pack these settlers onto ships back to Europe. This will not win us German favor, but it will greatly ease tensions between everyone else and the government."
+ OFN_COG_eliminate_the_resistance: "Eliminate the Resistance"
+ OFN_COG_eliminate_the_resistance_desc: "Many German remnants still oppose the mandate government. They gather under the banner of the "Central African Anti-American Resistance" (Z.A.W.), stirring up small-scale insurgencies in settler communities and obstructing the government's seizures and repatriations.
+
+The group lacks manpower and has limited operational range, hardly a threat. But should it reach an understanding with other native independence groups or rebel movements, sharing its precious knowledge and personal connections, the problem becomes serious.
+
+We should strike first at the Central African Anti-American Resistance, strangling any such cooperation at the source."
+ OFN_COG_the_future_of_hitlerstadt: "The Future of Hitlerstadt"
+ OFN_COG_the_future_of_hitlerstadt_desc: "Hitlerstadt resort is famous in Germany for its luxury. But for most people living in Central Africa, it symbolizes something different. The absurdly luxurious resort stands in stark contrast to the miserable living conditions elsewhere in Congo, a constant reminder that the German "master" is exploiting you.
+
+Now that we control Congo, the future of Hitlerstadt is ours to decide. But making the decision is no simple matter. Demolishing the resort would strike a hard line, promising a more equal future for everyone in Central Africa. On the other hand, the resort has enormous economic potential. After all, adventurous Americans would surely pay a fortune to experience the "utmost in German decadent luxury."
+
+The decision rests with General Abrams."
+ OFN_COG_make_new_from_the_old: "Make New from the Old"
+ OFN_COG_make_new_from_the_old_desc: "The Central African Reichskommissariat dispensed with many traditional administrative bodies, replacing them with bespoke agreements and contracts between the government and various corporations, native trust territories, tribal kingdoms, and settler communities within its borders. Though this significantly limited central oversight, it was quite profitable economically.
+
+We have no reason to end such a fine system. Guided by American hands and American methods, these treaties will become the cornerstone of a golden age for Congo's economy. Of course, we must renegotiate these treaties to fit the mandate's administrative system. As it happens, General Abrams is the best man for the negotiations."
+ OFN_COG_prepare_for_the_future: "Prepare for the Future"
+ OFN_COG_prepare_for_the_future_desc: "The mandate's work rebuilding a central government in Central Africa is nearly complete. We have settled on the new government's structure and are implementing it smoothly. In the next phase, American personnel will gradually step back, supporting local administrators and bureaucrats to prepare for Central African independence.
+
+While balancing the needs of local leaders, we must also ensure the American withdrawal does not end OFN influence in Central Africa. We have invested considerable funds and political capital to make the mandate meet its goals, and we naturally expect these investments to pay off. Beyond that, the local government will surely need the steady influence of American companies and advisors in the future. And that will direct Congo's wealth toward those companies."
+ OFN_COG_reassure_the_market: "Reassure the Market"
+ OFN_COG_reassure_the_market_desc: "Through careful effort, we have gradually healed the damage the war inflicted on Congo's economy. New investment has been secured, activity within the mandate is recovering, and people are back to work. But Abrams still faces one obstacle: market confidence.
+
+The collapse of the Central African Reichskommissariat and the damage to public order and transport infrastructure have severely hit local merchants' core businesses, and they are unwilling to take on new debt and positions. We must give the market guarantees that the government has the situation firmly in hand. Through General Abrams' tireless efforts, Congo's economy is stronger than ever. Central Africa is stable, and its commerce is ready to open its doors again."
+ OFN_COG_reopen_the_mines: "Reopen the Mines"
+ OFN_COG_reopen_the_mines_desc: "During the liberation of Central Africa, the diamond mines in the south became a notorious symbol of the hateful oppression of the German regime. Gaunt workers, miserable living conditions - photographs of the mines circulated widely in the free world, a powerful reminder of why liberating Africa was necessary. So the moment we took the mines, we shut them down.
+
+At the time, that was absolutely the right thing to do. Now that the Germans have been thoroughly defeated, it is time to reconsider these mines. They produce enormous quantities of precious metals, enough that we can earn a profit while providing workers with better conditions.
+
+We will only allow these mines to reopen once new safety regulations are in place and workers' wages are raised. Money will flow again. And when the miners return, the difference in working conditions will prove to them how greatly Central Africa has changed under our rule."
+ COG_USA_Creighton_Abrams: "Creighton Abrams Jr."
+ COG_USA_Cyrille_Adoula: "Cyrille Adoula"
+ COG_USA_Andrew_W_Cordier: "Andrew W. Cordier"
+ COG_USA_Leonard_Mulamba: "Leonard Mulamba"
+ COG_USA_Joseph_Kasa_Vubu: "Joseph Kasa-Vubu"
+ COG_USA_Cyrus_Vance: "Cyrus Vance"
+ COG_USA_vrm: "Various Revolutionary Movements"
+ COG_USA_vdp: "Various Democratic Parties"
+ COG_USA_vwc: "Various Warlord Cliques"
+ COG_USA_ger: "German Remnants"
+ COG_USA_collapsed_authority: "Collapsed Authority"
+ COG_USA_Joseph_Ileo: "Joseph Ileo"
+ COG_USA_Cyrille_Adoula_hog_desc: "§YHead of Government
+Paternalism§!
+----------------
+"
+ COG_USA_Andrew_W_Cordier_for_desc: "§YForeign Minister
+Paternalism§!
+----------------
+"
+ COG_USA_Joseph_Kasa_Vubu_eco_desc: "§YEconomic Minister
+Paternalism§!
+----------------
+"
+ COG_USA_Leonard_Mulamba_eco_desc: "§YEconomic Minister
+Paternalism§!
+--------------
+"
+ COG_USA_Cyrus_Vance_sec_desc: "§YSecurity Minister
+Paternalism§!
+----------------
+"
+ OFN_AFRICA_MANDATE_unintended_effects: "§xMay produce unintended side effects.§!"
+ COG_OFN_Legacy_Zentralafrikaner_System_1: "Legacy of the Zentralafrikaner System"
+ COG_OFN_Legacy_Zentralafrikaner_System_2: "Legacy of the Zentralafrikaner System"
+ COG_OFN_Legacy_Zentralafrikaner_System_1_desc: "Under Muller's lax, profit-driven rule, Congo gradually became a lawless land. Though General Abrams has tried to restore some order, little has obviously changed. Bars in Leopoldville are full of idle mercenaries and unemployed collaborationist agents still looking to cut a good deal with the authorities; Abrams believes stabilization funds should be used to hire them to help administer. The old ways work best."
+ COG_OFN_Legacy_Zentralafrikaner_System_2_desc: "Under Muller's lax, profit-driven rule, Congo gradually became a lawless land. Though General Abrams has tried to restore some order, little has obviously changed. Bars in Leopoldville are full of idle mercenaries and unemployed collaborationist agents still looking to cut a good deal with the authorities; Abrams believes stabilization funds should be used to hire them to help administer. The old ways work best."
+ COG_OFN_Unhappy_Investors_1: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_1_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_Unhappy_Investors_2: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_2_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_Unhappy_Investors_3: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_3_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_Unhappy_Investors_4: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_4_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_Unhappy_Investors_5: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_5_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_Unhappy_Investors_6: "Unhappy Investors"
+ COG_OFN_Unhappy_Investors_6_desc: "Nothing kills market confidence like instability; when the war began, any investor savvy enough pulled their money out of Africa. Now they are ready to come back, demanding the authorities cut them back in. Unfortunately, if we want our economy to look like that of a normal country, we have to deal with them, which forces us to roll back some of the rules we tried to implement and give them as much discretion as Muller did."
+ COG_OFN_From_The_Ground_Up_1: "From the Ground Up"
+ COG_OFN_From_The_Ground_Up_2: "From the Ground Up"
+ COG_OFN_From_The_Ground_Up_3: "From the Ground Up"
+ COG_OFN_From_The_Ground_Up_1_desc: "Congo has been ravaged for decades by corrupt, incompetent, and sickly management. The OFN, which prides itself as a shining beacon of freedom, is naturally worlds apart from the stupid rule of the former Belgian colonial government, Muller, and his Reichskommissariat. Indeed, the OFN has no intention of continuing colonial exploitation, only developing Africa. To this end, the OFN has ordered a new regime established here. It will take native needs as its own, shed the rotten remnants of previous regimes, and be built from the ground up under the supervision of General Abrams and his officer corps."
+ COG_OFN_From_The_Ground_Up_2_desc: "Part of the OFN plan is to build a new regime from the ground up, shedding the rotten systems that have endured, and building and developing a new administrative system layer by layer in Congo. As planned, these systems are only transitional, and power will be gradually transferred to local governments."
+ COG_OFN_From_The_Ground_Up_3_desc: "The OFN's work in Central Africa is to build a new regime from the ground up, shedding the rotten systems that have endured. To this end, we will implement a new program rewarding and compensating Congolese natives who remain loyal to the OFN's promise of freedom, actively participate in building the mandate's administrative and political structures, and cooperate with the transitional government."
+ COG_OFN_Employed_Mercs: "Employed Mercenaries"
+ COG_OFN_Leopoldville_Committee: "Leopoldville Committee"
+ OFN_COG_local_development_decisions: "Local Development"
+ OFN_COG_local_development_decisions_desc: "Decades of uninterrupted colonial rule drained the Congo Basin of its precious wealth. The colonists cared nothing for the well-being of the Congolese people, letting them rot and decline in poverty. The priority of rebuilding the Congolese state is to stop this tragic trend. To this end, we will invest heavily in and develop the plantation regions in the south of the mandate, better developing the local economy."
+ OFN_COG_plantations_leopoldville: "Fund Leopoldville Plantations"
+ OFN_COG_plantations_leopoldville_desc: ""
+ OFN_COG_plantations_libreville: "Fund Libreville Plantations"
+ OFN_COG_plantations_libreville_desc: ""
+ OFN_COG_plantations_bukavu: "Fund Bukavu Plantations"
+ OFN_COG_plantations_bukavu_desc: ""
+ OFN_COG_plantations_bangui: "Fund Bangui Plantations"
+ OFN_COG_plantations_bangui_desc: ""
+ OFN_COG_reopen_bondo_mine: "Reopen Bondo Mine"
+ OFN_COG_reopen_bondo_mine_desc: ""
+ OFN_COG_reopen_kindu_mine: "Reopen Kindu Mine"
+ OFN_COG_reopen_kindu_mine_desc: ""
+ OFN_COG_create_administrative_divisions_decisions: "Administrative Divisions"
+ OFN_COG_create_administrative_divisions_decisions_desc: "
+
+
+
+
+
+So far we have been relying on the divisions left by the previous government to administer the territory. Due to a lack of laws, the remaining land lacks local governance and is almost beyond government control. We cannot let this stand. With the help of local statesman Patrice Lumumba, we will draw new administrative divisions and territories to better reflect the many peoples of Congo and advance the rule of law in the Congo Basin."
+ OFN_COG_create_kivu_province: "Establish Kivu Province"
+ OFN_COG_create_kivu_province_desc: ""
+ OFN_COG_create_equateur_province: "Establish Equateur Province"
+ OFN_COG_create_equateur_province_desc: ""
+ OFN_COG_create_orientale_province: "Establish Orientale Province"
+ OFN_COG_create_orientale_province_desc: ""
+ OFN_COG_create_katanga_province: "Establish Katanga Province"
+ OFN_COG_create_katanga_province_desc: ""
+ OFN_COG_create_stanleyville_province: "Establish Stanleyville Province"
+ OFN_COG_create_stanleyville_province_desc: ""
+ OFN_COG_create_leopoldville_province: "Establish Leopoldville Province"
+ OFN_COG_create_leopoldville_province_desc: ""
+ OFN_COG_create_libreville_province: "Establish Libreville Province"
+ OFN_COG_create_libreville_province_desc: ""
+ OFN_COG_create_kivu_province_tt: "§GDGDP growth§! in §OUvira§!, §OGoma§!, and §OBeni§! will increase by §Y2%§!."
+ OFN_COG_create_equateur_province_tt: "§GGDP growth§! in §OBangui§!, §ON'Ga Eboko§!, and §OKele§! will increase by §Y2%§!."
+ OFN_COG_create_orientale_province_tt: "§GGDP growth§! in §OMbomou§!, §OUpper Mbomou§!, §OBumba§!, §OHitlerstadt§!, §OMobayi§!, and §OBunia§! will increase by §Y2%§!."
+ OFN_COG_create_katanga_province_tt: "§GGDP growth§! in §OKamina§!, §ORichardstadt§!, §OMwene-Ditu§!, §OKalemie§!, and §OBeardownstadt§! will increase by §Y2%§!."
+ OFN_COG_create_stanleyville_province_tt: "§GGDP growth§! in §OKananga§!, §ODekese§!, §OKindu-Port-Of-Embden§!, §ODjolui§!, and §OStanleyville§! will increase by §Y2%§!."
+ OFN_COG_create_leopoldville_province_tt: "§GGDP growth§! in §OPointe-Noire§!, §OLeopoldville§!, §OBoma§!, §OKikwit§!, and §OLunda Plateau§! will increase by §Y2%§!."
+ OFN_COG_create_libreville_province_tt: "§GGDP growth§! in §OFranceville§!, §OLibreville§!, §OOgooue-Ivindo§!, and §OYaounde§! will increase by §Y2%§!."
+ OFN_COG_the_abrams_plan_decisions: "The Abrams Plan"
+ OFN_COG_the_abrams_plan_decisions_desc: "
+
+
+
+
+
+The German colonial administration relied on a German oligarchic elite to meet its economic needs. But with the fall of the Reichskommissariat, these oligarchs fled Central Africa, leaving behind valuable assets just to escape arrest by our forces. For these ownerless lands, General Abrams has devised a clever solution: simply seize these owned or unowned lands directly, and repurpose the plantations, mines, and factories upon them."
+ OFN_COG_seize_german_assets: "Seize German Assets"
+ OFN_COG_seize_german_assets_desc: ""
+ OFN_COG_seize_japanese_assets: "Seize Japanese Assets"
+ OFN_COG_seize_japanese_assets_desc: ""
+ OFN_COG_handling_the_rebels: "Hunt Native Rebels"
+ OFN_COG_handling_the_rebels_desc: "
+
+
+
+
+
+The fall of Leopoldville and the subsequent establishment of the OFN mandate as a provisional government was welcomed by many in Congo. Even so, many guerrillas, especially leftists, continue to resist. They believe the American presence means the mandate is nothing more than an over-glorified colonial regime, greedily smiling as it exploits the Congolese people. These rebels pose a major threat to our humanitarian work and must be dealt with immediately, by force or less vicious means."
+ OFN_COG_clean_out_kananga: "Clean Out Kananga"
+ OFN_COG_clean_out_kananga_desc: ""
+ OFN_COG_clean_out_kindu: "Clean Out Kindu"
+ OFN_COG_clean_out_kindu_desc: ""
+ OFN_COG_clean_out_bukavu: "Clean Out Bukavu"
+ OFN_COG_clean_out_bukavu_desc: ""
+ OFN_COG_clean_out_kalemie: "Clean Out Kalemie"
+ OFN_COG_clean_out_kalemie_desc: ""
+ OFN_COG_handling_the_german_mercs: "Hunt German Mercenaries"
+ OFN_COG_handling_the_german_mercs_desc: "
+
+
+
+
+
+Central Africa differs greatly from the other German Reichskommissariate; its regime was not centered on SS officers, influential bureaucrats, and the army. This colony was built by mercenaries, run by them, and for them. After the OFN entered Leopoldville, a few mercenaries fled, but most, driven by a twisted longing for the fatherland and service to local chiefs, remain scattered across Central Africa. We must use every means necessary to root out these Nazi remnants."
+ OFN_COG_clear_out_richardsstadt: "Clear Out Richardsstadt"
+ OFN_COG_clear_out_richardsstadt_desc: ""
+ OFN_COG_clear_out_kamina: "Clear Out Kamina"
+ OFN_COG_clear_out_kamina_desc: ""
+ OFN_COG_clear_out_kapanga: "Clear Out Kapanga"
+ OFN_COG_clear_out_kapanga_desc: ""
+ OFN_COG_clear_out_manano: "Clear Out Manano"
+ OFN_COG_clear_out_manano_desc: ""
+ OFN_COG_german_merc_attack: "§SAttack from German Mercenaries§!"
+ OFN_COG_German_Mercs: "German mercenaries are fighting us."
+ OFN_COG_Congo_Crisis: "Congo Crisis"
+ OFN_COG_Congo_Crisis_desc: "
+
+
+
+
+
+Congo was once the heart of America's nation-building model; now, with the American government collapsed under its own weight, the turbulence facing Congo is not promising. From the towers of Leopoldville to the jungles of Katanga, all of Congo is a stew of conflict, as local rebels rise up to throw off the remnants of American rule, while the native SS lurking in Congo's heartland remains a malignant tumor attached to everyone. Predictions of coming decolonization and prosperity have proven quite short-sighted and naive; now people can only question whether Congo will ever know peace."
+ OFN_COG_Congo_Crisis_Timer: "§SCrisis Approaches!§!"
+ OFN_COG.1.t: "State of the Mandate"
+ OFN_COG.1.desc: ""The fall of the central government has not brought the collapse of order on the ground. On the contrary, local forces seem to have handled the loss of contact with Leopoldville quite well; there is some disorder, but order remains. Overall, we are pleased to report that the political upheaval in Kivu is far smaller than previously feared."
+
+General Abrams tossed the report onto a stack of similar dispatches from other mandates, which together painted a fairly clear picture of the state of the distant territories. Though the war did damage Central Africa's economic infrastructure, the fall of Muller's regime did not cause public order to collapse.
+
+But the reason for this is not encouraging. Under Kommissar Muller, tribal lords, companies, planters, and settler organizations ruled their fiefs in chaotic independence, almost entirely separate from the Leopoldville government.
+
+Abrams looked at another stack of papers on his desk: the summary of archives left by his predecessor. Like the reports, these documents were almost entirely consistent. After weeks of poring over Muller's and Steiner's files, the information they gained could only be called "not much." Abrams sighed.
+
+They would certainly need more detailed intelligence on the state of the mandate. The question was how. The General would have to put in some extra work to figure it out."
+ OFN_COG.1.a: "The General works late into the night."
+ OFN_COG.2.t: "A Brief Meeting"
+ OFN_COG.2.desc: "This was supposed to be a brief meeting.
+
+Clearly, General Abrams' opposite number, Jean Schramme, maintained his usual swaggering soldier's image. Novel as it was, he cut straight to the heart of the negotiation. The Belgian bluntly asked the General what he wanted from him, and just as bluntly listed what he wanted in return.
+
+"...there you go, General. Fair enough?"
+
+Schramme was right; his demands were reasonable. Agreeing on pay and how it would be delivered, guaranteeing no reprisals for what he did under Muller, chasing the CIA agents away, and continued Katangan autonomy - none of this was a problem. And the return? All Belgian planters, corporate oligarchs, and mercenaries would swear loyalty to the mandate government.
+
+"I admire your frankness, Mr. Schramme. If you don't change your offer, I accept these terms."
+
+Naturally, the General had to spend another evening on the phone organizing everything. But by now, the General feels he is used to it."
+ OFN_COG.2.a: "Someone, get me a cup of coffee."
+ OFN_COG.3.t: "Meeting the Mercenaries"
+ OFN_COG.3.desc: ""Thank you for inviting me to meet, General."
+
+"Thank you for coming. Drink?"
+
+General Abrams had been looking forward to meeting Bob Denard. The Frenchman was known as Central Africa's most efficient mercenary leader and had been Muller's ace in the hole. He led his men on campaigns across Central Africa, overcoming countless hardships to maintain the old order.
+
+Naturally, the old order he maintained is no more. But even though Central Africa's politics have turned upside down, the economic and geographic realities on the ground have not changed one bit. Bob and his men are both a headache for Abrams and an opportunity the General can exploit.
+
+"Perhaps we should continue discussing the contract, General?"
+
+As expected, the meeting was something of a success. The General knew Bob Denard was a man of few words and would never be the source he needed for operational intelligence.
+
+But on the other hand, Denard was perfectly willing to serve a new patron. His men were highly professional, knew the local terrain, and no one at home would mourn them if they died. All they wanted was endless dollars.
+
+"Ah, right, the contract. I imagine you're familiar with most of the terms; I hope your boys are ready, Mr. Denard.""
+ OFN_COG.3.a: "There's no shortage of work waiting for them."
+ OFN_COG.4.t: "Meeting Kasa-Vubu"
+ OFN_COG.4.desc: ""Mr. Kasa-Vubu, if I pronounced that right? I've been looking forward to meeting you."
+
+It was true; Abrams had been looking forward to this meeting. Joseph Kasa-Vubu was a Congolese, educated, experienced in administration, and seemed willing to work with the OFN. For the future of the mandate and Central Africa, he was vital.
+
+"The honor is mine, General. I hope we can help each other."
+
+Using a translator was awkward at first, but it was necessary. Fortunately, they soon found their rhythm.
+
+"...so I intend to offer you a key position in the government. If you accept, you will speak for the Congolese people."
+
+"I am honored, General. As you know, I would also like some say in decision-making. If I represent the Congolese people in the government, then to the Congolese people I also represent the government."
+
+"And your proposal?"
+
+"We must work to shorten the mandate's occupation. Central Africa has wanted this for years; it needs independence. We are happy to be rid of the Germans, so we will give you a transition period, so long as you don't overstay. In the end, both in the public eye and in practice, you must not become yet another foreign oppressor."
+
+"Beyond that, local strongmen are a problem, especially Mobutu. If they are continually supported and allowed to maintain order, then when you leave, order here will collapse. What we need is civil government, General, not military rule."
+
+"I think we are of one mind on both points, Mr. Kasa-Vubu. It is good to work with you; you will certainly be welcomed.""
+ OFN_COG.4.a: "There's still a lot to do."
+ OFN_COG.5.t: "Meeting Mba"
+ OFN_COG.5.desc: "Within a minute, General Abrams had wiped his brow three times. Leon Mba, the man he was meeting, was in poor health and had brought a large entourage of possible successors. The crowd made the meeting room hotter and more humid than usual.
+
+In a way, however, it unexpectedly proved Mba was a powerful ally of the mandate in western Central Africa, worth Abrams meeting in person.
+
+"Mr. Mba, your efforts to keep the peace and stability around Libreville have been a great help to the mandate. You have been willing to work with our troops and publicly support the mandate government. Honestly, I am honored to have your trust."
+
+"Many people only remember the German colonial days, General, but I remember the stable, self-reliant times under the French. I look forward to working with the OFN to return to those good days."
+
+"Very well. If you are willing, we will fully support your needs and keep western mandate stable."
+
+"I'm glad to hear it, General. We have much to do. I think you know that many of my countrymen still doubt your purpose in occupying Africa. We must quickly explain to these misguided people that the mandate will set African peoples on a path toward stable self-rule. Otherwise, I fear we will not be able to keep Africa stable for long."
+
+Abrams paid little mind to the warning; after all, he had heard it many times before. Besides, the point of the meeting was that, at least until Mba dies, the west of the mandate will be as solid as a rock."
+ OFN_COG.5.a: "To your health, Mr. Mba."
+ OFN_COG.6.t: "Contact Mobutu"
+ OFN_COG.6.desc: "OFN Central African Mandate
+Central Command Headquarters
+Avenue Lemera, Leopoldville
+
+To Joseph-Desire Mobutu:
+
+In recent times, the government has focused on your influence in maintaining the stability and territorial integrity of northern Central Africa. We highly appreciate the role you have played in preventing the Cameroonian revolutionary movement from gaining a foothold. Both are critical to the current government, and we intend to recognize and support you for it.
+
+We would like to formally invite you to cooperate with the government. For your tireless efforts to keep northern Central Africa stable and for helping obstruct enemy insurgents, the government will provide material and logistical support and reserve a place for you in Central Africa's future.
+
+Commander
+General, United States Army
+Creighton Williams Abrams Jr.
+
+Abrams spent almost the whole afternoon settling the wording, yet still hesitated to send the letter. Mobutu's support was indispensable to stabilizing the north. But empowering a man like that was a huge risk, and it would surely backfire later. General Abrams hoped he could strike the balance.
+"
+ OFN_COG.6.a: "We await the reply."
+ OFN_COG.61.t: "Mobutu's Reply"
+ OFN_COG.61.desc: "To General Abrams:
+
+We will continue our fight to defend the nation from Cameroonian extremists, and stand ready to defend Central Africa as we have in the past. Our stockpiles of old, outdated German equipment are running low, so we very much welcome your shipments of supplies for the fight. However brave my men may be, without weapons they can do nothing.
+
+We urgently need trucks, fuel, rifles, mortars, and ammunition. General, if you can provide these supplies, it will deepen our alliance, and my forces will receive what they need to keep northern Central Africa secure.
+
+Revolutionary Military Committee
+Supreme Commander
+Mobutu Sese Seko Kuku Ngbendu wa za Banga"
+ OFN_COG.61.a: "We need his help."
+ OFN_COG.7.t: "The Jewel of the Lake"
+ OFN_COG.7.desc: "With a tired sigh, General Abrams set the day's last report on its proper pile. Now only two documents remained on his desk, both concerning the German "jewel of the lake," Hitlerstadt.
+
+The first was a report he had commissioned on the current state of Hitlerstadt. It seems that even at the end of the war, looters and squatters had not done much damage to Hitlerstadt's structure; the refurbishment needed to reopen the resort would be inexpensive and quick.
+
+The second contained an intelligence briefing detailing the "German manor" ubiquitous in resistance propaganda, symbolizing inequality and oppression. The briefing warned that reopening the resort would let the mandate be maliciously portrayed in the propaganda war as a colonial oppressor.
+
+This was no easy decision. On one hand, Hitlerstadt had already caught the interest of adventurous businessmen, and finding investors would be no problem; the investment would give the weak local economy a much-needed shot in the arm. On the other hand, the opulent resort is a constant reminder of the cruel exploitation of the colonial era.
+
+Time to decide, and so Abrams decided to..."
+ OFN_COG.7.a: "Set the charges and blow the place to kingdom come."
+ OFN_COG.7.b: "Call the investors; the place is still useful to us."
+ OFN_COG.10.t: "Native Insurgency Causes Panic"
+ OFN_COG.10.desc: "Waking this morning, news arrived that Highway 1 (the main road west from Leopoldville) has been severely damaged. About 80 kilometers from the capital, an unknown rebel group detonated bombs that triggered a landslide, burying the highway.
+
+The destruction has cut the capital off from Libreville and the coastal region north of the Congo River. The disruption of transport has spread to the surrounding area, and the whole region has fallen into chaos.
+
+The army is urgently closing the road to minimize the damage. The interruption is estimated to last over a week, until we clear the obstacles from the road.
+
+This is only the latest and most shameless in a series of similar terrorist attacks. Their goal is to disrupt our operations and force the OFN to withdraw from the mandate early."
+ OFN_COG.10.a: "Fucking damn it."
+ OFN_COG.11.t: "Production Facility Raided"
+ OFN_COG.11.desc: "This morning, reports from the provinces brought bad news.
+
+Last night, a group of raiders targeted warehouses and production lines, dealing a devastating blow to one of our production facilities. The precise raid not only let the attackers seize the ammunition stockpile but left us with a useless factory - killing two birds with one stone.
+
+The precision of the raid shows familiarity with the factory's layout, and combined with the defenders' descriptions, we can conclude the attackers were former German garrison troops. These raiders operate like mercenaries and bandits; in recent months their activity has grown more frequent and their raids more daring."
+ OFN_COG.11.a: "Assess the damage."
+ OFN_COG.12.t: "Rebels Gather"
+ OFN_COG.12.desc: "Abrams had always considered good relations between the mandate government and the natives one of his successes in Central Africa. The reports on his desk from friendly nationalist groups were proof enough. But it was time to face reality: he could not please everyone. Intelligence gathered from across the region painted this picture.
+
+Whether out of distrust for the mandate government or simple awareness that they would lose at the polls, many small independence groups have taken up arms, spreading chaos across the mandate.
+
+This cannot end politely. These people are slipping out of control, and unless Abrams acts immediately, full-scale chaos could break out at any moment."
+ OFN_COG.12.a: "Can't they just sit down and talk?"
+ OFN_COG.13.t: "German Dissidents Gather"
+ OFN_COG.13.desc: "Abrams stared at his notes and the folders spread across his desk. Five separate reports, all pointing to the same grim conclusion.
+
+German dissidents shifting between mercenary and bandit identities are growing more active. Worse, they are changing targets, increasingly aiming at Abrams' government and its economic interests. It seems the Germans are gathering into a more cohesive force. If not checked, they will surely cause serious damage.
+
+We cannot let it come to that. The General cannot, and will not, let Germans sneak back into Central Africa to undermine his mission and sabotage the mandate. They must be stopped!
+
+Abrams has ordered a new operation. He has had to postpone other plans and reduce some garrisons, for that is the necessary price."
+ OFN_COG.13.a: "He swears to root them out."
+ OFN_COG.14.t: "Clashes Between Local Regime and Congolese National Movement"
+ OFN_COG.14.desc: "In recent weeks, reports of strikes and clashes on Congolese territory have risen far above normal levels. Initial intelligence has confirmed our fears: Patrice Lumumba is the organizer behind the attacks, and it is clear that the MNC party he leads, once content merely to secure and consolidate its hold on power, is now in open rebellion.
+
+Worryingly, this shift in priorities also seems to have opened the door for extremist revolutionaries from Cameroon. Under the banner of the "Parti de l'Unité Africaine," these fighters are rapidly infiltrating the Congo Basin; our limited contact suggests they are a well-drilled force, trained as puppets by their Cameroonian masters in elite guerrilla and small-unit tactics."
+ OFN_COG.14.a: "An unfortunate development."
+ OFN_COG.15.t: "Clashes Between Local Regime and the African SS"
+ OFN_COG.15.desc: "Abrams nodded and dismissed the intelligence officer before him. The latest briefing only confirmed what a string of previous reports had shown. Remnants of the former African SS are gathering in the north of the mandate, launching attacks on the Central African government and its army.
+
+This did not surprise Abrams; he had expected it. Blacklisting the former African SS was sure to make them hostile and push them into conflict with the authorities. Yet the speed with which the SS organized, the widespread strikes they launched, and the ferocity with which the rebels resisted and even counterattacked government troops are all deeply worrying. Rooting out this poison seems far harder than Abrams expected."
+ OFN_COG.15.a: "Sharpen your necks and wait."
+ OFN_COG.16.t: "Chaos in the Interior"
+ OFN_COG.16.desc: ""You must order a retreat, General. It's all over!"
+
+General Abrams knew the officer was right. The Central African regime he ruled had collapsed; rebel packs tore at its wreckage like hyenas, scrambling for their share of the spoils in the chaos. The mandate has failed, and now all they can do is minimize the loss of American lives.
+
+Admitting defeat still pains him, especially since it was he who brought about the current situation.
+
+He had tried to stop the tide of raids, riots, kidnappings, and executions, but their frequency only rose, until they became a daily sight across Congo. Wherever the rebels went, no civilians were spared, and it was all Abrams' fault.
+
+"You're right, it's over. Show me the order, then sign it, Major. It's time to leave."
+
+What will become of Central Africa? Countless rebel bands are gathering under three banners: Mobutu's "Revolutionary Military Committee," the Cameroonian-backed "Parti de l'Unité Africaine," and the Congolese Republican Party.
+
+After the free-for-all, the front lines between groups will stabilize. The General expects fierce fighting between the rebels. Two tigers cannot live on one mountain; everyone wants to be the sole master of Central Africa, and only the victor will live to the end."
+ OFN_COG.16.a: "War returns to Central Africa."
+ OFN_COG.50.t: "Congo Provisional Government Seizes Assets"
+ OFN_COG.50.desc: ""
+ OFN_COG.50.a: "Goddamn Yanks!"
+ OFN_COG.51.t: "Congo Provisional Government Seizes Assets"
+ OFN_COG.51.desc: ""
+ OFN_COG.51.a: "Goddamn Yanks!"
+ OFN_COG_flavor.1.t: "Night in Brazzaville"
+ OFN_COG_flavor.1.desc: "Brazzaville, 3 a.m. As the night fades and a new day dawns, the nightclubs of Brazzaville shut their doors one by one. The bright daylight and the cleaning ladies are enough to drive off most of the leisure-seeking patrons. Still, three clusters of American businessmen endure the storm, stubbornly nursing drinks at the tiny bar table. One red-faced businessman mumbles his feelings, not noticing that his companions can no longer understand his barely coherent rambling.
+
+"Nah... anyway, you know what I always wanted to do? Sit on one of those thrones, brother. You know the kind, carried by six, seven, eight niggers on poles. God, that'd feel great."
+
+One of them grunts, impossible to tell if it's agreement or disagreement, or just grunting. Whatever he meant, the young Californian takes it as prompting him to explain his fascinating proposal. So he goes on.
+
+"I mean, think about it. Like King George sitting up there. Eating grapes or some fruit, lazily giving orders. Pure aristocracy."
+
+The man grunts again. But this time, the young speaker takes it as opposition. Some voice deep in his gut tells him the idea is stupid, just wrong. He tries to argue with the man, or with his own conscience, determined to refute these improper concerns with solid facts.
+
+"Don't get me wrong, brother. I'm no slave owner or anything. I'll pay these niggers a salary - win-win. Fuck, think about it, it's basically charity."
+
+With that, he smiles and passes out. After all, he is the savior of this backwater, about to spend his almighty dollars to rescue the helpless locals."
+ OFN_COG_flavor.1.a: "Adventuring in Congo like Tintin."
+ OFN_COG_Money_1_tt: "We will gain §G$1M§! in reserves"
+ OFN_COG_Money_2_tt: "We will gain §G$2M§! in reserves"
+ OFN_COG_Money_4_tt: "We will gain §G$4M§! in reserves"
+ OFN_COG_Money_6_tt: "We will gain §G$6M§! in reserves"
+ OFN_COG_Money_8_tt: "We will gain §G$8M§! in reserves"
+ OFN_COG_Money_3_tt: "We will gain §G$3M§! in reserves"
+ OFN_COG_Money_10_tt: "We will gain §G$10M§! in reserves"
+ OFN_COG_Money_5_tt: "We will gain §G$5M§! in reserves"
+ OFN_COG_Money_15_tt: "We will gain §G$15M§! in reserves"
+ OFN_COG_Money_20_tt: "We will gain §G$20M§! in reserves"
+ OFN_COG_Money_7_5_tt: "We will gain §G$7.5M§! in reserves"
+ OFN_COG_Money_Negative_1_tt: "We will spend §R$1M§! in reserves."
+ OFN_COG_Money_Negative_0_5_tt: "We will spend §R$0.5M§! in reserves."
+ OFN_COG_rebel_stab_increase_tt: "Rebel stability will §Gincrease§!."
+ OFN_COG_rebel_stab_decrease_tt: "Rebel stability will §Rdecrease§!."
+ OFN_COG_leopoldville_committee_tt: "Forming the Leopoldville Committee will §Ggreatly boost§! §jpolitical stability§!."
+ OFN_COG_natives_mad_tt: "Doing this will cause the natives to §Rerupt in§! rebellion."
+ OFN_COG_germans_mad_tt: "Doing this will eventually lead Germans to become mercenaries, §Rreducing§! Congo's stability."
+ OFN_COG_decolonization_focus_tt: "We have built a §Gbright future§! for the locals; it is time to begin the full §Bdecolonization§! process."
+ OFN_COG_creating_admin_region: "We are not currently focused on building another §Yadministrative division§!."
+ COG_OFN_Menace_of_Cameroon_1: "The Cameroonian Menace"
+ COG_OFN_Menace_of_Cameroon_2: "The Cameroonian Menace"
+ COG_OFN_Menace_of_Cameroon_1_desc: "The African State of Cameroon is colonialism's most powerful enemy and has posed a constant threat to Congo since the German occupation. In the fifties, hundreds died in border clashes; now that the OFN controls Congo, Cameroon may seize the moment to create further chaos and fan the flames."
+ COG_OFN_Menace_of_Cameroon_2_desc: "The African State of Cameroon is colonialism's most powerful enemy and has posed a constant threat to Congo since the German occupation. In the fifties, hundreds died in border clashes; now that the OFN controls Congo, Cameroon may seize the moment to create further chaos and fan the flames."
