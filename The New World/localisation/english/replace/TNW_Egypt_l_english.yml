@@ -1,9 +1,5 @@
 ﻿l_english:
- POLITICS_FAROUK_I_DESC:0 "King Farouk of Egypt is a man of exquisite taste. On the positive side, Farouk is determined to make life a party, with every moment filled with fun and excitement to prevent the mind from aging. On the negative side, he is a black hole in the Egyptian economy, having completely abandoned his political duties to Egypt's great embarrassment. The king may once have been a young man passionate about reform and modernization, but that is ancient history now; Farouk only wants to amuse himself by any means necessary.
-
-When Farouk is idle, his days are spent in debauchery and smoke. More often than not, he is high, speeding through Cairo's streets in his red sports car or showering the crowd with gold coins in some charitable act. If the king is especially in the mood, he may board his private plane and fly wherever he pleases. His temporary absence from Egypt is cause for rejoicing, as it usually means power falls into more capable hands for at least a week or two.
-
-On his world travels, Farouk makes "full use" of Egypt's wealth, squandering it on whatever catches his fancy — whether a diamond necklace for his latest mistress, adding another coin to his expanding collection, or trying some folk remedy said to grant immortality. Whatever he buys, it certainly benefits the Egyptian people not one bit. Yet Farouk is no villain or scoundrel; he is simply indifferent to the world around him. To the king, politics is a serious, long, and often tedious affair, and so he prefers not to think about it. He would rather enjoy himself than bear whatever responsibilities the world has thrust upon him."
+ POLITICS_FAROUK_I_DESC:0 "King Farouk of Egypt is a man of exquisite taste. On the positive side, Farouk is determined to make life a party, with every moment filled with fun and excitement to prevent the mind from aging. On the negative side, he is a black hole in the Egyptian economy, having completely abandoned his political duties to Egypt's great embarrassment. The king may once have been a young man passionate about reform and modernization, but that is ancient history now; Farouk only wants to amuse himself by any means necessary.\n\nWhen Farouk is idle, his days are spent in debauchery and smoke. More often than not, he is high, speeding through Cairo's streets in his red sports car or showering the crowd with gold coins in some charitable act. If the king is especially in the mood, he may board his private plane and fly wherever he pleases. His temporary absence from Egypt is cause for rejoicing, as it usually means power falls into more capable hands for at least a week or two.\n\nOn his world travels, Farouk makes "full use" of Egypt's wealth, squandering it on whatever catches his fancy — whether a diamond necklace for his latest mistress, adding another coin to his expanding collection, or trying some folk remedy said to grant immortality. Whatever he buys, it certainly benefits the Egyptian people not one bit. Yet Farouk is no villain or scoundrel; he is simply indifferent to the world around him. To the king, politics is a serious, long, and often tedious affair, and so he prefers not to think about it. He would rather enjoy himself than bear whatever responsibilities the world has thrust upon him."
  EGY_communist_party:0 "Arab Socialist Union"
  EGY_communist_party_long:0 "Arab Socialist Union (al-Ittihād al-Ištirākī al-'Arabī)"
  EGY_socialist_party:0 "Arab Socialist Union"
@@ -59,8 +55,8 @@ On his world travels, Farouk makes "full use" of Egypt's wealth, squandering it 
  EGY_Adalberto_Genova:0 "Adalberto of Savoy-Genoa"
  EGB_Gamal_Abdel_Nasser:0 "Gamal Abdel Nasser"
  EGQ_Sayyid_Qutb:0 "Sayyid Qutb"
- EGY: "Protectorate of Egypt"
- EGY_DEF: "Protectorate of Egypt"
+ EGY: "Sultanate of Egypt"
+ EGY_DEF: "Sultanate of Egypt"
  EGY_ADJ: "Egyptian"
  EGB: "Egyptian Revolutionary Command Council"
  EGB_DEF: "Egyptian Revolutionary Command Council"

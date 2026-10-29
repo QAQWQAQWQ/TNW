@@ -24,36 +24,14 @@
  MLI_ultranationalism_party: "-"
  MLI_ultranationalism_party_long: "-"
  MLI_idea_keitas_leadership: "Keïta's Leadership"
- MLI_idea_keitas_leadership_desc: "As far as Mali's current situation is concerned, the election results are perfect. Modibo Keïta, Mali's first and thus far only elected president, has a governing platform that uniquely blends socialist ideology with more pragmatic means of maintaining control.
-
-Mali is divided into two camps: the reformists, who hold high the ideal of pan-Africanism and advocate alignment with Cameroon; and the traditionalists, who insist on preserving Mali's territorial integrity. Keïta treads carefully between the two, but if he can maintain national unity, Mali will rise from the ashes and build a stronger future."
+ MLI_idea_keitas_leadership_desc: "As far as Mali's current situation is concerned, the election results are perfect. Modibo Keïta, Mali's first and thus far only elected president, has a governing platform that uniquely blends socialist ideology with more pragmatic means of maintaining control.\n\nMali is divided into two camps: the reformists, who hold high the ideal of pan-Africanism and advocate alignment with Cameroon; and the traditionalists, who insist on preserving Mali's territorial integrity. Keïta treads carefully between the two, but if he can maintain national unity, Mali will rise from the ashes and build a stronger future."
  MLI_idea_traore_problem: "The Traoré Problem"
- MLI_idea_traore_problem_desc: "Though President Keïta is an elected leader, not all citizens have confidence in the leadership of this young nation. To be fair, most of these opponents are not worth worrying about — they are merely jealous ingrates and incompetents, with one glaring exception.
-
-Moussa Traoré, a young officer, is intimately familiar with the inner workings of the various factions within the Malian military. Rumors and panic about Cameroonian puppet-mongering run rife through the ranks, and there is no doubt that he is plotting to subvert Mali's democratic system, backed by foreign capital."
- MLI_Modibo_Keita_hog_desc: "§YHead of Government
-Paternalism§!
---------------
-"
- MLI_Kadari_Bamba_for_desc: "§YMinister of Foreign Affairs
-Socialism§!
---------------
-"
- MLI_Younoussi_Toure_eco_desc: "§YMinister of Economy
-Paternalism§!
---------------
-"
- MLI_Amadou_Baba_Diarra_sec_desc: "§YMinister of Security
-Despotism§!
---------------
-"
- POLITICS_MODIBO_KEITA_DESC: "Among the nations of West Africa, Mali appears unusually calm and ordinary — the people here seem to suffer less oppression than elsewhere. This is the land of Modibo Keïta, a leader torn between moral conviction and radical belief, struggling to find his way in the turbulent landscape of West Africa.
-
-Born in the streets of Bamako, Keïta could have claimed descent from the founders of the Mali Empire, but he never harbored dreams of expansion. Instead, Keïta found his spiritual home in socialist groups across French West Africa, uniting many Malians under the banner of national freedom and prosperity.
-
-When news of Germany's victory over France arrived, this noble ideal suffered a major setback. As de Gaulle's forces struggled to hold the remnants of West Africa, Keïta remained openly defiant of the French; his organization of militia forces to oppose de Gaulle's army gave the French no end of trouble. The French were not only driven out of Mali but forced back to the Ivory Coast, and Mali was free. The militia was a melting pot, gathering all forces that desired Malian autonomy — Islamists, socialists, democrats, and nationalists, all fighting for the same goal. Now that the dust has settled, the many factions within Mali have turned their gaze inward. Infighting between factions within the Malian government escalates almost to the point of farce. Keïta's ongoing national reforms have not calmed the strife but instead enraged the conservative militias.
-
-The dissident Moussa Traoré has integrated the Islamic militias into a regular army and seized the city of Kayes as his stronghold. The battle for Mali's future has begun, and Modibo Keïta leads his army toward this decisive campaign."
+ MLI_idea_traore_problem_desc: "Though President Keïta is an elected leader, not all citizens have confidence in the leadership of this young nation. To be fair, most of these opponents are not worth worrying about — they are merely jealous ingrates and incompetents, with one glaring exception.\n\nMoussa Traoré, a young officer, is intimately familiar with the inner workings of the various factions within the Malian military. Rumors and panic about Cameroonian puppet-mongering run rife through the ranks, and there is no doubt that he is plotting to subvert Mali's democratic system, backed by foreign capital."
+ MLI_Modibo_Keita_hog_desc: "§YHead of Government\nPaternalism§!\n--------------\n"
+ MLI_Kadari_Bamba_for_desc: "§YMinister of Foreign Affairs\nSocialism§!\n--------------\n"
+ MLI_Younoussi_Toure_eco_desc: "§YMinister of Economy\nPaternalism§!\n--------------\n"
+ MLI_Amadou_Baba_Diarra_sec_desc: "§YMinister of Security\nDespotism§!\n--------------\n"
+ POLITICS_MODIBO_KEITA_DESC: "Among the nations of West Africa, Mali appears unusually calm and ordinary — the people here seem to suffer less oppression than elsewhere. This is the land of Modibo Keïta, a leader torn between moral conviction and radical belief, struggling to find his way in the turbulent landscape of West Africa.\n\nBorn in the streets of Bamako, Keïta could have claimed descent from the founders of the Mali Empire, but he never harbored dreams of expansion. Instead, Keïta found his spiritual home in socialist groups across French West Africa, uniting many Malians under the banner of national freedom and prosperity.\n\nWhen news of Germany's victory over France arrived, this noble ideal suffered a major setback. As de Gaulle's forces struggled to hold the remnants of West Africa, Keïta remained openly defiant of the French; his organization of militia forces to oppose de Gaulle's army gave the French no end of trouble. The French were not only driven out of Mali but forced back to the Ivory Coast, and Mali was free. The militia was a melting pot, gathering all forces that desired Malian autonomy — Islamists, socialists, democrats, and nationalists, all fighting for the same goal. Now that the dust has settled, the many factions within Mali have turned their gaze inward. Infighting between factions within the Malian government escalates almost to the point of farce. Keïta's ongoing national reforms have not calmed the strife but instead enraged the conservative militias.\n\nThe dissident Moussa Traoré has integrated the Islamic militias into a regular army and seized the city of Kayes as his stronghold. The battle for Mali's future has begun, and Modibo Keïta leads his army toward this decisive campaign."
  MLI_ADJ: "Malian"
  MLI_FFRPuppet: "Mali"
  MLI_FFRPuppet_DEF: "Republic of Mali"
