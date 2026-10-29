@@ -1,0 +1,107 @@
+﻿l_english:
+ ## Central America
+ HON: "Republic of Honduras"
+ HON_DEF: "Republic of Honduras"
+ HON_ADJ: "Honduran"
+ ELS: "Republic of El Salvador"
+ ELS_DEF: "Republic of El Salvador"
+ ELS_ADJ: "Salvadoran"
+ GUA: "Republic of Guatemala"
+ GUA_DEF: "Republic of Guatemala"
+ GUA_ADJ: "Guatemalan"
+ NIC: "Republic of Nicaragua"
+ NIC_DEF: "Republic of Nicaragua"
+ NIC_ADJ: "Nicaraguan"
+ COS: "Republic of Costa Rica"
+ COS_DEF: "Republic of Costa Rica"
+ COS_ADJ: "Costa Rican"
+
+ ## Caribbean
+ DOM: "Dominican Republic"
+ DOM_DEF: "Dominican Republic"
+ DOM_ADJ: "Dominican"
+ HAI: "Haiti"
+ HAI_DEF: "Republic of Haiti"
+ HAI_ADJ: "Haitian"
+ CAL: "Caribbean Legion"
+ CAL_DEF: "Second Caribbean Legion"
+ CAL_ADJ: "Second Caribbean Legion"
+
+ ## South Africa
+ SAF: "Union of South Africa"
+ SAF_DEF: "Union of South Africa"
+ SAF_ADJ: "South African"
+
+ ## Ostafrika
+ GRO: "Afrika Defense Front"
+ GRO_DEF: "Afrika Defense Front"
+ GRO_ADJ: "African"
+
+ ## Burgundy
+ BRG: "Ordensstaat Burgund"
+ BRG_DEF: "Ordensstaat Burgund"
+ BRG_ADJ: "Burgundian"
+
+ ## Iberia
+ IBR: "Iberian Union"
+ IBR_DEF: "the Iberian Union"
+ IBR_ADJ: "Iberian"
+
+ ## Ukraine
+ UKR: "Reichskommissariat Ukraine"
+ UKR_DEF: "Reichskommissariat Ukraine"
+ UKR_ADJ: "Ukrainian"
+ FUK: "Ukrainian People's Republic"
+ FUK_DEF: "Ukrainian People's Republic"
+ FUK_ADJ: "Ukrainian"
+ BOV: "Ukrainian State"
+ BOV_DEF: "Ukrainian State"
+ BOV_ADJ: "Ukrainian"
+ UKS: "Ukrainian Soviet Socialist Republic"
+ UKS_DEF: "Ukrainian Soviet Socialist Republic"
+ UKS_ADJ: "Ukrainian"
+
+ ## Yunnan
+ YUN: "Yunnan Province"
+ YUN_DEF: "Yunnan Province"
+ YUN_ADJ: "Yunnan"
+
+ ## Scotland
+ SCO_progressivism: "Scottish Republic"
+ SCO_progressivism_DEF: "Scottish Republic"
+ SCO_progressivism_ADJ: "Scottish"
+ SCO_liberalism: "Scottish Republic"
+ SCO_liberalism_DEF: "Scottish Republic"
+ SCO_liberalism_ADJ: "Scottish"
+ SCO_conservatism: "Scottish Republic"
+ SCO_conservatism_DEF: "Scottish Republic"
+ SCO_conservatism_ADJ: "Scottish"
+ SCO_paternalism: "Scottish Republic"
+ SCO_paternalism_DEF: "Scottish Republic"
+ SCO_paternalism_ADJ: "Scottish"
+ SCO_despotism: "Scottish Republic"
+ SCO_despotism_DEF: "Scottish Republic"
+ SCO_despotism_ADJ: "Scottish"
+ SCO_fascism: "Scottish Republic"
+ SCO_fascism_DEF: "Scottish Republic"
+ SCO_fascism_ADJ: "Scottish"
+ SCO_national_socialism: "Scottish Republic"
+ SCO_national_socialism_DEF: "Scottish Republic"
+ SCO_national_socialism_ADJ: "Scottish"
+
+ ## Guangdong
+ GNG_paternalism: "Guangdong Special Economic Zone"
+ GNG_paternalism_DEF: "Guangdong Special Economic Zone"
+ GNG_paternalism_ADJ: "Guangdong"
+ GNG_despotism: "Guangdong Special Economic Zone"
+ GNG_despotism_DEF: "Guangdong Special Economic Zone"
+ GNG_despotism_ADJ: "Guangdong"
+ GNG_fascism: "Guangdong Special Economic Zone"
+ GNG_fascism_DEF: "Guangdong Special Economic Zone"
+ GNG_fascism_ADJ: "Guangdong"
+ GNG_ultranationalism: "Guangdong Special Economic Zone"
+ GNG_ultranationalism_DEF: "Guangdong Special Economic Zone"
+ GNG_ultranationalism_ADJ: "Guangdong"
+ GNG_liberal_conservatism: "Guangdong Special Economic Zone"
+ GNG_liberal_conservatism_DEF: "Guangdong Special Economic Zone"
+ GNG_liberal_conservatism_ADJ: "Guangdong"
