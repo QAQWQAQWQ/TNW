@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  DEN: "Danish Social Republic"
  DEN_DEF: "Danish Social Republic"
  DEN_ADJ: "Danish"
@@ -310,8 +310,8 @@ l_english:
  PAD: "Principality of Andorra"
  PAD_DEF: "Principality of Andorra"
  PAD_ADJ: "Andorran"
- PAL: "Palestine"
- PAL_DEF: "Palestine"
+ PAL: "State of Palestine"
+ PAL_DEF: "State of Palestine"
  PAL_despotism: "Kingdom of Palestine"
  PAL_despotism_DEF: "Kingdom of Palestine"
  PAL_ADJ: "Palestinian"

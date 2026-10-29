@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
  ADL: "安达卢西亚共和国"
  ADL_DEF: "安达卢西亚共和国"
  ADL_ADJ: "安达卢西亚"
@@ -90,8 +90,8 @@ l_simp_chinese:
  BSQ_DEF: "巴斯克共和国"
  BSQ_ADJ: "巴斯克"
 
- CAN: "加拿大自治领"
- CAN_DEF: "加拿大自治领"
+ CAN: "加拿大共和国"
+ CAN_DEF: "加拿大共和国"
  CAN_ADJ: "加拿大"
  
  CHT: "赤塔"
