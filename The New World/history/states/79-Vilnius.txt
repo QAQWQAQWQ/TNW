@@ -7,10 +7,10 @@ state = {
 	}
 
 	history = {
-		owner = OST
+		owner = LIT
 		buildings = {
 			thermoelectric_plant = 1
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 4
 			schools = 1
 			prisons = 1

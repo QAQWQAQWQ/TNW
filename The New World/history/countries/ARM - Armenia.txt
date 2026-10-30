@@ -3,7 +3,7 @@ capital = 230 #Yerevan, Armenia
 # Vacant
 recruit_character = ARM_Generic_Vacant
 oob = "ARM_1962"
-
+set_cosmetic_tag = AMR_RK
 add_ideas = {
 	#political#
 	tno_political_parties_multiparty_system
@@ -87,7 +87,7 @@ recruit_character = ARM_Petros_Poghosyan
 
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
-set_cosmetic_tag = ARM_turk
+
 #Ideas
 add_ideas = {
 	TRI_Member_Client

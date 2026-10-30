@@ -3,7 +3,7 @@ state = {
 	name = "STATE_209"
 
 	history = {
-		owner = OST
+		owner = EST
 		victory_points = {
 			11202 10
 		}
@@ -20,7 +20,7 @@ state = {
 			prisons = 1
 			schools = 1
 		}
-		add_core_of = OST
+				add_core_of = OST
 		set_state_flag = GDP_regions_pleskau
 		set_state_flag = universal_renamings
 	}

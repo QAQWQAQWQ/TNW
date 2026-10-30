@@ -1,0 +1,33 @@
+﻿l_simp_chinese:
+ GEO_RK: "格奥尔格专员辖区"
+ GEO_RK_DEF: "格奥尔格专员辖区"
+ GEO_RK_ADJ: "格奥尔格专员辖区"
+ AMR_RK: "阿尔梅尼恩专员辖区"
+ AMR_RK_DEF: "阿尔梅尼恩专员辖区"
+ AMR_RK_ADJ: "阿尔梅尼恩专员辖区"
+ AZR_RK: "阿泽尔拜疆专员辖区"
+ AZR_RK_DEF: "阿泽尔拜疆专员辖区"
+ AZR_RK_ADJ: "阿泽尔拜疆专员辖区"
+
+ ##ostland##
+ EST_RK: "埃斯特兰专员辖区"
+ EST_RK_DEF: "埃斯特兰专员辖区"
+ EST_RK_ADJ: "埃斯特兰"
+ LAT_RK: "拉特兰专员辖区"
+ LAT_RK_DEF: "拉特兰专员辖区"
+ LAT_RK_ADJ: "拉特兰"
+ LIT_RK: "立陶恩专员辖区"
+ LIT_RK_DEF: "立陶恩专员辖区"
+ LIT_RK_ADJ: "立陶恩"
+
+ZAZ: "哥萨克保护国"
+ZAZ_DEF: "哥萨克保护国"
+ZAZ_ADJ: "扎波罗热的勇士之国"
+
+VGE: "沃尔加德意志自治区"
+VGE_DEF: "沃尔加德意志自治区"
+VGE_ADJ: "沃尔加德意志"
+
+
+
+ 

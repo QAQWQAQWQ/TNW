@@ -1,0 +1,33 @@
+﻿l_english:
+ GEO_RK: "Reichskommissariat Georgien"
+ GEO_RK_DEF: "Reichskommissariat Georgien"
+ GEO_RK_ADJ: "Georgien"
+ AMR_RK: "Reichskommissariat Armenien"
+ AMR_RK_DEF: "Reichskommissariat Armenien"
+ AMR_RK_ADJ: "Armenien"
+ AZR_RK: "Reichskommissariat Aserbaidschan"
+ AZR_RK_DEF: "Reichskommissariat Aserbaidschan"
+ AZR_RK_ADJ: "Aserbaidschan"
+
+ ##ostland##
+ EST_RK: "Reichskommissariat Estland"
+ EST_RK_DEF: "Reichskommissariat Estland"
+ EST_RK_ADJ: "Estland"
+
+ LAT_RK: "Reichskommissariat Lettland"
+ LAT_RK_DEF: "Reichskommissariat Lettland"
+ LAT_RK_ADJ: "Lettland"
+
+ LIT_RK: "Reichskommissariat Litauen"
+ LIT_RK_DEF: "Reichskommissariat Litauen"
+ LIT_RK_ADJ: "Litauen"
+
+ZAZ: "Kosaken Protektorat"
+ZAZ_DEF: "Kosaken Protektorat"
+ZAZ_ADJ: "saporogisch"
+
+VGE: "Autonomes Gebiet der Wolgadeutschen"
+VGE_DEF: "Autonomes Gebiet der Wolgadeutschen"
+VGE_ADJ: "wolgadeutsch"
+
+ 

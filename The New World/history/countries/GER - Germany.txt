@@ -19,7 +19,24 @@ set_air_oob = "GER_1962_air"
 
 ###Playable
 set_country_flag = tno_playable_country
-
+GEO = {
+	set_cosmetic_tag = GEO_RK
+}
+ARM  = {
+	set_cosmetic_tag = AMR_RK
+}
+AZR = {
+	set_cosmetic_tag = AZR_RK
+}
+EST = {
+	set_cosmetic_tag = EST_RK
+}
+LAT = {
+	set_cosmetic_tag = LAT_RK
+}
+LIT = {
+	set_cosmetic_tag = LIT_RK
+}
 ### Leaders
 recruit_character = GER_gerhard_kaindl
 recruit_character = GER_Heinrich_Lummer

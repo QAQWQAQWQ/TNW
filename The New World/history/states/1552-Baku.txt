@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = CAU
+		owner = AZR
 		victory_points = {
 			7661 30
 		}
@@ -14,7 +14,7 @@ state = {
 			7495 10
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 6
 			offices = 2
 			prisons = 1

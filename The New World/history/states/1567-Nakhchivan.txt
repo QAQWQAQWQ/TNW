@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1567"
 
 	history = {
-		owner = TUR
+		owner = ARM
 		victory_points = {
 			6997 3
 		}
@@ -13,8 +13,8 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = AZR
-		add_core_of = TUR
+				add_core_of = AZR
+				add_core_of = TUR
 		set_state_flag = state_renamings
 	}
 

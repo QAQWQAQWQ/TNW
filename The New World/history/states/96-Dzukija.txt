@@ -2,12 +2,12 @@ state = {
 	id = 96
 	name = "STATE_96"
 	resources = {
-		steel = 6.000
+		steel = 6
 	}
 
 	history = {
-		owner = OST
-		add_core_of = OST
+		owner = LIT
+				add_core_of = OST
 		victory_points = {
 			14571 1
 		}

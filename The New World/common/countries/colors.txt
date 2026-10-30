@@ -285,6 +285,10 @@ UKR = {
 	color = rgb { 88 94 101 }
 	color_ui = rgb { 88 94 101 }
 }
+ZAZ = {
+	color = rgb { 60 91 81 }
+	color_ui = rgb { 60 91 81 }
+}
 FUK = {
 	color = rgb { 89 120 135 }
 	color_ui = rgb { 89 120 135 }
@@ -301,6 +305,11 @@ UKS = {
 MCW = {
 	color = rgb { 94 88 82 }
 	color_ui = rgb { 94 88 82 }
+}
+
+VGE = {
+	color = rgb { 89 89 87 }
+	color_ui = rgb { 89 89 87 }
 }
 
 CAU = {

@@ -107,11 +107,13 @@ LAT = "countries/East Europe - Former RK.txt"	# Latvia - Unused
 LIT = "countries/East Europe - Former RK.txt"	# Lithuania - Unused
 
 UKR = "countries/Germany - Europe.txt"			# RK Ukraine
+ZAZ = "countries/Germany - Europe.txt"
 FUK = "countries/East Europe - Former RK.txt"	# UNRA Ukraine
 BOV = "countries/East Europe - Former RK.txt"	# UPA Ukraine
 UKS = "countries/East Europe - Former RK.txt"	# U-SSR Ukraine
 
 MCW = "countries/Germany - Europe.txt"			# Moskowien
+VGE = "countries/Germany - Europe.txt"			# Wolgaland
 
 CAU = "countries/Germany - Europe.txt"			# Kaukasia
 GEO = "countries/East Europe - Former RK.txt"	# Georgia - Unused besides some cores

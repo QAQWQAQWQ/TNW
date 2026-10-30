@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = CAU
+		owner = AZR
 		victory_points = {
 			18350 10
 		}
@@ -36,7 +36,7 @@ state = {
 			barracks = 1
 		}
 		set_state_flag = GDP_category_large_town
-		add_core_of = CAU
+				add_core_of = CAU
 		set_state_flag = universal_renamings
 		set_state_flag = GDP_regions_azerbaijan
 		set_state_flag = universal_renamings

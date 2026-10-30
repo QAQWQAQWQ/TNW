@@ -2,11 +2,11 @@ state = {
 	id = 257
 	name = "STATE_257"
 	resources = {
-		power = 2.000
+		power = 2
 	}
 
 	history = {
-		owner = OST
+		owner = LAT
 		victory_points = {
 			11234 5
 		}
