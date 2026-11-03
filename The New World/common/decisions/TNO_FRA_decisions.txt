@@ -6,66 +6,7 @@ FRA_debug_category = { #France Debug Category for TT3 Skeleton - to be deleted f
 			set_country_flag = FRA_debug_disabled
 		}
 	}
-	FRA_post_FBW_setup = {
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: decision FRA_post_FBW_setup"
 
-			retire_character = FRA_Jean_Louis_Tixier_Vignancour
-			retire_character = FRA_Charles_Huntziger
-
-			set_politics = {
-				ruling_party = despotism
-				name = FRS_despotism_party_interim
-				long_name = FRS_despotism_party_interim
-			}
-
-			add_country_leader_role = {
-				character = FRA_Conseil_des_Ministres
-				promote_leader = yes
-				country_leader = {
-					ideology = despotism_interim_government_subtype
-					expire = "1999.1.23.1"
-					id = -1
-				}
-			}
-			add_country_leader_role = {
-				character = FRA_Yves_Bouthillier
-				promote_leader = yes
-				country_leader = {
-					ideology = fascism_subtype
-					expire = "1999.1.23.1"
-					id = -1
-				}
-			}
-
-			remove_ideas = FRA_the_treaty_of_vichy
-			add_ideas = FRS_Generic_Vacant_sec
-
-			econ_leave_sphere = yes
-			leave_faction = yes
-
-			set_capital = { state = 19 }
-
-			BRG = {
-				add_political_power = 100
-
-				transfer_state = 15
-				transfer_state = 16
-				transfer_state = 788
-				transfer_state = 1625
-				transfer_state = 1626
-				transfer_state = 1635
-
-				16 = { set_state_name = STATE_16_brg }
-				788 = { set_state_name = STATE_788_brg }
-				1625 = { set_state_name = STATE_1625_brg }
-				1626 = { set_state_name = STATE_1626_brg }
-				1635 = { set_state_name = STATE_1635_brg }
-
-				every_owned_state = { set_demilitarized_zone = no }
-			}
-		}
-	}
 	FRA_poujade_debug = {
 		available = { has_country_leader = { character = FRA_Conseil_des_Ministres ruling_only = yes } }
 		complete_effect = {

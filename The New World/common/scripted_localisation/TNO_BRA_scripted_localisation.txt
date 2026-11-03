@@ -1444,10 +1444,6 @@ defined_text = {
 defined_text = {
 	name = BRA_gp_balance_meter_frame_color
 	text = {
-		trigger = { BRG_gp_check_coalition_unbalanced = yes }
-		localization_key = "GFX_BRA_GP_balance_meter_frame_red"
-	}
-	text = {
 		localization_key = "GFX_BRA_GP_balance_meter_frame"
 	}
 }
@@ -1473,34 +1469,14 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { BRA_gp_psd_points < 50 }
-			NOT = {
-				BRG_gp_check_coalition_unbalanced = yes
-			}
 		}
 		localization_key = "BRA_gp_balance_meter_ptb_leaning_tt"
 	}
 	text = {
 		trigger = {
 			check_variable = { BRA_gp_psd_points > 50 }
-			NOT = {
-				BRG_gp_check_coalition_unbalanced = yes
-			}
 		}
 		localization_key = "BRA_gp_balance_meter_psd_leaning_tt"
-	}
-	text = {
-		trigger = {
-			check_variable = { BRA_gp_psd_points < 50 }
-			BRG_gp_check_coalition_unbalanced = yes
-		}
-		localization_key = "BRA_gp_balance_meter_ptb_unbalanced_tt"
-	}
-	text = {
-		trigger = {
-			check_variable = { BRA_gp_psd_points > 50 }
-			BRG_gp_check_coalition_unbalanced = yes
-		}
-		localization_key = "BRA_gp_balance_meter_psd_unbalanced_tt"
 	}
 }
 

@@ -99,7 +99,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = JST_The_Northern_Crusade
-	icon = GFX_focus_BRG_operation_teutoburg
+	icon = GFX_goal_generic_political_pressure
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {
@@ -117,7 +117,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = JST_A_Call_to_Arms
-	icon = GFX_focus_BRG_the_burgundian_system
+	icon = GFX_goal_generic_political_pressure
 	cost = 3
 	available_if_capitulated = no
 	ai_will_do = {

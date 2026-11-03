@@ -1755,7 +1755,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = GER_implicate_the_militarists
-	icon = GFX_focus_BRG_arm_settler_militias
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	prerequisite = {
 		focus = GER_smile_beside_hitler
@@ -1897,45 +1897,8 @@ shared_focus = {
 		}
 	}
 }
-shared_focus = {
-	id = GER_replace_the_garrisons
-	icon = GFX_focus_HGR_burgundian_ss
-	cost = 5
-	prerequisite = {
-		focus = GER_mobilize_the_ss
-	}
-	x = 7
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_replace_the_garrisons"
-		HGR = {
-			add_manpower = 5000
-		}
-	}
-}
-shared_focus = {
-	id = GER_supply_the_waffen
-	icon = GFX_focus_HGR_waffen_ss
-	cost = 5
-	prerequisite = {
-		focus = GER_replace_the_garrisons
-	}
-	x = 7
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_supply_the_waffen"
-		send_equipment = {
-			equipment = infantry_equipment
-			amount = 5000
-			target = HGR
-		}
-		send_equipment = {
-			equipment = support_equipment
-			amount = 500
-			target = HGR
-		}
-	}
-}
+
+
 shared_focus = {
 	id = GER_redeploy_the_heer
 	icon = GFX_focus_GER_thousand_year_volk
@@ -1976,9 +1939,7 @@ shared_focus = {
 	id = GER_cripple_communications
 	icon = GFX_focus_GER_international_communication
 	cost = 5
-	prerequisite = {
-		focus = GER_supply_the_waffen
-	}
+
 	prerequisite = {
 		focus = GER_pressure_the_kriegsmarine
 	}
@@ -1990,85 +1951,10 @@ shared_focus = {
 		TNO_worsen_training_policy_effectiveness_med = yes
 	}
 }
-shared_focus = {
-	id = GER_detente_with_burgundy
-	icon = GFX_focus_BRG_burgundy
-	cost = 5
-	prerequisite = {
-		focus = GER_dissolve_the_reichstag
-	}
-	prerequisite = {
-		focus = GER_cripple_communications
-	}
-	x = 6
-	y = 6
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_detente_with_burgundy"
-		GER_increase_legitimacy_small_heydrich = yes
-		GER = {
-			give_guarantee = BRG
-		}
-		BRG = {
-			give_guarantee = GER
-		}
-	}
-}
-shared_focus = {
-	id = GER_end_travel_restrictions
-	icon = GFX_focus_BRG_die_burgund_autobahn
-	cost = 5
-	prerequisite = {
-		focus = GER_detente_with_burgundy
-	}
-	x = 5
-	y = 7
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_end_travel_restrictions"
-		give_military_access = BRG
-		TNO_worsen_immigration_policy_effectiveness_low = yes
-		BRG = { TNO_worsen_immigration_policy_effectiveness_low = yes }
-	}
-}
-shared_focus = {
-	id = GER_stop_the_sanctions
-	icon = GFX_focus_BRG_burgundian_nationalism
-	cost = 5
-	prerequisite = {
-		focus = GER_detente_with_burgundy
-	}
-	x = 7
-	y = 7
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_stop_the_sanctions"
-		add_opinion_modifier = { target = BRG modifier = BRG_supplies_reopened } 
-		BRG = {
-			add_opinion_modifier = { target = GER modifier = GER_sanctions_lifted }
-			remove_opinion_modifier = { target = GER modifier = GER_soft_sanctions }
-			set_temp_variable = { temp_econ_GDP_boost_percentage = 0.01 }
-			econ_GDP_boost_once_percentage = yes
-		}
-		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.01 }
-		econ_GDP_boost_once_percentage = yes
-	}
-}
-shared_focus = {
-	id = GER_burgundian_reinforcements
-	icon = GFX_focus_BRG_dream_of_self_sustainability
-	cost = 5
-	prerequisite = {
-		focus = GER_end_travel_restrictions
-	}
-	prerequisite = {
-		focus = GER_stop_the_sanctions
-	}
-	x = 6
-	y = 8
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_burgundian_reinforcements"
-		set_country_flag = HGR_burgundian_reinforcements
-		country_event = { id = HGR_successor.6 }
-	}
-}
+
+
+
+
 
 #################################
 #     Bormann/Speer WW3 Tree    #

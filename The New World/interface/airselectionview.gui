@@ -1063,7 +1063,6 @@
 #					size = { width = 600 height = 280 }
 #					slotsize = { width = 39 height = 35 }
 #					max_slots_vertical = 1
-#					max_slots_horizontal = 21 # clips the Burgundian building on purpose
 #					format = "UPPER_LEFT"
 #				}
 #			}

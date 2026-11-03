@@ -1417,13 +1417,7 @@ FFR_reclamation_victory = {
 			target = FFR
 			transfer_troops = yes
 		}
-		if = {
-			limit = { country_exists = BRG }
-			set_capital = { state = 19 remember_old_capital = no }
-		}
-		else = {
-			set_capital = { state = 786 remember_old_capital = no }
-		}
+		set_capital = { state = 786 remember_old_capital = no }
 	}
 	IVO = {
 		add_state_core = 779

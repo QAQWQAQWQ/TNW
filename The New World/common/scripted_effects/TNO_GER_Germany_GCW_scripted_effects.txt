@@ -163,7 +163,6 @@ GER_GCW_econ_setup = {
 }
 
 
-#Stuff to alleviate Germania's GDP being nuked back to burgundian level
 calculate_GCW_Debt_save = {
 	set_variable = { GCW_debt_save = -1 }
 	subtract_from_variable = { GCW_debt_save = credit_rating_effect_on_debt_GDP_effect }
@@ -462,10 +461,6 @@ GER_GCW_begin = {
 			#	}
 			#}
 
-			#econtype
-			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Burgsys }
-			econ_subtype_change = yes
-
 			if = {
 				limit = {
 					check_variable = { GER.GCW_Heydrich_infantry_weapons > 0 }
@@ -501,21 +496,6 @@ GER_GCW_begin = {
 				custom_effect_tooltip = GER_fix_your_shit_pdx_again
 				change_tag_from = GER
 				HGR = { add_ideas = GER_hitlers_chosen_successor }
-			}
-			if = {
-				limit = { GER = { has_country_flag = HGR_burgundian_reinforcements } }
-				28 = {
-					create_unit = {
-						division = "name = \"Burgundische Panzer-Division\" division_template = \"Burgundische Panzer-Division\" start_experience_factor = 0.3"
-						owner = HGR
-					}
-				}
-				28 = {
-					create_unit = {
-						division = "name = \"Burgundische Panzer-Division\" division_template = \"Burgundische Panzer-Division\" start_experience_factor = 0.3"
-						owner = HGR
-					}
-				}
 			}
 		}
 	}
@@ -700,24 +680,6 @@ GER_GCW_conclude = {
 			inherit_technology = PREV
 			drop_cosmetic_tag = yes
 			set_political_power = 200
-			if = {
-				limit = { 
-					GER = { has_opinion_modifier = GER_sanctions_lifted } 
-				}
-				BRG = {
-					remove_opinion_modifier = { target = GER modifier = GER_sanctions_lifted }
-					add_opinion_modifier = { target = GER modifier = GER_soft_sanctions }
-				}
-			}
-			if = {
-				limit = { 
-					BRG = { has_opinion_modifier = BRG_supplies_reopened }
-				}
-				GER = {
-					remove_opinion_modifier = { target = BRG modifier = BRG_supplies_reopened }
-				}
-			}
-
 			#Specific
 			if = {
 				limit = { PREV = { tag = BGR } }
@@ -983,16 +945,6 @@ GER_GCW_conclude = {
 			multiply_variable = { money_reserves = 0.0 } #already converted to billion
 
 			delete_unit_template_and_units = { division_template = "Bürgerwehr" }
-
-			#Himmler shenanigans
-			BRG = {
-				TNO_BRG_domestic_tree_swap = yes
-				set_temp_variable = { target = GGR }
-				TNO_clear_num_volunteers = yes
-				set_temp_variable = { target = HGR }
-				TNO_clear_num_volunteers = yes
-				clr_country_flag = BRG_fall_ragnarchar_allowed
-			}
 
 			#Rommel retires again
 			retire_character = GER_erwin_rommel
@@ -1744,10 +1696,6 @@ GER_GCW_conclude_heydrich = {
 			promote_character = { ideology = ultranationalism_stratocracy_subtype }
 		}
 	}
-
-	#econtype
-	set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Burgsys }
-	econ_subtype_change = yes
 
 	# Political Popularity & Ruling Party
 	set_politics = { ruling_party = national_socialism }

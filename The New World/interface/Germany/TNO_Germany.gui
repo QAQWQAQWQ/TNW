@@ -1298,7 +1298,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "SGR_Holland_Small" #Holland but Burgundy
+				name = "SGR_Holland_Small"
 				position = { x = -13 y = 219 }
 				pdx_tooltip = SGR_economic_holland_tt
 			}

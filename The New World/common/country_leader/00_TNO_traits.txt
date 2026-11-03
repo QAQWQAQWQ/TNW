@@ -63,7 +63,7 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 
-	utterly_abandoned = { #Used for when a leader in war is killed and the authority collapses ie Heydrich killed by Burgundy
+	utterly_abandoned = { #Used when a leader in war is killed and authority collapses.
 		random = no
 		army_attack_factor = -0.2
 		army_defence_factor = -0.2

@@ -12,9 +12,7 @@ econ_tradeView = {
 	check_variable = { TT_EconBase_activetab = 3 }
 }
 
-econ_BRGView = {
-	check_variable = { TT_EconBase_activetab = 1 }
-}
+
 
 # Checks if greater than or equal aluminium to `stockpile_temp` temp var
 stockpile_has_aluminium = {

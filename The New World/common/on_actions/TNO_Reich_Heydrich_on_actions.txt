@@ -48,10 +48,6 @@ on_actions = {
 					add_to_variable = { HGR_Nuke_Time_Remaining = -7 }
 				}
 
-				if = {
-					limit = { has_country_flag = HGR_Enable_Nuke_GUI }
-					GER = { update_nuke_control = yes }
-				}
 			}
 		}
 	}
@@ -79,44 +75,6 @@ on_actions = {
 					country_event = {
 						id = HGR.24
 					}
-				}
-			}
-
-			if = { # GBW - Burgundy defeated
-				limit = {
-					ROOT = {
-						tag = BRG
-					}
-					FROM = {
-						OR = {
-							tag = GER
-							is_in_faction_with = GER
-						}
-					}
-					BRG = { has_country_flag = TNO_nuke_disabled }
-					GER = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
-				}
-				GER = {
-					country_event = HGR.680
-					load_focus_tree = ZZZ_blank_focus
-				}
-			}
-			if = { # GBW - Burgundy wins
-				limit = {
-					ROOT = {
-						tag = GER
-					}
-					FROM = {
-						OR = {
-							tag = BRG
-							is_in_faction_with = BRG
-						}
-					}
-					GER = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
-				}
-				BRG = {
-					clr_country_flag = TNO_nuke_disabled
-					country_event = nuclearwar.6
 				}
 			}
 

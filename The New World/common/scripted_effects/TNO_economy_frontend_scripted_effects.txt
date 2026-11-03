@@ -2554,16 +2554,6 @@ econ_subtype_change = { #super janky, if there's a better option tell me
 	}
 	else_if = {
 		limit = {
-			check_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Burgsys }
-		}
-		custom_effect_tooltip = Econ_Subtype_change_tt
-		set_variable = { TNO_economy_type = token:Econ_Type_Planned }
-		hidden_effect = {
-			add_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier }
-		}
-	}
-	else_if = {
-		limit = {
 			check_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Banditry }
 		}
 		custom_effect_tooltip = Econ_Subtype_change_tt

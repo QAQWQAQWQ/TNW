@@ -459,11 +459,6 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
-	spriteType = {
-		name = "GFX_playthrough_stats_bg_BRG"
-		texturefile = "gfx/interface/career_profile/playthrough_stats_bg_BRG.dds"
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
 	
 	spriteType = {
 		name = "GFX_playthrough_stats_bg_BRY"

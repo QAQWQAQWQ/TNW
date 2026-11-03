@@ -184,57 +184,7 @@ GER_SRT_strat = {
 	}
 }
 
-GER_BRG_collapse_strat = {
-	allowed = {
-		OR = {
-			tag = GER
-			AND = {
-				tag = FRA
-				exists = yes
-			}
-		}
-	}
 
-	enable = {
-		GER = {
-			OR = {
-				has_active_mission = GER_Bormann_Foreign_Policy_Burgundy_Collapse_Intervention
-				has_active_mission = GER_Speer_Foreign_Policy_Burgundy_Collapse_Intervention
-			}
-		}
-		OR = {
-			is_in_faction_with = GER
-			is_in_faction_with = USA #should trigger for OFN France
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = BRG
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = PIC
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = BEL
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = FLR
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = RPY
-		value = 1000
-	}
-}
 
 GER_defend_the_north_atlantic = {
 	allowed = {

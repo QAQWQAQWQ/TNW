@@ -105,11 +105,9 @@ set_variable = { trade_opinion_embargo@MAD = 1 }
 set_variable = { trade_opinion_embargo@GRO = 1 }
 set_variable = { trade_opinion_embargo@ANG = 1 }
 set_variable = { trade_opinion_embargo@HOL = 1 }
-set_variable = { trade_opinion_embargo@BRG = 1 }
 set_variable = { trade_opinion_embargo@BUL = 1 }
 set_variable = { trade_opinion_embargo@ENG = 1 }
 set_variable = { trade_opinion_embargo@FRS = 1 }
 set_variable = { trade_opinion_embargo@IRE = 1 }
 
 TNO_startup_nation = yes
-

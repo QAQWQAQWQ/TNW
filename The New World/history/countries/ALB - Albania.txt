@@ -127,7 +127,6 @@ set_variable = { trade_opinion_embargo@MAD = 1 }
 set_variable = { trade_opinion_embargo@MZB = 1 }
 set_variable = { trade_opinion_embargo@ANG = 1 }
 set_variable = { trade_opinion_embargo@HOL = 1 }
-set_variable = { trade_opinion_embargo@BRG = 1 }
 set_variable = { trade_opinion_embargo@BUL = 1 }
 set_variable = { trade_opinion_embargo@ENG = 1 }
 set_variable = { trade_opinion_embargo@FRA = 1 }

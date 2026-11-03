@@ -134,53 +134,6 @@ on_actions = {
 		}
 	}
 
-	on_daily_BRG = {
-		effect = {
-			every_owned_state = {
-				if = {
-					limit = { has_variable = BRG_InfraProgress }
-					add_to_variable = { BRG_InfraProgress = 1 }
-					if = {
-						limit = { check_variable = { BRG_InfraProgress > 29 } }
-						clear_variable = BRG_InfraProgress
-					}
-				}
-				if = {
-					limit = { has_variable = BRG_SlotsProgress }
-					add_to_variable = { BRG_SlotsProgress = 1 }
-					if = {
-						limit = { check_variable = { BRG_SlotsProgress > 29 } }
-						clear_variable = BRG_SlotsProgress
-					}
-				}
-				if = {
-					limit = { has_variable = BRG_FactoryProgress }
-					add_to_variable = { BRG_FactoryProgress = 1 }
-					if = {
-						limit = { check_variable = { BRG_FactoryProgress > 29 } }
-						clear_variable = BRG_FactoryProgress
-					}
-				}
-				if = {
-					limit = { has_variable = BRG_CityProgress }
-					add_to_variable = { BRG_CityProgress = 1 }
-					if = {
-						limit = { check_variable = { BRG_CityProgress > 29 } }
-						clear_variable = BRG_CityProgress
-					}
-				}
-				if = {
-					limit = { has_variable = BRG_PowerplantProgress }
-					add_to_variable = { BRG_PowerplantProgress = 1 }
-					if = {
-						limit = { check_variable = { BRG_PowerplantProgress > 29 } }
-						clear_variable = BRG_PowerplantProgress
-					}
-				}
-			}
-		}
-	}
-
 	on_monthly_NOR = { #The Milorg go around blowing stuff up
 		effect = {
 			if = {

@@ -40,47 +40,6 @@ ideas = {
 			}
 		}
 
-		#### SS Lothringia ####
-
-		SSL_burgundy_wannabe = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SSL_burgundy_wannabe" }
-			allowed = {
-				original_tag = "SSL"
-				always = no
-			}
-
-			picture = SSL_burgundy_wannabe
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.10
-				conscription_factor = 0.05
-			}
-		}
-
-		SSL_burgundian_pawn = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SSL_burgundian_pawn" }
-			allowed = {
-				original_tag = "SSL"
-				always = no
-			}
-
-			picture = SSL_burgundys_pawn
-
-			removal_cost = -1
-
-			modifier = {
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-			}
-			targeted_modifier = {
-				tag = BRG
-				industry_repair_factor = 0.25
-				political_power_gain = 0.1
-			}
-		}
-
 		SSL_german_queen = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SSL_german_queen" }
 			allowed = {
@@ -88,7 +47,7 @@ ideas = {
 				always = no
 			}
 
-			picture = SSL_burgundys_pawn
+			picture = generic_anti_partisan_tactics
 
 			removal_cost = -1
 
@@ -616,11 +575,7 @@ ideas = {
 				decryption_factor = 0.1
 				political_power_gain = 0.1
 			}
-			targeted_modifier = {
-				tag = BRG
-				encryption_factor = 0.1
-				decryption_factor = 0.1
-			}
+
 		}
 
 		KLB_logistical_stronghouse_RH = {
@@ -680,11 +635,7 @@ ideas = {
 				# min_export = -0.10
 				supply_consumption_factor = -0.05
 			}
-			targeted_modifier = {
-				tag = BRG
-				# min_export = -0.10
-				supply_consumption_factor = -0.05
-			}
+
 		}
 
 		KSS_shell_of_a_bread_basket_RH = {
@@ -724,11 +675,7 @@ ideas = {
 				industry_repair_factor = 0.15
 				army_armor_speed_factor = 0.10
 			}
-			targeted_modifier = {
-				tag = BRG
-				industry_repair_factor = 0.15
-				army_armor_speed_factor = 0.10
-			}
+
 		}
 
 		KSS_posens_railway_RH = {
@@ -842,10 +789,7 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = OER_promises_from_the_shadows_tt
 			}
-			targeted_modifier = {
-				tag = BRG
-				trade_opinion_factor = 0.10
-			}
+
 			targeted_modifier = {
 				tag = GER
 				trade_opinion_factor = -0.30

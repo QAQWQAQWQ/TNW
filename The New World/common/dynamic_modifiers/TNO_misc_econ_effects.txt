@@ -1,6 +1,4 @@
-BRG_infra_24_misc_income = {
-	misc_income_modifier = BRG.BRG_oil_price_norway
-}
+
 FEN_SLP_Econ_profits_from_trade_misc_income = {
 	misc_income_modifier = money_stuff
 }

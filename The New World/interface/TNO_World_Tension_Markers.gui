@@ -120,12 +120,6 @@ guiTypes = {
 			pdx_tooltip = CONFLICT_MARKER_tt
 		}
 
-		iconType = {
-			name = "conflict_marker_France_Burgundy_Iberia"
-			spriteType = "GFX_conflict_marker_france_burgundy_iberia"
-			position = { x = 291 y = 81 }
-			pdx_tooltip = CONFLICT_MARKER_tt
-		}
 
 		iconType = {
 			name = "conflict_marker_Ostland_Moscow"

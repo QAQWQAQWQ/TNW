@@ -1479,14 +1479,6 @@ spriteType = {
 		texturefile = "gfx/flags/small/BSQ.tga"
 		legacy_lazy_load = no
 	}
-
-	# Burgundy
-	spriteType = {
-		name = "GFX_TNO_game_rule_flag_BRG"
-		texturefile = "gfx/flags/small/BRG.tga"
-		legacy_lazy_load = no
-	}
-
 	# SS-Charlemagne Revolt
 	spriteType = {
 		name = "GFX_TNO_game_rule_flag_PIC"

@@ -14724,7 +14724,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ENG_new_agricultural_methods
-	icon = GFX_focus_BRG_automated_agricultural_practices
+	icon = GFX_goal_generic_political_pressure
 	cost = 4
 	prerequisite = {
 		focus = ENG_increase_farmer_subsidies
@@ -16062,7 +16062,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ENG_IT_Macmillan_ruin_their_supplies
-	icon = GFX_focus_BRG_blackest_of_markets
+	icon = GFX_goal_generic_political_pressure
 	cost = 3
 	available = {
 		NOT = { has_country_flag = ENG_in_crisis }

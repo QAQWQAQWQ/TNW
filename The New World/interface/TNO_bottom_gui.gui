@@ -50,13 +50,6 @@ guiTypes = {
 			pdx_tooltip = "BRA_map_openbutton_tt"
 		}
 		
-		buttonType = {
-			name = "burgundy_crt_icon"
-			spriteType = "GFX_burgundy_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "BRG_Domestic_Gui_TT"
-		}
 		
 		buttonType = {
 			name = "hunting_crt_icon"
@@ -175,13 +168,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_window_thin_border2"
 		}
 		
-		buttonType = {
-			name = "burgundy_investigation_crt_icon"
-			spriteType = "GFX_investigation_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "BRG_Investigation_Button_Tooltip_Scripted_Key"
-		}
 
 		buttonType = {
 			name = "tomsk_district_gui_crt_icon"

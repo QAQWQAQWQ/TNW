@@ -1112,15 +1112,6 @@ TNO_setup_cultures = {
 	set_variable = { 1886.nationality = 139 }
 	set_variable = { 74.nationality = 139 }
 
-	#Burgundian Culture
-	set_variable = { 6.nationality = 140 }
-	set_variable = { 17.nationality = 140 }
-	set_variable = { 18.nationality = 140 }
-	set_variable = { 29.nationality = 140 }
-	set_variable = { 34.nationality = 140 }
-	set_variable = { 1733.nationality = 140 }
-	set_variable = { 1734.nationality = 140 }
-
 	#Rhenish Culture
 	set_variable = { 51.nationality = 141 }
 	set_variable = { 42.nationality = 141 }
@@ -4413,4 +4404,3 @@ TNO_setup_cultures = {
 	set_variable = { 2509.nationality = 999 }
 	set_variable = { 2517.nationality = 999 }
 }
-

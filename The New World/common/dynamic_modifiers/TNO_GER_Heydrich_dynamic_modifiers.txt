@@ -1,14 +1,4 @@
-HGR_Burgundian_support = {
-	icon = "GFX_idea_generic_native_auxillary"
-	enable = { always = yes }
-	army_defence_factor	= HGR_burgundian_defensive_aid
-	army_attack_factor	= HGR_burgundian_offensive_aid
-	war_support_factor = HGR_burgundian_war_support
-	political_power_gain = HGR_burgundian_political_aid
-	conscription_factor = HGR_burgundian_volunteers
-	decryption_factor = HGR_burgundian_intelligence
-	encryption_factor = HGR_burgundian_intelligence
-}
+
 
 HGR_Waffen_Support = {
 	icon = "GFX_idea_generic_native_auxillary"

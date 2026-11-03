@@ -91,10 +91,6 @@ NOR = {
 	color_ui = rgb { 150 150 150 }
 }
 
-BRG = {
-	color = rgb { 68 40 73 }
-	color_ui = rgb { 68 40 73 }
-}
 BEL = {
 	color = rgb { 145 106 81 }
 	color_ui = rgb { 145 106 81 }
@@ -1485,8 +1481,23 @@ UAE = {
 	color_ui = rgb { 78 32 109 }
 }
 QAT = {
-	color = rgb { 78 32 109 }
-	color_ui = rgb { 78 32 109 }
+	color = rgb { 74 102 109 }
+	color_ui = rgb { 74 102 109 }
+}
+
+BHR = {
+	color = rgb { 107 102 94 }
+	color_ui = rgb { 107 102 94 }
+}
+
+DUB = {
+	color = rgb { 104 97 78 }
+	color_ui = rgb { 104 97 78 }
+}
+
+TRS = {
+	color = rgb { 90 104 77 }
+	color_ui = rgb { 90 104 77 }
 }
 
 ## Iran and Afghanistan ##

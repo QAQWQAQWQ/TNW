@@ -1,26 +1,10 @@
 on_actions = {
 
-	on_capitulation = { # Zombies get a ton of troops if they take BRG
-		effect = {
-			if = {
-				limit = {
-					ROOT = {
-						tag = BRG
-					}
-					FROM = {
-						tag = ZOM
-					}
-				}
-				ZOM = { country_event = spook_temp.3 }
-			}
-		}
-	}
-
 	on_weekly_ZOM = { # Declare War Thingy
 		effect = {
 			if = {
 				limit = {
-					BRG = { exists = no }
+					always = yes
 				}
 				every_country = {
 					limit = {

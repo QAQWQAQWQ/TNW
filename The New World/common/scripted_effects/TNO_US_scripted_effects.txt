@@ -8624,8 +8624,6 @@ mcs_check_launch = {
 	set_temp_variable = { mcs_space_launch_failure_chance = 0.05 }
 	multiply_temp_variable = { mcs_space_launch_failure_chance = funding_scope_ratio }
 	add_to_temp_variable = { mcs_space_launch_failure_chance = mcs_space_failure_modifier }
-	set_temp_variable = { mcs_space_launch_failure_chance_burgundy_interferance_temp = mcs_space_launch_failure_chance_burgundy_interferance }
-	add_to_temp_variable = { mcs_space_launch_failure_chance = mcs_space_launch_failure_chance_burgundy_interferance }
 	set_temp_variable = { mcs_space_launch_success_chance = 1 }
 	subtract_from_temp_variable = { mcs_space_launch_success_chance = mcs_space_launch_failure_chance }
 

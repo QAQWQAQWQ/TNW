@@ -13,10 +13,6 @@ scripted_gui = {
 				tag = MEX
 			}
 			if = {
-				limit = { tag = BRG }
-				NOT = { has_country_flag = BRG_domestic_GUI_disabled }
-			}
-			if = {
 				limit = {
 					tag = GER
 					has_global_flag = german_civil_war_bormannvic
@@ -70,9 +66,6 @@ scripted_gui = {
 			}
 			england_parliament_crt_icon_click_enabled = {
 				NOT = { has_country_flag = TNO_ParliamentMechanic_Disabled }
-			}
-			burgundy_crt_icon_visible = {
-				original_tag = BRG
 			}
 			hunting_crt_icon_visible = {
 				AND = {
@@ -209,7 +202,7 @@ scripted_gui = {
 					clr_country_flag = HGR_GUI_open_flag
 				}
 				clr_country_flag = HGR_gui_warning
-				GER = { update_nuke_control = yes }
+				
 				clr_country_flag = gui_alert_visible_2
 			}
 			england_parliament_crt_icon_click = {
@@ -234,19 +227,6 @@ scripted_gui = {
 					set_country_flag = DBG_ENG_ParliamentMech
 				}
 				else = { clr_country_flag = DBG_ENG_ParliamentMech }
-			}
-			burgundy_crt_icon_click = {
-				clr_country_flag = gui_alert_visible_2
-				if = {
-					limit = {
-						has_country_flag = TNO_Burgundy_Domestic_GUI_visible
-					}
-					clr_country_flag = TNO_Burgundy_Domestic_GUI_visible
-				}
-				else = {
-					set_country_flag = TNO_Burgundy_Domestic_GUI_visible
-				}
-				set_country_flag = TNO_Burgundy_Domestic_GUI_Opener_Clear
 			}
 			hunting_crt_icon_click = {
 				if = {
@@ -399,9 +379,6 @@ scripted_gui = {
 			}
 		}
 
-		properties = {
-			burgundy_crt_icon = { image = "[get_BRG_bottom_GUI_GFX]" }
-		}
 	}
 
 	bottom_gui_2 = {
@@ -414,12 +391,6 @@ scripted_gui = {
 		}
 
 		triggers = {
-			burgundy_investigation_crt_icon_visible = {
-				original_tag = BRG
-			}
-			burgundy_investigation_crt_icon_click_enabled = {
-				OR = { has_country_flag = BRG_Investigating_DeGrelle has_country_flag = BRG_Post_DeGrelle_Investigations_Unlocked }
-			}
 			tomsk_district_gui_crt_icon_visible = {
 				tag = TOM
 				NOT = {
@@ -434,32 +405,6 @@ scripted_gui = {
 			}
 		}
 		effects = {
-			burgundy_investigation_crt_icon_click = {
-				if = {
-					limit = { AND = { has_country_flag = BRG_Investigating_DeGrelle NOT = { has_global_flag = german_civil_war } } }
-					if = {
-						limit = { NOT = { has_country_flag = BRG_Walloon_Investigation_open_flag } }
-						set_country_flag = BRG_Walloon_Investigation_open_flag
-						BRG_Investigation_Setup = yes
-					}
-					else_if = {
-						limit = { has_country_flag = BRG_Walloon_Investigation_open_flag }
-						clr_country_flag = BRG_Walloon_Investigation_open_flag
-					}
-				}
-
-				if = {
-					limit = { has_country_flag = BRG_Post_DeGrelle_Investigations_Unlocked }
-					if = {
-						limit = { NOT = { has_country_flag = BRG_Investigation_main_open_flag } }
-						set_country_flag = BRG_Investigation_main_open_flag
-					}
-					else_if = {
-						limit = { has_country_flag = BRG_Investigation_main_open_flag }
-						clr_country_flag = BRG_Investigation_main_open_flag
-					}
-				}
-			}
 			tomsk_district_gui_crt_icon_click = {
 				if = {
 					limit = { has_country_flag = TOM_Tomsk_Map_open }

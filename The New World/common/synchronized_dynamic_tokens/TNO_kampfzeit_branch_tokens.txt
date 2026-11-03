@@ -49,7 +49,6 @@ GER_Clade_InnerCircle
 GER_Clade_SecondGeneration
 RegionalOrganization_Ostministerium
 Assoc_Region_RG_Wallonia
-Assoc_Region_RG_Burgundy
 Assoc_Region_RG_Warsaw
 Assoc_Region_RG_Radom
 Assoc_Region_RG_Lublin

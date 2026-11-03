@@ -2639,8 +2639,7 @@ GRO_REICHSSTAAT_update_reichsstaat_color = {
 
 				GRO_Hans_Huttig = {
 					set_portraits = {
-						#army = { large = "gfx/leaders/GRO/Portrait_GRO_Hans_Huttig_Reichsstaat_BurgSys.png" }
-						civilian = { large = "gfx/leaders/GRO/Portrait_GRO_Hans_Huttig_Reichsstaat_BurgSys.png" }
+						civilian = { large = "gfx/leaders/GRO/Portrait_GRO_Hans_Huttig_Reichsstaat.png" }
 					}
 				}
 			}

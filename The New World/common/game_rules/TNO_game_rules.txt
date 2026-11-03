@@ -120,31 +120,6 @@ superpower_tension_status = {
 	}
 }
 
-### Burgundian Collapse
-burgundy_collapse_status = {
-	name = "BURGUNDY_COLLAPSE_STATUS"
-	group = "RULE_GROUP_GAME_SETUP"
-	default = {
-		name = BURGUNDY_COLLAPSE_DEFAULT
-		text = "BURGUNDY_COLLAPSE_DEFAULT"
-		desc = "BURGUNDY_COLLAPSE_DEFAULT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = BURGUNDY_COLLAPSE_FIFTYFIFTY
-		text = "BURGUNDY_COLLAPSE_FIFTYFIFTY"
-		desc = "BURGUNDY_COLLAPSE_FIFTYFIFTY_DESC"
-		allow_achievements = no
-	}
-	option = {
-		name = BURGUNDY_COLLAPSE_DISABLED
-		text = "BURGUNDY_COLLAPSE_DISABLED"
-		desc = "BURGUNDY_COLLAPSE_DISABLED_DESC"
-		allow_achievements = no
-	}
-}
-
-
 ##########################################
 ### THE WORLD - INTERNATIONAL DIPLOMACY ###
 ##########################################
@@ -170,31 +145,6 @@ COMECON_MEMBERS_OUTCOME = {
 		name = COMECON_MEMBERS_OUTCOME_NOBODY_JOINS
 		text = "RULE_OPTION_COMECON_MEMBERS_OUTCOME_NOBODY_JOINS"
 		desc = "RULE_OPTION_COMECON_MEMBERS_OUTCOME_NOBODY_JOINS_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Demilitarization of Burgundy
-
-GER_FATE_BRG_BORDER = {
-	name = GER_FATE_BRG_BORDER
-	group = "RULE_GROUP_TNO_RULES_DIPLOMACY"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_GER_FATE_BRG_BORDER_RANDOM"
-		desc = "RULE_OPTION_GER_FATE_BRG_BORDER_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = GER_FATE_BRG_BORDER_YES
-		text = "RULE_OPTION_GER_FATE_BRG_BORDER_YES"
-		desc = "RULE_OPTION_GER_FATE_BRG_BORDER_YES_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = GER_FATE_BRG_BORDER_NO
-		text = "RULE_OPTION_GER_FATE_BRG_BORDER_NO"
-		desc = "RULE_OPTION_GER_FATE_BRG_BORDER_NO_DESC"
 		allow_achievements = yes
 	}
 }
@@ -678,31 +628,6 @@ GER_HITLER_HEIR = {
 		allow_achievements = yes
 	}
 }
-
-# Fate of Burgundy
-
-#GER_FATE_BRG = {
-#	name = GER_FATE_BRG
-#	group = "RULE_GROUP_TNO_RULES_EUROPE_EINHEITSPAKT"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_GER_FATE_BRG_RANDOM"
-#		desc = "RULE_OPTION_GER_FATE_BRG_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = GER_FATE_BRG_RETURN
-#		text = "RULE_OPTION_GER_FATE_BRG_RETURN"
-#		desc = "RULE_OPTION_GER_FATE_BRG_RETURN_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = GER_FATE_BRG_HRE
-#		text = "RULE_OPTION_GER_FATE_BRG_HRE"
-#		desc = "RULE_OPTION_GER_FATE_BRG_HRE_DESC"
-#		allow_achievements = yes
-#	}
-#}
 
 # Germany - Albert Speer [Ideology]
 
@@ -2346,12 +2271,6 @@ CAU_IDEOLOGY_PATH = {
 		name = DEFAULT
 		text = "RULE_OPTION_CAU_IDEOLOGY_PATH_RANDOM"
 		desc = "RULE_OPTION_CAU_IDEOLOGY_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CAU_IDEOLOGY_PATH_BURGSYS
-		text = "RULE_OPTION_CAU_IDEOLOGY_PATH_BURGSYS"
-		desc = "RULE_OPTION_CAU_IDEOLOGY_PATH_BURGSYS_DESC"
 		allow_achievements = yes
 	}
 	option = {

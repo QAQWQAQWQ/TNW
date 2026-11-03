@@ -30,7 +30,6 @@
 #		Bormann US Tree(s)
 #		Bormann Japan/Sphere Tree(s)
 #		Bormann Italy Tree(s)
-#		Bormann Burgundy Tree(s)
 #
 #	PHASE 3
 #	Bormann Oil Crisis Tree
@@ -2362,7 +2361,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BOR_find_the_weakness
-	icon = GFX_focus_BRG_a_simple_ration
+	icon = GFX_goal_generic_political_pressure
 	cost = 1
 	available = { NOT = { has_completed_focus = BOR_crush_the_ss } }
 	prerequisite = { focus = BOR_interrogate_the_prisoners }
@@ -2380,7 +2379,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BOR_threaten_the_west
-	icon = GFX_focus_BRG_heil_himmler
+	icon = GFX_goal_generic_political_pressure
 	cost = 1
 	available = { NOT = { has_completed_focus = BOR_crush_the_ss } }
 	prerequisite = { focus = BOR_find_the_weakness }
@@ -2446,7 +2445,7 @@ shared_focus = {
 
 shared_focus = {
 	id = BOR_crush_the_ss
-	icon = GFX_focus_BRG_death_from_a_mile_away
+	icon = GFX_goal_generic_political_pressure
 	cost = 1
 	prerequisite = {
 		focus = BOR_the_ss_threat
@@ -3395,7 +3394,6 @@ shared_focus = { # Put the whole region under martial law and a Wehrmacht genera
 				GGN_eccard_freiherr_von_gablenz = {
 					promote_character = national_socialism_subtype
 				}
-				clr_country_flag = CAU_policy_josias_burgsys
 				clr_country_flag = CAU_policy_josias_crowned
 				set_party_name = {
 					ideology = national_socialism
@@ -8313,237 +8311,16 @@ shared_focus = { # Secret dealings with China, Germany implicitly gives China th
 }
 
 ######### Foreign Trees #########
-#    Bormann Burgundy Tree(s)   #
 #################################
 
-shared_focus = { # Start of Burgundy diplo
-	id = BOR_against_the_shadow_state
-	icon = GFX_focus_BRG_unter_der_schwarzen_sonne
-	cost = 1
-	available = {
-		custom_trigger_tooltip = {
-			tooltip = BOR_has_completed_post_dis
-			has_completed_focus = BOR_torching_the_evidence
-		}
-		has_completed_focus = BOR_a_modern_wunderwaffe
-		country_exists = BRG
-	}
-	allow_branch = {
-		OR = {
-			AND = {
-				has_country_flag = BOR_Phase2
-				NOT = { has_country_flag = BOR_DEBUG }
-			}
-			AND = {
-				has_country_flag = BOR_DEBUG
-				has_country_flag = BOR_DBG_BRG_tree
-			}
-		}
-	}
-	x = 30
-	y = 0
-	relative_position_id = BOR_Phase2_Foreign_Dummy
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_against_the_shadow_state"
-		country_event = bormann.1719
-		custom_effect_tooltip = BOR_against_the_shadow_state_tt
-	}
-}
 
-shared_focus = { # Lets say that everything that is currently wrong in Germany is Himmler's fault
-	id = BOR_himmler_the_arch_traitor
-	icon = GFX_focus_BRG_heil_himmler
-	cost = 2
-	prerequisite = {
-		focus = BOR_against_the_shadow_state
-	}
-	available = { country_exists = BRG }
-	x = -1
-	y = 1
-	relative_position_id = BOR_against_the_shadow_state
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_himmler_the_arch_traitor"
-		BOR_SIG_AP_0_5 = yes
-		country_event = bormann.1700
-		add_to_variable = { BRG.BRG_collapse_chance = 5 }
-	}
-}
 
-shared_focus = { # Declare the SS an illegal organization, denouncing their invasion and occupation of French soil as illegitimate and illegal
-	id = BOR_denounce_the_ss
-	icon = GFX_focus_GER_sideline_ss
-	cost = 2
-	prerequisite = {
-		focus = BOR_himmler_the_arch_traitor
-	}
-	available = { country_exists = BRG }
-	x = 0
-	y = 1
-	relative_position_id = BOR_himmler_the_arch_traitor
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_denounce_the_ss"
-		BOR_SIG_SL_4_2_2 = yes
-		add_stability = 0.03
-		country_event = bormann.1701
-		hidden_effect = { country_event = { id = bormannflavor.28 days = 30 } } # Hess-Aktion II
-		add_to_variable = { BRG.BRG_collapse_chance = 5 }
-	}
-}
 
-shared_focus = { # Remilitarize the former Franco-German border
-	id = BOR_reactivate_the_siegfried_line
-	icon = GFX_focus_GER_modernize_the_siegfried_line
-	cost = 2
-	prerequisite = {
-		focus = BOR_against_the_shadow_state
-	}
-	available = { country_exists = BRG }
-	x = 1
-	y = 1
-	relative_position_id = BOR_against_the_shadow_state
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_reactivate_the_siegfried_line"
-		BOR_SIG_AL_4_1_1 = yes
-		set_country_flag = BOR_EconMech_siegfried_line_unlocked
-		custom_effect_tooltip = GER_Bormann_EconMech_new_decision_available_tt
-		unlock_decision_tooltip = GER_Bormann_EconMech_reactivate_siegfried_line
-		add_to_variable = { BRG.BRG_collapse_chance = 5 }
-	}
-}
 
-shared_focus = { # Establishing alarms and detection systems to respond to a possible Burgundian first strike
-	id = BOR_early_detection_system
-	icon = GFX_focus_generic_seven_second_detection
-	cost = 2
-	prerequisite = {
-		focus = BOR_reactivate_the_siegfried_line
-	}
-	available = { country_exists = BRG }
-	x = 0
-	y = 1
-	relative_position_id = BOR_reactivate_the_siegfried_line
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_early_detection_system"
-		8 = {
-			add_building_construction = {
-				type = radar_station
-				level = 4
-				instant_build = yes
-			}
-		}
-		add_tech_bonus = {
-			name = radar_tech
-			bonus = 0.5
-			uses = 1
-			category = radar_tech
-		}
-		add_to_variable = { BRG.BRG_collapse_chance = 5 }
-	}
-}
 
-shared_focus = { # Blockade Burgundy, attempt to cut off all of their remaining access lines with the rest of the world
-	id = BOR_cut_them_off
-	icon = GFX_focus_GER_a_swift_end_to_the_madness
-	cost = 2
-	prerequisite = {
-		focus = BOR_denounce_the_ss
-	}
-	available = { country_exists = BRG }
-	x = -1
-	y = 1
-	relative_position_id = BOR_denounce_the_ss
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_cut_them_off"
-		every_country = {
-			limit = { is_in_faction_with = GER }
-			BRG = { set_embargo_PREV = yes }
-		}
-		BRG = { add_stability = -0.03 }
-		add_to_variable = { BRG.BRG_collapse_chance = 15 }
-	}
-}
 
-shared_focus = { # Send an (or most likely several) agent(s) to find out what is happening inside Burgundy
-	id = BOR_into_the_unknown
-	icon = GFX_focus_generic_someone_else
-	cost = 2
-	prerequisite = {
-		focus = BOR_denounce_the_ss
-		focus = BOR_early_detection_system
-	}
-	available = { country_exists = BRG }
-	x = 1
-	y = 1
-	relative_position_id = BOR_denounce_the_ss
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_into_the_unknown"
-		country_event = bormann.1709
-	}
-}
 
-shared_focus = { # Further border militarization, now with state-of-the-art missile defences
-	id = BOR_the_iron_curtain
-	icon = GFX_focus_GER_an_iron_curtain
-	cost = 2
-	prerequisite = {
-		focus = BOR_early_detection_system
-	}
-	available = { country_exists = BRG }
-	x = 1
-	y = 1
-	relative_position_id = BOR_early_detection_system
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_the_iron_curtain"
-		BOR_SIG_AL_1_2_1 = yes
-		set_country_flag = BOR_EconMech_siegfried_line_expansion_unlocked
-		custom_effect_tooltip = GER_Bormann_EconMech_new_decision_available_tt
-		unlock_decision_tooltip = GER_Bormann_EconMech_expand_siegfried_line
-		hidden_effect = { country_event = { id = bormann.1708 days = 7 } } # German duck and cover bootleg
-		add_to_variable = { BRG.BRG_collapse_chance = 15 }
-	}
-}
 
-shared_focus = { # Prop up France in expense of Brittany
-	id = BOR_the_enemy_of_my_enemy
-	icon = GFX_focus_BRG_our_friends_the_french
-	cost = 2
-	prerequisite = {
-		focus = BOR_cut_them_off
-	}
-	prerequisite = {
-		focus = BOR_into_the_unknown
-	}
-	prerequisite = {
-		focus = BOR_the_iron_curtain
-	}
-	available = {
-		country_exists = BRG
-		NOT = { FRA = { has_socialist_government = yes } }
-	}
-	x = 0
-	y = 1
-	relative_position_id = BOR_into_the_unknown
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus BOR_the_enemy_of_my_enemy"
-		FRA = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-			set_temp_variable = { gdp_growth_temp = 0.5 }
-			econ_gdp_growth_change = yes
-			custom_effect_tooltip = BOR_german_investments
-			TNO_improve_industrial_expertise_med = yes
-			TNO_improve_poverty_low = yes
-			TNO_improve_army_professionalism_med = yes
-		}
-		set_temp_variable = { temp_econ_GDP_boost_flat = 0.75 }
-		econ_GDP_boost_once_flat = yes
-		add_to_variable = { BRG.BRG_collapse_chance = 15 }
-	}
-}
 
 ####    ##  ##    ##      ##  ######    333333
 ##  ##  ##  ##  ##  ##  ##    ##            33

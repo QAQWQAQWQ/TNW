@@ -753,24 +753,7 @@ ideas = {
 			}
 		}
 		
-		AAB_Burgundian_Think_Tank = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AAB_Burgundian_Think_Tank" }
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			available = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = AAB_Burgundian_Think_Tank
-			modifier = {
-				research_speed_factor = -0.10
-				encryption_factor = 0.35
-			}
-		}
+
 
 		AAB_Vital_Research = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AAB_Vital_Research" }

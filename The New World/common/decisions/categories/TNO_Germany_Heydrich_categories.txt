@@ -1,5 +1,5 @@
 HGR_Bunkers_Demand_Category = {
-	icon = GFX_decision_category_BRG_generic
+	icon = GFX_decision_category_generic_fort
 	visible_when_empty = yes
 
 	picture = GFX_decision_image_GER_ss_bunkers
@@ -15,7 +15,7 @@ HGR_Bunkers_Demand_Category = {
 }
 
 HGR_Nukes_Demand_Category = {
-	icon = GFX_decision_category_BRG_generic
+	icon = GFX_decision_category_generic_nuclear
 	visible_when_empty = yes
 
 	picture = GFX_decision_image_GER_ss_nukes

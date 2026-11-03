@@ -238,12 +238,6 @@ conclude_south_african_war = {
 			set_temp_variable = { target = SAF }
 			TNO_clear_num_volunteers = yes
 		}
-		BRG = {
-			set_temp_variable = { target = SAF }
-			TNO_clear_num_volunteers = yes
-			set_temp_variable = { target = GRO }
-			TNO_clear_num_volunteers = yes
-		}
 		AAC = {
 			set_temp_variable = { target = SAF }
 			TNO_clear_and_recall_volunteers = yes

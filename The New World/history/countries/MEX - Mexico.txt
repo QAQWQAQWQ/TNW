@@ -565,17 +565,6 @@ CAU = {
 	}
 }
 
-set_variable = { trade_opinion_embargo@BRG = 1 }
-add_opinion_modifier = {
-	target = BRG
-	modifier = TNO_embargo_100
-}
-BRG = {
-	add_opinion_modifier = {
-		target = MEX
-		modifier = TNO_embargoed_us_100
-	}
-}
 
 set_variable = { trade_opinion_embargo@COG = 1 }
 add_opinion_modifier = {

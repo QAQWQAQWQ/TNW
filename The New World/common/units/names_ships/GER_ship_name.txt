@@ -204,7 +204,6 @@ GER_SS_HISTORICAL = {
 	#RK Kaukasien:
 	#MdBI/Cornwall:
 	#Goering/Schoerner RKs:
-	#Burgundy - unique SS numbering?
 
 	unique = {
 		"U-5800" "U-5099" "U-5600" "U-5601" "U-5602" "U-5603" "U-5604" "U-5605" "U-5606" "U-5607" "U-5608" "U-5609" "U-5610" "U-5611" "U-5612" "U-5613" "U-5614" "U-5615" "U-5616" "U-5617" "U-5618" "U-5619" "U-5620"

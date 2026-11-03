@@ -620,24 +620,6 @@ on_actions = {
 			### Macedonia ###
 			#################
 
-			#############################
-			### Burgundy Nuke Chances ###
-			#############################
-			if = {
-				limit = {
-					FROM = {
-						original_tag = BRG
-					}
-					BRG = {
-						surrender_progress > 0.8
-						has_country_flag = BRG_will_nuke
-					}
-				}
-				BRG = {
-					country_event = { id = BRG_collapse.15 days = 1 }
-				}
-			}
-
 			##################
 			### Hispaniola ###
 			##################

@@ -8,8 +8,6 @@ recruit_character = HWL_Theodor_Eicke
 recruit_character = HWL_Ulrike_Meinhof
 
 add_ideas = {
-	SSL_burgundy_wannabe
-	SSL_burgundian_pawn
 	
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
@@ -80,7 +78,6 @@ set_popularities = {
 
 #econtype
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }
-set_variable = { TNO_economy_subtype = token:Econ_Subtype_Burgsys }
 
 set_research_slots = 3
 set_convoys = 200

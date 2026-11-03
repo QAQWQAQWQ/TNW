@@ -287,13 +287,6 @@ on_actions = {
 				}
 			}
 
-			BRG = {
-				country_event = {
-					id = BRG_Debug.2
-					days = 1
-				}
-			}
-
 			# Tension Tab Setup
 			ZZZ = {
 				TNO_tension_setup = yes

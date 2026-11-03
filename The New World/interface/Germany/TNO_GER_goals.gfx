@@ -1116,10 +1116,6 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GER/focus_GER_joy_and_happiness.dds"
 	}
 	SpriteType = {
-		name = "GFX_focus_GER_just_like_old_times_burgundy"
-		texturefile = "gfx/interface/goals/GER/focus_GER_just_like_old_times_burgundy.dds"
-	}
-	SpriteType = {
 		name = "GFX_focus_GER_just_like_old_times_saw"
 		texturefile = "gfx/interface/goals/GER/focus_GER_just_like_old_times_saw.dds"
 	}
@@ -2602,10 +2598,6 @@ SpriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_HGR_black_sun_rising"
 		texturefile = "gfx/interface/goals/HGR/focus_HGR_black_sun_rising.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_burgundian_ss"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_burgundian_ss.dds"
 	}
 	SpriteType = {
 		name = "GFX_focus_HGR_bury_the_hatchet"

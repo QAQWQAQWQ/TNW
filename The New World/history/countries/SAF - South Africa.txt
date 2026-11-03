@@ -31,6 +31,7 @@ create_faction = South_African_Joint_Command
 add_to_faction = SAF
 add_to_faction = BTS
 add_to_faction = NAM
+add_to_faction = ZIM
 
 add_ideas = {
 	

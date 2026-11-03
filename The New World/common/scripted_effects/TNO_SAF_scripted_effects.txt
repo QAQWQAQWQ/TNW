@@ -627,7 +627,6 @@ SAF_end_pakt_trade = {
 		GRO = { set_embargo_PREV = yes }
 		ANG = { set_embargo_PREV = yes }
 		HOL = { set_embargo_PREV = yes }
-		BRG = { set_embargo_PREV = yes }
 		BUL = { set_embargo_PREV = yes }
 		ENG = { set_embargo_PREV = yes }
 		FRA = { set_embargo_PREV = yes }

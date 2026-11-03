@@ -6,13 +6,6 @@ recruit_character = AAB_Generic_Vacant
 
 oob = "Antarctic_Garrison"
 
-BRG = {
-	set_autonomy = {
-		target = AAB
-		autonomy_state = autonomy_antarctic_territory
-	}
-}
-
 recruit_character = AAB_Wolfram_Sievers
 recruit_character = AAB_Herbert_Jankuhn
 recruit_character = AAB_Yrjo_von_Gronhagen
@@ -20,7 +13,6 @@ recruit_character = AAB_Heinz_Brucher
 recruit_character = AAB_Vacant_Position_sec
 
 add_ideas = Antarctica_Territory_Generic_Idea
-add_ideas = AAB_Burgundian_Think_Tank
 add_ideas = AAB_Vital_Research
 add_ideas = Pakt_Military_Authority
 add_ideas = AAB_Herbert_Jankuhn_hog

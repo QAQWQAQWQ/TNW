@@ -1,41 +1,5 @@
 ideas = {
 	country = {
-		HGR_burgundian_advisors = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HGR_burgundian_advisors" }
-
-			allowed = {
-				always = no
-			}
-
-			picture = OER_promises_from_the_shadows
-
-			removal_cost = -1
-
-			modifier = {
-				army_defence_factor = 0.05
-				army_attack_factor = 0.05
-				planning_speed = 0.15
-				army_morale_factor = 0.15
-			}
-		}
-		HGR_burgundian_commanders = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HGR_burgundian_commanders" }
-
-			allowed = {
-				always = no
-			}
-
-			picture = KLB_logistical_stronghold
-
-			removal_cost = -1
-
-			modifier = {
-				army_defence_factor = 0.10
-				army_attack_factor = 0.10
-				planning_speed = 0.20
-				army_morale_factor = 0.20
-			}
-		}
 		HGR_anti_partisan_brigades = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HGR_anti_partisan_brigades" }
 
@@ -79,7 +43,7 @@ ideas = {
 				always = no
 			}
 
-			picture = BRG_army
+			picture = GER_ss_soldiers
 
 			removal_cost = -1
 
@@ -113,7 +77,7 @@ ideas = {
 				always = no
 			}
 
-			picture = BRG_rigorous_spartanism
+			picture = generic_militia_based_army
 
 			removal_cost = -1
 
@@ -129,7 +93,7 @@ ideas = {
 				always = no
 			}
 
-			picture = BRG_the_burgundian_abwehr
+			picture = generic_army_terror
 
 			removal_cost = -1
 
@@ -146,7 +110,7 @@ ideas = {
 				always = no
 			}
 
-			picture = BRG_generic
+			picture = generic_classified_files
 
 			removal_cost = -1
 
@@ -208,23 +172,7 @@ ideas = {
 				resistance_damage_to_garrison = -0.25
 			}
 		}
-		HGR_burgundian_einsatzgruppen = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HGR_burgundian_einsatzgruppen" }
 
-			allowed = {
-				always = no
-			}
-
-			picture = BRG_army
-
-			removal_cost = -1
-
-			modifier = {
-				conscription_factor = -0.2
-				resistance_damage_to_garrison = -0.1
-				compliance_gain = -0.05
-			}
-		}
 
 		HGR_idea_mandatory_spartanism = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HGR_idea_mandatory_spartanism" }
@@ -233,7 +181,7 @@ ideas = {
 				always = no
 			}
 
-			picture = BRG_rigorous_spartanism
+			picture = generic_militia_based_army
 
 			removal_cost = -1
 

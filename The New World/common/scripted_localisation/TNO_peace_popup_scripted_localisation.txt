@@ -321,17 +321,7 @@ defined_text = {
 		}
 		localization_key = TNO_PEACE_POPUP_WAR_ENG_WALES_LOSE
 	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FRS
-			}
-			event_target:winning_country = {
-				original_tag = BRG
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_WAR_CONCLUSION_BRG_FRS
-	}
+
 	text = {
 		trigger = {
 			event_target:losing_country = {
@@ -1165,17 +1155,7 @@ defined_text = {
 		}
 		localization_key = TNO_PEACE_POPUP_FLAVOR_CRN
 	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FRS
-			}
-			event_target:winning_country = {
-				original_tag = BRG
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_FRS
-	}
+
 	text = {
 		trigger = {
 			event_target:losing_country = {
@@ -2627,53 +2607,13 @@ defined_text = {
 		localization_key = TNO_PEACE_POPUP_FLAVOR_GERMANY_OBERLANDER
 	}
 
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = BRG
-			}
-			BRG = {
-				has_country_flag = BRG_Revolt_Happened
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_BURGUNDY_COLLAPSE
-	}
 
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FLR
-			}
-			BRG = {
-				has_country_flag = BRG_Revolt_Happened
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_FLANDERS_COLLAPSE
-	}
 
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = BEL
-			}
-			BRG = {
-				has_country_flag = BRG_Revolt_Happened
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_BELGIUM_COLLAPSE
-	}
 
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = PIC
-			}
-			BRG = {
-				has_country_flag = BRG_Revolt_Happened
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_CHARLEMAGNE_COLLAPSE
-	}
+
+
+
+
 
 	## SS Civil War
 	text = {
@@ -3406,17 +3346,7 @@ defined_text = {
 		localization_key = TNO_PEACE_POPUP_FLAVOR_MDM
 	}
 
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FRS
-			}
-			event_target:winning_country = {
-				NOT = { original_tag = BRG }
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_FRS_CW
-	}
+
 
 	text = {
 		trigger = {

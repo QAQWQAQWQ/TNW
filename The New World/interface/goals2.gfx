@@ -38,7 +38,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_a_dark_and_stormy_night.dds"
 	}
 
-	SpriteType = { # Awaiting rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_a_gun_for_every_hand"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_a_gun_for_every_hand.dds"
 	}
@@ -83,7 +83,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_a_paying_job.dds"
 	}
 
-	SpriteType = { # Awaiting Rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_a_ray_of_hope"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_a_ray_of_hope.dds"
 	}
@@ -1093,7 +1093,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_crack_down_on_their_publications.dds"
 	}
 
-	SpriteType = { # Awaiting rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_crack_the_whip"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_crack_the_whip.dds"
 	}
@@ -1523,7 +1523,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_execute_royals.dds"
 	}
 
-	SpriteType = { # Awaiting rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_execution_orders"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_execution_orders.dds"
 	}
@@ -3008,17 +3008,17 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_nuclear_power.dds"
 	}
 
-	SpriteType = { # Formerly BRG, rework if used beyond current Italy
+	SpriteType = {
 		name = "GFX_focus_generic_nuclear_triad_air"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_nuclear_triad_air.dds"
 	}
 
-	SpriteType = { # Formerly BRG, rework if used beyond current Italy
+	SpriteType = {
 		name = "GFX_focus_generic_nuclear_triad_land"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_nuclear_triad_land.dds"
 	}
 
-	SpriteType = { # Formerly BRG, rework if used beyond current Italy
+	SpriteType = {
 		name = "GFX_focus_generic_nuclear_triad_sea"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_nuclear_triad_sea.dds"
 	}
@@ -4198,7 +4198,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_someone_else.dds"
 	}
 
-	SpriteType = { # Awaiting Rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_specialized_assistance"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_specialized_assistance.dds"
 	}
@@ -4388,7 +4388,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/Generic/focus_generic_supply_crates.dds"
 	}
 
-	SpriteType = { # Awaiting Rework, former BRG
+	SpriteType = {
 		name = "GFX_focus_generic_support_personnel"
 		texturefile = "gfx/interface/goals/Generic/focus_generic_support_personnel.dds"
 	}

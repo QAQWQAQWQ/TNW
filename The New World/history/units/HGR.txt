@@ -98,7 +98,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Burgundische-Infanterie"
+	name = "Infanterie-Division"
 	division_names_group = HGR_infantry
 	regiments = {
 		elite_infantry = { x = 0 y = 0 }
@@ -118,7 +118,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Burgundische Panzer-Division"
+	name = "Panzer-Division"
 	division_names_group = GER_panzer
 	regiments = {
 		elite_infantry = { x = 0 y = 0 }

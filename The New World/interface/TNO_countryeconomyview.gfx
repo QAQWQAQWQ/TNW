@@ -829,12 +829,6 @@ spriteTypes = {
 		noOfFrames = 5
 	}
 
-	spriteType = {
-		name = "GFX_BRG_econ_window_overlay"
-		texturefile = "gfx/interface/economy_gui/BRG_econ_window_overlay.png"
-		transparencecheck = yes
-	}
-
 	#### Building Satisfaction
 
 	progressbartype = {
@@ -1235,10 +1229,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/economy_gui/econ_types/GFX_Econ_Subtype_Military_Directed.dds"
 	}
 	spriteType = {
-		name = "GFX_Econ_Subtype_Burgsys"
-		textureFile = "gfx/interface/economy_gui/econ_types/GFX_Econ_Subtype_Burgsys.dds"
-	}
-	spriteType = {
 		name = "GFX_Econ_Subtype_Anarchic"
 		textureFile = "gfx/interface/economy_gui/econ_types/GFX_Econ_Subtype_Anarchic.dds"
 	}
@@ -1495,4 +1485,3 @@ spriteTypes = {
 		effectFile = "gfx/FX/line_graph_2.lua"
 	}
 }
-

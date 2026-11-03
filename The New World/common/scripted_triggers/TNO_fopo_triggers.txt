@@ -1000,14 +1000,7 @@ TNO_Balkans_has_conflict = {
 	}
 }
 
-TNO_France_Burgundy_Iberia_has_conflict = {
-	OR = {
-		has_global_flag = iberian_wars
-		BRG = { has_war = yes }
-		FRA = { has_war = yes }
-		has_global_flag = FRA_civil_war_ongoing
-	}
-}
+
 
 TNO_Ostland_Moscow_has_conflict = {
 	OR = {
@@ -1319,7 +1312,6 @@ TNO_Middle_East_has_conflict = {
 # 	}
 # }
 #
-# TNO_France_Burgundy_Iberia_has_proxy = {
 # 	OR = {
 # 		always = no
 # 	}

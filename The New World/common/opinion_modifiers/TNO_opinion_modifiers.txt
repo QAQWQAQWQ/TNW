@@ -889,18 +889,12 @@ opinion_modifiers = {
 	GER_JAP_sanctions_will_favour_washington= {
 		value = -10
 	}
-	BRG_coup_attempt = {
-		value = -60
-	}
+
 	GER_failed_coup = {
 		value = -60
 	}
-	BRG_extremists = {
-		value = -40
-	}
-	BRG_no_loyalty = {
-		value = -50
-	}
+
+
 	GER_degenerates = {
 		value = -40
 	}
@@ -941,9 +935,7 @@ opinion_modifiers = {
 	GER_FIN_border_patrol = {
 		value = 20
 	}
-	BRG_supplies_reopened = {
-		value = 100
-	}
+
 	GER_sanctions_lifted = {
 		value = 100
 	}

@@ -150,7 +150,6 @@ focus_tree = {
 	##Foreign##
 	#Norway
 	shared_focus = BOR_reichs_northern_fortress
-	#Burgundy
 	shared_focus = BOR_against_the_shadow_state
 	#Italy
 	shared_focus = BOR_the_italian_debacle

@@ -91,16 +91,6 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							check_variable = { TNO_economy_subtype = token:Econ_Subtype_Burgsys }
-						}
-					}
-					set_temp_variable = { red = 0.247 }
-					set_temp_variable = { green = 0.106 }
-					set_temp_variable = { blue = 0.251 }
-				}
-				else_if = {
-					limit = {
-						FROM = {
 							check_variable = { TNO_economy_subtype = token:Econ_Subtype_Banditry }
 						}
 					}

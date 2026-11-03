@@ -4004,7 +4004,6 @@ defined_text = {
 				tag = GGR
 				tag = SGR
 				tag = HGR
-				tag = BRG
 				check_variable = { ECON_SPHERE_LEADER = GER }
 			}
 		}

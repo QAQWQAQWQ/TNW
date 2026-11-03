@@ -5525,12 +5525,6 @@ calculate_total_state_gdp = {
 			}
 			else_if = {
 				limit = {
-					has_state_flag = GDP_regions_burgundy
-				}
-				add_to_variable = { PREV.burgundy_totalstateGDP = state_GDP_contribution }
-			}
-			else_if = {
-				limit = {
 					has_state_flag = GDP_regions_albania
 				}
 				add_to_variable = { PREV.albania_totalstateGDP = state_GDP_contribution }
@@ -8039,35 +8033,6 @@ GDP_distribute_regionally = {
 			}
 			else = {
 				multiply_variable = { state_value = PREV.germany_proper_gdp }
-			}
-		}
-	}
-	if = {
-		limit = {
-			tag = BRG
-		}
-		set_variable = { burgundyGDP = 6.206 }
-		
-		multiply_variable = { burgundy_totalstateGDP = neededGDP }
-		divide_variable = { burgundy_totalstateGDP = 1000 }
-		
-		set_temp_variable = { totalgdp_else_temp = GDP }
-		subtract_from_temp_variable = { totalgdp_else_temp = burgundy_totalstateGDP }
-		
-		set_variable = { belgium_gdp = 17.791 }
-		
-		divide_variable = { burgundyGDP = burgundy_totalstateGDP }
-		divide_variable = { belgium_gdp = totalgdp_else_temp }
-		
-		every_owned_state = {
-			if = {
-				limit = {
-					has_state_flag = GDP_regions_burgundy
-				}
-				multiply_variable = { state_value = PREV.burgundyGDP }
-			}
-			else = {
-				multiply_variable = { state_value = PREV.belgium_gdp }
 			}
 		}
 	}
@@ -14517,16 +14482,6 @@ update_ai_slider_logic = {
 	else_if = {
 		limit = { NOT = { has_country_flag = TNO_AI_Defined_Slider } }
 		set_variable = { econ_army_expenditures_slider_pct = econ_army_expenditures_minimal_pct }
-	}
-	#Nukes
-	if = {
-		limit = {
-			OR = {
-				tag = BRG
-			}
-			NOT = { has_country_flag = TNO_AI_Defined_Slider }
-		}
-		set_variable = { econ_nuclear_expenditures_slider_pct = econ_nuclear_expenditures_minimal_pct }
 	}
 	#Navy
 	if = { #KD's Notes - Smart Move? No. But it is what they would realistically do

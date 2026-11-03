@@ -240,30 +240,6 @@ ideas = {
 				misc_costs_modifier = 0.25
 			}
 		}
-		KOM_burgsys_black_budget_misc_income = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KOM_burgsys_black_budget_misc_income" }
-			modifier = {
-				misc_income_modifier = 0.25
-			}
-		}
-		KOM_burgsys_bounties_on_parasites_misc_costs = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KOM_burgsys_bounties_on_parasites_misc_costs" }
-			modifier = {
-				misc_costs_modifier = 0.005
-			}
-		}
-		KOM_burgsys_honor_in_a_humble_life_misc_income = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KOM_burgsys_honor_in_a_humble_life_misc_income" }
-			modifier = {
-				misc_income_modifier = 0.15
-			}
-		}
-		KOM_burgsys_imperial_opulence_misc_costs = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KOM_burgsys_imperial_opulence_misc_costs" }
-			modifier = {
-				misc_costs_modifier = 0.03
-			}
-		}
 		KOM_natsoc_a_new_sun_in_the_east_misc_costs = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KOM_natsoc_a_new_sun_in_the_east_misc_costs" }
 			modifier = {

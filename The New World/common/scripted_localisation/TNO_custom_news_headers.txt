@@ -173,12 +173,6 @@ defined_text = {
 	### Reich ###
 	text = {
 		trigger = {
-			original_tag = BRG
-		}
-		localization_key = TNO_newspaper_header_BRG
-	}
-	text = {
-		trigger = {
 			original_tag = IRE
 		}
 		localization_key = TNO_newspaper_header_IRE
@@ -202,7 +196,6 @@ defined_text = {
 				original_tag = BGR
 				is_in_faction_with = GER
 			}
-			NOT = { original_tag = BRG }
 			NOT = { has_government = paternalism }
 		}
 		localization_key = TNO_newspaper_header_GER

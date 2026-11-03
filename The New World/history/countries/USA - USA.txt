@@ -449,6 +449,14 @@ add_to_faction = EWE
 add_to_faction = ANG
 add_to_faction = CFS
 add_to_faction = ENG
+add_to_faction = MAD
+add_to_faction = IVO
+add_to_faction = TGO
+add_to_faction = GAB
+add_to_faction = CAO
+add_to_faction = COG
+add_to_faction = GBE
+
 set_autonomy = {
 	target = WIN
 	autonomy_state = autonomy_client_state

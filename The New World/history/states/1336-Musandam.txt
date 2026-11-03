@@ -5,8 +5,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = OMA
-		add_core_of = OMA
+		owner = GUL
+		add_core_of = GUL
 		buildings = {
 			infrastructure = 2
 			13468 = { naval_base = 1 }

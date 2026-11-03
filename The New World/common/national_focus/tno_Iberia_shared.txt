@@ -14071,7 +14071,7 @@ shared_focus = {
 
 shared_focus = {
 	id = IBR_fortify_tarrafal
-	icon = GFX_focus_BRG_expand_the_camps
+	icon = GFX_goal_generic_political_pressure
 	available = {
 		NOT = {
 			has_country_flag = IBR_in_crisis

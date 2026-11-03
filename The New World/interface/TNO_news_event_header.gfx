@@ -1,5 +1,5 @@
 
-
+spriteTypes = {
 	## Custom headers go here ##
 	# Russia
 	
@@ -110,11 +110,6 @@
 	spritetype = {
 		name = "GFX_custom_header_GER_dem"
 		texturefile = "gfx/interface/custom_news_headers/custom_header_GER_dem.dds"
-		legacy_lazy_load = no
-	}
-	spritetype = {
-		name = "GFX_custom_header_BRG"
-		texturefile = "gfx/interface/custom_news_headers/custom_header_BRG.dds"
 		legacy_lazy_load = no
 	}
 	spritetype = {

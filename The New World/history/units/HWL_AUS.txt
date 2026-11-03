@@ -19,7 +19,7 @@ division_template = {
 
 division_template = {
 	name = "SS-Kommandotruppe"
-	division_names_group = BRG_waffen
+	division_names_group = GER_waffen
 	regiments = {
 		elite_infantry = { x = 0 y = 0 }
 		elite_infantry = { x = 0 y = 1 }

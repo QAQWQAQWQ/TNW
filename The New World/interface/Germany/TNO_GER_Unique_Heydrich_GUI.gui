@@ -66,17 +66,8 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "Burgundy_Count"
-			position = { x = 0 y = 82 }
-			font = "aldrich_30_outline"
-			text = "HGR_MISSILE_PERCENT_BURG"
-			format = center
-			maxWidth = 1000
-		}
-		
-		instantTextBoxType = {
 			name = "Uncontrolled_Count"
-			position = { x = 0 y = 109 }
+			position = { x = 0 y = 82 }
 			font = "aldrich_30_outline"
 			text = "HGR_MISSILE_PERCENT_NEU"
 			format = center
@@ -137,12 +128,6 @@ guiTypes = {
 				pdx_tooltip = "HGR_KLB_Tooltip"
 				spriteType = "GFX_blank" # Replaced in Code
 			}
-			
-			#buttonType = {
-			#	name = "HGR_Burgundy"
-			#	position = { x = 18 y = 328 }
-			#	pdx_tooltip = ""
-			#}
 			
 			buttonType = {
 				name = "HGR_Fegelein"
@@ -288,13 +273,6 @@ guiTypes = {
 				name = "HGR_Charlemagne"
 				position = { x = 18 y = 380 }
 				pdx_tooltip = "HGR_PIC_Tooltip"
-				spriteType = "GFX_blank" # Replaced in Code
-			}
-			
-			buttonType = {
-				name = "HGR_Himmler"
-				position = { x = 71 y = 345 }
-				pdx_tooltip = "HGR_BRG_Tooltip"
 				spriteType = "GFX_blank" # Replaced in Code
 			}
 			
@@ -468,12 +446,6 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "HGR_Himmler_Grid"
-				position = { x = 71 y = 345 }
-				alwaystransparent = yes
-			}
-			
-			iconType = {
 				name = "HGR_Langemarck_Grid"
 				position = { x = 92 y = 328 }
 				alwaystransparent = yes
@@ -622,12 +594,6 @@ guiTypes = {
 			iconType = {
 				name = "HGR_Charlemagne_Missile"
 				position = { x = 70 y = 475 }
-				alwaystransparent = yes
-			}
-			
-			iconType = {
-				name = "HGR_Himmler_Missile"
-				position = { x = 150 y = 410 }
 				alwaystransparent = yes
 			}
 			

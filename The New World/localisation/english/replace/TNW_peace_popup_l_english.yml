@@ -341,7 +341,6 @@
  TNO_PEACE_POPUP_FLAVOR_KZR_SOLOMENTSEV: "Soviet rule has completely collapsed."
  TNO_PEACE_POPUP_FLAVOR_CLD_CW: "Enduring all the heat of the sun and all the hardships of campaign, for our path is to traverse the universe."
  TNO_PEACE_POPUP_FLAVOR_SEALION_II: "Ah, my children! Are they weeping, do they hear their father's sighs?\nNow they run outside to look, now return to grieve for me."
- TNO_PEACE_POPUP_WAR_CONCLUSION_BRG_FRS: "In the chaos of the §YGerman Civil War§!, §Y[winning_country.GetNameWithFlag]§![GetWinnerAlliesWithHas] seized the lands of §Y[losing_country.GetNameWithFlag]§!"
  TNO_PEACE_POPUP_FLAVOR_FRS: "Shadow hangs over France."
  TNO_PEACE_POPUP_FLAVOR_FRS_CW: "You have suffered much in the past, you will suffer more in the future, your lives are hard. I will not give you false comfort with words."
  TNO_PEACE_POPUP_FLAVOR_CRO_YUGO: "The Yugoslavs did not want fascism. They did not want a totalitarian regime. They did not want to be slaves of the Italians."

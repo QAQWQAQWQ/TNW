@@ -33,12 +33,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = 1943
 		}
-		country_leader = {
-			desc = "POLITICS_HENK_FELDMEIJER_DESC"
-			ideology = national_socialism_burgundian_system_subtype
-			expire = "2100.1.1.1"
-			id = -1
-		}
+
 		country_leader = {
 			desc = "POLITICS_HENK_FELDMEIJER_DESC"
 			ideology = ultranationalism_subtype

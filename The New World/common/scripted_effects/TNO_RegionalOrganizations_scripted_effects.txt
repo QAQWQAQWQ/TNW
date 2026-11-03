@@ -330,7 +330,7 @@ RegionalOrganizations_Startup = {
 	set_temp_variable = { reg_org = token:RegionalOrganization_IOSC }
 	GER = {
 		set_temp_variable = { org_alignment = GER }
-		set_temp_variable = { org_type = 0 } # Political Union
+		set_temp_variable = { org_type = 3 } # Political Union
 		RegionalOrganizations_Initialize = yes
 	}
 	ITA = { RegionalOrganizations_Add = yes }#意大利
@@ -445,46 +445,63 @@ RegionalOrganizations_Startup = {
 
 	## African Labour Board
 	set_temp_variable = { reg_org = token:RegionalOrganization_AfricanLabourBoard }
-	SAF = {
+	ALG = {
 		set_temp_variable = { org_alignment = 0 }
-		set_temp_variable = { org_leader = ENG }
+		set_temp_variable = { org_leader = GER }
 		set_temp_variable = { org_type = 11 } # Bilateral Treaty
 		RegionalOrganizations_Initialize = yes
 	}
-		# British Colonies
-	GAM = { RegionalOrganizations_Add = yes }
-	SIE = { RegionalOrganizations_Add = yes }
-	NGA = { RegionalOrganizations_Add = yes }
+		# GERMAN Colonies
 	KEN = { RegionalOrganizations_Add = yes }
-	UGD = { RegionalOrganizations_Add = yes }
+	GAZ = { RegionalOrganizations_Add = yes }
 	TNZ = { RegionalOrganizations_Add = yes }
-	ZZB = { RegionalOrganizations_Add = yes }
-	MLW = { RegionalOrganizations_Add = yes }
 	ZAM = { RegionalOrganizations_Add = yes }
-	ZIM = { RegionalOrganizations_Add = yes }
-	MRI = { RegionalOrganizations_Add = yes }
-		# French Colonies
-	AOF = { RegionalOrganizations_Add = yes }
-	MAD = { RegionalOrganizations_Add = yes }
-	REU = { RegionalOrganizations_Add = yes }
-	AAF = { RegionalOrganizations_Add = yes }
-	FLA = { RegionalOrganizations_Add = yes }
-		# Portuguese Colonies
-	ANG = { RegionalOrganizations_Add = yes }
-	MZB = { RegionalOrganizations_Add = yes }
-	GNB = { RegionalOrganizations_Add = yes }
-	CPV = { RegionalOrganizations_Add = yes }
-	SAO = { RegionalOrganizations_Add = yes }
-		# Spanish Colonies
+	RMB = { RegionalOrganizations_Add = yes }
+	LAB = { RegionalOrganizations_Add = yes }
 	MOR = { RegionalOrganizations_Add = yes }
-	AES = { RegionalOrganizations_Add = yes }
-	EQG = { RegionalOrganizations_Add = yes }
-		# South African Associates
-	NAM = { RegionalOrganizations_Add = yes }
-	LTH = { RegionalOrganizations_Add = yes }
-	SWZ = { RegionalOrganizations_Add = yes }
-	BTS = { RegionalOrganizations_Add = yes }
+	MLI = { RegionalOrganizations_Add = yes }
+	NGR = { RegionalOrganizations_Add = yes }
+	CHD = { RegionalOrganizations_Add = yes }
+	IEA = { RegionalOrganizations_Add = yes }
+	SDS = { RegionalOrganizations_Add = yes }
+	EGY = { RegionalOrganizations_Add = yes }
+	UGD = { RegionalOrganizations_Add = yes }
+	TUN = { RegionalOrganizations_Add = yes }
 
+	##RegionalOrganization_GermanColonialEmpire
+	set_temp_variable = { reg_org = token:RegionalOrganization_GermanColonialEmpire }
+	ALG = {
+		set_temp_variable = { org_alignment = GER }
+		set_temp_variable = { org_leader = GER }
+		set_temp_variable = { org_type = 9 } # 
+		RegionalOrganizations_Initialize = yes
+	}
+		# GERMAN Colonies
+	
+	KEN = { RegionalOrganizations_Add = yes }
+	GAZ = { RegionalOrganizations_Add = yes }
+	TNZ = { RegionalOrganizations_Add = yes }
+	ZAM = { RegionalOrganizations_Add = yes }
+	RMB = { RegionalOrganizations_Add = yes }
+
+	#RegionalOrganization_Imperocolonialeitaliano
+	set_temp_variable = { reg_org = token:RegionalOrganization_Imperocolonialeitaliano }
+	LBA = {
+		set_temp_variable = { org_alignment = 0 }
+		set_temp_variable = { org_leader = ITA }
+		set_temp_variable = { org_type = 9 } # 
+		RegionalOrganizations_Initialize = yes
+	}
+		# GERMAN Colonies
+	
+	SDS = { RegionalOrganizations_Add = yes }
+	EGY = { RegionalOrganizations_Add = yes }
+	TUN = { RegionalOrganizations_Add = yes }
+	IEA = { RegionalOrganizations_Add = yes }
+	
+	
+
+ 
 	## Central African Federation
 	set_temp_variable = { reg_org = token:RegionalOrganization_CentralAfricanFed }
 	ZIM = {

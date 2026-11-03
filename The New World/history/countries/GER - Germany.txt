@@ -532,7 +532,10 @@ add_to_faction = IRE
 #add_to_faction = SWE
 #add_to_faction = PER
 #add_to_faction = UTL
-
+add_to_faction = TNZ
+add_to_faction = GAZ
+add_to_faction = MAD
+add_to_faction = KEN
 add_to_faction = ITA
 add_to_faction = GRE
 add_to_faction = CRO
@@ -548,12 +551,31 @@ add_to_faction = TUN
 add_to_faction = MOR
 add_to_faction = WFR
 add_to_faction = KTG
-add_to_faction = POR
-add_to_faction = SPA
-add_to_faction = ZIM
+
+
+add_to_faction = ZAM
 add_to_faction = EAF
-add_to_faction = BSQ
-add_to_faction = CTL
+
+add_to_faction = SDS
+add_to_faction = MLI
+add_to_faction = LBA
+add_to_faction = CHD
+add_to_faction = CAF
+add_to_faction = NGR
+add_to_faction = UGD
+add_to_faction = ALG
+add_to_faction = RMB
+
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = LIT
+add_to_faction = ZAZ
+add_to_faction = VGE
+add_to_faction = GEO
+add_to_faction = ARM
+add_to_faction = AZR
+
+
 
 set_autonomy = { target = CAU autonomy_state = autonomy_autonomous_reichskommissariat }
 
@@ -1207,21 +1229,6 @@ if = {
 		amount = 1000
 		producer = GER
 	}
-}
-
-## Character flags ## - Can use these to make GCW character transfers more smooth maybe
-# is_HGR_BRG_unit_leader = will join Burgundy if Heydrich loses #
-GER_karl_hanke = {
-	set_character_flag = is_HGR_BRG_unit_leader
-}
-GER_georg_bochmann = {
-	set_character_flag = is_HGR_BRG_unit_leader
-}
-GER_otto_kumm = {
-	set_character_flag = is_HGR_BRG_unit_leader
-}
-GER_sylvester_stadler = {
-	set_character_flag = is_HGR_BRG_unit_leader
 }
 
 # is_BGR_character = will join Bormann in GCW #

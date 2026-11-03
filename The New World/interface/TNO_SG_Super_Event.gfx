@@ -317,10 +317,6 @@ spriteTypes = {
 		textureFile = "gfx/superevent_pictures/african_crisis.png"
 	}
 	spriteType = {
-		name = "GFX_SE_BURGUNDIAN_SPRING"
-		textureFile = "gfx/superevent_pictures/burgundian_spring.png"
-	}
-	spriteType = {
 		name = "GFX_SE_WEST_AFRICAN_WAR_1"
 		textureFile = "gfx/superevent_pictures/west_africa_1.png"
 	}
@@ -390,4 +386,3 @@ spriteTypes = {
 	}
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 }
-

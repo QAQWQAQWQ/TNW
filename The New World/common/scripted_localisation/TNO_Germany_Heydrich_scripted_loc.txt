@@ -78,7 +78,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Cornwall_Burg
+		localization_key = GFX_HGR_Cornwall_Neu
 	}
 	text = {
 		trigger = {
@@ -109,7 +109,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Border_Cornwall_Burg
+		localization_key = GFX_HGR_Border_Cornwall_Neu
 	}
 	text = {
 		trigger = {
@@ -140,7 +140,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_GGN_Burg
+		localization_key = GFX_HGR_GGN_Neu
 	}
 	text = {
 		trigger = {
@@ -171,7 +171,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Border_GGN_Burg
+		localization_key = GFX_HGR_Border_GGN_Neu
 	}
 	text = {
 		trigger = {
@@ -202,7 +202,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Kaukasia_Burg
+		localization_key = GFX_HGR_Kaukasia_Neu
 	}
 	text = {
 		trigger = {
@@ -233,7 +233,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Border_Kaukasia_Burg
+		localization_key = GFX_HGR_Border_Kaukasia_Neu
 	}
 	text = {
 		trigger = {
@@ -264,7 +264,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_AlsaceLorraine_Burg
+		localization_key = GFX_HGR_AlsaceLorraine_Neu
 	}
 	text = {
 		trigger = {
@@ -295,7 +295,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Barbie_Burg
+		localization_key = GFX_HGR_Barbie_Neu
 	}
 	text = {
 		trigger = {
@@ -318,36 +318,7 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetBurgundy
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = GFX_HGR_Burgundy_Burg
-	}
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance > 59 }
-			}
-		}
-		localization_key = GFX_HGR_Burgundy_Ger
-	}
-	text = {
-		trigger = {
-			BRG = {
-				AND = {
-					check_variable = { HGR_Influence_Balance < 60 }
-					check_variable = { HGR_Influence_Balance > 40 }
-				}
-			}
-		}
-		localization_key = GFX_HGR_Burgundy_Neu
-	}
-}
+
 
 defined_text = {
 	name = HGRgetFegelein
@@ -357,7 +328,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Fegelein_Burg
+		localization_key = GFX_HGR_Fegelein_Neu
 	}
 	text = {
 		trigger = {
@@ -388,7 +359,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Fiefdom_Burg
+		localization_key = GFX_HGR_Fiefdom_Neu
 	}
 	text = {
 		trigger = {
@@ -419,7 +390,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Germania_Burg
+		localization_key = GFX_HGR_Germania_Neu
 	}
 	text = {
 		trigger = {
@@ -450,7 +421,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_IndustrialZone_Burg
+		localization_key = GFX_HGR_IndustrialZone_Neu
 	}
 	text = {
 		trigger = {
@@ -481,7 +452,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Kaliningrad_Burg
+		localization_key = GFX_HGR_Kaliningrad_Neu
 	}
 	text = {
 		trigger = {
@@ -512,7 +483,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Lotharingia_Burg
+		localization_key = GFX_HGR_Lotharingia_Neu
 	}
 	text = {
 		trigger = {
@@ -543,7 +514,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Luftwaffe_Burg
+		localization_key = GFX_HGR_Luftwaffe_Neu
 	}
 	text = {
 		trigger = {
@@ -574,7 +545,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Militarists_Burg
+		localization_key = GFX_HGR_Militarists_Neu
 	}
 	text = {
 		trigger = {
@@ -605,7 +576,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Nuremberg_Burg
+		localization_key = GFX_HGR_Nuremberg_Neu
 	}
 	text = {
 		trigger = {
@@ -636,7 +607,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Osterreich_Burg
+		localization_key = GFX_HGR_Osterreich_Neu
 	}
 	text = {
 		trigger = {
@@ -667,7 +638,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_OuterGermania_Burg
+		localization_key = GFX_HGR_OuterGermania_Neu
 	}
 	text = {
 		trigger = {
@@ -698,7 +669,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_PGD1_Burg
+		localization_key = GFX_HGR_PGD1_Neu
 	}
 	text = {
 		trigger = {
@@ -729,7 +700,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Prussia_Burg
+		localization_key = GFX_HGR_Prussia_Neu
 	}
 	text = {
 		trigger = {
@@ -760,7 +731,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Reich_Burg
+		localization_key = GFX_HGR_Reich_Neu
 	}
 	text = {
 		trigger = {
@@ -791,7 +762,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_ShleswigHolstein_Burg
+		localization_key = GFX_HGR_ShleswigHolstein_Neu
 	}
 	text = {
 		trigger = {
@@ -822,7 +793,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_SouthAustria_Burg
+		localization_key = GFX_HGR_SouthAustria_Neu
 	}
 	text = {
 		trigger = {
@@ -853,7 +824,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Steiner_Burg
+		localization_key = GFX_HGR_Steiner_Neu
 	}
 	text = {
 		trigger = {
@@ -884,7 +855,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Sudetenland_Burg
+		localization_key = GFX_HGR_Sudetenland_Neu
 	}
 	text = {
 		trigger = {
@@ -915,7 +886,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_WaffenSS_Burg
+		localization_key = GFX_HGR_WaffenSS_Neu
 	}
 	text = {
 		trigger = {
@@ -946,7 +917,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Westfalen_Burg
+		localization_key = GFX_HGR_Westfalen_Neu
 	}
 	text = {
 		trigger = {
@@ -977,7 +948,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Charlemagne_Burg
+		localization_key = GFX_HGR_Charlemagne_Neu
 	}
 	text = {
 		trigger = {
@@ -1000,48 +971,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetHimmler
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Himmler_Influence
-					#		value = HGR_Heydrich_Influence
-					#		compare = greater_than
-					#	}
-				#}
-			always = yes
-		}
-		localization_key = GFX_HGR_Himmler_Burg
-	}
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Heydrich_Influence
-					#		value = HGR_Himmler_Influence
-					#		compare = greater_than
-					#	}
-				#}
-			always = no
-		}
-		localization_key = GFX_HGR_Himmler_Ger
-	}
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Himmler_Influence
-					#		value = HGR_Heydrich_Influence
-					#		compare = equals
-					#	}
-				#}
-			always = no
-		}
-		localization_key = GFX_HGR_Himmler_Neu
-	}
-}
 
 defined_text = {
 	name = HGRgetLangemarck
@@ -1051,7 +980,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Langemarck_Burg
+		localization_key = GFX_HGR_Langemarck_Neu
 	}
 	text = {
 		trigger = {
@@ -1082,7 +1011,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Netherlands_Burg
+		localization_key = GFX_HGR_Netherlands_Neu
 	}
 	text = {
 		trigger = {
@@ -1113,7 +1042,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Walloon_Burg
+		localization_key = GFX_HGR_Walloon_Neu
 	}
 	text = {
 		trigger = {
@@ -1148,7 +1077,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1183,7 +1112,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1214,7 +1143,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1245,7 +1174,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1276,7 +1205,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1307,7 +1236,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1338,7 +1267,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1369,7 +1298,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1400,7 +1329,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1431,7 +1360,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1462,7 +1391,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1493,7 +1422,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1524,7 +1453,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1555,7 +1484,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1586,7 +1515,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1617,7 +1546,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1648,7 +1577,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1679,7 +1608,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1710,7 +1639,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1741,7 +1670,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1772,7 +1701,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1803,7 +1732,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1834,7 +1763,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1857,48 +1786,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetHimmler_Missile
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Himmler_Influence
-					#		value = HGR_Heydrich_Influence
-					#		compare = greater_than
-					#	}
-				#}
-			always = yes
-		}
-		localization_key = GFX_HGR_Missile_Burg
-	}
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Heydrich_Influence
-					#		value = HGR_Himmler_Influence
-					#		compare = greater_than
-					#	}
-				#}
-			always = no
-		}
-		localization_key = GFX_HGR_Missile_Ger
-	}
-	text = {
-		trigger = {
-			#BRG = {
-				#	check_variable = {
-					#		var = HGR_Himmler_Influence
-					#		value = HGR_Heydrich_Influence
-					#		compare = equals
-					#	}
-				#}
-			always = no
-		}
-		localization_key = GFX_HGR_Missile_Neu
-	}
-}
 
 defined_text = {
 	name = HGRgetLangemarck_Missile
@@ -1908,7 +1795,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1939,7 +1826,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -1970,7 +1857,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = GFX_HGR_Missile_Burg
+		localization_key = GFX_HGR_Missile_Neu
 	}
 	text = {
 		trigger = {
@@ -2013,7 +1900,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_AlsaceLorraine_Grid_Burg
+		localization_key = GFX_HGR_AlsaceLorraine_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2079,7 +1966,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Barbie_Grid_Burg
+		localization_key = GFX_HGR_Barbie_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2141,7 +2028,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Fegelein_Grid_Burg
+		localization_key = GFX_HGR_Fegelein_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2202,7 +2089,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Fiefdom_Grid_Burg
+		localization_key = GFX_HGR_Fiefdom_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2258,7 +2145,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Germania_Grid_Burg
+		localization_key = GFX_HGR_Germania_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2312,7 +2199,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_IndustrialZone_Grid_Burg
+		localization_key = GFX_HGR_IndustrialZone_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2374,7 +2261,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Kaliningrad_Grid_Burg
+		localization_key = GFX_HGR_Kaliningrad_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2436,7 +2323,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Lotharingia_Grid_Burg
+		localization_key = GFX_HGR_Lotharingia_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2497,7 +2384,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Luftwaffe_Grid_Burg
+		localization_key = GFX_HGR_Luftwaffe_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2556,7 +2443,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Militarists_Grid_Burg
+		localization_key = GFX_HGR_Militarists_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2615,7 +2502,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Nuremberg_Grid_Burg
+		localization_key = GFX_HGR_Nuremberg_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2675,7 +2562,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Osterreich_Grid_Burg
+		localization_key = GFX_HGR_Osterreich_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2734,7 +2621,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_OuterGermania_Grid_Burg
+		localization_key = GFX_HGR_OuterGermania_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2790,7 +2677,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_PGD1_Grid_Burg
+		localization_key = GFX_HGR_PGD1_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2851,7 +2738,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Prussia_Grid_Burg
+		localization_key = GFX_HGR_Prussia_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2910,7 +2797,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Reich_Grid_Burg
+		localization_key = GFX_HGR_Reich_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -2970,7 +2857,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_ShleswigHolstein_Grid_Burg
+		localization_key = GFX_HGR_ShleswigHolstein_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3032,7 +2919,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_SouthAustria_Grid_Burg
+		localization_key = GFX_HGR_SouthAustria_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3094,7 +2981,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Steiner_Grid_Burg
+		localization_key = GFX_HGR_Steiner_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3157,7 +3044,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Sudetenland_Grid_Burg
+		localization_key = GFX_HGR_Sudetenland_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3222,7 +3109,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_WaffenSS_Grid_Burg
+		localization_key = GFX_HGR_WaffenSS_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3285,7 +3172,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Westfalen_Grid_Burg
+		localization_key = GFX_HGR_Westfalen_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3344,7 +3231,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Charlemagne_Grid_Burg
+		localization_key = GFX_HGR_Charlemagne_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3388,55 +3275,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetHimmler_Grid
-	text = {
-		trigger = {
-			16 = {
-				controller = {
-					AND = {
-						check_variable = { HGR_Influence_Balance < 41 }
-					}
-				}
-			}
-		}
-		localization_key = GFX_HGR_Himmler_Grid_Burg
-	}
-	text = {
-		trigger = {
-			16 = {
-				controller = {
-					AND = {
-
-						check_variable = { HGR_Influence_Balance > 59 }
-					}
-				}
-			}
-		}
-		localization_key = GFX_HGR_Himmler_Grid_Ger
-	}
-	text = {
-		trigger = {
-			16 = {
-				controller = {
-					AND = {
-						AND = {
-							check_variable = { HGR_Influence_Balance < 60 }
-							check_variable = { HGR_Influence_Balance > 40 }
-						}
-					}
-				}
-			}
-		}
-		localization_key = GFX_HGR_Himmler_Grid_Neu
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = GFX_HGR_Himmler_Grid_Empty
-	}
-}
 
 defined_text = {
 	name = HGRgetLangemarck_Grid
@@ -3453,7 +3291,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Langemarck_Grid_Burg
+		localization_key = GFX_HGR_Langemarck_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3512,7 +3350,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Walloon_Grid_Burg
+		localization_key = GFX_HGR_Walloon_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3571,7 +3409,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GFX_HGR_Netherlands_Grid_Burg
+		localization_key = GFX_HGR_Netherlands_Grid_Neu
 	}
 	text = {
 		trigger = {
@@ -3672,13 +3510,6 @@ defined_text = {
 			has_country_flag = HGR_KALINIGRAD_OPEN
 		}
 		localization_key = GFX_HGR_Kaliningrad_Leader
-	}
-	text = {
-		trigger = {
-			has_country_flag = HGR_LOTHARINGIA_OPEN
-			SSL = { has_country_leader = { character = HWL_Theodor_Eicke ruling_only = yes } }
-		}
-		localization_key = GFX_HGR_Lotharingia_Leader_Eicke
 	}
 	text = {
 		trigger = {
@@ -3785,12 +3616,6 @@ defined_text = {
 			has_country_flag = HGR_CHARLEMAGNE_OPEN
 		}
 		localization_key = GFX_HGR_Charlemagne_Leader
-	}
-	text = {
-		trigger = {
-			has_country_flag = HGR_HIMMLER_OPEN
-		}
-		localization_key = GFX_HGR_Himmler_Leader
 	}
 	text = {
 		trigger = {
@@ -3960,12 +3785,7 @@ defined_text = {
 		}
 		localization_key = PIC_GUI_LOC
 	}
-	text = {
-		trigger = {
-			has_country_flag = HGR_HIMMLER_OPEN
-		}
-		localization_key = BRG_GUI_LOC
-	}
+
 	text = {
 		trigger = {
 			has_country_flag = HGR_LANGEMARCK_OPEN
@@ -4132,12 +3952,7 @@ defined_text = {
 		}
 		localization_key = [PIC.GetNameDef]
 	}
-	text = {
-		trigger = {
-			has_country_flag = HGR_HIMMLER_OPEN
-		}
-		localization_key = [BRG.GetNameDef]
-	}
+
 	text = {
 		trigger = {
 			has_country_flag = HGR_LANGEMARCK_OPEN
@@ -4305,12 +4120,7 @@ defined_text = {
 		}
 		localization_key = HGR_PIC_LEADER_LOC
 	}
-	text = {
-		trigger = {
-			has_country_flag = HGR_HIMMLER_OPEN
-		}
-		localization_key = HGR_BRG_LEADER_LOC
-	}
+
 	text = {
 		trigger = {
 			has_country_flag = HGR_LANGEMARCK_OPEN
@@ -4341,14 +4151,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			LHH = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			LHH = {
@@ -4388,14 +4191,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			KLB = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			KLB = {
@@ -4435,14 +4231,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			SSF = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			SSF = {
@@ -4482,14 +4271,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			DSH = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			DSH = {
@@ -4529,14 +4311,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			ISS = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			ISS = {
@@ -4576,14 +4351,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100_PRK
 	}
-	text = {
-		trigger = {
-			PRK = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5_PRK
-	}
+
 	text = {
 		trigger = {
 			PRK = {
@@ -4623,14 +4391,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			SSL = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			SSL = {
@@ -4670,14 +4431,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			OKL = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			OKL = {
@@ -4717,14 +4471,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			OER = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			OER = {
@@ -4764,14 +4511,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			SSN = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			SSN = {
@@ -4811,14 +4551,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			AUS = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			AUS = {
@@ -4858,14 +4591,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			FPG = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			FPG = {
@@ -4905,14 +4631,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			FSP = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			FSP = {
@@ -4952,14 +4671,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			FHH = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			FHH = {
@@ -4999,14 +4711,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			DSG = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			DSG = {
@@ -5046,14 +4751,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			KHP = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			KHP = {
@@ -5093,14 +4791,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			AGS = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			AGS = {
@@ -5140,14 +4831,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			APF = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			APF = {
@@ -5187,14 +4871,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			KSS = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			KSS = {
@@ -5234,14 +4911,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			SSW = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			SSW = {
@@ -5281,14 +4951,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			PIC = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			PIC = {
@@ -5318,52 +4981,7 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetBRGLOVE
-	text = {
-		trigger = {
-			BRG = {
-				is_in_faction_with = GER
-			}
-		}
-		localization_key = HGR_GUI_TEXT_95to100
-	}
-	text = {
-		trigger = {
-			BRG = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance > 59 }
-			}
-		}
-		localization_key = HGR_GUI_TEXT_60to95
-	}
-	text = {
-		trigger = {
-			BRG = {
-				AND = {
-					check_variable = { HGR_Influence_Balance < 60 }
-					check_variable = { HGR_Influence_Balance > 40 }
-				}
-			}
-		}
-		localization_key = HGR_GUI_TEXT_40to60
-	}
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = HGR_GUI_TEXT_5to40
-	}
-}
+
 
 defined_text = {
 	name = HGRgetGERLOVE
@@ -5375,14 +4993,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			GER = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			GER = {
@@ -5422,14 +5033,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			BEL = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			BEL = {
@@ -5469,14 +5073,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			FLR = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			FLR = {
@@ -5516,14 +5113,7 @@ defined_text = {
 		}
 		localization_key = HGR_GUI_TEXT_95to100
 	}
-	text = {
-		trigger = {
-			HOL = {
-				is_in_faction_with = BRG
-			}
-		}
-		localization_key = HGR_GUI_TEXT_0to5
-	}
+
 	text = {
 		trigger = {
 			HOL = {
@@ -5972,7 +5562,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_AlsaceLorraine_Burg
+		localization_key = Leader_HGR_AlsaceLorraine_Neu
 	}
 	text = {
 		trigger = {
@@ -6003,7 +5593,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Barbie_Burg
+		localization_key = Leader_HGR_Barbie_Neu
 	}
 	text = {
 		trigger = {
@@ -6026,36 +5616,7 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetBurgundy_leader
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = Leader_HGR_Burgundy_Burg
-	}
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance > 59 }
-			}
-		}
-		localization_key = Leader_HGR_Burgundy_Ger
-	}
-	text = {
-		trigger = {
-			BRG = {
-				AND = {
-					check_variable = { HGR_Influence_Balance < 60 }
-					check_variable = { HGR_Influence_Balance > 40 }
-				}
-			}
-		}
-		localization_key = Leader_HGR_Burgundy_Neu
-	}
-}
+
 
 defined_text = {
 	name = HGRgetFegelein_leader
@@ -6065,7 +5626,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Fegelein_Burg
+		localization_key = Leader_HGR_Fegelein_Neu
 	}
 	text = {
 		trigger = {
@@ -6096,7 +5657,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Fiefdom_Burg
+		localization_key = Leader_HGR_Fiefdom_Neu
 	}
 	text = {
 		trigger = {
@@ -6127,7 +5688,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Germania_Burg
+		localization_key = Leader_HGR_Germania_Neu
 	}
 	text = {
 		trigger = {
@@ -6158,7 +5719,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_IndustrialZone_Burg
+		localization_key = Leader_HGR_IndustrialZone_Neu
 	}
 	text = {
 		trigger = {
@@ -6189,7 +5750,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Kaliningrad_Burg
+		localization_key = Leader_HGR_Kaliningrad_Neu
 	}
 	text = {
 		trigger = {
@@ -6220,7 +5781,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Lotharingia_Burg
+		localization_key = Leader_HGR_Lotharingia_Neu
 	}
 	text = {
 		trigger = {
@@ -6251,7 +5812,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Luftwaffe_Burg
+		localization_key = Leader_HGR_Luftwaffe_Neu
 	}
 	text = {
 		trigger = {
@@ -6282,7 +5843,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Militarists_Burg
+		localization_key = Leader_HGR_Militarists_Neu
 	}
 	text = {
 		trigger = {
@@ -6313,7 +5874,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Nuremberg_Burg
+		localization_key = Leader_HGR_Nuremberg_Neu
 	}
 	text = {
 		trigger = {
@@ -6344,7 +5905,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Osterreich_Burg
+		localization_key = Leader_HGR_Osterreich_Neu
 	}
 	text = {
 		trigger = {
@@ -6375,7 +5936,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_OuterGermania_Burg
+		localization_key = Leader_HGR_OuterGermania_Neu
 	}
 	text = {
 		trigger = {
@@ -6406,7 +5967,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_PGD1_Burg
+		localization_key = Leader_HGR_PGD1_Neu
 	}
 	text = {
 		trigger = {
@@ -6437,7 +5998,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Prussia_Burg
+		localization_key = Leader_HGR_Prussia_Neu
 	}
 	text = {
 		trigger = {
@@ -6468,7 +6029,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Reich_Burg
+		localization_key = Leader_HGR_Reich_Neu
 	}
 	text = {
 		trigger = {
@@ -6499,7 +6060,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_ShleswigHolstein_Burg
+		localization_key = Leader_HGR_ShleswigHolstein_Neu
 	}
 	text = {
 		trigger = {
@@ -6530,7 +6091,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_SouthAustria_Burg
+		localization_key = Leader_HGR_SouthAustria_Neu
 	}
 	text = {
 		trigger = {
@@ -6561,7 +6122,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Steiner_Burg
+		localization_key = Leader_HGR_Steiner_Neu
 	}
 	text = {
 		trigger = {
@@ -6592,7 +6153,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Sudetenland_Burg
+		localization_key = Leader_HGR_Sudetenland_Neu
 	}
 	text = {
 		trigger = {
@@ -6623,7 +6184,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_WaffenSS_Burg
+		localization_key = Leader_HGR_WaffenSS_Neu
 	}
 	text = {
 		trigger = {
@@ -6654,7 +6215,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Westfalen_Burg
+		localization_key = Leader_HGR_Westfalen_Neu
 	}
 	text = {
 		trigger = {
@@ -6685,7 +6246,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Charlemagne_Burg
+		localization_key = Leader_HGR_Charlemagne_Neu
 	}
 	text = {
 		trigger = {
@@ -6716,7 +6277,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Langemarck_Burg
+		localization_key = Leader_HGR_Langemarck_Neu
 	}
 	text = {
 		trigger = {
@@ -6747,7 +6308,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Netherlands_Burg
+		localization_key = Leader_HGR_Netherlands_Neu
 	}
 	text = {
 		trigger = {
@@ -6778,7 +6339,7 @@ defined_text = {
 				check_variable = { HGR_Influence_Balance < 41 }
 			}
 		}
-		localization_key = Leader_HGR_Walloon_Burg
+		localization_key = Leader_HGR_Walloon_Neu
 	}
 	text = {
 		trigger = {
@@ -6801,393 +6362,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetHimmler_Occupation
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = KLB
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_KLB
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = SSF
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_SSF
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = DSH
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_DSH
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = KLB
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_KLB
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = GER
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_GER
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = ISS
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_ISS
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = PRK
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_PRK
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = SSL
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_SSL
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = OKL
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_OKL
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = OER
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_OER
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = SSN
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_SSN
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = AUS
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_AUS
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = FPG
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_FPG
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = FSP
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_FSP
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = FHH
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_FHH
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = DSG
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_DSG
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = KHP
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_KHP
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = AGS
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_AGS
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = APF
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_APF
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = KSS
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_KSS
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						tag = SSW
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_occupied_SSW
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = HGR_Himmler_not_occupied
-	}
-}
 
 defined_text = {
 	name = HGRgetAlsaceLorraine_Occupation
@@ -15664,7 +14838,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_AlsaceLorraine_Occupied_By_Burg
+		localization_key = HGR_AlsaceLorraine_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -15714,73 +14888,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = HGRgetHimmler_Occupied_By
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-						check_variable = { HGR_Influence_Balance < 41 }
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_Occupied_By_Burg
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-
-						check_variable = { HGR_Influence_Balance > 59 }
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_Occupied_By_Ger
-	}
-	text = {
-		trigger = {
-			42 = {
-				controller = {
-					AND = {
-						NOT = {
-							tag = LHH
-						}
-						controls_state = 28
-						controls_state = 51
-						controls_state = 8
-						AND = {
-							check_variable = { HGR_Influence_Balance < 60 }
-							check_variable = { HGR_Influence_Balance > 40 }
-						}
-					}
-				}
-			}
-		}
-		localization_key = HGR_Himmler_Occupied_By_Neu
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = HGR_Himmler_Occupied_By_Empty
-	}
-}
 
 defined_text = {
 	name = HGRgetBarbie_Occupied_By
@@ -15798,7 +14905,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Barbie_Occupied_By_Burg
+		localization_key = HGR_Barbie_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -15860,7 +14967,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Fegelein_Occupied_By_Burg
+		localization_key = HGR_Fegelein_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -15921,7 +15028,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Fiefdom_Occupied_By_Burg
+		localization_key = HGR_Fiefdom_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -15980,7 +15087,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Germania_Occupied_By_Burg
+		localization_key = HGR_Germania_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16040,7 +15147,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_IndustrialZone_Occupied_By_Burg
+		localization_key = HGR_IndustrialZone_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16102,7 +15209,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Kaliningrad_Occupied_By_Burg
+		localization_key = HGR_Kaliningrad_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16164,7 +15271,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Lotharingia_Occupied_By_Burg
+		localization_key = HGR_Lotharingia_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16225,7 +15332,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Luftwaffe_Occupied_By_Burg
+		localization_key = HGR_Luftwaffe_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16284,7 +15391,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Militarists_Occupied_By_Burg
+		localization_key = HGR_Militarists_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16343,7 +15450,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Nuremberg_Occupied_By_Burg
+		localization_key = HGR_Nuremberg_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16403,7 +15510,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Osterreich_Occupied_By_Burg
+		localization_key = HGR_Osterreich_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16466,7 +15573,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_OuterGermania_Occupied_By_Burg
+		localization_key = HGR_OuterGermania_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16530,7 +15637,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_PGD1_Occupied_By_Burg
+		localization_key = HGR_PGD1_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16591,7 +15698,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Prussia_Occupied_By_Burg
+		localization_key = HGR_Prussia_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16650,7 +15757,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Reich_Occupied_By_Burg
+		localization_key = HGR_Reich_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16710,7 +15817,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_ShleswigHolstein_Occupied_By_Burg
+		localization_key = HGR_ShleswigHolstein_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16772,7 +15879,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_SouthAustria_Occupied_By_Burg
+		localization_key = HGR_SouthAustria_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16834,7 +15941,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Steiner_Occupied_By_Burg
+		localization_key = HGR_Steiner_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16897,7 +16004,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Sudetenland_Occupied_By_Burg
+		localization_key = HGR_Sudetenland_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -16962,7 +16069,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_WaffenSS_Occupied_By_Burg
+		localization_key = HGR_WaffenSS_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17025,7 +16132,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Westfalen_Occupied_By_Burg
+		localization_key = HGR_Westfalen_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17084,7 +16191,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Charlemagne_Occupied_By_Burg
+		localization_key = HGR_Charlemagne_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17143,7 +16250,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Langemarck_Occupied_By_Burg
+		localization_key = HGR_Langemarck_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17202,7 +16309,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Netherlands_Occupied_By_Burg
+		localization_key = HGR_Netherlands_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17261,7 +16368,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = HGR_Walloon_Occupied_By_Burg
+		localization_key = HGR_Walloon_Occupied_By_Neu
 	}
 	text = {
 		trigger = {
@@ -17326,46 +16433,10 @@ defined_text = {
 		}
 		localization_key = LHH_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			LHH = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = LHH_BRG_CONTROL
-	}
+
 }
 
-defined_text = {
-	name = HGRgetBRG_CONTROL
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance > 59 }
-			}
-		}
-		localization_key = BRG_GER_CONTROL
-	}
-	text = {
-		trigger = {
-			BRG = {
-				AND = {
-					check_variable = { HGR_Influence_Balance < 60 }
-					check_variable = { HGR_Influence_Balance > 40 }
-				}
-			}
-		}
-		localization_key = BRG_NEU_CONTROL
-	}
-	text = {
-		trigger = {
-			BRG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = BRG_BRG_CONTROL
-	}
-}
+
 
 defined_text = {
 	name = HGRgetGER_CONTROL
@@ -17388,14 +16459,7 @@ defined_text = {
 		}
 		localization_key = GER_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			GER = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = GER_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17419,14 +16483,7 @@ defined_text = {
 		}
 		localization_key = KLB_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			KLB = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = KLB_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17450,14 +16507,7 @@ defined_text = {
 		}
 		localization_key = SSF_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			SSF = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = SSF_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17481,14 +16531,7 @@ defined_text = {
 		}
 		localization_key = DSH_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			DSH = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = DSH_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17512,14 +16555,7 @@ defined_text = {
 		}
 		localization_key = ISS_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			ISS = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = ISS_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17543,14 +16579,7 @@ defined_text = {
 		}
 		localization_key = PRK_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			PRK = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = PRK_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17574,14 +16603,7 @@ defined_text = {
 		}
 		localization_key = SSL_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			SSL = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = SSL_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17605,14 +16627,7 @@ defined_text = {
 		}
 		localization_key = OKL_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			OKL = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = OKL_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17636,14 +16651,7 @@ defined_text = {
 		}
 		localization_key = OER_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			OER = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = OER_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17667,14 +16675,7 @@ defined_text = {
 		}
 		localization_key = SSN_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			SSN = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = SSN_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17698,14 +16699,7 @@ defined_text = {
 		}
 		localization_key = AUS_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			AUS = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = AUS_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17729,14 +16723,7 @@ defined_text = {
 		}
 		localization_key = FPG_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			FPG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = FPG_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17760,14 +16747,7 @@ defined_text = {
 		}
 		localization_key = FSP_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			FSP = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = FSP_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17791,14 +16771,7 @@ defined_text = {
 		}
 		localization_key = FHH_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			FHH = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = FHH_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17822,14 +16795,7 @@ defined_text = {
 		}
 		localization_key = DSG_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			DSG = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = DSG_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17853,14 +16819,7 @@ defined_text = {
 		}
 		localization_key = KHP_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			KHP = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = KHP_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17884,14 +16843,7 @@ defined_text = {
 		}
 		localization_key = AGS_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			AGS = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = AGS_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17915,14 +16867,7 @@ defined_text = {
 		}
 		localization_key = APF_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			APF = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = APF_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17946,14 +16891,7 @@ defined_text = {
 		}
 		localization_key = KSS_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			KSS = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = KSS_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -17977,14 +16915,7 @@ defined_text = {
 		}
 		localization_key = SSW_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			SSW = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = SSW_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -18008,14 +16939,7 @@ defined_text = {
 		}
 		localization_key = PIC_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			PIC = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = PIC_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -18039,14 +16963,7 @@ defined_text = {
 		}
 		localization_key = FLR_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			FLR = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = FLR_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -18070,14 +16987,7 @@ defined_text = {
 		}
 		localization_key = HOL_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			HOL = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = HOL_BRG_CONTROL
-	}
+
 }
 
 defined_text = {
@@ -18101,14 +17011,7 @@ defined_text = {
 		}
 		localization_key = BEL_NEU_CONTROL
 	}
-	text = {
-		trigger = {
-			BEL = {
-				check_variable = { HGR_Influence_Balance < 41 }
-			}
-		}
-		localization_key = BEL_BRG_CONTROL
-	}
+
 }
 
 # Faction Opinions

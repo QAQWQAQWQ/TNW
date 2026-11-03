@@ -110,18 +110,7 @@ TNO_ArcadeMode_category = {
 		}
 	}
 
-	TNO_ArcadeMode_BreakSeal = {
-		icon = GFX_decision_generic_ignite_civil_war
-		available = { country_exists = BRG }
 
-		fire_only_once = yes
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TNO_ArcadeMode_BreakSeal"
-			# every_country = { country_event = spook_news.1 }
-			BRG = { country_event = spook_temp.1 }
-		}
-	}
 
 	TNO_ArcadeMode_OpenRift = {
 		icon = GFX_decision_generic_ignite_civil_war

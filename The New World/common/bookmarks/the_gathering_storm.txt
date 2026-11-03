@@ -228,18 +228,10 @@ bookmarks = {
 
 		"MCW" = {
 			minor = yes
-			history = "BRG_THENEWORDER_DESC"
+			history = ""
 			ideology = national_socialism
-			ideas = {
-				BRG_the_shadow_state
-				BRG_purge_the_rot
-				BRG_the_three_realms
-			}
-			focuses = {
-				BRG_unter_der_schwarzen_sonne
-				BRG_a_wise_leader
-				BRG_the_last_hope_for_germania
-			}
+			ideas = {}
+			focuses = {}
 		}
 
 		## PAKT ##

@@ -353,7 +353,6 @@ Poverty_Dynamic_Modifier = {
 }
 
 TNO_army_funding_dynamic_modifier = {
-	# icon = "GFX_idea_BRG_iron_fist"
 	enable = { always = yes }
 	army_org_factor = TNO_army_funding_army_org_factor
 	army_morale_factor = TNO_army_funding_army_morale_factor
@@ -394,7 +393,6 @@ TNO_naval_funding_dynamic_modifier = {
 
 TNO_research_funding_dynamic_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	research_speed_factor = TNO_research_funding_research_speed_factor
 	research_facilities_monthly_rate = TNO_research_funding_facilities_effect
 }
@@ -407,7 +405,6 @@ TNO_admin_funding_dynamic_modifier = {
 
 TNO_consumer_goods_production_dynamic_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	country_resource_cost_consumer_goods = PU_consumer_goods_production
 	
 	stability_factor = PU_consumer_goods_stability_impact
@@ -415,7 +412,6 @@ TNO_consumer_goods_production_dynamic_modifier = {
 }
 
 TNO_consumer_goods_production_resource_demand = {
-	# icon = "GFX_idea_BRG_iron_fist"
 	enable = { always = yes }
 	country_resource_cost_aluminium = TNO_consumer_goods_aluminium_demand_ratio
 	country_resource_cost_rubber = TNO_consumer_goods_rubber_demand_ratio
@@ -431,7 +427,6 @@ TNO_economy_fuel_cost_modifier = {
 
 TNO_consumer_goods_consumption_dynamic_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	country_resource_cost_consumer_goods = consumer_goods_monthly_use
 }
 
@@ -465,7 +460,6 @@ TNO_base_econ_shit_dynamic_modifier = {
 	enable = {
 		always = yes
 	}
-	#icon = "GFX_idea_BRG_iron_fist"
 	# interest_rate_modifier = interest_rates
 	# debt_to_GDP_ceiling_modifier = stability
 	# production_units_to_GDP_ratio_modifier = default_PU_to_GDP_ratio
@@ -494,7 +488,6 @@ TNO_deficit_effects_modifier = {
 	enable = {
 		always = yes
 	}
-	#icon = "GFX_idea_BRG_iron_fist"
 	political_power_cost = TNO_deficit_PP_cost
 }
 

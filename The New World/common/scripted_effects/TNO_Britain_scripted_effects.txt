@@ -4798,7 +4798,6 @@ ENG_HMMLR_ECW_VictoryPreAnnex_NEW = {
 		MAD = { ENG = { set_embargo_PREV = yes } }
 		GRO = { ENG = { set_embargo_PREV = yes } }
 		ANG = { ENG = { set_embargo_PREV = yes } }
-		BRG = { ENG = { set_embargo_PREV = yes } }
 		BUL = { ENG = { set_embargo_PREV = yes } }
 		FRA = { ENG = { set_embargo_PREV = yes } }
 		IRE = { ENG = { set_embargo_PREV = yes } }

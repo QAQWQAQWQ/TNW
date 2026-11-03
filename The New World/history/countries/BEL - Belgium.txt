@@ -9,7 +9,6 @@ recruit_character = BEL_Fernand_Rouleau
 recruit_character = BEL_Lucien_Lippert
 
 
-#oob = "BRG_1962"
 inherit_technology = GER
 
 set_politics = {

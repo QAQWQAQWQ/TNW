@@ -679,7 +679,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SCO_SNP_New_Arms
-	icon = GFX_focus_BRG_standardized_equipment
+	icon = GFX_goal_generic_political_pressure
 	x = 5
 	y = 3
 	cost = 3

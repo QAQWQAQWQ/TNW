@@ -98,9 +98,6 @@ scripted_gui = {
 			conflict_marker_Balkans_visible = {
 				TNO_Balkans_has_conflict = yes
 			}
-			conflict_marker_France_Burgundy_Iberia_visible = {
-				TNO_France_Burgundy_Iberia_has_conflict = yes
-			}
 			conflict_marker_Ostland_Moscow_visible = {
 				TNO_Ostland_Moscow_has_conflict = yes
 			}
@@ -183,9 +180,6 @@ scripted_gui = {
 			# }
 			# conflict_marker_Balkans_proxy_visible = {
 			# 	TNO_Balkans_has_proxy = yes
-			# }
-			# conflict_marker_France_Burgundy_Iberia_proxy_visible = {
-			# 	TNO_France_Burgundy_Iberia_has_proxy = yes
 			# }
 			# conflict_marker_Ostland_Moscow_proxy_visible = {
 			# 	TNO_Ostland_Moscow_has_proxy = yes

@@ -4,7 +4,6 @@
 
 superpower_scoring_effects_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	max_command_power = score_effects_array^0
 	political_power_gain = score_effects_array^1
 	war_support_factor = score_effects_array^2
@@ -15,13 +14,11 @@ superpower_scoring_effects_modifier = {
 
 superpower_power_projection_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	political_power_gain = power_projection_pp_effect
 }
 
 superpower_ger_usa_tension_modifier = { 
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	war_support_factor = USA_GER_war_support_Tension_var
 	stability_factor = USA_GER_stability_Tension_var
 	industrial_capacity_factory = USA_GER_factory_output_var
@@ -33,7 +30,6 @@ superpower_ger_usa_tension_modifier = {
 
 superpower_ger_jap_tension_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	war_support_factor = GER_JAP_war_support_Tension_var
 	stability_factor = GER_JAP_stability_Tension_var
 	industrial_capacity_factory = GER_JAP_factory_output_var
@@ -45,7 +41,6 @@ superpower_ger_jap_tension_modifier = {
 
 superpower_jap_usa_tension_modifier = {
 	enable = { always = yes }
-	# icon = "GFX_idea_BRG_iron_fist"
 	war_support_factor = JAP_USA_war_support_Tension_var
 	stability_factor = JAP_USA_stability_Tension_var
 	industrial_capacity_factory = JAP_USA_factory_output_var

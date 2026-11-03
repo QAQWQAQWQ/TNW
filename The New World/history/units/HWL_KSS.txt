@@ -19,7 +19,7 @@ division_template = {
 
 division_template = {
 	name = "MBT Waffen-SS"
-	division_names_group = BRG_waffen
+	division_names_group = GER_waffen
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -38,7 +38,7 @@ division_template = {
 
 division_template = {
 	name = "IFV Waffen-SS"
-	division_names_group = BRG_waffen
+	division_names_group = GER_waffen
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -58,7 +58,7 @@ division_template = {
 
 division_template = {
 	name = "APC Waffen-SS"
-	division_names_group = BRG_waffen
+	division_names_group = GER_waffen
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }

@@ -34,7 +34,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ita_the_black_spawn_of_the_reich
-	icon = GFX_focus_BRG_burgundy
+	icon = GFX_goal_generic_political_pressure
 	cost = 4.00
 	prerequisite = {
 		focus = ita_assess_our_threats
@@ -3285,7 +3285,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ita_standardize_aa_emplacements
-	icon = GFX_focus_BRG_standardized_equipment
+	icon = GFX_goal_generic_political_pressure
 	x = 46
 	y = 14
 	cost = 2
@@ -5913,7 +5913,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ita_the_anarchist_lead
-	icon = GFX_focus_BRG_spread_anarchy
+	icon = GFX_goal_generic_political_pressure
 	cost = 2
 	x = 12
 	y = 2

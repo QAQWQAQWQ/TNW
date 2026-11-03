@@ -12772,7 +12772,6 @@ TNO_endo_exo_names_init = {
 	add_to_array = { global.german_names = AAB }
 	add_to_array = { global.german_names = AAG }
 	add_to_array = { global.german_names = ANG }
-	add_to_array = { global.german_names = BRG }
 	add_to_array = { global.german_names = CAU }
 	add_to_array = { global.german_names = CRI }
 	add_to_array = { global.german_names = COG }

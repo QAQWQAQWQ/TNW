@@ -254,10 +254,6 @@ spriteTypes = {
 
 	
 	spriteType = {
-		name = "GFX_idea_AAB_Burgundian_Think_Tank"
-		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAB_Burgundian_Think_Tank.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_AAB_Vital_Research"
 		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAB_Vital_Research.dds"
 	}

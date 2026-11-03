@@ -2975,7 +2975,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WAL_Union1_Loyalty_Earned
-	icon = GFX_focus_BRG_absolute_loyalty
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	x = 6
 	y = 8

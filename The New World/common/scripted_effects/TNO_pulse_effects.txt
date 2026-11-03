@@ -637,9 +637,6 @@ first_every_month_script = {
 			USA = {
 				is_ai = yes
 			}
-			BRG = {
-				is_ai = yes
-			}
 		}
 		set_global_flag = DISABLE_AI_CRISES
 	}
@@ -654,9 +651,6 @@ first_every_month_script = {
 					is_ai = no
 				}
 				USA = {
-					is_ai = no
-				}
-				BRG = {
 					is_ai = no
 				}
 			}
@@ -924,10 +918,6 @@ first_every_month_script = {
 
 	USA = {
 		USA_monthly_pulse_effect = yes
-	}
-
-	BRG = {
-		BRG_monthly_pulse_effect = yes
 	}
 
 	ANG = {

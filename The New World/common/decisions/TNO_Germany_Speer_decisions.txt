@@ -3313,70 +3313,7 @@ SGR_state_of_the_reich_category = {
 		}
 	}
 
-	GER_Speer_Foreign_Policy_Burgundy_Collapse_Intervention = {
-		icon = GFX_decision_diplo_burgundy
-		available = { hidden_trigger = { always = no } }
-		activation = { always = no }
 
-		is_good = yes
-		days_mission_timeout = 90
-		priority = 100
-		fire_only_once = yes
-
-		war_with_on_timeout = BRG
-		war_with_on_timeout = PIC
-		war_with_on_timeout = BEL
-		war_with_on_timeout = FLR
-		war_with_on_timeout = RPY
-		
-		timeout_effect = {
-			BRG = { set_country_flag = TNO_nuke_disabled }
-
-			if = { ### Pakt France 
-				limit = { FRA = { is_in_faction_with = GER } }
-				set_global_flag = BRG_AI_Collapse_Pakt_France
-
-				country_event = BRG_ai_collapse.2
-				FRA = {
-					if = { limit = { country_exists = BRG } declare_war_on = { target = BRG type = annex_everything } }
-					if = { limit = { country_exists = PIC } declare_war_on = { target = PIC type = annex_everything } }
-					if = { limit = { country_exists = BEL } declare_war_on = { target = BEL type = annex_everything } }
-					if = { limit = { country_exists = FLR } declare_war_on = { target = FLR type = annex_everything } }
-					if = { limit = { country_exists = RPY } declare_war_on = { target = RPY type = annex_everything } }
-				}
-			}
-			else_if = { ### OFN France 
-				limit = { FRA = { is_in_faction_with = USA } }
-				set_global_flag = BRG_AI_Collapse_OFN_France
-				USA = { country_event = { id = BRG_ai_collapse.4 days = 1 } }
-			}
-			else_if = { ### Italian/Iberian France
-				limit = { 
-					FRA = { 
-						has_country_flag = FRA_Italy_Aligned
-						has_country_flag = FRA_Iberia_Aligned
-					} 
-				}
-				set_global_flag = BRG_AI_Collapse_Italy_France
-			}
-			else = { ### Neutral France
-				set_global_flag = BRG_AI_Collapse_Neutral_France
-			}
-
-			if = { limit = { country_exists = BRG } declare_war_on = { target = BRG type = annex_everything } }
-			if = { limit = { country_exists = PIC } declare_war_on = { target = PIC type = annex_everything } }
-			if = { limit = { country_exists = BEL } declare_war_on = { target = BEL type = annex_everything } }
-			if = { limit = { country_exists = FLR } declare_war_on = { target = FLR type = annex_everything } }
-			if = { limit = { country_exists = RPY } declare_war_on = { target = RPY type = annex_everything } }
-
-			hidden_effect = {
-				every_country = { 
-					limit = { is_ai = no }
-					news_event = WORLD_REICH.2303
-				}
-			}
-		}
-	}
 }
 
 SGR_collab_regimes_category = {

@@ -292,12 +292,7 @@ BRA_pl_no_bill_in_voting = {
 	}
 }
 
-BRG_gp_check_coalition_unbalanced = {
-	OR = {
-		check_variable = { BRA_gp_psd_points > 60 }
-		check_variable = { BRA_gp_psd_points < 40 }
-	}
-}
+
 
 
 BRA_jk_can_open_project_subtree = {

@@ -1260,10 +1260,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_icons/Generic/Diplo/decision_diplo_bulgaria.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_diplo_burgundy"
-		texturefile = "gfx/interface/decisions/decision_icons/Generic/Diplo/decision_diplo_burgundy.dds"
-	}
-	spriteType = {
 		name = "GFX_decision_diplo_canada"
 		texturefile = "gfx/interface/decisions/decision_icons/Generic/Diplo/decision_diplo_canada.dds"
 	}
@@ -2258,13 +2254,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_icons/ENG/decision_ENG_mann_red.dds"
 	}
 
-	## Burgundy ##
-
-	spriteType = {
-		name = "GFX_decision_category_BRG_generic"
-		texturefile = "gfx/interface/decisions/decision_icons/BRG/decision_category_BRG_generic.dds"
-	}
-	
 	## Ireland ##
 	
 	spriteType = {
@@ -2620,4 +2609,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_icons/Antarctica/decision_AAG_me_p1110.dds"
 	}
 
-
+}

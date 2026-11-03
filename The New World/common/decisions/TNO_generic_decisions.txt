@@ -3277,21 +3277,7 @@ global_debug_decisions = {
 		}
 	}
 
-	debug_revive_goebbels = {
-		icon = GFX_decision_generic_industry
 
-		visible = {
-			NOT = { has_country_flag = hide_debug_decisions }
-		}
-		fire_only_once = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision debug_revive_goebbels"
-			hidden_effect = {
-				every_country = { country_event = { id = spook_news.1 days = 1 } }
-				BRG = { country_event = { id = spook_temp.1 days = 211 } }
-			}
-		}
-	}
 
 	debug_activate_arcade_mode = {
 		icon = GFX_decision_generic_industry

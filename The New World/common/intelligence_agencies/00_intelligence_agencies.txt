@@ -129,15 +129,6 @@ intelligence_agency = {
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_brg
-	names = { Agency_BRG }
-
-	default = { original_tag = BRG }
-	available = { original_tag = BRG }
-}
-
-intelligence_agency = {
-
 	picture = GFX_intelligence_agency_logo_ger
 	names = { Agency_GER_Africa }
 
@@ -497,7 +488,6 @@ intelligence_agency = {
 			original_tag = ENG
 			original_tag = SCO
 			original_tag = SAF
-			original_tag = BRG
 			original_tag = GRO
 			original_tag = COG
 			original_tag = ANG

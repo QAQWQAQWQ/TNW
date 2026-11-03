@@ -256,16 +256,7 @@ defined_text = {
 
 defined_text = {
 	name = Statelore_Get_dijon_name
-	text = {
-		trigger = {
-			27 = {
-				owner = {
-					original_tag = BRG
-				}
-			}
-		}
-		localization_key = state_lore_name.30_BRG
-	}
+
 	text = {
 		localization_key = state_lore_name.30_normal
 	}
@@ -273,16 +264,7 @@ defined_text = {
 
 defined_text = {
 	name = Statelore_Get_brussels_name
-	text = {
-		trigger = {
-			1734 = {
-				owner = {
-					original_tag = BRG
-				}
-			}
-		}
-		localization_key = state_lore_name.32_BRG
-	}
+
 	text = {
 		localization_key = state_lore_name.32_normal
 	}

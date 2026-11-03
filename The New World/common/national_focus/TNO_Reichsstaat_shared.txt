@@ -393,58 +393,6 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	id = GRO_empty_the_continent
-	icon = GFX_focus_GRO_empty_the_continent
-	cost = 5
-	available = {
-		OR = {
-			has_completed_focus = GRO_increased_germanization_targets
-			has_completed_focus = GRO_a_more_burgundian_system
-		}
-	}
-	prerequisite = {
-		focus = GRO_empty_the_countryside
-	}
-	x = 3
-	y = 5
-	ai_will_do = {
-		factor = 0.4
-		modifier = {
-			factor = 3
-			any_owned_state = {
-				is_demilitarized_zone = yes
-			}
-		}
-		modifier = {
-			add = 0.5
-			check_variable = { GRO_REICHSSTAAT_rebel_stability_tot < 0.4 }
-		}
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GRO_empty_the_continent"
-		country_event = { id = GRO_REICHSSTAAT_FOCUS.13 }
-		add_political_power = -75
-		set_temp_variable = { gdp_growth_temp = -5 } 
-		econ_gdp_growth_change = yes
-		for_each_loop = {
-			array = GRO_REICHSSTAAT_rebel_stability
-			index = i
-
-			add_to_variable = { GRO_REICHSSTAAT_rebel_stability^i = 0.15 }
-			clamp_variable = {
-				var = GRO_REICHSSTAAT_rebel_stability^i
-				max = 1
-				min = 0
-			}
-		}
-
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score = 10 }
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score_add = 3 }
-
-		custom_effect_tooltip = GRO_REICHSSTAAT_native_situation_improved_effect_tt
-	}
-}
 
 shared_focus = {
 	id = GRO_the_great_purge
@@ -453,12 +401,9 @@ shared_focus = {
 	prerequisite = {
 		focus = GRO_find_their_supporters
 	}
-	prerequisite = {
-		focus = GRO_empty_the_continent
-	}
+
 	available = {
 		OR = {
-			has_completed_focus = GRO_afrika_burn_them_all
 			has_completed_focus = GRO_total_integrate_or_die
 		}
 	}
@@ -527,7 +472,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GRO_keeping_up_with_the_joneses
-	icon = GFX_focus_BRG_prepare_for_the_wait
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	prerequisite = {
 		focus = GRO_a_system_of_repression
@@ -544,71 +489,8 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	id = GRO_a_more_burgundian_system
-	icon = GFX_focus_GRO_a_more_burgundian_system
-	cost = 5
-	prerequisite = {
-		focus = GRO_keeping_up_with_the_joneses
-	}
-	x = 5
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GRO_a_more_burgundian_system"
-		country_event = { id = GRO_REICHSSTAAT_FOCUS.16 }
 
-		swap_ideas = {
-			remove_idea = GRO_REICHSSTAAT_administrative_unknowns
-			add_idea = GRO_REICHSSTAAT_the_afrikanischer_system
-		}
 
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score = 5 }
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score_add = 2 }
-	}
-}
-
-shared_focus = {
-	id = GRO_camp_equalization
-	icon = GFX_focus_BRG_total_darkness
-	cost = 5
-	prerequisite = {
-		focus = GRO_a_more_burgundian_system
-	}
-	x = 5
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GRO_camp_equalization"
-		country_event = { id = GRO_REICHSSTAAT_FOCUS.17 }
-
-		swap_ideas = {
-			remove_idea = GRO_REICHSSTAAT_the_afrikanischer_system
-			add_idea = GRO_REICHSSTAAT_the_afrikanischer_system_2
-		}
-	}
-}
-
-shared_focus = {
-	id = GRO_afrika_burn_them_all
-	icon = GFX_focus_generic_burn_their_barns
-	cost = 5
-	prerequisite = {
-		focus = GRO_camp_equalization
-	}
-	x = 5
-	y = 5
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GRO_afrika_burn_them_all"
-		country_event = { id = GRO_REICHSSTAAT_FOCUS.18 }
-
-		swap_ideas = {
-			remove_idea = GRO_REICHSSTAAT_the_afrikanischer_system_2
-			add_idea = GRO_REICHSSTAAT_the_afrikanischer_system_3
-		}
-
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score = 5 }
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score_add = 2 }
-	}
-}
 
 shared_focus = {
 	id = GRO_new_states_new_policies
@@ -689,46 +571,6 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	id = GRO_a_pure_africa
-	icon = GFX_focus_GER_work_towards_integration
-	cost = 5
-	prerequisite = {
-		focus = GRO_afrika_burn_them_all
-		focus = GRO_total_integrate_or_die
-	}
-	x = 6
-	y = 6
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GRO_a_pure_africa"
-		country_event = { id = GRO_REICHSSTAAT_FOCUS.56 }
-
-		custom_effect_tooltip = GRO_a_pure_africa_tt
-
-		if = {
-			limit = {
-				has_idea = GRO_REICHSSTAAT_the_kontinentales_system_3
-			}
-			swap_ideas = {
-				remove_idea = GRO_REICHSSTAAT_the_kontinentales_system_3
-				add_idea = GRO_REICHSSTAAT_the_kontinentales_system_4
-			}
-		}
-
-		if = {
-			limit = {
-				has_idea = GRO_REICHSSTAAT_the_afrikanischer_system_3
-			}
-			swap_ideas = {
-				remove_idea = GRO_REICHSSTAAT_the_afrikanischer_system_3
-				add_idea = GRO_REICHSSTAAT_the_afrikanischer_system_4
-			}
-		}
-
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score = 10 }
-		add_to_variable = { GRO_REICHSSTAAT_devastation_score_add = 3 }
-	}
-}
 
 #############################################################################################
 
@@ -922,7 +764,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GRO_factories_in_the_darkness
-	icon = GFX_focus_BRG_seine_industrial_complex
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	prerequisite = {
 		focus = GRO_work_camps
@@ -1131,7 +973,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GRO_salt_the_earth
-	icon = GFX_focus_BRG_salt_the_earth
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	prerequisite = {
 		focus = GRO_abteilung_fur_afrikanische_freiwillige
@@ -1663,7 +1505,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GRO_saving_our_men
-	icon = GFX_focus_BRG_complete_the_evacuation_plans
+	icon = GFX_goal_generic_political_pressure
 	cost = 5
 	prerequisite = {
 		focus = GRO_evil_and_betrayal

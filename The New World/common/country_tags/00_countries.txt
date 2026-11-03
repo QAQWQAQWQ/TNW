@@ -55,12 +55,11 @@ HOL = "countries/Germany - Europe.txt"			# Netherlands
 DEN = "countries/Germany - Proper.txt"			# Denmark
 NOR = "countries/Germany - Europe.txt"			# Norway
 
-BRG = "countries/Germany - Proper.txt"			# Burgundy
-BEL = "countries/Germany - SS.txt"				# Orde National Belge - Burgundy Breakaway
-FLR = "countries/Germany - SS.txt"				# Vlaamse Nationale Staat - Burgundy Breakaway
-PIC = "countries/Germany - SS.txt"				# Nouvel État Français - Burgundy Breakaway
-RPY = "countries/West Europe.txt"				# Red Poppy Movement - Burgundy Breakaway
-GLC = "countries/Germany - Proper.txt"			# Paktkommission Frankreich - Post-Burgundy Collapse
+BEL = "countries/Germany - SS.txt"				# Orde National Belge
+FLR = "countries/Germany - SS.txt"				# Vlaamse Nationale Staat
+PIC = "countries/Germany - SS.txt"				# Nouvel État Français
+RPY = "countries/West Europe.txt"				# Red Poppy Movement
+GLC = "countries/Germany - Proper.txt"			# Paktkommission Frankreich
 
 DSH = "countries/Germany - Proper.txt"			# Die Schwarze Bande - Dietrich
 SSL = "countries/Germany - SS.txt"				# SS-Ordensstaat Lothringen - Eicke/Meinhof
@@ -450,6 +449,9 @@ OMI = "countries/Middle East.txt"				# Imanate of Oman - Omani CW
 GUL = "countries/Italy - Overseas.txt"			# Gulf Governate
 UAE = "countries/Middle East.txt"				# United Arab Emirates - Unused
 QAT = "countries/Middle East.txt"				# Qatar - Unused
+BHR = "countries/Middle East.txt"				# Bahrain - Unused
+DUB = "countries/Middle East.txt"				# Dubai - Unused
+TRS = "countries/Middle East.txt"				# Trucial States - Unused
 
 # /// Iran + Afghanistan /// #
 PER = "countries/Middle East - Pakt.txt"		# Kingdom of Iran

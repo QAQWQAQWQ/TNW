@@ -35,7 +35,6 @@ on_actions = {
 					}
 				}
 				every_country = { country_event = { id = spook_news.1 days = 1 } }
-				BRG = { country_event = { id = spook_temp.1 days = 211 } }
 			}
 			else = { set_global_flag = Disable_Zombies }
 

@@ -59,35 +59,7 @@ characters = {
 		}
 	}
 
-	HWL_Otto_Skorzeny = {
-		name = HWL_Otto_Skorzeny
 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Otto_Skorzeny.png"
-			}
-			army = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Otto_Skorzeny.png"
-			}
-		}
-
-		country_leader = {
-			desc = "POLITICS_Otto_Skorzeny_DESC"
-			ideology = national_socialism_spartanism_subtype
-			expire = "1999.1.1.1"
-			id = -1
-		}
-
-		corps_commander = {
-			traits = { war_hero trait_cautious commando }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-			legacy_id = 14007
-		}
-	}
 
 	HWL_Karl_Donitz = {
 		name = HWL_Karl_Donitz
@@ -320,7 +292,7 @@ characters = {
 
 		country_leader = {
 			desc = "POLITICS_Klaus_Barbie_DESC"
-			ideology = national_socialism_burgundian_system_subtype
+			ideology = national_socialism
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -430,7 +402,7 @@ characters = {
 
 		country_leader = {
 			desc = "POLITICS_Wilhelm_Mohnke_DESC"
-			ideology = national_socialism_burgundian_system_subtype
+			ideology = national_socialism
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -575,35 +547,7 @@ characters = {
 		}
 	}
 
-	HWL_Theodor_Eicke = {
-		name = HWL_Theodor_Eicke
 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Theodor_Eicke.png"
-			}
-			army = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Theodor_Eicke.png"
-			}
-		}
-
-		country_leader = {
-			desc = "POLITICS_Theodor_Eicke_DESC"
-			ideology = national_socialism_burgundian_system_subtype
-			expire = "1999.1.1.1"
-			id = -1
-		}
-
-		field_marshal = {
-			traits = { harsh_leader brilliant_strategist aggressive_assaulter winter_specialist }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 14001
-		}
-	}
 
 	HWL_Ulrike_Meinhof = {
 		name = HWL_Ulrike_Meinhof
@@ -638,7 +582,7 @@ characters = {
 
 		country_leader = {
 			desc = "POLITICS_Ernst_Kaltenbrunner_DESC"
-			ideology = national_socialism_burgundian_system_subtype
+			ideology = national_socialism
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -654,33 +598,5 @@ characters = {
 		}
 	}
 
-	HWL_Fritz_Klingenberg = {
-		name = HWL_Fritz_Klingenberg
 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Fritz_Klingenberg.png"
-			}
-			army = {
-				large = "gfx/leaders/BRG/Portrait_Burgundy_Fritz_Klingenberg.png"
-			}
-		}
-
-		country_leader = {
-			desc = "POLITICS_FRITZ_KLINGENBERG_DESC"
-			ideology = national_socialism_burgundian_system_subtype
-			expire = "1999.1.1.1"
-			id = -1
-		}
-
-		field_marshal = {
-			traits = { trait_reckless trickster commando }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = 14003
-		}
-	}
 }

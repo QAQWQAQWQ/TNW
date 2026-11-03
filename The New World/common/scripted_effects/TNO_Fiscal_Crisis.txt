@@ -213,63 +213,7 @@ TNO_GER_Fiscal_Crisis = {
 
 	}
 }
-TNO_BRG_Fiscal_Crisis = {
-	if = {
-		limit = { NOT = { BRG = { has_country_flag = BRG_charlemagne_dead } } }
-		hidden_effect = {
-			every_owned_state = {
-				limit = {
-					is_core_of = FRA
-					NOT = {
-						state = 16 #Nord Paris
-					}
-				}
-				add_to_variable = { CharlemagneSupport = 10 }
-			}
-		}
-		custom_effect_tooltip = BRG_anger_charlemagne
-	}
-	
-	custom_effect_tooltip = BRG_anger_langemarck
-	hidden_effect = {
-		every_owned_state = {
-			limit = {
-				OR = {
-					state = 6 #Flandern
-					state = 34 #Wallonien
-					state = 29 #Pickardien
-				}
-			}
-			add_to_variable = { LangemarckSupport = 10 }
-		}
-	}
-	
-	if = {
-		limit = { NOT = { BRG = { has_country_flag = BRG_walloon_dead } } }
-		custom_effect_tooltip = BRG_anger_wallon
-		hidden_effect = {
-			every_owned_state = {
-				limit = {
-					OR = {
-						state = 6 #Flandern
-						state = 34 #Wallonien
-						state = 29 #Pickardien
-					}
-				}
-				add_to_variable = { WalloonSupport = 10 }
-			}
-		}
-	}
-	hidden_effect = {
-		every_owned_state = {
-			add_state_modifier = {
-				modifier = {
-					BRG_Skilled_Worker_Pop_Monthly_Change = -250
-				}
-			}
-		}
-	}
-}
+
 
 TNO_GRO_fiscal_crisis = {
 	if = { 

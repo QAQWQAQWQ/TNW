@@ -80,7 +80,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = nor_phasing_out_norwegian
-	icon = GFX_focus_BRG_bildungsprogramm
+	icon = GFX_goal_generic_political_pressure
 	cost = 4.2
 	prerequisite = {
 		focus = nor_enforcing_german_literacy

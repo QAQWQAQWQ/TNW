@@ -744,10 +744,6 @@ defined_text = {
 		localization_key = national_socialism_palingenetic_nazism_subtype
 	}
 	text = {
-		trigger = { has_country_leader_ideology = national_socialism_burgundian_system_subtype }
-		localization_key = national_socialism_burgundian_system_subtype
-	}
-	text = {
 		trigger = { has_country_leader_ideology = national_socialism_imperial_cult_subtype }
 		localization_key = national_socialism_imperial_cult_subtype
 	}
@@ -3753,4 +3749,3 @@ defined_text = {
 		localization_key = TNO_SD_Trend_SocDev_Decrease
 	}
 }
-

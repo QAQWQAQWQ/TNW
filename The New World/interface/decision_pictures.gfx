@@ -162,18 +162,6 @@ spriteTypes = {
 		name = "GFX_decision_image_ARG_ucr_balbindizi"
 		texturefile = "gfx/interface/decisions/decision_images/decision_image_ARG_ucr_balbindizi.dds"
 	}
-
-	### BRG ###
-
-	spriteType = {
-		name = "GFX_decision_image_BRG_domestic_situation"
-		texturefile = "gfx/interface/decisions/decision_images/decision_image_BRG_domestic_situation.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_image_BRG_education"
-		texturefile = "gfx/interface/decisions/decision_images/decision_image_BRG_education.dds"
-	}
-
 	### CHL ###
 
 	spriteType = {

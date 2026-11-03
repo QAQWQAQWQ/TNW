@@ -1,0 +1,20 @@
+characters = {
+	# Country leaders #
+	GUL_Enrico_Mattei = {
+		name = GUL_Enrico_Mattei
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GUL/Portrait_Italy_Enrico_Mattei_viceroy.png"
+			}
+		}
+		country_leader = {
+			#desc = "POLITICS_ENRICO_MATTEI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_colonial_government_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	
+}

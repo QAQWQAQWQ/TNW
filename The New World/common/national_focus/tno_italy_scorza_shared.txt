@@ -3897,7 +3897,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ita_control_the_skies_more
-	icon = GFX_focus_BRG_langstrecken_begleitjager
+	icon = GFX_goal_generic_political_pressure
 	cost = 2.00
 	x = 0
 	y = 2
@@ -5598,7 +5598,7 @@ shared_focus = {
 
 shared_focus = {
 	id = ita_take_the_loyal
-	icon = GFX_focus_BRG_absolute_loyalty
+	icon = GFX_goal_generic_political_pressure
 	cost = 4.00
 	x = 1
 	y = 1

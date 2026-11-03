@@ -1022,7 +1022,6 @@ ENG_CC_end_sealion_2 = {
 		MAD = { ENG = { clear_embargo_PREV = yes } }
 		GRO = { ENG = { clear_embargo_PREV = yes } }
 		ANG = { ENG = { clear_embargo_PREV = yes } }
-		BRG = { ENG = { clear_embargo_PREV = yes } }
 		BUL = { ENG = { clear_embargo_PREV = yes } }
 		FRA = { ENG = { clear_embargo_PREV = yes } }
 		IRE = { ENG = { clear_embargo_PREV = yes } }

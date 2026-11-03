@@ -36,7 +36,6 @@ ideas = {
 		Econ_Subtype_Anarchic = {}							# Anarchic
 		Econ_Subtype_Military_Directed = {}					# Military Directed
 		Econ_Subtype_Gelenkte_Wirtschaft = {}				# Gelenkte Wirtschaft
-		Econ_Subtype_Burgsys = {}							# Burgundian System
 		Econ_Subtype_Banditry = {}							# Banditry
 		Econ_Subtype_Anarcho_Communism = {}					# Anarachist Communism
 		Econ_Subtype_War_Communism = {}						# War Communism

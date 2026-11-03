@@ -15,10 +15,6 @@ spriteTypes = {
 	### Missiles
 	
 	spriteType = {
-		name = "GFX_HGR_Missile_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Missile_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Missile_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Missile_Ger.dds"
 	}
@@ -28,11 +24,6 @@ spriteTypes = {
 	}
 	
 	### Countries
-	spriteType = {
-		name = "GFX_HGR_Cornwall_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Cornwall_Burg.dds"
-		transparencecheck = yes
-	}
 	spriteType = {
 		name = "GFX_HGR_Cornwall_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Cornwall_Ger.dds"
@@ -44,11 +35,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_GGN_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_GGN_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_GGN_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_GGN_Ger.dds"
 		transparencecheck = yes
@@ -56,11 +42,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_GGN_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_GGN_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Kaukasia_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaukasia_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -77,20 +58,12 @@ spriteTypes = {
 	### Country Borders
 	
 	spriteType = {
-		name = "GFX_HGR_Border_Brittany_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Brittany_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Border_Brittany_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Brittany_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Border_Brittany_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Brittany_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Border_Cornwall_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Cornwall_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Border_Cornwall_Ger"
@@ -101,10 +74,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Cornwall_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Border_GGN_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_GGN_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Border_GGN_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_GGN_Ger.dds"
 	}
@@ -113,20 +82,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_GGN_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Border_Kaukasia_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Kaukasia_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Border_Kaukasia_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Kaukasia_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Border_Kaukasia_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Kaukasia_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Border_Ostland_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Border_Ostland_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Border_Ostland_Ger"
@@ -140,11 +101,6 @@ spriteTypes = {
 	### German States
 
 	spriteType = {
-		name = "GFX_HGR_AlsaceLorraine_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_AlsaceLorraine_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Ger.dds"
 		transparencecheck = yes
@@ -152,11 +108,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_AlsaceLorraine_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Barbie_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Barbie_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -170,26 +121,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Burgundy_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Burgundy_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Burgundy_Ger"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Burgundy_Ger.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Burgundy_Neu"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Burgundy_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Fegelein_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Fegelein_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Ger.dds"
 		transparencecheck = yes
@@ -197,11 +128,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Fegelein_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Fiefdom_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fiefdom_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -215,11 +141,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Germania_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Germania_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Ger.dds"
 		transparencecheck = yes
@@ -227,11 +148,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Germania_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_IndustrialZone_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_IndustrialZone_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -245,11 +161,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Kaliningrad_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Kaliningrad_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Ger.dds"
 		transparencecheck = yes
@@ -257,11 +168,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Kaliningrad_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Lotharingia_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Lotharingia_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -275,11 +181,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Luftwaffe_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Luftwaffe_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Ger.dds"
 		transparencecheck = yes
@@ -287,11 +188,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Luftwaffe_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Militarists_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Militarists_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -305,11 +201,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Nuremberg_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Nuremberg_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Ger.dds"
 		transparencecheck = yes
@@ -317,11 +208,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Nuremberg_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Osterreich_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Osterreich_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -335,11 +221,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_OuterGermania_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_OuterGermania_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Ger.dds"
 		transparencecheck = yes
@@ -347,11 +228,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_OuterGermania_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_PGD1_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_PGD1_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -365,11 +241,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Prussia_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Prussia_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Ger.dds"
 		transparencecheck = yes
@@ -377,11 +248,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Prussia_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Reich_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Reich_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -395,11 +261,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_ShleswigHolstein_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_ShleswigHolstein_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Ger.dds"
 		transparencecheck = yes
@@ -407,11 +268,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_ShleswigHolstein_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_SouthAustria_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_SouthAustria_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -425,11 +281,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Steiner_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Steiner_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Ger.dds"
 		transparencecheck = yes
@@ -437,11 +288,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Steiner_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Sudetenland_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Sudetenland_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -455,11 +301,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_WaffenSS_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_WaffenSS_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Ger.dds"
 		transparencecheck = yes
@@ -467,11 +308,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_WaffenSS_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Westfalen_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Westfalen_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -485,11 +321,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Charlemagne_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Charlemagne_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Ger.dds"
 		transparencecheck = yes
@@ -497,26 +328,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Charlemagne_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Ger"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Ger.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Neu"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Langemarck_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Langemarck_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -530,11 +341,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_HGR_Netherlands_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Burg.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_HGR_Netherlands_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Ger.dds"
 		transparencecheck = yes
@@ -542,11 +348,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HGR_Netherlands_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Neu.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
-		name = "GFX_HGR_Walloon_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Walloon_Burg.dds"
 		transparencecheck = yes
 	}
 	spriteType = {
@@ -563,20 +364,12 @@ spriteTypes = {
 	### German State Grids
 	
 	spriteType = {
-		name = "GFX_HGR_AlsaceLorraine_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_AlsaceLorraine_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_AlsaceLorraine_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_AlsaceLorraine_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Barbie_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Barbie_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Barbie_Grid_Ger"
@@ -587,20 +380,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Barbie_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Fegelein_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Fegelein_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Fegelein_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fegelein_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Fiefdom_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fiefdom_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Fiefdom_Grid_Ger"
@@ -611,20 +396,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Fiefdom_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Germania_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Germania_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Germania_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Germania_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_IndustrialZone_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_IndustrialZone_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_IndustrialZone_Grid_Ger"
@@ -635,20 +412,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_IndustrialZone_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Kaliningrad_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Kaliningrad_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Kaliningrad_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Kaliningrad_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Lotharingia_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Lotharingia_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Lotharingia_Grid_Ger"
@@ -659,20 +428,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Lotharingia_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Luftwaffe_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Luftwaffe_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Luftwaffe_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Luftwaffe_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Militarists_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Militarists_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Militarists_Grid_Ger"
@@ -683,20 +444,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Militarists_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Nuremberg_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Nuremberg_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Nuremberg_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Nuremberg_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Osterreich_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Osterreich_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Osterreich_Grid_Ger"
@@ -707,20 +460,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Osterreich_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_OuterGermania_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_OuterGermania_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_OuterGermania_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_OuterGermania_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_PGD1_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_PGD1_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_PGD1_Grid_Ger"
@@ -731,20 +476,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_PGD1_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Prussia_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Prussia_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Prussia_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Prussia_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Reich_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Reich_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Reich_Grid_Ger"
@@ -755,20 +492,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Reich_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_ShleswigHolstein_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_ShleswigHolstein_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_ShleswigHolstein_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_ShleswigHolstein_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_SouthAustria_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_SouthAustria_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_SouthAustria_Grid_Ger"
@@ -779,20 +508,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_SouthAustria_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Steiner_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Steiner_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Steiner_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Steiner_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Sudetenland_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Sudetenland_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Sudetenland_Grid_Ger"
@@ -803,20 +524,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Sudetenland_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_WaffenSS_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_WaffenSS_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_WaffenSS_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_WaffenSS_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Westfalen_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Westfalen_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Westfalen_Grid_Ger"
@@ -827,32 +540,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Westfalen_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Charlemagne_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Charlemagne_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Charlemagne_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Charlemagne_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Grid_Burg.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Grid_Ger"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Grid_Ger.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Himmler_Grid_Neu"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Himmler_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Langemarck_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Langemarck_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Langemarck_Grid_Ger"
@@ -863,20 +556,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Langemarck_Grid_Neu.dds"
 	}
 	spriteType = {
-		name = "GFX_HGR_Netherlands_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Grid_Burg.dds"
-	}
-	spriteType = {
 		name = "GFX_HGR_Netherlands_Grid_Ger"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Grid_Ger.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Netherlands_Grid_Neu"
 		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Netherlands_Grid_Neu.dds"
-	}
-	spriteType = {
-		name = "GFX_HGR_Walloon_Grid_Burg"
-		texturefile = "gfx/interface/reich/germany_gui/unique_heydrich/HGR_Walloon_Grid_Burg.dds"
 	}
 	spriteType = {
 		name = "GFX_HGR_Walloon_Grid_Ger"
@@ -912,10 +597,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HWL/Portrait_Heydrich_Kazimierz_Piechowski.png"
 	}
 	spriteType = {
-		name = "GFX_HGR_Lotharingia_Leader_Eicke"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Theodor_Eicke.png"
-	}
-	spriteType = {
 		name = "GFX_HGR_Lotharingia_Leader_Meinhof"
 		texturefile = "gfx/leaders/HWL/Portrait_Heydrich_Ulrike_Meinhof.png"
 	}
@@ -937,7 +618,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_HGR_Osterreich_Leader"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Otto_Skorzeny.png"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Reinhard_Heydrich_Rogue.png"
 	}
 	spriteType = {
 		name = "GFX_HGR_OuterGermania_Leader"
@@ -989,19 +670,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_HGR_Westfalen_Leader"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Fritz_Klingenberg.png"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Reinhard_Heydrich_Rogue.png"
 	}
 	spriteType = {
 		name = "GFX_HGR_Charlemagne_Leader"
 		texturefile = "gfx/leaders/PIC/Portrait_Charlemagne_Christian_de_La_Maziere.png"
 	}
 	spriteType = {
-		name = "GFX_HGR_Himmler_Leader"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Heinrich_Himmler.png"
-	}
-	spriteType = {
 		name = "GFX_HGR_Langemarck_Leader"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Bert_Eriksson.png"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Reinhard_Heydrich_Rogue.png"
 	}
 	spriteType = {
 		name = "GFX_HGR_Netherlands_Leader_Feldmeijer"
@@ -1013,7 +690,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_HGR_Walloon_Leader"
-		texturefile = "gfx/leaders/BRG/Portrait_Burgundy_Leon_Degrelle.png"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Reinhard_Heydrich_Rogue.png"
 	}
 	
 	spriteType = {

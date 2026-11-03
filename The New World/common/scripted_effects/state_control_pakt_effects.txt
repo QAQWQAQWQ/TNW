@@ -1,5 +1,4 @@
 ##SORTED BY STARTING TAG, AND THEN STATE ID NUMBER
-#BRG
 state_control_effect_6 = { #Flanders
 	if = {
 		limit = { controller = { is_in_array = { global.german_names = THIS } } }
@@ -585,7 +584,6 @@ state_control_effect_15 = {
 	if = {
 		limit = {
 			OR = {
-				is_controlled_by = BRG
 				is_controlled_by = PIC
 				is_controlled_by = FLR
 				AND = {
@@ -601,8 +599,6 @@ state_control_effect_15 = {
 			reset_state_name = yes
 		}
 		else = { set_state_name = STATE_15_ger_fra }
-		set_province_name = { id = 11563 name = VICTORY_POINTS_11563_brg }
-		set_province_name = { id = 9434 name = VICTORY_POINTS_9434_brg }
 	}
 	else_if = {
 		limit = {
@@ -613,8 +609,6 @@ state_control_effect_15 = {
 			}
 		}
 		set_state_name = STATE_15_ger_fra
-		set_province_name = { id = 11563 name = VICTORY_POINTS_11563_brg }
-		set_province_name = { id = 9434 name = VICTORY_POINTS_9434_brg }
 	}
 	else = {
 		if = {
@@ -629,11 +623,7 @@ state_control_effect_15 = {
 state_control_effect_16 = {
 	if = {
 		limit = { controller = { is_in_array = { global.german_names = THIS } } }
-		if = {
-			limit = { has_global_flag = TNO_exonym_mode }
-			set_state_name = STATE_16_brg_eng
-		}
-		else = { set_state_name = STATE_16_brg }
+		reset_state_name = yes
 		if = {
 			limit = { has_global_flag = TNO_endonym_mode }
 			set_province_name = { id = 11506 name = VICTORY_POINTS_11506_ger }
@@ -671,7 +661,6 @@ state_control_effect_786 = { #Paris/South Paris
 state_control_effect_788 = {
 	if = {
 		limit = { controller = { is_in_array = { global.german_names = THIS } } }
-		set_state_name = STATE_788_brg
 		set_province_name = { id = 11518 name = VICTORY_POINTS_11518_ger }
 	}
 	else = {
@@ -680,28 +669,13 @@ state_control_effect_788 = {
 	}
 }
 state_control_effect_1625 = {
-	if = {
-		limit = { controller = { is_in_array = { global.german_names = THIS } } }
-		if = {
-			limit = { has_global_flag = TNO_exonym_mode }
-			reset_state_name = yes
-		}
-		else = { set_state_name = STATE_1625_brg }
-		set_province_name = { id = 13011 name = VICTORY_POINTS_13011_brg }
-	}
-	else = {
-		reset_state_name = yes
-		reset_province_name = 13011
-	}
+	reset_state_name = yes
+	reset_province_name = 13011
 }
 state_control_effect_1626 = {
 	if = {
 		limit = { controller = { is_in_array = { global.german_names = THIS } } }
-		if = {
-			limit = { has_global_flag = TNO_exonym_mode }
-			reset_state_name = yes
-		}
-		else = { set_state_name = STATE_1626_brg }
+		reset_state_name = yes
 		set_province_name = { id = 9561 name = VICTORY_POINTS_9561_ger }
 		set_province_name = { id = 3476 name = VICTORY_POINTS_3476_ger }
 	}
@@ -719,19 +693,8 @@ state_control_effect_1626 = {
 	}
 }
 state_control_effect_1635 = {
-	if = {
-		limit = { controller = { is_in_array = { global.german_names = THIS } } }
-		if = {
-			limit = { has_global_flag = TNO_exonym_mode }
-			set_state_name = STATE_1635_brg_eng
-		}
-		else = { set_state_name = STATE_1635_brg }
-		set_province_name = { id = 3652 name = VICTORY_POINTS_3652_brg }
-	}
-	else = {
-		reset_state_name = yes
-		reset_province_name = 3652
-	}
+	reset_state_name = yes
+	reset_province_name = 3652
 }
 #GER
 state_control_effect_67 = {

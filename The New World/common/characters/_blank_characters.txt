@@ -3036,52 +3036,7 @@ characters = {
 				ai_will_do = { factor = 0 }
 			}
 		}
-		BRG_Generic_Vacant = {
-			name = Generic_Vacant_Minister
-			portraits = {
-				civilian = { small = "GFX_idea_Generic_Position_Vacant" }
-			}
-			advisor = {
-				slot = head_of_government
-				traits = { head_of_government }
-				idea_token = BRG_Generic_Vacant_hog
-				ledger = civilian
-				cost = -1
-				can_be_fired = no
-				allowed = { original_tag = BRG }
-				ai_will_do = { factor = 0 }
-			}
-			advisor = {
-				slot = economy_minister
-				traits = { economy_minister }
-				idea_token = BRG_Generic_Vacant_eco
-				ledger = civilian
-				cost = -1
-				can_be_fired = no
-				allowed = { original_tag = BRG }
-				ai_will_do = { factor = 0 }
-			}
-			advisor = {
-				slot = foreign_minister
-				traits = { foreign_minister }
-				idea_token = BRG_Generic_Vacant_for
-				ledger = civilian
-				cost = -1
-				can_be_fired = no
-				allowed = { original_tag = BRG }
-				ai_will_do = { factor = 0 }
-			}
-			advisor = {
-				slot = security_minister
-				traits = { security_minister }
-				idea_token = BRG_Generic_Vacant_sec
-				ledger = civilian
-				cost = -1
-				can_be_fired = no
-				allowed = { original_tag = BRG }
-				ai_will_do = { factor = 0 }
-			}
-		}
+
 		BRM_Generic_Vacant = {
 			name = Generic_Vacant_Minister
 			portraits = {

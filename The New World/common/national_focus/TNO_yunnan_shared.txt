@@ -712,7 +712,7 @@ shared_focus = {
 
 shared_focus = {
 	id = YUN_setting_the_trap
-	icon = GFX_focus_BRG_death_from_a_mile_away
+	icon = GFX_goal_generic_political_pressure
 
 	prerequisite = {
 		focus = YUN_evict_he_yingqin
@@ -5416,4 +5416,3 @@ shared_focus = {
 		YUN_reload_tree = yes
 	}
 }
-

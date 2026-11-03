@@ -1206,9 +1206,6 @@ TNO_calc_alerts_and_ww3 = {
 						USA = {
 							is_ai = yes
 						}
-						BRG = {
-							is_ai = yes
-						}
 						NOT = { has_global_flag = TENSION_ENABLED_GAME_RULE }
 					}
 				}
@@ -1262,9 +1259,6 @@ TNO_calc_alerts_and_ww3 = {
 							is_ai = yes
 						}
 						JAP = {
-							is_ai = yes
-						}
-						BRG = {
 							is_ai = yes
 						}
 						NOT = { has_global_flag = TENSION_ENABLED_GAME_RULE }
@@ -1321,9 +1315,6 @@ TNO_calc_alerts_and_ww3 = {
 							is_ai = yes
 						}
 						USA = {
-							is_ai = yes
-						}
-						BRG = {
 							is_ai = yes
 						}
 						NOT = { has_global_flag = TENSION_ENABLED_GAME_RULE }

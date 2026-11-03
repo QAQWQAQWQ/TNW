@@ -10,21 +10,8 @@ Zombie_Strat = {
 		always = yes 
 	}
 
-	ai_strategy = {
-		type = conquer
-		id = BRG
-		value = 1000
-	}
-	ai_strategy = {
-		type = consider_weak
-		id = BRG
-		value = 1000
-	}
-	ai_strategy = {
-		type = antagonize
-		id = BRG
-		value = 1000
-	}
+
+
 	ai_strategy = {
 		type = force_build_armies
 		value = 1000

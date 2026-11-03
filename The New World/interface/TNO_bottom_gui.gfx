@@ -52,17 +52,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/bottom_gui/britain_cabinet_crt_icon.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_burgundy_crt_icon"
-		texturefile = "gfx/interface/bottom_gui/burgundy_crt_icon.dds"
-		noOfFrames = 2
-	}
 	
-	spriteType = {
-		name = "GFX_burgundy_crt_icon_red"
-		texturefile = "gfx/interface/bottom_gui/burgundy_crt_icon_red.dds"
-		noOfFrames = 2
-	}
 	
 	spriteType = {
 		name = "GFX_investigation_crt_icon"

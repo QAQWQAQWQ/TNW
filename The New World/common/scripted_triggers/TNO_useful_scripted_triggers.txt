@@ -1,8 +1,4 @@
-Is_BRG_Player = {
-	BRG = {
-		is_ai = no
-	}
-}
+
 
 TNO_has_content = {
 	has_country_flag = tno_playable_country
@@ -299,7 +295,6 @@ is_european_nation = {
 			original_tag = HUN
 			original_tag = HOL
 			original_tag = FRS
-			original_tag = BRG
 			original_tag = CRO
 			original_tag = SER
 			original_tag = BUL
@@ -869,7 +864,6 @@ is_rural_state = {
 	custom_trigger_tooltip = {
 		tooltip = is_rural_state_tt
 		OR = {
-			has_state_category = burgundian_mega_farm
 			has_state_category = town
 			has_state_category = rural
 			has_state_category = pastoral

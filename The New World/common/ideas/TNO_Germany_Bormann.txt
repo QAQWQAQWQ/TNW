@@ -423,7 +423,7 @@ ideas = {
 		BOR_FIN_bunkers = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BOR_FIN_bunkers" }
 
-			picture = BRG_the_bunkers
+			picture = GER_defenders_of_the_reich
 
 			allowed = {
 				always = no
@@ -733,7 +733,6 @@ ideas = {
 		}
 
 
-		#Bormann cuts off burgundian supplies from SS ostland#
 		BOR_find_the_weakness = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BOR_find_the_weakness" }
 			allowed = { original_tag = GER }

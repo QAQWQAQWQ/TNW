@@ -57,10 +57,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_socialism_imperial_cult_subtype.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_national_socialism_burgundian_system_subtype"
-		texturefile = "gfx/interface/ideologies/national_socialism_burgundian_system_subtype.dds"
-	}
-	spriteType = {
 		name = "GFX_ideology_progressivism_gaitanismo_subtype"
 		texturefile = "gfx/interface/ideologies/progressivism_gaitanismo_subtype.dds"
 	}

@@ -216,7 +216,7 @@ shared_focus = {
 #Closing
 shared_focus = {
 	id = UPO_felt_but_not_seen
-	icon = GFX_focus_BRG_death_from_a_mile_away
+	icon = GFX_goal_generic_political_pressure
 	cost = 4
 	prerequisite = { focus = UPO_cut_every_wire }
 	prerequisite = { focus = UPO_nothing_but_trees }

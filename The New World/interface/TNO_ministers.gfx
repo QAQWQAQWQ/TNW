@@ -992,48 +992,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/FFR/FFR_minister_paul_legentilhomme.dds"
 	}
 
-	### Burgundy ###
-	spriteType = {
-		name = "GFX_idea_BRG_Joachim_von_Ribbentrop"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_joachim_von_ribbentrop.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Bert_Eriksson"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_bert_eriksson.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Klaus_Barbie"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_klaus_barbie.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Adolf_Eichmann"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_adolf_eichmann.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Walter_Schellenberg"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_Walter_Schellenberg.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Gottlob_Berger"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_gottlob_berger.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Oswald_Pohl"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_oswald_pohl.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Karl_Wolff"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_karl_wolff.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Franz_Novak"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_franz_novak.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BRG_Sepp_Dietrich"
-		texturefile = "gfx/interface/ideas/ministers/BRG/BRG_minister_sepp_dietrich.dds"
-	}
-
 	### South Africa ###
 	spriteType = {
 		name = "GFX_idea_SAF_Jan_Hendrik_Hofmeyr"

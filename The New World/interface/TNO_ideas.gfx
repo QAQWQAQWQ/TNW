@@ -4497,73 +4497,6 @@ SpriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/BUL/idea_BUL_the_rusting_sword_of_damocles.dds"
 	}
 
-	## Burgundy ##
-
-	SpriteType = {
-		name = "GFX_idea_BRG_army"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_army.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_bunker"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_bunker.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_burgundian_education"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_burgundian_education.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_company_rohstoffamt"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_company_rohstoffamt.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_generic"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_generic.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_government"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_government.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_industry"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_Industry.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_iron_fist"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_iron_fist.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_nuclear"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_nuclear.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_purge_the_rot"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_purge_the_rot.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_rigorous_spartanism"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_rigorous_spartanism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_the_bunkers"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_the_bunkers.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_the_burgundian_abwehr"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_the_burgundian_abwehr.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_the_shadow_economy"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_the_shadow_economy.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_the_shadow_state"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_the_shadow_state.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BRG_the_three_realms"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/BRG/idea_BRG_the_three_realms.dds"
-	}
-
 	## Kaukasia ##
 
 	SpriteType = {
@@ -5312,14 +5245,6 @@ SpriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_SSF_unscrupulous_nazism"
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSF_unscrupulous_nazism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSL_burgundy_wannabe"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSL_burgundy_wannabe.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSL_burgundys_pawn"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSL_burgundys_pawn.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_SSN_a_grip_of_ebon_steel"

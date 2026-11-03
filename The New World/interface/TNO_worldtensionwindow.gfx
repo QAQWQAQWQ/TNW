@@ -120,11 +120,6 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_conflict_marker_france_burgundy_iberia"
-		textureFile = "gfx/interface/worldtension_gui/conflict_marker/france_burgundy_iberia.dds"
-		transparencecheck = yes
-	}
-	spriteType = {
 		name = "GFX_conflict_marker_indonesia"
 		textureFile = "gfx/interface/worldtension_gui/conflict_marker/indonesia.dds"
 		transparencecheck = yes

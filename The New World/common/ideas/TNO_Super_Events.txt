@@ -75,7 +75,6 @@ ideas = {
 		SE_HUTTIG_COLLAPSE = {}
 		SE_THE_AFRICAN_DEVASTATION = {}
 		SE_THE_AFRICAN_CRISIS = {}
-		SE_BURGUNDIAN_SPRING = {}
 		SE_WEST_AFRICAN_WAR = {}
 		SE_JUSHIN_COUP = {}
 		SE_MUTOS_COUP = {}
@@ -92,4 +91,3 @@ ideas = {
 		SE_BRAZILIAN_CIVIL_WAR = { }
 	}
 }
-

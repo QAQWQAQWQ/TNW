@@ -490,10 +490,7 @@ add_to_faction = GUZ
 add_to_faction = NRB
 add_to_faction = SIK
 add_to_faction = SHO
-add_to_faction = TNZ
-add_to_faction = GAZ
-add_to_faction = MAD
-add_to_faction = KEN
+
 add_to_faction = AOM
 add_to_faction = HKC
 
