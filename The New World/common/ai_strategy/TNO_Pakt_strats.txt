@@ -1,4 +1,4 @@
-﻿PRE_GCW_GER_priority = {
+PRE_GCW_GER_priority = {
 	enable = {
 		date < 1964.1.1
 		tag = GER

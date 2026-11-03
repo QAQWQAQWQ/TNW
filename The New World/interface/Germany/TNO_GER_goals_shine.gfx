@@ -1,4 +1,4 @@
-﻿SpriteTypes = {
+SpriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_GER_a_better_light_to_stand_in_shine"
 		texturefile = "gfx/interface/goals/GER/focus_GER_a_better_light_to_stand_in.dds"

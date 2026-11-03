@@ -1,4 +1,4 @@
-﻿### Image Locations
+### Image Locations
 defined_text = {
 	name = GetFactionStatus_icon
 

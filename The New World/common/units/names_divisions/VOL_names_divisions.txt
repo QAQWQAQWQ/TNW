@@ -1,4 +1,4 @@
-﻿VOL_Infantry = {
+VOL_Infantry = {
 	name = "Infantry Division"
 
 	for_countries = { VOL }

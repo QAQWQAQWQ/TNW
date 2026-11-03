@@ -1,4 +1,4 @@
-﻿CRI_Infantry = {
+CRI_Infantry = {
 	name = "Marine-Infanterie-Division"
 
 	for_countries = { CRI }

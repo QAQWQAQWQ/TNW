@@ -1,4 +1,4 @@
-﻿bookmarks = {
+bookmarks = {
 
 	###################################################################
 	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####

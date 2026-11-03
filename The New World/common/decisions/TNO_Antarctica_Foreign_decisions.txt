@@ -1,4 +1,4 @@
-﻿Antarctica_GUI_Foreign = {
+Antarctica_GUI_Foreign = {
 	Antarctica_GUI_AAG_Germany_Dispatch_Rescue_Mission = {
 		icon = GFX_decision_category_ODF_antarctica_ns
 

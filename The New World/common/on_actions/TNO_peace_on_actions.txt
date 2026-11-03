@@ -1,4 +1,4 @@
-﻿on_actions = {
+on_actions = {
 	#### PEACE/WAR VICTORY ON_CAPITULATION BLOCK ####
 	#### PUT YOUR SHIT HERE
 	# At the end of each global block, set the skip_default_capitulation GLOBAL flag

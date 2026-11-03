@@ -1,4 +1,4 @@
-﻿state = { #Population Done
+state = { #Population Done
 	id = 571
 	name = "STATE_571" # Omsk
 	manpower = 1283000

@@ -1,4 +1,4 @@
-﻿SAFWAR_propose_a_ceasefire_category = {
+SAFWAR_propose_a_ceasefire_category = {
 	SAFWAR_propose_ofn_leaning_ceasefire_USA = {
 		allowed = {
 			original_tag = USA

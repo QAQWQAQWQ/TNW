@@ -1,4 +1,4 @@
-﻿guiTypes = {
+guiTypes = {
 	containerWindowType = {
 		name = "BRA_Riots_GUI"
 		size = { width = 520 height = 650 }

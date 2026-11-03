@@ -1,4 +1,4 @@
-﻿# reload countrycolors to change in game
+# reload countrycolors to change in game
 #
 # Index - Tag organized into extremely relative geographic regions/political groups
 # Please try to keep order here and in 00_countries.txt matching

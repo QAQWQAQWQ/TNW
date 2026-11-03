@@ -1,4 +1,4 @@
-﻿ideas = {
+ideas = {
 	hidden_ideas = {
 		## Afrika Schild ##
 		AS_Member = {

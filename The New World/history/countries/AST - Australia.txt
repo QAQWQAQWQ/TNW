@@ -1,4 +1,4 @@
-﻿capital = 1215
+capital = 1215
 
 # Vacant
 recruit_character = AST_Generic_Vacant

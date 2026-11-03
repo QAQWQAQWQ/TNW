@@ -1,4 +1,4 @@
-﻿KAL_Guards = {
+KAL_Guards = {
 	name = "Revolutionary Guards Division" #Revoljucionnaja Gvardii Diviziya
 
 	for_countries = { KAL }

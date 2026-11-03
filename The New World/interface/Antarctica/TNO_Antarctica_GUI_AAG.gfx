@@ -1,4 +1,4 @@
-﻿spriteTypes = {
+spriteTypes = {
 	spriteType = {
 		name = "GFX_Antarctica_Decision_GUI_AAG_Entry"
 		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry.dds"

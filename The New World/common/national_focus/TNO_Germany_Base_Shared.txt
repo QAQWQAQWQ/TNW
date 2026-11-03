@@ -1,4 +1,4 @@
-﻿### Game Start Tree ###
+### Game Start Tree ###
 shared_focus = {
 	id = GER_a_man_on_the_moon
 	icon = GFX_focus_GER_a_man_on_the_moon

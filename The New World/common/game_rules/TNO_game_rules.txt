@@ -1,4 +1,4 @@
-﻿#|===============| TNO Game Rules |===============|#
+#|===============| TNO Game Rules |===============|#
 
 ### Tips & Tricks Toggle
 tips_and_tricks_status = {

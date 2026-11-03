@@ -1,4 +1,4 @@
-﻿GAY_Infantry = {
+GAY_Infantry = {
 	name = "Infantry Division"
 
 	for_countries = { GAY }

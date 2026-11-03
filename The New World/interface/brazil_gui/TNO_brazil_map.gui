@@ -1,4 +1,4 @@
-﻿guiTypes = {
+guiTypes = {
 	containerWindowType = {
 		name = "TNO_CSS_BRA_map_openbutton"
 		size = { width = 756 height = 700 }

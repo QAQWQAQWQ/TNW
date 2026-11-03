@@ -1,4 +1,4 @@
-﻿VOR_Conscripts = {
+VOR_Conscripts = {
 	name = "Militia"
 
 	for_countries = { VOR }

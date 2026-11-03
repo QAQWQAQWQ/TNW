@@ -1,4 +1,4 @@
-﻿### GUI STUFF ###
+### GUI STUFF ###
 defined_text = {
 	name = GetHitlerHealth
 	text = {

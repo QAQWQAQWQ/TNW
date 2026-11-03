@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 64
 
 #GDP Regional distribution
 set_country_flag = GDP_regions

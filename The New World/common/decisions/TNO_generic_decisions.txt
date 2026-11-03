@@ -1,4 +1,4 @@
-﻿global_debug_decisions = {
+global_debug_decisions = {
 	show_hide_debug_decisions = {
 		icon = {
 			key = GFX_decision_generic_visibility

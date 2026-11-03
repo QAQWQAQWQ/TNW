@@ -1,4 +1,4 @@
-﻿spriteTypes = {
+spriteTypes = {
 	### Intro Events ###
 	spriteType = {
 		name = "GFX_report_event_GER_martin_bormann_intro"

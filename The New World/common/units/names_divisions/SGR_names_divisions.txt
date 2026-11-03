@@ -1,4 +1,4 @@
-﻿SGR_infantry = {
+SGR_infantry = {
 	name = "Infanterie-Division"
 
 	for_countries = { SGR }

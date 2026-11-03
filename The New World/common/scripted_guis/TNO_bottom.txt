@@ -1,4 +1,4 @@
-﻿
+
 scripted_gui = {
 
 	bottom_gui = {

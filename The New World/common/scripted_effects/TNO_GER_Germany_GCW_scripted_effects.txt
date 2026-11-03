@@ -1,4 +1,4 @@
-﻿### GCW EFFECTS ###
+### GCW EFFECTS ###
 
 GER_GCW_select_victor = { #Used only in a purely AI GCW if the war has run on for too long
 
