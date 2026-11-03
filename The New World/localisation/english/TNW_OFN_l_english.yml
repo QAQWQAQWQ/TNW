@@ -46,7 +46,7 @@
  OFN.membership.1.t:0 "[?USA.OFN_candidate.GetName] wishes to join the Organization of Free Nations"
  OFN.membership.1.desc:0 "Following negotiations, [?USA.OFN_candidate.GetName] has formally requested to join the OFN. The United States has accepted the application, and it now falls to us to vote on approval."
  OFN.membership.1.desc_brittany_delaporte:0 "[?USA.OFN_candidate.GetName] has applied to the United States, requesting OFN membership. Per protocol, all member states must vote on this question: should [?USA.OFN_candidate.GetName] be admitted as an OFN member?"
- OFN.membership.1.desc_brittany_mordrel:0 "The Bretons have expressed their desire to join our bloc. The country is strategically located at the northwestern corner of the European continent, providing a convenient haven for naval forces in the Atlantic. Burgundy is their greatest threat, which is undoubtedly why they seek our protection."
+ OFN.membership.1.desc_brittany_mordrel:0 "The Bretons have expressed their desire to join our bloc. The country is strategically located at the northwestern corner of the European continent, providing a convenient haven for naval forces in the Atlantic. the German regime is their greatest threat, which is undoubtedly why they seek our protection."
  OFN.membership.1.a:0 "Vote in favor."
  OFN.membership.1.b:0 "Remain neutral for now, and extract some concessions from the Americans."
  OFN.membership.1.c:0 "Oppose [?USA.OFN_candidate.GetName]'s admission."

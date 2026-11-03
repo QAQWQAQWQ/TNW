@@ -1,4 +1,4 @@
-﻿FRS = {
+FRS = {
 	submarine = {
 		prefix = ""
 		generic = { "Sous-Marin" }
@@ -58,7 +58,7 @@
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -277,7 +277,7 @@ FRD = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -496,7 +496,7 @@ FFR = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -715,7 +715,7 @@ FRM = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -934,7 +934,7 @@ FRV = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -1153,7 +1153,7 @@ FMM = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -1372,7 +1372,7 @@ FGR = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here
@@ -1591,7 +1591,7 @@ FIT = {
 		prefix = ""
 		generic = { "Navire de Ligne" }
 		unique = { # Revolutionares
-			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Bourgogne" "Emile Pouget"
+			"Robespierre" "Georges Sorel" "Auguste Blanqui" "Internationale" "Karl Marx" "Pierre Kropotkine" "Mikhail Bakounine" "Emile Pouget"
 			"Danton" "Saint-Just" "Canut" "Edouard Vaillant" "Marat" "Charles Delescluze" "Paul Lafargue" "Eugcne Pottier" "Gustave Courbet" "Jean-Baptiste Clément" "Benoît Malon"
 			"Camille Camet" "Léo Fränkel" "Henri Tolain" "Paul Brousse"
 			# Fictional names start here

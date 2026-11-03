@@ -96,7 +96,6 @@
 
 | tag | 引用次数 | 87 个作用域块 | 说明 |
 |-----|---------|-------------|------|
-| HGR | 351 | 87 | Heydrich's Germany |
 | SGR | 196 | — | Speer's Germany |
 | FRI | 187 | — | Free Indonesia |
 | GGR | 173 | — | Göring's Germany |

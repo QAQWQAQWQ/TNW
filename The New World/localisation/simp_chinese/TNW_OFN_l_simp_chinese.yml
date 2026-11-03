@@ -46,7 +46,7 @@
  OFN.membership.1.t:0 "[?USA.OFN_candidate.GetName]希望加入自由国家组织"
  OFN.membership.1.desc:0 "谈判过后，[?USA.OFN_candidate.GetName]正式请求加入OFN。美国已经接受了这份申请，现在由我们投票决定是否通过。"
  OFN.membership.1.desc_brittany_delaporte:0 "[?USA.OFN_candidate.GetName]向美利坚合众国提出申请，希望OFN允许其加入。按照规定，所有成员国都要针对这一问题进行表决：是否允许[?USA.OFN_candidate.GetName]成为OFN的成员国？"
- OFN.membership.1.desc_brittany_mordrel:0 "布列塔尼人表示期望加入我们的阵营。该国在地理上具有重要的战略意义，地处欧洲大陆西北角，能为大西洋上的海军部队提供非常便利的避风港。勃艮第是他们生存的最大威胁，也无疑是他们寻求保护的原因。"
+ OFN.membership.1.desc_brittany_mordrel:0 "布列塔尼人表示期望加入我们的阵营。该国在地理上具有重要的战略意义，地处欧洲大陆西北角，能为大西洋上的海军部队提供非常便利的避风港。德国是他们生存的最大威胁，也无疑是他们寻求保护的原因。"
  OFN.membership.1.a:0 "投赞成票。"
  OFN.membership.1.b:0 "先维持中立，争取让美国给我们一点好处。"
  OFN.membership.1.c:0 "反对[?USA.OFN_candidate.GetName]加入。"

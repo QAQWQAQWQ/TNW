@@ -10,22 +10,22 @@
  WORLD_REICH.3.t: "[Get_newspaper_header]Hitler Names Bormann Successor"
  WORLD_REICH.3.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Martin Bormann.
 
-The decision is seen as the most likely outcome; though some liberals and military figures have expressed concern, it is welcomed by German moderates and conservatives. With Bormann promising only minor reforms and a commitment to the Nazi cause, Albert Speer, Hermann Göring, and Reinhard Heydrich have criticized the choice as one that will surely consign Germany to a premature grave."
+The decision is seen as the most likely outcome; though some liberals and military figures have expressed concern, it is welcomed by German moderates and conservatives. With Bormann promising only minor reforms and a commitment to the Nazi cause, Albert Speer, Hermann Göring, and the SS leader have criticized the choice as one that will surely consign Germany to a premature grave."
  WORLD_REICH.3.a: "It seems nothing will change in Germany."
  WORLD_REICH.4.t: "[Get_newspaper_header]Hitler Names Goring Successor"
  WORLD_REICH.4.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Hermann Göring.
 
-As one of the Fuehrer's oldest allies and the kindly uncle of the nation, Göring has broad support from the Nazi old guard and the Wehrmacht, but this relationship has led many to reject the decision. Albert Speer, Martin Bormann, and Reinhard Heydrich have all criticized the arrangement and vowed never to let Germany fall into the hands of a warmonger eager for war."
+As one of the Fuehrer's oldest allies and the kindly uncle of the nation, Göring has broad support from the Nazi old guard and the Wehrmacht, but this relationship has led many to reject the decision. Albert Speer, Martin Bormann, and the SS leader have all criticized the arrangement and vowed never to let Germany fall into the hands of a warmonger eager for war."
  WORLD_REICH.4.a: "Is war on the horizon?"
  WORLD_REICH.5.t: "[Get_newspaper_header]Hitler Names Speer Successor"
  WORLD_REICH.5.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Albert Speer.
 
-It is a deeply controversial choice. Speer is supported by the left-leaning members of the Reichstag and Germany's liberal movement, as he advocates sweeping economic and political reform. However, the decision has angered Germany's more conservative elements; Martin Bormann, Hermann Göring, and Reinhard Heydrich have all condemned the choice."
+It is a deeply controversial choice. Speer is supported by the left-leaning members of the Reichstag and Germany's liberal movement, as he advocates sweeping economic and political reform. However, the decision has angered Germany's more conservative elements; Martin Bormann, Hermann Göring, and SS representatives have all condemned the choice."
  WORLD_REICH.5.a: "A new dawn for Germany."
- WORLD_REICH.6.t: "[Get_newspaper_header]Hitler Names Heydrich Successor"
- WORLD_REICH.6.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that his successor will be Reinhard Heydrich.
+ WORLD_REICH.6.t: "[Get_newspaper_header]Hitler Names a Successor"
+ WORLD_REICH.6.desc: "Following the recent attempted assassination of the Fuehrer by a suspected Special Intelligence Board agent, pressure has steadily grown for the Fuehrer to name an official successor, formally recognized by the Reichstag. After nearly a week of debate and speculation, Adolf Hitler appeared today before the Reichstag in a live television address and announced to Germany that he had chosen a successor.
 
-Shock and anger immediately swept the Reichstag; a quarter of delegates voted against the nomination, and another quarter abstained, the first non-unanimous vote in Reichstag history. While some praised this as ending the hostility between Germany and the SS, only a few were so forgiving; most see Heydrich as nothing more than a Burgundian puppet, and unrest has erupted across Germany."
+Shock and anger immediately swept the Reichstag; a quarter of delegates voted against the nomination, and another quarter abstained, the first non-unanimous vote in Reichstag history. While some praised this as ending the hostility between Germany and the SS, only a few were so forgiving; many see the nomination as a means of extending SS influence, and unrest has erupted across Germany."
  WORLD_REICH.6.a: "Under the Black Sun, all is well."
  WORLD_REICH.6.b: "Good God."
  WORLD_REICH.7.t: "[Get_newspaper_header]Adolf Hitler Dies"
@@ -86,13 +86,13 @@ Though the fate of Germany's eastern territories is uncertain, the sudden severi
 
 Shock then swept Germany and the world when Dönitz publicly announced his support for Martin Bormann. The move has been warmly welcomed by the German navy; many ship captains have declared support for Dönitz's actions and vowed to join him in Crimea to ensure the German navy is not controlled by those who would utterly destroy Germany."
  WORLD_REICH.10.a: "Disturbing."
- WORLD_REICH.11.t: "[Get_newspaper_header]Anti-Heydrich Pact Formed"
- WORLD_REICH.11.desc: "The course of the German civil war has taken many turns, but this event may be its sharpest turning point. Earlier today, several claimants to the Fuehrer's throne announced a temporary ceasefire among themselves, focusing instead on what they call 'the greatest threat to Germany today' - Reinhard Heydrich and his SS.
+ WORLD_REICH.11.t: "[Get_newspaper_header]Anti-SS Coalition Formed"
+ WORLD_REICH.11.desc: "The course of the German civil war has taken many turns, but this event may be its sharpest turning point. Earlier today, several claimants to the Fuehrer's throne announced a temporary ceasefire among themselves, focusing instead on what they call 'the greatest threat to Germany today' - the SS.
 
-Reinhard Heydrich and the SS have only Heinrich Himmler's support, began the fight at a strategic disadvantage, and lack political clout and popular support, yet have achieved stunning gains in recent months. The move has clearly panicked the other claimants, who are now concentrating their forces to destroy Heydrich's troops. With Heydrich proudly following Himmler and his 'Burgundian system,' the formation of the Anti-Heydrich Pact has been a relief to Germans everywhere, as their leaders have at least agreed on one thing: opposition to the SS and the power behind it."
+The SS, backed only by Heinrich Himmler, began the fight at a strategic disadvantage and lacked political clout and popular support, yet made stunning gains in recent months. The move has clearly panicked the other claimants, who are now concentrating their forces to destroy the SS forces. With Himmler's faction following his doctrine, the formation of the anti-SS coalition has been a relief to Germans everywhere, as their leaders have at least agreed on one thing: opposition to the SS and the power behind it."
  WORLD_REICH.11.a: "Do not let Himmler's madness spread to our lands!"
  WORLD_REICH.11.b: "Bring it on."
- WORLD_REICH.11.c: "This is child's play for Heydrich."
+ WORLD_REICH.11.c: "This is child's play for the SS leader."
  WORLD_REICH.11.d: "It could be worse."
  WORLD_REICH.12.t: "[Get_newspaper_header]Bormann Wins the German Civil War"
  WORLD_REICH.12.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Martin Bormann as the victor. He drew broad support during the war, and many expected his victory to be the most likely outcome of the terrible conflict. Today he stood before the People's Hall as the new Fuehrer, promising the German people a swift restoration of Germany's former glory and pledging limited reforms to ensure such a conflict never happens again.
@@ -109,10 +109,10 @@ Though Speer has pledged to deliver the reforms his supporters eagerly await - p
 
 With Göring having openly advocated militarist policies before the war, many now worry how far the military's influence will grow and how soon Germany will be drawn into the next conflict. Yet the nation lies in ruins, the economy is in collapse, the people are exhausted, and Germany's true future remains uncertain. Though many may worry about the future, for now many are simply glad that Göring's military might has delivered today's peace."
  WORLD_REICH.14.a: "Peace returns to Germany."
- WORLD_REICH.15.t: "[Get_newspaper_header]Heydrich Wins the German Civil War"
- WORLD_REICH.15.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with Reinhard Heydrich as the victor. Though Heydrich is broadly disliked by the German people, the power of the SS has delivered today's victory. Before the People's Hall, the new Fuehrer condemned the degeneracy that had corrupted Germany and vowed to purge every trace of decay from the nation.
+ WORLD_REICH.15.t: "[Get_newspaper_header]the SS leader Wins the German Civil War"
+ WORLD_REICH.15.desc: "The German civil war, the most destructive and bloody conflict in German history, has finally ended with the SS leader as the victor. Though the SS leader is broadly disliked by the German people, the power of the SS has delivered today's victory. Before the People's Hall, the new Fuehrer condemned the degeneracy that had corrupted Germany and vowed to purge every trace of decay from the nation.
 
-Though Heinrich Himmler has sent Heydrich his warmest congratulations, the international reaction has been markedly negative, expressing deep concern about Germany's future. The nation lies in ruins, the economy is in collapse, the people are exhausted, and Europe remains engulfed in chaos; many now worry what this secretive and fanatical organization ruling Germany will mean for the nation's future."
+Though Heinrich Himmler has sent the SS leader his warmest congratulations, the international reaction has been markedly negative, expressing deep concern about Germany's future. The nation lies in ruins, the economy is in collapse, the people are exhausted, and Europe remains engulfed in chaos; many now worry what this secretive and fanatical organization ruling Germany will mean for the nation's future."
  WORLD_REICH.15.a: "Peace returns to Germany."
  WORLD_REICH.16.t: "[Get_newspaper_header]Germany Reasserts Control Over Central Europe"
  WORLD_REICH.16.desc: "The Protectorate of Bohemia-Moravia, the Netherlands, and Denmark were among the most successfully Germanized regions. When Germany fractured, these regions too descended into political turmoil, but areas so close to Germany's beating heart cannot be allowed to become potential threats.
@@ -396,48 +396,48 @@ Though no single rebel group has the resources or manpower to thoroughly overthr
 Over the past two decades, the resistance movement fiercely opposed the rule of the Norwegian Reichskommissariat. To democrats, they are freedom fighters; to National Socialists, they are warmongering terrorists. What is certain is that they have occupied central Oslo, expelled the traitors, and established a new provisional government. Under the command and leadership of Knut Mohn, Norway is once again transitioning to a functioning democracy, fulfilling its grand ambition."
  WORLD_REICH.2201.a: "Democracy in Europe? It won't last long..."
  WORLD_REICH.2201.b: "The light of the North shines upon us once more."
- WORLD_REICH.2300.t: "[Get_newspaper_header]Burgundy Shakes"
- WORLD_REICH.2300.desc: "The Swiss Seismological Service has issued a press release with alarming news. Last night, their headquarters in Zurich detected an earthquake in the Burgundian Jura region, lasting four seconds and reaching magnitude 4.6 on the Richter scale. With no aftershocks, they concluded this was 'not a natural occurrence, but likely a man-made event.' Several Swiss radiologists also reported a surge in atmospheric radiation equivalent to a mild nuclear reactor meltdown... or an atomic bomb explosion.
+ WORLD_REICH.2300.t: "[Get_newspaper_header]the German regime Shakes"
+ WORLD_REICH.2300.desc: "The Swiss Seismological Service has issued a press release with alarming news. Last night, their headquarters in Zurich detected an earthquake in the SS Jura region, lasting four seconds and reaching magnitude 4.6 on the Richter scale. With no aftershocks, they concluded this was 'not a natural occurrence, but likely a man-made event.' Several Swiss radiologists also reported a surge in atmospheric radiation equivalent to a mild nuclear reactor meltdown... or an atomic bomb explosion.
 
-Governments around the world have reached one conclusion: the Burgundians have successfully tested a nuclear device, twice as powerful as the one dropped on Pearl Harbor in 1945. As this shadowy and secretive government remains as tight-lipped as ever, the news may never be confirmed. Nonetheless, it seems [GetYear] will be remembered as a dark moment in history: the year Burgundy joined the ranks of nuclear powers."
+Governments around the world have reached one conclusion: the SSs have successfully tested a nuclear device, twice as powerful as the one dropped on Pearl Harbor in 1945. As this shadowy and secretive government remains as tight-lipped as ever, the news may never be confirmed. Nonetheless, it seems [GetYear] will be remembered as a dark moment in history: the year the German regime joined the ranks of nuclear powers."
  WORLD_REICH.2300.a: "God help us."
  WORLD_REICH.2300.b: "Magnificent!"
  WORLD_REICH.2300.c: "Does that madman even know what he's doing?!"
- WORLD_REICH.2302.t: "[Get_newspaper_header]SS Burgundian Crusader State Collapses"
- WORLD_REICH.2302.desc: "The world has long known little of Burgundy, but according to dissidents and refugees, the infamous and mysterious state led by Heinrich Himmler is on the verge of collapse. Himmler is reportedly caught in a mêlée between his SS foreign legions and the French resistance.
+ WORLD_REICH.2302.t: "[Get_newspaper_header]German regime Collapses"
+ WORLD_REICH.2302.desc: "The world has long known little of the German regime, but according to dissidents and refugees, the infamous and mysterious state led by Heinrich Himmler is on the verge of collapse. Himmler is reportedly caught in a mêlée between his SS foreign legions and the French resistance.
 
-Governments and observers are watching events closely. America has issued a statement saying it is monitoring the situation and has convened an emergency meeting, and the Pentagon has placed forces on alert. Germany has issued no public statement, but sources say authorities are also holding emergency meetings and moving troops to the German-Burgundian border. Though the situation is unclear, experts believe intervention is inevitable - the question is, who will strike first?"
+Governments and observers are watching events closely. America has issued a statement saying it is monitoring the situation and has convened an emergency meeting, and the Pentagon has placed forces on alert. Germany has issued no public statement, but sources say authorities are also holding emergency meetings and moving troops to the German-SS border. Though the situation is unclear, experts believe intervention is inevitable - the question is, who will strike first?"
  WORLD_REICH.2302.a: "The shadow nation is dying."
  WORLD_REICH.2302.b: "Everything, absolutely everything is falling apart."
- WORLD_REICH.2303.t: "[Get_newspaper_header]Germany Invades Burgundy"
- WORLD_REICH.2303.desc: "With troops steadily building up on the German-Burgundian border and the rhetoric of German authorities steadily escalating, many experts predicted Germany would inevitably intervene in the collapsing Burgundy. This morning, German forces have been confirmed entering the Crusader State, claiming the need to restore order on the western frontier.
+ WORLD_REICH.2303.t: "[Get_newspaper_header]Germany Invades the German regime"
+ WORLD_REICH.2303.desc: "With troops steadily building up on the German-SS border and the rhetoric of German authorities steadily escalating, many experts predicted Germany would inevitably intervene in the collapsing the German regime. This morning, German forces have been confirmed entering the Crusader State, claiming the need to restore order on the western frontier.
 
 Two SS foreign legions and Himmler's own loyalists have been targeted, suggesting the authorities intend to fully pacify the situation and utterly destroy the last SS stronghold in Europe. German officials promise a swift victory, but there are signs Himmler is attempting to relocate to continue resistance. Most believe the former Crusader State is doomed."
  WORLD_REICH.2303.a: "The Black Sun has set."
- WORLD_REICH.2304.t: "[Get_newspaper_header]Germany Reoccupies Burgundy"
- WORLD_REICH.2304.desc: "Convoys and tanks of the Greater German Reich roll through the streets of northern Paris, followed by ranks of French soldiers and cheering crowds. The Fuehrer announced before thousands that Burgundy has been liberated from the tyranny of Himmler and the SS, and praised the French State's key role in the liberation. Across the former Crusader State, people celebrate openly, greeting soldiers from France or Germany as heroes.
+ WORLD_REICH.2304.t: "[Get_newspaper_header]Germany Reoccupies the German regime"
+ WORLD_REICH.2304.desc: "Convoys and tanks of the Greater German Reich roll through the streets of northern Paris, followed by ranks of French soldiers and cheering crowds. The Fuehrer announced before thousands that the German regime has been liberated from the tyranny of Himmler and the SS, and praised the French State's key role in the liberation. Across the former Crusader State, people celebrate openly, greeting soldiers from France or Germany as heroes.
 
 The Greater German Reich and the French State are gradually releasing information about the living conditions of the people there, revealing widespread poverty and the unbridled violence of the SS. Though many newly liberated people welcome the Greater German Reich's intervention, some surviving dissidents believe this is merely a change of master holding the whip. Only time will tell whether their fears come true."
- WORLD_REICH.2304.a: "Dark clouds hang over Burgundy."
- WORLD_REICH.2305.t: "[Get_newspaper_header]America Intervenes in Burgundy"
+ WORLD_REICH.2304.a: "Dark clouds hang over the German regime."
+ WORLD_REICH.2305.t: "[Get_newspaper_header]America Intervenes in the German regime"
  WORLD_REICH.2305.desc: "Just hours after Germany announced its intention to intervene in the rapidly collapsing Crusader State, America and France jointly announced they are also deploying troops into the territory formerly controlled by the Crusader State to implement France's irredentist plans.
 
-With the rumble of the American war machine, French soldiers have begun limited entry into Burgundy, and many French hope to reclaim more homeland before German forces advance further.
+With the rumble of the American war machine, French soldiers have begun limited entry into the German regime, and many French hope to reclaim more homeland before German forces advance further.
 
 Whether this intervention will change the tide against the master of Europe remains to be seen, but American and French officials alike hope to seize the opportunity, even as some worry intervention raises the risk of a third world war."
  WORLD_REICH.2305.a: "The time has come for France to reclaim its lands."
  WORLD_REICH.2306.t: "[Get_newspaper_header]Paris Accords"
- WORLD_REICH.2306.desc: "Germany and America have announced an agreement on the former Burgundian territory, and countless people have breathed a sigh of relief. Both sides have agreed to demilitarize the border, withdraw their forces, and return the territory to France.
+ WORLD_REICH.2306.desc: "Germany and America have announced an agreement on the former SS territory, and countless people have breathed a sigh of relief. Both sides have agreed to demilitarize the border, withdraw their forces, and return the territory to France.
 
-Observers have confirmed that soldiers and military equipment are rapidly withdrawing from Burgundy, and the OFN has fulfilled its commitment to rebuild France, with humanitarian aid flooding in. Now France faces the daunting task of healing the wounds left by Himmler, and the international community relaxes, as this Western European crisis has finally been averted."
+Observers have confirmed that soldiers and military equipment are rapidly withdrawing from the German regime, and the OFN has fulfilled its commitment to rebuild France, with humanitarian aid flooding in. Now France faces the daunting task of healing the wounds left by Himmler, and the international community relaxes, as this Western European crisis has finally been averted."
  WORLD_REICH.2306.a: "The Doomsday Clock has moved back from midnight."
- WORLD_REICH.2307.t: "[Get_newspaper_header]Burgundy Crisis"
- WORLD_REICH.2307.desc: "After Germany and America traded accusations and each stormed out of the negotiations over the former Burgundian territory, the world's fear of war has risen sharply. Both sides say they will not give up Burgundy easily, and their soldiers are on high alert. Washington and Germania have both convened emergency meetings, but neither has commented on their nature.
+ WORLD_REICH.2307.t: "[Get_newspaper_header]the German regime Crisis"
+ WORLD_REICH.2307.desc: "After Germany and America traded accusations and each stormed out of the negotiations over the former SS territory, the world's fear of war has risen sharply. Both sides say they will not give up the German regime easily, and their soldiers are on high alert. Washington and Germania have both convened emergency meetings, but neither has commented on their nature.
 
 No direct conflict has broken out, but both Germany and America have been observed adding manpower and equipment. OFN and Unity Pact leaders have privately revealed that the crisis may 'escalate' next. With neither Germany nor America willing to restart negotiations, many fear the situation will only worsen in the future, potentially dragging the world into another world war."
  WORLD_REICH.2307.a: "Midnight approaches."
  WORLD_REICH.2308.t: "[Get_newspaper_header]France Demands Return of Territory"
- WORLD_REICH.2308.desc: "As German iron treads crush every street of northern Paris, Germany has announced it has secured control over the entire former Burgundian Crusader State, thoroughly destroying Heinrich Himmler and his rebel SS forces, as well as the nascent French resistance. Germany has declared this day a Day of Liberation and clarified its position on reclaiming its rightful territory and its intention to rebuild.
+ WORLD_REICH.2308.desc: "As German iron treads crush every street of northern Paris, Germany has announced it has secured control over the entire former German regime, thoroughly destroying Heinrich Himmler and his rebel SS forces, as well as the nascent French resistance. Germany has declared this day a Day of Liberation and clarified its position on reclaiming its rightful territory and its intention to rebuild.
 
 Though France was not a participant in the conflict, it has issued an official demand that Germany 'immediately return legitimate French territory,' though it is unclear what means France intends to use to effect the return. For now, Germany has not responded, but sources say German and French negotiators have begun consultations. Further reports on the progress of these talks are expected."
  WORLD_REICH.2308.a: "The German price must be steep."
@@ -455,20 +455,20 @@ Though the OFN has issued a formal condemnation, Germany is proceeding to establ
 
 Few believe France can reclaim its territory without German cooperation, and most experts believe Germany is doing this to ensure it holds the upper hand in the standoff between the two nations."
  WORLD_REICH.2310.a: "Injustice remains."
- WORLD_REICH.2311.t: "[Get_newspaper_header]Burgundy Stalemate"
- WORLD_REICH.2311.desc: "Though Himmler's forces and the various SS legions have been thoroughly crushed under the joint German-American-French offensive, the situation in Burgundy remains tense. Burgundy's territory is nominally controlled by German and American forces, but both sides remain highly vigilant against any signs of aggression from the other.
+ WORLD_REICH.2311.t: "[Get_newspaper_header]the German regime Stalemate"
+ WORLD_REICH.2311.desc: "Though Himmler's forces and the various SS legions have been thoroughly crushed under the joint German-American-French offensive, the situation in the German regime remains tense. the German regime's territory is nominally controlled by German and American forces, but both sides remain highly vigilant against any signs of aggression from the other.
 
-Germany and America have both publicly signaled a desire to ease tensions, but observers note both armies are still reinforcing their positions along the front lines in case of escalation. Diplomats from both nations have begun entering Burgundy to prepare for high-level talks. Though the world hopes the situation will stabilize, tensions continue to rise - some even fear that war could once again erupt between the two superpowers."
+Germany and America have both publicly signaled a desire to ease tensions, but observers note both armies are still reinforcing their positions along the front lines in case of escalation. Diplomats from both nations have begun entering the German regime to prepare for high-level talks. Though the world hopes the situation will stabilize, tensions continue to rise - some even fear that war could once again erupt between the two superpowers."
  WORLD_REICH.2311.a: "Now it depends on diplomacy."
  WORLD_REICH.2312.t: "[Get_newspaper_header]Germany Maintains Influence Over French Territory"
- WORLD_REICH.2312.desc: "Though many experts predicted this after Germany's conquest of Burgundy, most are still surprised that Germany has established a regime on former French and Belgian territory - a regime entirely unrelated to the French State.
+ WORLD_REICH.2312.desc: "Though many experts predicted this after Germany's conquest of the German regime, most are still surprised that Germany has established a regime on former French and Belgian territory - a regime entirely unrelated to the French State.
 
 Many believe this stems from the French-Italian alliance, and it has predictably caused unrest among the French. The French accuse the Germans of never even consulting them; Italy and its allies echo the complaint, but most expect no actual action from them.
 
 Now many are watching closely, wondering whether the new regime can survive, or whether a new wave of resistance will rise in this war-weary and exhausted nation."
  WORLD_REICH.2312.a: "The clock returns to zero."
  WORLD_REICH.2313.t: "[Get_newspaper_header]Franco-German Agreement Committee Established"
- WORLD_REICH.2313.desc: "The world is both relieved and unsettled after confirming the collapse of the SS Burgundian Crusader State; though the shadow of Burgundy has receded, Germany immediately announced a mobilization and invaded the remnants of Heinrich Himmler's collapsed realm. After order was restored in the region, Germany declared total victory over Himmler, and the terrorist reign of the Reichsführer-SS has finally ended.
+ WORLD_REICH.2313.desc: "The world is both relieved and unsettled after confirming the collapse of the German regime; though its influence has receded, Germany immediately announced a mobilization and invaded the remnants of Heinrich Himmler's collapsed realm. After order was restored in the region, Germany declared total victory over Himmler, and the terrorist reign of the Reichsführer-SS has finally ended.
 
 With the French State government having collapsed after the failed conquest of Brittany, Germany has established the Franco-German Agreement Committee led by Adolf Heusinger. Though the OFN and Italy have expressed concern about developments, without opposition from a legitimate French government, the other powers in the world have no excuse to intervene and can only hope this time German rule will be more merciful than last."
  WORLD_REICH.2313.a: "We have defeated the traitor Himmler!"
