@@ -1,4 +1,4 @@
-### GCW EFFECTS ###
+﻿### GCW EFFECTS ###
 
 GER_GCW_select_victor = { #Used only in a purely AI GCW if the war has run on for too long
 
@@ -90,7 +90,7 @@ GER_GCW_select_victor = { #Used only in a purely AI GCW if the war has run on fo
 		SGR = { add_ideas = GCW_hidden_holy_shit_win_already }
 		BGR = { add_ideas = GCW_too_late_TOO_LATE }
 		GGR = { add_ideas = GCW_too_late_TOO_LATE }
-		HGR = { add_ideas = GCW_too_late_TOO_LATE }
+
 	}
 	else_if = {
 		limit = {
@@ -99,11 +99,11 @@ GER_GCW_select_victor = { #Used only in a purely AI GCW if the war has run on fo
 		BGR = { add_ideas = GCW_hidden_holy_shit_win_already }
 		SGR = { add_ideas = GCW_too_late_TOO_LATE }
 		GGR = { add_ideas = GCW_too_late_TOO_LATE }
-		HGR = { add_ideas = GCW_too_late_TOO_LATE }
+
 	}
 	else = {
 		GGR = { add_ideas = GCW_too_late_TOO_LATE }
-		HGR = { add_ideas = GCW_too_late_TOO_LATE }
+
 		random_list = {
 			10 = {
 				BGR = { add_ideas = GCW_hidden_holy_shit_win_already }
@@ -425,80 +425,6 @@ GER_GCW_begin = {
 		}
 	}
 
-	# Heydrich
-	every_owned_state = {
-		limit = { is_HGR_state = yes }
-		#set_demilitarized_zone = no
-		HGR = {
-			add_state_core = PREV
-			transfer_state = PREV
-		}
-	}
-	HGR = {
-		if = {
-			limit = { country_exists = HGR } #The above state transfer already checks if Heydrich is indisposed or not
-
-			add_to_array = { global.GCW_contenders = THIS }
-			GER_GCW_econ_setup = yes
-			inherit_technology = PREV
-			load_oob = HGR
-			load_oob = HGR_air
-			setup_heydrich_gcw_navy = yes
-			set_war_support = GER.GER_Heydrich_Influence
-			set_variable = { GCW_legitimacy = GER.GER_Heydrich_Influence }
-			GCW_intialise_legitimacy = yes
-			#if = {
-			#	limit = {
-			#		has_game_rule = { rule = GER_CIVIL_WAR_BUFF option = GER_CIVIL_WAR_BUFF_HEYDRICH }
-			#	}
-			#	add_ideas = Custom_TNO_war_buff
-			#	load_oob = HGR
-			#	load_oob = HGR
-			#	add_equipment_to_stockpile = {
-			#		type = infantry_equipment
-			#		amount = 50000
-			#		producer = GER
-			#	}
-			#}
-
-			if = {
-				limit = {
-					check_variable = { GER.GCW_Heydrich_infantry_weapons > 0 }
-				}
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = GER.GCW_Heydrich_infantry_weapons
-					producer = GER
-				}
-			}
-			if = {
-				limit = {
-					check_variable = { GER.GCW_Heydrich_heer_units > 0 }
-				}
-				hidden_effect = {
-					capital_scope = {
-						create_unit = {
-							division = "division_template = \"Schutzstaffel-Infanterie\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
-							owner = PREV
-							count = GER.GCW_Heydrich_heer_units
-						}
-					}
-				}
-			}
-			if = {
-				limit = { GER = { has_variable = GCW_Heydrich_prod_units } }
-				set_temp_variable = { pus_temp = GER.GCW_Heydrich_prod_units }
-				econ_pus_change = yes
-				clear_variable = GER.GCW_Heydrich_prod_units
-			}
-			if = {
-				limit = { GER = { has_country_flag = heydrich_for_germany } }
-				custom_effect_tooltip = GER_fix_your_shit_pdx_again
-				change_tag_from = GER
-				HGR = { add_ideas = GER_hitlers_chosen_successor }
-			}
-		}
-	}
 	GGR = {
 		set_province_controller = 421
 		set_province_controller = 3414
@@ -538,11 +464,6 @@ GER_GCW_begin = {
 		target = GGR
 		value = 0.4
 	}
-	# 10% to heydrich
-	send_equipment_fraction = {
-		target = HGR
-		value = 0.33
-	}
 	# 10% goes bye bye keep 10%
 	send_equipment_fraction = {
 		target = ZZZ
@@ -574,17 +495,7 @@ GER_GCW_begin = {
 		load_focus_tree = tno_speer_civil_war
 	}
 
-	HGR = {
-		if = {
-			limit = { country_exists = THIS }
 
-			declare_war_on = { target = BGR type = civil_war }
-			declare_war_on = { target = GGR type = civil_war }
-			declare_war_on = { target = SGR type = civil_war }
-			add_ideas = GER_HGR_civil_war_offense
-			load_focus_tree = HGR_civil_war
-		}
-	}
 
 	## Remove legitimacy decisions
 	clr_country_flag = GER_power_struggle
@@ -607,7 +518,7 @@ GER_GCW_begin = {
 	BGR = { add_ideas = GCW_state_value_buff }
 	SGR = { add_ideas = GCW_state_value_buff }
 	GGR = { add_ideas = GCW_state_value_buff }
-	HGR = { add_ideas = GCW_state_value_buff }
+
 	GER = {
 		calculate_GCW_Debt_save = yes
 		add_dynamic_modifier = {
@@ -639,20 +550,9 @@ GER_GCW_conclude = {
 	log = "[GetDateText]: [This.GetName]: GER_GCW_conclude; Executing"
 	custom_effect_tooltip = GER_fix_your_shit_pdx
 
-	if = { 
-		limit = { NOT = { has_global_flag = german_civil_war_heydrichvic } }
-		GER = {
-			country_event = {
-				id = reich_shared.23
-				days = 31
-			}
-		}
-	}
+
 	hidden_effect = {
 		# Just in case
-		BGR = { remove_ideas = Anti_Heydrich_Pact }
-		SGR = { remove_ideas = Anti_Heydrich_Pact }
-		GGR = { remove_ideas = Anti_Heydrich_Pact }
 		remove_ideas = GCW_hidden_credit_buff
 		remove_ideas = GCW_state_value_buff
 	}
@@ -701,7 +601,6 @@ GER_GCW_conclude = {
 				set_global_flag = german_civil_war_bormannvic
 				GER_GCW_conclude_bormann = yes
 
-				country_event = { id = reich.559 days = 7 } # Heydrich dead event
 				#country_event = { id = CA_Bormann.1 days = 1800 random_days = 30 }
 				if = {
 					limit = { 
@@ -741,7 +640,6 @@ GER_GCW_conclude = {
 				set_global_flag = german_civil_war_goeringvic
 				GER_GCW_conclude_goering = yes
 
-				country_event = { id = reich.559 days = 7 } # Heydrich dead event
 				if = {
 					limit = { 
 						has_global_flag = FEN_GF_WonEcw
@@ -796,7 +694,6 @@ GER_GCW_conclude = {
 				GER_GCW_conclude_speer = yes
 
 				#country_event = { id = CA_Speer.1 days = 1800 random_days = 30 }
-				country_event = { id = reich.559 days = 7 } # Heydrich dead event
 				if = {
 					limit = { 
 						has_global_flag = FEN_GF_WonEcw
@@ -815,52 +712,7 @@ GER_GCW_conclude = {
 					}
 				}
 			}
-			else_if = {
-				limit = { PREV = { tag = HGR } }
-				# clear GCW buffs
-				HGR = {
-					remove_ideas = {
-						GCW_hidden_debuff_1
-						GCW_hidden_debuff_2
-						GCW_hidden_debuff_3
-						GCW_hidden_holy_shit_win_already
-					}
-					every_character = { ## HGR Characters return to GER ##
-						limit = { NOT = { is_character = HGR_Generic_Vacant } }
-						set_nationality = GER
-					}
-				}
 
-				every_unit_leader = {
-					limit = { has_id = 70 }
-					set_nationality = ZZZ
-				}
-
-				log = "[GetDateText]: [Prev.GetName]: GER_GCW_conclude; Heydrich Victory"
-				set_global_flag = german_civil_war_heydrichvic
-				GER_GCW_conclude_heydrich = yes
-
-				if = {
-					limit = { has_global_flag = FEN_GF_WonEcw }
-					ENG = {
-						country_event = {
-							id = hmmlrSkeleton.1
-							days = 30
-						}
-						meta_effect = { #sets up next election date in country ui
-							text = {
-								set_politics = {
-									ruling_party = despotism
-									last_election = "[current_election_date]"
-									elections_allowed = yes
-									election_frequency = 5
-								}
-							}
-							current_election_date = "[?global.date.GetDateStringNoHour]"
-						}
-					}
-				}
-			}
 			else = {
 				log = "[GetDateText]: [Prev.GetName]: GER_GCW_conclude; Unexpected Victory"
 			}
@@ -938,7 +790,6 @@ GER_GCW_conclude = {
 				remove_core_of = GGR
 				remove_core_of = BGR
 				remove_core_of = SGR
-				remove_core_of = HGR
 			}
 
 			#Extremely lazy solution to Speidel being an economic genius
@@ -1671,94 +1522,7 @@ GER_GCW_conclude_speer = {
 	log = "[GetDateText]: [This.GetName]: GER_GCW_conclude_speer; Completed execution."
 }
 
-GER_GCW_conclude_heydrich = {
-	log = "[GetDateText]: [This.GetName]: GER_GCW_conclude_heydrich; Executing."
-	clr_country_flag = country_has_gui
-	## Ideas
-	remove_all_ministers = yes
-	add_ideas = {
-		#Spirits
 
-
-		#Ministers
-		GER_Philipp_Bouhler_hog
-		GER_Herbert_Otto_Gille_sec
-		GER_Gunter_dAlquen_for
-		GER_August_Frank_eco
-	}
-
-	## Politics
-	GER = {
-		GER_reinhard_heydrich = {
-			promote_character = national_socialism_spartanism_subtype
-		}
-		GER_herbert_otto_gille = {
-			promote_character = { ideology = ultranationalism_stratocracy_subtype }
-		}
-	}
-
-	# Political Popularity & Ruling Party
-	set_politics = { ruling_party = national_socialism }
-	set_popularities = {
-		communist = 0
-		socialist = 0
-		progressivism = 0
-		liberalism = 0
-
-		conservatism = 0
-		paternalism = 0
-		despotism = 0
-		fascism = 0
-		national_socialism = 77
-		ultranationalism = 23
-	}
-
-	# Party Names
-	set_party_name = {
-		ideology = national_socialism
-		long_name = HGR_national_socialism_party_long
-		name = HGR_national_socialism_party
-	}
-	set_party_name = {
-		ideology = ultranationalism
-		long_name = HGR_ultranationalism_party_long
-		name = HGR_ultranationalism_party
-	}
-	## Content Setup
-
-	## Unit Leaders
-	#Remove Speidelist Unit Leaders
-	retire_character = GER_hans_speidel
-	retire_character = GER_adolf_heusinger
-	retire_character = GER_fritz_bayerlein
-	retire_character = GER_ulrich_de_maiziere
-	retire_character = GER_wolf_graf_von_baudissin
-	retire_character = GER_axel_von_dem_bussche
-	retire_character = GER_otto_hitzfeld
-	retire_character = GER_bern_von_baer
-	retire_character = GER_alfred_zerbel
-	retire_character = GER_erich_topp
-	retire_character = GER_horst_von_schroeter
-	retire_character = GER_hansrudolf_rösing
-	retire_character = GER_robert_gysae
-
-	GER = { # annex bohemia into germany
-		if = {
-			limit = {
-				has_country_flag = GER_CZE_secured_heydrich
-			}
-		}
-		annex_country = {
-			target = CZE
-			transfer_troops = yes
-		}
-	}
-
-	## Event
-	country_event = { id = HGR.99 days = 1 }
-
-	log = "[GetDateText]: [This.GetName]: GER_GCW_conclude_heydrich; Completed execution."
-}
 
 ## GCW Contenders Managing Effects (Used in TNO_peace_on_actions.txt)
 GER_GCW_check_victor = {
@@ -1788,91 +1552,7 @@ GER_GCW_off_a_fucker = {
 	log = "[GetDateText]: [This.GetName]: GER_GCW_off_a_fucker; Executing."
 
 	# funny workaround
-	if = {
-		limit = { has_global_flag = anti_heydrich_pact_formed }
-		# speer dies
-		if = {
-			limit = {
-				ROOT = { tag = SGR }
-			}
-			SGR = { dismantle_faction = yes }
-			if = {
-				limit = { country_exists = BGR }
-				# bormann and goering left
-				if = {
-					limit = { country_exists = GGR }
-					BGR = {
-						create_faction_from_template = { name = anti_heydrich_pact_faction icon = GFX_einheitspakt template = faction_template_generic }
-						add_faction_goal_slot = { category = short_term  value = -10 }
-						add_faction_goal_slot = { category = medium_term value = -10 }
-						add_faction_goal_slot = { category = long_term   value = -10 }
-						add_to_faction = GGR
-					}
-				}
-				# bormann left
-				else = {
-					clr_global_flag = anti_heydrich_pact_formed
-				}
-			}
-			# goering left
-			else = {
-				clr_global_flag = anti_heydrich_pact_formed
-			}
-		}
-		# bormann dies goering left or goering dies bormann left
-		else_if = {
-			limit = {
-				OR = {
-					ROOT = { tag = BGR }
-					ROOT = { tag = GGR }
-				}
-				NOT = { country_exists = SGR }
-			}
-			BGR = { dismantle_faction = yes }
-			clr_global_flag = anti_heydrich_pact_formed
-		}
-	}
 
-	# anti-heydrich pact clean up
-	if = {
-		limit = {
-			ROOT = { tag = HGR }
-			has_global_flag = anti_heydrich_pact_formed
-		}
-		clr_global_flag = anti_heydrich_pact_formed
-		if = {
-			limit = { country_exists = SGR }
-			SGR = { dismantle_faction = yes }
-			if = {
-				limit = { country_exists = BGR }
-				BGR = {
-					declare_war_on = { target = SGR type = civil_war }
-				}
-			}
-			if = {
-				limit = { country_exists = GGR }
-				if = {
-					limit = { country_exists = BGR }
-					GGR = {
-						declare_war_on = { target = BGR type = civil_war }
-					}
-				}
-				GGR = {
-					declare_war_on = { target = SGR type = civil_war }
-				}
-			}
-		}
-		else_if = {
-			limit = { country_exists = BGR }
-			BGR = { dismantle_faction = yes }
-			if = {
-				limit = { country_exists = BGR }
-				GGR = {
-					declare_war_on = { target = BGR type = civil_war }
-				}
-			}
-		}
-	}
 
 	remove_from_array = { global.GCW_contenders = THIS }
 
@@ -2009,31 +1689,7 @@ GCW_build_up_prod_units = {
 			clr_country_flag = ai_speer_build_up
 		}
 	}
-	else_if = {
-		limit = {
-			OR = {
-				AND = {
-					has_country_flag = heydrich_for_germany
-					check_variable = { ai_check_temp = 0 }
-				}
-				AND = {
-					has_country_flag = ai_heydrich_build_up
-					check_variable = { ai_check_temp = 1 }
-				}
-			}
-		}
-		add_to_variable = { GCW_Heydrich_prod_units = 1 }
-		if = {
-			limit = {
-				has_country_flag = ai_heydrich_build_up
-				check_variable = { GER_Heydrich_Influence > GER_Heydrich_Influence_limit }
-			}
-			activate_mission = GER_GCW_heydrich_build_up
-		}
-		else = {
-			clr_country_flag = ai_heydrich_build_up
-		}
-	}
+
 }
 
 GCW_build_up_forts = {
@@ -2263,71 +1919,7 @@ GCW_build_up_forts = {
 			clr_country_flag = ai_speer_build_up
 		}
 	}
-	else_if = {
-		limit = {
-			OR = {
-				AND = {
-					has_country_flag = heydrich_for_germany
-					check_variable = { ai_check_temp = 0 }
-				}
-				AND = {
-					has_country_flag = ai_heydrich_build_up
-					check_variable = { ai_check_temp = 1 }
-				}
-			}
-		}
-		42 = {
-			add_building_construction = {
-				type = bunker
-				level = 2
-				province = 1494
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				province = 15852
-				instant_build = yes
-			}
-		}
-		28 = {
-			add_building_construction = {
-				type = bunker
-				level = 1
-				province = 549
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 2
-				province = 9503
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				province = 6529
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 2
-				province = 678
-				instant_build = yes
-			}
-		}
-		set_country_flag = GCW_heydrich_forts_done
-		if = {
-			limit = {
-				has_country_flag = ai_heydrich_build_up
-				check_variable = { GER_Heydrich_Influence > GER_Heydrich_Influence_limit }
-			}
-			activate_mission = GER_GCW_heydrich_build_up
-		}
-		else = {
-			clr_country_flag = ai_heydrich_build_up
-		}
-	}
+
 }
 
 GCW_build_up_infantry_weapons = {
@@ -2407,31 +1999,7 @@ GCW_build_up_infantry_weapons = {
 			clr_country_flag = ai_speer_build_up
 		}
 	}
-	else_if = {
-		limit = {
-			OR = {
-				AND = {
-					has_country_flag = heydrich_for_germany
-					check_variable = { ai_check_temp = 0 }
-				}
-				AND = {
-					has_country_flag = ai_heydrich_build_up
-					check_variable = { ai_check_temp = 1 }
-				}
-			}
-		}
-		add_to_variable = { GCW_Heydrich_infantry_weapons = 5000 }
-		if = {
-			limit = {
-				has_country_flag = ai_heydrich_build_up
-				check_variable = { GER_Heydrich_Influence > GER_Heydrich_Influence_limit }
-			}
-			activate_mission = GER_GCW_heydrich_build_up
-		}
-		else = {
-			clr_country_flag = ai_heydrich_build_up
-		}
-	}
+
 }
 
 GCW_build_up_heer_units = {
@@ -2511,31 +2079,7 @@ GCW_build_up_heer_units = {
 			clr_country_flag = ai_speer_build_up
 		}
 	}
-	else_if = {
-		limit = {
-			OR = {
-				AND = {
-					has_country_flag = heydrich_for_germany
-					check_variable = { ai_check_temp = 0 }
-				}
-				AND = {
-					has_country_flag = ai_heydrich_build_up
-					check_variable = { ai_check_temp = 1 }
-				}
-			}
-		}
-		add_to_variable = { GCW_Heydrich_heer_units = 2 }
-		if = {
-			limit = {
-				has_country_flag = ai_heydrich_build_up
-				check_variable = { GER_Heydrich_Influence > GER_Heydrich_Influence_limit }
-			}
-			activate_mission = GER_GCW_heydrich_build_up
-		}
-		else = {
-			clr_country_flag = ai_heydrich_build_up
-		}
-	}
+
 }
 
 GER_increase_legitimacy_small = {
@@ -2557,12 +2101,7 @@ GER_increase_legitimacy_small = {
 		}
 		GER_increase_legitimacy_small_speer = yes
 	}
-	else_if = {
-		limit = {
-			has_country_flag = heydrich_for_germany
-		}
-		GER_increase_legitimacy_small_heydrich = yes
-	}
+
 }
 
 GER_increase_legitimacy_large = {
@@ -2584,12 +2123,7 @@ GER_increase_legitimacy_large = {
 		}
 		GER_increase_legitimacy_large_speer = yes
 	}
-	else_if = {
-		limit = {
-			has_country_flag = heydrich_for_germany
-		}
-		GER_increase_legitimacy_large_heydrich = yes
-	}
+
 }
 
 GER_increase_legitimacy_small_bormann = {
@@ -2608,10 +2142,7 @@ GER_increase_legitimacy_small_speer = {
 	custom_effect_tooltip = GER_increase_legitimacy_small_speer_tt
 	add_to_variable = { GER_Speer_Influence = 5 }
 }
-GER_increase_legitimacy_small_heydrich = {
-	custom_effect_tooltip = GER_increase_legitimacy_small_heydrich_tt
-	add_to_variable = { GER_Heydrich_Influence = 5 }
-}
+
 
 GER_increase_legitimacy_large_bormann = {
 	custom_effect_tooltip = GER_increase_legitimacy_large_bormann_tt
@@ -2629,10 +2160,7 @@ GER_increase_legitimacy_large_speer = {
 	custom_effect_tooltip = GER_increase_legitimacy_large_speer_tt
 	add_to_variable = { GER_Speer_Influence = 10 }
 }
-GER_increase_legitimacy_large_heydrich = {
-	custom_effect_tooltip = GER_increase_legitimacy_large_heydrich_tt
-	add_to_variable = { GER_Heydrich_Influence = 10 }
-}
+
 
 GER_decrease_legitimacy_small_bormann = {
 	custom_effect_tooltip = GER_decrease_legitimacy_small_bormann_tt
@@ -2642,10 +2170,7 @@ GER_decrease_legitimacy_small_speer = {
 	custom_effect_tooltip = GER_decrease_legitimacy_small_speer_tt
 	add_to_variable = { GER_Speer_Influence = -5 }
 }
-GER_decrease_legitimacy_small_heydrich = {
-	custom_effect_tooltip = GER_decrease_legitimacy_small_heydrich_tt
-	add_to_variable = { GER_Heydrich_Influence = -5 }
-}
+
 
 GER_decrease_legitimacy_large_bormann = {
 	custom_effect_tooltip = GER_decrease_legitimacy_large_bormann_tt
@@ -2656,10 +2181,7 @@ GER_decrease_legitimacy_large_speer = {
 	custom_effect_tooltip = GER_increase_legitimacy_large_speer_tt
 	add_to_variable = { GER_Speer_Influence = -10 }
 }
-GER_decrease_legitimacy_large_heydrich = {
-	custom_effect_tooltip = GER_increase_legitimacy_large_heydrich_tt
-	add_to_variable = { GER_Heydrich_Influence = -10 }
-}
+
 
 GCW_intialise_legitimacy = {
 	set_country_flag = GER_GCW_mechanic_flag
@@ -2767,89 +2289,10 @@ GCW_war_balancing_script_main = {
 	else = { #BLITZKRIEG
 		GCW_war_balancing_script_2 = yes
 	}
-	if = {
-		limit = {
-			check_variable = { war_balancing_script_count < 8 }
-			check_variable = { war_balancing_script_count > 3 }
-			HGR = {
-				is_ai = yes
-			}
-		}
-		HGR = {
-			add_ideas = GCW_hidden_debuff_2
-			remove_ideas = {
-				GCW_hidden_debuff_3
-				GCW_hidden_debuff_1
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = { war_balancing_script_count < 12 }
-			HGR = {
-				is_ai = yes
-			}
-		}
-		HGR = {
-			add_ideas = GCW_hidden_debuff_1
-			remove_ideas = {
-				GCW_hidden_debuff_3
-				GCW_hidden_debuff_2
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			set_equipment_fraction = 0.9
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = { war_balancing_script_count < 20 }
-			HGR = {
-				is_ai = yes
-			}
-		}
-		HGR = {
-			add_ideas = GCW_hidden_debuff_1
-			remove_ideas = {
-				GCW_hidden_debuff_3
-				GCW_hidden_debuff_2
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			set_equipment_fraction = 0.75
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = { war_balancing_script_count > 19 }
-			HGR = {
-				is_ai = yes
-			}
-		}
-		HGR = {
-			add_ideas = GCW_too_late_TOO_LATE
-			remove_ideas = {
-				GCW_hidden_debuff_3
-				GCW_hidden_debuff_2
-				GCW_hidden_debuff_1
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			random_country_division = {
-				destroy_unit = yes
-			}
-			set_equipment_fraction = 0.5
-		}
-	}
+
+
+
+
 	if = {
 		limit = {
 			check_variable = { war_balancing_script_count < 8 }
@@ -3090,86 +2533,7 @@ GCW_war_balancing_script_2 = {
 	clear_variable = global.GCW_average_surrender_progress
 }
 
-anti_heydrich_pact_script = {
-	for_each_scope_loop = {
-		array = global.GCW_contenders
 
-		if = {
-			limit = { has_country_flag = anti_heydrich_pact }
-			every_owned_state = {
-				limit = {
-					NOT = { is_controlled_by = PREV }
-					NOT = { is_controlled_by = HGR }
-				}
-				PREV = { set_state_controller = PREV }
-			}
-		}
-	}
-
-	if = {
-		limit = { country_exists = SGR }
-		SGR = {
-			create_faction_from_template = { name = anti_heydrich_pact_faction icon = GFX_einheitspakt template = faction_template_generic }
-			add_faction_goal_slot = { category = short_term  value = -10 }
-			add_faction_goal_slot = { category = medium_term value = -10 }
-			add_faction_goal_slot = { category = long_term   value = -10 }
-			if = {
-				limit = {
-					country_exists = BGR
-					BGR = { has_country_flag = anti_heydrich_pact }
-				}
-				BGR = { white_peace = SGR }
-				SGR = { add_to_faction = BGR }
-			}
-			if = {
-				limit = {
-					country_exists = GGR
-					GGR = { has_country_flag = anti_heydrich_pact }
-				}
-				GGR = { white_peace = SGR }
-				if = {
-					limit = {
-						country_exists = BGR
-						BGR = { has_country_flag = anti_heydrich_pact }
-					}
-					GGR = { white_peace = BGR }
-				}
-				SGR = { add_to_faction = GGR }
-			}
-			every_country = {
-				limit = { is_ai = no }
-				news_event = { id = WORLD_REICH.11 days = 1 }
-			}
-		}
-	}
-	else_if = {
-		limit = { country_exists = BGR }
-		BGR = {
-			create_faction_from_template = { name = anti_heydrich_pact_faction icon = GFX_einheitspakt template = faction_template_generic }
-			add_faction_goal_slot = { category = short_term  value = -10 }
-			add_faction_goal_slot = { category = medium_term value = -10 }
-			add_faction_goal_slot = { category = long_term   value = -10 }
-			if = {
-				limit = {
-					country_exists = GGR
-					GGR = { has_country_flag = anti_heydrich_pact }
-				}
-				GGR = { white_peace = BGR }
-				BGR = { add_to_faction = GGR }
-			}
-			every_country = {
-				limit = { is_ai = no }
-				news_event = { id = WORLD_REICH.11 days = 1 }
-			}
-		}
-	}
-	set_global_flag = anti_heydrich_pact_formed
-
-	# Faction Status
-	BGR = { add_ideas = Anti_Heydrich_Pact }
-	SGR = { add_ideas = Anti_Heydrich_Pact }
-	GGR = { add_ideas = Anti_Heydrich_Pact }
-}
 
 setup_speer_gcw_navy = {
 	GER = {
@@ -3416,70 +2780,7 @@ setup_goering_gcw_navy = {
 	}
 }
 
-setup_heydrich_gcw_navy = {
-	GER = {
-		transfer_ship = {
-			prefer_name = "Von Hohenheim"
-			type = cruiser
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "Schwarze Sonne"
-			type = cruiser
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "U-926"
-			type = submarine
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "U-927"
-			type = submarine
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "U-928"
-			type = submarine
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "K29"
-			type = corvette
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "K24"
-			type = corvette
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "K22"
-			type = corvette
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "F29"
-			type = frigate
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "F32"
-			type = corvette
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "K66"
-			type = corvette
-			target = HGR
-		}
-		transfer_ship = {
-			prefer_name = "K67"
-			type = corvette
-			target = HGR
-		}
-	}
-}
+
 
 setup_bormann_gcw_navy = {
 	CRI = {

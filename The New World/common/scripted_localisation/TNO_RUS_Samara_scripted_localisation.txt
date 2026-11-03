@@ -23,7 +23,6 @@ defined_text = {
 				SGR = { exists = yes }
 				BGR = { exists = yes }
 				GGR = { exists = yes }
-				HGR = { exists = yes }
 			}
 		}
 		localization_key = SAM_smuggling_civil_war

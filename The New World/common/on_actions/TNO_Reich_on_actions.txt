@@ -1,4 +1,4 @@
-on_actions = {
+﻿on_actions = {
 	#EVENTS
 	on_startup = {
 		effect = {
@@ -7,7 +7,6 @@ on_actions = {
 				country_event = { id = reich.12 days = 43 } 		#Students Revolt
 				country_event = { id = reich.41 days = 87 }			#Goebbels' death rememberance
 				country_event = { id = reich.23 days = 653 }		#Hitler's Death
-				country_event = { id = HGR_successor.9 days = 635 }	#Heydrich Pre-GCW events
 				country_event = { id = reich.600 days = 3 } 		#Successor Introduction Events
 				country_event = { id = reich.72 days = 17 } 		#Adler launch
 				country_event = { id = reich.27 days = 119 } 		#Senile Hitler speech
@@ -446,33 +445,6 @@ on_actions = {
 						limit = { ROOT = { tag = GGR } }
 						FROM = { country_event = { id = gcwcapture.22 days = 1 } }
 						ROOT = { country_event = { id = gcwcapture.22 days = 1 } }
-					}
-				}
-				### HGR Cities
-				else_if = { # Königsberg
-					limit = { FROM.FROM = { state = 5 } }
-					if = { # Captured
-						limit = { FROM = { tag = HGR } }
-						FROM = { country_event = { id = gcwcapture.23 days = 1 } }
-						ROOT = { country_event = { id = gcwcapture.23 days = 1 } }
-					}
-					else_if = { # Recaptured
-						limit = { ROOT = { tag = HGR } }
-						FROM = { country_event = { id = gcwcapture.25 days = 1 } }
-						ROOT = { country_event = { id = gcwcapture.25 days = 1 } }
-					}
-				}
-				else_if = { # Strasburg
-					limit = { FROM.FROM = { state = 28 } }
-					if = { # Captured
-						limit = { FROM = { tag = HGR } }
-						FROM = { country_event = { id = gcwcapture.24 days = 1 } }
-						ROOT = { country_event = { id = gcwcapture.24 days = 1 } }
-					}
-					else_if = { # Recaptured
-						limit = { ROOT = { tag = HGR } }
-						FROM = { country_event = { id = gcwcapture.26 days = 1 } }
-						ROOT = { country_event = { id = gcwcapture.26 days = 1 } }
 					}
 				}
 			}

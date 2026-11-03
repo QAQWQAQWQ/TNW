@@ -1,4 +1,4 @@
-state = {
+﻿state = {
 	id = 754
 	name = "STATE_754"
 	resources = {
@@ -16,7 +16,6 @@ state = {
 			hospitals = 1
 		}
 		victory_points = { 9292 25 }
-		add_core_of = SSF
 	}
 
 	provinces = {

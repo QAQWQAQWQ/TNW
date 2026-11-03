@@ -1,10 +1,9 @@
-state = {
+﻿state = {
 	id = 1808
 	name = "STATE_1808"
 
 	history = {
 		owner = SFR
-		add_core_of = SSF
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 1

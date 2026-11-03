@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 	containerWindowType = {
 		name = "TNO_CSS_BRA_map_openbutton"
 		size = { width = 756 height = 700 }
@@ -639,14 +639,12 @@ guiTypes = {
 			buttonType = {
 				name = "debug_add_progress_button"
 				position = { x = 296 y = 20 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = "BRA_develop_debug_add_progress_tt"
 			}
 			buttonType = {
 				name = "debug_sub_progress_button"
 				position = { x = -10 y = 20 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = "BRA_develop_debug_sub_progress_tt"
 			}
@@ -686,7 +684,6 @@ guiTypes = {
 			buttonType = {
 				name = "mega_project_sub_button"
 				position = { x = 75 y = 0 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				pdx_tooltip = BRA_megaproject_sub_tt_dummy
 			}
 			instantTextBoxType = {
@@ -699,7 +696,6 @@ guiTypes = {
 			buttonType = {
 				name = "mega_project_add_button"
 				position = { x = 191 y = 0 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				pdx_tooltip = BRA_megaproject_add_tt_dummy
 			}
 			instantTextBoxType = {

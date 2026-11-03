@@ -479,13 +479,11 @@
  SPR_puppet_DEF: "西班牙共和国"
  CLL_Partisans_DEF: "统一民主阵线"
  CLC_CCW2_DEF: "民族社会主义联盟"
- APF_CZECH: "波默恩-摩赫恩武装党卫队指挥官辖地"
- APF_CZECH_DEF: "波默恩-摩赫恩武装党卫队指挥官辖地"
- APF_CZECH_ADJ: "党卫队"
+
+
+
  POL_SGR_national_socialism: "波兰临时政府"
  POL_SGR_national_socialism_DEF: "波兰临时政府"
- HGR_DEAD: "党卫队德意志兰"
- HGR_DEAD_DEF: "党卫队德意志兰"
  KAZ_Tashenev: "哈萨克斯坦社会主义共和国"
  KAZ_Tashenev_DEF: "哈萨克斯坦社会主义共和国"
  KAZ_Tashenev_ADJ: "哈萨克"
@@ -510,8 +508,8 @@
  SGR_CAU_provisional_government_DEF: "高加索军政府"
  UKR_SGR: "乌克兰人民共和国"
  UKR_SGR_DEF: "乌克兰人民共和国"
- BEL_SGR: "比利时-北法兰西专员辖区"
- BEL_SGR_DEF: "比利时-北法兰西专员辖区"
+
+
  EST_SGR: "波罗的联邦"
  EST_SGR_DEF: "波罗的联邦"
  OST_BLT: "波罗的联邦"

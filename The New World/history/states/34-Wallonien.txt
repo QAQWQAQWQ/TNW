@@ -30,7 +30,6 @@ state = {
 			infrastructure = 5
 			air_base = 1
 		}
-		add_core_of = GERBRG
 		set_state_flag = universal_renamings
 	}
 

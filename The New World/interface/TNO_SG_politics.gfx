@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 	spriteType = {
 		name = "GFX_category_header_longer"
 		textureFile = "gfx/interface/category_header_longer.dds"
@@ -1450,10 +1450,7 @@ spriteTypes = {
 		name = "GFX_Anarchy_ZZZ"
 		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ.dds"
 	}
-	spriteType = {
-		name = "GFX_Anarchy_ZZZ_Heydrich"
-		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ_Heydrich.dds"
-	}
+
 	spriteType = {
 		name = "GFX_Anarchy_ZZZ_Thermonuclear_War"
 		textureFile = "gfx/interface/anarchy/Anarchy_ZZZ_Thermonuclear_War.dds"

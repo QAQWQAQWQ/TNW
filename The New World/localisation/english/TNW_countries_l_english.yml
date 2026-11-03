@@ -17,9 +17,8 @@
  AFR: "Afar"
  AFR_DEF: "Afar"
  AFR_ADJ: "Afar"
- AGS: "Steiner Assault Group"
- AGS_DEF: "Steiner Assault Group"
- AGS_ADJ: "Steiner"
+
+
  ALB: "Albania"
  ALB_DEF: "Albania"
  ALB_ADJ: "Albanian"
@@ -49,18 +48,16 @@
  ANT: "Antigua, Barbuda and Montserrat"
  ANT_DEF: "Antigua, Barbuda and Montserrat"
  ANT_ADJ: "Antiguan"
- APF: "Aryan People's Front"
- APF_DEF: "Aryan People's Front"
- APF_ADJ: "People's Front"
+
+
  ARP: "Argentine Occupation Zone"
  ARP_DEF: "Argentine-Paraguayan Occupation Zone"
  ARP_ADJ: "Argentine"
  ARG: "Argentine Republic"
  ARG_DEF: "Argentine Republic"
  ARG_ADJ: "Argentine"
- AUS: "Ostmark Gebirgsjäger"
- AUS_DEF: "Ostmark Gebirgsjäger"
- AUS_ADJ: "Austrian"
+
+
  AYA: "Anianya"
  AYA_DEF: "Anianya Movement"
  AYA_ADJ: "Anianya"
@@ -157,12 +154,10 @@
  DRL: "Dirlewanger Brigade"
  DRL_DEF: "Dirlewanger Brigade"
  DRL_ADJ: "Orsk"
- DSG: "German Emergency Government"
- DSG_DEF: "German Emergency Government"
- DSG_ADJ: "German"
- DSH: "Black Guard"
- DSH_DEF: "Black Guard"
- DSH_ADJ: "German"
+
+
+
+
  DEN_rp: "Danish Social Republic"
  DEN_rp_DEF: "Danish Social Republic"
  DEN_rp_ADJ: "Danish"
@@ -189,20 +184,17 @@
  FGB: "Philippine Military Administration"
  FGB_DEF: "XIV Corps Military Administration"
  FGB_ADJ: "XIV Corps"
- FHH: "German Reich"
- FHH_DEF: "German Reich"
- FHH_ADJ: "German"
+
+
  FIN: "Republic of Finland"
  FIN_DEF: "Republic of Finland"
  FIN_ADJ: "Finnish"
- FPG: "Freikorps 'Berserker'"
- FPG_DEF: "Freikorps 'Berserker'"
- FPG_ADJ: "Berserker"
+
+
  
  FRS_ADJ: "French"
- FSP: "Free State of Prussia"
- FSP_DEF: "Free State of Prussia"
- FSP_ADJ: "German"
+
+
  FZL: "Blue Front"
  FZL_DEF: "Blue Front"
  FZL_ADJ: "Spanish"
@@ -228,10 +220,8 @@
  GUD: "Guadeloupe"
  GUD_DEF: "Guadeloupe"
  GUD_ADJ: "Guadeloupean"
- 
- ISS: "Silesian Industrial State"
- ISS_DEF: "Silesian Industrial State"
- ISS_ADJ: "German"
+
+
  JAM: "Jamaica"
  JAM_DEF: "Jamaica"
  JAM_ADJ: "Jamaican"
@@ -248,27 +238,23 @@
  KAL: "Siberian Workers' Federation"
  KAL_DEF: "Siberian Workers' Federation"
  KAL_ADJ: "Siberian"
- KHP: "Clerical Combat Group"
- KHP_DEF: "Clerical Combat Group"
- KHP_ADJ: "German"
- KLB: "Reichsführer-SS Security Bureau"
- KLB_DEF: "Reichsführer-SS Security Bureau"
- KLB_ADJ: "German"
+
+
+
+
  KOR: "Korea"
  KOR_DEF: "Korea"
  KOR_ADJ: "Korean"
  KRL: "Karelian Autonomous Region"
  KRL_DEF: "Karelian Autonomous Region"
  KRL_ADJ: "Karelian"
- KSS: "Waffen-SS High Command"
- KSS_DEF: "Waffen-SS High Command"
- KSS_ADJ: "German"
+
+
  KYK: "Kikuyuland"
  KYK_DEF: "Kikuyuland"
  KYK_ADJ: "Kikuyu"
- LHH: "Leibstandarte Heinrich Himmler"
- LHH_DEF: "Leibstandarte Heinrich Himmler"
- LHH_ADJ: "Leibstandarte"
+
+
  MAC: "Macedonia"
  MAC_DEF: "Macedonian Democratic Federation"
  MAC_ADJ: "Macedonian"
@@ -295,12 +281,10 @@
  NTG: "Nizhny Tagil"
  NTG_DEF: "Nizhny Tagil"
  NTG_ADJ: "Nizhny Tagil"
- OER: "State Military Special Tribunal"
- OER_DEF: "Military Special Tribunal"
- OER_ADJ: "German"
- OKL: "Oberkommando der Luftwaffe"
- OKL_DEF: "Oberkommando der Luftwaffe"
- OKL_ADJ: "German"
+
+
+
+
  OMO: ""
  OMO_DEF: ""
  OMO_ADJ: "Siberian"
@@ -342,9 +326,8 @@
  POR: "Portuguese Republic"
  POR_DEF: "Portuguese Republic"
  POR_ADJ: "Portuguese"
- PRK: "Sons of Spartacus"
- PRK_DEF: "Sons of Spartacus"
- PRK_ADJ: "Slave"
+
+
  PRM: "Perm"
  PRM_DEF: "Perm"
  PRM_national_socialism: "Aryan Brotherhood"
@@ -450,20 +433,16 @@
  SRT: "'Free Europa' Joint Legion"
  SRT_DEF: "'Free Europa' Joint Legion"
  SRT_ADJ: "'Free Europa'"
- SSF: "SS Figleiner Combat Group"
- SSF_DEF: "SS Figleiner Combat Group"
- SSF_ADJ: "German"
- SSL: "SS Lorraine Knightly State"
- SSL_DEF: "SS Lorraine Knightly State"
- SSL_ADJ: "German"
- SSL_despotism: "Lorraine"
- SSL_despotism_DEF: "Lorraine"
- SSN: "SS Nuremberg Labor Camp"
- SSN_DEF: "SS Nuremberg Labor Camp"
- SSN_ADJ: "German"
- SSW: "SS Westphalia Administration Area"
- SSW_DEF: "SS Westphalia Administration Area"
- SSW_ADJ: "German"
+
+
+
+
+
+
+
+
+
+
  SVI: "Saint Vincent and the Grenadines"
  SVI_DEF: "Saint Vincent and the Grenadines"
  SVI_ADJ: "Vincentian"

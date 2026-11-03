@@ -1788,7 +1788,6 @@ ideas = {
 			cancel = {
 				hidden_trigger = {
 					country_exists = SGR
-					country_exists = HGR
 					country_exists = GGR
 					country_exists = BGR
 				}
@@ -1825,7 +1824,6 @@ ideas = {
 			cancel = {
 				hidden_trigger = {
 					country_exists = SGR
-					country_exists = HGR
 					country_exists = GGR
 					country_exists = BGR
 				}
@@ -1858,7 +1856,6 @@ ideas = {
 			cancel = {
 				hidden_trigger = {
 					country_exists = SGR
-					country_exists = HGR
 					country_exists = GGR
 					country_exists = BGR
 				}
@@ -1895,7 +1892,6 @@ ideas = {
 			cancel = {
 				hidden_trigger = {
 					country_exists = SGR
-					country_exists = HGR
 					country_exists = GGR
 					country_exists = BGR
 				}
@@ -1932,7 +1928,6 @@ ideas = {
 			cancel = {
 				hidden_trigger = {
 					country_exists = SGR
-					country_exists = HGR
 					country_exists = GGR
 					country_exists = BGR
 				}
@@ -2902,5 +2897,4 @@ ideas = {
 		}
 	}
 }
-
 

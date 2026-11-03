@@ -1,4 +1,4 @@
-state = {
+﻿state = {
 	id = 590
 	name = "STATE_590"
 
@@ -17,7 +17,6 @@ state = {
 			hospitals = 1
 			barracks = 1
 		}
-		add_core_of = SSF
 		set_state_flag = state_renamings
 	}
 

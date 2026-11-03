@@ -1,4 +1,4 @@
-### Image Locations
+﻿### Image Locations
 defined_text = {
 	name = GetFactionStatus_icon
 
@@ -105,31 +105,17 @@ defined_text = {
 		trigger = { has_idea = Pakt_Bundnispartner }
 		localization_key = "GFX_Pakt_Bundnispartner"
 	}
-	#Ordensstaat
-	text = {
-		trigger = { has_idea = Pakt_Ordensstaat }
-		localization_key = "GFX_Pakt_Ordensstaat"
-	}
 	#Observer
 	text = {
 		trigger = { has_idea = Pakt_Observer }
 		localization_key = "GFX_Pakt_Observer"
 	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich_Pact }
-		localization_key = "GFX_Pakt_Protektorat"
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Himmler }
-		localization_key = "GFX_Pakt_Leader"
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich }
-		localization_key = "GFX_Pakt_Ordensstaat"
-	}
+
+
+
 
 	### Sphere ###
 	#Leader
@@ -577,31 +563,17 @@ defined_text = {
 		trigger = { has_idea = Pakt_Bundnispartner }
 		localization_key = Pakt_Bundnispartner
 	}
-	#Ordensstaat
-	text = {
-		trigger = { has_idea = Pakt_Ordensstaat }
-		localization_key = Pakt_Ordensstaat
-	}
 	#Observer
 	text = {
 		trigger = { has_idea = Pakt_Observer }
 		localization_key = Pakt_Observer
 	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich_Pact }
-		localization_key = Anti_Heydrich_Pact
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Himmler }
-		localization_key = Anti_Himmler
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich }
-		localization_key = Anti_Heydrich
-	}
+
+
+
 
 	### Sphere ###
 	#Leader
@@ -931,31 +903,17 @@ defined_text = {
 		trigger = { has_idea = Pakt_Bundnispartner }
 		localization_key = Pakt_Bundnispartner_effect
 	}
-	#Ordensstaat
-	text = {
-		trigger = { has_idea = Pakt_Ordensstaat }
-		localization_key = Pakt_Ordensstaat_effect
-	}
 	#Observer
 	text = {
 		trigger = { has_idea = Pakt_Observer }
 		localization_key = Pakt_Observer_effect
 	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich_Pact }
-		localization_key = Anti_Heydrich_Pact_effect
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Himmler }
-		localization_key = Anti_Himmler_effect
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich }
-		localization_key = Anti_Heydrich_effect
-	}
+
+
+
 
 	### Sphere ###
 	#Leader
@@ -1139,31 +1097,17 @@ defined_text = {
 		trigger = { has_idea = Pakt_Bundnispartner }
 		localization_key = Pakt_Bundnispartner_desc
 	}
-	#Ordensstaat
-	text = {
-		trigger = { has_idea = Pakt_Ordensstaat }
-		localization_key = Pakt_Ordensstaat_desc
-	}
 	#Observer
 	text = {
 		trigger = { has_idea = Pakt_Observer }
 		localization_key = Pakt_Observer_desc
 	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich_Pact }
-		localization_key = Anti_Heydrich_Pact_desc
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Himmler }
-		localization_key = Anti_Himmler_desc
-	}
 
-	text = {
-		trigger = { has_idea = Anti_Heydrich }
-		localization_key = Anti_Heydrich_desc
-	}
+
+
+
 
 	### Sphere ###
 	#Leader

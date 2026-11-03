@@ -1,4 +1,4 @@
-SAFWAR_propose_a_ceasefire_category = {
+﻿SAFWAR_propose_a_ceasefire_category = {
 	SAFWAR_propose_ofn_leaning_ceasefire_USA = {
 		allowed = {
 			original_tag = USA
@@ -31,7 +31,7 @@ SAFWAR_propose_a_ceasefire_category = {
 				limit = {
 					GER = {
 						is_ai = no
-						NOT = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
+
 					}
 				}
 				GER = {
@@ -74,20 +74,7 @@ SAFWAR_propose_a_ceasefire_category = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					NOT = {
-						has_global_flag = german_civil_war
-						GER = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
-					}
-				}
-				GER = {
-					country_event = {
-						id = SAFWAR.14
-						days = 1
-					}
-				}
-			}
+
 			else = {
 				GRO = {
 					country_event = {
@@ -131,7 +118,7 @@ SAFWAR_propose_a_ceasefire_category = {
 				limit = {
 					GER = {
 						is_ai = no
-						NOT = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
+
 					}
 				}
 				GER = {
@@ -174,20 +161,7 @@ SAFWAR_propose_a_ceasefire_category = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					NOT = {
-						has_global_flag = german_civil_war
-						GER = { has_country_leader = { character = GER_reinhard_heydrich ruling_only = yes } }
-					}
-				}
-				GER = {
-					country_event = {
-						id = SAFWAR.14
-						days = 1
-					}
-				}
-			}
+
 			else = {
 				GRO = {
 					country_event = {

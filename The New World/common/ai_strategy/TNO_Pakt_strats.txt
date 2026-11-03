@@ -1,4 +1,4 @@
-PRE_GCW_GER_priority = {
+﻿PRE_GCW_GER_priority = {
 	enable = {
 		date < 1964.1.1
 		tag = GER
@@ -66,7 +66,6 @@ PRE_GCW_GER_priority = {
 GER_GCW_los_los_los = {
 	allowed = {
 		OR = {
-			tag = HGR
 			tag = SGR
 			tag = BGR
 			tag = GGR
@@ -74,7 +73,6 @@ GER_GCW_los_los_los = {
 	}
 	enable = {
 		OR = {
-			tag = HGR
 			tag = SGR
 			tag = BGR
 			tag = GGR
@@ -88,7 +86,6 @@ GER_GCW_los_los_los = {
 	ai_strategy = {
 		type = front_control
 		tag = GGR
-		tag = HGR
 		tag = SGR
 		tag = BGR
 		execution_type = rush
@@ -102,11 +99,7 @@ GER_GCW_los_los_los = {
 		value = 1000
 	}
 
-	ai_strategy = {
-		type = consider_weak
-		id = HGR
-		value = 1000
-	}
+
 
 	ai_strategy = {
 		type = consider_weak
@@ -126,11 +119,7 @@ GER_GCW_los_los_los = {
 		value = 1000
 	}
 
-	ai_strategy = {
-		type = conquer
-		id = HGR
-		value = 1000
-	}
+
 
 	ai_strategy = {
 		type = conquer

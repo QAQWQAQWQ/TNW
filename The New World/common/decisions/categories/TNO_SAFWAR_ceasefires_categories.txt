@@ -21,11 +21,5 @@ SAFWAR_propose_a_ceasefire_category = {
 	visible = {
 		has_global_flag = south_african_war_happening
 		has_global_flag = south_african_war_ceasefires_enabled
-		NOT = {
-			AND = {
-				has_global_flag = german_civil_war_heydrichvic
-				tag = GER
-			}
-		}
 	}
 }

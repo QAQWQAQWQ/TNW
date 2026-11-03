@@ -25,7 +25,6 @@
 #	Bormann Focus Trees
 #	Speer Focus Trees
 #	Göring Focus Trees
-#	Heydrich Focus Trees
 
 ##################################################
 ##=|            General Focus Trees           |=##
@@ -74,17 +73,6 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = GER_goring
-}
-
-## Heydrich Successor
-focus_tree = {
-	id = GER_heydrich_successor
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = GER }
-	}
-	default = no
-	shared_focus = GER_heydrich
 }
 
 ## WW3 Tree
@@ -251,94 +239,3 @@ focus_tree = {
 ##################################################
 
 
-
-##################################################
-##=|           Heydrich Focus Trees           |=##
-##======================| |=====================##
-##################################################
-
-## Heydrich Civil War Tree
-focus_tree = {
-	id = HGR_civil_war
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_burgerkrieg
-}
-
-## Heydrich AI Victory Tree
-### SMALL TREE, OLD ###
-focus_tree = {
-	id = HGR_victory_tree_old
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_our_future_secured_old
-}
-### SMALL TREE, OLD ###
-
-## Heydrich Victory Tree
-focus_tree = {
-	id = HGR_victory_tree
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_victory_tree
-}
-
-## Heydrich Victory Tree, second part
-focus_tree = {
-	id = HGR_victory_tree_bunkers
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_victory_tree
-	shared_focus = HGR_ss_bunkers
-}
-
-## Heydrich Victory Tree, third part
-focus_tree = {
-	id = HGR_victory_tree_bunkers_arsenal
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_victory_tree
-	shared_focus = HGR_ss_bunkers
-	shared_focus = HGR_maximizing_our_arsenal
-}
-
-## Heydrich Victory Tree, fourth part
-focus_tree = {
-	id = HGR_victory_tree_bunkers_arsenal_breakaways
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_victory_tree
-	shared_focus = HGR_ss_bunkers
-	shared_focus = HGR_maximizing_our_arsenal
-	shared_focus = HGR_the_damnable_soldiers
-	shared_focus = HGR_the_pitiful_slaves
-}
-
-## Heydrich Nuclear Struggle Tree
-focus_tree = {
-	id = HGR_nuclear_struggle_tree
-	country = {
-		factor = 0
-		modifier = { add = 10 tag = HGR }
-	}
-	default = no
-	shared_focus = HGR_the_game_begins
-}

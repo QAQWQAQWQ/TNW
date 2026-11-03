@@ -1,4 +1,4 @@
-### Scripted trigger in common\scripted_trigger\TNO_Anarchy_GUI_scripted_trigger.txt ###
+﻿### Scripted trigger in common\scripted_trigger\TNO_Anarchy_GUI_scripted_trigger.txt ###
 
 defined_text = {
 	name = GetAnarchyGUIImage
@@ -8,12 +8,7 @@ defined_text = {
 		}
 		localization_key = "GFX_Anarchy_ZZZ"
 	}
-	text = {
-		trigger = {
-			TNO_anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = "GFX_Anarchy_ZZZ_Heydrich"
-	}
+
 	text = {
 		trigger = {
 			TNO_anarchy_ZZZ_thermonuclear_war = yes
@@ -90,12 +85,7 @@ defined_text = {
 		}
 		localization_key = TNO_Anarchy_ZZZ_tt
 	}
-	text = {
-		trigger = {
-			TNO_anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = TNO_Anarchy_ZZZ_Heydrich_tt
-	}
+
 	text = {
 		trigger = {
 			TNO_anarchy_ZZZ_thermonuclear_war = yes
@@ -167,12 +157,7 @@ defined_text = {
 		}
 		localization_key = TNO_Anarchy_ZZZ_tt_delayed
 	}
-	text = {
-		trigger = {
-			TNO_anarchy_ZZZ_heydrich = yes
-		}
-		localization_key = TNO_Anarchy_ZZZ_Heydrich_tt_delayed
-	}
+
 	text = {
 		trigger = {
 			TNO_anarchy_ZZZ_thermonuclear_war = yes

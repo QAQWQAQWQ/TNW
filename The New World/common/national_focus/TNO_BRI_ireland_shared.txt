@@ -1203,9 +1203,6 @@ shared_focus = {
 	available = {
 		IRE_ST_BilSys_NoBills = yes
 	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
-	}
 	select_effect = {
 		set_variable = { mog_bil_index = 15 }
 		IRE_SE_mog_bil = yes
@@ -2423,75 +2420,7 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus IRE_FT_ask_germany_for_help"
-		if = {
-			limit = {
-				NOT = {
-					has_global_flag = german_civil_war_heydrichvic
-				}
-			}
-			GER = { country_event = IRE_crisis.4 }
-		}
-		else = {
-			custom_effect_tooltip = IRE_get_german_guns.tt
-			hidden_effect = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2400
-					producer = GER
-				}
-				add_equipment_to_stockpile = {
-					type = support_equipment
-					amount = 500
-					producer = GER
-				}
-				if = { 
-					limit = { 
-						has_dlc = "No Step Back"
-					}
-					add_equipment_to_stockpile = {
-						type = IFV_chassis_2
-						amount = 150
-						producer = GER
-						variant_name = "Kanonenjagdpanzer 90"
-					}
-				}
-				else = {
-					add_equipment_to_stockpile = {
-						type = IFV_equipment_2
-						amount = 150
-						producer = GER
-					}
-				}
-				if = { 
-					limit = { 
-						has_dlc = "No Step Back"
-					}
-					add_equipment_to_stockpile = {
-						type = MBT_chassis_1
-						amount = 50
-						producer = GER
-						variant_name = "Panzerkampfwagen X"
-					}
-				}
-				else = {
-					add_equipment_to_stockpile = {
-						type = MBT_equipment_1
-						amount = 50
-						producer = GER
-					}
-				}
-				add_equipment_to_stockpile = {
-					type = fighter_equipment
-					amount = 24
-					producer = GER
-				}
-				add_equipment_to_stockpile = {
-					type = attack_helicopter_equipment_1
-					amount = 60
-					producer = GER
-				}
-			}
-		}
+		GER = { country_event = IRE_crisis.4 }
 	}
 }
 
@@ -3229,12 +3158,7 @@ shared_focus = {
 			econ_leave_sphere = yes
 		}
 		hidden_effect = {
-			if = {
-				limit = {
-					NOT = { has_global_flag = german_civil_war_heydrichvic }
-				}
-				GER = { country_event = IRE_crisis.59 }
-			}
+			GER = { country_event = IRE_crisis.59 }
 			set_country_flag = IRE_CF_AdWil_disabled
 			every_owned_state = {
 				multiply_variable = { state_value = 0.85 }

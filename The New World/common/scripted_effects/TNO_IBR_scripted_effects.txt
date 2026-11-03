@@ -4178,7 +4178,6 @@ IBR_remove_all_ideas = {
 	remove_ideas = Disorderly_Federal_Army
 	remove_ideas = Disorderly_Federal_Army_2
 	remove_ideas = Disorderly_Federal_Army_3
-	remove_ideas = Disorderly_Federal_Army_Heydrich
 	remove_ideas = Disorderly_Federal_Army_notsomuch
 	remove_ideas = Expanded_Guardia_Civil
 	remove_ideas = Formally_Decentralized_Army

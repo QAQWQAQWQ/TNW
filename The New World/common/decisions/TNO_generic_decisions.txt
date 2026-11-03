@@ -1,4 +1,4 @@
-global_debug_decisions = {
+﻿global_debug_decisions = {
 	show_hide_debug_decisions = {
 		icon = {
 			key = GFX_decision_generic_visibility
@@ -566,7 +566,6 @@ global_debug_decisions = {
 				#Annex the other contenders
 				if = { limit = { country_exists = BGR } annex_country = { target = BGR transfer_troops = no } }
 				if = { limit = { country_exists = GGR } annex_country = { target = GGR transfer_troops = no } }
-				if = { limit = { country_exists = HGR } annex_country = { target = HGR transfer_troops = no } }
 			}
 			GER_GCW_conclude = yes
 		}
@@ -587,7 +586,6 @@ global_debug_decisions = {
 				#Annex the other contenders
 				if = { limit = { country_exists = SGR } annex_country = { target = SGR transfer_troops = no } }
 				if = { limit = { country_exists = GGR } annex_country = { target = GGR transfer_troops = no } }
-				if = { limit = { country_exists = HGR } annex_country = { target = HGR transfer_troops = no } }
 			}
 			GER_GCW_conclude = yes
 		}
@@ -608,32 +606,12 @@ global_debug_decisions = {
 				#Annex the other contenders
 				if = { limit = { country_exists = SGR } annex_country = { target = SGR transfer_troops = no } }
 				if = { limit = { country_exists = BGR } annex_country = { target = BGR transfer_troops = no } }
-				if = { limit = { country_exists = HGR } annex_country = { target = HGR transfer_troops = no } }
 			}
 			GER_GCW_conclude = yes
 		}
 	}
 
-	debug_civil_war_germany_HeydrichWins = {
-		icon = GFX_decision_generic_industry_indent
 
-		visible = {
-			has_global_flag = german_civil_war
-			NOT = { has_country_flag = hide_debug_decisions }
-			has_country_flag = conflict_debug_decisions
-		}
-		fire_only_once = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision debug_civil_war_germany_HeydrichWins"
-			HGR = {
-				#Annex the other contenders
-				if = { limit = { country_exists = SGR } annex_country = { target = SGR transfer_troops = no } }
-				if = { limit = { country_exists = GGR } annex_country = { target = GGR transfer_troops = no } }
-				if = { limit = { country_exists = BGR } annex_country = { target = BGR transfer_troops = no } }
-			}
-			GER_GCW_conclude = yes
-		}
-	}
 
 	debug_civil_war_england = {
 		icon = GFX_decision_generic_industry_indent

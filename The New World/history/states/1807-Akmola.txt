@@ -1,4 +1,4 @@
-state = {
+﻿state = {
 	id = 1807
 	name = "STATE_1807"
 
@@ -9,7 +9,6 @@ state = {
 
 	history = {
 		owner = SFR
-		add_core_of = SSF
 		buildings = {
 			infrastructure = 4
 			barracks = 1

@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 	spriteType = {
 		name = "GFX_Antarctica_Decision_GUI_AAG_Entry"
 		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry.dds"
@@ -16,26 +16,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Button.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_TEST"
-		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_Overlay.dds"
-	}
-	spriteType = {
-		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_BO115"
-		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_BO115.dds"
-	}
-	spriteType = {
-		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HO229"
-		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_HO229.dds"
-	}
-	spriteType = {
-		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HOXVIII"
-		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_HOXVIII.dds"
-	}
-	spriteType = {
-		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_ME1110"
-		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_ME1110.dds"
-	}
+
+
+
+
+
 	
 	progressbartype = {
 		name = "GFX_Antarctica_Decision_GUI_AAG_Bar"

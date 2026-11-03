@@ -8,7 +8,6 @@ scripted_gui = {
 		visible = {
 			tag = GER
 			NOT = {
-				has_global_flag = german_civil_war_heydrichvic
 				has_global_flag = german_civil_war_bormannvic
 			}
 		}

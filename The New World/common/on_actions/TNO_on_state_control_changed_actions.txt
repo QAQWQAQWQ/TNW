@@ -1,4 +1,4 @@
-on_actions = {
+﻿on_actions = {
 	on_state_control_changed = {
 		effect = {
 			FROM.FROM = {
@@ -129,97 +129,9 @@ on_actions = {
 
 
 			#############################
-			###   ANTI-HEYDRICH PACT  ###
 			#############################
 			
-			if = {
-				limit = {
-					has_global_flag = german_civil_war
-					NOT = { has_global_flag = anti_heydrich_pact_chain_begins }
-				}
-				if = {
-					limit = {
-						ROOT = { original_tag = HGR }
-						OR = {
-							AND = {
-								# num_of_controlled_states > 6
-								num_of_controlled_states > 11
-								NOT = { 5 = { is_controlled_by = HGR } }
-								NOT = { 85 = { is_controlled_by = HGR } }
-								NOT = { 97 = { is_controlled_by = HGR } }
-								NOT = { 98 = { is_controlled_by = HGR } }
-							}
-							AND = {
-								# num_of_controlled_states > 7
-								num_of_controlled_states > 12
-								count_triggers = {
-									amount = 4
-									NOT = { 5 = { is_controlled_by = HGR } }
-									NOT = { 85 = { is_controlled_by = HGR } }
-									NOT = { 97 = { is_controlled_by = HGR } }
-									NOT = { 98 = { is_controlled_by = HGR } }
-								}
-							}
-							AND = {
-								# num_of_controlled_states > 8
-								num_of_controlled_states > 13
-								count_triggers = {
-									amount = 3
-									NOT = { 5 = { is_controlled_by = HGR } }
-									NOT = { 85 = { is_controlled_by = HGR } }
-									NOT = { 97 = { is_controlled_by = HGR } }
-									NOT = { 98 = { is_controlled_by = HGR } }
-								}
-							}
-							AND = {
-								# num_of_controlled_states > 9
-								num_of_controlled_states > 14
-								count_triggers = {
-									amount = 2
-									NOT = { 5 = { is_controlled_by = HGR } }
-									NOT = { 85 = { is_controlled_by = HGR } }
-									NOT = { 97 = { is_controlled_by = HGR } }
-									NOT = { 98 = { is_controlled_by = HGR } }
-								}
-							}
-							AND = {
-								# num_of_controlled_states > 10
-								num_of_controlled_states > 15
-								count_triggers = {
-									amount = 1
-									NOT = { 5 = { is_controlled_by = HGR } }
-									NOT = { 85 = { is_controlled_by = HGR } }
-									NOT = { 97 = { is_controlled_by = HGR } }
-									NOT = { 98 = { is_controlled_by = HGR } }
-								}
-							}
-							AND = {
-								# num_of_controlled_states > 11
-								num_of_controlled_states > 16
-								5 = { is_controlled_by = HGR }
-								85 = { is_controlled_by = HGR }
-								97 = { is_controlled_by = HGR }
-								98 = { is_controlled_by = HGR }
-							}
-						}
-						count_triggers = {
-							amount > 1
-							country_exists = BGR
-							country_exists = GGR
-							country_exists = SGR
-						}
-					}
-					if = {
-						limit = { country_exists = SGR }
-						SGR = { country_event = speer.16 }
-					}
-					else_if = {
-						limit = { country_exists = BGR }
-						BGR = { country_event = bormann.9 }
-					}
-					set_global_flag = anti_heydrich_pact_chain_begins
-				}
-			}
+
 
 			###############################
 			###   Mongolian Civil War   ###

@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	spriteType = {
 		name = "GFX_TT_Jamaica_Sidebar"
@@ -1172,15 +1172,9 @@ spriteTypes = {
 
 	## Subcontinental Crisis ##
 
-	spriteType = {
-		name = "GFX_subcontinental_crisis_topbar_image_1"
-		textureFile = "gfx/interface/proxy_wars/subcontinental_crisis/pic_buildup_phase.dds"
-	}
 
-	spriteType = {
-		name = "GFX_subcontinental_crisis_topbar_image_2"
-		textureFile = "gfx/interface/proxy_wars/subcontinental_crisis/pic_confrontation_phase.dds"
-	}
+
+
 
 	progressbartype = {
 		name = "GFX_subcontinental_crisis_readiness_opposing_bar"
@@ -1196,15 +1190,9 @@ spriteTypes = {
 	
 	## Channel Crisis ##
 
-	spriteType = {
-		name = "GFX_channel_crisis_topbar_image_1"
-		textureFile = "gfx/interface/proxy_wars/channel_crisis/pic_buildup_phase.dds"
-	}
 
-	spriteType = {
-		name = "GFX_channel_crisis_topbar_image_2"
-		textureFile = "gfx/interface/proxy_wars/channel_crisis/pic_confrontation_phase.dds"
-	}
+
+
 
 	spriteType = {
 		name = "GFX_channel_crisis_readiness_frame"

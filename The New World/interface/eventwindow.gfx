@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	spriteType = {
 		name = "GFX_report_event_001"
@@ -10,20 +10,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_001.dds"
 	}
 
-	spriteType = {
-		name = "GFX_event_news_pic_overlay"
-		texturefile = "gfx/interface/event_news_pic_overlay.dds"
-	}
+
 
 	spriteType = {
 		name = "GFX_event_news_bg"
 		texturefile = "gfx/interface/event_news_bg.dds"
 	}
 
-	spriteType = {
-		name = "GFX_event_pic_clip"
-		texturefile = "gfx/interface/event_pic_clip.dds"
-	}
+
 
 	spriteType = {
 		name = "GFX_event_option_entry"

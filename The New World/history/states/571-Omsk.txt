@@ -1,4 +1,4 @@
-state = { #Population Done
+﻿state = { #Population Done
 	id = 571
 	name = "STATE_571" # Omsk
 	manpower = 1283000
@@ -18,8 +18,6 @@ state = { #Population Done
 		victory_points = { 10696 25 }
 		victory_points = { 4700 1 }
 		victory_points = { 10568 3 }
-
-		add_core_of = SSF
 	}
 
 	resources = {

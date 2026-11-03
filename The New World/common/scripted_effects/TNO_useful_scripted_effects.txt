@@ -1216,9 +1216,7 @@ remove_faction_status = {
 			Pakt_Marionettenstaat
 			Pakt_Mitstreiter
 			Pakt_Bundnispartner
-			Pakt_Ordensstaat
 			Pakt_Observer
-			Anti_Heydrich_Pact
 			Sphere_Leader
 			Sphere_Core_Member
 			Sphere_Chinese_Warlord

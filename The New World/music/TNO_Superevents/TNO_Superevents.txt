@@ -556,13 +556,6 @@ music = {
 }
 
 music = {
-	song = "TNO_SE_BURGUNDIAN_SPRING"
-	chance = {
-		modifier = { factor = 0 }
-	}
-}
-
-music = {
 	song = "TNO_SE_FRENCH_RECLAMATION"
 	chance = {
 		modifier = { factor = 0 }

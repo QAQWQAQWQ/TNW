@@ -814,7 +814,7 @@ shared_focus = {
 
 shared_focus = {
 	id = UKR_expand_kampfgrupe_ohlendorf
-	icon = GFX_focus_HGR_waffen_ss
+	icon = GFX_focus_generic_call_the_council_to_order
 	cost = 3
 	x = -1
 	y = 1
@@ -1536,7 +1536,7 @@ shared_focus = {
 
 shared_focus = {
 	id = UKR_utilize_spare_divisions
-	icon = GFX_focus_HGR_fight_for_survival
+	icon = GFX_focus_GER_the_steel_fist
 	cost = 2
 	x = 2
 	y = 1
@@ -1565,7 +1565,7 @@ shared_focus = {
 
 shared_focus = {
 	id = UKR_mobilize_the_kampfgruppe
-	icon = GFX_focus_HGR_keep_our_ss_strong
+	icon = GFX_focus_generic_an_army_of_nightmares
 	cost = 2
 	x = -2
 	y = 1
@@ -2164,4 +2164,3 @@ shared_focus = {
 	relative_position_id = UKR_a_nation_without_kings
 	prerequisite = { focus = UKR_a_nation_without_kings }
 }
-

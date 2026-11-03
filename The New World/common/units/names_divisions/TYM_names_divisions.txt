@@ -40,8 +40,6 @@ TYM_Infantry = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dya Strelkovaya Diviziya"
 
 	# Names with numbers (only one number per entry).
@@ -485,8 +483,6 @@ TYM_Conscripts = {
 	division_types = { "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dye Krasnogvardeyskoye Opolcheniye"
 
 	# Names with numbers (only one number per entry).

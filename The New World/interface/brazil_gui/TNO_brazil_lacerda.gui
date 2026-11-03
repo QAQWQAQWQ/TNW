@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 
 	###############################################################
 	########            Lacerda Coup Mechanic              ########
@@ -41,14 +41,12 @@ guiTypes = {
 				buttonType = {
 					name = "add_mil_torch_button"
 					position = { x = 40 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_add_mil_torch_tt
 				}
 				buttonType = {
 					name = "sub_mil_torch_button"
 					position = { x = 0 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_sub_mil_torch_tt
 				}
@@ -82,14 +80,12 @@ guiTypes = {
 				buttonType = {
 					name = "add_govt_torch_button"
 					position = { x = 40 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_add_govt_torch_tt
 				}
 				buttonType = {
 					name = "sub_govt_torch_button"
 					position = { x = 0 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_sub_govt_torch_tt
 				}
@@ -122,14 +118,12 @@ guiTypes = {
 				buttonType = {
 					name = "add_voter_torch_button"
 					position = { x = 40 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_add_voter_torch_tt
 				}
 				buttonType = {
 					name = "sub_voter_torch_button"
 					position = { x = 0 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_sub_voter_torch_tt
 				}
@@ -163,14 +157,12 @@ guiTypes = {
 				buttonType = {
 					name = "add_usa_torch_button"
 					position = { x = 40 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_add_usa_torch_tt
 				}
 				buttonType = {
 					name = "sub_usa_torch_button"
 					position = { x = 0 y = 163 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.5
 					pdx_tooltip = BRA_lacerda_sub_usa_torch_tt
 				}

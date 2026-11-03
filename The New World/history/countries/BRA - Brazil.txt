@@ -1,4 +1,4 @@
-capital = 1489
+﻿capital = 1489
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
@@ -57,7 +57,6 @@ ARG = { add_opinion_modifier = { target = BRA modifier = SOUTHAM_ARG_BRA_south_a
 set_variable = { trade_opinion_embargo@GER = 1 }
 set_variable = { trade_opinion_embargo@GGR = 1 }
 set_variable = { trade_opinion_embargo@BGR = 1 }
-set_variable = { trade_opinion_embargo@HGR = 1 }
 set_variable = { trade_opinion_embargo@SGR = 1 }
 set_variable = { trade_opinion_embargo@CZE = 1 }
 set_variable = { trade_opinion_embargo@GGN = 1 }

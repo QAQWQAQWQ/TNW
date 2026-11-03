@@ -1,4 +1,4 @@
-BRA_national_school_expansion_law
+﻿BRA_national_school_expansion_law
 schools
 BRA_social_security_reform_act_law
 offices
@@ -1849,8 +1849,6 @@ GER_Path_Intro
 GER_Path_Bormann
 GER_Path_Speer
 GER_Path_Goring
-GER_Path_Himmler
-GER_Path_Heydrich
 kartenhaus_interaction_support_effect
 SE_RUSSIAN_REUNIFICATION_FATHER_MEN
 SE_RUSSIAN_REUNIFICATION_VYATKA_LIBDEM
@@ -1966,7 +1964,6 @@ Alert_HighTension
 Espionage_CIA
 Espionage_Dulles
 Espionage_Hoover
-Espionage_Heydrich
 Alert_KartenhausLowControl
 control_effects_multiplier
 resistance_effects_multiplier
@@ -2016,8 +2013,6 @@ GER_karl_gerland
 GER_hans_speidel
 GER_ferdinand_schorner
 GER_erich_topp
-GER_heinrich_himmler
-GER_reinhard_heydrich
 GER_justus_beyer
 GER_heinz_reinefarth
 GER_heinrich_muller

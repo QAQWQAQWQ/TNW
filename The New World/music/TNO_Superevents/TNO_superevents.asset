@@ -400,11 +400,6 @@ music = {
 }
 
 music = {
-	name = "TNO_SE_BURGUNDIAN_SPRING"
-	file = "tno_se_burgundian_spring.ogg"
-}
-
-music = {
 	name = "TNO_SE_FRENCH_RECLAMATION"
 	file = "tno_se_french_reclamation.ogg"
 }

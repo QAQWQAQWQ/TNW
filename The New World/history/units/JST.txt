@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Waffen-SS"
-	division_names_group = HGR_waffen
+	division_names_group = GER_waffen
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -19,7 +19,7 @@
 
 division_template = {
 	name = "Schutzstaffel-Infanterie"
-	division_names_group = HGR_infantry
+	division_names_group = GER_infantry
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }

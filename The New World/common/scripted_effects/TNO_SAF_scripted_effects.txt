@@ -608,7 +608,6 @@ SAF_end_pakt_trade = {
 		GER = { set_embargo_PREV = yes }
 		GGR = { set_embargo_PREV = yes }
 		BGR = { set_embargo_PREV = yes }
-		HGR = { set_embargo_PREV = yes }
 		SGR = { set_embargo_PREV = yes }
 		CZE = { set_embargo_PREV = yes }
 		GGN = { set_embargo_PREV = yes }

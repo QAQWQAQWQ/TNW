@@ -137,11 +137,6 @@ entity = {
 	}
 	scale = 0.6
 }
-entity = {
-	name = "Unimog_BRG_vehicle_entity"
-	pdxmesh = "Unimog_BRG_mesh"
-	clone = "Unimog_vehicle_entity"
-}
 
 entity = {
 	name = "Kettenkrad_vehicle_entity"
@@ -712,26 +707,8 @@ entity = {
 	attach = { name = "infantry"		infantry = "DRL_vehicle_infantry_entity" }
 }
 
-##########BRG MOT MECH##########
-entity = {
-	name = "BRG_APC_entity"
-	clone = "SpzLang_APC_entity"
-	pdxmesh = "SpzLang_BRG_APC_mesh"
-}
 
-entity = {
-	name = "BRG_vehicle_infantry_entity"
-	clone = "BRG_infantry_2_entity"
-	scale = 0.8
-}
 
-entity = {
-	name = "BRG_motorized_entity"
-	clone = "generic_motorized_frame_entity"
-
-	attach = { name = "vehicle"			vehicle = "Unimog_BRG_vehicle_entity" }
-	attach = { name = "infantry"		infantry = "BRG_vehicle_infantry_entity" }
-}
 
 ######################
 #
@@ -1997,51 +1974,9 @@ entity = {
 	attach = { name = "infantry"		infantry = "SGR_vehicle_infantry_entity" }
 }
 
-##########HGR MOT MECH##########
-entity = {
-	name = "HGR_APC_entity"
-	clone = "generic_motorized_frame_entity"
 
-	attach = { name = "vehicle"			vehicle = "HGR_APC_vehicle_entity" }
-	attach = { name = "infantry"		infantry = "HGR_vehicle_infantry_entity" }
-}
 
-entity = {
-	name = "HGR_APC_vehicle_entity"
-	pdxmesh = "SdKfz2345_mesh"
 
-	state = { name = "idle"				animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "retreat"			animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	state = { name = "death"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "support_attack"	animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "attack"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "defend"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "training"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "move"				animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	scale = 0.6
-}
-
-entity = {
-	name = "HGR_vehicle_infantry_entity"
-	clone = "HGR_infantry_2_entity"
-	scale = 0.8
-}
-
-entity = {
-	name = "HGR_motorized_entity"
-	clone = "generic_motorized_frame_entity"
-
-	attach = { name = "vehicle"			vehicle = "Unimog_vehicle_entity" }
-	attach = { name = "infantry"		infantry = "HGR_vehicle_infantry_entity" }
-}
 
 ##########GGR MOT MECH##########
 entity = {
@@ -3963,28 +3898,6 @@ entity = {
 	attach = { name = "infantry"		infantry = "GRO_REICHSSTAAT_vehicle_infantry_entity" }
 }
 
-entity = {
-	name = "GRO_REICHSSTAAT_APC_vehicle_entity"
-	pdxmesh = "SdKfz2345_BRG_mesh"
-
-	state = { name = "idle"				animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "retreat"			animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	state = { name = "death"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "support_attack"	animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "attack"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "defend"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "training"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "move"				animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	scale = 0.6
-}
 
 entity = {
 	name = "GRO_REICHSSTAAT_vehicle_infantry_entity"
@@ -3992,40 +3905,7 @@ entity = {
 	scale = 0.8
 }
 
-entity = {
-	name = "GRO_REICHSSTAAT_motorized_entity"
-	clone = "generic_motorized_frame_entity"
 
-	attach = { name = "vehicle"			vehicle = "Unimog_BRG_vehicle_entity" }
-	attach = { name = "infantry"		infantry = "GRO_REICHSSTAAT_vehicle_infantry_entity" }
-}
-
-entity = {
-	name = "GRO_REICHSSTAAT_motorized_vehicle_entity"
-	pdxmesh = "Unimog_BRG_mesh"
-
-	state = { name = "idle"				animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "retreat"			animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	state = { name = "death"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "support_attack"	animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "attack"			animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	state = { name = "defend"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "training"			animation = "idle"					animation_blend_time = 0.3 animation_speed = 1.0 }
-	state = { name = "move"				animation = "move"					animation_blend_time = 0.3 animation_speed = 1.0
-		event = { time = 0 node = "left_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { time = 0 node = "right_wheel" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
-		event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
-	}
-	scale = 0.6
-}
 
 entity = {
 	clone = "GRO_REICHSSTAAT_motorized_entity"

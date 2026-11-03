@@ -1,4 +1,4 @@
-load_focus_tree = ZZZ_national_focus #If you touch this the bookmark gets fucked
+﻿load_focus_tree = ZZZ_national_focus #If you touch this the bookmark gets fucked
 capital = 1511
 
 #GDP Regional distribution
@@ -44,7 +44,6 @@ recruit_character = ARG_Juan_Carlos_Ongania
 set_variable = { trade_opinion_embargo@GER = 1 }
 set_variable = { trade_opinion_embargo@GGR = 1 }
 set_variable = { trade_opinion_embargo@BGR = 1 }
-set_variable = { trade_opinion_embargo@HGR = 1 }
 set_variable = { trade_opinion_embargo@SGR = 1 }
 set_variable = { trade_opinion_embargo@CZE = 1 }
 set_variable = { trade_opinion_embargo@GGN = 1 }

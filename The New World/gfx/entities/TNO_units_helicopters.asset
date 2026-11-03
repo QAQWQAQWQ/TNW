@@ -188,18 +188,6 @@ entity = {
 	attach = { name = "infantry"		infantry = "SGR_air_assault_infantry_entity" }
 }
 
-entity = {
-	name = "HGR_air_assault_infantry_entity"
-	pdxmesh = "HGR_air_assault_semi_mesh"
-	clone = "GER_air_assault_infantry_entity"
-}
-entity = {
-	name = "HGR_air_assault_entity"
-	clone = "generic_attack_heli_frame_entity"
-
-	attach = { name = "vehicle"			vehicle = "BO115_helicopter_entity" }
-	attach = { name = "infantry"		infantry = "HGR_air_assault_infantry_entity" }
-}
 
 entity = {
 	name = "CRN_air_assault_infantry_entity"

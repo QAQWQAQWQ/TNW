@@ -193,11 +193,6 @@ music = {
 }
 
 music = {
-	song = tno_song_burgundian_lullaby
-	chance = { factor = 1 }
-}
-
-music = {
 	song = tno_song_carpet_bombing
 	chance = { factor = 1 }
 }

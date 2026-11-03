@@ -13,7 +13,6 @@
  debug_civil_war_germany_SpeerWins:0 "    Force Speer Victory"
  debug_civil_war_germany_BormannWins:0 "    Force Bormann Victory"
  debug_civil_war_germany_GoeringWins:0 "    Force Goering Victory"
- debug_civil_war_germany_HeydrichWins:0 "    Force Heydrich Victory"
  debug_civil_war_england:0 "    Ignite English Civil War"
  debug_saf_war_bor_only:0 "    Start South African War (Boer Republics only)"
  debug_saf_war_bor_anc:0 "    Start South African War (Boer Republics and ANC)"

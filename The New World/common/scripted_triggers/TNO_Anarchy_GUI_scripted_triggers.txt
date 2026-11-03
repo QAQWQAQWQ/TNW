@@ -1,7 +1,6 @@
 TNO_is_anarchy_visible = {
 	OR = {
 		TNO_anarchy_ZZZ_default = yes
-		TNO_anarchy_ZZZ_heydrich = yes
 		TNO_anarchy_ZZZ_thermonuclear_war = yes
 		TNO_anarchy_OMO_default = yes
 		TNO_anarchy_NRL_default = yes
@@ -18,13 +17,6 @@ TNO_is_anarchy_visible = {
 
 TNO_anarchy_ZZZ_default = {
 	original_tag = ZZZ
-	NOT = { has_global_flag = TNO_Heydrich_Anarchy }
-	NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
-}
-
-TNO_anarchy_ZZZ_heydrich = {
-	original_tag = ZZZ
-	has_global_flag = TNO_Heydrich_Anarchy
 	NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
 }
 

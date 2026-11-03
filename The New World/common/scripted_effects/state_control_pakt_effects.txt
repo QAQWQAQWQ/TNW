@@ -28,27 +28,6 @@ state_control_effect_6 = { #Flanders
 			set_province_name = { id = 6560 name = VICTORY_POINTS_6560_hol_flr }
 		}
 	}
-	else_if = {
-		limit = {
-			is_controlled_by = FLR
-		}
-		reset_province_name = 3576
-		reset_province_name = 6446
-		reset_province_name = 6560
-		reset_province_name = 6598
-		reset_province_name = 18111
-		reset_province_name = 13068
-		if = {
-			limit = {
-				controller = { has_global_flag = TNO_endonym_mode }
-			}
-			set_state_name = STATE_6_hol_flr
-			set_province_name = { id = 3576 name = VICTORY_POINTS_3576_flr }
-			set_province_name = { id = 6446 name = VICTORY_POINTS_6446_flr }
-			set_province_name = { id = 6560 name = VICTORY_POINTS_6560_hol_flr }
-			set_province_name = { id = 18116 name = VICTORY_POINTS_18116_flr }
-		}
-	}
 	else = {
 		reset_state_name = yes
 		reset_province_name = 3576
@@ -581,25 +560,6 @@ state_control_effect_774 = {
 }
 #FRA/FRS
 state_control_effect_15 = {
-	if = {
-		limit = {
-			OR = {
-				is_controlled_by = PIC
-				is_controlled_by = FLR
-				AND = {
-					is_controlled_by = BEL
-					BEL = {
-						has_government = ultranationalism
-					}
-				}
-			}
-		}
-		if = {
-			limit = { has_global_flag = TNO_exonym_mode }
-			reset_state_name = yes
-		}
-		else = { set_state_name = STATE_15_ger_fra }
-	}
 	else_if = {
 		limit = {
 			NOT = { has_global_flag = TNO_exonym_mode }

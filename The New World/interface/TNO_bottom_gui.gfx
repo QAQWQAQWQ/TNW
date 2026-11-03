@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	spriteType = {
 		name = "GFX_zollverein_crt_icon"
@@ -18,11 +18,7 @@ spriteTypes = {
 		noOfFrames = 2
 	}	
 	
-	spriteType = {
-		name = "GFX_heydrich_nukes_crt_icon"
-		texturefile = "gfx/interface/bottom_gui/heydrich_nukes_crt_icon.dds"
-		noOfFrames = 2
-	}
+
 
 	spriteType = {
 		name = "GFX_breadbasket_crt_icon"

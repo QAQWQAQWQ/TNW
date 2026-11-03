@@ -1,4 +1,4 @@
-SpriteTypes = {
+﻿SpriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_GER_a_better_light_to_stand_in"
 		texturefile = "gfx/interface/goals/GER/focus_GER_a_better_light_to_stand_in.dds"
@@ -539,10 +539,7 @@ SpriteTypes = {
 		name = "GFX_focus_GER_democracy_victory"
 		texturefile = "gfx/interface/goals/GER/focus_GER_democracy_victory.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_GER_denounce_himmler"
-		texturefile = "gfx/interface/goals/GER/focus_GER_denounce_himmler.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_focus_GER_dens_of_degeneracy"
 		texturefile = "gfx/interface/goals/GER/focus_GER_dens_of_degeneracy.dds"
@@ -563,10 +560,7 @@ SpriteTypes = {
 		name = "GFX_focus_GER_der_burgerkrieg_goering"
 		texturefile = "gfx/interface/goals/GER/focus_GER_der_burgerkrieg_goering.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_GER_der_burgerkrieg_heydrich"
-		texturefile = "gfx/interface/goals/GER/focus_GER_der_burgerkrieg_heydrich.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_focus_GER_der_burgerkrieg_speer"
 		texturefile = "gfx/interface/goals/GER/focus_GER_der_burgerkrieg_speer.dds"
@@ -999,10 +993,7 @@ SpriteTypes = {
 		name = "GFX_focus_GER_hatred_begets_love"
 		texturefile = "gfx/interface/goals/GER/focus_GER_hatred_begets_love.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_GER_heydrich"
-		texturefile = "gfx/interface/goals/GER/focus_GER_heydrich.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_focus_GER_his_corrupt_enablers"
 		texturefile = "gfx/interface/goals/GER/focus_GER_his_corrupt_enablers.dds"
@@ -1039,10 +1030,7 @@ SpriteTypes = {
 		name = "GFX_focus_GER_hot_wind_blowing"
 		texturefile = "gfx/interface/goals/GER/focus_GER_hot_wind_blowing.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_GER_i_am_heydrich"
-		texturefile = "gfx/interface/goals/GER/focus_GER_i_am_heydrich.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_focus_GER_in_his_hands"
 		texturefile = "gfx/interface/goals/GER/focus_GER_in_his_hands.dds"
@@ -1783,10 +1771,7 @@ SpriteTypes = {
 		name = "GFX_focus_GER_send_everything"
 		texturefile = "gfx/interface/goals/GER/focus_GER_send_everything.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_GER_send_in_heydrich"
-		texturefile = "gfx/interface/goals/GER/focus_GER_send_in_heydrich.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_focus_GER_send_whats_left"
 		texturefile = "gfx/interface/goals/GER/focus_GER_send_whats_left.dds"
@@ -2579,300 +2564,78 @@ SpriteTypes = {
 		name = "GFX_focus_GER_this_isnt_working"
 		texturefile = "gfx/interface/goals/GER/focus_GER_this_isnt_working.dds"
 	}
-	SpriteType = {
-		name = "GFX_focus_HGR_actually_promise_not_to_kill_them"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_actually_promise_not_to_kill_them.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_all_eyes_on_heydrich"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_all_eyes_on_heydrich.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_allies_abroad"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_allies_abroad.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_barbie"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_barbie.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_black_sun_rising"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_black_sun_rising.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_bury_the_hatchet"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_bury_the_hatchet.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_careful_balance_of_trust"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_careful_balance_of_trust.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_contact_the_guerrillas"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_contact_the_guerrillas.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_degrelle_gambit"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_degrelle_gambit.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_dietrich"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_dietrich.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_do_it_for_germany"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_do_it_for_germany.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_do_it_for_us"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_do_it_for_us.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_do_it_for_you"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_do_it_for_you.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_donitz"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_donitz.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_eichmann"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_eichmann.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_eicke"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_eicke.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_encourage_recruitment"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_encourage_recruitment.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_enemies_closer"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_enemies_closer.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_expanding_the_inner_circle"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_expanding_the_inner_circle.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_expose_himmlers_treachery"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_expose_himmlers_treachery.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_fegelein"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_fegelein.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_feldmeijer"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_feldmeijer.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_fieldorf"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_fieldorf.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_fight_for_survival"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_fight_for_survival.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_friends_close"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_friends_close.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_gehlen"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_gehlen.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_german_ss"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_german_ss.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_glory_days"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_glory_days.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_halder"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_halder.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_hanke"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_hanke.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_henlein"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_henlein.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_in_this_together"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_in_this_together.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_josias"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_josias.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_kaltenbrunner"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_kaltenbrunner.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_keep_our_ss_strong"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_keep_our_ss_strong.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_keep_the_himmlerites_loyal"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_keep_the_himmlerites_loyal.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_keep_the_military_sated"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_keep_the_military_sated.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_keep_the_moderates_assuaged"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_keep_the_moderates_assuaged.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_keep_the_untermensch_quiet"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_keep_the_untermensch_quiet.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_klingenberg"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_klingenberg.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_kommandostaat"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_kommandostaat.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_laine"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_laine.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_lebensraum_for_lebensborn"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_lebensraum_for_lebensborn.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_loyalty_to_heydrich"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_loyalty_to_heydrich.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_mohnke"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_mohnke.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_nuclear_option"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_nuclear_option.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_nuke_skull"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_nuke_skull.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_only_brass_tacks_left"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_only_brass_tacks_left.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_over_the_mountains_high"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_over_the_mountains_high.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_peiper"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_peiper.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_promise_not_to_kill_them"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_promise_not_to_kill_them.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_purify_where_we_can_find_it"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_purify_where_we_can_find_it.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_purity"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_purity.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_purity_in_the_reich_forevermore"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_purity_in_the_reich_forevermore.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_pushed_on_knifepoint"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_pushed_on_knifepoint.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_remer"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_remer.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_rewards_for_loyalists"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_rewards_for_loyalists.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_skorzeny"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_skorzeny.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_slave_uprising"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_slave_uprising.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_ss_divisions"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_ss_divisions.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_steiner"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_steiner.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_steinhoff"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_steinhoff.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_stretch_our_support"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_stretch_our_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_talk"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_talk.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_the_core"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_the_core.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_the_game_begins"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_the_game_begins.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_the_kommisariat"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_the_kommisariat.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_the_true_soliders"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_the_true_soliders.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_three_thousend_spartans"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_three_thousend_spartans.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_transfer_out_slaves"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_transfer_out_slaves.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_under_the_fist"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_under_the_fist.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_victory_or_death"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_victory_or_death.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_vituska"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_vituska.dds"
-	}
-	SpriteType = {
-		name = "GFX_focus_HGR_waffen_ss"
-		texturefile = "gfx/interface/goals/HGR/focus_HGR_waffen_ss.dds"
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

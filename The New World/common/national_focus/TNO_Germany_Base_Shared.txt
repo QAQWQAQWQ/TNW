@@ -1,4 +1,4 @@
-### Game Start Tree ###
+﻿### Game Start Tree ###
 shared_focus = {
 	id = GER_a_man_on_the_moon
 	icon = GFX_focus_GER_a_man_on_the_moon
@@ -366,7 +366,6 @@ shared_focus = {
 		focus = GER_a_bridge_too_far
 	}
 	mutually_exclusive = {
-		focus = GER_send_in_heydrich
 	}
 	x = 10
 	y = 4
@@ -392,49 +391,6 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GER_expand_the_orpo"
 		custom_effect_tooltip = GER_expand_the_orpo_tooltip
-		hidden_effect = {
-			GER = {
-				country_event = { id = reich.567 }
-			}
-		}
-	}
-}
-shared_focus = {
-	id = GER_send_in_heydrich
-	icon = GFX_focus_GER_send_in_heydrich
-	cost = 5
-	prerequisite = {
-		focus = GER_a_bridge_too_far
-	}
-	mutually_exclusive = {
-		focus = GER_a_war_of_attrition
-	}
-	x = 12
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_send_in_heydrich"
-		custom_effect_tooltip = GER_send_in_heydrich_tooltip
-		custom_effect_tooltip = GER_send_in_heydrich_tooltip_2
-		hidden_effect = {
-			GER = {
-				country_event = { id = reich.567 }
-			}
-		}
-	}
-}
-shared_focus = {
-	id = GER_ss_scapegoats
-	icon = GFX_focus_GER_ss_scapegoats
-	cost = 5
-	prerequisite = {
-		focus = GER_send_in_heydrich
-	}
-	x = 12
-	y = 5
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_ss_scapegoats"
-		custom_effect_tooltip = GER_ss_scapegoats_tooltip
-		custom_effect_tooltip = GER_ss_scapegoats_tooltip_2
 		hidden_effect = {
 			GER = {
 				country_event = { id = reich.567 }
@@ -724,23 +680,6 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = GER_remind_them_of_heydrichs_bloodlust
-	icon = GFX_focus_GER_heydrich
-	cost = 5
-	prerequisite = {
-		focus = GER_expose_speers_hypocrisy
-	}
-	x = 3
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_remind_them_of_heydrichs_bloodlust"
-		add_popularity = {
-			ideology = national_socialism
-			popularity = 0.05
-		}
-	}
-}
-shared_focus = {
 	id = GER_challenge_gorings_competence
 	icon = GFX_focus_GER_go_with_goring
 	cost = 5
@@ -774,7 +713,6 @@ shared_focus = {
 	icon = GFX_focus_generic_prepare_the_blackmail
 	cost = 5
 	prerequisite = {
-		focus = GER_remind_them_of_heydrichs_bloodlust
 	}
 	prerequisite = {
 		focus = GER_the_greatest_threat_is_indecisiveness
@@ -1702,255 +1640,6 @@ shared_focus = {
 	}
 }
 
-### Heydrich Successor Tree ###
-shared_focus = {
-	id = GER_heydrich
-	icon = GFX_focus_GER_heydrich
-	cost = 5
-	allow_branch = {
-		has_country_flag = heydrich_for_germany
-	}
-	bypass = {
-		has_country_flag = heydrich_for_germany
-	}
-	x = 6
-	y = 0
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_heydrich"
-		custom_effect_tooltip = GER_heydrich_chosen
-	}
-}
-shared_focus = {
-	id = GER_crush_the_protesters
-	icon = GFX_focus_generic_antagonize_liberalism
-	cost = 5
-	prerequisite = {
-		focus = GER_heydrich
-	}
-	x = 6
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_crush_the_protesters"
-		country_event = { id = HGR_successor.1 }
-		add_political_power = 100
-		add_manpower = -100
-		TNO_improve_public_meetings_policy_effectiveness_low = yes
-	}
-}
-shared_focus = {
-	id = GER_smile_beside_hitler
-	icon = GFX_focus_GER_hitler_cult
-	cost = 5
-	prerequisite = {
-		focus = GER_crush_the_protesters
-	}
-	x = 4
-	y = 2
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_smile_beside_hitler"
-		GER_increase_legitimacy_small_heydrich = yes
-		country_event = { id = HGR_successor.2 }
-		add_stability = 0.15
-	}
-}
-shared_focus = {
-	id = GER_implicate_the_militarists
-	icon = GFX_goal_generic_political_pressure
-	cost = 5
-	prerequisite = {
-		focus = GER_smile_beside_hitler
-	}
-	x = 3
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_implicate_the_militarists"
-		add_timed_idea = {
-			idea = GER_HGR_militarists_framed
-			days = 60
-		}
-	}
-}
-shared_focus = {
-	id = GER_shoot_the_liberals
-	icon = GFX_focus_generic_snuff_out_liberalism
-	cost = 5
-	prerequisite = {
-		focus = GER_implicate_the_militarists
-	}
-	x = 3
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_shoot_the_liberals"
-		add_timed_idea = {
-			idea = GER_HGR_students_quelled
-			days = 60
-		}
-	}
-}
-shared_focus = {
-	id = GER_intimidate_the_politicians
-	icon = GFX_focus_GER_some_are_more_german_than_others
-	cost = 5
-	prerequisite = {
-		focus = GER_smile_beside_hitler
-	}
-	x = 5
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_intimidate_the_politicians"
-		add_timed_idea = {
-			idea = GER_HGR_politicians_silenced
-			days = 60
-		}
-		TNO_improve_political_parties_policy_effectiveness_low = yes
-	}
-}
-shared_focus = {
-	id = GER_expel_the_ambassadors
-	icon = GFX_focus_GER_reform_fascism
-	cost = 5
-	prerequisite = {
-		focus = GER_intimidate_the_politicians
-	}
-	x = 5
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_expel_the_ambassadors"
-		add_timed_idea = {
-			idea = GER_HGR_ambassadors_expelled
-			days = 60
-		}
-		set_temp_variable = { tension_WT = 5 }
-		set_temp_variable = { tension_superpower_1 = GER }
-		set_temp_variable = { tension_superpower_2 = USA }
-		TNO_change_tension = yes
-
-		set_temp_variable = { tension_WT = 5 }
-		set_temp_variable = { tension_superpower_1 = GER }
-		set_temp_variable = { tension_superpower_2 = JAP }
-		TNO_change_tension = yes
-	}
-}
-shared_focus = {
-	id = GER_dissolve_the_reichstag
-	icon = GFX_focus_GER_new_rules_new_reichstag
-	cost = 5
-	prerequisite = {
-		focus = GER_shoot_the_liberals
-	}
-	prerequisite = {
-		focus = GER_expel_the_ambassadors
-	}
-	x = 4
-	y = 5
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_dissolve_the_reichstag"
-		country_event = { id = HGR_successor.4 }
-		hidden_effect = {
-			swap_ideas = {
-				remove_idea = tno_vote_franchise_registered_voting
-				add_idea = tno_vote_franchise_no_voting
-			}
-		}
-		effect_tooltip = {
-			swap_ideas = {
-				remove_idea = tno_vote_franchise_registered_voting_dummy
-				add_idea = tno_vote_franchise_no_voting_dummy
-			}
-		}
-		TNO_worsen_vote_franchise_policy_effectiveness_high = yes
-		TNO_worsen_vote_franchise_policy_effectiveness_monthly_high = yes
-	}
-}
-shared_focus = {
-	id = GER_mobilize_the_ss
-	icon = GFX_focus_HGR_waffen_ss
-	cost = 5
-	prerequisite = {
-		focus = GER_crush_the_protesters
-	}
-	x = 8
-	y = 2
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_mobilize_the_ss"
-		GER_increase_legitimacy_small_heydrich = yes
-		country_event = { id = HGR_successor.3 }
-		HGR = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_equipment_to_stockpile = {
-					type = MBT_chassis_1
-					amount = 250
-					producer = GER
-					variant_name = "Panzerkampfwagen X"
-				}
-			}
-			else = {
-				add_equipment_to_stockpile = {
-					type = MBT_equipment_1
-					amount = 250
-					producer = GER
-				}
-			}
-		}
-	}
-}
-
-
-shared_focus = {
-	id = GER_redeploy_the_heer
-	icon = GFX_focus_GER_thousand_year_volk
-	cost = 5
-	prerequisite = {
-		focus = GER_mobilize_the_ss
-	}
-	x = 9
-	y = 3
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_redeploy_the_heer"
-		add_manpower = -1000
-		send_equipment = {
-			equipment = support_equipment
-			amount = 500
-			target = HGR
-		}
-	}
-}
-shared_focus = {
-	id = GER_pressure_the_kriegsmarine
-	icon = GFX_focus_GER_kriegsmarine
-	cost = 5
-	prerequisite = {
-		focus = GER_redeploy_the_heer
-	}
-	x = 9
-	y = 4
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_pressure_the_kriegsmarine"
-		add_timed_idea = {
-			idea = GER_HGR_kriegsmarine_pressure
-			days = 60
-		}
-	}
-}
-shared_focus = {
-	id = GER_cripple_communications
-	icon = GFX_focus_GER_international_communication
-	cost = 5
-
-	prerequisite = {
-		focus = GER_pressure_the_kriegsmarine
-	}
-	x = 8
-	y = 5
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus GER_cripple_communications"
-		country_event = { id = HGR_successor.5 }
-		TNO_worsen_training_policy_effectiveness_med = yes
-	}
-}
 
 
 

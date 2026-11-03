@@ -1,4 +1,4 @@
-GER_SIG_People
+﻿GER_SIG_People
 GER_SIG_Reichswerke
 GER_SIG_IG_Farben
 GER_SIG_Siemens
@@ -99,10 +99,7 @@ BoP_Tab_StateDepartment
 GER_Path_Bormann
 GER_Path_Speer
 GER_Path_Goring
-GER_Path_Himmler
-GER_Path_Heydrich
 kartenhaus_interaction_support_effect
-Espionage_Heydrich
 Alert_KartenhausLowControl
 control_effects_multiplier
 resistance_effects_multiplier
@@ -152,8 +149,6 @@ GER_karl_gerland
 GER_hans_speidel
 GER_ferdinand_schorner
 GER_erich_topp
-GER_heinrich_himmler
-GER_reinhard_heydrich
 GER_justus_beyer
 GER_heinz_reinefarth
 GER_heinrich_muller

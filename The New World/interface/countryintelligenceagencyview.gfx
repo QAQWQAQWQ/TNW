@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	spriteType = {
 		name = "GFX_operatives_progress_bar_frame"
@@ -256,11 +256,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_bg.dds"
 	}
 
-	spriteType = {
-		name = "GFX_intelligence_agency_logo_bel"
-		texturefile = "gfx/interface/operatives/agencies/agency_logo_bel.dds"
-		noOfFrames = 2
-	}
+
 	spriteType = {
 		name = "GFX_intelligence_agency_logo_chi"
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_chi.dds"

@@ -1,4 +1,4 @@
-Antarctica_GUI_Foreign = {
+﻿Antarctica_GUI_Foreign = {
 	Antarctica_GUI_AAG_Germany_Dispatch_Rescue_Mission = {
 		icon = GFX_decision_category_ODF_antarctica_ns
 
@@ -249,48 +249,5 @@ Antarctica_GUI_Foreign = {
 			set_global_flag = Antarctica_Germany_Returned_to_NS
 		}
 	}
-	Antarctica_GUI_AAG_Germany_Establish_Administration_Heydrich = {
-		icon = GFX_decision_category_ODF_antarctica_ns
-		
-		custom_cost_text = Antarctica_GUI_AAG_Germany_Establish_Administration_Heydrich_cost_tt
-		
-		days_remove = 14
-		
-		visible = {
-			has_country_leader = { character = GER_reinhard_heydrich }
-			tag = GER
-			NOT = { has_country_flag = Antarctica_Germany_Chose_NS_Admin }
-		}
-		
-		available = {
-			has_global_flag = Antarctica_Germany_Rescued_NS
-		}
-		
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 1000
-				always = yes
-			}
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Antarctica_GUI_AAG_Germany_Establish_Administration_Heydrich"
-			hidden_effect = {
-				add_to_variable = { money_reserves = -30 }
-				set_country_flag = Antarctica_Germany_Chose_NS_Admin
-			}
-		}
-		
-		remove_effect = {
-			custom_effect_tooltip = Antarctica_GUI_AAG_Germany_Establish_Administration_Heydrich_effect_tt
-			AAG = {
-				country_event = {
-					id = antarctica_aag_rescue.100
-					days = 7
-				}
-			}
-			set_global_flag = Antarctica_Germany_Returned_to_NS
-		}
-	}
+
 }

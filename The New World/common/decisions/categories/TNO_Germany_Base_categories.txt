@@ -44,7 +44,6 @@ GER_GCW_mechanic_category = {
 			tag = BGR
 			tag = GGR
 			tag = SGR
-			tag = HGR
 		}
 	}
 

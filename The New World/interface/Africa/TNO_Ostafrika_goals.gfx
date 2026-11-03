@@ -1,8 +1,5 @@
-SpriteTypes = {
-	SpriteType = {
-		name = "GFX_focus_GRO_a_more_burgundian_system"
-		texturefile = "gfx/interface/goals/GRO/focus_GRO_a_more_burgundian_system.dds"
-	}
+﻿SpriteTypes = {
+
 	SpriteType = {
 		name = "GFX_focus_GRO_abteilung_fur_afrikanische_freiwillige"
 		texturefile = "gfx/interface/goals/GRO/focus_GRO_abteilung_fur_afrikanische_freiwillige.dds"

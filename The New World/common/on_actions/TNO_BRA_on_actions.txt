@@ -115,7 +115,6 @@ on_actions = {
 								tag = SGR
 								tag = GGR
 								tag = BGR
-								tag = HGR
 							}
 						}
 						FROM = {
@@ -123,7 +122,6 @@ on_actions = {
 								tag = SGR
 								tag = GGR
 								tag = BGR
-								tag = HGR
 							}
 						}
 					}

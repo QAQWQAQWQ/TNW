@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 	
 	###############################################################
 	########            Adhemar Edna Mechanic              ########
@@ -116,28 +116,24 @@ guiTypes = {
 			buttonType = {
 				name = "adhemaredna_edna_button"
 				position = { x = 420 y = 315 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "adhemaredna_adhemar_button"
 				position = { x = 15 y = 315 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "adhemaredna_coop_plus_button"
 				position = { x = 430 y = 340 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "adhemaredna_coop_minus_button"
 				position = { x = 20 y = 340 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 			}
 		}

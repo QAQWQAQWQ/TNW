@@ -53,9 +53,8 @@
  AFR: "Afar"
  AFR_DEF: "Afar"
  AFR_ADJ: "Afar"
- AGS: "Steiner Assault Group"
- AGS_DEF: "Steiner Assault Group"
- AGS_ADJ: "Steiner"
+
+
  AJD: "Mujahideen"
  AJD_DEF: "Mujahideen"
  AJD_ADJ: "Mujahideen"
@@ -80,9 +79,8 @@
  AOM: "Macau Special Municipality"
  AOM_DEF: "Macau Special Municipality"
  AOM_ADJ: "Macanese"
- APF: "Aryan People's Front"
- APF_DEF: "Aryan People's Front"
- APF_ADJ: "People's Front"
+
+
  ARG: "Argentine Republic"
  ARG_DEF: "Argentine Republic"
  ARG_ADJ: "Argentine"
@@ -101,9 +99,8 @@
  AST: "Commonwealth of Australia"
  AST_DEF: "Commonwealth of Australia"
  AST_ADJ: "Australian"
- AUS: "Ostmark Gebirgsjäger"
- AUS_DEF: "Ostmark Gebirgsjäger"
- AUS_ADJ: "Austrian"
+
+
  AWB: "Afrikaner Resistance Movement"
  AWB_DEF: "Afrikaner Resistance Movement"
  AWB_ADJ: "Afrikaner"
@@ -131,9 +128,8 @@
  BAH: "Bahamas"
  BAH_DEF: "Bahamas"
  BAH_ADJ: "Bahamian"
- BEL: "Wallonian State"
- BEL_DEF: "Wallonian State"
- BEL_ADJ: "Wallonian"
+
+
  BFR: "Republic of Biafra"
  BFR_DEF: "Republic of Biafra"
  BFR_ADJ: "Biafran"
@@ -306,12 +302,10 @@
  DOM: "Dominican Republic"
  DOM_DEF: "Dominican Republic"
  DOM_ADJ: "Dominican"
- DSG: "German Emergency Government"
- DSG_DEF: "German Emergency Government"
- DSG_ADJ: "German"
- DSH: "Black Guard"
- DSH_DEF: "Black Guard"
- DSH_ADJ: "German"
+
+
+
+
  DST: "Reichskommissariat Lettland"
  DST_DEF: "Reichskommissariat Lettland"
  DST_ADJ: "Ostland"
@@ -364,30 +358,26 @@
  FGB: "Philippine Military Administration"
  FGB_DEF: "XIV Corps Military Administration"
  FGB_ADJ: "XIV Corps"
- FHH: "German Reich"
- FHH_DEF: "German Reich"
- FHH_ADJ: "German"
+
+
  FIJ: "Republic of Fiji"
  FIJ_DEF: "Republic of Fiji"
  FIJ_ADJ: "Fijian"
  FIN: "Republic of Finland"
  FIN_DEF: "Republic of Finland"
  FIN_ADJ: "Finnish"
- FLR: "Flemish State"
- FLR_DEF: "Flemish State"
- FLR_ADJ: "Flemish"
+
+
  FMF: "Free Army"
  FMF_DEF: "Free Army"
  FMF_ADJ: "Free Army"
- FPG: "Freikorps 'Berserker'"
- FPG_DEF: "Freikorps 'Berserker'"
- FPG_ADJ: "Berserker"
+
+
  FRS: "French Social Republic"
  FRS_DEF: "French Social Republic"
  FRS_ADJ: "French"
- FSP: "Free State of Prussia"
- FSP_DEF: "Free State of Prussia"
- FSP_ADJ: "German"
+
+
  FTF: "Futa Massina"
  FTF_DEF: "Futa Massina"
  FTF_ADJ: "Massina"
@@ -527,9 +517,8 @@
  ISR: "Israel"
  ISR_DEF: "State of Israel"
  ISR_ADJ: "Israeli"
- ISS: "Silesian Industrial State"
- ISS_DEF: "Silesian Industrial State"
- ISS_ADJ: "German"
+
+
  IVO: "Republic of Eburnia"
  IVO_DEF: "Republic of Eburnia"
  IVO_ADJ: "Eburnian"
@@ -563,13 +552,10 @@
  KBA: "North Cape African State"
  KBA_DEF: "North Cape African State"
  KBA_ADJ: "North Cape African State"
- 
- KHP: "Clerical Combat Group"
- KHP_DEF: "Clerical Combat Group"
- KHP_ADJ: "German"
- KLB: "Reichsführer-SS Security Bureau"
- KLB_DEF: "Reichsführer-SS Security Bureau"
- KLB_ADJ: "German"
+
+
+
+
  KLT: "Baloch States Union"
  KLT_DEF: "Baloch States Union"
  KLT_ADJ: "Baloch"
@@ -588,9 +574,8 @@
  KSI: "South Kasai"
  KSI_DEF: "South Kasai Autonomous State"
  KSI_ADJ: "South Kasai"
- KSS: "Waffen-SS High Command"
- KSS_DEF: "Waffen-SS High Command"
- KSS_ADJ: "German"
+
+
  KTG: "State of Katanga"
  KTG_DEF: "State of Katanga"
  KTG_ADJ: "Katangan"
@@ -610,9 +595,8 @@
  LEB: "Lebanese Republic"
  LEB_DEF: "Lebanese Republic"
  LEB_ADJ: "Lebanese"
- LHH: "Leibstandarte Heinrich Himmler"
- LHH_DEF: "Leibstandarte Heinrich Himmler"
- LHH_ADJ: "Leibstandarte"
+
+
  LIB: "Liberia"
  LIB_DEF: "Republic of Liberia"
  LIB_ADJ: "Liberian"
@@ -697,12 +681,10 @@
  NZL: "New Zealand"
  NZL_DEF: "New Zealand"
  NZL_ADJ: "New Zealand"
- OER: "State Military Special Tribunal"
- OER_DEF: "Military Special Tribunal"
- OER_ADJ: "German"
- OKL: "Oberkommando der Luftwaffe"
- OKL_DEF: "Oberkommando der Luftwaffe"
- OKL_ADJ: "German"
+
+
+
+
  OMA: "Sultanate of Muscat and Oman"
  OMA_DEF: "Sultanate of Muscat and Oman"
  OMA_ADJ: "Omani"
@@ -748,18 +730,16 @@
  PHI: "Second Philippine Republic"
  PHI_DEF: "Second Philippine Republic"
  PHI_ADJ: "Philippine"
- PIC: "State of New France"
- PIC_DEF: "State of New France"
- PIC_ADJ: "French"
+
+
  PKT: "Customs Union"
  PKT_DEF: "Customs Union"
  PKT_ADJ: "German"
  POR: "Portuguese Republic"
  POR_DEF: "Portuguese Republic"
  POR_ADJ: "Portuguese"
- PRK: "Sons of Spartacus"
- PRK_DEF: "Sons of Spartacus"
- PRK_ADJ: "Slave"
+
+
  PRU: "People's Republic of Peru"
  PRU_DEF: "People's Republic of Peru"
  PRU_ADJ: "People's Republic of Peru"
@@ -904,18 +884,14 @@
  SRT: "'Free Europa' Joint Legion"
  SRT_DEF: "'Free Europa' Joint Legion"
  SRT_ADJ: "'Free Europa'"
- SSF: "SS Figleiner Combat Group"
- SSF_DEF: "SS Figleiner Combat Group"
- SSF_ADJ: "German"
- SSL: "SS Lorraine Knightly State"
- SSL_DEF: "SS Lorraine Knightly State"
- SSL_ADJ: "German"
- SSN: "SS Nuremberg Labor Camp"
- SSN_DEF: "SS Nuremberg Labor Camp"
- SSN_ADJ: "German"
- SSW: "SS Westphalia Administration Area"
- SSW_DEF: "SS Westphalia Administration Area"
- SSW_ADJ: "German"
+
+
+
+
+
+
+
+
  STC: "Eastern Republic of Santa Cruz"
  STC_DEF: "Eastern Republic of Santa Cruz"
  STC_ADJ: "Santa Cruz"

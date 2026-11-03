@@ -12777,9 +12777,6 @@ TNO_endo_exo_names_init = {
 	add_to_array = { global.german_names = COG }
 	add_to_array = { global.german_names = DFK }
 	add_to_array = { global.german_names = DST }
-	add_to_array = { global.german_names = FHH }
-	add_to_array = { global.german_names = FPG }
-	add_to_array = { global.german_names = FSP }
 	add_to_array = { global.german_names = GER }
 	add_to_array = { global.german_names = GGN }
 	add_to_array = { global.german_names = GLC }

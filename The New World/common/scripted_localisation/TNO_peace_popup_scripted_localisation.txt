@@ -382,7 +382,6 @@ defined_text = {
 					original_tag = BGR
 					original_tag = GGR
 					original_tag = SGR
-					original_tag = HGR
 					original_tag = GER
 				}
 			}
@@ -391,7 +390,6 @@ defined_text = {
 					original_tag = BGR
 					original_tag = GGR
 					original_tag = SGR
-					original_tag = HGR
 					original_tag = GER
 				}
 			}
@@ -2311,26 +2309,6 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:losing_country = {
-				original_tag = HGR
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_HEYDRICH
-	}
-
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = GER
-			}
-			event_target:winning_country = {
-				tag = HGR
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SPEIDEL
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
 				original_tag = FUK
 			}
 		}
@@ -2616,166 +2594,26 @@ defined_text = {
 
 
 	## SS Civil War
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = DSG
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_DSG
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FPG
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_FPG
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = SSL
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_SSL
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = SSW
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_SSW
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = OER
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_OER
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FSP
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_FSP
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = PRK
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_PRK
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = KLB
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_KLB
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = KSS
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_KSS
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = ISS
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_ISS
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = SSF
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_SSF
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = APF
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_APF
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = LHH
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_LHH
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = AGS
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_AGS
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = SSN
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_SSN
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = OKL
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_OKL
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = FHH
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_FHH
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = DSH
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_DSH
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = AUS
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_AUS
-	}
-	text = {
-		trigger = {
-			event_target:losing_country = {
-				original_tag = KHP
-			}
-		}
-		localization_key = TNO_PEACE_POPUP_FLAVOR_SSCW_KHP
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	## West African Crisis
 	# Post-WAC

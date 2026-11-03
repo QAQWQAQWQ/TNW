@@ -3,17 +3,7 @@ is_existing_german_contender = {
 		tag = SGR
 		tag = GGR
 		tag = BGR
-		tag = HGR
 		tag = GER
-	}
-}
-
-GER_GCW_Heydrich_Indisposed = {
-	GER = {
-		OR = {
-			has_country_flag = SS_heydrich_dead
-			has_country_flag = SS_heydrich_in_prison
-		}
 	}
 }
 
@@ -53,15 +43,9 @@ is_GGR_state = {
 		state = 66
 		state = 67
 		state = 58
-
-		AND = {
-			GER_GCW_Heydrich_Indisposed = yes
-			OR = {
-				state = 85
-				state = 5
-				state = 97
-			}
-		}
+		state = 85
+		state = 5
+		state = 97
 	}
 }
 
@@ -79,31 +63,11 @@ is_SGR_state = {
 		state = 1810
 		state = 1809
 		state = 51
-
-		AND = {
-			GER_GCW_Heydrich_Indisposed = yes
-			OR = {
-				state = 8
-				state = 28
-				state = 42
-				state = 1811
-				state = 1812
-			}
-		}
-	}
-}
-
-is_HGR_state = {
-	NOT = { GER_GCW_Heydrich_Indisposed = yes }
-	OR = {
 		state = 8
 		state = 28
 		state = 42
 		state = 1811
 		state = 1812
-		state = 85
-		state = 5
-		state = 97
 	}
 }
 
@@ -126,12 +90,6 @@ GCW_legitimacy_more_than_or_equals_5 = {
 		}
 		check_variable = { GER_Speer_Influence > 4 }
 	}
-	else_if = {
-		limit = {
-			has_country_flag = heydrich_for_germany
-		}
-		check_variable = { GER_Heydrich_Influence > 4 }
-	}
 }
 
 GCW_legitimacy_more_than_or_equals_10 = {
@@ -152,11 +110,5 @@ GCW_legitimacy_more_than_or_equals_10 = {
 			has_country_flag = speer_for_germany
 		}
 		check_variable = { GER_Speer_Influence > 9 }
-	}
-	else_if = {
-		limit = {
-			has_country_flag = heydrich_for_germany
-		}
-		check_variable = { GER_Heydrich_Influence > 9 }
 	}
 }

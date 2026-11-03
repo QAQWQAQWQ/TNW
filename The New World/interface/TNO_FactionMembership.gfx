@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 	#Stahlpakt#
 	#钢铁同盟图标#
 	spriteType = {
@@ -82,18 +82,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/factions/status/GFX_Pakt_Bundnispartner.dds"
 	}
 	spriteType = {
-		name = "GFX_Pakt_Ordensstaat"
-		textureFile = "gfx/interface/factions/status/GFX_Pakt_Ordensstaat.dds"
-	}
-	spriteType = {
 		name = "GFX_Pakt_Observer"
 		textureFile = "gfx/interface/factions/status/GFX_Pakt_Observer.dds"
 	}
 
-	spriteType = {
-		name = "GFX_Anti_Heydrich_Pact"
-		textureFile = "gfx/interface/factions/status/GFX_Pakt_Mitstreiter.dds"
-	}
+
 
 	# Sphere
 	spriteType = {

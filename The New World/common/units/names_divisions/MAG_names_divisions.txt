@@ -87,8 +87,6 @@ MAG_RFP_Mil = {
 	division_types = { "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dye Natsionalnoye Opolcheniye"
 
 	# Names with numbers (only one number per entry).
@@ -162,8 +160,6 @@ MAG_siberian_rangers = {
 	division_types = { "elite_infantry" "infantry" "artillery_brigade" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dye Sibirskiye Reyndzhery"
 
 	# Names with numbers (only one number per entry).
@@ -242,8 +238,6 @@ MAG_Merc_Inf = {
 	division_types = { "infantry" "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dya Freelancer Group"
 
 	# Names with numbers (only one number per entry).
@@ -338,8 +332,6 @@ MAG_Merc_Mot = {
 	division_types = { "motorized" "APC" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Motorized Freelancers"
 
 	# Names with numbers (only one number per entry).
@@ -438,8 +430,6 @@ MAG_Merc_Arm = {
 	division_types = { "MBT" "IFV" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Armored Freelancer Group"
 
 	# Names with numbers (only one number per entry).
@@ -538,8 +528,6 @@ MAG_Merc_Gar = {
 	division_types = { "infantry" "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Pacification Unit"
 
 	# Names with numbers (only one number per entry).
@@ -638,8 +626,6 @@ MAG_Merc_Special = {
 	division_types = { "elite_infantry" "air_assault" "mountaineers" "marine" }
 
 	# Number reservation system will tie to another group.
-	# link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dth Special Activities Unit"
 
 	# Names with numbers (only one number per entry).

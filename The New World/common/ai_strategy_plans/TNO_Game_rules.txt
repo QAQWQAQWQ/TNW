@@ -1,4 +1,4 @@
-##########
+﻿##########
 ##Brazil##
 ##########
 
@@ -1356,7 +1356,6 @@ SGR_conservative_strategy_plan= {
 		GER_a_lesson_in_morality = 0
 		GER_but_will_favour_washington = 0
 		GER_are_not_the_sins_of_the_son = 0
-		GER_no_compassion_for_himmler = 0
 		GER_land_of_the_free = 0
 		GER_the_truth_will_set_us_free = 0
 		GER_a_new_dawn = 0

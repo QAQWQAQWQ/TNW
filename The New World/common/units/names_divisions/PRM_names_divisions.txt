@@ -40,8 +40,6 @@ PRM_Infantry = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Arishe Infanteriy-Divizyon"
 
 	# Names with numbers (only one number per entry).
@@ -86,8 +84,6 @@ PRM_Light_Infantry = {
 	division_types = { "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Leikhte Gilvs-Yeger"
 
 	# Names with numbers (only one number per entry).
@@ -126,8 +122,6 @@ PRM_Elite_Infantry = {
 	division_types = { "elite_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Shvere Shturm-Divizyon"
 
 	# Names with numbers (only one number per entry).
@@ -166,8 +160,6 @@ PRM_Air_Assault = {
 	division_types = { "air_assault" "elite_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Lyufteynzatsgrupe"
 
 	# Names with numbers (only one number per entry).
@@ -206,8 +198,6 @@ PRM_Mountaineers = {
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Bergshyutsen"
 
 	# Names with numbers (only one number per entry).
@@ -236,8 +226,6 @@ PRM_Marines = {
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Ariyer tsur Zee"
 
 	# Names with numbers (only one number per entry).
@@ -266,8 +254,6 @@ PRM_MBTs = {
 	division_types = { "MBT" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Pantser-Divizyon"
 
 	# Names with numbers (only one number per entry).
@@ -306,8 +292,6 @@ PRM_motorized = {
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Motor-Infanteriy-Divizyon"
 
 	# Names with numbers (only one number per entry).
@@ -337,8 +321,6 @@ PRM_Mechanized = {
 	division_types = { "MBT" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Mekhaniziyrte-Infanteriy-Divizyon"
 
 	# Names with numbers (only one number per entry).

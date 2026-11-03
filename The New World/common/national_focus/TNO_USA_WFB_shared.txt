@@ -1839,7 +1839,6 @@ shared_focus = {
 		econ_spend_money_once_effect_raw_money = yes
 		custom_effect_tooltip = USA_WFB_CFN_fixed_exchange_reform_support_increase_tt
 		add_to_variable = { CAN.CFN_voting_desire^3 = 10 }
-		add_to_variable = { AUS.CFN_voting_desire^3 = 10 }
 		if = {
 			limit = {
 				SAF = {

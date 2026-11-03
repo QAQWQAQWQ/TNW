@@ -34,7 +34,7 @@
 HUN_INF_01 = {
 	name = "Infantry Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -91,7 +91,7 @@ HUN_INF_01 = {
 HUN_INF_02 = {
 	name = "Infantry Brigades"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -149,7 +149,7 @@ HUN_INF_02 = {
 HUN_CAV_01 = {
 	name = "Cavalry Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -229,7 +229,7 @@ HUN_CAV_01 = {
 HUN_MOT_01 = {
 	name = "Motorized Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -289,7 +289,7 @@ HUN_MOT_01 = {
 HUN_ARM_01 = {
 	name = "Armoured Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -348,7 +348,7 @@ HUN_ARM_01 = {
 HUN_MEC_01 = {
 	name = "Mechanised Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -408,7 +408,7 @@ HUN_MEC_01 = {
 HUN_GAR_01 = {
 	name = "Garrison Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -470,7 +470,7 @@ HUN_GAR_01 = {
 HUN_MAR_01 = {
 	name = "Marine Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -527,7 +527,7 @@ HUN_MAR_01 = {
 HUN_MTN_01 = {
 	name = "Mountain Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -606,7 +606,7 @@ HUN_MTN_01 = {
 HUN_PAR_01 = {
 	name = "Paratrooper Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		OR = {
@@ -661,7 +661,7 @@ HUN_PAR_01 = {
 AUSHUN_INF_01 = {
 	name = "Aus-Hun. Infantry Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -754,7 +754,7 @@ AUSHUN_INF_01 = {
 AUSHUN_CAV_01 = {
 	name = "Aus-Hun. Cavalry Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -813,7 +813,7 @@ AUSHUN_CAV_01 = {
 AUSHUN_MOT_01 = {
 	name = "Aus-Hun. Motorized Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -847,7 +847,7 @@ AUSHUN_MOT_01 = {
 AUSHUN_MEC_01 = {
 	name = "Aus-Hun. Mechanized Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -881,7 +881,7 @@ AUSHUN_MEC_01 = {
 AUSHUN_GAR_01 = {
 	name = "Aus-Hun. Garrison Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -915,7 +915,7 @@ AUSHUN_GAR_01 = {
 AUSHUN_ARM_01 = {
 	name = "Aus-Hun. Armored Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -949,7 +949,7 @@ AUSHUN_ARM_01 = {
 AUSHUN_MTN_01 = {
 	name = "Aus-Hun. Mountain Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -983,7 +983,7 @@ AUSHUN_MTN_01 = {
 AUSHUN_MAR_01 = {
 	name = "Aus-Hun. Marine Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE
@@ -1017,7 +1017,7 @@ AUSHUN_MAR_01 = {
 AUSHUN_PAR_01 = {
 	name = "Aus-Hun. Paratrooper Divisions"
 
-	for_countries = { AUS HUN CZE }
+	for_countries = { HUN CZE }
 
 	can_use = {
 		has_cosmetic_tag = HUN_EMPIRE

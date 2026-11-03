@@ -203,12 +203,6 @@ music = {
 }
 
 music = {
-	name = tno_song_burgundian_lullaby
-	file = "Burgundian Lullaby.ogg"
-	volume = 1
-}
-
-music = {
 	name = tno_song_carpet_bombing
 	file = "carpet_bombing.ogg"
 	volume = 1

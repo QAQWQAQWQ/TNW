@@ -4003,7 +4003,6 @@ defined_text = {
 				tag = BGR
 				tag = GGR
 				tag = SGR
-				tag = HGR
 				check_variable = { ECON_SPHERE_LEADER = GER }
 			}
 		}
@@ -4180,7 +4179,6 @@ defined_text = {
 				TAG = BGR
 				TAG = GGR
 				TAG = SGR
-				TAG = HGR
 				TAG = UKR
 				check_variable = { ECON_SPHERE_LEADER = GER }
 			}

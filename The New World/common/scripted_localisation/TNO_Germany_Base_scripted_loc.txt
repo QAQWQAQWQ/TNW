@@ -1,4 +1,4 @@
-### GUI STUFF ###
+﻿### GUI STUFF ###
 defined_text = {
 	name = GetHitlerHealth
 	text = {
@@ -57,14 +57,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Bormann_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Goring_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 30 }
 				check_variable = { temp_influence_2 > 30 }
-				check_variable = { temp_influence_3 > 30 }
 			}
 		}
 		localization_key = GER_Bormann_Influence_Overpowering
@@ -73,14 +70,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Bormann_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Goring_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 20 }
 				check_variable = { temp_influence_2 > 20 }
-				check_variable = { temp_influence_3 > 20 }
 			}
 		}
 		localization_key = GER_Bormann_Influence_Large
@@ -108,14 +102,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Goring_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Goring_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 30 }
 				check_variable = { temp_influence_2 > 30 }
-				check_variable = { temp_influence_3 > 30 }
 			}
 		}
 		localization_key = GER_Goring_Influence_Overpowering
@@ -124,14 +115,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Goring_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Goring_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 20 }
 				check_variable = { temp_influence_2 > 20 }
-				check_variable = { temp_influence_3 > 20 }
 			}
 		}
 		localization_key = GER_Goring_Influence_Large
@@ -159,14 +147,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Speer_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Speer_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 30 }
 				check_variable = { temp_influence_2 > 30 }
-				check_variable = { temp_influence_3 > 30 }
 			}
 		}
 		localization_key = GER_Speer_Influence_Overpowering
@@ -175,14 +160,11 @@ defined_text = {
 		trigger = {
 			set_temp_variable = { temp_influence_1 = GER_Speer_Influence }
 			set_temp_variable = { temp_influence_2 = GER_Speer_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Speer_Influence }
 			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
 			subtract_from_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
 			AND = {
 				check_variable = { temp_influence_1 > 20 }
 				check_variable = { temp_influence_2 > 20 }
-				check_variable = { temp_influence_3 > 20 }
 			}
 		}
 		localization_key = GER_Speer_Influence_Large
@@ -204,56 +186,7 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = GetHeydrichInfluence
-	text = {
-		trigger = {
-			set_temp_variable = { temp_influence_1 = GER_Heydrich_Influence }
-			set_temp_variable = { temp_influence_2 = GER_Heydrich_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
-			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
-			subtract_from_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Speer_Influence }
-			AND = {
-				check_variable = { temp_influence_1 > 30 }
-				check_variable = { temp_influence_2 > 30 }
-				check_variable = { temp_influence_3 > 30 }
-			}
-		}
-		localization_key = GER_Heydrich_Influence_Overpowering
-	}
-	text = {
-		trigger = {
-			set_temp_variable = { temp_influence_1 = GER_Heydrich_Influence }
-			set_temp_variable = { temp_influence_2 = GER_Heydrich_Influence }
-			set_temp_variable = { temp_influence_3 = GER_Heydrich_Influence }
-			subtract_from_temp_variable = { temp_influence_1 = GER_Bormann_Influence }
-			subtract_from_temp_variable = { temp_influence_2 = GER_Goring_Influence }
-			subtract_from_temp_variable = { temp_influence_3 = GER_Speer_Influence }
-			AND = {
-				check_variable = { temp_influence_1 > 20 }
-				check_variable = { temp_influence_2 > 20 }
-				check_variable = { temp_influence_3 > 20 }
-			}
-		}
-		localization_key = GER_Heydrich_Influence_Large
-	}
-	text = {
-		trigger = {
-			check_variable = { GER_Heydrich_Influence > 10 }
-		}
-		localization_key = GER_Heydrich_Influence_Moderate
-	}
-	text = {
-		trigger = {
-			check_variable = { GER_Heydrich_Influence > 0 }
-		}
-		localization_key = GER_Heydrich_Influence_Small
-	}
-	text = {
-		localization_key = GER_Heydrich_Influence_Zero
-	}
-}
+
 
 defined_text = {
 	name = GetGCWMilitaryFactoriesCount
@@ -275,12 +208,7 @@ defined_text = {
 		}
 		localization_key = speer_military_factories_count
 	}
-	text = {
-		trigger = {
-			has_country_flag = heydrich_for_germany
-		}
-		localization_key = heydrich_military_factories_count
-	}
+
 }
 
 defined_text = {
@@ -303,12 +231,7 @@ defined_text = {
 		}
 		localization_key = speer_produnits_tt
 	}
-	text = {
-		trigger = {
-			has_country_flag = heydrich_for_germany
-		}
-		localization_key = heydrich_produnits_tt
-	}
+
 }
 
 defined_text = {
@@ -331,12 +254,7 @@ defined_text = {
 		}
 		localization_key = speer_infantry_weapons_count
 	}
-	text = {
-		trigger = {
-			has_country_flag = heydrich_for_germany
-		}
-		localization_key = heydrich_infantry_weapons_count
-	}
+
 }
 
 defined_text = {
@@ -359,12 +277,7 @@ defined_text = {
 		}
 		localization_key = speer_heer_units_count
 	}
-	text = {
-		trigger = {
-			has_country_flag = heydrich_for_germany
-		}
-		localization_key = heydrich_heer_units_count
-	}
+
 }
 
 defined_text = {

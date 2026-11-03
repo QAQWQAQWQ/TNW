@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	# Icarus GUI
 
@@ -103,10 +103,7 @@ spriteTypes = {
 
 	#### Dirty War ####
 
-	spriteType = {
-		name = GFX_decision_MEX_Dirty_War_pic
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/MEX_decision_dirty_war.dds"
-	}
+
 	spriteType = {
 		name = GFX_decision_MEX_Dirty_War_background
 		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/mexico_background.dds"
@@ -114,38 +111,14 @@ spriteTypes = {
 	}
 
 	## Region Pictures ##
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_0
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_0.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_1
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_1.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_2
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_2.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_3
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_3.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_4
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_4.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_5
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_5.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_6
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_6.dds"
-	}
-	spriteType = {
-		name = GFX_MEX_DW_region_pic_7
-		texturefile = "gfx/interface/Mexico_GUI/Dirty_War/region/MEX_DW_region_pic_7.dds"
-	}
+
+
+
+
+
+
+
+
 
 	##
 	spriteType = {

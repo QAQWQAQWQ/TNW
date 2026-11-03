@@ -1,4 +1,4 @@
-#|===============| TNO Game Rules |===============|#
+﻿#|===============| TNO Game Rules |===============|#
 
 ### Tips & Tricks Toggle
 tips_and_tricks_status = {
@@ -621,12 +621,7 @@ GER_HITLER_HEIR = {
 		desc = "RULE_OPTION_GER_HITLER_HEIR_SPEER_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = GER_HITLER_HEIR_HGR
-		text = "RULE_OPTION_GER_HITLER_HEIR_HGR"
-		desc = "RULE_OPTION_GER_HITLER_HEIR_HGR_DESC"
-		allow_achievements = yes
-	}
+
 }
 
 # Germany - Albert Speer [Ideology]
@@ -14999,9 +14994,6 @@ GER_CIVIL_WAR_BUFF = {
 		allow_achievements = yes
 	}
 	#option = {
-	#	name = GER_CIVIL_WAR_BUFF_HEYDRICH
-	#	text = "RULE_OPTION_GER_CIVIL_WAR_BUFF_HEYDRICH"
-	#	desc = "RULE_OPTION_GER_CIVIL_WAR_BUFF_HEYDRICH_DESC"
 	#	allow_achievements = yes
 	#}
 }

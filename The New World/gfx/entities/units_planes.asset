@@ -337,11 +337,6 @@ entity = {
 	scale = 0.176
 }
 entity = {
-	name = "BRG_light_plane_entity"
-	pdxmesh = "ME262HG3_BRG_mesh"
-	clone = "GER_light_plane_entity"
-}
-entity = {
 	name = "FIN_light_plane_entity"
 	pdxmesh = "ME262HG3_FIN_mesh"
 	clone = "GER_light_plane_entity"
@@ -1462,7 +1457,6 @@ entity = {
 }
 #entity = {
 #	clone = "GER_light_plane_entity"
-#	name = "BRG_light_plane_entity"
 #}
 entity = {
 	clone = "GER_light_plane_entity"
@@ -1471,10 +1465,6 @@ entity = {
 entity = {
 	clone = "GER_light_plane_entity"
 	name = "SGR_light_plane_entity"
-}
-entity = {
-	clone = "GER_light_plane_entity"
-	name = "HGR_light_plane_entity"
 }
 entity = {
 	clone = "GER_light_plane_entity"
@@ -1510,19 +1500,11 @@ entity = {
 }
 entity = {
 	clone = "GER_medium_plane_entity"
-	name = "BRG_medium_plane_entity"
-}
-entity = {
-	clone = "GER_medium_plane_entity"
 	name = "BGR_medium_plane_entity"
 }
 entity = {
 	clone = "GER_medium_plane_entity"
 	name = "SGR_medium_plane_entity"
-}
-entity = {
-	clone = "GER_medium_plane_entity"
-	name = "HGR_medium_plane_entity"
 }
 entity = {
 	clone = "GER_medium_plane_entity"
@@ -1558,19 +1540,11 @@ entity = {
 }
 entity = {
 	clone = "GER_heavy_plane_entity"
-	name = "BRG_heavy_plane_entity"
-}
-entity = {
-	clone = "GER_heavy_plane_entity"
 	name = "BGR_heavy_plane_entity"
 }
 entity = {
 	clone = "GER_heavy_plane_entity"
 	name = "SGR_heavy_plane_entity"
-}
-entity = {
-	clone = "GER_heavy_plane_entity"
-	name = "HGR_heavy_plane_entity"
 }
 entity = {
 	clone = "GER_heavy_plane_entity"

@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 	
 	###############################################################
 	########                   PL Mechanic                 ########
@@ -125,14 +125,12 @@ guiTypes = {
 				buttonType = {
 					name = "pl_add_ptb_button"
 					position = { x = 157 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_add_support"
 				}
 				buttonType = {
 					name = "pl_sub_ptb_button"
 					position = { x = 92 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_sub_support"
 				}
@@ -177,14 +175,12 @@ guiTypes = {
 				buttonType = {
 					name = "pl_add_psd_button"
 					position = { x = 157 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_add_support"
 				}
 				buttonType = {
 					name = "pl_sub_psd_button"
 					position = { x = 92 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_sub_support"
 				}
@@ -229,14 +225,12 @@ guiTypes = {
 				buttonType = {
 					name = "pl_add_udn_button"
 					position = { x = 157 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_add_support"
 				}
 				buttonType = {
 					name = "pl_sub_udn_button"
 					position = { x = 92 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_sub_support"
 				}
@@ -281,14 +275,12 @@ guiTypes = {
 				buttonType = {
 					name = "pl_add_psp_button"
 					position = { x = 157 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_add_support"
 				}
 				buttonType = {
 					name = "pl_sub_psp_button"
 					position = { x = 92 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_sub_support"
 				}
@@ -333,14 +325,12 @@ guiTypes = {
 				buttonType = {
 					name = "pl_add_prp_button"
 					position = { x = 157 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_add_support"
 				}
 				buttonType = {
 					name = "pl_sub_prp_button"
 					position = { x = 92 y = 5 }
-					quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 					scale = 0.35
 					pdx_tooltip = "BRA_pl_sub_support"
 				}

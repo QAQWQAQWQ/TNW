@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 
 	###############################################################
 	########            Armed Forces Mechanic              ########
@@ -64,14 +64,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_hardliners_button"
 				position = { x = 40 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_hardliners_tt
 			}
 			buttonType = {
 				name = "sub_hardliners_button"
 				position = { x = -58 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_hardliners_tt
 			}
@@ -104,14 +102,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_sorbonne_button"
 				position = { x = 40 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_sorbonne_tt
 			}
 			buttonType = {
 				name = "sub_sorbonne_button"
 				position = { x = -58 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_sorbonne_tt
 			}
@@ -144,14 +140,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_constitutionalists_button"
 				position = { x = 40 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_constitutionalists_tt
 			}
 			buttonType = {
 				name = "sub_constitutionalists_button"
 				position = { x = -58 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_constitutionalists_tt
 			}
@@ -209,14 +203,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_constitutionalists_button"
 				position = { x = 40 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_constitutionalists_tt
 			}
 			buttonType = {
 				name = "sub_constitutionalists_button"
 				position = { x = -58 y = 15 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_constitutionalists_tt
 			}
@@ -255,14 +247,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_loyalty_button"
 				position = { x = 30 y = 1 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_loyalty_tt
 			}
 			buttonType = {
 				name = "sub_loyalty_button"
 				position = { x = 30 y = 163 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_loyalty_tt
 			}
@@ -315,14 +305,12 @@ guiTypes = {
 			buttonType = {
 				name = "add_nepotism_button"
 				position = { x = 30 y = 1 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_add_nepotism_tt
 			}
 			buttonType = {
 				name = "sub_nepotism_button"
 				position = { x = 30 y = 163 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = BRA_military_debug_sub_nepotism_tt
 			}

@@ -511,8 +511,6 @@ ideas = {
 		OST_OOS_a_rebranded_Einsatzgruppen = { #Speer gives the Einsatzgruppen a new coat of paint and tells them to tone down their war crimes
 			on_add = { log = "[GetDateText]: [Root.GetName]: add_idea OST_OOS_a_rebranded_Einsatzgruppen" }
 
-			picture = HGR_ss_pragmatist_support
-
 			allowed = {
 				always = no
 			}

@@ -59,8 +59,6 @@ KAL_Militia = {
 	division_types = { "light_infantry" "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Antinatsistskaya Narodnaya Brigada"
 
 	# Names with numbers (only one number per entry).

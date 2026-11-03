@@ -486,14 +486,6 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 	}
 	pdxmesh = {
-		name = "ME262HG3_BRG_mesh"
-		file = "gfx/models/units/planes/ME262HG3.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ME262HG3_BRG_diffuse.dds"
-		}
-	}
-	pdxmesh = {
 		name = "ME262HG3_FIN_mesh"
 		file = "gfx/models/units/planes/ME262HG3.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }

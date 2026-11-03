@@ -1,4 +1,4 @@
-capital = 64
+﻿capital = 64
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
@@ -1433,63 +1433,4 @@ GER_friedrich_guggenberger = {
 }
 GER_otto_ites = {
 	set_character_flag = is_SGR_character
-}
-
-# is_HGR_character = joins Heydrich in GCW #
-GER_reinhard_heydrich = {
-	set_character_flag = is_HGR_character
-}
-GER_gunter_dalquen = {
-	set_character_flag = is_HGR_character
-}
-GER_august_frank = {
-	set_character_flag = is_HGR_character
-}
-GER_philipp_bouhler = {
-	set_character_flag = is_HGR_character
-}
-GER_herbert_otto_gille = {
-	set_character_flag = is_HGR_character
-}
-GER_karl_hanke = {
-	set_character_flag = is_HGR_character
-}
-GER_heinz_harmel = {
-	set_character_flag = is_HGR_character
-}
-GER_hugo_kraas = {
-	set_character_flag = is_HGR_character
-}
-GER_otto_kumm = {
-	set_character_flag = is_HGR_character
-}
-GER_ernst_barkmann = {
-	set_character_flag = is_HGR_character
-}
-GER_erich_naumann = {
-	set_character_flag = is_HGR_character
-}
-GER_georg_bochmann = {
-	set_character_flag = is_HGR_character
-}
-GER_hermann_priess = {
-	set_character_flag = is_HGR_character
-}
-GER_sylvester_stadler = {
-	set_character_flag = is_HGR_character
-}
-GER_gunther_prien = {
-	set_character_flag = is_HGR_character
-}
-GER_theodor_hoffmann = {
-	set_character_flag = is_HGR_character
-}
-GER_friedrich_ruge = {
-	set_character_flag = is_HGR_character
-}
-GER_wilhelm_meentzen = {
-	set_character_flag = is_HGR_character
-}
-GER_ansgar_bethge = {
-	set_character_flag = is_HGR_character
 }

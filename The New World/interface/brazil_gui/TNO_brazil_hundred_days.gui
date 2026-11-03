@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 	###############################################################
 	########             Hundred Days Mechanic             ########
 	###############################################################
@@ -55,28 +55,24 @@ guiTypes = {
 			buttonType = {
 				name = "hd_add_kubitschek_button"
 				position = { x = -30 y = 60 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_add_support_tt"
 			}
 			buttonType = {
 				name = "hd_sub_kubitschek_button"
 				position = { x = -30 y = 85 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_sub_support_tt"
 			}
 			buttonType = {
 				name = "hd_add_lacerda_button"
 				position = { x = -30 y = 300 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_add_support_tt"
 			}
 			buttonType = {
 				name = "hd_sub_lacerda_button"
 				position = { x = -30 y = 325 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_sub_support_tt"
 			}
@@ -84,28 +80,24 @@ guiTypes = {
 			buttonType = {
 				name = "hd_add_adhemar_button"
 				position = { x = 410 y = 300 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_add_support_tt"
 			}
 			buttonType = {
 				name = "hd_sub_adhemar_button"
 				position = { x = 410 y = 325 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_sub_support_tt"
 			}
 			buttonType = {
 				name = "hd_add_goulart_button"
 				position = { x = 410 y = 60 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_add_support_tt"
 			}
 			buttonType = {
 				name = "hd_sub_goulart_button"
 				position = { x = 410 y = 85 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 				pdx_tooltip = "BRA_hd_debug_sub_support_tt"
 			}

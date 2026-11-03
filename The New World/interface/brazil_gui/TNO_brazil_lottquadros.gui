@@ -1,4 +1,4 @@
-guiTypes = {
+﻿guiTypes = {
 	
 	###############################################################
 	########            Lott Quadros Mechanic              ########
@@ -108,28 +108,24 @@ guiTypes = {
 			buttonType = {
 				name = "lottquadros_quadros_button"
 				position = { x = 420 y = 255 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "lottquadros_lott_button"
 				position = { x = 20 y = 255 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "lottquadros_coop_plus_button"
 				position = { x = 430 y = 305 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Plus"
 				scale = 0.5
 			}
 
 			buttonType = {
 				name = "lottquadros_coop_minus_button"
 				position = { x = 10 y = 305 }
-				quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 				scale = 0.5
 			}
 		}

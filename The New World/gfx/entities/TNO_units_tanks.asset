@@ -2313,11 +2313,6 @@ entity = {
 	clone = "E25_entity"
 }
 entity = {
-	name = "BRG_IFV_entity"
-	clone = "E25_entity"
-	pdxmesh = "E25_BRG_IFV_mesh"
-}
-entity = {
 	name = "FIN_IFV_entity"
 	clone = "E25_entity"
 	pdxmesh = "E25_FIN_IFV_mesh"
@@ -2453,16 +2448,6 @@ entity = {
 	clone = "maus_entity"
 }
 entity = {
-	name = "BRG_superheavy_armor_entity"
-	clone = "maus_entity"
-	pdxmesh = "maus_BRG_mesh"
-}
-entity = {
-	name = "BRG_maus_entity"
-	clone = "maus_entity"
-	pdxmesh = "maus_BRG_mesh"
-}
-entity = {
 	name = "SAM_superheavy_armor_0_entity"
 	clone = "maus_entity"
 	pdxmesh = "maus_RUSSIA_mesh"
@@ -2566,11 +2551,6 @@ entity = {
 	game_data = {
 		texture_anim_speed = 0.5
 	}
-}
-entity = {
-	name = "BRG_heavy_tank_entity"
-	pdxmesh = "Tiger3_BRG_mesh"
-	clone = "GER_heavy_tank_entity"
 }
 #####EXTRA FUNNI FLAKMAUS
 entity = {
@@ -5045,46 +5025,6 @@ entity = {
 ############################################################
 ############################################################
 ############################################################GERMAN NATIONS BELOW
-entity = {
-	clone = "GER_MBT_entity"
-	name = "BRG_MBT_entity"
-	pdxmesh = "Leopard1_BRG_tank_mesh"
-}
-entity = {
-	name = "BRG_MBT_2_entity"
-	clone = "BRG_MBT_entity"
-}
-entity = {
-	name = "BRG_MBT_3_entity"
-	clone = "BRG_MBT_2_entity"
-}
-entity = {
-	name = "BRG_MBT_4_entity"
-	clone = "BRG_MBT_3_entity"
-}
-entity = {
-	name = "BRG_MBT_5_entity"
-	clone = "BRG_MBT_4_entity"
-}
-entity = {
-	clone = "PzX_entity"
-	name = "BRG_MBT_1_entity"
-	pdxmesh = "PzX_BRG_tank_mesh"
-}
-entity = {
-	clone = "GER_MBT_0_entity"
-	name = "BRG_MBT_0_entity"
-	pdxmesh = "PzX_BRG_tank_mesh"
-}
-entity = {
-	name = "BRG_light_sp_anti_air_brigade_entity"
-	clone = "GER_light_sp_anti_air_brigade_entity"
-	pdxmesh = "Gepard_BRG_SPAA_mesh"
-}
-entity = {
-	name = "BRG_sp_anti_air_brigade_entity"
-	clone = "BRG_light_sp_anti_air_brigade_entity"
-}
 entity = {
 	clone = "GER_MBT_entity"
 	name = "FIN_MBT_entity"

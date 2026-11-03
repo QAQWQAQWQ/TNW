@@ -90,33 +90,6 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
-		name = "Leopard1_BRG_tank_mesh"
-		file = "gfx/models/units/tanks/Leopard1.mesh"
-
-		animation = { id = "attack"			type = "Leopard1_attack_animation" }
-		animation = { id = "idle"			type = "Leopard1_idle_animation" }
-		animation = { id = "move"			type = "Leopard1_moving_animation" }
-
-		scale = 2.1
-
-		meshsettings = {
-			name = "Cube.003"
-			index = 0
-			texture_diffuse = "Leopard1_BRG_diffuse.dds"
-			texture_normal = "Leopard1_normal.dds"
-			texture_specular = "Leopard1_specular.dds"
-			shader = PdxMeshAdvanced
-		}
-		meshsettings = {
-			name = "Cube.006"
-			index = 0
-			texture_diffuse = "Leopard1_BRG_diffuse.dds"
-			texture_normal = "Leopard1_normal.dds"
-			texture_specular = "Leopard1_specular.dds"
-			shader = PdxMeshAdvancedAlpha
-		}
-	}
-	pdxmesh = {
 		name = "Leopard1_FIN_tank_mesh"
 		file = "gfx/models/units/tanks/Leopard1.mesh"
 
@@ -780,28 +753,6 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
-		name = "Gepard_BRG_SPAA_mesh"
-		file = "gfx/models/units/tanks/Gepard.mesh"
-
-		animation = { id = "attack"			type = "Gepard_attack_animation" }
-		animation = { id = "attack_idle"	type = "Gepard_attack_idle_animation" }
-		animation = { id = "idle"			type = "Leopard1_idle_animation" }
-		animation = { id = "move"			type = "Leopard1_moving_animation" }
-
-		scale = 2.1
-
-		meshsettings = {
-			name = "Cube.004"
-			index = 0
-			texture_diffuse = "Leopard1_BRG_diffuse.dds"
-		}
-		meshsettings = {
-			name = "Cube.002"
-			index = 0
-			texture_diffuse = "Gepard_BRG_diffuse.dds"
-		}
-	}
-	pdxmesh = {
 		name = "Gepard_FIN_SPAA_mesh"
 		file = "gfx/models/units/tanks/Gepard.mesh"
 
@@ -842,22 +793,6 @@ objectTypes = {
 		animation = { id = "idle"			type = "Maus_idle_animation" }
 		animation = { id = "move"			type = "Maus_moving_animation" }
 		scale = 1.00
-	}
-	pdxmesh = {
-		name = "maus_BRG_mesh"
-		file = "gfx/models/units/tanks/Maus.mesh"
-
-		animation = { id = "attack"			type = "Maus_attack_animation" }
-		animation = { id = "attack_coax"	type = "Maus_attack_coax_animation" }
-		animation = { id = "idle"			type = "Maus_idle_animation" }
-		animation = { id = "move"			type = "Maus_moving_animation" }
-		scale = 1.00
-
-		meshsettings = {
-			name = "Cube.003"
-			index = 0
-			texture_diffuse = "Maus_BRG_diffuse.dds"
-		}
 	}
 	pdxmesh = {
 		name = "maus_RUSSIA_mesh"
@@ -1162,25 +1097,6 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
-		name = "PzX_BRG_tank_mesh"
-		file = "gfx/models/units/tanks/PzX.mesh"
-
-		animation = { id = "attack"			type = "PzX_attack_animation" }
-		animation = { id = "idle"			type = "PzX_idle_animation" }
-		animation = { id = "move"			type = "PzX_moving_animation" }
-
-		scale = 0.4
-
-		meshsettings = {
-			name = "Cube.001"
-			index = 0
-			texture_diffuse = "PzX_BRG_diffuse.dds"
-			texture_normal = "PzX_normal.dds"
-			texture_specular = "PzX_specular.dds"
-			shader = PdxMeshAdvanced
-		}
-	}
-	pdxmesh = {
 		name = "PzX_RUSSIA_tank_mesh"
 		file = "gfx/models/units/tanks/PzX.mesh"
 
@@ -1334,25 +1250,6 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
-		name = "E25_BRG_IFV_mesh"
-		file = "gfx/models/units/tanks/E25.mesh"
-
-		animation = { id = "attack"			type = "E25_attack_animation" }
-		animation = { id = "attack_2"			type = "E25_attack_2_animation" }
-		animation = { id = "idle"			type = "E25_idle_animation" }
-		animation = { id = "move"			type = "E25_moving_animation" }
-		scale = 0.7
-
-		meshsettings = {
-			name = "Cube.001"
-			index = 0
-			texture_diffuse = "E25_BRG_diffuse.dds"
-			texture_normal = "E25_normal.dds"
-			texture_specular = "E25_specular.dds"
-			shader = PdxMeshAdvanced
-		}
-	}
-	pdxmesh = {
 		name = "E25_RUSSIA_IFV_mesh"
 		file = "gfx/models/units/tanks/E25.mesh"
 
@@ -1396,26 +1293,6 @@ objectTypes = {
 			name = "Cube.002"
 			index = 0
 			texture_diffuse = "SpzLang_RUSSIA_diffuse.dds"
-			texture_normal = "SpzLang_normal.dds"
-			texture_specular = "SpzLang_specular.dds"
-			shader = PdxMeshAdvanced
-		}
-	}
-	pdxmesh = {
-		name = "SpzLang_BRG_APC_mesh"
-		file = "gfx/models/units/tanks/SpzLang.mesh"
-
-		animation = { id = "attack"			type = "SpzLang_attack_animation" }
-		animation = { id = "attack_2"			type = "SpzLang_attack_2_animation" }
-		animation = { id = "idle"			type = "SpzLang_idle_animation" }
-		animation = { id = "move"			type = "SpzLang_moving_animation" }
-		scale = 0.6
-
-
-		meshsettings = {
-			name = "Cube.002"
-			index = 0
-			texture_diffuse = "SpzLang_BRG_diffuse.dds"
 			texture_normal = "SpzLang_normal.dds"
 			texture_specular = "SpzLang_specular.dds"
 			shader = PdxMeshAdvanced
@@ -1730,25 +1607,6 @@ objectTypes = {
 		animation = { id = "move"			type = "Tiger3_moving_animation" }
 
 		scale = 0.6
-	}
-	pdxmesh = {
-		name = "Tiger3_BRG_mesh"
-		file = "gfx/models/units/tanks/Tiger3.mesh"
-
-		animation = { id = "attack"			type = "Tiger3_attack_animation" }
-		animation = { id = "idle"			type = "Tiger3_idle_animation" }
-		animation = { id = "move"			type = "Tiger3_moving_animation" }
-
-		scale = 0.6
-
-		meshsettings = {
-			name = "Cube.013"
-			index = 0
-			texture_diffuse = "Tiger3_BRG_diffuse.dds"
-			texture_normal = "Tiger3_normal.dds"
-			texture_specular = "Tiger3_specular.dds"
-			shader = PdxMeshAdvanced
-		}
 	}
 	pdxmesh = {
 		name = "IS7_mesh"

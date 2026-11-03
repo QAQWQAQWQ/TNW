@@ -1,4 +1,4 @@
-# Report/Country Event Pics GFX
+﻿# Report/Country Event Pics GFX
 # news events pics go in TNO_news_events.gfx
 
 #Index; Search for these names using CTRL+F and you'll find the section they entitle.
@@ -17102,10 +17102,7 @@ spriteTypes = {
 		name = "GFX_report_event_generic_the_joker"
 		texturefile = "gfx/event_pictures/Misc/report_event_generic_the_joker.png"
 	}
-	spriteType = { #testing how the event pic bot pics look in-game
-		name = "GFX_report_event_PIP_pog"
-		texturefile = "gfx/event_pictures/Misc/report_event_PIP_pog.png"
-	}
+
 	spriteType = {
 		name = "GFX_report_event_ROM_guns"
 		texturefile = "gfx/event_pictures/Misc/report_event_ROM_guns.png"

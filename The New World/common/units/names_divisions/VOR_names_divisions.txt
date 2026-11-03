@@ -69,8 +69,6 @@ VOR_ANB = {
 	division_types = { "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%dya Antifashistskaya Narodnaya Brigada"
 
 	# Names with numbers (only one number per entry).

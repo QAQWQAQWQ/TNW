@@ -1,4 +1,4 @@
-ideas = {
+﻿ideas = {
 
 	hidden_ideas = { 
 		IBR_iberiawars_stage_one = {
@@ -345,29 +345,7 @@ ideas = {
 		}
 
 
-		Disorderly_Federal_Army_Heydrich = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Disorderly_Federal_Army_Heydrich" }
 
-			allowed = { always = no }
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = IBR_disorderly_federal_army
-
-			modifier = {
-				planning_speed = -0.10
-				consumer_goods_use_modifier = 0.15
-				army_org_factor = -0.05
-				conscription_factor = -0.35
-				land_doctrine_cost_factor = 0.5
-				air_doctrine_cost_factor = 0.5
-				naval_doctrine_cost_factor = 0.5
-			}
-		}
 		Disorderly_Federal_Army_notsomuch = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Disorderly_Federal_Army_notsomuch" }
 

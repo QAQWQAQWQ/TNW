@@ -323,7 +323,6 @@ Cold_War_GUI_Score_Calculation = {
 						has_idea = Sphere_Fully_Dependent
 						has_idea = Sphere_Economic_Dependent
 						has_idea = Pakt_Mitstreiter
-						has_idea = Pakt_Ordensstaat
 					}
 				}
 				subtract_from_variable = { PREV.Score_Diplomacy^2 = 1 }
@@ -543,7 +542,6 @@ Cold_War_GUI_Faction_Score_Calculation = {
 	# 			has_idea = Sphere_Fully_Dependent
 	# 			has_idea = Sphere_Economic_Dependent
 	# 			has_idea = Pakt_Mitstreiter
-	# 			has_idea = Pakt_Ordensstaat
 	# 		}
 	# 	}
 	# 	multiply_variable = { Score_Economy = 0.75 }
@@ -837,10 +835,7 @@ TNO_clamping_tension_vars = {
 	clamp_variable = { var = global.TNO_World_Tension min = 0 max = 100 }
 	if = {
 		limit = {
-			OR = {
-				has_global_flag = TNO_world_tension_heydrich
-				has_global_flag = TNO_world_tension_WW3
-			}
+			has_global_flag = TNO_world_tension_WW3
 		}
 		set_variable = { global.TNO_World_Tension = 100 }
 	}

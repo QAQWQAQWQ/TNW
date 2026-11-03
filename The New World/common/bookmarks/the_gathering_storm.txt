@@ -1,4 +1,4 @@
-bookmarks = {
+﻿bookmarks = {
 
 	###################################################################
 	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
@@ -48,7 +48,6 @@ bookmarks = {
 			focuses = {
 				BOR_der_wilde_ritt
 				SGR_doppeldenken
-				HGR_victory_tree
 			}
 		}
 		"ZZZ" = { history = "" }
@@ -77,7 +76,7 @@ bookmarks = {
 		"ZZZ" = { history = "" }
 
 		"AST" = {
-			history = "AUS_THENEWORDER_DESC"
+			history = ""
 			ideology = fascism
 			ideas = {
 				

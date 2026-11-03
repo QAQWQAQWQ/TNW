@@ -1,4 +1,4 @@
-capital = 109
+﻿capital = 109
 load_focus_tree = ZZZ_national_focus
 # Vacant
 
@@ -139,7 +139,6 @@ set_popularities = {
 set_variable = { trade_opinion_embargo@GER = 1 }
 set_variable = { trade_opinion_embargo@GGR = 1 }
 set_variable = { trade_opinion_embargo@BGR = 1 }
-set_variable = { trade_opinion_embargo@HGR = 1 }
 set_variable = { trade_opinion_embargo@SGR = 1 }
 set_variable = { trade_opinion_embargo@CZE = 1 }
 set_variable = { trade_opinion_embargo@GGN = 1 }

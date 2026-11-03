@@ -40,19 +40,6 @@ objectTypes = {
 		animation = { id = "move"			type = "Unimog_move_animation" }
 	}
 
-	pdxmesh = {
-		name = "Unimog_BRG_mesh"
-		file = "gfx/models/units/vehicles/Unimog.mesh"
-
-		animation = { id = "idle"			type = "Unimog_idle_animation" }
-		animation = { id = "move"			type = "Unimog_move_animation" }
-
-		meshsettings = {
-			texture_diffuse = "Unimog_BRG_diffuse.dds"
-			texture_normal = "Unimog_normal.dds"
-			texture_specular = "Unimog_specular.dds"
-		}
-	}
 
 	pdxmesh = {
 		name = "Type11Truck_mesh"
@@ -193,22 +180,6 @@ objectTypes = {
 		scale = 1.0
 	}
 
-	pdxmesh = {
-		name = "SdKfz2345_BRG_mesh"
-		file = "gfx/models/units/vehicles/SdKfz2345.mesh"
-
-		animation = { id = "idle"			type = "SdKfz2345_idle_animation" }
-		animation = { id = "move"			type = "SdKfz2345_move_animation" }
-		animation = { id = "attack"			type = "SdKfz2345_attack_animation" }
-
-		scale = 1.0
-
-		meshsettings = {
-			texture_diffuse = "SdKfz2345_BRG_diffuse.dds"
-			texture_normal = "SdKfz2345_normal.dds"
-			texture_specular = "SdKfz2345_specular.dds"
-		}
-	}
 
 	pdxmesh = {
 		name = "Type20_mesh"

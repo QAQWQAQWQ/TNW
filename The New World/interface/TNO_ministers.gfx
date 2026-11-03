@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_ZZA_minister_Universal"
@@ -4489,58 +4489,22 @@ spriteTypes = {
 	}
 
 	### Picardie ###
-	spriteType = {
-		name = "GFX_idea_PIC_minister_Rene_Binet"
-		texturefile = "gfx/interface/ideas/ministers/PIC/PIC_minister_Rene_Binet.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_PIC_minister_Marc_Augier"
-		texturefile = "gfx/interface/ideas/ministers/PIC/PIC_minister_Marc_Augier.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_PIC_minister_Jacques_Correze"
-		texturefile = "gfx/interface/ideas/ministers/PIC/PIC_minister_Jacques_Correze.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_PIC_minister_Jean_Bassompierre"
-		texturefile = "gfx/interface/ideas/ministers/PIC/PIC_minister_Jean_Bassompierre.dds"
-	}
+
+
+
+
 
 	### Belgium ###
-	spriteType = {
-		name = "GFX_idea_BEL_minister_Jean_Vermeire"
-		texturefile = "gfx/interface/ideas/ministers/BEL/BEL_minister_Jean_Vermeire.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BEL_minister_Jean_Francois_Thiriart"
-		texturefile = "gfx/interface/ideas/ministers/BEL/BEL_minister_Jean_Francois_Thiriart.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BEL_minister_Fernand_Rouleau"
-		texturefile = "gfx/interface/ideas/ministers/BEL/BEL_minister_Fernand_Rouleau.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_BEL_minister_Lucien_Lippert"
-		texturefile = "gfx/interface/ideas/ministers/BEL/BEL_minister_Lucien_Lippert.dds"
-	}
+
+
+
+
 
 	### Flanders ###
-	spriteType = {
-		name = "GFX_idea_FLR_minister_Ward_Hermans"
-		texturefile = "gfx/interface/ideas/ministers/FLR/FLR_minister_Ward_Hermans.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_FLR_minister_Rene_Lagrou"
-		texturefile = "gfx/interface/ideas/ministers/FLR/FLR_minister_Rene_Lagrou.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_FLR_minister_Albert_Luykx"
-		texturefile = "gfx/interface/ideas/ministers/FLR/FLR_minister_Albert_Luykx.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_FLR_minister_Jef_Francois"
-		texturefile = "gfx/interface/ideas/ministers/FLR/FLR_minister_Jef_Francois.dds"
-	}
+
+
+
+
 
 	### Void Ministry ##
 	spriteType = {

@@ -1,4 +1,4 @@
-state = {
+﻿state = {
 	id = 583
 	name = "STATE_583"
 
@@ -15,7 +15,6 @@ state = {
 		victory_points = { 12257 1 }
 		victory_points = { 1363 1 }
 		victory_points = { 12229 1 }
-		add_core_of = SSF
 		set_state_flag = state_renamings
 	}
 

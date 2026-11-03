@@ -15,7 +15,6 @@ GER_south_african_war_category = {
 		NOT = {
 			has_global_flag = german_civil_war_bormannvic
 			has_global_flag = german_civil_war_speervic
-			has_global_flag = german_civil_war_heydrichvic
 		}
 	}
 }

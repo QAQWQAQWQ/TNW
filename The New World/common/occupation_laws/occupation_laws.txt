@@ -139,7 +139,6 @@ no_garrison = {
 					tag = SGR
 					tag = BGR
 					tag = GGR
-					tag = HGR
 				}
 				surrender_progress < 0.8
 			}

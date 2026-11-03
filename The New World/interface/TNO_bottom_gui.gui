@@ -19,14 +19,6 @@ guiTypes = {
 		}
 		
 		buttonType = {
-			name = "heydrich_nukes_crt_icon"
-			spriteType = "GFX_heydrich_nukes_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_tt_ger_hgr"
-		}	
-		
-		buttonType = {
 			name = "zollverein_crt_icon"
 			spriteType = "GFX_zollverein_crt_icon"
 			position = { x = 48 y = 48 }

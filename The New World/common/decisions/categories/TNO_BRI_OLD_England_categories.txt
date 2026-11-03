@@ -210,7 +210,6 @@ ENG_DECCAT_USA_EQUIPMENT_MISSION = {
 # 	visible = {
 # 		has_global_flag = ENG_Faction_Start_Flag
 # 		NOT = {
-# 			has_global_flag = german_civil_war_heydrichvic
 # 			has_global_flag = german_civil_war
 # 			has_global_flag = ENG_joined_faction
 # 		}
@@ -228,7 +227,6 @@ ENG_DECCAT_USA_EQUIPMENT_MISSION = {
 # 			has_global_flag = ENG_Faction_Start_Flag
 # 			NOT ={
 # 				OR = {
-# 					has_global_flag = german_civil_war_heydrichvic
 # 					has_global_flag = german_civil_war
 # 				}
 # 			}
@@ -248,7 +246,6 @@ ENG_DECCAT_USA_EQUIPMENT_MISSION = {
 # 			has_global_flag = ENG_Faction_Start_Flag
 # 			NOT ={
 # 				OR = {
-# 					has_global_flag = german_civil_war_heydrichvic
 # 					has_global_flag = german_civil_war
 # 				}
 # 			}

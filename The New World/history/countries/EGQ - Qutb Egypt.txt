@@ -1,4 +1,4 @@
-capital = 446
+﻿capital = 446
 
 # Vacant
 recruit_character = EGQ_Generic_Vacant
@@ -86,7 +86,6 @@ inherit_technology = EGY
 set_variable = { trade_opinion_embargo@GER = 1 }
 set_variable = { trade_opinion_embargo@GGR = 1 }
 set_variable = { trade_opinion_embargo@BGR = 1 }
-set_variable = { trade_opinion_embargo@HGR = 1 }
 set_variable = { trade_opinion_embargo@SGR = 1 }
 set_variable = { trade_opinion_embargo@CZE = 1 }
 set_variable = { trade_opinion_embargo@GGN = 1 }

@@ -16572,9 +16572,6 @@ shared_focus = {
 	prerequisite = {
 		focus = ENG_IT_Macmillan_on_the_world_stage
 	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
-	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 4
 	y = 6
@@ -16597,9 +16594,6 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = ENG_IT_Macmillan_undermining_the_reich
-	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
 	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 4
@@ -16628,9 +16622,6 @@ shared_focus = {
 	prerequisite = {
 		focus = ENG_IT_Macmillan_placating_the_reich
 	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
-	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 5
 	y = 8
@@ -16654,9 +16645,6 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = ENG_IT_Macmillan_an_arms_deal
-	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
 	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 5
@@ -16686,9 +16674,6 @@ shared_focus = {
 	prerequisite = {
 		focus = ENG_IT_Macmillan_placating_the_reich
 	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
-	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 3
 	y = 8
@@ -16710,9 +16695,6 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = ENG_IT_Macmillan_becoming_our_own
-	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
 	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 3
@@ -16746,9 +16728,6 @@ shared_focus = {
 	prerequisite = {
 		focus = ENG_IT_Macmillan_visiting_the_overlord
 	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
-	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 4
 	y = 10
@@ -16772,9 +16751,6 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = ENG_IT_Macmillan_a_false_friendship
-	}
-	bypass = {
-		has_global_flag = german_civil_war_heydrichvic
 	}
 	relative_position_id = ENG_IT_Macmillan_a_new_england
 	x = 4
@@ -26854,10 +26830,6 @@ shared_focus = {
 	}
 	available = {
 		NOT = { has_country_flag = ENG_in_crisis }
-		custom_trigger_tooltip = {
-			tooltip = ENG_faction_mechanic_GER_is_not_goering_or_heydrich
-			NOT = { has_global_flag = german_civil_war_heydrichvic }
-		}
 	}
 	prerequisite = {
 		focus = ENG_our_biggest_threat
@@ -26878,15 +26850,9 @@ shared_focus = {
 				days = 2
 			}
 		}
-		else_if = {
-			limit = {
-				NOT = { has_global_flag = german_civil_war_heydrichvic }
-			}
+		else = {
 			set_country_flag = ENG_ready_for_faction_mech
 			custom_effect_tooltip = ENG_faction_mechanic_starting_germany_GCW_ongoing
-		}
-		else = {
-			custom_effect_tooltip = ENG_faction_mechanic_goering_or_heydrich
 		}
 	}
 }

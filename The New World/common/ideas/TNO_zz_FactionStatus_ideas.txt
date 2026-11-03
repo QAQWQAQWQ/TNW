@@ -1,4 +1,4 @@
-ideas = {
+﻿ideas = {
 	hidden_ideas = {
 		## Afrika Schild ##
 		AS_Member = {
@@ -204,17 +204,6 @@ ideas = {
 			}
 		}
 
-		#Ordensstaat
-		Pakt_Ordensstaat = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_Ordensstaat" }
-			allowed = { always = no }
-			allowed_civil_war = { always = no }
-
-			modifier = {
-				annual_gdp_growth_factor = -0.1
-			}
-		}
-
 		#Observer
 		Pakt_Observer = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Pakt_Observer" }
@@ -224,27 +213,6 @@ ideas = {
 			modifier = {
 				annual_gdp_growth_factor = 0.05
 			}
-		}
-
-		## Anti-Heydrich Pact
-		Anti_Heydrich_Pact = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Anti_Heydrich_Pact" }
-			allowed = { always = no }
-			allowed_civil_war = { always = no }
-		}
-
-		## Anti-Himmler
-		Anti_Himmler = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Anti_Himmler" }
-			allowed = { always = no }
-			allowed_civil_war = { always = no }
-		}
-
-		## Anti-Heydrich
-		Anti_Heydrich = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Anti_Heydrich" }
-			allowed = { always = no }
-			allowed_civil_war = { always = no }
 		}
 
 		### Sphere ###

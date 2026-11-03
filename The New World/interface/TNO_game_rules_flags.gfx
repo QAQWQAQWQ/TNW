@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 ##########################################
 ### EUROPE - EINHEITSPAKT (UNITY-PAKT) ###
@@ -1262,11 +1262,7 @@ spriteType = {
 		texturefile = "gfx/flags/small/GGR.tga"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_TNO_game_rule_flag_HGR"
-		texturefile = "gfx/flags/small/HGR.tga"
-		legacy_lazy_load = no
-	}
+
 
 	
 	# Italian Empire
@@ -1480,25 +1476,13 @@ spriteType = {
 		legacy_lazy_load = no
 	}
 	# SS-Charlemagne Revolt
-	spriteType = {
-		name = "GFX_TNO_game_rule_flag_PIC"
-		texturefile = "gfx/flags/small/PIC.tga"
-		legacy_lazy_load = no
-	}
+
 
 	# SS-Wallonien Revolt
-	spriteType = {
-		name = "GFX_TNO_game_rule_flag_BEL_ultranationalism"
-		texturefile = "gfx/flags/small/BEL_ultranationalism.tga"
-		legacy_lazy_load = no
-	}
+
 
 	# SS-Langemarck Revolt
-	spriteType = {
-		name = "GFX_TNO_game_rule_flag_FLR"
-		texturefile = "gfx/flags/small/FLR.tga"
-		legacy_lazy_load = no
-	}
+
 
 	# Red Poppy Revolt
 	spriteType = {

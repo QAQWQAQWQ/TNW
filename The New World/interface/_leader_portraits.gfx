@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	# leaders we need to override in DLC go in this file
 
@@ -3167,85 +3167,37 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_AST_iven_mackay.dds"
 	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_kurt_schuschnigg
-		texturefile = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_karl_renner
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_2.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_arthur_seyss-inquart
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_arthur_seyss-inquart_small
-		texturefile = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_alfred_klahr
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_karl_eglseer
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_AUS_karl_eglseer_small
-		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_hubert_pierlot
-		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_joseph_jacquemotte
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_1.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_leon_degrelle
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_leon_degrelle_small
-		texturefile = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_mcl_keyaerts
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_mcl_keyaerts_small
-		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_georges_timmermans
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.png"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_georges_timmermans_small
-		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_3.dds"
-	}
 
-	spriteType = {
-		name = GFX_portrait_BEL_gilles_wyvekens
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_6.png"
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	spriteType = {
 		name = GFX_portrait_Tsarong_Wangyal
@@ -4692,10 +4644,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/Portrait_Germany_Hermann_Goring.png"
 	}
 
-	spriteType = {
-		name = GFX_portrait_GER_heinrich_himmler
-		texturefile = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.png"
-	}
+
 
 	spriteType = {
 		name = GFX_portrait_GRE_ioannis_metaxas

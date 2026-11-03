@@ -189,7 +189,6 @@ set_variable = { tno_security_effectiveness = 55 }
 set_variable = { trade_opinion_embargo@GER = 1 }
 set_variable = { trade_opinion_embargo@GGR = 1 }
 set_variable = { trade_opinion_embargo@BGR = 1 }
-set_variable = { trade_opinion_embargo@HGR = 1 }
 set_variable = { trade_opinion_embargo@SGR = 1 }
 set_variable = { trade_opinion_embargo@CZE = 1 }
 set_variable = { trade_opinion_embargo@GGN = 1 }

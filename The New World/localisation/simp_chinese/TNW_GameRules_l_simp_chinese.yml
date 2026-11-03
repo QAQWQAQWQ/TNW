@@ -11,7 +11,7 @@
  RULE_OPTION_DISABLED_PONY_BUKHARIN_DESC: "§C谐律§!的降临§R被扰乱了§!。"
  SUPERPOWER_TENSION_STATUS: "£TNO_game_rule_flag_USA  £TNO_game_rule_flag_JAP  £TNO_game_rule_flag_GER   超级大国的冲突"
  RULE_OPTION_TENSION_DEFAULT: "正常"
- RULE_OPTION_TENSION_DEFAULT_DESC: "§W由玩家扮演的超级大国和§Y勃艮第骑士团国§!可以引发§R第三次世界大战。§!§!"
+ RULE_OPTION_TENSION_DEFAULT_DESC: "§W由玩家扮演的超级大国可以引发§R第三次世界大战。§!§!"
  RULE_OPTION_TENSION_DISABLED: "三战禁用"
  RULE_OPTION_TENSION_DISABLED_DESC: "§W超级大国间的冲突永远不会引发§R第三次世界大战。§!§!"
  RULE_OPTION_TENSION_TENSION_FULLY_ENABLED: "三战启用"

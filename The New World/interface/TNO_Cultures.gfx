@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	# Follow the rule GFX_culture_<variable value of the culture> #
 
@@ -561,10 +561,7 @@ spriteTypes = {
 		name = "GFX_culture_139"
 		texturefile = "gfx/interface/culture/culture_germanic_dutch.dds"
 	}
-	spriteType = {
-		name = "GFX_culture_140"
-		texturefile = "gfx/interface/culture/culture_germanic_burgundian.dds"
-	}
+
 	spriteType = {
 		name = "GFX_culture_141"
 		texturefile = "gfx/interface/culture/culture_germanic_rhenish.dds"

@@ -1,4 +1,4 @@
-EGY_Italiana = {
+﻿EGY_Italiana = {
 	color = rgb { 137 187 120 }
 	color_ui = rgb { 137 187 120 }
 }
@@ -185,15 +185,9 @@ MDG_GERMAN = {
 	color_ui = rgb { 74 52 45 }
 }
 
-BEL_SGR = {
-	color = rgb { 88 94 101 }
-	color_ui = rgb { 88 94 101 }
-}
 
-BEL_HGR = {
-	color = rgb { 80 45 90 }
-	color_ui = rgb { 80 45 90 }
-}
+
+
 
 MCW_SGR = {
 	color = rgb { 64 62 58 }
@@ -1533,20 +1527,11 @@ COG_FED_REP = {
 	color_ui = rgb { 117 124 168 }
 }
 
-FLR_HGR = {
-	color = rgb { 90 50 95 }
-	color_ui = rgb { 90 50 95 }
-}
 
-PIC_HGR = {
-	color = rgb { 85 50 90 }
-	color_ui = rgb { 85 50 90 }
-}
 
-KSS_GER = {
-	color = rgb { 60 60 60 }
-	color_ui = rgb { 60 60 60 }
-}
+
+
+
 
 ZOM_radiosilence = {
 	color = rgb { 58 35 64 }

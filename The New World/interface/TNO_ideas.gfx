@@ -1,4 +1,4 @@
-#Idea GFX
+﻿#Idea GFX
 
 #Index; Search for these names using CTRL+F and you'll find the section they entitle.
 #Subfolders of each section are ordered alphabetically
@@ -4822,10 +4822,7 @@ SpriteTypes = {
 		name = "GFX_idea_GER_herbst"
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_herbst.dds"
 	}
-	SpriteType = {
-		name = "GFX_idea_GER_HGR_burgerkrieg"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_HGR_burgerkrieg.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_idea_GER_japanese_cooperation"
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_japanese_contribution.dds"
@@ -5079,193 +5076,35 @@ SpriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/Reich/GER/idea_GER_reich_in_flames.dds"
 	}
 
-	## Heydrich and Warlords ##
 
-	SpriteType = {
-		name = "GFX_idea_HGR_militarist_support"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_militarist_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HGR_moderate_support"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_moderate_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HGR_native_support"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_native_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HGR_rogue_element"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_rogue_element.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HGR_ss_idealist_support"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_ss_idealist_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_HGR_ss_pragmatist_support"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_HGR_ss_pragmatist_support.dds"
-	}
 
-	SpriteType = {
-		name = "GFX_idea_AGS_angriffsgruppe_standoff"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_AGS_angriffsgruppe_standoff.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_APF_lebensborn"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_APF_lebensborn.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_AUS_weary_of_the_fuhrers"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_AUS_weary_of_the_fuhrers.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_AUS_unpurged_heer"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_AUS_unpurged_heer.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BEL_high_in_honors"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_BEL_high_in_honors.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_BEL_restorationist_fervor"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_BEL_restorationist_fervor.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_DSG_a_tiring_stance"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_DSG_a_tiring_stance.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_DSH_directed_anarchy"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_DSH_directed_anarchy.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_DSH_the_volkswache"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_DSH_the_volkswache.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FHH_mastery_of_intelligence"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FHH_mastery_of_intelligence.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FHH_safe_sane_secure"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FHH_safe_sane_secure.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FLR_eyes_on_the_border"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FLR_eyes_on_the_border.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FLR_the_fearful_victory"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FLR_the_fearful_victory.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FPG_backs_to_the_sea"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FPG_backs_to_the_sea.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FPG_first_and_foremost"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FPG_first_and_foremost.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FSP_a_second_solution"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_FSP_a_second_solution.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KHP_bloodstained_legacy"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KHP_bloodstained_legacy.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KHP_eagles_nest"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KHP_eagles_nest.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KLB_logistical_stronghold"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KLB_logistical_stronghold.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KSS_posens_railway"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KSS_posens_railway.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KSS_shell_of_a_bread_basket"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KSS_shell_of_a_bread_basket.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_KSS_the_black_white_red"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_KSS_the_black_white_red.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_LHH_shield_of_the_ordensstaat"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_LHH_shield_of_the_ordensstaat.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_OER_promises_from_the_shadows"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_OER_promises_from_the_shadows.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_OER_self_appointed_order"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_OER_self_appointed_order.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_OER_the_hunt_for_schorner"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_OER_the_hunt_for_schorner.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_OKL_bingo_on_fuel"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_OKL_bingo_on_fuel.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_OKL_horten_brothers"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_OKL_horten_brothers.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_PIC_in_name_only"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_PIC_in_name_only.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_PIC_the_robber_barony"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_PIC_the_robber_barony.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_PRK_justice_of_the_liberated"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_PRK_justice_of_the_liberated.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_PRK_old_soldiers"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_PRK_old_soldiers.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_PRK_to_the_death"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_PRK_to_the_death.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSF_reichwide_political_ties"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSF_reichwide_political_ties.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSF_unscrupulous_nazism"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSF_unscrupulous_nazism.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSN_a_grip_of_ebon_steel"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSN_a_grip_of_ebon_steel.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSN_one_big_cage"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSN_one_big_cage.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSW_a_unit_divided"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSW_a_unit_divided.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSW_come_in_ost_paris"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSW_come_in_ost_paris.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_SSW_the_wewelsburg_citadel_project"
-		texturefile = "gfx/interface/ideas/national_spirits/Reich/HGR/idea_SSW_the_wewelsburg_citadel_project.dds"
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	## Hungary ##
 

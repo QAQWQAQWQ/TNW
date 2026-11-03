@@ -40,8 +40,6 @@ TAR_Infantry = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Tatar Pexotnaya Diviziyase"
 
 	# Names with numbers (only one number per entry).
@@ -100,8 +98,6 @@ TAR_Irregulars = {
 	division_types = { "infantry" "light_infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { AUS_INF_01 }
-
 	fallback_name = "%d. Tatar Partizan Torkemnaere"
 
 	# Names with numbers (only one number per entry).

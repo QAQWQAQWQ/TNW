@@ -421,7 +421,6 @@ shared_focus = {
 	}
 }
 
-#Show Their Crimes - Heydrich, Göring and Bormann - all of them monsters, all need to have their crimes laid out before them. Like a certain other man...
 shared_focus = {
 	id = SGR_show_their_crimes
 	icon = GFX_focus_GER_show_their_crimes

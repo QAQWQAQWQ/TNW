@@ -479,13 +479,11 @@
  SPR_puppet_DEF: "Spanish Republic"
  CLL_Partisans_DEF: "National Democratic Front"
  CLC_CCW2_DEF: "National Socialist Union"
- APF_CZECH: "Reichsführer-SS Command Territory of Bohemia-Moravia"
- APF_CZECH_DEF: "Reichsführer-SS Command Territory of Bohemia-Moravia"
- APF_CZECH_ADJ: "SS"
+
+
+
  POL_SGR_national_socialism: "Provisional Government of Poland"
  POL_SGR_national_socialism_DEF: "Provisional Government of Poland"
- HGR_DEAD: "SS Germania"
- HGR_DEAD_DEF: "SS Germania"
  KAZ_Tashenev: "Kazakh Socialist Republic"
  KAZ_Tashenev_DEF: "Kazakh Socialist Republic"
  KAZ_Tashenev_ADJ: "Kazakh"
@@ -510,8 +508,8 @@
  SGR_CAU_provisional_government_DEF: "Caucasian Military Government"
  UKR_SGR: "People's Republic of Ukraine"
  UKR_SGR_DEF: "People's Republic of Ukraine"
- BEL_SGR: "Reichskommissariat Belgium-Northern France"
- BEL_SGR_DEF: "Reichskommissariat Belgium-Northern France"
+
+
  EST_SGR: "Baltic Confederation"
  EST_SGR_DEF: "Baltic Confederation"
  OST_BLT: "Baltic Confederation"

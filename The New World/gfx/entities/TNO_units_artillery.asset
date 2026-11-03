@@ -67,14 +67,6 @@ entity = {
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "OMO_infantry_entity" }
 }
-######BRG
-entity = {
-	name = "BRG_artillery_entity"
-	clone = "generic_clone_artillery_entity"
-
-	attach = { name = artillery			artillery = "artillery_gun_entity" }
-	attach = { name = infantry			infantry = "BRG_infantry_entity" }
-}
 ######FEN
 entity = {
 	name = "FEN_artillery_entity"
@@ -243,14 +235,6 @@ entity = {
 
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "SGR_infantry_entity" }
-}
-######HGR
-entity = {
-	name = "HGR_artillery_entity"
-	clone = "generic_clone_artillery_entity"
-
-	attach = { name = artillery			artillery = "artillery_gun_entity" }
-	attach = { name = infantry			infantry = "HGR_infantry_entity" }
 }
 ######GGR
 entity = {

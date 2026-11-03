@@ -8,9 +8,8 @@
  AFR: "阿法尔"
  AFR_DEF: "阿法尔"
  AFR_ADJ: "阿法尔"
- AGS: "施坦纳突击群"
- AGS_DEF: "施坦纳突击群"
- AGS_ADJ: "施坦纳突击群"
+
+
  ALB: "阿尔巴尼亚"
  ALB_DEF: "阿尔巴尼亚"
  ALB_ADJ: "阿尔巴尼亚"
@@ -40,18 +39,16 @@
  ANT: "安提瓜、巴布达和蒙特塞拉特"
  ANT_DEF: "安提瓜、巴布达和蒙特塞拉特"
  ANT_ADJ: "安提瓜"
- APF: "雅利安人民阵线"
- APF_DEF: "雅利安人民阵线"
- APF_ADJ: "人民阵线"
+
+
  ARP: "阿根廷占领区"
  ARP_DEF: "阿根廷巴拉圭占领区"
  ARP_ADJ: "阿根廷"
  ARG: "阿根廷共和国"
  ARG_DEF: "阿根廷共和国"
  ARG_ADJ: "阿根廷"
- AUS: "东疆山地猎兵部队"
- AUS_DEF: "东疆山地猎兵部队"
- AUS_ADJ: "奥地利"
+
+
  AYA: "阿尼亚尼亚"
  AYA_DEF: "阿尼亚尼亚运动"
  AYA_ADJ: "阿尼亚尼亚"
@@ -151,12 +148,10 @@
  DRL: "迪勒万格旅"
  DRL_DEF: "迪勒万格旅"
  DRL_ADJ: "奥尔斯克"
- DSG: "德意志紧急政府"
- DSG_DEF: "德意志紧急政府"
- DSG_ADJ: "德国"
- DSH: "黑卫兵"
- DSH_DEF: "黑卫兵"
- DSH_ADJ: "德国"
+
+
+
+
  
  ENA: "东方海军政权"
  ENA_DEF: "东方海军政权"
@@ -181,20 +176,17 @@
  FGB: "比律宾军政部"
  FGB_DEF: "第十四军军政监部"
  FGB_ADJ: "第十四军"
- FHH: "德意志国"
- FHH_DEF: "德意志国"
- FHH_ADJ: "德国"
+
+
  FIN: "芬兰共和国"
  FIN_DEF: "芬兰共和国"
  FIN_ADJ: "芬兰"
- FPG: "自由军团「狂战士」"
- FPG_DEF: "自由军团「狂战士」"
- FPG_ADJ: "狂战士"
+
+
  
  FRS_ADJ: "法国"
- FSP: "普鲁士自由邦"
- FSP_DEF: "普鲁士自由邦"
- FSP_ADJ: "德国"
+
+
  FZL: "蓝色阵线"
  FZL_DEF: "蓝色阵线"
  FZL_ADJ: "西班牙"
@@ -220,10 +212,8 @@
  GUD: "瓜德罗普"
  GUD_DEF: "瓜德罗普"
  GUD_ADJ: "瓜德罗普"
- 
- ISS: "西里西亚工业邦"
- ISS_DEF: "西里西亚工业邦"
- ISS_ADJ: "德国"
+
+
  JAM: "牙买加"
  JAM_DEF: "牙买加"
  JAM_ADJ: "牙买加"
@@ -249,27 +239,23 @@
  KAL: "西伯利亚工人联邦"
  KAL_DEF: "西伯利亚工人联邦"
  KAL_ADJ: "西伯利亚"
- KHP: "圣职战斗群"
- KHP_DEF: "圣职战斗群"
- KHP_ADJ: "德国"
- KLB: "党卫队全国领袖保安局"
- KLB_DEF: "党卫队全国领袖保安局"
- KLB_ADJ: "德国"
+
+
+
+
  KOR: "朝鲜"
  KOR_DEF: "朝鲜"
  KOR_ADJ: "朝鲜"
  KRL: "卡累利阿自治领"
  KRL_DEF: "卡累利阿自治领"
  KRL_ADJ: "卡累利阿"
- KSS: "武装党卫队司令部"
- KSS_DEF: "武装党卫队司令部"
- KSS_ADJ: "德国"
+
+
  KYK: "基库尤兰"
  KYK_DEF: "基库尤兰"
  KYK_ADJ: "基库尤兰"
- LHH: "海因里希·希姆莱亲卫旗队"
- LHH_DEF: "海因里希·希姆莱亲卫旗队"
- LHH_ADJ: "亲卫旗队"
+
+
  MAC: "马其顿"
  MAC_DEF: "马其顿民主联邦"
  MAC_ADJ: "马其顿"
@@ -296,12 +282,10 @@
  NTG: "下塔吉尔"
  NTG_DEF: "下塔吉尔"
  NTG_ADJ: "下塔吉尔"
- OER: "国家军事特别法庭"
- OER_DEF: "军事特别法庭"
- OER_ADJ: "德国"
- OKL: "德国空军最高统帅部"
- OKL_DEF: "德国空军最高统帅部"
- OKL_ADJ: "德国"
+
+
+
+
  OMO: ""
  OMO_DEF: ""
  OMO_ADJ: "西伯利亚"
@@ -337,9 +321,8 @@
  POR: "葡萄牙共和国"
  POR_DEF: "葡萄牙共和国"
  POR_ADJ: "葡萄牙"
- PRK: "斯巴达克斯之子"
- PRK_DEF: "斯巴达克斯之子"
- PRK_ADJ: "奴隶"
+
+
  PRM: "彼尔姆"
  PRM_DEF: "彼尔姆"
  PRM_national_socialism: "雅利安兄弟会"
@@ -445,20 +428,16 @@
  SRT: "「自由欧罗巴」联合军团"
  SRT_DEF: "「自由欧罗巴」联合军团"
  SRT_ADJ: "「自由欧罗巴」联合军团"
- SSF: "党卫队费格莱因战斗群"
- SSF_DEF: "党卫队费格莱因战斗群"
- SSF_ADJ: "德国"
- SSL: "党卫队洛林根骑士团国"
- SSL_DEF: "党卫队洛林根骑士团国"
- SSL_ADJ: "德国"
- SSL_despotism: "洛林根"
- SSL_despotism_DEF: "洛林根"
- SSN: "党卫队纽伦堡劳改营"
- SSN_DEF: "党卫队纽伦堡劳改营"
- SSN_ADJ: "德国"
- SSW: "党卫队威斯特法伦管辖区"
- SSW_DEF: "党卫队威斯特法伦管辖区"
- SSW_ADJ: "德国"
+
+
+
+
+
+
+
+
+
+
  SVI: "圣文森特和格林纳丁斯"
  SVI_DEF: "圣文森特和格林纳丁斯"
  SVI_ADJ: "文森特"

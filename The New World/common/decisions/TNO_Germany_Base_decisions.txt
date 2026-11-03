@@ -1,4 +1,4 @@
-#  ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗
+﻿#  ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗
 # ██╔════╝ ██╔════╝██╔══██╗████╗ ████║██╔══██╗████╗  ██║╚██╗ ██╔╝
 # ██║  ███╗█████╗  ██████╔╝██╔████╔██║███████║██╔██╗ ██║ ╚████╔╝ 
 # ██║   ██║██╔══╝  ██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║  ╚██╔╝  
@@ -10,7 +10,6 @@
 #	Germany Debug Decisions
 #		Speer Debug
 #		Bormann Debug
-#		Heydrich Debug
 #		Generic Debug
 #	Germany Power Struggle Decisions
 #	Germany GCW Decisions
@@ -548,208 +547,17 @@ GER_debug_category = {
 			}
 		}
 	}
+
+
+
 	
-	### Heydrich Debug ###
 
-
-	GER_heydrich_debug_setup_pre_struggle_pre_warlords = {
-		visible = { has_global_flag = german_civil_war_heydrichvic }
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GER_heydrich_debug_setup_pre_struggle_pre_warlords"
-			set_global_flag = german_civil_war_heydrichvic
-			
-			HGR_setup_bunkers = yes
-			HGR_setup_nukes = yes
-			load_focus_tree = {
-				tree = HGR_victory_tree_bunkers_arsenal
-				keep_completed = yes
-			}
-		}
-	}
 	
-	GER_heydrich_debug_setup_pre_struggle_warlords_stage_1 = {
-		visible = { has_global_flag = german_civil_war_heydrichvic }
 
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GER_heydrich_debug_setup_pre_struggle_warlords_stage_1"
-			set_global_flag = german_civil_war_heydrichvic
-			
-			HGR_setup_bunkers = yes
-			HGR_setup_nukes = yes
-			FPG = {
-				transfer_state = 61
-				transfer_state = 62
-			}
-			PRK = {
-				transfer_state = 5
-			}
-			load_focus_tree = {
-				tree = HGR_victory_tree_bunkers_arsenal_breakaways
-				keep_completed = yes
-			}
-		}
-	}
-	
-	GER_heydrich_debug_setup_pre_struggle_warlords_stage_2 = {
-		visible = { has_global_flag = german_civil_war_heydrichvic }
-
-		fire_only_once = yes
-
-		cost = 0
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GER_heydrich_debug_setup_pre_struggle_warlords_stage_2"
-			set_global_flag = german_civil_war_heydrichvic
-			
-			HGR_setup_bunkers = yes
-			HGR_setup_nukes = yes
-			FPG = {
-				transfer_state = 61
-				transfer_state = 62
-			}
-			PRK = {
-				transfer_state = 5
-			}
-			SSL = {
-				transfer_state = 56
-				transfer_state = 775
-				transfer_state = 1373
-			}
-			FSP = {
-				transfer_state = 97
-				set_province_controller = 3254
-				set_province_controller = 11386
-				set_province_controller = 11329
-				set_province_controller = 9372
-				set_province_controller = 9327
-			}
-			KHP = {
-				transfer_state = 153
-				transfer_state = 1772
-				transfer_state = 770
-			}
-			AUS = {
-				transfer_state = 4
-				transfer_state = 152
-				transfer_state = 1025
-			}
-			SSW = {
-				transfer_state = 57
-				set_province_controller = 564
-			}
-			LHH = {
-				transfer_state = 51
-				transfer_state = 42
-				transfer_state = 8
-				transfer_state = 28
-				set_province_controller = 11560
-			}
-			APF = {
-				transfer_state = 69
-				transfer_state = 74
-				set_province_controller = 3485
-			}
-			FHH = {
-				transfer_state = 50
-				transfer_state = 72
-			}
-			load_focus_tree = {
-				tree = HGR_victory_tree_bunkers_arsenal_breakaways
-				keep_completed = yes
-			}
-		}
-	}
 	
 
 
-	GER_heydrich_debug_setup_all_influence_decisions = {
-		visible = { has_global_flag = german_civil_war_heydrichvic }
 
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GER_heydrich_debug_setup_all_influence_decisions"
-			set_country_flag = HGR_Coalition_Unlocked
-			set_country_flag = HGR_foreign_decisions
-			set_country_flag = HGR_FLR_influence_true
-			set_country_flag = HGR_PIC_influence_true
-			set_country_flag = HGR_SSL_influence_true
-			set_country_flag = HGR_SSW_influence_true
-			set_country_flag = HGR_LHH_influence_true
-			set_country_flag = HGR_AGS_influence_true
-			set_country_flag = HGR_KHP_influence_true
-			set_country_flag = HGR_SSN_influence_true
-			set_country_flag = HGR_KLB_influence_true
-			set_country_flag = HGR_FSP_influence_true
-			set_country_flag = HGR_DSH_influence_true
-			set_country_flag = HGR_APF_influence_true
-			set_country_flag = HGR_SSF_influence_true
-			set_country_flag = HGR_KSS_influence_true
-			set_country_flag = HGR_AUS_influence_true
-			set_country_flag = HGR_OER_influence_true
-			set_country_flag = HGR_DSG_influence_true
-			set_country_flag = HGR_FPG_influence_true
-			set_country_flag = HGR_ISS_influence_true
-			set_country_flag = HGR_FHH_influence_true
-			set_country_flag = HGR_OKL_influence_true
-			set_country_flag = HGR_PRK_influence_true
-			set_country_flag = HGR_HOL_influence_true
-			set_country_flag = HGR_BRT_influence_true
-			set_country_flag = HGR_FLR_decision_set_a
-			set_country_flag = HGR_PIC_decision_set_a
-			set_country_flag = HGR_SSL_decision_set_a
-			set_country_flag = HGR_SSW_decision_set_a
-			set_country_flag = HGR_LHH_decision_set_a
-			set_country_flag = HGR_AGS_decision_set_a
-			set_country_flag = HGR_KHP_decision_set_a
-			set_country_flag = HGR_SSN_decision_set_a
-			set_country_flag = HGR_KLB_decision_set_a
-			set_country_flag = HGR_FSP_decision_set_a
-			set_country_flag = HGR_DSH_decision_set_a
-			set_country_flag = HGR_APF_decision_set_a
-			set_country_flag = HGR_SSF_decision_set_a
-			set_country_flag = HGR_KSS_decision_set_a
-			set_country_flag = HGR_AUS_decision_set_a
-			set_country_flag = HGR_OER_decision_set_a
-			set_country_flag = HGR_DSG_decision_set_a
-			set_country_flag = HGR_FPG_decision_set_a
-			set_country_flag = HGR_ISS_decision_set_a
-			set_country_flag = HGR_FHH_decision_set_a
-			set_country_flag = HGR_OKL_decision_set_a
-			set_country_flag = HGR_PRK_decision_set_a
-			set_country_flag = HGR_FLR_decision_set_b
-			set_country_flag = HGR_PIC_decision_set_b
-			set_country_flag = HGR_SSL_decision_set_b
-			set_country_flag = HGR_SSW_decision_set_b
-			set_country_flag = HGR_LHH_decision_set_b
-			set_country_flag = HGR_AGS_decision_set_b
-			set_country_flag = HGR_KHP_decision_set_b
-			set_country_flag = HGR_SSN_decision_set_b
-			set_country_flag = HGR_KLB_decision_set_b
-			set_country_flag = HGR_FSP_decision_set_b
-			set_country_flag = HGR_DSH_decision_set_b
-			set_country_flag = HGR_APF_decision_set_b
-			set_country_flag = HGR_SSF_decision_set_b
-			set_country_flag = HGR_KSS_decision_set_b
-			set_country_flag = HGR_AUS_decision_set_b
-			set_country_flag = HGR_OER_decision_set_b
-			set_country_flag = HGR_DSG_decision_set_b
-			set_country_flag = HGR_FPG_decision_set_b
-			set_country_flag = HGR_ISS_decision_set_b
-			set_country_flag = HGR_FHH_decision_set_b
-			set_country_flag = HGR_OKL_decision_set_b
-			set_country_flag = HGR_PRK_decision_set_b
-			set_country_flag = HGR_BRT_decision_set_a
-			set_country_flag = HGR_BRT_decision_set_b
-		}
-	}
 
 	### Generic Debug ###
 
@@ -910,11 +718,6 @@ GER_power_struggle_category = {
 				has_country_flag = speer_for_germany
 				check_variable = { GER_Speer_Influence < 15 }
 			}
-			modifier = {
-				factor = 0
-				has_country_flag = heydrich_for_germany
-				check_variable = { GER_Heydrich_Influence < 15 }
-			}
 		}
 
 		complete_effect = {
@@ -938,12 +741,7 @@ GER_power_struggle_category = {
 				}
 				subtract_from_variable = { GER_Speer_Influence = 5 }
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				subtract_from_variable = { GER_Heydrich_Influence = 5 }
-			}
+
 		}
 
 		remove_effect = {
@@ -1005,12 +803,7 @@ GER_power_struggle_category = {
 				}
 				subtract_from_variable = { GER_Speer_Influence = 5 }
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				subtract_from_variable = { GER_Heydrich_Influence = 5 }
-			}
+
 		}
 
 		remove_effect = {
@@ -1062,11 +855,6 @@ GER_power_struggle_category = {
 				has_country_flag = speer_for_germany
 				check_variable = { GER_Speer_Influence < 15 }
 			}
-			modifier = {
-				factor = 0
-				has_country_flag = heydrich_for_germany
-				check_variable = { GER_Heydrich_Influence < 15 }
-			}
 		}
 
 		complete_effect = {
@@ -1090,12 +878,7 @@ GER_power_struggle_category = {
 				}
 				subtract_from_variable = { GER_Speer_Influence = 5 }
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				subtract_from_variable = { GER_Heydrich_Influence = 5 }
-			}
+
 		}
 
 		remove_effect = {
@@ -1145,11 +928,6 @@ GER_power_struggle_category = {
 				has_country_flag = speer_for_germany
 				check_variable = { GER_Speer_Influence < 15 }
 			}
-			modifier = {
-				factor = 0
-				has_country_flag = heydrich_for_germany
-				check_variable = { GER_Heydrich_Influence < 15 }
-			}
 		}
 
 		complete_effect = {
@@ -1173,12 +951,7 @@ GER_power_struggle_category = {
 				}
 				subtract_from_variable = { GER_Speer_Influence = 5 }
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				subtract_from_variable = { GER_Heydrich_Influence = 5 }
-			}
+
 		}
 
 		remove_effect = {
@@ -1213,10 +986,6 @@ GER_power_struggle_category = {
 
 		ai_will_do = {
 			factor = 500
-			modifier = {
-				factor = 0
-				has_country_flag = heydrich_for_germany
-			}
 		}
 
 		complete_effect = {
@@ -1244,12 +1013,7 @@ GER_power_struggle_category = {
 				}
 				subtract_from_variable = { GER_Speer_Influence = 10 }
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				subtract_from_variable = { GER_Heydrich_Influence = 10 }
-			}
+
 		}
 
 		remove_effect = {
@@ -1274,12 +1038,7 @@ GER_power_struggle_category = {
 				}
 				set_country_flag = GER_CZE_secured_speer
 			}
-			else_if = {
-				limit = {
-					has_country_flag = heydrich_for_germany
-				}
-				set_country_flag = GER_CZE_secured_heydrich
-			}
+
 		}
 	}
 	GER_GCW_bormann_legitimacy = {
@@ -1357,31 +1116,7 @@ GER_power_struggle_category = {
 			}
 		}
 	}
-	GER_GCW_heydrich_legitimacy = {
-		allowed = {
-			always = no
-		}
 
-		available = {
-			hidden_trigger = {
-				always = no
-			}
-		}
-
-		cancel_if_not_visible = yes
-		is_good = yes 
-
-		days_mission_timeout = 60
-
-		timeout_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision timeout GER_GCW_heydrich_legitimacy"
-			custom_effect_tooltip = GER_increase_legitimacy_small_heydrich_tt
-			hidden_effect = {
-				add_to_variable = { GER_Heydrich_Influence = 5 }
-				activate_mission = GER_GCW_heydrich_legitimacy
-			}
-		}
-	}
 	GER_GCW_bormann_build_up = {
 		available = {
 			hidden_trigger = {
@@ -1612,81 +1347,7 @@ GER_power_struggle_category = {
 			}
 		}
 	}
-	GER_GCW_heydrich_build_up = {
-		available = {
-			hidden_trigger = {
-				always = no
-			}
-		}
 
-		activation = {
-			check_variable = { GER_Heydrich_Influence > GER_Heydrich_Influence_limit }
-			NOT = { has_country_flag = heydrich_for_germany }
-			has_country_flag = GER_power_struggle
-		}
-
-		fixed_random_seed = no
-		cancel_if_not_visible = yes
-		is_good = yes
-
-		days_mission_timeout = 30
-
-		timeout_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision timeout GER_GCW_heydrich_build_up"
-			if = {
-				limit = {
-					NOT = { has_country_flag = ai_heydrich_build_up }
-				}
-				set_country_flag = ai_heydrich_build_up
-			}
-			subtract_from_variable = { GER_Heydrich_Influence = 5 }
-			set_temp_variable = { ai_check_temp = 1 }
-			hidden_effect = {
-				random_list = {
-					1 = {
-						GCW_build_up_prod_units = yes
-					}
-					1 = {
-						GCW_build_up_forts = yes
-						modifier = {
-							factor = 0
-							OR = {
-								has_country_flag = GER_Hitler_Stage1
-								has_country_flag = GER_Hitler_Stage2
-								has_country_flag = GER_Hitler_Stage3
-								has_country_flag = GCW_heydrich_forts_done
-							}
-						}
-					}
-					1 = {
-						GCW_build_up_infantry_weapons = yes
-						modifier = {
-							factor = 0
-							OR = {
-								has_country_flag = GER_Hitler_Stage1
-								has_country_flag = GER_Hitler_Stage2
-								has_country_flag = GER_Hitler_Stage3
-								has_country_flag = GER_Hitler_Stage4
-							}
-						}
-					}
-					1 = {
-						GCW_build_up_heer_units = yes
-						modifier = {
-							factor = 0
-							OR = {
-								has_country_flag = GER_Hitler_Stage1
-								has_country_flag = GER_Hitler_Stage2
-								has_country_flag = GER_Hitler_Stage3
-								has_country_flag = GER_Hitler_Stage4
-								has_country_flag = GER_Hitler_Stage5
-							}
-						}
-					}
-				}
-			}
-		}
-	}
 }
 
 #########################

@@ -55,32 +55,9 @@ HOL = "countries/Germany - Europe.txt"			# Netherlands
 DEN = "countries/Germany - Proper.txt"			# Denmark
 NOR = "countries/Germany - Europe.txt"			# Norway
 
-BEL = "countries/Germany - SS.txt"				# Orde National Belge
-FLR = "countries/Germany - SS.txt"				# Vlaamse Nationale Staat
-PIC = "countries/Germany - SS.txt"				# Nouvel État Français
 RPY = "countries/West Europe.txt"				# Red Poppy Movement
 GLC = "countries/Germany - Proper.txt"			# Paktkommission Frankreich
 
-DSH = "countries/Germany - Proper.txt"			# Die Schwarze Bande - Dietrich
-SSL = "countries/Germany - SS.txt"				# SS-Ordensstaat Lothringen - Eicke/Meinhof
-FPG = "countries/Germany - Proper.txt"			# Freikorps "Berserker" - Wegener
-SSW = "countries/Germany - SS.txt"				# SS-Oberabschnitt Westfalen - Klingenberg
-PRK = "countries/East Europe - Pakt.txt"		# Children of Spartakus - Piechowski
-FSP = "countries/Germany - Proper.txt"			# Freistaat Prußen - Eichmann
-ISS = "countries/Germany - Proper.txt"			# Schlesischer Industriebund - Hanke
-KHP = "countries/Germany - Proper.txt"			# Kampfgruppe Heilige Pflicht - Peiper
-AUS = "countries/Germany - Proper.txt"			# Gebirgsjägerkern Ostmark - Skorzeny
-LHH = "countries/Germany - SS.txt"				# Leibstandarte Heinrich Himmler - Mohnke
-SSN = "countries/Germany - SS.txt"				# SS-Arbeitslager Nürnberg - Kaltenbrunner
-OKL = "countries/Germany - Proper.txt"			# Oberkommando der Luftwaffe - Steinhoff
-AGS = "countries/Germany - Proper.txt"			# Angriffsgruppe Steiner - Steiner
-DSG = "countries/Germany - Proper.txt"			# Deutsche Notstandsregierung - Dönitz
-KLB = "countries/Germany - SS.txt"				# Sicherheitsdienst des Reichsführers-SS - Barbie
-KSS = "countries/Germany - SS.txt"				# Kommandostab Waffen-SS - Hausser/Stadler/Gille
-SSF = "countries/Germany - SS.txt"				# SS-Kampfgruppe Fegelein - Fegelein
-APF = "countries/Germany - Proper.txt"			# Arische Volksfront - Henlein
-OER = "countries/Germany - Proper.txt"			# Militärisches Sondergericht des Reiches - Remer/Schörner
-FHH = "countries/Germany - Proper.txt"			# Deutsches Reich - Gehlen
 
 # /// Reich - Eastern Europe /// #
 #GGN = "countries/Germany - Europe.txt"			# Generalgouvernement

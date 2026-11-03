@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	### AFG
 
@@ -45,17 +45,11 @@ spriteTypes = {
 
 	### AUS
 
-	spriteType = {
-		name = "GFX_idea_AUS_kurt_schuschnigg"
-		texturefile = "gfx/interface/ideas/idea_AUS_kurt_schuschnigg.dds"
-	}
+
 
 	### BEL
 
-	spriteType = {
-		name = "GFX_idea_BEL_hubert_pierlot"
-		texturefile = "gfx/interface/ideas/idea_BEL_hubert_pierlot.dds"
-	}
+
 
 	### BHU
 
@@ -748,10 +742,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_GER_hasso_von_manteuffel.dds"
 	}
 
-	spriteType = {
-		name = "GFX_idea_GER_heinrich_himmler"
-		texturefile = "gfx/interface/ideas/idea_GER_heinrich_himmler.dds"
-	}
+
 
 	spriteType = {
 		name = "GFX_idea_GER_heinz_guderian"

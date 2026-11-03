@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	###############################################################
 	########            Lott Quadros Mechanic              ########
@@ -2566,11 +2566,7 @@ spriteTypes = {
 		name = "GFX_BRA_Expand_Logging"
 		textureFile = "gfx/interface/brazil/map/support_the_timber_industry.dds"
 	}
-	spriteType = {
-		name = "GFX_BRA_Development_Region_Pic"
-		textureFile = "gfx/interface/brazil/map/region_pic.dds"
-		noOfFrames = 5
-	}
+
 
 
 	spriteType = {
