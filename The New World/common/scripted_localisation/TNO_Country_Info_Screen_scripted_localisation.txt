@@ -40,6 +40,11 @@ defined_text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_[THIS.GetTag]"
 	}
 
+	text = {
+		trigger = { TNW_has_content = yes }
+		localization_key = "GFX_TNW_OpeningScreen_Poster_[THIS.GetTag]"
+	}
+
 	## Default
 	text = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_NoContent"

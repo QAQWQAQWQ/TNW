@@ -4,6 +4,10 @@ TNO_has_content = {
 	has_country_flag = tno_playable_country
 }
 
+TNW_has_content = {
+	has_country_flag = tnw_playable_country
+}
+
 #
 #	Credit to the Kaiserreich team
 #

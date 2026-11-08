@@ -1,6 +1,6 @@
 capital = 1789
 
-recruit_character = BHR_Gerenal
+recruit_character = BHR_Hamad_bin_Isa_Al_Khalifa
 add_ideas = {
 	##FACTION##
 	
@@ -245,14 +245,14 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = despotism
 	last_election = "2000.4.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_socialism = 100
+	despotism = 100
 	
 }
 

@@ -175,7 +175,7 @@ add_ideas = {
 
 	### FACTION ###
 
-	Stahlpakt_member
+	IWP_Member_State
 
 	### POLITICAL ###
 

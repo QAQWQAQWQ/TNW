@@ -231,8 +231,14 @@ ideas = {
 		}
 		allowed_civil_war = { always = yes }
 		removal_cost = -1
-		picture = GFX_idea_unknown
-		modifier = { }
+		picture = GFX_idea_FRS_Dim_Star
+		modifier = {
+			stability_factor = 0.1
+			drift_defence_factor = 0.5
+			party_popularity_stability_factor = 0.1
+			political_power_gain = 0.1
+			trade_opinion_factor = -0.25
+		}
 	}
 
 	FRS_Jaures_Path = {
@@ -242,8 +248,14 @@ ideas = {
 		}
 		allowed_civil_war = { always = yes }
 		removal_cost = -1
-		picture = GFX_idea_unknown
-		modifier = { }
+		picture = GFX_idea_FRS_Jaures_Path
+		modifier = {
+			stability_weekly = 0.001
+			political_parties_policy_monthly_rate = 0.15
+			public_meetings_policy_monthly_rate = 0.15
+			taxable_population_modifier = 0.2
+			admin_efficiency_monthly_rate = 0.01
+		}
 	}
 
 	FRS_Workers_and_Peasants_Army = {
@@ -253,8 +265,15 @@ ideas = {
 		}
 		allowed_civil_war = { always = yes }
 		removal_cost = -1
-		picture = GFX_idea_unknown
-		modifier = { }
+		picture = GFX_idea_FRS_Workers_and_Peasants_Army
+		modifier = {
+			war_support_factor = 0.2
+			non_core_manpower = 0.05
+			army_org_factor = 0.1
+			army_attack_factor = -0.02
+			army_defence_factor = 0.02
+			army_org_regain = 0.15
+		}
 	}
 
 	FRS_World_Bearer = {
@@ -264,31 +283,17 @@ ideas = {
 		}
 		allowed_civil_war = { always = yes }
 		removal_cost = -1
-		picture = GFX_idea_unknown
-		modifier = { }
+		picture = GFX_idea_FRS_World_Bearer
+		modifier = {
+			opinion_gain_monthly_factor = 0.15
+			trade_opinion_factor = 0.2
+			communist_acceptance = 50
+			socialist_acceptance = 50
+			progressivism_acceptance = 50
+		}
 	}
 
-	FRS_Reich_Shackles = {
-			allowed = {
-				original_tag = FRS
-				always = no
-			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			picture = GFX_idea_unknown
-			modifier = {
-				
-
-			targeted_modifier = {
-				
-			}
-		}
-
-	
-  }
 
 
 

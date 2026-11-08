@@ -121,10 +121,17 @@ spriteTypes = {
 		name = "GFX_einheitspakt"
 		textureFile = "gfx/interface/factions/EP.dds"
 	}
+	##TNW##
 	spriteType = {
 		name = "GFX_EiserneAllianz"
 		textureFile = "gfx/interface/factions/SP.png"
 	}
+	spriteType = {
+		name = "GFX_International_of_Workers_and_Peasants"
+		textureFile = "gfx/interface/factions/IWP.png"
+	}
+
+	##
 	spriteType = {
 		name = "GFX_triumvirate"
 		textureFile = "gfx/interface/factions/T.dds"

@@ -7,4 +7,13 @@ leader_traits = {
 
 		ai_will_do = { factor = 1 }
 	}
+
+	FRS_An_ordinary_farmer_a_pacifist = { ##一位普通的农民、和平主义者。##
+		random = no
+		
+		stability_factor = 0.1
+		tariff_tax_rate_modifier = 0.2
+
+		ai_will_do = { factor = 1 }
+	}
 }

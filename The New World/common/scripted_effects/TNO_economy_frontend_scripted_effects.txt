@@ -2501,6 +2501,10 @@ econ_subtype_change = { #super janky, if there's a better option tell me
 			limit = { has_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier } } 
 			remove_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier }
 		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier } }
+			remove_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier }
+		}
 	}
 	if = {
 		limit = {
@@ -2743,6 +2747,19 @@ econ_subtype_change = { #super janky, if there's a better option tell me
 				add_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier }
 			}
 		}
+		else_if = {
+			limit = {
+				check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+			}
+			custom_effect_tooltip = Econ_Socialist_Regulation_of_the_Economy_change_tt
+			hidden_effect = {
+				add_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier }
+			}
+		}
+
+		##TNW ECON##
+		
+
 	}
 }
 
@@ -2761,6 +2778,10 @@ econ_type_change = { #super janky, if there's a better option tell me
 		else_if = { 
 			limit = { has_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier } } 
 			remove_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier }
+		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier } }
+			remove_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier }
 		}
 	}
 	if = {
@@ -2788,6 +2809,15 @@ econ_type_change = { #super janky, if there's a better option tell me
 		custom_effect_tooltip = Econ_Type_Planned_change_tt
 		hidden_effect = {
 			add_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { TNO_economy_type_temp = token:Econ_Socialist_Regulation_of_the_Economy }
+		}
+		custom_effect_tooltip = Econ_Socialist_Regulation_of_the_Economy_change_tt
+		hidden_effect = {
+			add_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier }
 		}
 	}
 }
@@ -3549,6 +3579,11 @@ econ_join_sphere_FFR = {
 
 econ_join_sphere_FRA = {
 	set_temp_variable = { target = FRA }
+	econ_join_sphere_target = yes
+}
+
+econ_join_sphere_FRS = {
+	set_temp_variable = { target = FRS }
 	econ_join_sphere_target = yes
 }
 

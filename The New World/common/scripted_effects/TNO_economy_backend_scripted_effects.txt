@@ -4772,6 +4772,10 @@ TNO_startup_econ_type = {
 	}
 	#dynmods
 	if = {
+		limit = { check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy } }
+		add_dynamic_modifier = { modifier = TNO_economy_type_socialist_regulation_dynamic_modifier }
+	}
+	else_if = {
 		limit = { check_variable = { TNO_economy_type = token:Econ_Type_Planned } }
 		add_dynamic_modifier = { modifier = TNO_economy_type_planned_dynamic_modifier } #Planned (nerds)
 	}

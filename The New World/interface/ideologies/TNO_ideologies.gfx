@@ -1,6 +1,11 @@
 spriteTypes = {
 	#TNW ICON#
 
+	spriteType = {
+		name = "GFX_ideology_socialist_French_model_subtype"
+		texturefile = "gfx/interface/ideologies/socialist_French_model_subtype.png"
+	}
+
 
 	spriteType = {
 		name = "GFX_ideology_conservatism_Onenation_conservatism_subtype"

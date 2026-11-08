@@ -63,6 +63,14 @@ scripted_gui = {
 					is_in_faction_with = URL
 				}
 			}
+			faction_icon_IWP_visible = {
+				is_in_faction = yes
+				FRS = { is_faction_leader = yes }
+				OR = {
+					tag = FRS
+					is_in_faction_with = FRS
+				}
+			}
 			faction_icon_FI_visible = {
 				is_in_faction = yes
 				#is_subject = no
@@ -233,6 +241,13 @@ scripted_gui = {
 						OR = {
 							tag = URL
 							is_in_faction_with = URL
+						}
+					}
+					AND = {
+						FRS = { is_faction_leader = yes }
+						OR = {
+							tag = FRS
+							is_in_faction_with = FRS
 						}
 					}
 					has_country_flag = PALF_MEMBER

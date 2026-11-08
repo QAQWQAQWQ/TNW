@@ -52,6 +52,20 @@ defined_text = {
 		localization_key = "GFX_Stahlpakt_Commonwealth"
 	}
 
+
+	##工农国际##
+	##世界旗手##
+	text = {
+		trigger = { has_idea = IWP_World_Standard_Bearer }
+		localization_key = "GFX_IWP_World_Standard_Bearer"
+	}
+	##成员国##
+	text = {
+		trigger = { has_idea = IWP_Member_State }
+		localization_key = "GFX_IWP_Member_State"
+	}
+
+
 	#######
 
 	### Pakt ###
@@ -469,6 +483,16 @@ defined_text = {
 #Name
 defined_text = {
 	name = GetFactionStatus_name
+
+	##工农国际-标题
+	text = {
+		trigger = { has_idea = IWP_World_Standard_Bearer }
+		localization_key = "IWP_World_Standard_Bearer"
+	}
+	text = {
+		trigger = { has_idea = IWP_Member_State }
+		localization_key = "IWP_Member_State"
+	}
 
 	#钢铁同盟-标题
 	text = {
@@ -997,6 +1021,19 @@ defined_text = {
 
 defined_text = {
 	name = GetFactionStatus_desc
+	##工农国际##
+	##工农国际-简述##
+	##世界旗手##
+	text = {
+		trigger = { has_idea = IWP_World_Standard_Bearer }
+		localization_key = "IWP_World_Standard_Bearer_desc"
+	}
+	##成员国##
+	text = {
+		trigger = { has_idea = IWP_Member_State }
+		localization_key = "IWP_Member_State_desc"
+	}
+
 	#钢铁同盟#
 	#钢铁同盟-简述
 	text = {

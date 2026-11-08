@@ -90,6 +90,29 @@ ideas = {
 				
 			}
 		}
+
+		##工农国际##
+		##世界旗手##
+		IWP_World_Standard_Bearer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IWP_World_Standard_Bearer" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
+
+		##成员国##
+		IWP_Member_State = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IWP_Member_State" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				
+			}
+		}
 		
 
 

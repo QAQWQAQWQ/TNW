@@ -6,6 +6,12 @@
  FactionStatus_tooltip: "§L[This.GetFactionStatus_desc]§!"
  Generic_Faction: "[This.GetFactionName] Member"
  Generic_Faction_desc: "[This.GetNameDefCap] is a member of [This.GetFactionName]. They are in a faction, so if a member is attacked or enters a war, other members will join to support their allies. In this great world, faction members help each other, projecting collective will upon other nations. Factions are not limited to the military; they extend to economic cooperation and other forms of mutual benefit."
+
+ ##International of Workers and Peasants##
+ IWP_World_Standard_Bearer: "World Standard Bearer"
+ IWP_World_Standard_Bearer_desc: " "
+ IWP_Member_State: "IWP-Member State"
+ IWP_Member_State_desc: " "
  #Stahlpakt#
  Stahlpakt_Leader: "Stahlpakt Council Chair"
  Stahlpakt_Leader_desc: "Annual GDP Growth modifier: §Y+10%§!\n\nThe Stahlpakt was founded jointly by Germany and Italy, marking the rebirth of a pan-European order. The old decaying nations and their rotten alliances have long since vanished; under the guidance of the European great powers, the continent has remade its own destiny with brotherhood and unity.\n\nThe Führer and the Duce created it, and those who came after forged it stronger. Driven by shared needs, an alliance bound by economic, political, and military ties stands atop Europe. The council chairs, backed by power, hold absolute sway over this alliance."

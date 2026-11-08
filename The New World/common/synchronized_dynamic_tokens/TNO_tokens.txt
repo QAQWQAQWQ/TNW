@@ -1282,6 +1282,7 @@ Econ_Subtype_Gelenkte_Wirtschaft
 Econ_Subtype_Dirigisme
 Econ_Type_Capitalism
 Econ_Type_Planned
+Econ_Socialist_Regulation_of_the_Economy
 Econ_Subtype_Worker_Directed
 SE_OPERATION_SEALION_2
 BRI_Mann_StateOccupied

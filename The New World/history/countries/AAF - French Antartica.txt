@@ -6,12 +6,7 @@ recruit_character = AAF_Generic_Vacant
 
 oob = "Antarctic_Garrison"
 
-FRS = {
-	set_autonomy = {
-		target = AAF
-		autonomy_state = autonomy_antarctic_territory
-	}
-}
+
 
 recruit_character = AAF_Xavier_Richert
 recruit_character = AAF_Jacques_Yves_Cousteau

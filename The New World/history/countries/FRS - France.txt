@@ -2,14 +2,29 @@ capital = 786
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
-
+set_country_flag = HAS_ECON_SPHERE
+create_faction_from_template = { name = International_of_Workers_and_Peasants icon = GFX_International_of_Workers_and_Peasants template = faction_template_generic }
+add_to_faction = FRS
+add_to_faction = VEN
+add_to_faction = POR
+add_to_faction = IRE
+set_country_flag = TNW_playable_country
 oob = "FRA_1962"
 set_naval_oob = "FRA_1962_naval"
 
 recruit_character = FRA_Jose_Bove
 recruit_character = FRA_Jean_Pierre_Biondi
-recruit_character = FRA_Jean_Francois_Hory
-recruit_character = FRA_Eric_Coquerel
+recruit_character = FRA_Suzanne_Marty
+recruit_character = FRA_Jean_Luc_Einaudi
+recruit_character = FRA_Gilbert_Marquis
+recruit_character = FRA_Edmond_Maire
+recruit_character = FRA_Michel_Aglietta
+recruit_character = FRA_Alain_Badiou
+recruit_character = FRA_Claude_Lefort
+recruit_character = FRA_Emmanuel_Terray
+recruit_character = FRA_Jean_Marc_Salmon
+recruit_character = FRA_Edgar_Morin_Pierre
+recruit_character = FRA_Bernard_Thibault
 recruit_character = FRA_Gilles_Lemaire
 recruit_character = FRA_Dominique_Strauss_Kahn
 recruit_character = FRA_Jack_Lang
@@ -40,13 +55,14 @@ add_manpower = 32000
 
 add_ideas = {
 	#FACTION
-	
+	IWP_World_Standard_Bearer
 	#Country
-	FRS_Dim_Star 
-	FRS_Jaures_Path
-	FRS_Workers_and_Peasants_Army
 	FRS_World_Bearer
-	FRS_Reich_Shackles
+	FRS_Jaures_Path
+	FRS_Dim_Star 
+	FRS_Workers_and_Peasants_Army
+	
+	
 	
 
 	#MINISTERS
@@ -110,8 +126,7 @@ add_ideas = {
 	tno_army_professionalism_political_interference
 }
 
-set_autonomy = { target = MAD autonomy_state = autonomy_colony }
-set_autonomy = { target = FAL autonomy_state = autonomy_colony }
+
 MAD = {
 	set_popularities = {
 		despotism = 79
@@ -434,16 +449,23 @@ if = {
 set_politics = {
 	ruling_party = socialist
 	last_election = "1995.5.1"
-	election_frequency = 48
-	elections_allowed = yes
+	election_frequency = no
+	elections_allowed = no
 }
 
 set_popularities = {
-	socialist = 38
-	socialist_1 = 37
-	progressivism = 8
-	liberalism = 7
-	despotism = 10
+	socialist = 28
+	socialist_1 = 2
+	socialist_2 = 7
+	socialist_3 = 3
+	communist = 12
+	communist_1 = 14
+	communist_2 = 6
+	communist_3 = 6
+	progressivism = 7
+	progressivism_1 = 5
+	progressivism_2 = 3
+	progressivism_3 = 7
 }
 
 country_lock_all_division_template = yes
@@ -498,4 +520,4 @@ create_equipment_variant = {
 
 #econtype
 set_variable = { TNO_economy_type = token:Econ_Type_Planned }
-set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
+set_variable = { TNO_economy_subtype = token:Econ_Socialist_Regulation_of_the_Economy }

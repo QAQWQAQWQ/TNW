@@ -1,4 +1,4 @@
-capital = 64
+﻿capital = 64
 
 #GDP Regional distribution
 set_country_flag = GDP_regions
@@ -528,7 +528,7 @@ add_to_faction = TNS
 add_to_faction = BUL
 add_to_faction = BLR
 add_to_faction = FIN
-add_to_faction = IRE
+
 #add_to_faction = SWE
 #add_to_faction = PER
 #add_to_faction = UTL

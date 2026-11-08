@@ -1,16 +1,68 @@
 characters = {
 	# Country leaders #
-	GUL_Enrico_Mattei = {
-		name = GUL_Enrico_Mattei
+	TRS_Ahmed_Khalifa_Al_Suwaidi = {
+		name = TRS_Ahmed_Khalifa_Al_Suwaidi
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GUL/Portrait_Italy_Enrico_Mattei_viceroy.png"
+				large = "gfx/leaders/GUL/Portrait_TRS_Ahmed_Khalifa_Al_Suwaidi.png"
 			}
 		}
 		country_leader = {
 			#desc = "POLITICS_ENRICO_MATTEI_DESC"
 			expire = "1999.1.1"
-			ideology = despotism_colonial_government_subtype
+			ideology = despotism_aristocratic_conservatism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+
+	##Qatar##
+	QAT_Hamad_bin_Khalifa_Al_Thani = {
+		name = QAT_Hamad_bin_Khalifa_Al_Thani
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GUL/Portrait_QAT_Hamad_bin_Khalifa_Al_Thani.png"
+			}
+		}
+		country_leader = {
+			#desc = "POLITICS_ENRICO_MATTEI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	##Bahrain##
+	BHR_Hamad_bin_Isa_Al_Khalifa = {
+		name = BHR_Hamad_bin_Isa_Al_Khalifa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GUL/Portrait_BHR_Hamad_bin_Isa_Al_Khalifa.png"
+			}
+		}
+		country_leader = {
+			#desc = "POLITICS_ENRICO_MATTEI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	##Dubai##
+	DUB_Maktoum_bin_Rashid_Al_Maktoum = {
+		name = DUB_Maktoum_bin_Rashid_Al_Maktoum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GUL/Portrait_DUB_Maktoum_bin_Rashid_Al_Maktoum.png"
+			}
+		}
+		country_leader = {
+			#desc = "POLITICS_ENRICO_MATTEI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_absolute_monarchy_subtype
 			traits = { }
 			id = -1
 		}

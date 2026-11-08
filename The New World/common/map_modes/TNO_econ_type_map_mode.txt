@@ -41,6 +41,17 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
+							check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+							check_variable = { TNO_economy_subtype = 0 }
+						}
+					}
+					set_temp_variable = { red = 0.650 }
+					set_temp_variable = { green = 0.150 }
+					set_temp_variable = { blue = 0.250 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
 							check_variable = { TNO_economy_subtype = token:Econ_Subtype_Gelenkte_Wirtschaft }
 						}
 					}

@@ -15,7 +15,7 @@ TNO_Spheres_init = {
 		limit = {
 			OR = {
 				tag = GER
-				tag = IRE
+
 				tag = ULS
 				tag = WAL
 				tag = FIN
@@ -61,7 +61,6 @@ TNO_Spheres_init = {
 				tag = ELS
 				tag = NIC
 				tag = PRU
-				tag = VEN
 				tag = CHL
 				tag = URG
 			}
@@ -167,6 +166,22 @@ TNO_Spheres_init = {
 		set_country_flag = HAS_ECON_SPHERE
 		set_variable = { ECON_SPHERE_LEADER = MEX }
 	}
+
+	### FRS ECONOMIC MUTUAL ASSISTANCE COUNCIL
+	FRS = {
+		set_country_flag = HAS_ECON_SPHERE
+		set_variable = { ECON_SPHERE_LEADER = FRS }
+	}
+	every_country = {
+    limit = {
+        OR = {
+            tag = IRE
+            tag = POR
+            tag = VEN
+        }
+    }
+    set_variable = { ECON_SPHERE_LEADER = FRS }
+}
 }
 
 econ_recompile_all_spheres = {

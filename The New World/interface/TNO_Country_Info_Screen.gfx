@@ -326,4 +326,9 @@ spriteTypes = {
 		name = "GFX_TNO_OpeningScreen_Poster_AAB"
 		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAB.dds"
 	}
+
+	spriteType = {
+		name = "GFX_TNW_OpeningScreen_Poster_FRS"
+		textureFile = "gfx/interface/opening_screen/TNW_OpeningScreen_Poster_FRS.dds"
+	}
 }

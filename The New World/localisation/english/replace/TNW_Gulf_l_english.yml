@@ -1,11 +1,14 @@
 ﻿l_english:
- GUL_Enrico_Mattei: "Enrico Mattei"
- GUL_Giuseppe_Oriana: "Giuseppe Oriana"
- GUL_Zayed_bin_Sultan_al_Nahyan: "Zayed bin Sultan Al Nahyan"
- GUL_Abdulrahman_al_Bakir: "Abdulrahman al-Bakir"
- GUL_Shakhbut_bin_Sultan_al_Nahyan: "Shakhbut bin Sultan Al Nahyan"
- GUL_Gurudas_Dasgupta: "Gurudas Dasgupta"
- QAT_Mr_Qatar: "Mr. Qatar"
+ DUB_Maktoum_bin_Rashid_Al_Maktoum: "Maktoum bin Rashid Al Maktoum"
+ TRS_Ahmed_Khalifa_Al_Suwaidi: "Ahmed Khalifa Al Suwaidi"
+ TRS_despotism_party: "TNUP"
+ TRS_despotism_party_long: "TNUP (Trucial National Unity Party)"
+ QAT_Hamad_bin_Khalifa_Al_Thani: "Hamad bin Khalifa Al Thani"
+ QAT_despotism_party: "QNA"
+ QAT_despotism_party_long: "QNA (Qatari National Alliance)"
+ BHR_Hamad_bin_Isa_Al_Khalifa: "Hamad bin Isa Al Khalifa"
+ BHR_despotism_party: "Bahraini Royalist"
+ BHR_despotism_party_long: "Bahraini Royalist Alliance"
  UAE_Mr_UAE: "Mr. UAE"
  GUL_despotism: "Arab League of Sheikhdoms"
  GUL_despotism_DEF: "Arab League of Sheikhdoms"
@@ -58,8 +61,8 @@
  DUB_DEF: "Emirate of Dubai"
  DUB_ADJ: "Dubai"
 
- TRS: "Republic of Trucial"
- TRS_DEF: "Republic of Trucial"
- TRS_ADJ: "Trucial"
+ TRS: "Arabian Gulf Federation"
+ TRS_DEF: "Arabian Gulf Federation"
+ TRS_ADJ: "Arabian Gulf Federation"
 
 

@@ -87,7 +87,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 5 y = 0 }
+				position = { x = 15 y = 0 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -95,7 +95,7 @@ guiTypes = {
 			iconType = {
 				name ="event_pic_clip"
 				spriteType = "GFX_event_pic_clip"
-				position = { x = -3 y = 35 }
+				position = { x = 1000 y = 35 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -450,14 +450,14 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "top_Window"
-			position = { x=0 y=0 }
+			position = { x=0 y=20 }
 			size = { width = 581 height =121 }
 			Orientation = UPPER_LEFT
 
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 27 y = 140 }
+				position = { x = 27 y = 120 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -465,7 +465,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 27 y = 139 }
+				position = { x = 10000000 y = 139 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -483,7 +483,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x= 2 y= 90}
+				position = {x= 12 y= 84}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
@@ -623,7 +623,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "event_option_entry"
 		size = { width = 300 height = 52 }
-		position = { x = -10 y = 30 }
+		position = { x = -10 y = 15 }
 		clipping = no
 
 		background = {

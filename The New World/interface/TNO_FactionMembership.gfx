@@ -25,6 +25,20 @@ spriteTypes = {
 		name = "GFX_Stahlpakt_Commonwealth"
 		textureFile = "gfx/interface/factions/status/GFX_Stahlpakt_Commonwealth.png"
 	}
+
+
+	#International of Workers and Peasants#
+	##工农国际图标#
+	spriteType = {
+		name = "GFX_IWP_World_Standard_Bearer"
+		textureFile = "gfx/interface/factions/status/IWP_World_Standard_Bearer.png"
+	}
+
+	spriteType = {
+		name = "GFX_IWP_Member_State"
+		textureFile = "gfx/interface/factions/status/IWP_Member_State.png"
+	}
+	
 	
 
 

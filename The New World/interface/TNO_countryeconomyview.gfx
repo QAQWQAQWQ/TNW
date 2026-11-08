@@ -1143,6 +1143,12 @@ spriteTypes = {
 		textureFile = "gfx/interface/economy_gui/econ_panel/NONE_sphere_icon.dds"
 	}
 
+	##TNW  SPHERE ICON##
+	spriteType = {
+		name = "GFX_econ_sphere_icon_FRS"
+		textureFile = "gfx/interface/economy_gui/econ_panel/FRS_sphere_icon.dds"
+	}
+
 	spriteType = {
 		name = "GFX_econ_credit_ratings_GER"
 		textureFile = "gfx/interface/economy_gui/econ_panel/credit_ratings_GER.dds"
@@ -1307,6 +1313,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Econ_Subtype_None"
 		textureFile = "gfx/interface/economy_gui/econ_types/GFX_Econ_Subtype_None.dds"
+	}
+
+	##TNW econ types##
+	spriteType = {
+		name = "GFX_Econ_Socialist_Regulation_of_the_Economy"
+		textureFile = "gfx/interface/economy_gui/econ_types/GFX_Econ_Socialist_Regulation_of_the_Economy.dds"
 	}
 
 	spriteType = {

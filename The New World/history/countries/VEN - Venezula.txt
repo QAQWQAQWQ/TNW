@@ -17,6 +17,7 @@ oob = "VEN_1962"
 set_stability = 0.5
 
 add_ideas = {
+	IWP_Member_State
 	
 
 	### Ministers ###

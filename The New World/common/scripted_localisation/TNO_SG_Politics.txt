@@ -111,6 +111,11 @@ defined_text = {
 		trigger = { has_country_leader_ideology = socialist_christian_socialism_subtype }
 		localization_key = socialist_christian_socialism_subtype
 	}
+
+	text = {
+		trigger = { has_country_leader_ideology = socialist_French_model_subtype }
+		localization_key = socialist_French_model_subtype
+	}
 	text = {
 		trigger = { has_country_leader_ideology = socialist_revolutionary_frontism_subtype }
 		localization_key = socialist_revolutionary_frontism_subtype

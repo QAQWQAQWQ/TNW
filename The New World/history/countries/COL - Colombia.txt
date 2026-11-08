@@ -276,6 +276,7 @@ if = {
 
 add_ideas = {
 	
+	
 
 	#ministers
 	

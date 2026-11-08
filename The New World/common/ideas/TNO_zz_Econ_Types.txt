@@ -8,6 +8,7 @@ ideas = {
 		Econ_Type_Capitalism = {}							# Free Market Capitalism
 		Econ_Type_Corporatism = {}							# Corporatism
 		Econ_Type_Planned = {}								# Planned Economy
+		Econ_Socialist_Regulation_of_the_Economy = {}		# Socialist Regulation of the Economy
 	}
 
 	#|=====[ Capitalism Subtypes ]=====|#

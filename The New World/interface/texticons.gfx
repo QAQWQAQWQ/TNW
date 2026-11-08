@@ -160,6 +160,12 @@ spriteTypes = {
 		texturefile = "gfx/texticons/FRS/FRS_Safety_and_Freedom_Act.png"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_FRS_socialist_French_model_subtype_icon"
+		texturefile = "gfx/texticons/FRS/FRS_socialist_French_model_subtype_icon.png"
+		legacy_lazy_load = no
+	}
 	
 	######
 

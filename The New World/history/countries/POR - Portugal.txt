@@ -41,6 +41,7 @@ set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
 
 recruit_character = POR_Morreu_Adriano_Moreira
 add_ideas = {
+	IWP_Member_State
 	#political#
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

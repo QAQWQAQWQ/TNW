@@ -1,0 +1,13 @@
+﻿l_english:
+ Econ_Socialist_Regulation_of_the_Economy: "Socialist Regulation of the Economy"
+ Econ_Socialist_Regulation_of_the_Economy_desc: "Socialist regulation of the economy is an economic system guided by socialist goals, using public policy and state regulation to coordinate production and distribution. It balances planning and markets while giving priority to social needs."
+ Econ_Socialist_Regulation_of_the_Economy_change_tt: "Our economic system will change to §YSocialist Regulation of the Economy§!."
+ TNO_economy_type_socialist_regulation_dynamic_modifier: "Socialist Regulation of the Economy"
+ SocialistRegulationBenefits: "\n  §Y[?actual_command_construction_speed_centralization_effect|+=%]$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$\n  [?command_resource_extraction_centralization_effect|+=%]$MODIFIER_LOCAL_RESOURCES_FACTOR$\n  [?market_production_efficiency_cap_centralization_effect|+=%]$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY$§!\nBenefits from laissez-faire:§Y\n  [?actual_command_factory_output_centralization_effect|+=%]$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?actual_command_factory_output_centralization_effect|+=%]$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?command_production_efficiency_start_centralization_effect|+=%]$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$§!\nBase benefits from our economic system:§Y\n  [?0.1|+=%]$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?0.1|+=%]$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?0.1|+=%]$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$§!"
+ SocialistRegulationFullDecentralization: "\n  §Y[?0.10|+=%] $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?0.10|+=%] $MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?0.1|+%=] $MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$§!"
+ SocialistRegulationFullCentralization: "\n  §Y[?0.10|+=%] $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$\n  [?0.1|+=%] $MODIFIER_LOCAL_RESOURCES_FACTOR$\n  [?0.15|+=%] $MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY$§!"
+ SocialistRegulationBase: "This economic system grants us the following base benefits:\n  §Y[?0.1|+=%] $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$\n  [?0.1|+=%] $MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$\n  [?0.1|+=%] $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$§!"
+ econ_join_sphere_FRS_tt: "§Y[THIS.GetName]§! joins the [?FRS.GetFlag]§YEconomic Mutual Assistance Council§!.\n"
+ econ_sphere_name_FRS: "Economic Mutual Assistance Council"
+ econ_sphere_name_long_FRS: "Economic Mutual Assistance Council"
+ econ_sphere_name_tab_FRS: "Economic Mutual Assistance Council"

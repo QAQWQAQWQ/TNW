@@ -188,6 +188,13 @@ guiTypes = {
 			pdx_tooltip = Organization_of_Free_Nations
 		}
 		iconType = {
+			name = "faction_icon_IWP"
+			position = {x = -30 y = -20}
+			quadTextureSprite = "GFX_International_of_Workers_and_Peasants"
+			scale = 0.61334
+			pdx_tooltip = International_of_Workers_and_Peasants
+		}
+		iconType = {
 			name = "faction_icon_triumvirate"
 			position = {x = -30 y = -26}
 			quadTextureSprite = "GFX_triumvirate"
@@ -2920,4 +2927,3 @@ guiTypes = {
 		#dummy container for spacing
 	}
 }
-

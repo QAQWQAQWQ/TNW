@@ -723,6 +723,12 @@ defined_text = {
 		}
 		localization_key = PlannedBenefits
 	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+		}
+		localization_key = SocialistRegulationBenefits
+	}
 }
 
 defined_text = {
@@ -744,6 +750,12 @@ defined_text = {
 			check_variable = { TNO_economy_type = token:Econ_Type_Planned }
 		}
 		localization_key = PlannedFullDecentralization
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+		}
+		localization_key = SocialistRegulationFullDecentralization
 	}
 }
 
@@ -767,6 +779,12 @@ defined_text = {
 		}
 		localization_key = PlannedFullCentralization
 	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+		}
+		localization_key = SocialistRegulationFullCentralization
+	}
 }
 
 defined_text = {
@@ -788,6 +806,12 @@ defined_text = {
 			check_variable = { TNO_economy_type = token:Econ_Type_Planned }
 		}
 		localization_key = PlannedBase
+	}
+	text = {
+		trigger = {
+			check_variable = { TNO_economy_type = token:Econ_Socialist_Regulation_of_the_Economy }
+		}
+		localization_key = SocialistRegulationBase
 	}
 }
 
@@ -3662,6 +3686,10 @@ defined_text = {
 		trigger = { check_variable = { ECON_SPHERE_LEADER = CME } }
 		localization_key = econ_sphere_name_CME
 	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FRS } }
+		localization_key = econ_join_sphere_FRS_tt
+	}
 	text = { localization_key = econ_join_sphere_target_0_tt }
 }
 
@@ -3757,6 +3785,10 @@ defined_text = {
 			}
 		}
 		localization_key = econ_sphere_name_CME
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FRS } }
+		localization_key = econ_sphere_name_FRS
 	}
 	text = { localization_key = econ_sphere_name_none }
 }
@@ -3854,6 +3886,10 @@ defined_text = {
 		}
 		localization_key = econ_sphere_name_long_CME
 	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FRS } }
+		localization_key = econ_sphere_name_long_FRS
+	}
 	text = { localization_key = econ_sphere_name_none }
 }
 
@@ -3949,6 +3985,10 @@ defined_text = {
 			}
 		}
 		localization_key = econ_sphere_name_tab_CME
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = FRS } }
+		localization_key = econ_sphere_name_tab_FRS
 	}
 	text = { localization_key = econ_sphere_name_none }
 }
@@ -4164,6 +4204,12 @@ defined_text = {
 			check_variable = { ECON_SPHERE_LEADER = ENG }
 		}
 		localization_key = "GFX_econ_sphere_icon_ENG"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = FRS }
+		}
+		localization_key = "GFX_econ_sphere_icon_FRS"
 	}
 	text = {
 		localization_key = "GFX_econ_sphere_icon_none"

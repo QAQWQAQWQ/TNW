@@ -6,8 +6,8 @@ characters = {
 		portraits = { civilian = { large = "gfx/leaders/FRA/Portrait_France_Jose_Bove.png" } }
 		country_leader = {
 			desc = "POLITICS_JOSE_BOVE_DESC"
-			ideology = socialist_agrarian_socialism_subtype
-			traits = {   }
+			ideology = socialist_French_model_subtype
+			traits = { FRS_An_ordinary_farmer_a_pacifist}
 			expire = "2020.1.1.1"
 			id = -1
 		}
@@ -16,13 +16,6 @@ characters = {
 	FRA_Jean_Pierre_Biondi = {
 		name = FRA_Jean_Pierre_Biondi
 		portraits = { civilian = { large = "" small = "GFX_idea_FRA_minister_Jean_Pierre_Biondi" } }
-		country_leader = {
-			desc = "POLITICS_JEAN_PIERRE_BIONDI_DESC"
-			ideology = socialist_1_subtype
-			expire = "2020.1.1.1"
-			traits = { }
-			id = -1
-		}
 		advisor = {
 			slot = head_of_government
 			idea_token = FRA_minister_Jean_Pierre_Biondi_hog
@@ -76,36 +69,129 @@ characters = {
 		}
 	}
 
-	FRA_Jean_Francois_Hory = {
-		name = FRA_Jean_Francois_Hory
-		portraits = { civilian = { large = "" } }
-		country_leader = {
-			expire = "2020.1.1.1"
-			ideology = progressivism_popular_front_subtype
-			traits = { }
-			id = -1
-		}
-	}
-
-	FRA_Eric_Coquerel = {
-		name = FRA_Eric_Coquerel
-		portraits = { civilian = { large = "" } }
-		country_leader = {
-			expire = "2020.1.1.1"
-			ideology = liberalism_social_liberalism_subtype
-			traits = { }
-			id = -1
-		}
-	}
-
-	
-
-
-
 	#party leader#
 
+	FRA_Suzanne_Marty = {
+		name = FRA_Suzanne_Marty
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = communist_amazonism_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
 
-	
+	FRA_Jean_Luc_Einaudi = {
+		name = FRA_Jean_Luc_Einaudi
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = communist_1_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Gilbert_Marquis = {
+		name = FRA_Gilbert_Marquis
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = communist_2_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Edmond_Maire = {
+		name = FRA_Edmond_Maire
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Michel_Aglietta = {
+		name = FRA_Michel_Aglietta
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = progressivism_1_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Alain_Badiou = {
+		name = FRA_Alain_Badiou
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = communist_3_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Claude_Lefort = {
+		name = FRA_Claude_Lefort
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = progressivism_2_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Emmanuel_Terray = {
+		name = FRA_Emmanuel_Terray
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = socialist_1_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Jean_Marc_Salmon = {
+		name = FRA_Jean_Marc_Salmon
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = socialist_2_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Edgar_Morin_Pierre = {
+		name = FRA_Edgar_Morin_Pierre
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = socialist_3_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	FRA_Bernard_Thibault = {
+		name = FRA_Bernard_Thibault
+		portraits = { civilian = { large = "" } }
+		country_leader = {
+			ideology = progressivism_3_subtype
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
 	
 	## MISC LEADERS ##
 	FRA_Francois_Durand = {
