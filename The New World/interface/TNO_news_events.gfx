@@ -3,6 +3,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_news_TNW_oil_turmoil"
+		texturefile = "gfx/event_pictures/news_event/TNW/TNW_oil_turmoil.png"
+	}
+
+	spriteType = {
 		name = "GFX_news_TNW_Italian_withdrawal"
 		texturefile = "gfx/event_pictures/news_event/TNW/TNW_Italian_withdrawal.png"
 	}

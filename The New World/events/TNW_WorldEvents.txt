@@ -171,6 +171,7 @@ news_event = {
 	option = {
 		name = TNW_Gulf_WORLD.1.a
 		custom_effect_tooltip = TNW_Italian_withdrawal_TT
+		
 	}
 }
 
@@ -185,5 +186,20 @@ news_event = {
 
 	option = {
 		name = TNW_Gulf_WORLD.2.a
+	}
+}
+
+news_event = {
+	id = TNW_Gulf_WORLD.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNW_Gulf_WORLD.3" }
+	title = TNW_Gulf_WORLD.3.t
+	desc = TNW_Gulf_WORLD.3.d
+	picture = GFX_news_TNW_oil_turmoil
+
+	is_triggered_only = yes
+
+	option = {
+		name = TNW_Gulf_WORLD.3.a
+		custom_effect_tooltip = TNW_oil_turmoil_TT
 	}
 }

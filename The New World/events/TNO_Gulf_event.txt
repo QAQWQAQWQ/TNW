@@ -18,11 +18,104 @@ country_event = {
 
 	immediate = {
 		
-			}
+	}
 
 	option = {
 		name = TNW_Gulf_event.1.a
-		custom_effect_tooltip = TNW_ready_to_spring_into_actionv_TT
+		news_event = TNW_Gulf_WORLD.1
+		hidden_effect = {
+			TRS = {
+			annex_country = { target = GUL }
+		}
+
+		}
 		
 	}
+}
+
+country_event = {
+	id = TNW_Gulf_event.2
+	title = TNW_Gulf_event.2.t
+	desc = TNW_Gulf_event.2.desc
+	picture = GFX_event_Gulf_ready_to_spring_into_action
+
+    
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = TNW_Gulf_event.2.a
+		custom_effect_tooltip = TNW_ready_to_spring_into_actionv_TT
+		news_event = TNW_Gulf_WORLD.2
+		TRS = { add_stability = -0.2 }
+		hidden_effect = {
+			
+			1336 = { set_demilitarized_zone = yes }
+		    2171 = { set_demilitarized_zone = yes }
+	        2170 = { set_demilitarized_zone = yes }
+		    2172 = { set_demilitarized_zone = yes }
+			
+			
+		}
+	}
+
+	
+}
+
+
+country_event = {
+	id = TNW_Gulf_event.3
+	title = TNW_Gulf_event.3.t
+	desc = TNW_Gulf_event.3.desc
+	picture = GFX_event_Gulf_state_of_emergency
+
+    
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = TNW_Gulf_event.3.a
+		custom_effect_tooltip = TNW_state_of_emergency_TT
+		country_event = TNW_Gulf_event.4
+	}
+
+	
+}
+
+
+country_event = {
+	id = TNW_Gulf_event.4
+	title = TNW_Gulf_event.4.t
+	desc = TNW_Gulf_event.4.desc
+	picture = GFX_event_Gulf_futile_resistance_against
+
+    
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = TNW_Gulf_event.4.a
+		custom_effect_tooltip = TNW_futile_resistance_against_TT
+		news_event = TNW_Gulf_WORLD.3
+	}
+
+	
 }

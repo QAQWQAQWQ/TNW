@@ -9,6 +9,22 @@ spriteTypes = {
 		name = "GFX_CountryInfo_background"
 		texturefile = "gfx/interface/country_info_screen/background.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_info_close_button"
+		texturefile = "gfx/interface/country_info_screen/info_close_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_info_browser_forward"
+		texturefile = "gfx/interface/country_info_screen/info_browser_forward.dds"
+	}
+
+	spriteType = {
+		name = "GFX_info_browser_back"
+		texturefile = "gfx/interface/country_info_screen/info_browser_back.dds"
+	}
+
 	frameanimatedspritetype = {
 		name = "GFX_CountryInfo_animated_logo"
 		texturefile = "gfx/interface/country_info_screen/animated_logo.dds"
@@ -331,4 +347,5 @@ spriteTypes = {
 		name = "GFX_TNW_OpeningScreen_Poster_FRS"
 		textureFile = "gfx/interface/opening_screen/TNW_OpeningScreen_Poster_FRS.dds"
 	}
+	
 }

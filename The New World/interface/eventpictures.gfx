@@ -126,6 +126,15 @@ spriteTypes = {
 		name = "GFX_event_Gulf_ready_to_spring_into_action"
 		texturefile = "gfx/event_pictures/Gulf/Gulf_war/event_Gulf_ready_to_spring_into_action.png"
 	}
+	 spriteType = {
+		name = "GFX_event_Gulf_state_of_emergency"
+		texturefile = "gfx/event_pictures/Gulf/Gulf_war/event_Gulf_state_of_emergency.png"
+	}
+
+	 spriteType = {
+		name = "GFX_event_Gulf_futile_resistance_against"
+		texturefile = "gfx/event_pictures/Gulf/Gulf_war/event_Gulf_futile_resistance_against.png"
+	}
  
 	###################
 	###   GENERIC   ###
